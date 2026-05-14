@@ -3008,7 +3008,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   display: none;
 }
 
-/* ── GRID ── */
 .home-categories-section .home-categories-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -3017,9 +3016,8 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   direction: rtl;
 }
 
-/* Featured card spans first two columns (right side in RTL) */
 .home-categories-section .home-categories-card--featured {
-  grid-column: span 2;
+  grid-column: auto;
 }
 
 /* ── CARD BASE ── */
@@ -3049,7 +3047,7 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
 }
 
 .home-categories-section .home-categories-card--featured .home-categories-card-image-wrap {
-  height: 260px;
+  height: 180px;
 }
 
 .home-categories-section .home-categories-card:not(.home-categories-card--featured) .home-categories-card-image-wrap {
