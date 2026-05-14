@@ -1,0 +1,99 @@
+# Street Stock — Generative Engine Optimization Map
+
+> Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharmacy/personal care items, kitchen tools, and more. The brand focuses on variety and value, catering to everyday shoppers looking for quality products at stock prices.
+
+---
+
+## Pages
+
+### Home
+https://example.com
+Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharm
+
+### About Street Stock
+https://example.com/about
+אודות Street Stock | Street Stock. wall street stocks
+
+### Contact & FAQ
+https://example.com/contact
+Contact &amp; FAQ | Street Stock. wall street stocks
+
+### Products
+https://example.com/products
+המוצרים שלנו - Street Stock
+
+### Cart
+https://example.com/cart
+עגלת הקניות שלך
+
+### Checkout
+https://example.com/checkout
+תשלום
+
+### Login
+https://example.com/login
+התחברות לקוחות
+
+### Account
+https://example.com/account
+החשבון שלי
+
+### Order Success
+https://example.com/order-success
+תודה על ההזמנה
+
+### Product Detail
+https://example.com/product/:slug
+פרטי המוצר - Street Stock
+
+### Category
+https://example.com/category/:slug
+מוצרים - Street Stock
+
+## Legal & Policy
+
+### Privacy Policy
+https://example.com/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://example.com/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://example.com/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## Products
+
+_No products are currently configured._
+
+---
+
+# Business Context (for LLM understanding)
+
+## About Street Stock
+Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharmacy/personal care items, kitchen tools, and more. The brand focuses on variety and value, catering to everyday shoppers looking for quality products at stock prices.
+
+## Target Audience
+- משפחות צעירות בראשית דרכן
+- רווקים אורבניים
+- צרכנים אקולוגיים
+- גמלאים עם תקציב מוגבל
+- אמהות
+- משפחות
+
+## Industry
+קמעונאות / מוצרי בית
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://example.com/sitemap.xml
+- Robots: https://example.com/robots.txt
+- Flattened page text (for LLMs): https://example.com/llms-full.txt
+- Products (JSON): https://example.com/products.json
+- Products (Google Merchant RSS): https://example.com/product-feed.xml
