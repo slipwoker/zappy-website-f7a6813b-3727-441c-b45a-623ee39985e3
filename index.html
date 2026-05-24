@@ -357,7 +357,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "f7a6813b-3727-441c-b45a-623ee39985e3";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "f7a6813b-3727-441c-b45a-623ee39985e3";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -856,10 +856,10 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="home-hero-section">
   <!-- Background Image -->
   <div class="home-hero-bg">
-    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="home-hero-image-1" data-context="Dark cinematic retail environment shot from inside a modern stock/discount home goods store in Israel. Wide-angle view of shelves stocked with household products, kitchen tools, and home goods. Dramatic low-key lighting with warm spotlights illuminating product displays. Dark charcoal and near-black tones dominate. The atmosphere is bold, urban, and premium — like a high-end warehouse store. No people visible. Shot feels editorial and aspirational." width="1400" height="800" src="/assets/site-home-hero-image-1.webp" alt="חנות Street Stock – מגוון מוצרי בית וסטוק במחירים מיוחדים">
+    <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="home-hero-image-1" data-context="Dark cinematic retail environment shot from inside a modern stock/discount home goods store in Israel. Wide-angle view of shelves stocked with household products, kitchen tools, and home goods. Dramatic low-key lighting with warm spotlights illuminating product displays. Dark charcoal and near-black tones dominate. The atmosphere is bold, urban, and premium — like a high-end warehouse store. No people visible. Shot feels editorial and aspirational." width="1400" height="800" src="/assets/site-home-hero-image-1.webp" alt="חנות Street Stock – מגוון מוצרי בית וסטוק במחירים מיוחדים" data-hero-background="true" data-element-type="image" data-element-id="img-1779607529844-6rttej6hz">
   </div>
 
   <!-- Scrim Overlay -->
@@ -868,15 +868,14 @@
   <!-- Text Overlay Group -->
   <div class="home-hero-content-wrapper">
     <div class="home-hero-content">
-      <span class="home-hero-eyebrow">אשקלון | חנות סטוק אונליין</span>
-      <h1 class="home-hero-h1">
-        כל הבית במחיר
+      <p><span class="home-hero-eyebrow">אשקלון | חנות סטוק אונליין</span>
+      </p><h1 class="home-hero-h1" style="">הכל לבית במחיר
         <span class="home-hero-accent">סטוק</span>
       </h1>
       <h3 class="home-hero-subtitle">כלי בית, ריהוט, מטבח, פארם ועוד — מגוון עצום במחירים שלא תמצאו בשום מקום אחר</h3>
       <div class="home-hero-cta-row">
-        <a href="/contact" class="home-hero-btn-primary">צרו קשר</a>
-        <a href="/about" class="home-hero-btn-secondary">קצת עלינו</a>
+        <a href="/contact" class="home-hero-btn-primary" data-element-type="button" data-element-id="btn-1779607529837-mjh7j545z" data-native-element="true">צרו קשר</a>
+        <a href="/about" class="home-hero-btn-secondary" data-element-type="button" data-element-id="btn-1779607529837-8usictunz" data-native-element="true" style="outline: none;">כל המוצרים</a>
       </div>
     </div>
   </div>
