@@ -1,8 +1,8 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-14T08:21:33.585Z",
+  "generated_at": "2026-05-27T11:41:03.675Z",
   "base_url": "https://example.com",
-  "currency": "USD",
+  "currency": "ILS",
   "count": 0,
   "products": []
 }
