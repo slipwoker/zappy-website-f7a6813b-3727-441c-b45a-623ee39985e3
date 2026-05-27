@@ -14,8 +14,8 @@ Street Stock is an online stock store based in Ashkelon, Israel, offering a wide
 https://example.com/about
 אודות Street Stock | Street Stock. wall street stocks
 
-### Contact & FAQ
-https://example.com/contact
+### צרו קשר
+https://example.com/contact-us
 Contact &amp; FAQ | Street Stock. wall street stocks
 
 ### Products
