@@ -9678,6 +9678,28 @@ a, button {
   opacity: 0.7;
 }
 
+/* Minimum order amount banner */
+.minimum-order-banner {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  margin-top: 12px;
+  border-radius: 8px;
+  background: #fef3c7;
+  border: 1px solid #fbbf24;
+  color: #92400e !important;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.minimum-order-banner.minimum-order-banner-ok {
+  background: #ecfdf5;
+  border-color: #a7f3d0;
+  color: #047857;
+}
+.minimum-order-banner svg { color: #d97706; }
+.minimum-order-banner.minimum-order-banner-ok svg { color: #059669; }
+
 /* Validation error overrides (prevent theme color inheritance) */
 .field-error {
   color: #dc2626 !important;
@@ -11766,6 +11788,89 @@ body.zappy-focused-page .zappy-announcement-bar {
   visibility: hidden !important;
 }
 
+/* Hide cookie consent while cart drawer is open; reappears when drawer closes if still needed */
+body.zappy-cart-open #cc-main,
+body.zappy-cart-open #zappy-cookie-banner {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Checkout focus: hide cookie bar so it does not compete with payment UI */
+body.zappy-checkout-page #zappy-cookie-banner {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Checkout focus: minimal navbar (logo + cart) and compact footer */
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-menu,
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-links,
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-cta,
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-right-group .nav-menu,
+body.zappy-checkout-page .lang-switcher,
+body.zappy-checkout-page .nav-icons-right,
+body.zappy-checkout-page .nav-search-box,
+body.zappy-checkout-page .nav-search-toggle,
+body.zappy-checkout-page #mobile-search-toggle,
+body.zappy-checkout-page .mobile-search-panel,
+body.zappy-checkout-page .login-link.nav-login,
+body.zappy-checkout-page .nav-ecommerce-icons > *:not(.cart-link),
+body.zappy-checkout-page .mobile-hamburger-btn,
+body.zappy-checkout-page .mobile-toggle,
+body.zappy-checkout-page .hamburger,
+body.zappy-checkout-page .menu-toggle,
+body.zappy-checkout-page #mobileToggle,
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .phone-header-btn,
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .mobile-close-btn {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+body.zappy-checkout-page .nav-brand,
+body.zappy-checkout-page .cart-link.nav-cart,
+body.zappy-checkout-page #cart-drawer-toggle {
+  display: flex !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
+body.zappy-checkout-page .nav-ecommerce-icons {
+  display: inline-flex !important;
+  align-items: center !important;
+  margin-inline-start: auto !important;
+}
+@media (max-width: 768px) {
+  body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-menu,
+  body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-menu.active,
+  body.zappy-checkout-page nav.navbar:not(.zappy-catalog-menu) .nav-menu.open {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+/* Footer: keep footer-bottom only; hide whole footer when structure unknown */
+body.zappy-checkout-page .site-footer > *:not(.footer-bottom),
+body.zappy-checkout-page footer.site-footer > *:not(.footer-bottom) {
+  display: none !important;
+  visibility: hidden !important;
+}
+body.zappy-checkout-page .site-footer .footer-bottom,
+body.zappy-checkout-page footer.site-footer .footer-bottom {
+  display: block !important;
+  visibility: visible !important;
+}
+body.zappy-checkout-page .site-footer:not(:has(.footer-bottom)),
+body.zappy-checkout-page footer.site-footer:not(:has(.footer-bottom)) {
+  display: none !important;
+}
+
 /* Catalog menu (secondary navigation) - desktop only */
 /* NOTE: Mobile visibility is handled via @media (max-width: 768px) { .zappy-catalog-menu { display: none !important; } } */
 /* Catalog menu always inherits navbar colors, NOT ecommerce pages bg */
@@ -12382,13 +12487,13 @@ main,
 /* ─────────────────────────────────────────────────────────────────────────────
    HOMEPAGE: FEATURED SECTIONS (PRODUCTS + CATEGORIES)
    These used to be styled by V1 base CSS; must live in V2 generateCss()
-   Background uses hero-divider-aware theme: #FFFFFF (LIGHT)
+   Background uses hero-divider-aware theme: var(--bg-light) (LIGHT)
    ───────────────────────────────────────────────────────────────────────────── */
 
 /* Featured Products Section (Home Page) */
 .featured-products-section {
   padding: 60px 24px !important;
-  background: #FFFFFF !important;
+  background: var(--bg-light) !important;
 }
 .featured-products-section .section-title {
   text-align: center !important;
@@ -12440,7 +12545,7 @@ main,
 /* Featured Categories Section (Home Page) */
 .featured-categories-section {
   padding: 60px 24px !important;
-  background: #FFFFFF !important;
+  background: var(--bg-light) !important;
 }
 .featured-categories-section .section-title {
   text-align: center !important;
