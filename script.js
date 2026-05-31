@@ -1968,6 +1968,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -7453,6 +7455,7 @@ function normalizeStorefrontRouteFromHref(href) {
 
 function isStorefrontListingCandidate(path) {
   if (!path || path === '/') return false;
+  if (/^\/product$/i.test(path)) return true;
   return !/^\/(?:product|category|cart|checkout|login|account|order-success|privacy|terms|accessibility|return-policy)(?:\/|\?|#|$)/i.test(path);
 }
 
@@ -7469,15 +7472,17 @@ function getProductsListingPath() {
     '/collections',
     '/artworks',
     '/portfolio',
+    '/product',
     '/products'
   ];
 
   for (var hintIdx = 0; hintIdx < listingPathHints.length; hintIdx++) {
+    var hintLower = listingPathHints[hintIdx].toLowerCase();
     for (var linkIdx = 0; linkIdx < links.length; linkIdx++) {
       var hintedPath = normalizeStorefrontRouteFromHref(links[linkIdx].getAttribute('href') || '');
-      if (hintedPath === listingPathHints[hintIdx]) {
+      if (hintedPath && hintedPath.toLowerCase() === hintLower) {
         bestCandidate = hintedPath;
-        if (hintedPath !== fallback) return hintedPath;
+        if (hintLower !== fallback.toLowerCase()) return hintedPath;
       }
     }
   }
@@ -7506,11 +7511,12 @@ function getProductsListingPath() {
 
 function getVisibleProductsListingLabel() {
   var listingPath = getProductsListingPath();
+  var listingPathLower = listingPath ? listingPath.toLowerCase() : '';
   var links = document.querySelectorAll('header a, nav a, .navbar a, .catalog-menu a');
   var allowRtlText = isCurrentLanguageRTL();
   for (var i = 0; i < links.length; i++) {
     var candidate = normalizeStorefrontRouteFromHref(links[i].getAttribute('href') || '');
-    if (candidate !== listingPath) continue;
+    if (!candidate || candidate.toLowerCase() !== listingPathLower) continue;
     var text = (links[i].textContent || '').replace(/\s+/g, ' ').trim();
     if (text && (allowRtlText || !/[\u0590-\u05FF\u0600-\u06FF]/.test(text))) return text;
   }
