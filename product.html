@@ -387,17 +387,19 @@
 
     <li class="menu-item-has-children zappy-products-dropdown">
       <a href="/products">
-        חוויית החנות
-        
+        מוצרים
         <svg class="dropdown-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M6 9l6 6 6-6"></path>
         </svg>
       </a>
       <ul class="sub-menu" id="zappy-nav-category-links">
-        <li><a href="/products">כל המוצרים</a></li>
+        <li><a href="/products" data-i18n="ecom_products">מוצרים</a></li>
         <!-- Categories will be loaded dynamically -->
       </ul>
     </li>
+  
+
+    
   <li><a href="/">Home</a></li><li><a href="/about">אודות Street Stock</a></li><li><a href="/contact-us">צרו קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
@@ -554,8 +556,24 @@
         url.searchParams.set('search', query);
         window.location.href = url.toString();
       } else {
-        // In deployed mode, navigate to catalog with search
-        window.location.href = '/products?search=' + encodeURIComponent(query);
+        // In deployed mode, navigate to the catalog in the ACTIVE language.
+        // Static catalog pages (/products) are served as per-language files
+        // (/en/products), while the courses catalog (/courses) is language-
+        // switched via ?lang. Derive the active language from the current URL
+        // (path prefix on static pages, ?lang on courses pages) so search keeps
+        // the language instead of dropping back to the site default. NOTE: the
+        // \ in the regex is intentional — this block lives in a template
+        // literal that bakes the page, so a bare \/ would be dropped.
+        var base = '/products';
+        var activeLang = (function() {
+          try { var q = new URLSearchParams(window.location.search).get('lang'); if (q) return q.toLowerCase(); } catch (e) {}
+          var m = (window.location.pathname || '').match(/^\/([a-z]{2})(?:\/|$)/i);
+          return m ? m[1].toLowerCase() : '';
+        })();
+        var dest = base === '/courses'
+          ? base + '?search=' + encodeURIComponent(query) + (activeLang ? '&lang=' + encodeURIComponent(activeLang) : '')
+          : (activeLang ? '/' + activeLang : '') + base + '?search=' + encodeURIComponent(query);
+        window.location.href = dest;
       }
     }
     
