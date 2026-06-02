@@ -3041,7 +3041,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   box-shadow: 0 8px 32px rgba(0,0,0,0.12);
 }
 
-/* ── CARD IMAGE ── */
 .home-categories-section .home-categories-card-image-wrap {
   position: relative;
   width: 100%;
@@ -3078,7 +3077,6 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
   z-index: 1;
 }
 
-/* ── CARD CONTENT ── */
 .home-categories-section .home-categories-card-content {
   display: flex;
   flex-direction: row;
