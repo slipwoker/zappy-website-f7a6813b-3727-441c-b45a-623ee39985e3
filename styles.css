@@ -3232,9 +3232,9 @@ html[dir="rtl"] .footer-contact li > a { flex-direction: row !important; }
     font-size: 1.6rem;
   }
   .home-categories-section .home-categories-grid {
-    grid-template-columns: 1fr !important;
-    gap: 16px;
-  }
+  grid-template-columns: 1fr !important;
+  gap: 16px;
+}
   .home-categories-section .home-categories-card--featured {
     grid-column: span 1 !important;
   }
