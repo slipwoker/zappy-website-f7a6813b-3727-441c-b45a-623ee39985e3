@@ -4,7 +4,21 @@
     <title>Street Stock</title>
     <link>https://example.com</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 31 May 2026 13:25:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 11:28:52 GMT</lastBuildDate>
+    <item>
+      <g:id>c7265d33-1729-4523-82cf-25cc231d1445__f77455f3-598a-48f0-b195-cafc484cb94a</g:id>
+      <g:title>מייבש כלים אלומיניום EMMA צבע שחור - Black</g:title>
+      <g:description>עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד&amp;nbsp; קל לניקוי</g:description>
+      <g:link>https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy</g:link>
+      <g:image_link>https://example.com/assets/product-1779889101589-l5tt3l.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.90 ILS</g:price>
+      <g:sale_price>79.00 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563062</g:mpn>
+      <g:product_type>מייבשי כלים</g:product_type>
+    </item>
     <item>
       <g:id>c3a5f1b9-db9f-417f-8f5f-f12d19899a39</g:id>
       <g:title>סיר יציקת אלומיניום 20 ס&quot;מ צבע מוקה  סדרת LUSSO</g:title>
@@ -17,19 +31,6 @@
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121564779</g:mpn>
       <g:product_type>סירים ומחבתות</g:product_type>
-    </item>
-    <item>
-      <g:id>c7265d33-1729-4523-82cf-25cc231d1445__f77455f3-598a-48f0-b195-cafc484cb94a</g:id>
-      <g:title>מייבש כלים אלומיניום EMMA צבע שחור - Black</g:title>
-      <g:description>עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד&amp;nbsp; קל לניקוי</g:description>
-      <g:link>https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-kt03ki</g:link>
-      <g:image_link>https://example.com/assets/product-1779889101589-l5tt3l.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>99.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121563062</g:mpn>
-      <g:product_type>מייבשי כלים</g:product_type>
     </item>
     <item>
       <g:id>98a6d68e-4c42-49d1-9283-72936213536b__d154e683-68e2-4d71-bce7-c2646b124f84</g:id>

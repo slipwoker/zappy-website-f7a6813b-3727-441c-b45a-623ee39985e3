@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-05-31T13:25:02.361Z",
+  "generated_at": "2026-06-02T11:28:52.028Z",
   "base_url": "https://example.com",
   "currency": "ILS",
   "count": 4,
   "products": [
+    {
+      "id": "c7265d33-1729-4523-82cf-25cc231d1445",
+      "slug": "myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy",
+      "name": "מייבש כלים אלומיניום EMMA צבע שחור",
+      "name_translations": {},
+      "description": "<p>עיצוב חדשני המתאים לחלל הבית</p><p>כולל סכומון ומעמד לכוסות</p><p>אלומיניום אל חד&nbsp;</p><p>קל לניקוי</p>",
+      "short_description": null,
+      "sku": "7290121563062",
+      "brand": null,
+      "price": 79,
+      "base_price": 99.9,
+      "sale_price": 79,
+      "currency": "ILS",
+      "images": [
+        "https://example.com/assets/product-1779889101589-l5tt3l.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy",
+      "categories": [
+        "מייבשי כלים"
+      ],
+      "updated_at": "2026-06-02T10:00:11.170Z"
+    },
     {
       "id": "c3a5f1b9-db9f-417f-8f5f-f12d19899a39",
       "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2",
@@ -27,31 +51,7 @@
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-05-27T13:42:50.853Z"
-    },
-    {
-      "id": "c7265d33-1729-4523-82cf-25cc231d1445",
-      "slug": "myybsh-klym-alvmynyvm-emma-tsba-shchvr-kt03ki",
-      "name": "מייבש כלים אלומיניום EMMA צבע שחור",
-      "name_translations": {},
-      "description": "<p>עיצוב חדשני המתאים לחלל הבית</p><p>כולל סכומון ומעמד לכוסות</p><p>אלומיניום אל חד&nbsp;</p><p>קל לניקוי</p>",
-      "short_description": null,
-      "sku": "7290121563062",
-      "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://example.com/assets/product-1779889101589-l5tt3l.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-kt03ki",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-05-27T13:38:58.896Z"
+      "updated_at": "2026-06-02T09:58:19.306Z"
     },
     {
       "id": "98a6d68e-4c42-49d1-9283-72936213536b",
@@ -75,7 +75,7 @@
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-05-27T13:37:40.688Z"
+      "updated_at": "2026-06-02T09:58:19.306Z"
     },
     {
       "id": "12ca9dae-fd27-4033-b84a-2756f79a13af",
@@ -99,7 +99,7 @@
       "categories": [
         "פחי אשפה"
       ],
-      "updated_at": "2026-05-27T13:34:15.527Z"
+      "updated_at": "2026-06-02T09:58:19.306Z"
     }
   ]
 }
