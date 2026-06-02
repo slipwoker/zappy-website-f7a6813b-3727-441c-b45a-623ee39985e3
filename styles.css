@@ -17526,6 +17526,37 @@ main,
   transform: none !important;
 }
 }
+
+@media (max-width: 768px) {
+.home-categories-section .home-categories-grid {
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 12px;
+}
+
+.home-categories-section .home-categories-card-image-wrap {
+  height: 120px !important;
+}
+
+.home-categories-section .home-categories-card-content {
+  padding: 14px 16px;
+  gap: 10px;
+}
+
+.home-categories-section .home-categories-card-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+}
+
+.home-categories-section .home-categories-card-title {
+  font-size: 1rem;
+}
+
+.home-categories-section .home-categories-card-desc {
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
