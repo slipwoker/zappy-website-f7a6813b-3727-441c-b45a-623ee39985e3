@@ -1,109 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://street-stock.zappy5.app</loc>
+    <loc>https://streetstock.co.il</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/about</loc>
+    <loc>https://streetstock.co.il/about</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/contact-us</loc>
+    <loc>https://streetstock.co.il/contact-us</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/products</loc>
+    <loc>https://streetstock.co.il/products</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/cart</loc>
+    <loc>https://streetstock.co.il/cart</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/checkout</loc>
+    <loc>https://streetstock.co.il/checkout</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/login</loc>
+    <loc>https://streetstock.co.il/login</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/account</loc>
+    <loc>https://streetstock.co.il/account</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/order-success</loc>
+    <loc>https://streetstock.co.il/order-success</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/product/:slug</loc>
+    <loc>https://streetstock.co.il/product/:slug</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/category/:slug</loc>
+    <loc>https://streetstock.co.il/category/:slug</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/privacy</loc>
-    <lastmod>2026-06-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://street-stock.zappy5.app/terms</loc>
+    <loc>https://streetstock.co.il/privacy</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/accessibility</loc>
+    <loc>https://streetstock.co.il/terms</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy</loc>
+    <loc>https://streetstock.co.il/accessibility</loc>
+    <lastmod>2026-06-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2</loc>
+    <loc>https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec</loc>
+    <loc>https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://street-stock.zappy5.app/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte</loc>
+    <loc>https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte</loc>
     <lastmod>2026-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

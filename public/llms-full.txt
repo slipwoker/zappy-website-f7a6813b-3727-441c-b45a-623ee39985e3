@@ -2,13 +2,13 @@
 
 Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharmacy/personal care items, kitchen tools, and more. The brand focuses on variety and value, catering to everyday shoppers looking for quality products at stock prices.
 
-Source: https://street-stock.zappy5.app
+Source: https://streetstock.co.il
 
 ---
 
 ## wall street stocks — Street Stock
 
-URL: https://street-stock.zappy5.app
+URL: https://streetstock.co.il
 Description: Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharm
 
 wall street stocks — Street Stock
@@ -331,37 +331,6 @@ wall street stocks — Street Stock
 
 
 
-### כותרת כרטיס 1
-
-
-טקסט תיאור כרטיס נמצא כאן
-
-
-
-
-### כותרת כרטיס 2
-
-
-טקסט תיאור כרטיס נמצא כאן
-
-
-
-
-### כותרת כרטיס 3
-
-
-טקסט תיאור כרטיס נמצא כאן
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -459,7 +428,7 @@ wall street stocks — Street Stock
 
 ## אודות Street Stock — Street Stock
 
-URL: https://street-stock.zappy5.app/about
+URL: https://streetstock.co.il/about
 Description: אודות Street Stock | Street Stock. wall street stocks
 
 אודות Street Stock — Street Stock
@@ -998,7 +967,7 @@ Street Stock היא חנות הסטוק המקוונת שלכם — מבוססת
 
 ## Contact &amp; FAQ — Street Stock
 
-URL: https://street-stock.zappy5.app/contact-us
+URL: https://streetstock.co.il/contact-us
 Description: Contact &amp; FAQ | Street Stock. wall street stocks
 
 צרו קשר
@@ -1507,7 +1476,7 @@ Street Stock
 
 ## מוצרים
 
-URL: https://street-stock.zappy5.app/products
+URL: https://streetstock.co.il/products
 Description: המוצרים שלנו - Street Stock
 
 מוצרים - Street Stock
@@ -1783,7 +1752,7 @@ Description: המוצרים שלנו - Street Stock
 
 ## עגלת קניות
 
-URL: https://street-stock.zappy5.app/cart
+URL: https://streetstock.co.il/cart
 Description: עגלת הקניות שלך
 
 עגלת קניות - Street Stock
@@ -2035,7 +2004,7 @@ Description: עגלת הקניות שלך
 
 ## תשלום
 
-URL: https://street-stock.zappy5.app/checkout
+URL: https://streetstock.co.il/checkout
 Description: תשלום
 
 תשלום - Street Stock
@@ -2468,7 +2437,7 @@ Description: תשלום
 
 ## התחברות
 
-URL: https://street-stock.zappy5.app/login
+URL: https://streetstock.co.il/login
 Description: התחברות לקוחות
 
 התחברות - Street Stock
@@ -2727,7 +2696,7 @@ Description: התחברות לקוחות
 
 ## החשבון שלי
 
-URL: https://street-stock.zappy5.app/account
+URL: https://streetstock.co.il/account
 Description: החשבון שלי
 
 החשבון שלי - Street Stock
@@ -3080,7 +3049,7 @@ Description: החשבון שלי
 
 ## ההזמנה התקבלה!
 
-URL: https://street-stock.zappy5.app/order-success
+URL: https://streetstock.co.il/order-success
 Description: תודה על ההזמנה
 
 ההזמנה התקבלה! - Street Stock
@@ -3356,7 +3325,7 @@ Description: תודה על ההזמנה
 
 ## מדיניות החזרות
 
-URL: https://street-stock.zappy5.app/return-policy
+URL: https://streetstock.co.il/return-policy
 Description: מדיניות החזרת מוצרים - זכויותיכם להחזרה והחלפה בהתאם לחוק
 
 מדיניות החזרות - Street Stock
@@ -3661,7 +3630,7 @@ Street Stock מחויבת לשביעות רצון לקוחותיה. מדיניו
 
 ## פרטי המוצר
 
-URL: https://street-stock.zappy5.app/product/:slug
+URL: https://streetstock.co.il/product/:slug
 Description: פרטי המוצר - Street Stock
 
 פרטי המוצר - Street Stock
@@ -3915,7 +3884,7 @@ Description: פרטי המוצר - Street Stock
 
 ## מוצרים
 
-URL: https://street-stock.zappy5.app/category/:slug
+URL: https://streetstock.co.il/category/:slug
 Description: מוצרים - Street Stock
 
 מוצרים - Street Stock
@@ -4193,7 +4162,7 @@ Description: מוצרים - Street Stock
 
 ## מדיניות פרטיות
 
-URL: https://street-stock.zappy5.app/privacy
+URL: https://streetstock.co.il/privacy
 Description: מדיניות הפרטיות שלנו - כיצד אנו אוספים, משתמשים ומגנים על המידע שלכם
 
 מדיניות פרטיות
@@ -4514,7 +4483,7 @@ Street Stock ("החברה", "אנו", "שלנו") מחויבת להגן על פ�
 
 ## הצהרת נגישות
 
-URL: https://street-stock.zappy5.app/accessibility
+URL: https://streetstock.co.il/accessibility
 Description: הצהרת הנגישות שלנו - מחויבותנו לנגישות דיגיטלית
 
 הצהרת נגישות
@@ -4844,7 +4813,7 @@ Street Stock מחויבת להנגיש את השירותים לכלל הציבו
 
 ## תנאי שימוש
 
-URL: https://street-stock.zappy5.app/terms
+URL: https://streetstock.co.il/terms
 Description: תנאי השימוש באתר - הזכויות והחובות של המשתמשים
 
 תנאי שימוש
@@ -5194,7 +5163,7 @@ Street Stock מספקת קמעונאות / מוצרי בית דרך האתר. ה
 ## Product Catalog
 
 ### מייבש כלים אלומיניום EMMA צבע שחור
-URL: https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy
+URL: https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy
 Price: 79.00 ILS (sale, was 99.90 ILS)
 Availability: In stock
 SKU: 7290121563062
@@ -5204,7 +5173,7 @@ SKU: 7290121563062
 ---
 
 ### סיר יציקת אלומיניום 20 ס"מ צבע מוקה  סדרת LUSSO
-URL: https://street-stock.zappy5.app/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
+URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
 Price: 99.90 ILS
 Availability: In stock
 SKU: 7290121564779
@@ -5214,7 +5183,7 @@ SKU: 7290121564779
 ---
 
 ### מייבש כלים אלומיניום EMMA צבע כסף
-URL: https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
+URL: https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
 Price: 99.90 ILS
 Availability: In stock
 SKU: 7290121563079
@@ -5224,7 +5193,7 @@ SKU: 7290121563079
 ---
 
 ### פח 33 ליטר צבע לבן TOUCH PURE
-URL: https://street-stock.zappy5.app/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
+URL: https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
 Price: 279.90 ILS
 Availability: In stock
 SKU: 7290121560047

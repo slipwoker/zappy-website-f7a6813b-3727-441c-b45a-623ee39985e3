@@ -7,61 +7,61 @@
 ## Pages
 
 ### Home
-https://street-stock.zappy5.app
+https://streetstock.co.il
 Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharm
 
 ### About Street Stock
-https://street-stock.zappy5.app/about
+https://streetstock.co.il/about
 אודות Street Stock | Street Stock. wall street stocks
 
 ### צרו קשר
-https://street-stock.zappy5.app/contact-us
+https://streetstock.co.il/contact-us
 Contact &amp; FAQ | Street Stock. wall street stocks
 
 ### Products
-https://street-stock.zappy5.app/products
+https://streetstock.co.il/products
 המוצרים שלנו - Street Stock
 
 ### Cart
-https://street-stock.zappy5.app/cart
+https://streetstock.co.il/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://street-stock.zappy5.app/checkout
+https://streetstock.co.il/checkout
 תשלום
 
 ### Login
-https://street-stock.zappy5.app/login
+https://streetstock.co.il/login
 התחברות לקוחות
 
 ### Account
-https://street-stock.zappy5.app/account
+https://streetstock.co.il/account
 החשבון שלי
 
 ### Order Success
-https://street-stock.zappy5.app/order-success
+https://streetstock.co.il/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://street-stock.zappy5.app/product/:slug
+https://streetstock.co.il/product/:slug
 פרטי המוצר - Street Stock
 
 ### Category
-https://street-stock.zappy5.app/category/:slug
+https://streetstock.co.il/category/:slug
 מוצרים - Street Stock
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://street-stock.zappy5.app/privacy
+https://streetstock.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://street-stock.zappy5.app/terms
+https://streetstock.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://street-stock.zappy5.app/accessibility
+https://streetstock.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -71,41 +71,41 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 4**
 
 ### מייבש כלים אלומיניום EMMA צבע שחור
-https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy
+https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy
 - Price: 79.00 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - SKU: 7290121563062
 - Description: עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד&nbsp; קל לניקוי
-- Image: https://street-stock.zappy5.app/assets/product-1779889101589-l5tt3l.webp
+- Image: https://streetstock.co.il/assets/product-1779889101589-l5tt3l.webp
 
 ### סיר יציקת אלומיניום 20 ס"מ צבע מוקה  סדרת LUSSO
-https://street-stock.zappy5.app/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
 - Price: 99.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
 - SKU: 7290121564779
 - Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 20 ס"מ | 2.3 ליטר סדרת LUSSO
-- Image: https://street-stock.zappy5.app/assets/product-enhanced-1779889341001-jwy1h9.webp
+- Image: https://streetstock.co.il/assets/product-enhanced-1779889341001-jwy1h9.webp
 
 ### מייבש כלים אלומיניום EMMA צבע כסף
-https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
+https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
 - Price: 99.90 ILS
 - Availability: In stock
 - Category: מייבשי כלים
 - SKU: 7290121563079
 - Description: עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד קל לניקוי
-- Image: https://street-stock.zappy5.app/assets/product-1779889024802-cnl674.webp
+- Image: https://streetstock.co.il/assets/product-1779889024802-cnl674.webp
 
 ### פח 33 ליטר צבע לבן TOUCH PURE
-https://street-stock.zappy5.app/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
+https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
 - Price: 279.90 ILS
 - Availability: In stock
 - Category: פחי אשפה
 - SKU: 7290121560047
 - Brand: TOUCH PURE
 - Description: פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית נפתח על ידי לחיצה קלה קל לניקוי, טבעת פנימית לאחיזה של השקיות אשפה
-- Image: https://street-stock.zappy5.app/assets/product-1779888599768-z9w7nq.webp
+- Image: https://streetstock.co.il/assets/product-1779888599768-z9w7nq.webp
 
 ---
 
@@ -129,8 +129,8 @@ Street Stock is an online stock store based in Ashkelon, Israel, offering a wide
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://street-stock.zappy5.app/sitemap.xml
-- Robots: https://street-stock.zappy5.app/robots.txt
-- Flattened page text (for LLMs): https://street-stock.zappy5.app/llms-full.txt
-- Products (JSON): https://street-stock.zappy5.app/products.json
-- Products (Google Merchant RSS): https://street-stock.zappy5.app/product-feed.xml
+- Sitemap (XML): https://streetstock.co.il/sitemap.xml
+- Robots: https://streetstock.co.il/robots.txt
+- Flattened page text (for LLMs): https://streetstock.co.il/llms-full.txt
+- Products (JSON): https://streetstock.co.il/products.json
+- Products (Google Merchant RSS): https://streetstock.co.il/product-feed.xml
