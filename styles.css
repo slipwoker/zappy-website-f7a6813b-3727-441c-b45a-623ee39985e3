@@ -17687,6 +17687,10 @@ main,
 }
 
 /* ==END ZAPPY V2 E-COMMERCE THEME CSS== */
+
+.home-categories-section .home-categories-card-icon {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
