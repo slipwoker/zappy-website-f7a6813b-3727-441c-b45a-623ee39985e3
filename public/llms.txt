@@ -7,61 +7,61 @@
 ## Pages
 
 ### Home
-https://example.com
+https://street-stock.zappy5.app
 Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharm
 
 ### About Street Stock
-https://example.com/about
+https://street-stock.zappy5.app/about
 אודות Street Stock | Street Stock. wall street stocks
 
 ### צרו קשר
-https://example.com/contact-us
+https://street-stock.zappy5.app/contact-us
 Contact &amp; FAQ | Street Stock. wall street stocks
 
 ### Products
-https://example.com/products
+https://street-stock.zappy5.app/products
 המוצרים שלנו - Street Stock
 
 ### Cart
-https://example.com/cart
+https://street-stock.zappy5.app/cart
 עגלת הקניות שלך
 
 ### Checkout
-https://example.com/checkout
+https://street-stock.zappy5.app/checkout
 תשלום
 
 ### Login
-https://example.com/login
+https://street-stock.zappy5.app/login
 התחברות לקוחות
 
 ### Account
-https://example.com/account
+https://street-stock.zappy5.app/account
 החשבון שלי
 
 ### Order Success
-https://example.com/order-success
+https://street-stock.zappy5.app/order-success
 תודה על ההזמנה
 
 ### Product Detail
-https://example.com/product/:slug
+https://street-stock.zappy5.app/product/:slug
 פרטי המוצר - Street Stock
 
 ### Category
-https://example.com/category/:slug
+https://street-stock.zappy5.app/category/:slug
 מוצרים - Street Stock
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://street-stock.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://street-stock.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://street-stock.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -71,41 +71,41 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 4**
 
 ### מייבש כלים אלומיניום EMMA צבע שחור
-https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy
+https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy
 - Price: 79.00 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - SKU: 7290121563062
 - Description: עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד&nbsp; קל לניקוי
-- Image: https://example.com/assets/product-1779889101589-l5tt3l.webp
+- Image: https://street-stock.zappy5.app/assets/product-1779889101589-l5tt3l.webp
 
 ### סיר יציקת אלומיניום 20 ס"מ צבע מוקה  סדרת LUSSO
-https://example.com/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
+https://street-stock.zappy5.app/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
 - Price: 99.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
 - SKU: 7290121564779
 - Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 20 ס"מ | 2.3 ליטר סדרת LUSSO
-- Image: https://example.com/assets/product-enhanced-1779889341001-jwy1h9.webp
+- Image: https://street-stock.zappy5.app/assets/product-enhanced-1779889341001-jwy1h9.webp
 
 ### מייבש כלים אלומיניום EMMA צבע כסף
-https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
+https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
 - Price: 99.90 ILS
 - Availability: In stock
 - Category: מייבשי כלים
 - SKU: 7290121563079
 - Description: עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד קל לניקוי
-- Image: https://example.com/assets/product-1779889024802-cnl674.webp
+- Image: https://street-stock.zappy5.app/assets/product-1779889024802-cnl674.webp
 
 ### פח 33 ליטר צבע לבן TOUCH PURE
-https://example.com/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
+https://street-stock.zappy5.app/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
 - Price: 279.90 ILS
 - Availability: In stock
 - Category: פחי אשפה
 - SKU: 7290121560047
 - Brand: TOUCH PURE
 - Description: פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית נפתח על ידי לחיצה קלה קל לניקוי, טבעת פנימית לאחיזה של השקיות אשפה
-- Image: https://example.com/assets/product-1779888599768-z9w7nq.webp
+- Image: https://street-stock.zappy5.app/assets/product-1779888599768-z9w7nq.webp
 
 ---
 
@@ -129,8 +129,8 @@ Street Stock is an online stock store based in Ashkelon, Israel, offering a wide
 
 # Machine-readable feeds
 
-- Sitemap (XML): https://example.com/sitemap.xml
-- Robots: https://example.com/robots.txt
-- Flattened page text (for LLMs): https://example.com/llms-full.txt
-- Products (JSON): https://example.com/products.json
-- Products (Google Merchant RSS): https://example.com/product-feed.xml
+- Sitemap (XML): https://street-stock.zappy5.app/sitemap.xml
+- Robots: https://street-stock.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://street-stock.zappy5.app/llms-full.txt
+- Products (JSON): https://street-stock.zappy5.app/products.json
+- Products (Google Merchant RSS): https://street-stock.zappy5.app/product-feed.xml

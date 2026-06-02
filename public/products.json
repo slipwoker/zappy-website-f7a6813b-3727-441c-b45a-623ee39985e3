@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-02T12:05:22.979Z",
-  "base_url": "https://example.com",
+  "generated_at": "2026-06-02T12:06:03.755Z",
+  "base_url": "https://street-stock.zappy5.app",
   "currency": "ILS",
   "count": 4,
   "products": [
@@ -19,11 +19,11 @@
       "sale_price": 79,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1779889101589-l5tt3l.webp"
+        "https://street-stock.zappy5.app/assets/product-1779889101589-l5tt3l.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy",
+      "url": "https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-lfpyjy",
       "categories": [
         "מייבשי כלים"
       ],
@@ -43,11 +43,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-enhanced-1779889341001-jwy1h9.webp"
+        "https://street-stock.zappy5.app/assets/product-enhanced-1779889341001-jwy1h9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2",
+      "url": "https://street-stock.zappy5.app/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2",
       "categories": [
         "סירים ומחבתות"
       ],
@@ -67,11 +67,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1779889024802-cnl674.webp"
+        "https://street-stock.zappy5.app/assets/product-1779889024802-cnl674.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec",
+      "url": "https://street-stock.zappy5.app/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec",
       "categories": [
         "מייבשי כלים"
       ],
@@ -91,11 +91,11 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://example.com/assets/product-1779888599768-z9w7nq.webp"
+        "https://street-stock.zappy5.app/assets/product-1779888599768-z9w7nq.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://example.com/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte",
+      "url": "https://street-stock.zappy5.app/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte",
       "categories": [
         "פחי אשפה"
       ],
