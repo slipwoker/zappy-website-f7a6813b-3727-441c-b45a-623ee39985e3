@@ -253,6 +253,228 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-categories-section {
+  position: relative;
+  overflow: visible;
+  background: #FFFFFF;
+  color: var(--text-dark);
+  padding: 80px 16px 80px;
+  direction: rtl;
+}
+
+.home-categories-section__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* ── Header ── */
+.home-categories-section__header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.home-categories-section__label {
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 1.4rem;
+  color: var(--accent);
+  background: rgba(110, 142, 45, 0.08);
+  padding: 4px 16px;
+  border-radius: 100px;
+  margin-bottom: 8px;
+}
+
+.home-categories-section__title {
+  font-family: 'Bebas Neue', 'Oswald', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  color: var(--text-dark);
+  margin: 0 0 12px;
+  text-transform: uppercase;
+}
+
+.home-categories-section__subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-dark);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ── Grid ── */
+.home-categories-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  direction: rtl;
+}
+
+/* ── Card ── */
+.home-categories-section__card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid var(--border-light);
+}
+
+.home-categories-section__card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+}
+
+.home-categories-section__card--featured {
+  grid-row: span 1;
+}
+
+.home-categories-section__card--featured .home-categories-section__card-image {
+  height: 220px;
+}
+
+.home-categories-section__card-image {
+  height: 160px;
+  overflow: hidden;
+  background: #F2F2F2;
+}
+
+.home-categories-section__card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.home-categories-section__card-body {
+  padding: 20px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: right;
+}
+
+.home-categories-section__card-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.home-categories-section__card-icon svg {
+  width: 100%;
+  height: 100%;
+  stroke: currentColor;
+}
+
+.home-categories-section__card-title {
+  font-family: 'Bebas Neue', 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--text-dark);
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.home-categories-section__card-text {
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-dark);
+  margin: 0 0 20px;
+  flex: 1;
+}
+
+.home-categories-section__card-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  background: var(--primary);
+  color: var(--text-dark);
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 10px 24px;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.home-categories-section__card-btn:hover {
+  background: var(--accent);
+  color: var(--text-light);
+  box-shadow: 0 0 20px rgba(168, 212, 0, 0.35);
+}
+
+/* ── Divider ── */
+.home-categories-section__divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.home-categories-section__divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Responsive ── */
+@media (max-width: 992px) {
+  .home-categories-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .home-categories-section__card--featured .home-categories-section__card-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-categories-section {
+    padding: 60px 16px 80px;
+  }
+  .home-categories-section__header {
+    margin-bottom: 32px;
+  }
+  .home-categories-section__title {
+    font-size: 2rem;
+  }
+  .home-categories-section__grid {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+  .home-categories-section__card-image {
+    height: 180px;
+  }
+  .home-categories-section__card--featured .home-categories-section__card-image {
+    height: 200px;
+  }
+  .home-categories-section__card-body {
+    padding: 16px 20px 20px;
+  }
+  .home-categories-section__card-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -358,7 +580,7 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "f7a6813b-3727-441c-b45a-623ee39985e3";window.ZAPPY_API_BASE = (window.location.pathname.includes('/preview') ? "https://api.zappy5.com" : "https://api.zappy5.com");</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "f7a6813b-3727-441c-b45a-623ee39985e3";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -916,10 +1138,10 @@
   <div class="home-hero-scrim" aria-hidden="true"></div>
 
   <!-- Text Overlay Group -->
-  <div class="home-hero-content-wrapper" data-zappy-align-target="true" style="">
+  <div class="home-hero-content-wrapper" data-zappy-align-target="true" >
     <div class="home-hero-content">
       <p style="color: rgb(245, 245, 242) !important;"><span class="home-hero-eyebrow">אשקלון | חנות סטוק אונליין</span>
-      </p><h1 class="home-hero-h1" style="">הכל לבית במחיר
+      </p><h1 class="home-hero-h1" >הכל לבית במחיר
         <span class="home-hero-accent">סטוק</span>
       </h1>
       <h3 class="home-hero-subtitle">כלי בית, ריהוט, מטבח, פארם ועוד — מגוון עצום במחירים שלא תמצאו בשום מקום אחר</h3>
@@ -938,35 +1160,117 @@
   </div>
 </section>
 
-<section data-band-index="1" class="home-categories-section" data-layout-spec="Home-categories" dir="rtl" id="home-categories-section" style="opacity: 1;">
-  <div class="home-categories-container">
-
-    <!-- Intro Block -->
-    <div class="home-categories-intro">
-      <div class="home-categories-intro-inner">
-        <p><span class="home-categories-label" style="color: rgb(35, 31, 32) !important;">סטוק הכל לבית</span>
-        </p><h2 class="home-categories-heading">עולמות הקנייה שלנו</h2>
-        
-      </div>
-      <div class="home-categories-intro-accent" aria-hidden="true"></div>
+<section class="home-categories-section" data-layout-spec="Home-categories" id="home-categories-section">
+  <div class="home-categories-section__container">
+    <!-- Section Header -->
+    <div class="home-categories-section__header">
+      <span class="home-categories-section__label">סטוק הכל לבית</span>
+      <h2 class="home-categories-section__title">עולמות הקנייה שלנו</h2>
+      <p class="home-categories-section__subtitle">שישה עולמות קנייה מרכזיים שמביאים לכם נוחות, חיסכון ומוצרים איכותיים במחירי סטוק</p>
     </div>
 
     <!-- Categories Grid -->
-    <!-- end grid -->
+    <div class="home-categories-section__grid">
+      
+      <!-- Card 1: Featured / Larger -->
+      <article class="home-categories-section__card home-categories-section__card--featured">
+        <div class="home-categories-section__card-image">
+          <img data-context="A bright modern kitchen scene with wooden countertops, neatly arranged ceramic dishes, fresh herbs in a small pot, and soft natural light streaming through a window, conveying home and kitchen warmth" width="600" height="400" src="/assets/street-stock-section-Home-categories-home-categories-image-1.webp" alt="מטבח ביתי מודרני">
+        </div>
+        <div class="home-categories-section__card-body">
+          <div class="home-categories-section__card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M9 22V12H15V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h3 class="home-categories-section__card-title">מוצרי הבית</h3>
+          <p class="home-categories-section__card-text">מבחר ענק של כלי בית, טקסטיל, עיצוב ומוצרים שהופכים כל בית לחמים ומזמין – במחירים שאי אפשר לסרב להם.</p>
+          <a href="#" class="home-categories-section__card-btn">למד עוד</a>
+        </div>
+      </article>
 
-  </div><!-- end container -->
+      <!-- Card 2 -->
+      <article class="home-categories-section__card">
+        <div class="home-categories-section__card-image">
+          <img data-context="A stylish living room corner featuring a comfortable armchair, a floor lamp, and a small side table with a green plant, creating a cozy atmosphere" width="400" height="300" src="/assets/street-stock-section-Home-categories-home-categories-image-2.webp" alt="ריהוט לבית">
+        </div>
+        <div class="home-categories-section__card-body">
+          <div class="home-categories-section__card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 12H7V20H2V12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M17 12H22V20H17V12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M7 12V8C7 6.67392 7.52678 5.40215 8.46447 4.46447C9.40215 3.52678 10.6739 3 12 3V3C13.3261 3 14.5979 3.52678 15.5355 4.46447C16.4732 5.40215 17 6.67392 17 8V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h3 class="home-categories-section__card-title">ריהוט</h3>
+          <p class="home-categories-section__card-text">פתרונות ריהוט חכמים לכל חדר – מסלון ועד חדר שינה, בעיצוב מודרני ונוחות מקסימלית.</p>
+          <a href="#" class="home-categories-section__card-btn">למד עוד</a>
+        </div>
+      </article>
 
-  <!-- Bottom Divider: gradient fade into charcoal with lime accent line -->
-  <div class="home-categories-divider-wrapper">
-    <div class="home-categories-divider-gradient" aria-hidden="true"></div>
-    <svg data-no-icon-edit="true" aria-hidden="true" class="home-categories-divider-svg" viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 L0,30 Q180,24 360,30 T720,22 Q900,18 1080,26 T1440,30 L1440,60 Z" fill="#FFFFFF"></path>
-    </svg>
-    <svg data-no-icon-edit="true" aria-hidden="true" class="home-categories-lime-line" viewBox="0 0 1440 12" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,6 Q360,0 720,3 Q1080,6 1440,6" stroke="#99D52E" stroke-width="3" fill="#FFFFFF" stroke-linecap="round"></path>
-    </svg>
+      <!-- Card 3 -->
+      <article class="home-categories-section__card">
+        <div class="home-categories-section__card-image">
+          <img data-context="An organized kitchen drawer with various cooking utensils, measuring spoons, and a colorful set of mixing bowls, representing kitchen tools and gadgets" width="400" height="300" src="/assets/street-stock-section-Home-categories-home-categories-image-3.webp" alt="כלי מטבח">
+        </div>
+        <div class="home-categories-section__card-body">
+          <div class="home-categories-section__card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.7 6.3C15.1 5.9 15.5 5.5 15.5 5C15.5 4.5 15.1 4 14.5 4C13.9 4 13.5 4.4 13.1 4.8L9.6 8.3C9.2 8.7 8.8 9.1 8.3 9.1C7.8 9.1 7.4 8.7 7 8.3L4.8 6.1C4.4 5.7 4 5.3 3.5 5.3C3 5.3 2.6 5.7 2.2 6.1C1.8 6.5 1.4 6.9 1.4 7.4C1.4 7.9 1.8 8.3 2.2 8.7L4.4 10.9C4.8 11.3 5.2 11.7 5.2 12.2C5.2 12.7 4.8 13.1 4.4 13.5L2.2 15.7C1.8 16.1 1.4 16.5 1.4 17C1.4 17.5 1.8 17.9 2.2 18.3C2.6 18.7 3 19.1 3.5 19.1C4 19.1 4.4 18.7 4.8 18.3L7 16.1C7.4 15.7 7.8 15.3 8.3 15.3C8.8 15.3 9.2 15.7 9.6 16.1L13.1 19.6C13.5 20 13.9 20.4 14.5 20.4C15.1 20.4 15.5 20 15.5 19.5C15.5 19 15.1 18.6 14.7 18.2L12.5 16C12.1 15.6 11.7 15.2 11.7 14.7C11.7 14.2 12.1 13.8 12.5 13.4L14.7 11.2C15.1 10.8 15.5 10.4 15.5 9.9C15.5 9.4 15.1 9 14.7 8.6L14.7 6.3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3 2L7 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 22L17 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h3 class="home-categories-section__card-title">כלי מטבח</h3>
+          <p class="home-categories-section__card-text">כלים, גאדג'טים ואביזרים שהופכים כל בישול לחוויה – מאיכות גבוהה ובמחירי רצפה.</p>
+          <a href="#" class="home-categories-section__card-btn">למד עוד</a>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="home-categories-section__card">
+        <div class="home-categories-section__card-image">
+          <img data-context="A flat lay of personal care products including natural soaps, a wooden hairbrush, lotion bottles, and a soft white towel on a marble surface" width="400" height="300" src="/assets/street-stock-section-Home-categories-home-categories-image-4.webp" alt="טיפוח אישי">
+        </div>
+        <div class="home-categories-section__card-body">
+          <div class="home-categories-section__card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 7H16L15 3H9L8 7H4C2.9 7 2 7.9 2 9V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V9C22 7.9 21.1 7 20 7Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 17C14.2091 17 16 15.2091 16 13C16 10.7909 14.2091 9 12 9C9.79086 9 8 10.7909 8 13C8 15.2091 9.79086 17 12 17Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h3 class="home-categories-section__card-title">טיפוח אישי</h3>
+          <p class="home-categories-section__card-text">מוצרי פארם, קוסמטיקה וטיפוח במחירי סטוק – כי גם הגוף והנפש שלכם ראויים לפינוק.</p>
+          <a href="#" class="home-categories-section__card-btn">למד עוד</a>
+        </div>
+      </article>
+
+      <!-- Card 5 -->
+      <article class="home-categories-section__card">
+        <div class="home-categories-section__card-image">
+          <img data-context="A neatly organized closet with storage boxes, hanging organizers, and folded clothes, demonstrating smart storage solutions for the home" width="400" height="300" src="/assets/street-stock-section-Home-categories-home-categories-image-5.webp" alt="אחסון וארגון">
+        </div>
+        <div class="home-categories-section__card-body">
+          <div class="home-categories-section__card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 16V8C20.9996 7.6493 20.9071 7.30483 20.7315 7.00117C20.556 6.69752 20.3037 6.44536 20 6.27L13 2.27C12.696 2.09446 12.3511 2.00205 12 2.00205C11.6489 2.00205 11.304 2.09446 11 2.27L4 6.27C3.69626 6.44536 3.44398 6.69752 3.26846 7.00117C3.09294 7.30483 3.00036 7.6493 3 8V16C3.00036 16.3507 3.09294 16.6952 3.26846 16.9988C3.44398 17.3025 3.69626 17.5546 4 17.73L11 21.73C11.304 21.9055 11.6489 21.998 12 21.998C12.3511 21.998 12.696 21.9055 13 21.73L20 17.73C20.3037 17.5546 20.556 17.3025 20.7315 16.9988C20.9071 16.6952 20.9996 16.3507 21 16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M3.27002 6.96L12 12.01L20.73 6.96" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 22.08V12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h3 class="home-categories-section__card-title">אחסון וארגון</h3>
+          <p class="home-categories-section__card-text">פתרונות אחסון יצירתיים שעושים סדר בבית – קופסאות, מגירות, ארגוניות ועוד.</p>
+          <a href="#" class="home-categories-section__card-btn">למד עוד</a>
+        </div>
+      </article>
+
+      <!-- Card 6 -->
+      <article class="home-categories-section__card">
+        <div class="home-categories-section__card-image">
+          <img data-context="A collection of everyday practical items including a reusable water bottle, a tote bag, a notebook, and a small potted succulent on a desk" width="400" height="300" src="/assets/street-stock-section-Home-categories-home-categories-image-6.webp" alt="שימושי יומיומי">
+        </div>
+        <div class="home-categories-section__card-body">
+          <div class="home-categories-section__card-icon">
+            <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+          </div>
+          <h3 class="home-categories-section__card-title">שימושי יומיומי</h3>
+          <p class="home-categories-section__card-text">כל מה שצריך ביום-יום – מכלי שתייה ועד אביזרים פרקטיים, במחירים נוחים לכל כיס.</p>
+          <a href="#" class="home-categories-section__card-btn">למד עוד</a>
+        </div>
+      </article>
+
+    </div>
   </div>
 
+  <!-- Bottom Divider -->
+  <div class="home-categories-section__divider-wrapper">
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,35 Q50,30 100,38 T200,32 Q250,38 300,28 T400,35 Q450,30 500,38 T600,28 Q650,35 700,30 T800,38 Q850,28 900,35 T1000,30 Q1050,38 1100,28 T1200,35 L1200,80 Z" fill="#FFFFFF"></path>
+    </svg>
+  </div>
 </section><section data-band-index="1" class="home-categories-section" data-layout-spec="Home-categories" dir="rtl" id="home-categories-section-dup-1780571409115" style="opacity: 1;">
   <div class="home-categories-container">
 
@@ -975,13 +1279,13 @@
       <div class="home-categories-intro-inner">
         <h2 class="home-categories-heading">עולמות הקנייה שלנו</h2>
         
-      </div><p style="" data-element-id="move-1780571705876-4hb2txoa"><span class="home-categories-label" style="color: rgb(35, 31, 32) !important;">סטוק הכל לבית</span>
+      </div><p  data-element-id="move-1780571705876-4hb2txoa"><span class="home-categories-label" style="color: rgb(35, 31, 32) !important;">סטוק הכל לבית</span>
         </p>
       <div class="home-categories-intro-accent" aria-hidden="true"></div>
     </div>
 
     <!-- Categories Grid -->
-    <div class="home-categories-grid zappy-preserve-css-grid" id="zappy-auto-grid-1780399663650-7rej11-dup-1780571409115-0" data-original-item-width="389" data-original-gap="24px" style="--zappy-grid-cols: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: stretch !important; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-auto-grid="true" data-zappy-explicit-columns="true"><article class="home-categories-card home-categories-card--featured" style="" data-grid-item-index="0">
+    <div class="home-categories-grid zappy-preserve-css-grid" id="zappy-auto-grid-1780399663650-7rej11-dup-1780571409115-0" data-original-item-width="389" data-original-gap="24px" style="--zappy-grid-cols: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: stretch !important; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr));" data-zappy-auto-grid="true" data-zappy-explicit-columns="true"><article class="home-categories-card home-categories-card--featured"  data-grid-item-index="0">
         <div class="home-categories-card-image-wrap">
           <div data-zappy-zoom-wrapper="true" data-element-id="img-1780399663584-6sgvwff1g" data-element-type="image" data-zappy-zoom-wrapper-width="284px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="grid-responsive" data-zappy-zoom-wrapper-align="center" style="position: relative !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; display: block !important; height: 180px !important; padding-bottom: 0px !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-zoom-aspect-ratio="0.633803"><img decoding="async" data-placeholder="home-categories-image-1" data-context="Stylish Israeli home living room with modern furniture, decorative cushions, a wooden coffee table, and tasteful home goods accessories — warm natural light, clean interior design, stock store aesthetic" width="600" height="400" src="/assets/site-home-categories-image-1-1780416173713-1xi86c.webp?v=1780416176957" alt="מוצרי בית ורהיטים" class="home-categories-card-img" data-element-type="image" data-element-id="img-1780571759291-gon72vkw9" style="object-position: 50% 33% !important; display: block; margin-top: 0px !important; margin-bottom: 0px !important; width: 104% !important; max-height: none !important; object-fit: cover !important; position: absolute !important; left: -2% !important; top: -22.041% !important; height: 166.791% !important; max-width: none !important;" data-zappy-zoom="1.04" data-zappy-original-width="284" data-zappy-original-height="180" data-zappy-object-position="50% 33%"></div>
           <div class="home-categories-card-overlay" aria-hidden="true"></div>
@@ -993,12 +1297,12 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="">אקריל</h3>
-            <p class="home-categories-card-desc" style="">ארגוניות | צנצנות | מוצרים</p>
+            <h3 class="home-categories-card-title" >אקריל</h3>
+            <p class="home-categories-card-desc" >ארגוניות | צנצנות | מוצרים</p>
             
           </div>
         </div>
-      </article><article class="home-categories-card" style="" data-grid-item-index="1">
+      </article><article class="home-categories-card"  data-grid-item-index="1">
         <div class="home-categories-card-image-wrap">
           <a data-zappy-click-action="link" href="/category/bathtub" style="text-decoration: none; color: inherit; display: contents;"><div data-zappy-zoom-wrapper="true" data-element-id="img-1780399663584-ljghsdbbl" data-element-type="image" data-zappy-zoom-wrapper-width="284px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="grid-responsive" data-zappy-zoom-wrapper-align="center" style="cursor: pointer; position: relative !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; display: block !important; height: 180px !important; padding-bottom: 0px !important; overflow: hidden !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1" data-zappy-click-action="link" data-zappy-zoom-aspect-ratio="0.633803"><img decoding="async" data-placeholder="home-categories-image-2" data-context="Professional kitchen tools and cookware laid out on a clean white surface — pots, pans, utensils, cutting boards, and kitchen gadgets, modern and practical kitchen equipment for Israeli home cooking" width="600" height="400" src="/assets/site-home-categories-image-2-1780416812868-6o2c0w.webp?v=1780416816547" alt="כלי מטבח" class="home-categories-card-img" data-element-type="image" data-element-id="img-1780399663584-ljghsdbbl" style="object-position: 50% 33% !important; margin: 0px !important; width: 104% !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important; left: -2% !important; top: -22.111% !important; height: 167.003% !important; max-width: none !important;" data-zappy-zoom="1.04" data-zappy-original-width="284" data-zappy-original-height="180" data-zappy-object-position="50% 33%" data-zappy-click-action="link"></div></a>
           <div class="home-categories-card-overlay" aria-hidden="true"></div>
@@ -1013,8 +1317,8 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="">כלי בית</h3>
-            <p class="home-categories-card-desc" style="">צנצנות זכוכית | כוסות | צלחות<br>קנקנים | דיספנסרים | קופסאות | מייבשי כלים | סכינים | סט תה קפה סוכר | משתחי חיתוך</p>
+            <h3 class="home-categories-card-title" >כלי בית</h3>
+            <p class="home-categories-card-desc" >צנצנות זכוכית | כוסות | צלחות<br>קנקנים | דיספנסרים | קופסאות | מייבשי כלים | סכינים | סט תה קפה סוכר | משתחי חיתוך</p>
             
           </div>
         </div>
@@ -1032,8 +1336,8 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="">אמבטיה</h3>
-            <p class="home-categories-card-desc" style="">דיספנסרים | שטיחים | וילונות | פחים</p>
+            <h3 class="home-categories-card-title" >אמבטיה</h3>
+            <p class="home-categories-card-desc" >דיספנסרים | שטיחים | וילונות | פחים</p>
             
           </div>
         </div>
@@ -1051,12 +1355,12 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="cursor: text;">מצעים</h3>
-            <p class="home-categories-card-desc" style="cursor: text;">סטים 100% כותנה | מכני מזרן</p>
+            <h3 class="home-categories-card-title" >מצעים</h3>
+            <p class="home-categories-card-desc" >סטים 100% כותנה | מכני מזרן</p>
             
           </div>
         </div>
-      </article><article class="home-categories-card" style="" data-grid-item-index="4">
+      </article><article class="home-categories-card"  data-grid-item-index="4">
         <div class="home-categories-card-image-wrap">
           <div data-zappy-zoom-wrapper="true" data-element-id="img-1780399663584-k5i9mg8u2" data-element-type="image" data-zappy-zoom-wrapper-width="387px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 387px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 180px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="home-categories-image-4" data-context="Organized storage boxes, shelving units, drawer organizers, baskets and containers in a clean modern home — storage and organization products for Israeli household, neat and minimal" width="600" height="400" src="/assets/site-home-categories-image-4-1780417379168-7jif5b.webp?v=1780417382874" alt="אחסון וארגון" class="home-categories-card-img" data-element-type="image" data-element-id="img-1780399663584-k5i9mg8u2" style="object-position: 50% 33% !important; margin: 0px !important; left: -1.9965% !important; top: -22.0606% !important; width: 103.993% !important; height: 166.85% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important;" data-zappy-zoom="1.03993" data-zappy-original-width="387.328125" data-zappy-original-height="180" data-zappy-object-position="50% 33%"></div>
           <div class="home-categories-card-overlay" aria-hidden="true"></div>
@@ -1070,12 +1374,12 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="">מגבות</h3>
-            <p class="home-categories-card-desc" style="">מגבות 100% כותנה למטבח, פנים וגוף</p>
+            <h3 class="home-categories-card-title" >מגבות</h3>
+            <p class="home-categories-card-desc" >מגבות 100% כותנה למטבח, פנים וגוף</p>
             
           </div>
         </div>
-      </article><article class="home-categories-card" style="" data-grid-item-index="5">
+      </article><article class="home-categories-card"  data-grid-item-index="5">
         <div class="home-categories-card-image-wrap">
           <div data-zappy-zoom-wrapper="true" data-element-id="img-1780399663585-mzj1mcpp6" data-element-type="image" data-zappy-zoom-wrapper-width="387px" data-zappy-zoom-wrapper-height="180px" data-zappy-zoom-wrapper-width-mode="px" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 387px !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 180px !important; display: block !important; padding-bottom: 0px !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-card-slot-fill="1"><img decoding="async" data-placeholder="home-categories-image-5" data-context="Everyday practical household items — cleaning supplies, light bulbs, batteries, tools, hangers, doormats and utility products on a bright clean background, everyday essentials for the home" width="600" height="400" src="/assets/site-home-categories-image-5-1780417431383-414558.webp?v=1780417434279" alt="מוצרי יומיום" class="home-categories-card-img" data-element-type="image" data-element-id="img-1780399663585-mzj1mcpp6" style="object-position: 50% 33% !important; margin: 0px !important; left: -2% !important; top: -22.0643% !important; width: 104% !important; height: 166.861% !important; max-width: none !important; max-height: none !important; display: block !important; object-fit: cover !important; position: absolute !important;" data-zappy-zoom="1.04" data-zappy-original-width="387.34375" data-zappy-original-height="180" data-zappy-object-position="50% 33%"></div>
           <div class="home-categories-card-overlay" aria-hidden="true"></div>
@@ -1088,8 +1392,8 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="">שטיחים</h3>
-            <p class="home-categories-card-desc" style="">שטיחי מטבח | אמבטיה | סלון</p>
+            <h3 class="home-categories-card-title" >שטיחים</h3>
+            <p class="home-categories-card-desc" >שטיחי מטבח | אמבטיה | סלון</p>
             </div>
         </div>
       </article><article class="home-categories-card" style="background-color: rgb(255, 255, 255) !important; grid-area: auto !important;" data-grid-item-index="6">
@@ -1105,8 +1409,8 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="cursor: text;">שמיכות</h3>
-            <p class="home-categories-card-desc" style="cursor: text;">שמיכות פוך | קיץ | חורף</p>
+            <h3 class="home-categories-card-title" >שמיכות</h3>
+            <p class="home-categories-card-desc" >שמיכות פוך | קיץ | חורף</p>
             </div>
         </div>
       </article><article class="home-categories-card" style="background-color: rgb(255, 255, 255) !important; grid-area: auto !important;" data-grid-item-index="7">
@@ -1122,8 +1426,8 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="cursor: text;">נוי ואחסון</h3>
-            <p class="home-categories-card-desc" style="cursor: text;">הדומים | עגלות שירות | סלסלאות | מעמדים דקורטיביים</p>
+            <h3 class="home-categories-card-title" >נוי ואחסון</h3>
+            <p class="home-categories-card-desc" >הדומים | עגלות שירות | סלסלאות | מעמדים דקורטיביים</p>
             </div>
         </div>
       </article><article class="home-categories-card" style="background-color: rgb(255, 255, 255) !important; grid-area: auto !important;" data-grid-item-index="8">
@@ -1139,8 +1443,8 @@
             </svg>
           </div>
           <div class="home-categories-card-text">
-            <h3 class="home-categories-card-title" style="cursor: text;">טירולר</h3>
-            <p class="home-categories-card-desc" style="cursor: text;">מגב | מטאטא | מבריקן</p>
+            <h3 class="home-categories-card-title" >טירולר</h3>
+            <p class="home-categories-card-desc" >מגב | מטאטא | מבריקן</p>
             </div>
         </div>
       </article></div><!-- end grid -->
@@ -1170,7 +1474,7 @@
   <h2 style="font-size: 32px; font-weight: 700; color: rgb(31, 41, 55); margin-bottom: 40px; text-align: right;">עולמות הקנייה שלנו</h2>
   <div class="image-card-grid zappy-preserve-css-grid" style="display: grid; gap: 30px; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); align-items: stretch !important; grid-template-columns: repeat(3, minmax(0, 1fr));" id="zappy-auto-grid-1780568541751-vwh5n4" data-zappy-auto-grid="true" data-original-item-width="266" data-original-gap="30px" data-zappy-explicit-columns="true">
     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column;" data-grid-item-index="0">
-      <div data-zappy-zoom-wrapper="true" data-element-id="img-1780568541749-p5xxlrqdo" data-element-type="image" data-zappy-zoom-wrapper-width="364px" data-zappy-zoom-wrapper-height="228px" data-zappy-zoom-wrapper-width-mode="grid-responsive" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 228px !important; display: block !important; padding-bottom: 62.6374% !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-aspect-ratio="0.626374"><img data-placeholder="layout-image-1780568540748-9bblp00nc" data-context="תיאור תמונה 1" data-zappy-editable-image="true" src="/assets/image-layout-image-1780568540748-9bblp00nc-1780571038921-b1bn5b.webp?v=1780571042367" alt="תיאור תמונה 1" style="border-radius: 8px; width: 134.522% !important; height: 120% !important; display: block !important; object-fit: cover !important; object-position: 53% 100% !important; margin: 0px !important; position: absolute !important; left: -18.2967% !important; top: -20% !important; max-width: none !important; max-height: none !important" class="layout-placeholder-image" data-element-type="image" data-element-id="img-1780568541749-p5xxlrqdo" data-zappy-zoom="1.2" data-zappy-original-width="363.984375" data-zappy-original-height="227.98828125" data-zappy-object-position="53% 100%"></div>
+      <div data-zappy-zoom-wrapper="true" data-element-id="img-1780568541749-p5xxlrqdo" data-element-type="image" data-zappy-zoom-wrapper-width="364px" data-zappy-zoom-wrapper-height="228px" data-zappy-zoom-wrapper-width-mode="grid-responsive" data-zappy-zoom-wrapper-align="center" style="position: relative !important; overflow: hidden !important; width: 100% !important; max-width: 100% !important; margin-left: auto !important; margin-right: auto !important; height: 228px !important; display: block !important; padding-bottom: 62.6374% !important;" data-zappy-zoom-clip="true" data-zappy-wrapper-margins-applied="true" data-zappy-zoom-aspect-ratio="0.626374"><img data-placeholder="layout-image-1780568540748-9bblp00nc" data-context="תיאור תמונה 1" src="/assets/image-layout-image-1780568540748-9bblp00nc-1780571038921-b1bn5b.webp?v=1780571042367" alt="תיאור תמונה 1" style="border-radius: 8px; width: 134.522% !important; height: 120% !important; display: block !important; object-fit: cover !important; object-position: 53% 100% !important; margin: 0px !important; position: absolute !important; left: -18.2967% !important; top: -20% !important; max-width: none !important; max-height: none !important" class="layout-placeholder-image" data-element-type="image" data-element-id="img-1780568541749-p5xxlrqdo" data-zappy-zoom="1.2" data-zappy-original-width="363.984375" data-zappy-original-height="227.98828125" data-zappy-object-position="53% 100%"></div>
       <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
         <h3 style="font-size: 20px; font-weight: 600; color: rgb(31, 41, 55); margin-bottom: 10px;">אקריל</h3>
         <p style="font-size: 15px; line-height: 1.6; color: rgb(31, 41, 55); opacity: 0.8; text-align: right;">
@@ -1182,7 +1486,7 @@
       </div>
     </div>
     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column;" data-grid-item-index="1">
-      <img data-placeholder="layout-image-1780568540748-26x0nnpol" data-context="תיאור תמונה 2" data-zappy-editable-image="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2399D52E;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2399D52E20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%202%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 2" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image" data-element-type="image" data-element-id="img-1780568541749-alxfajl4o">
+      <img data-placeholder="layout-image-1780568540748-26x0nnpol" data-context="תיאור תמונה 2" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2399D52E;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2399D52E20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%202%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 2" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image" data-element-type="image" data-element-id="img-1780568541749-alxfajl4o">
       <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
         <h3 style="font-size: 20px; font-weight: 600; color: #1F2937; margin-bottom: 10px; font-family: :before, .quote::before, [data-quote]::before {
   content: \201C;">כותרת כרטיס 2</h3>
@@ -1193,7 +1497,7 @@
       </p></div>
     </div>
     <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.08); display: flex; flex-direction: column;" data-grid-item-index="2">
-      <img data-placeholder="layout-image-1780568540748-i483c3iru" data-context="תיאור תמונה 3" data-zappy-editable-image="true" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2399D52E;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2399D52E20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%203%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 3" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image" data-element-type="image" data-element-id="img-1780568541749-pk998cz1g">
+      <img data-placeholder="layout-image-1780568540748-i483c3iru" data-context="תיאור תמונה 3" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='250'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%2399D52E;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%2399D52E20;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100%25' height='100%25' fill='url(%23grad)'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='18' fill='white' text-anchor='middle' dy='.3em' font-weight='500'%3E%D7%AA%D7%99%D7%90%D7%95%D7%A8%20%D7%AA%D7%9E%D7%95%D7%A0%D7%94%203%3C/text%3E%3C/svg%3E" alt="תיאור תמונה 3" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover;" class="layout-placeholder-image" data-element-type="image" data-element-id="img-1780568541749-pk998cz1g">
       <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
         <h3 style="font-size: 20px; font-weight: 600; color: #1F2937; margin-bottom: 10px; font-family: :before, .quote::before, [data-quote]::before {
   content: \201C;">כותרת כרטיס 3</h3>
@@ -1203,11 +1507,11 @@
   content: \201C; text-align: center;">למד עוד</a>
       </p></div>
     </div><div style="background-color: rgb(255, 255, 255) !important; grid-area: auto !important;" data-grid-item-index="3">
-      <img data-placeholder="image-placeholder" data-context="תיאור תמונה 3" data-zappy-editable-image="true" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Image placeholder" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover; cursor: pointer;" class="layout-placeholder-image" data-element-type="image" data-element-id="new-grid-img-1780571668372-0-ybd6uj1zg" id="new-grid-img-1780571668372-0-ybd6uj1zg" data-ai-slot="grid-item-image" data-zappy-base64-stripped="true">
+      <img data-placeholder="image-placeholder" data-context="תיאור תמונה 3" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Image placeholder" style="width: 100%; height: auto; display: block; border-radius: 8px; object-fit: cover; cursor: pointer;" class="layout-placeholder-image" data-element-type="image" data-element-id="new-grid-img-1780571668372-0-ybd6uj1zg" id="new-grid-img-1780571668372-0-ybd6uj1zg" data-ai-slot="grid-item-image" data-zappy-base64-stripped="true">
       <div style="padding: 24px; flex: 1; display: flex; flex-direction: column;">
-        <h3 style="font-size: 20px; font-weight: 600; color: rgb(31, 41, 55); margin-bottom: 10px; cursor: text;">כותרת משנה</h3>
-        <p style="font-size: 15px; line-height: 1.6; color: rgb(31, 41, 55); opacity: 0.8; cursor: text;">טקסט כאן</p>
-        <p style="cursor: text;">טקסט כאן</p></div>
+        <h3 style="font-size: 20px; font-weight: 600; color: rgb(31, 41, 55); margin-bottom: 10px; ">כותרת משנה</h3>
+        <p style="font-size: 15px; line-height: 1.6; color: rgb(31, 41, 55); opacity: 0.8; ">טקסט כאן</p>
+        <p >טקסט כאן</p></div>
     </div>
   </div>
   </div>
@@ -1322,7 +1626,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/972545286728" class="whatsapp-float" aria-label="WhatsApp" style="display:none;">
+  <a href="https://wa.me/972545286728" class="whatsapp-float" aria-label="WhatsApp" style="display:none">
     <i class="fab fa-whatsapp"></i>
   </a>
   
