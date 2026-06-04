@@ -18009,6 +18009,16 @@ main,
   }
 }
 
+to { opacity: 1; } }
+to { opacity: 1; transform: translateY(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: translateX(0); } }
+to { opacity: 1; transform: scale(1); } }
+60% { opacity: 1; transform: translateY(-5px); } 100% { transform: translateY(0); } }
+to { opacity: 1; transform: perspective(400px) rotateY(0); } }
+to { opacity: 1; transform: rotate(0) scale(1); } }
+
+
 @keyframes zappy-fade-in { from { opacity: 0; } to { opacity: 1; } }
 @keyframes zappy-slide-up { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes zappy-slide-left { from { opacity: 0; transform: translateX(-30px); } to { opacity: 1; transform: translateX(0); } }
