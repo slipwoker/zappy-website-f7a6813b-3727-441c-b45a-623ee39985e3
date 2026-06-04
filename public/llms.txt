@@ -68,44 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 4**
-
-### מייבש כלים אלומיניום EMMA צבע שחור
-https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-shchvr-iho2qe
-- Price: 79.00 ILS (sale, was 99.90 ILS)
-- Availability: In stock
-- Category: מייבשי כלים
-- SKU: 7290121563062
-- Description: עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד&nbsp; קל לניקוי
-- Image: https://streetstock.co.il/assets/product-1779889101589-l5tt3l.webp
-
-### סיר יציקת אלומיניום 20 ס"מ צבע מוקה  סדרת LUSSO
-https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-d363q2
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: סירים ומחבתות
-- SKU: 7290121564779
-- Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 20 ס"מ | 2.3 ליטר סדרת LUSSO
-- Image: https://streetstock.co.il/assets/product-enhanced-1779889341001-jwy1h9.webp
-
-### מייבש כלים אלומיניום EMMA צבע כסף
-https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-36k4ec
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: מייבשי כלים
-- SKU: 7290121563079
-- Description: עיצוב חדשני המתאים לחלל הבית כולל סכומון ומעמד לכוסות אלומיניום אל חד קל לניקוי
-- Image: https://streetstock.co.il/assets/product-1779889024802-cnl674.webp
-
-### פח 33 ליטר צבע לבן TOUCH PURE
-https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-t5imte
-- Price: 279.90 ILS
-- Availability: In stock
-- Category: פחי אשפה
-- SKU: 7290121560047
-- Brand: TOUCH PURE
-- Description: פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית נפתח על ידי לחיצה קלה קל לניקוי, טבעת פנימית לאחיזה של השקיות אשפה
-- Image: https://streetstock.co.il/assets/product-1779888599768-z9w7nq.webp
+_No products are currently configured._
 
 ---
 
