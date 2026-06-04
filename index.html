@@ -906,7 +906,7 @@
 
 
 
-  <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="home-hero-section" data-zappy-content-align="lower-mid-right">
+  <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" dir="rtl" data-hero-type="fullscreen-scrim" id="home-hero-section" data-zappy-content-align="lower-mid-right" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0s">
   <!-- Background Image -->
   <div class="home-hero-bg">
     <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="home-hero-image-1" data-context="Dark cinematic retail environment shot from inside a modern stock/discount home goods store in Israel. Wide-angle view of shelves stocked with household products, kitchen tools, and home goods. Dramatic low-key lighting with warm spotlights illuminating product displays. Dark charcoal and near-black tones dominate. The atmosphere is bold, urban, and premium — like a high-end warehouse store. No people visible. Shot feels editorial and aspirational." width="1400" height="800" src="/assets/site-home-hero-image-1.webp" alt="חנות Street Stock – מגוון מוצרי בית וסטוק במחירים מיוחדים" data-hero-background="true" data-element-type="image" data-element-id="img-1779607529844-6rttej6hz" style="object-position: 50% 50%;">
@@ -949,7 +949,7 @@
 
 
 
-<section id="layout-1780568540748" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0px; direction: rtl;" data-component-id="imagecard-3col-cta">
+<section id="layout-1780568540748" class="layout-section" data-zappy-component="true" style="width: 100%; padding: 60px 0px; direction: rtl;" data-component-id="imagecard-3col-cta" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0.1s">
   <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 1.5rem;">
   <h2 style="font-size: 32px; font-weight: 700; color: rgb(31, 41, 55); margin-bottom: 40px; text-align: right;">עולמות הקנייה שלנו</h2>
   <div class="image-card-grid zappy-preserve-css-grid" style="display: grid; gap: 30px; --zappy-grid-cols: repeat(3, minmax(0, 1fr)); align-items: stretch !important; grid-template-columns: repeat(3, minmax(0, 1fr));" id="zappy-auto-grid-1780568541751-vwh5n4" data-zappy-auto-grid="true" data-original-item-width="364" data-original-gap="30px" data-zappy-explicit-columns="true">
@@ -1081,7 +1081,7 @@
 
 
 
-<section class="featured-products-section" id="featured-products" data-zappy-dynamic="true">
+<section class="featured-products-section" id="featured-products" data-zappy-dynamic="true" data-zappy-animate="fade-in" data-zappy-anim-duration="0.6s" data-zappy-anim-delay="0.2s">
       <div class="container">
         <h2 class="section-title">מוצרים מומלצים</h2>
         <div class="product-grid featured-grid" id="zappy-featured-products"><div class="no-featured-products">עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!</div></div>
@@ -1189,7 +1189,26 @@
   </button>
   <div class="zappy-qv-content" id="zappy-qv-content"></div>
 </div>
-
+<script data-zappy-animation-observer="">(function() {
+  if (window.__zappyAnimObserver) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var el = entry.target;
+        var anim = el.getAttribute('data-zappy-animate');
+        var dur = el.getAttribute('data-zappy-anim-duration') || '0.6s';
+        var del = el.getAttribute('data-zappy-anim-delay') || '0s';
+        el.style.animation = 'zappy-' + anim + ' ' + dur + ' ' + del + ' ease forwards';
+        el.classList.add('zappy-animated');
+        observer.unobserve(el);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('[data-zappy-animate]').forEach(function(el) {
+    observer.observe(el);
+  });
+  window.__zappyAnimObserver = observer;
+})();</script>
     <script src="/script.js"></script>
 
     <script id="zappy-mobile-submenu-script">
