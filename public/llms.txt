@@ -1086,7 +1086,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-lbn-hcvj8n
 https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-oexoqp
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 88 ליטר : 55X36X64 ס"מ סל כביסה 2 תאים מבמבוק מתקפל עם סלי בד נשלפים
 - Image: https://streetstock.co.il/assets/product-1780837738567-ziywvc.webp
 
@@ -1094,7 +1093,6 @@ https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-oexoqp
 https://streetstock.co.il/product/mamd-6-mgyrvt-dgm-bmbv-9lifhn
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 135 ליטר : 66X33X78 ס"מ מעמד 6 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837738566-l8s5eb.webp
 
@@ -1109,7 +1107,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-lbn-1nmkj5
 https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-n052tx
 - Price: 299.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 37 ליטר : 50X30X120 ס"מ ארגונית במבו איכותית במיוחד. בעלת סל נשלף ומדפים.
 - Image: https://streetstock.co.il/assets/product-1780837738482-rs0nmf.webp
 
@@ -1117,7 +1114,6 @@ https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-n052tx
 https://streetstock.co.il/product/mamd-4-mgyrvt-bmbvk-y40ieh
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 8 ליטר : 18X33X78 ס"מ מעמד 4 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837738440-5y889.webp
 
@@ -1185,7 +1181,6 @@ https://streetstock.co.il/product/st-3-kvpsavt-plstyk-dgm-mysv-1p7dof
 https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbv-evw52v
 - Price: 199.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
 
@@ -1552,7 +1547,6 @@ https://streetstock.co.il/product/skvmyt-mgyrh-gdvl-akryl-dgm-maayan-3qs3f4
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-8dmyfc
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - SKU: 7290121560870
 - Description: מעמדים דקורטיביים
 - Image: https://streetstock.co.il/assets/product-1780837719713-yk77lw.webp
