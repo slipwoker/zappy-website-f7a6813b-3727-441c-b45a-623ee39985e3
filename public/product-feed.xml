@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 07 Jun 2026 13:10:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jun 2026 13:15:34 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 סמ</g:title>
@@ -1080,7 +1080,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>abb39e79-2d78-4947-b1e8-be3814974a9b</g:id>
@@ -1093,7 +1092,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>986cad34-c3c1-4ea2-816b-98b95b1d797a</g:id>
@@ -1106,7 +1104,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>a1b31afc-d1e1-452f-ab3d-f654bd66465e</g:id>
@@ -1119,7 +1116,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>74abffed-fafe-442c-9877-cb7b1af13334</g:id>
@@ -2264,7 +2260,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מגני מזרן</g:product_type>
     </item>
     <item>
       <g:id>0d7b66cd-90c8-4642-934a-1f6da080e971</g:id>
@@ -2277,7 +2272,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מגני מזרן</g:product_type>
     </item>
     <item>
       <g:id>2805d1dc-d2af-453f-8522-9721e2207890</g:id>
@@ -2354,7 +2348,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מגני מזרן</g:product_type>
     </item>
     <item>
       <g:id>9e790c94-c60a-43cc-9dee-f6af90a1a462</g:id>
@@ -2367,7 +2360,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מגני מזרן</g:product_type>
     </item>
     <item>
       <g:id>b1e5bb7a-0886-47d4-911b-a2649957cf00</g:id>
@@ -2380,7 +2372,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>מגני מזרן</g:product_type>
     </item>
     <item>
       <g:id>c5c24c35-7cbe-4bc7-9bf4-e2884d74d7ad</g:id>
@@ -2980,7 +2971,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121567350</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>da307361-12b4-44e5-9033-5c6c4b0b4921</g:id>
@@ -3107,7 +3097,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121567374</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>121e2bd2-9c8d-4d9f-b8ce-5da17d690842</g:id>
@@ -3150,7 +3139,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121567367</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>d6004cae-2740-43a4-a568-4eaa7473cb6e</g:id>
@@ -3217,7 +3205,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562799</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>7cbdaa12-80a2-415b-af90-6d724a7db35f</g:id>
@@ -3231,7 +3218,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562768</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f</g:id>
@@ -3245,7 +3231,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562782</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>811542f0-2c9d-4ebc-95e6-5b70b0112710</g:id>
@@ -3259,7 +3244,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562751</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>d0411331-3e4c-4679-acee-fe78755d59f1</g:id>
@@ -3273,7 +3257,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562706</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb</g:id>
@@ -3287,7 +3270,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562775</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
     </item>
     <item>
       <g:id>c5cfcf0b-95d1-44cc-b6f8-5aedbdfac36b</g:id>
@@ -4617,7 +4599,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561365</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>113c5198-3fa1-42fb-a24f-6ecac4151134</g:id>
@@ -4676,7 +4657,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561327</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>a4f30b2f-d748-4a2f-aed3-6d5197a0fec5</g:id>
@@ -4690,7 +4670,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561310</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>20300e3a-d7a8-4b49-816b-2c07cf6531a4</g:id>
@@ -4704,7 +4683,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561303</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>598350ec-5489-4d70-a0a6-0079b796f88b</g:id>
@@ -4718,7 +4696,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561358</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>77422bb9-11c5-40ef-8698-1e78c064f336</g:id>
@@ -4732,7 +4709,6 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121565066</g:mpn>
-      <g:product_type>מראות ומסגרות תמונה</g:product_type>
     </item>
     <item>
       <g:id>c3a818b8-2fe2-4147-a75e-b3215cdfbca8</g:id>
