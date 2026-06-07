@@ -741,7 +741,6 @@ https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shc
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-ci365v
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837751201-ftfudv.webp
 
@@ -749,7 +748,6 @@ https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-b
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-8625j3
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837751013-pw122s.webp
 
@@ -757,7 +755,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-8625j3
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837751201-uflzl.webp
 
@@ -765,7 +762,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-esfk3v
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837750953-7fpro.webp
 
@@ -773,14 +769,12 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-esfk3v
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-2bstmx
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### סט מצעים כותנה הום סטייל דגם אפריל
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837750889-5nq7jc.webp
 
@@ -788,21 +782,18 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### כיסוי מיטה מהודר + זוג ציפיות לכרית צבע לבן
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### סט מצעים כותנה הום סטייל דגם נבדה טורקיז
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gzql
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837750889-b16g7s.webp
 
@@ -810,14 +801,12 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gz
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-j33myz
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 
 ### סט מצעים כותנה פרקל דגם עמנואל צבע אבן
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-nef8qi
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837748386-mav9ri.webp
 
@@ -825,7 +814,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-nef8q
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-6t8b7v
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837748386-z09cgm.webp
 
@@ -833,7 +821,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-6t8b7
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-4j30dt
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837748386-oawkwv.webp
 
@@ -841,7 +828,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-4j3
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-0vewrz
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837748386-kza17.webp
 
@@ -849,7 +835,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-0vew
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-pojqys
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837748066-7674be.webp
 
@@ -857,7 +842,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-pojqys
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-z7r5l3
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837747978-kmd9lo.webp
 
@@ -865,7 +849,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-z7r5l
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-ulnqlx
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837747978-bt7pf8.webp
 
@@ -873,7 +856,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-ulnql
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-xo51pi
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837747958-c4t3im.webp
 
@@ -881,7 +863,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-xo51pi
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-jrk9jr
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837747932-kiwmvb.webp
 
@@ -889,14 +870,12 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-jrk9jr
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-tl5ovx
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 
 ### סט מצעים כותנה דגם סנדרה צבע לבן
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-5028w0
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745673-c45xbc.webp
 
@@ -904,7 +883,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-5028w0
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-espntz
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745673-5l449.webp
 
@@ -912,7 +890,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-espntz
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-5bso5k
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745566-ze8p0d.webp
 
@@ -920,7 +897,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-5bso5k
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-k1px2h
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745566-mtktgt.webp
 
@@ -928,7 +904,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-k
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-nvanx8
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745507-4bptr43.webp
 
@@ -936,7 +911,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-nvanx8
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-nyo0sm
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745507-x7igh2.webp
 
@@ -944,7 +918,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-nyo0sm
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-26grc0
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745493-r4rsl.webp
 
@@ -952,7 +925,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-26grc0
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-f552wn
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745450-eq1lg8.webp
 
@@ -960,7 +932,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-f552wn
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0n7otm
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745449-hka0o.webp
 
@@ -968,7 +939,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0n7otm
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-8gdjr1
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745449-33sjed.webp
 
@@ -976,7 +946,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-8gdjr1
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-95lilv
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837743134-erzwpg.webp
 
@@ -984,7 +953,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-9qks4z
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837743060-flu6s.webp
 
@@ -992,7 +960,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-9qks4z
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-oahujp
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742981-r3k8owk.webp
 
@@ -1000,7 +967,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-oahujp
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-kchvl-khh-7sbm55
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742966-v458rd.webp
 
@@ -1008,7 +974,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-kchvl-khh-7sbm55
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-bhyr-s05zzk
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742942-0nfjt9.webp
 
@@ -1016,7 +981,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-bhyr-s05zzk
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-khh-d2md3i
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742816-l0t1wc.webp
 
@@ -1024,7 +988,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-khh-d2md3i
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-whps5n
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837742840-e4x0ii.webp
 
@@ -1032,7 +995,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-whps
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-shmnt-yllszr
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742845-vuyx3u.webp
 
@@ -1040,7 +1002,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-shmnt-yllszr
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-vrvd-x2wntj
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742808-3c35or.webp
 
@@ -1048,7 +1009,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-vrvd-x2wntj
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-xii1xb
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742767-vohulh.webp
 
@@ -1056,7 +1016,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-xii1xb
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-3lbzq5
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740421-f1j7ik.webp
 
@@ -1064,7 +1023,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-3lbzq5
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tvrkyz-stv0ab
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837740412-7o4q68.webp
 
@@ -1072,7 +1030,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tvrkyz-stv0ab
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-shmnt-etoz7i
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740311-e2m0l.webp
 
@@ -1080,7 +1037,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-shmnt-etoz7i
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-b7zmil
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740307-2lqlyd.webp
 
@@ -1088,7 +1044,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-b7zmil
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-bj28fv
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740223-xrlcy.webp
 
@@ -1096,7 +1051,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-bj28fv
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tklt-3jkdap
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740231-r0rjtk.webp
 
@@ -1104,7 +1058,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tklt-3jkdap
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-vrvd-skku12
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740197-7uwkc.webp
 
@@ -1112,7 +1065,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-vrvd-skku12
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-aunfhu
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740108-zyf6kn.webp
 
@@ -1120,7 +1072,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-aunfhu
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-ard8m2
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740109-olfn0d.webp
 
@@ -1128,7 +1079,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-ard8m2
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-lbn-hcvj8n
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837740012-x8r4g8.webp
 
@@ -1152,7 +1102,6 @@ https://streetstock.co.il/product/mamd-6-mgyrvt-dgm-bmbv-9lifhn
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-lbn-1nmkj5
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837738567-nptc8.webp
 
@@ -1297,7 +1246,6 @@ https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-cup3m0
 https://streetstock.co.il/product/pch-30-lytr-psym-dgm-vynh-ywu3q1
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: פח 30 ליטר עגול עם טקסטורת פסים דקים פח פנימי נשלף לנוחות מירבית ובעל מנגנון טריקה שקטה
 - Image: https://streetstock.co.il/assets/product-1780837731919-2ezq7.webp
 
@@ -1305,7 +1253,6 @@ https://streetstock.co.il/product/pch-30-lytr-psym-dgm-vynh-ywu3q1
 https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-zm9amj
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
 - Image: https://streetstock.co.il/assets/product-1780837731993-r1muud.webp
 
@@ -1321,7 +1268,6 @@ https://streetstock.co.il/product/pch-5-lytr-am-rglyym-dgm-avrlndv-tsba-shchvr-v
 https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-shchvr-owfcnr
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
 - Image: https://streetstock.co.il/assets/product-1780837731906-he9xi4.webp
 
@@ -1353,7 +1299,6 @@ https://streetstock.co.il/product/pch-5-lytr-am-rglyym-dgm-avrlndv-tsba-apvr-71a
 https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-9ne7jx
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
 - Image: https://streetstock.co.il/assets/product-1780837731810-9o9yy4.webp
 
