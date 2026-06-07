@@ -730,7 +730,6 @@ https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-5wzhse
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-us6luh
 - Price: 34.90 ILS
 - Availability: In stock
-- Category: מגני מזרן
 - Description: מידות : 90X200 ס"מ
 
 ### מגן מזרון איכותי מיטה זוגי
@@ -1309,7 +1308,6 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-elpe71
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-ourq7e
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע כחול כהה

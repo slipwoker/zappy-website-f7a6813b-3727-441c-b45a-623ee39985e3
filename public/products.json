@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-07T12:17:00.360Z",
+  "generated_at": "2026-06-07T12:19:19.257Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 411,
@@ -2090,9 +2090,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-us6luh",
-      "categories": [
-        "מגני מזרן"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:10.012Z"
     },
     {
@@ -3655,9 +3653,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-ourq7e",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.714Z"
     },
     {
