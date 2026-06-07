@@ -74,88 +74,74 @@ Information about WCAG compliance and accessibility features.
 https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-lymh-7z7u8c
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: צלחות+סכום
 - Description: מערכת סכום איכותית מגיע בסט : 6 מזלגות 6 כפות 6 סכינים 6 כפיטת מתאים למדיח כלים מומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה יש להמנע משימוש בחומרים / מוצרים שוחקים.
 
 ### סט סכום 24 חלקים נירוסטה מט דגם ריו
 https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-ryv-o8z7j9
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: צלחות+סכום
 - Description: מערכת סכום איכותית מגיע בסט : 6 מזלגות 6 כפות 6 סכינים 6 כפיטת מתאים למדיח כלים מומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה יש להמנע משימוש בחומרים / מוצרים שוחקים.
 
 ### סכין סולינגן צבע אדום 10 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-eu9s3c
 - Price: 14.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סט סכום 24 חלקים צבע זהב מט דגם ריו
 https://streetstock.co.il/product/st-skvm-24-chlkym-tsba-zhb-mt-dgm-ryv-ncwmtd
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 - Description: מערכת סכום איכותית מגיע בסט : 6 מזלגות 6 כפות 6 סכינים 6 כפיטת מתאים למדיח כלים מומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה יש להמנע משימוש בחומרים / מוצרים שוחקים.
 
 ### סכין סולינגן צבע כחול 10 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-ebtasq
 - Price: 14.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע שחור 10 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-y3mnfh
 - Price: 14.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע ורוד 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-vrvd-85-sm-i1ec9o
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע סגול 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-sgvl-85-sm-o4h4ov
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע לבן 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-lbn-85-sm-7evhin
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע שחור 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-85-sm-jrzlcj
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע ירוק 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-yrvk-85-sm-mq9pvu
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע כחול 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-85-sm-8vku70
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע אדום 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-85-sm-2kz7ln
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### סכין סולינגן צבע כתום 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-ktvm-85-sm-e4c88y
 - Price: 7.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 
 ### קולפן שוויצרי חברת SWISS
 https://streetstock.co.il/product/kvlpn-shvvytsry-chbrt-swiss-k0vxg0
@@ -174,7 +160,6 @@ https://streetstock.co.il/product/marz-8-svllvt-aa-anrgyyzr-x1zk8k
 https://streetstock.co.il/product/mastr-skyn-shp-20-sm-arcosteel-ydnvn2
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 - Description: קצוות הלהב הושחזו ולוטשו בקפדנות ליצירת חדות יוצאת דופן הלהב עשוי מפלדה בעלת עמידות לאורך שנים אל- חלד גרמנית 1416 הידית מרוחקת מהלהב לשמירה על האצבעות ולבטיחות מירבית ידית ארגונומית- לאחיזה נוחה ובטוחה לשון הפלדה מגיעה עד קצה הידית- מאפשר הפעלת כוח יעילה יותר בעת החיתוך, איזון ויציבות משופרים
 
 ### מארז 8 סוללות AAA אנרגייזר
@@ -187,7 +172,6 @@ https://streetstock.co.il/product/marz-8-svllvt-aaa-anrgyyzr-vjnwo0
 https://streetstock.co.il/product/mastr-skyn-sntvkv-17-sm-arcosteel-8yr1pd
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 - Description: קצוות הלהב הושחזו ולוטשו בקפדנות ליצירת חדות יוצאת דופן הלהב עשוי מפלדה בעלת עמידות לאורך שנים אל- חלד גרמנית 1416 הידית מרוחקת מהלהב לשמירה על האצבעות ולבטיחות מירבית ידית ארגונומית- לאחיזה נוחה ובטוחה לשון הפלדה מגיעה עד קצה הידית- מאפשר הפעלת כוח יעילה יותר בעת החיתוך, איזון ויציבות משופרים
 
 ### סכין ילדים דגם תנין ARCOSTEEL
@@ -205,14 +189,12 @@ https://streetstock.co.il/product/wolfgang-sntvkv-125-sm-rfu2r1
 https://streetstock.co.il/product/skyn-lchm-mhvdrt-mayr-advny-22-sm-arcosteel-bs7098
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 - Description: סכין מסדרת מאיר אדוני העשויוה מפלדת אל חלד גרמנית. להב הסכין במבנה קריסטלי מיוחד עם אחוז גבוה של פחמן וכרום. סדרת הסכינים איכותיות ומקצועית ביותר המיוצרת בטכנולוגיות המתקדמות בעולם לייצור סכיני שף.
 
 ### מאסטר סכין סנטוקו 14 סמ ARCOSTEEL
 https://streetstock.co.il/product/mastr-skyn-sntvkv-14-sm-arcosteel-nkd2mg
 - Price: 79.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 - Description: קצוות הלהב הושחזו ולוטשו בקפדנות ליצירת חדות יוצאת דופן הלהב עשוי מפלדה בעלת עמידות לאורך שנים אל- חלד גרמנית 1416 הידית מרוחקת מהלהב לשמירה על האצבעות ולבטיחות מירבית ידית ארגונומית- לאחיזה נוחה ובטוחה לשון הפלדה מגיעה עד קצה הידית- מאפשר הפעלת כוח יעילה יותר בעת החיתוך, איזון ויציבות משופרים
 
 ### סט 2 מטליות החלפה למבריקן
@@ -388,7 +370,6 @@ https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-hasq0i
 https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-mgr8sx
 - Price: 499.90 ILS
 - Availability: In stock
-- Category: מזוודות
 - Description: עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות רוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים ידית טלסקופית מתכווננת(מנגנון טרולי) ידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה שני כיסים חיצונים מקדמת המזוודה 8 גלגלים עשויים מגומי קשיח לנסיעה רכה מנעול קומבינציה 3 ספרות ארוז אחת בתוך השניה לחיסכון במקום גלגלים כפולים בכל הגדלים מידות הגדולה 28" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק"ג / נפח: 115 ליטר (130 לאחר הרחבה) מידות הבינונית 24" - חיצוני: 71 * 43 * 28 / משקל: 3…
 
 ### סט 3 מזוודות בד דגם TOKYO
@@ -396,7 +377,6 @@ https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrv
 https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-ndvgsw
 - Price: 499.90 ILS
 - Availability: In stock
-- Category: מזוודות
 - Description: עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות רוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים ידית טלסקופית מתכווננת(מנגנון טרולי) ידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה שני כיסים חיצונים מקדמת המזוודה 8 גלגלים עשויים מגומי קשיח לנסיעה רכה מנעול קומבינציה 3 ספרות ארוז אחת בתוך השניה לחיסכון במקום גלגלים כפולים בכל הגדלים מידות הגדולה 28" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק"ג / נפח: 115 ליטר (130 לאחר הרחבה) מידות הבינונית 24" - חיצוני: 71 * 43 * 28 / משקל: 3…
 
 ### סט 3 מזוודות בד דגם TOKYO
@@ -404,7 +384,6 @@ https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvr
 https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-4xe1om
 - Price: 499.90 ILS
 - Availability: In stock
-- Category: מזוודות
 - Description: עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות רוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים ידית טלסקופית מתכווננת(מנגנון טרולי) ידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה שני כיסים חיצונים מקדמת המזוודה 8 גלגלים עשויים מגומי קשיח לנסיעה רכה מנעול קומבינציה 3 ספרות ארוז אחת בתוך השניה לחיסכון במקום גלגלים כפולים בכל הגדלים מידות הגדולה 28" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק"ג / נפח: 115 ליטר (130 לאחר הרחבה) מידות הבינונית 24" - חיצוני: 71 * 43 * 28 / משקל: 3…
 
 ### סט 3 מזוודות בד דגם TOKYO
@@ -412,21 +391,18 @@ https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apv
 https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-jf0ny7
 - Price: 499.90 ILS
 - Availability: In stock
-- Category: מזוודות
 - Description: עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות רוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים ידית טלסקופית מתכווננת(מנגנון טרולי) ידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה שני כיסים חיצונים מקדמת המזוודה 8 גלגלים עשויים מגומי קשיח לנסיעה רכה מנעול קומבינציה 3 ספרות ארוז אחת בתוך השניה לחיסכון במקום גלגלים כפולים בכל הגדלים מידות הגדולה 28" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק"ג / נפח: 115 ליטר (130 לאחר הרחבה) מידות הבינונית 24" - חיצוני: 71 * 43 * 28 / משקל: 3…
 
 ### כיסוי מיטה מהודר + זוג ציפיות לכרית צבע אפור בהיר
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-acflpu
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### כיסוי מיטה מהודר + זוג ציפיות לכרית צבע אפור כהה
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-yidk5x
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### סט 3 צדניות פלסטיק בגדלים שונים
@@ -441,14 +417,12 @@ https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-n0ohxs
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-5i7j40
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### כיסוי מיטה מהודר + זוג ציפיות לכרית צבע מוקה
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-flhfdg
 - Price: 99.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 
 ### צידנית בד 16 ס"מ פסים
@@ -479,7 +453,6 @@ https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-i895zy
 https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-vq6qor
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 88 ליטר : 55X36X64 ס"מ סל כביסה 2 תאים מבמבוק מתקפל עם סלי בד נשלפים
 
 ### כיסא חוף חלק דגם סאן
@@ -494,28 +467,24 @@ https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-sd61go
 https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbv-ibdbid
 - Price: 199.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 
 ### מעמד 4 מגירות במבוק
 https://streetstock.co.il/product/mamd-4-mgyrvt-bmbvk-p3bq69
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 8 ליטר : 18X33X78 ס"מ מעמד 4 מגירות במבוק
 
 ### מעמד 6 מגירות דגם במבו
 https://streetstock.co.il/product/mamd-6-mgyrvt-dgm-bmbv-ijhd9t
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 135 ליטר : 66X33X78 ס"מ מעמד 6 מגירות במבוק
 
 ### מעמד כביסה ומדפים דגם מונו
 https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-z0ziwl
 - Price: 299.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - Description: 37 ליטר : 50X30X120 ס"מ ארגונית במבו איכותית במיוחד. בעלת סל נשלף ומדפים.
 
 ### קופסאות אחסון CRUNCH 1.7 ליטר
@@ -568,7 +537,6 @@ https://streetstock.co.il/product/tsntsnvt-zkvkyt-luma-450-ml-touuu8
 https://streetstock.co.il/product/tslchvt-pvrtsln-spiral-18-chlkym-hp8alj
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: צלחות+סכום
 - Description: צלחת 20 ס"מ צלחת 27 ס"מ קערה 20 ס"מ
 
 ### צלחות פורצלן GLAZE
@@ -576,7 +544,6 @@ https://streetstock.co.il/product/tslchvt-pvrtsln-spiral-18-chlkym-hp8alj
 https://streetstock.co.il/product/tslchvt-pvrtsln-glaze-12-chlkym-vkbe4i
 - Price: 199.90 ILS
 - Availability: In stock
-- Category: צלחות+סכום
 - Description: צלחת 20 ס"מ צלחת 27 ס"מ
 
 ### צנצנת זכוכית 1070 מ"ל
@@ -618,7 +585,6 @@ https://streetstock.co.il/product/pch-5-lytr-am-rglyym-dgm-avrlndv-tsba-mvkh-af1
 https://streetstock.co.il/product/pch-30-lytr-psym-dgm-vynh-eda1ha
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: פח 30 ליטר עגול עם טקסטורת פסים דקים פח פנימי נשלף לנוחות מירבית ובעל מנגנון טריקה שקטה
 
 ### פח 5 ליטר עם רגליים דגם אורלנדו צבע לבן
@@ -632,7 +598,6 @@ https://streetstock.co.il/product/pch-5-lytr-am-rglyym-dgm-avrlndv-tsba-lbn-ozlq
 https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-shchvr-3yg2sz
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
 
 ### הדום דגם קשת צבע מוקה
@@ -646,14 +611,12 @@ https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-ckfc45
 https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-ehtip1
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
 
 ### אגרן ירקות דגם ספייס צבע מוקה
 https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-kwh4g5
 - Price: 179.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
 
 ### הדום גדול דגם קשת צבע מוקה
@@ -709,21 +672,18 @@ https://streetstock.co.il/product/mpt-shvlchn-dgm-lunar-ps-mvkh-negs8a
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-18-2wt3v6
 - Price: 54.90 ILS
 - Availability: In stock
-- Category: מגני מזרן
 - Description: מידות : 180X200 ס"מ
 
 ### זוג מגני כרית
 https://streetstock.co.il/product/zvg-mgny-kryt-f9aung
 - Price: 24.90 ILS
 - Availability: In stock
-- Category: מגני מזרן
 - Description: מידות : 50X70 ס"מ
 
 ### מגן מזרון איכותי מיטה וחצי
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-5wzhse
 - Price: 39.90 ILS
 - Availability: In stock
-- Category: מגני מזרן
 - Description: מידות : 120X200 ס"מ
 
 ### מגן מזרון איכותי מיטה יחיד
@@ -736,7 +696,6 @@ https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-us6luh
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-qpywck
 - Price: 44.90 ILS
 - Availability: In stock
-- Category: מגני מזרן
 - Description: מידות : 160X200 ס"מ
 
 ### מפת שולחן דגם LUNAR פס כסף
@@ -910,7 +869,6 @@ https://streetstock.co.il/product/svcht-lymvn-mktsvay-qt2ald
 https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-ohio-shbu9x
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: עגלות שירות
 - SKU: 729012000000
 - Description: כללי, עגלות שירות
 
@@ -1009,7 +967,6 @@ https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-i-dgm-gpn-fbivva
 https://streetstock.co.il/product/marz-6-kvsvt-yyn-mhvdrvt-330-ml-9nubfc
 - Price: 39.90 ILS
 - Availability: In stock
-- Category: כוסות + קנקני שתייה
 - SKU: 7290120000000
 - Description: כוסות
 
@@ -1062,7 +1019,6 @@ https://streetstock.co.il/product/argvnyt-mstvbbt-dgm-karin-dqe00m
 https://streetstock.co.il/product/kvs-zkvkyt-350-ml-dgm-yhlvm-vmxzie
 - Price: 9.90 ILS
 - Availability: In stock
-- Category: כוסות + קנקני שתייה
 - SKU: 7290120000000
 - Description: כוסות
 
@@ -1071,7 +1027,6 @@ https://streetstock.co.il/product/kvs-zkvkyt-350-ml-dgm-yhlvm-vmxzie
 https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-84o96c
 - Price: 9.90 ILS
 - Availability: In stock
-- Category: כוסות + קנקני שתייה
 - SKU: 7290120000000
 - Description: כוסות
 
@@ -1080,7 +1035,6 @@ https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-84o96c
 https://streetstock.co.il/product/kvs-zkvkyt-400-ml-dgm-ptryh-p2p9c6
 - Price: 9.90 ILS
 - Availability: In stock
-- Category: כוסות + קנקני שתייה
 - SKU: 7290120000000
 - Description: כוסות
 
@@ -1088,7 +1042,6 @@ https://streetstock.co.il/product/kvs-zkvkyt-400-ml-dgm-ptryh-p2p9c6
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-da8dhj
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: מעמדים דקורטיביים
 - SKU: 7290120000000
 - Description: מעמדים דקורטיביים
 
@@ -1181,7 +1134,6 @@ https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-ve264q
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-khh-b5i4zw
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### מגבת פנים דגם TULIP
@@ -1210,98 +1162,84 @@ https://streetstock.co.il/product/kryt-shynh-vigo-9kgwaz
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-bhyr-wi8zqi
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת זוגי צבע ורוד
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-vrvd-kgg9l7
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת זוגי צבע תכלת
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-7yswt8
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת זוגי צבע שמנת
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-shmnt-tmphs6
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת זוגי צבע סגול לילך
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-082zzv
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת זוגי צבע כחול כהה
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-kchvl-khh-erqubg
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת זוגי צבע טורקיז
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tvrkyz-k6iblx
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת יחיד צבע אפור בהיר
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-4x0rq4
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע אפור כהה
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-ew209j
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת זוגי צבע לבן
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-lbn-ngp1au
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 
 ### שמיכת קיץ מפנקת יחיד צבע תכלת
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tklt-xfd5oy
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע ורוד
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-vrvd-g2kmib
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע שמנת
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-shmnt-vjgmge
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע סגול לילך
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-elpe71
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע טורקיז
@@ -1314,21 +1252,18 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-ourq7e
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-4gl0co
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### שמיכת קיץ מפנקת יחיד צבע לבן
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-lbn-p949xq
 - Price: 29.90 ILS
 - Availability: In stock
-- Category: שמיכות קיץ
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 
 ### סט מצעים כותנה פרקל דגם קוסמוי צבע לבן+בז'
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-ch8kg2
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1337,7 +1272,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-ch8
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-1163vq
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1346,7 +1280,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-1163v
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-1zbf0w
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1355,7 +1288,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-1zbf0w
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-qx1uvv
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1364,7 +1296,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-qx1u
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-c1e3sq
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1373,7 +1304,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-c1e3
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-2dv334
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1382,7 +1312,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-2dv33
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-82422v
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1391,7 +1320,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-82422
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-shpsra
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1400,7 +1328,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-shpsra
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-vsnfpj
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1409,7 +1336,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-vsnfpj
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-3rlt49
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1418,7 +1344,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-3rlt49
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-aln697
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1427,7 +1352,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-aln697
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-6ha6dk
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1436,7 +1360,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-6ha6dk
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-m9r9j4
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1445,7 +1368,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-m9r9j4
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-hvwdct
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1454,7 +1376,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-hvwdct
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-9ivuib
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1463,7 +1384,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-9ivuib
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-zhezgf
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1472,7 +1392,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-zhezgf
 https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-84wtba
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1481,7 +1400,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-84wtba
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-vhw9xj
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1490,7 +1408,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-v
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-6hnk0y
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1499,7 +1416,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-leo64a
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1508,7 +1424,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-leo6
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-rv0ep8
 - Price: 249.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1552,7 +1467,6 @@ https://streetstock.co.il/product/syr-nyrvsth-24-sm-4-lytr-2c0b8p
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-t9z0sc
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1561,7 +1475,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-t9z0sc
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-ys2e19
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1570,7 +1483,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-ys2e19
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-dsultu
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1579,7 +1491,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-dsultu
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-drgzyb
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1588,7 +1499,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-drgzyb
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-uw5ewu
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
@@ -1597,7 +1507,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-uw5ewu
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-76rubg
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: סט מצעים  100% כותנה
 - SKU: מיטה זוגית
 מיטה זוגית קינג 1.8
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')

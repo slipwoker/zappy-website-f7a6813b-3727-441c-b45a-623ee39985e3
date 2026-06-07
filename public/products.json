@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-07T12:19:19.257Z",
+  "generated_at": "2026-06-07T12:21:49.570Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 411,
@@ -22,9 +22,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-lymh-7z7u8c",
-      "categories": [
-        "צלחות+סכום"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:27.917Z"
     },
     {
@@ -44,9 +42,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-ryv-o8z7j9",
-      "categories": [
-        "צלחות+סכום"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.631Z"
     },
     {
@@ -66,9 +62,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-eu9s3c",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.625Z"
     },
     {
@@ -88,9 +82,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-tsba-zhb-mt-dgm-ryv-ncwmtd",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.552Z"
     },
     {
@@ -110,9 +102,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-ebtasq",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.546Z"
     },
     {
@@ -132,9 +122,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-y3mnfh",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.546Z"
     },
     {
@@ -154,9 +142,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-vrvd-85-sm-i1ec9o",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.538Z"
     },
     {
@@ -176,9 +162,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-sgvl-85-sm-o4h4ov",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.520Z"
     },
     {
@@ -198,9 +182,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-lbn-85-sm-7evhin",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.512Z"
     },
     {
@@ -220,9 +202,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-85-sm-jrzlcj",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.510Z"
     },
     {
@@ -242,9 +222,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-yrvk-85-sm-mq9pvu",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:26.510Z"
     },
     {
@@ -264,9 +242,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-85-sm-8vku70",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:25.096Z"
     },
     {
@@ -286,9 +262,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-85-sm-2kz7ln",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:25.075Z"
     },
     {
@@ -308,9 +282,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-ktvm-85-sm-e4c88y",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:25.072Z"
     },
     {
@@ -374,9 +346,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mastr-skyn-shp-20-sm-arcosteel-ydnvn2",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:25.044Z"
     },
     {
@@ -418,9 +388,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mastr-skyn-sntvkv-17-sm-arcosteel-8yr1pd",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:25.040Z"
     },
     {
@@ -480,9 +448,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-lchm-mhvdrt-mayr-advny-22-sm-arcosteel-bs7098",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:23.246Z"
     },
     {
@@ -502,9 +468,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mastr-skyn-sntvkv-14-sm-arcosteel-nkd2mg",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:23.222Z"
     },
     {
@@ -1052,9 +1016,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-mgr8sx",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:19.877Z"
     },
     {
@@ -1074,9 +1036,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-ndvgsw",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:19.799Z"
     },
     {
@@ -1096,9 +1056,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-4xe1om",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:19.713Z"
     },
     {
@@ -1118,9 +1076,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-jf0ny7",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:19.712Z"
     },
     {
@@ -1140,9 +1096,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-acflpu",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:18.059Z"
     },
     {
@@ -1162,9 +1116,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-yidk5x",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:18.058Z"
     },
     {
@@ -1206,9 +1158,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-5i7j40",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:18.056Z"
     },
     {
@@ -1228,9 +1178,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-flhfdg",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:18.054Z"
     },
     {
@@ -1316,9 +1264,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-vq6qor",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:17.860Z"
     },
     {
@@ -1360,9 +1306,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbv-ibdbid",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:16.428Z"
     },
     {
@@ -1382,9 +1326,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-4-mgyrvt-bmbvk-p3bq69",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:16.427Z"
     },
     {
@@ -1404,9 +1346,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-6-mgyrvt-dgm-bmbv-ijhd9t",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:16.427Z"
     },
     {
@@ -1426,9 +1366,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-z0ziwl",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:16.427Z"
     },
     {
@@ -1580,9 +1518,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/tslchvt-pvrtsln-spiral-18-chlkym-hp8alj",
-      "categories": [
-        "צלחות+סכום"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:14.516Z"
     },
     {
@@ -1602,9 +1538,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/tslchvt-pvrtsln-glaze-12-chlkym-vkbe4i",
-      "categories": [
-        "צלחות+סכום"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:14.513Z"
     },
     {
@@ -1737,9 +1671,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/pch-30-lytr-psym-dgm-vynh-eda1ha",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:14.204Z"
     },
     {
@@ -1782,9 +1714,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-shchvr-3yg2sz",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:14.091Z"
     },
     {
@@ -1826,9 +1756,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-ehtip1",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:12.463Z"
     },
     {
@@ -1848,9 +1776,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-kwh4g5",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:12.462Z"
     },
     {
@@ -2024,9 +1950,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-18-2wt3v6",
-      "categories": [
-        "מגני מזרן"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:10.024Z"
     },
     {
@@ -2046,9 +1970,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/zvg-mgny-kryt-f9aung",
-      "categories": [
-        "מגני מזרן"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:10.023Z"
     },
     {
@@ -2068,9 +1990,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-5wzhse",
-      "categories": [
-        "מגני מזרן"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:10.022Z"
     },
     {
@@ -2110,9 +2030,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-qpywck",
-      "categories": [
-        "מגני מזרן"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:09.997Z"
     },
     {
@@ -2574,9 +2492,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-ohio-shbu9x",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:06.138Z"
     },
     {
@@ -2817,9 +2733,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-6-kvsvt-yyn-mhvdrvt-330-ml-9nubfc",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:04.643Z"
     },
     {
@@ -2949,9 +2863,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kvs-zkvkyt-350-ml-dgm-yhlvm-vmxzie",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:02.676Z"
     },
     {
@@ -2971,9 +2883,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-84o96c",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:02.676Z"
     },
     {
@@ -2993,9 +2903,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kvs-zkvkyt-400-ml-dgm-ptryh-p2p9c6",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:02.675Z"
     },
     {
@@ -3015,9 +2923,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-da8dhj",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:02.675Z"
     },
     {
@@ -3257,9 +3163,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-khh-b5i4zw",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:16:00.871Z"
     },
     {
@@ -3345,9 +3249,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-bhyr-wi8zqi",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.304Z"
     },
     {
@@ -3367,9 +3269,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-vrvd-kgg9l7",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.303Z"
     },
     {
@@ -3389,9 +3289,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-7yswt8",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.303Z"
     },
     {
@@ -3411,9 +3309,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-shmnt-tmphs6",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.299Z"
     },
     {
@@ -3433,9 +3329,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-082zzv",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.206Z"
     },
     {
@@ -3455,9 +3349,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-kchvl-khh-erqubg",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.192Z"
     },
     {
@@ -3477,9 +3369,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tvrkyz-k6iblx",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.191Z"
     },
     {
@@ -3499,9 +3389,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-4x0rq4",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.166Z"
     },
     {
@@ -3521,9 +3409,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-ew209j",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.164Z"
     },
     {
@@ -3543,9 +3429,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-lbn-ngp1au",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:59.164Z"
     },
     {
@@ -3565,9 +3449,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tklt-xfd5oy",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.805Z"
     },
     {
@@ -3587,9 +3469,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-vrvd-g2kmib",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.801Z"
     },
     {
@@ -3609,9 +3489,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-shmnt-vjgmge",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.714Z"
     },
     {
@@ -3631,9 +3509,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-elpe71",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.714Z"
     },
     {
@@ -3673,9 +3549,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-4gl0co",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.713Z"
     },
     {
@@ -3695,9 +3569,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-lbn-p949xq",
-      "categories": [
-        "שמיכות קיץ"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.689Z"
     },
     {
@@ -3717,9 +3589,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-ch8kg2",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.561Z"
     },
     {
@@ -3739,9 +3609,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-1163vq",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.560Z"
     },
     {
@@ -3761,9 +3629,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-1zbf0w",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:56.553Z"
     },
     {
@@ -3783,9 +3649,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-qx1uvv",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.139Z"
     },
     {
@@ -3805,9 +3669,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-c1e3sq",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.139Z"
     },
     {
@@ -3827,9 +3689,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-2dv334",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.138Z"
     },
     {
@@ -3849,9 +3709,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-82422v",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.137Z"
     },
     {
@@ -3871,9 +3729,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-shpsra",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.003Z"
     },
     {
@@ -3893,9 +3749,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-vsnfpj",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.002Z"
     },
     {
@@ -3915,9 +3769,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-3rlt49",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.000Z"
     },
     {
@@ -3937,9 +3789,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-aln697",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:55.000Z"
     },
     {
@@ -3959,9 +3809,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-6ha6dk",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:54.995Z"
     },
     {
@@ -3981,9 +3829,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-m9r9j4",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:54.897Z"
     },
     {
@@ -4003,9 +3849,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-hvwdct",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.381Z"
     },
     {
@@ -4025,9 +3869,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-9ivuib",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.377Z"
     },
     {
@@ -4047,9 +3889,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-zhezgf",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.372Z"
     },
     {
@@ -4069,9 +3909,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-84wtba",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.372Z"
     },
     {
@@ -4091,9 +3929,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-vhw9xj",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.371Z"
     },
     {
@@ -4113,9 +3949,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-6hnk0y",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.354Z"
     },
     {
@@ -4135,9 +3969,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-leo64a",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.342Z"
     },
     {
@@ -4157,9 +3989,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-rv0ep8",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:53.342Z"
     },
     {
@@ -4289,9 +4119,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-t9z0sc",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.538Z"
     },
     {
@@ -4311,9 +4139,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-ys2e19",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.538Z"
     },
     {
@@ -4333,9 +4159,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-dsultu",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.535Z"
     },
     {
@@ -4355,9 +4179,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-drgzyb",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.534Z"
     },
     {
@@ -4377,9 +4199,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-uw5ewu",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.533Z"
     },
     {
@@ -4399,9 +4219,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-76rubg",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.444Z"
     },
     {
@@ -4421,9 +4239,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-nmrcfu",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:51.422Z"
     },
     {
@@ -4467,9 +4283,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-2rrhoh",
-      "categories": [
-        "סט מצעים  100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:49.791Z"
     },
     {
@@ -4691,9 +4505,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/knkn-th-zkvkyt-1300-ml-7h5hyg",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:48.512Z"
     },
     {
@@ -4906,8 +4718,7 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-10-kvlby-ktyph-shchvr-oxkcc9",
       "categories": [
-        "כללי",
-        "קולבים"
+        "כללי"
       ],
       "updated_at": "2026-06-07T12:15:45.075Z"
     },
@@ -4930,9 +4741,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-fgpcrf",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:45.061Z"
     },
     {
@@ -4954,9 +4763,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/argvnyt-2-kvmvt-lbn-dgm-texas-id425-10-e35512",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:44.956Z"
     },
     {
@@ -5050,9 +4857,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-c6c3sl",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:44.369Z"
     },
     {
@@ -5098,9 +4903,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-lz5s9c",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:43.705Z"
     },
     {
@@ -5123,8 +4926,7 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-10-ychydvt-kvlby-plstyk-839x2n",
       "categories": [
-        "כללי",
-        "קולבים"
+        "כללי"
       ],
       "updated_at": "2026-06-07T12:15:43.476Z"
     },
@@ -5243,9 +5045,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shvk-dgm-washingston-wcpabz",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:36.708Z"
     },
     {
@@ -5267,9 +5067,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-um4ncp",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:36.461Z"
     },
     {
@@ -5555,9 +5353,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-7lem6j",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:32.263Z"
     },
     {
@@ -5580,8 +5376,7 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-10-ychydvt-kvlby-ktyph-tsba-krm-l0ani7",
       "categories": [
-        "כללי",
-        "קולבים"
+        "כללי"
       ],
       "updated_at": "2026-06-07T12:15:32.199Z"
     },
@@ -5604,9 +5399,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-shchvr-dgm-arizona-id368-6-95k9sk",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:31.911Z"
     },
     {
@@ -5652,9 +5445,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-3-kvmvt-shchvr-dgm-arizona-id842-6-4z8jsa",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:30.264Z"
     },
     {
@@ -5700,9 +5491,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-3-kvmvt-shchvr-dgm-calirfonia-9sqt25",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:30.254Z"
     },
     {
@@ -5798,8 +5587,7 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-ti9xld",
       "categories": [
-        "כללי",
-        "קולבים"
+        "כללי"
       ],
       "updated_at": "2026-06-07T12:15:29.018Z"
     },
@@ -5822,9 +5610,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/argvnyt-2-kvmvt-shchvr-dgm-texas-id424-10-a1ckhe",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:29.006Z"
     },
     {
@@ -5919,9 +5705,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-shchvr-apa2h6",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:26.942Z"
     },
     {
@@ -5967,9 +5751,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-40-sm-uf84bm",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:26.310Z"
     },
     {
@@ -6015,9 +5797,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-rd6hdk",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:26.025Z"
     },
     {
@@ -6185,9 +5965,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-shchvr-dgm-nubo-axo2u4",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:22.768Z"
     },
     {
@@ -6258,9 +6036,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-calirfonia-id367-6-h15yku",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:22.165Z"
     },
     {
@@ -6451,9 +6227,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-arizona-id369-6-n9rjws",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:17.972Z"
     },
     {
@@ -6475,9 +6249,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-80-sm-j5pp4b",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:17.967Z"
     },
     {
@@ -6571,9 +6343,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-84tsfw",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:17.112Z"
     },
     {
@@ -6595,9 +6365,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-shchvr-dgm-milo-ubxg96",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:15.251Z"
     },
     {
@@ -6619,9 +6387,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-ats-dgm-nubo-ehdflx",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:15.236Z"
     },
     {
@@ -6788,9 +6554,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-3-kvmvt-lbn-dgm-calirfonia-id845-6-ry3qvo",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:13.423Z"
     },
     {
@@ -6812,9 +6576,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-new-york-2xwbw3",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:13.363Z"
     },
     {
@@ -6885,9 +6647,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shvk-dgm-oregon-xueyaz",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:06.777Z"
     },
     {
@@ -6909,9 +6669,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-daro-mkfqj4",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:06.326Z"
     },
     {
@@ -6981,9 +6739,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-a4-sd5wr2",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:05.161Z"
     },
     {
@@ -7029,9 +6785,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-vqdy92",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:03.705Z"
     },
     {
@@ -7149,9 +6903,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-shchvr-dgm-kora-h3usk3",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:01.262Z"
     },
     {
@@ -7244,9 +6996,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-ats-dgm-milo-bsxiz7",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:15:00.582Z"
     },
     {
@@ -7318,9 +7068,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-poyy4d",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:58.508Z"
     },
     {
@@ -7390,9 +7138,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-rchb-tsba-ats-dgm-taro-kn315t",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:58.418Z"
     },
     {
@@ -7558,9 +7304,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-zy5js1",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:54.867Z"
     },
     {
@@ -7772,9 +7516,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-laxlec",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:53.865Z"
     },
     {
@@ -7844,9 +7586,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/knkn-shtyyh-zkvkyt-1400-ml-xv90dq",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:46.818Z"
     },
     {
@@ -8159,9 +7899,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/knkn-shtyyh-zkvkyt-1500-ml-9xqqjl",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:42.990Z"
     },
     {
@@ -8207,9 +7945,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mykl-shtyyhbrz-4-l-85g7dg",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:42.964Z"
     },
     {
@@ -8229,9 +7965,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-zxfv21",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:42.482Z"
     },
     {
@@ -8278,9 +8012,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-4jjzvy",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:40.870Z"
     },
     {
@@ -8302,9 +8034,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-rchb-tsba-shchvr-dgm-taro-9hedv1",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:38.270Z"
     },
     {
@@ -8326,9 +8056,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-3-kvmvt-lbn-dgm-arizona-id843-6-tm8nrd",
-      "categories": [
-        "עגלות שירות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:37.688Z"
     },
     {
@@ -8350,9 +8078,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-60-sm-q1048e",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:37.262Z"
     },
     {
@@ -8399,9 +8125,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/prkvltvr-1000-ml-4jm22c",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:37.022Z"
     },
     {
@@ -8546,9 +8270,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-shchvr-dgm-silo-m30o57",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:34.383Z"
     },
     {
@@ -8595,8 +8317,7 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-5-ychydvt-kvlby-ats-8pj4jp",
       "categories": [
-        "כללי",
-        "קולבים"
+        "כללי"
       ],
       "updated_at": "2026-06-07T12:14:33.688Z"
     },
@@ -8956,9 +8677,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-330-ml-4cxzhs",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:28.471Z"
     },
     {
@@ -9197,9 +8916,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-9u2ixo",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:24.413Z"
     },
     {
@@ -9221,9 +8938,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shvlchn-nshkn-aydyal-t4h0u8",
-      "categories": [
-        "מעמדים דקורטיביים"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:23.809Z"
     },
     {
@@ -9363,9 +9078,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-bkan0m",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:21.557Z"
     },
     {
@@ -9435,9 +9148,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-a3-qiwp83",
-      "categories": [
-        "מראות ומסגרות תמונה"
-      ],
+      "categories": [],
       "updated_at": "2026-06-07T12:14:20.366Z"
     },
     {
