@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-07T13:17:05.069Z",
+  "generated_at": "2026-06-07T13:23:31.396Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -1039,7 +1039,7 @@
     },
     {
       "id": "77367d1f-1d22-4ebc-bc80-930808043016",
-      "slug": "skyn-svlyngn-tsba-vrvd-85-sm-ueotxt",
+      "slug": "skyn-svlyngn-tsba-vrvd-85-sm-nsv3m6",
       "name": "סכין סולינגן צבע ורוד 8.5 סמ",
       "name_translations": {},
       "description": "",
@@ -1051,15 +1051,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837766949-ihjyp9.webp"
+        "https://streetstock.co.il/assets/product-enhanced-1780838570875-2h93p.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-vrvd-85-sm-ueotxt",
+      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-vrvd-85-sm-nsv3m6",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-06-07T13:09:27.379Z"
+      "updated_at": "2026-06-07T13:22:58.449Z"
     },
     {
       "id": "36e91c40-c9e4-4c2d-a848-4ab5f51b301b",
