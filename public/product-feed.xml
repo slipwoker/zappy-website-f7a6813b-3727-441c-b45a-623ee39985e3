@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 08 Jun 2026 11:47:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jun 2026 11:53:14 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 סמ</g:title>
@@ -3002,8 +3002,8 @@
       <g:id>5b6ec480-e9f6-4ba9-a4d3-d7dcf2186949</g:id>
       <g:title>דיספנסר לסבון דגם AVERO
   צבע בג&apos;</g:title>
-      <g:description>דיספנסרים, דיספנסרים למטבח</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-avero-tsba-bg-mnva83</g:link>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-avero-tsba-bg-c4bdba</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837701189-0om2mq.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
@@ -4846,20 +4846,6 @@
       <g:product_type>פחי שירותים</g:product_type>
     </item>
     <item>
-      <g:id>5dec84d1-4092-4202-9a91-739f6b0e9e8d</g:id>
-      <g:title>מברשת אסלה צבע שחור דגם BINO
-</g:title>
-      <g:description>פחי שירותים, פחי אמבטיה</g:description>
-      <g:link>https://streetstock.co.il/product/mbrsht-aslh-tsba-shchvr-dgm-bino-g0xodc</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837652696-j5df4q.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>24.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121563987</g:mpn>
-      <g:product_type>פחי שירותים</g:product_type>
-    </item>
-    <item>
       <g:id>5e0395db-e899-456f-9658-03c34ae435d2</g:id>
       <g:title>מברשת אסלה צבע לבן דגם BINO
 </g:title>
@@ -4871,6 +4857,20 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121563970</g:mpn>
+      <g:product_type>פחי שירותים</g:product_type>
+    </item>
+    <item>
+      <g:id>5dec84d1-4092-4202-9a91-739f6b0e9e8d</g:id>
+      <g:title>מברשת אסלה צבע שחור דגם BINO
+</g:title>
+      <g:description>פחי שירותים, פחי אמבטיה</g:description>
+      <g:link>https://streetstock.co.il/product/mbrsht-aslh-tsba-shchvr-dgm-bino-g0xodc</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837652696-j5df4q.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>24.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563987</g:mpn>
       <g:product_type>פחי שירותים</g:product_type>
     </item>
     <item>
