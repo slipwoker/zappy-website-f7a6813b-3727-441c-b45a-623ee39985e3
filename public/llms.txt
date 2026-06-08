@@ -770,6 +770,7 @@ https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-2
 - Price: 99.90 ILS
 - Availability: In stock
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
+- Image: https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp
 
 ### סט מצעים כותנה הום סטייל דגם אפריל
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54
@@ -783,12 +784,14 @@ https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-k
 - Price: 99.90 ILS
 - Availability: In stock
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
+- Image: https://streetstock.co.il/assets/product-1780903164990-ptfcp8.webp
 
 ### כיסוי מיטה מהודר + זוג ציפיות לכרית צבע לבן
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n
 - Price: 99.90 ILS
 - Availability: In stock
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
+- Image: https://streetstock.co.il/assets/product-1780903164990-vqjm5u.webp
 
 ### סט מצעים כותנה הום סטייל דגם נבדה טורקיז
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gzql
@@ -1389,6 +1392,7 @@ https://streetstock.co.il/product/kryt-shynh-panda-6pmflz
 - Availability: In stock
 - Category: כריות שינה
 - Description: מידות : 50X70 ס"מ
+- Image: https://streetstock.co.il/assets/product-1780903164990-zwazyq.webp
 
 ### כרית שינה VIGO
 https://streetstock.co.il/product/kryt-shynh-vigo-iuanzw

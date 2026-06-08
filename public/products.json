@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-08T06:12:23.755Z",
+  "generated_at": "2026-06-08T11:47:27.283Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -2150,12 +2150,14 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-2bstmx",
       "categories": [],
-      "updated_at": "2026-06-07T13:09:11.614Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "129534c6-7114-4b10-80ee-b2aa8c88ba21",
@@ -2192,12 +2194,14 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164990-ptfcp8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm",
       "categories": [],
-      "updated_at": "2026-06-07T13:09:11.585Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "cefa7d5b-5c97-4479-a73f-60470e591a00",
@@ -2212,12 +2216,14 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164990-vqjm5u.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n",
       "categories": [],
-      "updated_at": "2026-06-07T13:09:11.430Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "040b04f4-60aa-44b2-b033-718ed215e4a4",
@@ -4074,14 +4080,16 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164990-zwazyq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kryt-shynh-panda-6pmflz",
       "categories": [
         "כריות שינה"
       ],
-      "updated_at": "2026-06-07T13:08:48.072Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "b94e9c47-959e-482b-89b3-03181408ca52",
@@ -5258,14 +5266,16 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164990-9bcuqn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-lrvj0x",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-07T13:08:24.478Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "06aa0f5c-2bd0-4d69-9999-24a5bdb062ed",
@@ -5550,7 +5560,7 @@
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-06-07T13:08:21.677Z"
+      "updated_at": "2026-06-08T11:47:04.212Z"
     },
     {
       "id": "a0cf96c1-8b75-419d-be3b-7833bb6250a1",
@@ -7878,12 +7888,14 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164989-fgvkqb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-zfcwxy",
       "categories": [],
-      "updated_at": "2026-06-07T13:07:44.109Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "432d0297-71d8-4a42-a0ca-9c375400cb56",
@@ -7898,12 +7910,14 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164989-mahcah.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ln9p4f",
       "categories": [],
-      "updated_at": "2026-06-07T13:07:44.079Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "74509957-05db-4e97-a211-3d6da4f1ba19",
@@ -7918,12 +7932,14 @@
       "base_price": 79.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1780903164989-bwz0ak.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-ats-dgm-milo-xx7zgh",
       "categories": [],
-      "updated_at": "2026-06-07T13:07:44.079Z"
+      "updated_at": "2026-06-08T07:24:03.155Z"
     },
     {
       "id": "0910f4d0-180b-4a45-92a0-b5ec40e86adf",
