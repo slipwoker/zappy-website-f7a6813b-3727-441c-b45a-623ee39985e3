@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-08T16:32:49.144Z",
+  "generated_at": "2026-06-08T16:35:06.995Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4001,11 +4001,11 @@
     },
     {
       "id": "f80187ce-91ff-4125-85cb-af7c50d0ecd3",
-      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-1ljm9d",
+      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-0yvj87",
       "name": "הדום גדול דגם קשת צבע לבן",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות המוצר: 76X40X40 ס\"מ\r\nהדום קשתות בעיצוב אופנתי\r\nעשוי מבד בוקלה\r\n\r\n",
+      "short_description": "הדום קשתות בעיצוב אופנתי עשוי מבד בוקלה\n",
       "sku": null,
       "brand": null,
       "price": 299.9,
@@ -4017,11 +4017,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-1ljm9d",
+      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-0yvj87",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-07T13:08:49.539Z"
+      "updated_at": "2026-06-08T16:34:38.286Z"
     },
     {
       "id": "98e50817-21a0-4669-9e4e-a714ab8fc0cb",
