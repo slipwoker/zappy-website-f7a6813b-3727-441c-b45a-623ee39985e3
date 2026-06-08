@@ -1978,6 +1978,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -9459,21 +9461,63 @@ function initTransparentNavbarScrollEffect() {
   if (!pageHasDarkHero) {
     window.removeEventListener('scroll', onScroll);
     window.removeEventListener('resize', onScroll);
-    nb.classList.add('scrolled');
-    nb.style.setProperty('--frosted-text', scrolledTextColor);
-    nb.style.setProperty('background-image', 'none', 'important');
-    nb.style.backdropFilter = 'blur(12px)';
-    nb.style.webkitBackdropFilter = 'blur(12px)';
-    nb.style.boxShadow = '0 2px 16px rgba(0,0,0,0.12)';
-    setScrolledColors(nb, scrolledTextColor);
-    if (window.innerWidth > 768) nb.style.setProperty('background-color', frostedBg, 'important');
-    if (cm) {
-      cm.classList.add('scrolled');
-      cm.style.setProperty('background', frostedBg, 'important');
-      cm.style.setProperty('backdrop-filter', 'blur(12px)', 'important');
-      cm.style.setProperty('-webkit-backdrop-filter', 'blur(12px)', 'important');
-      setScrolledColors(cm, scrolledTextColor);
+    // Apply the locked frosted state in a WIDTH-RESPONSIVE way. The .scrolled
+    // class is added on every viewport (so the CSS solid-bg + mobile link-color
+    // rules apply), but the frosted glass + inline scrolled text color are only
+    // applied on DESKTOP. On mobile the open menu is a solid, full-screen panel
+    // whose background is independent of the navbar bar's frosted background, so
+    // stamping the desktop frosted text color (computed from the page bg) as an
+    // inline color:!important on every menu link renders the items invisible
+    // (dark-on-dark). The mobile link colors are owned by the
+    // @media(max-width:768px) CSS rules instead.
+    //
+    // CRITICAL: this must run on resize too, NOT just once. A preview/editor
+    // iframe (Preview.js loads at desktop width, then resizes to a 375px phone
+    // frame WITHOUT reloading) — and desktop devtools mobile emulation — both
+    // initialize this script at a desktop width and only later become mobile.
+    // If we stamped the desktop frosted color once and stopped listening, the
+    // dark inline color would persist onto the mobile menu panel. So re-apply
+    // the width-correct state on every resize.
+    function applyLockedState() {
+      var desktop = window.innerWidth > 768;
+      nb.classList.add('scrolled');
+      if (desktop) {
+        nb.style.setProperty('--frosted-text', scrolledTextColor);
+        nb.style.setProperty('background-image', 'none', 'important');
+        nb.style.setProperty('background-color', frostedBg, 'important');
+        nb.style.backdropFilter = 'blur(12px)';
+        nb.style.webkitBackdropFilter = 'blur(12px)';
+        nb.style.boxShadow = '0 2px 16px rgba(0,0,0,0.12)';
+        setScrolledColors(nb, scrolledTextColor);
+      } else {
+        // Mobile: hand the link colors back to CSS and drop the inline frosted
+        // styling (incl. backdrop-filter, which would re-establish a
+        // fixed-positioning containing block and collapse the open menu).
+        nb.style.removeProperty('--frosted-text');
+        nb.style.removeProperty('background-image');
+        nb.style.removeProperty('background-color');
+        nb.style.backdropFilter = '';
+        nb.style.webkitBackdropFilter = '';
+        nb.style.boxShadow = '';
+        clearScrolledColors(nb);
+      }
+      if (cm) {
+        cm.classList.add('scrolled');
+        if (desktop) {
+          cm.style.setProperty('background', frostedBg, 'important');
+          cm.style.setProperty('backdrop-filter', 'blur(12px)', 'important');
+          cm.style.setProperty('-webkit-backdrop-filter', 'blur(12px)', 'important');
+          setScrolledColors(cm, scrolledTextColor);
+        } else {
+          cm.style.removeProperty('background');
+          cm.style.removeProperty('backdrop-filter');
+          cm.style.removeProperty('-webkit-backdrop-filter');
+          clearScrolledColors(cm);
+        }
+      }
     }
+    applyLockedState();
+    window.addEventListener('resize', applyLockedState, { passive: true });
   }
 }
 
