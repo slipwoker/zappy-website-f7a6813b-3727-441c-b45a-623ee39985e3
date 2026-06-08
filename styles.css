@@ -18019,6 +18019,8 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 
 
 
+
+
 /* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
 @media (min-width: 769px) {
   .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
@@ -18034,6 +18036,15 @@ to { opacity: 1; transform: rotate(0) scale(1); } }
 }
 /* /Zappy custom logo size */
 
+
+@media (max-width: 768px) {
+.navbar .logo,
+  .nav-brand .logo {
+  max-width: 180px !important;
+  width: auto !important;
+  height: auto !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
