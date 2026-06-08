@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-08T11:57:02.941Z",
+  "generated_at": "2026-06-08T11:58:23.719Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -5564,10 +5564,10 @@
     },
     {
       "id": "a0cf96c1-8b75-419d-be3b-7833bb6250a1",
-      "slug": "kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-o37xc5",
-      "name": "כוס למברשת שיניים דגם AVERO\r\n  צבע לבן ",
+      "slug": "kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-i2ej18",
+      "name": "כוס למברשת שיניים דגם AVERO צבע לבן ",
       "name_translations": {},
-      "description": "דיספנסרים, דיספנסרים למטבח",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563123",
       "brand": null,
@@ -5580,12 +5580,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-o37xc5",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-i2ej18",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-06-07T13:08:21.676Z"
+      "updated_at": "2026-06-08T11:57:50.560Z"
     },
     {
       "id": "cb4a764b-dfc2-4526-b8e9-8058b25e74d4",
