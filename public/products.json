@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T13:02:46.423Z",
+  "generated_at": "2026-06-09T13:03:14.953Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -103,7 +103,7 @@
     },
     {
       "id": "b3af5284-8ac8-4377-998b-1a22db68f0d6",
-      "slug": "vylvn-zbrh-glylh-shchvr-160x160-sm-5rzjga",
+      "slug": "vylvn-zbrh-glylh-shchvr-160x160-sm-ksy9gx",
       "name": "וילון זברה גלילה - שחור 160X160 סמ",
       "name_translations": {},
       "description": "",
@@ -119,11 +119,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-160x160-sm-5rzjga",
+      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-160x160-sm-ksy9gx",
       "categories": [
         "וילונות"
       ],
-      "updated_at": "2026-06-09T13:02:42.270Z"
+      "updated_at": "2026-06-09T13:03:08.071Z"
     },
     {
       "id": "ace9d998-6748-4fe5-a44a-9a729a6991c3",
