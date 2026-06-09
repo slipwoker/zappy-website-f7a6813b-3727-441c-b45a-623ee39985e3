@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T13:30:00.023Z",
+  "generated_at": "2026-06-09T13:56:43.949Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -1367,103 +1367,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "0bdef036-9898-4393-9783-285d68277d60",
-      "slug": "st-2-mtlyvt-hchlph-lmbrykn-3q9tnu",
-      "name": "סט 2 מטליות החלפה למבריקן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מטלית המיקרופייבר לניקוי רצפות מתאימה למבריקן סיליקון- 2 יחידות בערכה.\r\nיש להצמיד את הצד הלבן של המטלית לסקוצים המחוברים לראש סיליקון.\r\nהמטלית מיקרופייבר מנקה היטב משטחים יבשים ורטובים כאחד.\r\nמטלית המיקרופייבר מקרצפת ומנקה ביעילות את הלכלוך.\r\nמטלית הניקוי מעוצבת בעיצוב ייחודי המשלב את טכניקות הניקוי הטובות ביותר.",
-      "sku": null,
-      "brand": null,
-      "price": 39.9,
-      "base_price": 39.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837760495-0e62vxf.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmbrykn-3q9tnu",
-      "categories": [
-        "טירולר"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "8a5f0d69-a6bd-4b29-85cc-3fa5182e0040",
-      "slug": "mtlyt-mykrvpyybr-mktsvayt-lnykvy-vhbrkh-l86geh",
-      "name": "מטלית מיקרופייבר מקצועית לניקוי והברקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "המטלית עשויה מבד המיקורפייבר האיכותי ביותר שקיים\r\nתוצאות הברקה מושלמות\r\nניתן לשטוף ולכבס את המטלית פעמים רבות תוך שמירה על האיכות",
-      "sku": null,
-      "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837760494-mmfhrh.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlyt-mykrvpyybr-mktsvayt-lnykvy-vhbrkh-l86geh",
-      "categories": [
-        "טירולר"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "be9de7bb-3450-421d-b654-52da9bbc4d46",
-      "slug": "mtlyt-hchlph-lmnkh-chlvnvt-h103mh",
-      "name": "מטלית החלפה למנקה חלונות",
-      "name_translations": {},
-      "description": "",
-      "short_description": "100% בד מיקרופייבר מובחר\r\nרחיץ ניתן לשימוש חוזר ולכביסה (עדינה).\r\nמטלית מיקרופייבר איכותית ביותר לניקוי יבש ורטוב\r\nצפיפות גבוהה ביותר של 0.2 דנייר.",
-      "sku": null,
-      "brand": null,
-      "price": 15.9,
-      "base_price": 15.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837760495-sb0zk8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlyt-hchlph-lmnkh-chlvnvt-h103mh",
-      "categories": [
-        "טירולר"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "d8529c48-8efc-4319-912e-59bdb2ade9ae",
-      "slug": "st-2-mtlyvt-hchlph-lmyny-mbrykn-kx0nou",
-      "name": "סט 2 מטליות החלפה למיני מבריקן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צפיפות גבוהה ביותר של 0.2 דנייר\r\n100% בד מיקרופייבר מובחר\r\nמטלית קרצוף שמתאימה למיני מבריקן\r\nמטלית הברקה שמתאימה למיני מבריקן",
-      "sku": null,
-      "brand": null,
-      "price": 39.9,
-      "base_price": 39.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837760494-d82d7v.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmyny-mbrykn-kx0nou",
-      "categories": [
-        "טירולר"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "f9cd208c-abf6-47a9-b1b5-a2d4fc1e4475",
@@ -1487,7 +1391,103 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
+    },
+    {
+      "id": "9b219d40-5d95-4f06-ba33-c01ef384d138",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5",
+      "name": "מברשת אסלה 100% סיליקון צבע שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
+      "sku": null,
+      "brand": null,
+      "price": 109.9,
+      "base_price": 109.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837760302-xohd17.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-06-09T13:36:20.033Z"
+    },
+    {
+      "id": "0bdef036-9898-4393-9783-285d68277d60",
+      "slug": "st-2-mtlyvt-hchlph-lmbrykn-3q9tnu",
+      "name": "סט 2 מטליות החלפה למבריקן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מטלית המיקרופייבר לניקוי רצפות מתאימה למבריקן סיליקון- 2 יחידות בערכה.\r\nיש להצמיד את הצד הלבן של המטלית לסקוצים המחוברים לראש סיליקון.\r\nהמטלית מיקרופייבר מנקה היטב משטחים יבשים ורטובים כאחד.\r\nמטלית המיקרופייבר מקרצפת ומנקה ביעילות את הלכלוך.\r\nמטלית הניקוי מעוצבת בעיצוב ייחודי המשלב את טכניקות הניקוי הטובות ביותר.",
+      "sku": null,
+      "brand": null,
+      "price": 39.9,
+      "base_price": 39.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837760495-0e62vxf.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmbrykn-3q9tnu",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-06-09T13:36:20.033Z"
+    },
+    {
+      "id": "8a5f0d69-a6bd-4b29-85cc-3fa5182e0040",
+      "slug": "mtlyt-mykrvpyybr-mktsvayt-lnykvy-vhbrkh-l86geh",
+      "name": "מטלית מיקרופייבר מקצועית לניקוי והברקה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "המטלית עשויה מבד המיקורפייבר האיכותי ביותר שקיים\r\nתוצאות הברקה מושלמות\r\nניתן לשטוף ולכבס את המטלית פעמים רבות תוך שמירה על האיכות",
+      "sku": null,
+      "brand": null,
+      "price": 24.9,
+      "base_price": 24.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837760494-mmfhrh.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mtlyt-mykrvpyybr-mktsvayt-lnykvy-vhbrkh-l86geh",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-06-09T13:36:20.033Z"
+    },
+    {
+      "id": "be9de7bb-3450-421d-b654-52da9bbc4d46",
+      "slug": "mtlyt-hchlph-lmnkh-chlvnvt-h103mh",
+      "name": "מטלית החלפה למנקה חלונות",
+      "name_translations": {},
+      "description": "",
+      "short_description": "100% בד מיקרופייבר מובחר\r\nרחיץ ניתן לשימוש חוזר ולכביסה (עדינה).\r\nמטלית מיקרופייבר איכותית ביותר לניקוי יבש ורטוב\r\nצפיפות גבוהה ביותר של 0.2 דנייר.",
+      "sku": null,
+      "brand": null,
+      "price": 15.9,
+      "base_price": 15.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837760495-sb0zk8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mtlyt-hchlph-lmnkh-chlvnvt-h103mh",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "85f0983d-87ee-492e-a28c-897071c99664",
@@ -1514,6 +1514,30 @@
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
+      "id": "d8529c48-8efc-4319-912e-59bdb2ade9ae",
+      "slug": "st-2-mtlyvt-hchlph-lmyny-mbrykn-kx0nou",
+      "name": "סט 2 מטליות החלפה למיני מבריקן",
+      "name_translations": {},
+      "description": "",
+      "short_description": "צפיפות גבוהה ביותר של 0.2 דנייר\r\n100% בד מיקרופייבר מובחר\r\nמטלית קרצוף שמתאימה למיני מבריקן\r\nמטלית הברקה שמתאימה למיני מבריקן",
+      "sku": null,
+      "brand": null,
+      "price": 39.9,
+      "base_price": 39.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837760494-d82d7v.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmyny-mbrykn-kx0nou",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-06-09T13:36:20.033Z"
+    },
+    {
       "id": "9d9284c2-d100-4b1a-93c9-cb77de977d4d",
       "slug": "mgb-shysh-100-sylykvn-0nk9bd",
       "name": "מגב שיש 100% סיליקון",
@@ -1535,31 +1559,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "9b219d40-5d95-4f06-ba33-c01ef384d138",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5",
-      "name": "מברשת אסלה 100% סיליקון צבע שחור",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
-      "sku": null,
-      "brand": null,
-      "price": 109.9,
-      "base_price": 109.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837760302-xohd17.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5",
-      "categories": [
-        "טירולר"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "bf1eceab-2b50-4a80-8843-44491f8671a9",
@@ -1607,7 +1607,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "ef438e03-bca1-40d2-80a2-87d10abb0945",
@@ -1631,7 +1631,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "8996a790-3a07-4bf9-aaf2-6246bef10b28",
@@ -1655,7 +1655,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "77119a2e-8b6a-4b74-a69d-35ee4efbb5fb",
@@ -1679,7 +1679,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "8f63f05a-2906-4485-b6aa-3b99e4ae5318",
@@ -1703,7 +1703,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "8ad3e0fd-aa60-4f85-8509-dcc73460ab05",
@@ -1727,7 +1727,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "3dadce87-1a71-42d8-a9f5-aecf060047a7",
@@ -1751,7 +1751,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "e64b014b-8945-4642-8813-b3fb395b0f52",
@@ -1775,7 +1775,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "5ec21208-cca4-4a54-86e6-4bce7ffca37a",
@@ -1799,7 +1799,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "7e131b22-54a7-420f-9916-778d95a2bec2",
@@ -1823,7 +1823,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "ecbe4b56-d3a3-4273-829c-90f87a614bb8",
@@ -1847,7 +1847,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "55765cdb-2ffa-4f0f-8f07-1554e5a80b80",
@@ -1871,7 +1871,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "1dfd3aa7-60a8-41d2-8025-51601d3a2cb7",
@@ -1895,7 +1895,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "c995a1be-c654-42b5-904a-13ce04c264f8",
@@ -1919,7 +1919,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "8f2b88fd-696a-4573-87f0-31054aca27e4",
@@ -1943,7 +1943,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "951b8473-8147-46bb-9a91-caeff8e36b48",
@@ -1967,11 +1967,11 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:36:20.033Z"
     },
     {
       "id": "e09ac29d-fd5c-4f4d-8436-2abaaaf55697",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-m6at16",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-8wt36u",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע טורקיז",
       "name_translations": {},
       "description": "",
@@ -1985,9 +1985,9 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-m6at16",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-8wt36u",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-09T13:56:11.293Z"
     },
     {
       "id": "abb39e79-2d78-4947-b1e8-be3814974a9b",
