@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T13:24:39.975Z",
+  "generated_at": "2026-06-09T13:25:13.173Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -343,8 +343,8 @@
     },
     {
       "id": "fb56055f-2c5a-43a3-8f25-c29339199dc7",
-      "slug": "vylvn-zbrh-glylh-apvr-80x160-sm-6uscuy",
-      "name": "וילון זברה גלילה - אפור 80X160 סמ",
+      "slug": "vylvn-zbrh-glylh-apvr-80x160-sm-fnz7pi",
+      "name": "וילון זברה גלילה - אפור 80X160 ס\"מ",
       "name_translations": {},
       "description": "",
       "short_description": "וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.",
@@ -359,11 +359,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-80x160-sm-6uscuy",
+      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-80x160-sm-fnz7pi",
       "categories": [
         "וילונות"
       ],
-      "updated_at": "2026-06-09T13:24:07.996Z"
+      "updated_at": "2026-06-09T13:24:40.225Z"
     },
     {
       "id": "d0f83756-7b4a-4c70-9763-d23606c54175",
