@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T10:24:29.811Z",
+  "generated_at": "2026-06-09T10:26:26.781Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3599,7 +3599,7 @@
     },
     {
       "id": "1b37714b-44fe-48f4-812f-c2bf4a536def",
-      "slug": "hdvm-dgm-ksht-tsba-mvkh-cup3m0",
+      "slug": "hdvm-dgm-ksht-tsba-mvkh-95nw33",
       "name": "הדום דגם קשת צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -3615,11 +3615,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-cup3m0",
+      "url": "https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-95nw33",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-07T13:08:52.206Z"
+      "updated_at": "2026-06-09T10:25:54.784Z"
     },
     {
       "id": "9278d2b1-9947-4282-ab00-9581f0ef2685",
