@@ -190,29 +190,13 @@ https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-80x160-sm-fnz7pi
 - Description: וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.
 - Image: https://streetstock.co.il/assets/product-1780837775806-kkyvkk.webp
 
-### וילון זברה גלילה - אפור 140X160 סמ
-https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-140x160-sm-4pnblh
+### וילון זברה גלילה - אפור 140X160 ס"מ
+https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-140x160-sm-hcthxi
 - Price: 169.90 ILS
 - Availability: In stock
 - Category: וילונות
 - Description: וילון זברה הוא וילון גלילה ייחודי המורכב משתי שכבות בד, קדמית ואחורית, כאשר בכל שכבה משולבים לסירוגין פסים שקופים למחצה ופסים אטומים יותר. באמצעות מנגנון השרשרת ניתן לשלוט בצורה מדויקת בכמות האור הנכנסת לחדר וברמת הפרטיות הרצויה: מצב פתוח – הפסים השקופים בשתי השכבות מיושרים זה מול זה, ומאפשרים מעבר אור מרבי. מצב סגור – הפסים האטומים בשכבה אחת חופפים לפסים השקופים בשכבה השנייה, ובכך יוצרים הצללה גבוהה יותר ומגבירים את הפרטיות. בנוסף לשליטה בכמות האור, ניתן להרים את הווילון כולו אל תוך הקסטה העליו…
 - Image: https://streetstock.co.il/assets/product-1780837775801-7b1e7.webp
-
-### סט 6 צלחות מנה ראושנה LUNIMARC צבע שחור מרובע
-https://streetstock.co.il/product/st-6-tslchvt-mnh-ravshnh-lunimarc-tsba-shchvr-mrvba-epmjwm
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: צלחות+סכום
-- Description: סט 6 צלחות מנה ראשונה חברת LUNIMARC קוטר צלחת 19 ס"מ צלחת איכותית עשויה מזכוכית
-- Image: https://streetstock.co.il/assets/product-1780837773092-08hwna.webp
-
-### סט 6 צלחות מרק LUNIMARC צבע שחור מרובע
-https://streetstock.co.il/product/st-6-tslchvt-mrk-lunimarc-tsba-shchvr-mrvba-xv2uok
-- Price: 59.90 ILS
-- Availability: In stock
-- Category: צלחות+סכום
-- Description: סט 6 צלחות מרק חברת LUNIMARC קוטר צלחת 21 ס"מ צלחת איכותית עשויה מזכוכית
-- Image: https://streetstock.co.il/assets/product-1780837773302-rqh3wj.webp
 
 ### וילון זברה גלילה - לבן 140X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-140x160-sm-8yn5hq
@@ -229,6 +213,22 @@ https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-80x160-sm-uvdcyl
 - Category: וילונות
 - Description: וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.
 - Image: https://streetstock.co.il/assets/product-1780837772694-v07uv8.webp
+
+### סט 6 צלחות מנה ראושנה LUNIMARC צבע שחור מרובע
+https://streetstock.co.il/product/st-6-tslchvt-mnh-ravshnh-lunimarc-tsba-shchvr-mrvba-epmjwm
+- Price: 49.90 ILS
+- Availability: In stock
+- Category: צלחות+סכום
+- Description: סט 6 צלחות מנה ראשונה חברת LUNIMARC קוטר צלחת 19 ס"מ צלחת איכותית עשויה מזכוכית
+- Image: https://streetstock.co.il/assets/product-1780837773092-08hwna.webp
+
+### סט 6 צלחות מרק LUNIMARC צבע שחור מרובע
+https://streetstock.co.il/product/st-6-tslchvt-mrk-lunimarc-tsba-shchvr-mrvba-xv2uok
+- Price: 59.90 ILS
+- Availability: In stock
+- Category: צלחות+סכום
+- Description: סט 6 צלחות מרק חברת LUNIMARC קוטר צלחת 21 ס"מ צלחת איכותית עשויה מזכוכית
+- Image: https://streetstock.co.il/assets/product-1780837773302-rqh3wj.webp
 
 ### סט 6 צלחות מרק DURALEX 
 https://streetstock.co.il/product/st-6-tslchvt-mrk-duralex-9yz5mm
