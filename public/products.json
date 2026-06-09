@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T10:22:21.880Z",
+  "generated_at": "2026-06-09T10:23:09.010Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4001,7 +4001,7 @@
     },
     {
       "id": "f80187ce-91ff-4125-85cb-af7c50d0ecd3",
-      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-0yvj87",
+      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-gc8bty",
       "name": "הדום גדול דגם קשת צבע לבן",
       "name_translations": {},
       "description": "",
@@ -4017,11 +4017,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-0yvj87",
+      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-gc8bty",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-08T16:34:38.286Z"
+      "updated_at": "2026-06-09T10:22:37.225Z"
     },
     {
       "id": "98e50817-21a0-4669-9e4e-a714ab8fc0cb",
