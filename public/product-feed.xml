@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 09 Jun 2026 13:26:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 13:30:00 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -217,7 +217,7 @@
       <g:id>bab2631c-3a3b-4bfd-8e6a-2aaf76c1b991</g:id>
       <g:title>וילון זברה גלילה - לבן 140X160 ס&quot;מ</g:title>
       <g:description>וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.</g:description>
-      <g:link>https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-140x160-sm-8yn5hq</g:link>
+      <g:link>https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-140x160-sm-mkzncz</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837773091-dgdrw.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>169.90 ILS</g:price>
@@ -234,6 +234,32 @@
       <g:image_link>https://streetstock.co.il/assets/product-1780837772694-v07uv8.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>99.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>וילונות</g:product_type>
+    </item>
+    <item>
+      <g:id>abe65c9c-0fdc-4d11-a88f-5ce6b6e9d906</g:id>
+      <g:title>וילון זברה גלילה - לבן 100X160 ס&quot;מ</g:title>
+      <g:description>וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.</g:description>
+      <g:link>https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-100x160-sm-ytvxkz</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837772613-l9u3ef.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>119.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>וילונות</g:product_type>
+    </item>
+    <item>
+      <g:id>8f56a0f2-06c3-435d-b270-423cce50f5e9</g:id>
+      <g:title>וילון זברה גלילה - לבן 120X160 ס&quot;מ</g:title>
+      <g:description>וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.</g:description>
+      <g:link>https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-120x160-sm-6dbnit</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837772604-posqa7.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -305,19 +331,6 @@
       <g:product_type>צלחות+סכום</g:product_type>
     </item>
     <item>
-      <g:id>abe65c9c-0fdc-4d11-a88f-5ce6b6e9d906</g:id>
-      <g:title>וילון זברה גלילה - לבן 100X160 ס&quot;מ</g:title>
-      <g:description>וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.</g:description>
-      <g:link>https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-100x160-sm-ytvxkz</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837772613-l9u3ef.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>119.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>וילונות</g:product_type>
-    </item>
-    <item>
       <g:id>9c6dbd96-ba31-42ca-900e-bec2be3dccbd</g:id>
       <g:title>סט 6 צלחות מנה עיקרית LUNIMARC צבע שחור מרובע</g:title>
       <g:description>סט 6 צלחות מנה עיקרית חברת LUNIMARC קוטר צלחת 27 ס&quot;מ צלחת איכותית עשויה מזכוכית</g:description>
@@ -329,19 +342,6 @@
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>צלחות+סכום</g:product_type>
-    </item>
-    <item>
-      <g:id>8f56a0f2-06c3-435d-b270-423cce50f5e9</g:id>
-      <g:title>וילון זברה גלילה - לבן 120X160 ס&quot;מ</g:title>
-      <g:description>וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.</g:description>
-      <g:link>https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-120x160-sm-6dbnit</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837772604-posqa7.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>149.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>וילונות</g:product_type>
     </item>
     <item>
       <g:id>ce8df679-2094-4b5a-960e-80332d54fc78</g:id>

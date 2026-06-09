@@ -5917,7 +5917,7 @@ Availability: In stock
 ---
 
 ### וילון זברה גלילה - לבן 140X160 ס"מ
-URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-140x160-sm-8yn5hq
+URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-140x160-sm-mkzncz
 Price: 169.90 ILS
 Availability: In stock
 
@@ -5926,6 +5926,20 @@ Availability: In stock
 ### וילון זברה גלילה - לבן 80X160 ס"מ
 URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-80x160-sm-uvdcyl
 Price: 99.90 ILS
+Availability: In stock
+
+---
+
+### וילון זברה גלילה - לבן 100X160 ס"מ
+URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-100x160-sm-ytvxkz
+Price: 119.90 ILS
+Availability: In stock
+
+---
+
+### וילון זברה גלילה - לבן 120X160 ס"מ
+URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-120x160-sm-6dbnit
+Price: 149.90 ILS
 Availability: In stock
 
 ---
@@ -5965,23 +5979,9 @@ Availability: In stock
 
 ---
 
-### וילון זברה גלילה - לבן 100X160 ס"מ
-URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-100x160-sm-ytvxkz
-Price: 119.90 ILS
-Availability: In stock
-
----
-
 ### סט 6 צלחות מנה עיקרית LUNIMARC צבע שחור מרובע
 URL: https://streetstock.co.il/product/st-6-tslchvt-mnh-aykryt-lunimarc-tsba-shchvr-mrvba-std00w
 Price: 59.90 ILS
-Availability: In stock
-
----
-
-### וילון זברה גלילה - לבן 120X160 ס"מ
-URL: https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-120x160-sm-6dbnit
-Price: 149.90 ILS
 Availability: In stock
 
 ---
