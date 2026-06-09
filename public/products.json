@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T13:58:59.633Z",
+  "generated_at": "2026-06-09T13:59:38.730Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -2015,7 +2015,7 @@
     },
     {
       "id": "986cad34-c3c1-4ea2-816b-98b95b1d797a",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-v6q715",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-wtx0wo",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע ירוק",
       "name_translations": {},
       "description": "",
@@ -2029,9 +2029,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-v6q715",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-wtx0wo",
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-09T13:59:06.399Z"
     },
     {
       "id": "a1b31afc-d1e1-452f-ab3d-f654bd66465e",
