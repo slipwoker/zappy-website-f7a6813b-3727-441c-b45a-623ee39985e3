@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T11:08:18.663Z",
+  "generated_at": "2026-06-09T11:12:51.287Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -295,8 +295,8 @@
     },
     {
       "id": "aa0524ca-790a-473f-b9ef-0665513cd1a6",
-      "slug": "vylvn-zbrh-glylh-lbn-160x160-sm-rsb5hu",
-      "name": "וילון זברה גלילה - לבן 160X160 סמ",
+      "slug": "vylvn-zbrh-glylh-lbn-160x160-sm-4pstkf",
+      "name": "וילון זברה גלילה - לבן 160X160 ס\"מ",
       "name_translations": {},
       "description": "",
       "short_description": "וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.",
@@ -311,11 +311,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-160x160-sm-rsb5hu",
+      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-lbn-160x160-sm-4pstkf",
       "categories": [
         "וילונות"
       ],
-      "updated_at": "2026-06-09T10:47:55.643Z"
+      "updated_at": "2026-06-09T11:12:18.845Z"
     },
     {
       "id": "a14aa367-053b-4eff-8618-ea896203c663",
