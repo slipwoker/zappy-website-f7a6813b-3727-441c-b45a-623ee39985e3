@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-09T14:00:20.978Z",
+  "generated_at": "2026-06-09T14:01:45.724Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -2059,7 +2059,7 @@
     },
     {
       "id": "74abffed-fafe-442c-9877-cb7b1af13334",
-      "slug": "kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-ci365v",
+      "slug": "kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-nvazzr",
       "name": "כיסוי מיטה מהודר + זוג ציפיות לכרית צבע אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -2075,9 +2075,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-ci365v",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-bhyr-nvazzr",
+      "categories": [
+        "שמיכות קיץ "
+      ],
+      "updated_at": "2026-06-09T14:01:12.674Z"
     },
     {
       "id": "2fadc3e0-20da-4b05-89e1-d91aa23e1f07",
