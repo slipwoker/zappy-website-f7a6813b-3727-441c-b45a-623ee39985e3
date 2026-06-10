@@ -1982,6 +1982,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -8380,6 +8382,7 @@ let additionalJsSidebarFiltersConfig = {};
 let additionalJsSortingConfig = {};
 let additionalJsViewToggleEnabled = true;
 let additionalJsProductPageNote = null;
+let additionalJsSpecificationsSectionTitle = null;
 let catCurrentSortKey = 'popularity';
 let catCurrentViewMode = localStorage.getItem('zappy_view_mode_' + (window.ZAPPY_WEBSITE_ID || '')) || 'grid';
 let catActiveSidebarFilters = { categories: [], brands: [], tags: [], priceMin: null, priceMax: null, sale: false };
@@ -8529,6 +8532,7 @@ async function fetchAdditionalJsSettings(force) {
         additionalJsViewToggleEnabled = data.data.viewToggleEnabled;
       }
       additionalJsProductPageNote = data.data.productPageNote || null;
+      additionalJsSpecificationsSectionTitle = data.data.specificationsSectionTitle || null;
       // Show/hide catalog menu based on store settings
       var catalogMenu = document.getElementById('zappy-catalog-menu');
       if (catalogMenu) {
@@ -10668,7 +10672,7 @@ function renderProductDetail(container, product, t) {
         <div class="product-details-accordion collapsed">
           <div class="product-details-divider"></div>
           <button type="button" class="product-details-header" onclick="toggleProductDetails(this)">
-            <span>${getEcomText('specifications', t.specifications || 'Specifications')}</span>
+            <span>${product.custom_fields?.specificationsTitle || additionalJsSpecificationsSectionTitle || getEcomText('specifications', t.specifications || 'Specifications')}</span>
             <span class="product-details-toggle">+</span>
           </button>
           <div class="product-details-body">
