@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:22:30.541Z",
+  "generated_at": "2026-06-11T10:23:07.659Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4271,11 +4271,11 @@
     },
     {
       "id": "c5c24c35-7cbe-4bc7-9bf4-e2884d74d7ad",
-      "slug": "kryt-shynh-softty-09f3to",
+      "slug": "kryt-shynh-softty-j82j6x",
       "name": "כרית שינה SOFTTY",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות : 50X70 ס\"מ\r\nכרית שינה איכותית במיוחד במילוי שלוש שכבות סיליקון תפוחים היוצרת חווית שינה אוורירית ורכה במיוחד תוך שמירה על כל חלקי הצוואר.",
+      "short_description": "כרית שינה איכותית במיוחד במילוי שלוש שכבות סיליקון תפוחים היוצרת חווית שינה אוורירית ורכה במיוחד תוך שמירה על כל חלקי הצוואר.",
       "sku": null,
       "brand": null,
       "price": 99.9,
@@ -4287,11 +4287,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kryt-shynh-softty-09f3to",
+      "url": "https://streetstock.co.il/product/kryt-shynh-softty-j82j6x",
       "categories": [
         "כריות שינה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:22:37.805Z"
     },
     {
       "id": "e2aeaf50-6f13-42da-9611-b0d2c85c4d0c",
