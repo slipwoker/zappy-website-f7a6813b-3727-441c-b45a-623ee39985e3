@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:30:58.871Z",
+  "generated_at": "2026-06-11T10:32:24.954Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8400,10 +8400,10 @@
     },
     {
       "id": "fa1bb8b8-f14c-4aee-b59c-7595a433a428",
-      "slug": "mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-5mpi7n",
+      "slug": "mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-6rfwma",
       "name": "מדף משולש לאמבטיה 3 קומות\r\nדגם FORMO",
       "name_translations": {},
-      "description": "מוצרי אמבט",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563291",
       "brand": null,
@@ -8416,11 +8416,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-5mpi7n",
+      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-6rfwma",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:31:52.896Z"
     },
     {
       "id": "0c93e8d5-8ae7-443f-9a00-34173ef58757",
