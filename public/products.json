@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:42:29.413Z",
+  "generated_at": "2026-06-11T10:45:20.494Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3451,11 +3451,11 @@
     },
     {
       "id": "22380883-0efb-4411-a9bb-70a5f3cb45b1",
-      "slug": "mamd-3-mgyrvt-dgm-bmbv-evw52v",
-      "name": "מעמד 3 מגירות דגם במבו",
+      "slug": "mamd-3-mgyrvt-dgm-bmbvk-4qmn9w",
+      "name": "מעמד 3 מגירות דגם במבוק",
       "name_translations": {},
-      "description": "",
-      "short_description": "34 ליטר : 35X33X110 ס\"מ\r\nמעמד 3 מגירות במבוק",
+      "description": "<p><br></p>",
+      "short_description": "34 ליטר : 35X33X110 ס\"מ\nמעמד 3 מגירות במבוק",
       "sku": null,
       "brand": null,
       "price": 199.9,
@@ -3467,11 +3467,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbv-evw52v",
+      "url": "https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbvk-4qmn9w",
       "categories": [
         "מעמדים דקורטיבים "
       ],
-      "updated_at": "2026-06-11T10:41:56.752Z"
+      "updated_at": "2026-06-11T10:44:48.809Z"
     },
     {
       "id": "c49bf538-9162-44e2-aaa1-405b76d854df",
