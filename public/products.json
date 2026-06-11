@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:16:25.370Z",
+  "generated_at": "2026-06-11T10:16:34.304Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3609,11 +3609,11 @@
     },
     {
       "id": "1b37714b-44fe-48f4-812f-c2bf4a536def",
-      "slug": "hdvm-dgm-ksht-tsba-mvkh-95nw33",
+      "slug": "hdvm-dgm-ksht-tsba-mvkh-c1tevv",
       "name": "הדום דגם קשת צבע מוקה",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות המוצר: 38X40X40 ס\"מ\r\nהדום קשתות בעיצוב אופנתי\r\nעשוי מבד בוקלה\r\n\r\n",
+      "short_description": "הדום קשתות בעיצוב אופנתי\nעשוי מבד בוקלה\n\n",
       "sku": null,
       "brand": null,
       "price": 179.9,
@@ -3625,11 +3625,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-95nw33",
+      "url": "https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-c1tevv",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:16:30.150Z"
     },
     {
       "id": "9278d2b1-9947-4282-ab00-9581f0ef2685",
