@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T09:56:18.473Z",
+  "generated_at": "2026-06-11T09:57:01.904Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4175,11 +4175,11 @@
     },
     {
       "id": "a277f88b-0b83-4942-bec7-72bb13b4ad9c",
-      "slug": "mgbt-pnym-dgm-tulip-c7smxp",
+      "slug": "mgbt-pnym-dgm-tulip-cn3ynt",
       "name": "מגבת פנים דגם TULIP",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות : 50X90 ס\"מ \r\nמגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ\"ר",
+      "short_description": "מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ\"ר",
       "sku": null,
       "brand": null,
       "price": 14.9,
@@ -4191,11 +4191,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-c7smxp",
+      "url": "https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt",
       "categories": [
         "מגבות ומפות שולחן"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:56:29.279Z"
     },
     {
       "id": "2cc9db62-1e1a-4cbd-836a-7bab68b2cd70",
