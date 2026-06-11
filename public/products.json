@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:32:24.954Z",
+  "generated_at": "2026-06-11T10:33:33.779Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8400,7 +8400,7 @@
     },
     {
       "id": "fa1bb8b8-f14c-4aee-b59c-7595a433a428",
-      "slug": "mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-6rfwma",
+      "slug": "mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-ti4o9g",
       "name": "מדף משולש לאמבטיה 3 קומות\r\nדגם FORMO",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -8416,18 +8416,18 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-6rfwma",
+      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-ti4o9g",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-11T10:31:52.896Z"
+      "updated_at": "2026-06-11T10:33:00.875Z"
     },
     {
       "id": "0c93e8d5-8ae7-443f-9a00-34173ef58757",
-      "slug": "mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-jnq6ut",
-      "name": "מדף משולש לאמבטיה 2 קומות\r\nדגם FORMO",
+      "slug": "mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-a2vhkx",
+      "name": "מדף משולש לאמבטיה 2 קומות דגם FORMO",
       "name_translations": {},
-      "description": "מוצרי אמבט",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563284",
       "brand": null,
@@ -8440,11 +8440,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-jnq6ut",
+      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-a2vhkx",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:33:32.413Z"
     },
     {
       "id": "1898c8e9-ed64-4b5a-a804-6ded11ccf5c5",
