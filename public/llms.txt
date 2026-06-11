@@ -1253,10 +1253,11 @@ https://streetstock.co.il/product/pch-30-lytr-psym-dgm-vynh-ywu3q1
 - Image: https://streetstock.co.il/assets/product-1780837731919-2ezq7.webp
 
 ### אגרן ירקות דגם ספייס צבע מוקה
-https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-zm9amj
+https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-l6jfqz
 - Price: 179.90 ILS
 - Availability: In stock
-- Description: מידה: 30X27X80 ס"מ מעמד אחסון 3 תאים
+- Category: עגלות שירות 
+- Description: מעמד אחסון 3 תאים
 - Image: https://streetstock.co.il/assets/product-1780837731993-r1muud.webp
 
 ### פח 5 ליטר עם רגליים דגם אורלנדו צבע שחור
