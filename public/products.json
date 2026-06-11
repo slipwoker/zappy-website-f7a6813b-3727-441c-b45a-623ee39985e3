@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T11:24:44.290Z",
+  "generated_at": "2026-06-11T11:25:28.234Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -7931,10 +7931,10 @@
     },
     {
       "id": "432d0297-71d8-4a42-a0ca-9c375400cb56",
-      "slug": "mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ln9p4f",
+      "slug": "mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-g0src2",
       "name": "מעמד 5 קומות רחב צבע עץ\r\n דגם SILO\r\n",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561471",
       "brand": null,
@@ -7947,9 +7947,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ln9p4f",
+      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-g0src2",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T11:24:54.646Z"
     },
     {
       "id": "74509957-05db-4e97-a211-3d6da4f1ba19",
