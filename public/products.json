@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T11:14:31.166Z",
+  "generated_at": "2026-06-11T11:15:33.570Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -7909,10 +7909,10 @@
     },
     {
       "id": "824f4690-c7cd-47ac-b646-e878cf38ee91",
-      "slug": "mamd-5-kvmvt-tsba-ats-dgm-kora-zfcwxy",
+      "slug": "mamd-5-kvmvt-tsba-ats-dgm-kora-cw1jzr",
       "name": "מעמד 5 קומות צבע עץ \r\nדגם KORA\r\n",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561419",
       "brand": null,
@@ -7925,9 +7925,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-zfcwxy",
+      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-cw1jzr",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T11:15:01.446Z"
     },
     {
       "id": "432d0297-71d8-4a42-a0ca-9c375400cb56",
