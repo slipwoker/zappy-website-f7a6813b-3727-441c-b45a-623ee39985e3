@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:16:34.304Z",
+  "generated_at": "2026-06-11T10:17:32.404Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3945,11 +3945,11 @@
     },
     {
       "id": "5195d441-3612-4ecb-9ae4-97612a893359",
-      "slug": "hdvm-gdvl-dgm-ksht-tsba-mvkh-kngj7z",
+      "slug": "hdvm-gdvl-dgm-ksht-tsba-mvkh-6lngq0",
       "name": "הדום גדול דגם קשת צבע מוקה",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות המוצר: 76X40X40 ס\"מ\nהדום קשתות בעיצוב אופנתי\nעשוי מבד בוקלה",
+      "short_description": "הדום קשתות בעיצוב אופנתי\nעשוי מבד בוקלה",
       "sku": null,
       "brand": null,
       "price": 299.9,
@@ -3961,11 +3961,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-mvkh-kngj7z",
+      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-mvkh-6lngq0",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:17:14.088Z"
     },
     {
       "id": "5e7a3f03-8c33-4285-9782-8283c5efd68c",
@@ -4017,7 +4017,7 @@
     },
     {
       "id": "f80187ce-91ff-4125-85cb-af7c50d0ecd3",
-      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-gc8bty",
+      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-rxwvcn",
       "name": "הדום גדול דגם קשת צבע לבן",
       "name_translations": {},
       "description": "",
@@ -4033,11 +4033,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-gc8bty",
+      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-rxwvcn",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:17:00.118Z"
     },
     {
       "id": "98e50817-21a0-4669-9e4e-a714ab8fc0cb",
@@ -7631,7 +7631,7 @@
     },
     {
       "id": "8e965e6b-ff5c-4ef4-8b4c-0e3f5165ae2c",
-      "slug": "hdvm-achsvn-vyshybh-ktyph-dgm-venice-4jibwh",
+      "slug": "hdvm-achsvn-vyshybh-ktyph-dgm-venice-7dvb6i",
       "name": "הדום אחסון וישיבה קטיפה דגם VENICE",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -7647,11 +7647,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-ktyph-dgm-venice-4jibwh",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-ktyph-dgm-venice-7dvb6i",
       "categories": [
         "הדומים"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:16:48.467Z"
     },
     {
       "id": "f4e615a7-0b9c-4f39-8f85-cf9528cf7e2d",
