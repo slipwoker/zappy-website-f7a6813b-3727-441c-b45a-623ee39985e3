@@ -1986,6 +1986,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -3394,6 +3396,61 @@ function stripHtmlToText(html) {
     return null;
   }
 
+  // ── Out-of-stock guard for the card "add to cart" button ──────────────────
+  // Mirrors the PDP's variantRowUnavailable / zappyVariantMatrix logic so the
+  // card cart affordance can never add an item that isn't actually purchasable.
+  // Returns a reason string when the cart action must be BLOCKED, or null when
+  // it may proceed (add directly, or open Quick View to finish choosing):
+  //   'product'   — the whole product is unavailable: a simple product whose
+  //                 own row is out of stock / inventory <= 0 / inactive, OR a
+  //                 variant product where EVERY card variant is unavailable.
+  //   'selection' — a variant product with a complete color+size card
+  //                 selection that resolves to an unavailable combination.
+  // An incomplete selection on a product that still has in-stock variants is
+  // intentionally NOT blocked — that click opens Quick View so the shopper can
+  // finish picking a variant.
+  window.zappyCardCartBlockedReason = function(p, sel) {
+    if (!p) return 'product';
+    var cv = p.card_variants;
+    if (!cv) {
+      return window.zappyVariantMatrix.isUnavailable(p) ? 'product' : null;
+    }
+    var matrix = cv.matrix || [];
+    if (matrix.length && matrix.every(function(m) { return !m.available; })) return 'product';
+    sel = sel || {};
+    var needColor = !!cv.colorKey, needSize = !!cv.sizeKey;
+    var fullySelected = (needColor || needSize)
+      && (!needColor || !!sel.color)
+      && (!needSize || !!sel.size);
+    if (fullySelected && !cv.requiresMoreOnPdp) {
+      var matched = window.zappyVariantMatrix.findMatching(cv.matrix, zappyCardSelAttrs(cv, sel));
+      if (matched && !matched.available) return 'selection';
+    }
+    return null;
+  };
+
+  // Reflect the blocked state onto a rendered card's cart button. Uses
+  // aria-disabled (not the disabled attribute) so the "Out of Stock" title
+  // tooltip still shows on hover and the delegated click handler — the
+  // authoritative guard — still fires to give feedback.
+  window.zappyCardApplyCartBtnState = function(card, p, sel) {
+    if (!card || !p) return;
+    var btn = card.querySelector('button.card-cart-btn[data-card-cart]');
+    if (!btn) return;
+    var blocked = !!window.zappyCardCartBlockedReason(p, sel || window.zappyGetCardSelection(p.id) || {});
+    btn.classList.toggle('out-of-stock', blocked);
+    if (blocked) {
+      var oosLbl = getEcomText('outOfStock', (t && t.outOfStock) || 'Out of Stock');
+      btn.setAttribute('aria-disabled', 'true');
+      btn.setAttribute('title', oosLbl);
+      btn.setAttribute('aria-label', oosLbl);
+    } else {
+      btn.removeAttribute('aria-disabled');
+      btn.removeAttribute('title');
+      btn.setAttribute('aria-label', getEcomText('addToCart', t.addToCart));
+    }
+  };
+
   // Returns { swatchRow, sizeStrip } HTML for a product's card from p.card_variants.
   window.zappyCardVariantsHtml = function(p) {
     var out = { swatchRow: '', sizeStrip: '' };
@@ -3464,7 +3521,12 @@ function stripHtmlToText(html) {
 
   window.zappyCardCartBtnHtml = function(p) {
     var lbl = getEcomText('addToCart', t.addToCart);
-    return '<button type="button" class="card-cart-btn" data-card-cart data-product-id="' + zappyCardEscAttr(p.id) + '" aria-label="' + zappyCardEscAttr(lbl) + '">'
+    var blocked = !!window.zappyCardCartBlockedReason(p, window.zappyGetCardSelection(p.id) || {});
+    var oosLbl = getEcomText('outOfStock', (t && t.outOfStock) || 'Out of Stock');
+    var ariaLbl = blocked ? oosLbl : lbl;
+    return '<button type="button" class="card-cart-btn' + (blocked ? ' out-of-stock' : '') + '" data-card-cart data-product-id="' + zappyCardEscAttr(p.id) + '"'
+      + (blocked ? ' aria-disabled="true" title="' + zappyCardEscAttr(oosLbl) + '"' : '')
+      + ' aria-label="' + zappyCardEscAttr(ariaLbl) + '">'
       + '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M19.5275 4.09583C19.13 3.61083 18.5425 3.33333 17.9158 3.33333H3.74167L3.52833 1.7975C3.38667 0.773333 2.5 0 1.465 0H0.416667C0.186667 0 0 0.186667 0 0.416667C0 0.646667 0.186667 0.833333 0.416667 0.833333H1.46583C2.08667 0.833333 2.61833 1.29667 2.70333 1.91167L4.1875 12.5992C4.44417 14.4425 6.04167 15.8333 7.90167 15.8333H16.25C16.48 15.8333 16.6667 15.6467 16.6667 15.4167C16.6667 15.1867 16.48 15 16.25 15H7.90167C6.46 15 5.22333 13.9258 5.01667 12.5H15.55C17.3317 12.5 18.8775 11.2325 19.2267 9.48583L19.9592 5.825C20.0817 5.21 19.9242 4.58 19.5267 4.09583H19.5275ZM19.1425 5.66167L18.41 9.3225C18.1383 10.6808 16.935 11.6667 15.55 11.6667H4.89917L3.8575 4.16667H17.9158C18.2917 4.16667 18.6442 4.33333 18.8825 4.62417C19.1208 4.915 19.215 5.29333 19.1425 5.66167ZM5.83333 16.6667C4.91417 16.6667 4.16667 17.4142 4.16667 18.3333C4.16667 19.2525 4.91417 20 5.83333 20C6.7525 20 7.5 19.2525 7.5 18.3333C7.5 17.4142 6.7525 16.6667 5.83333 16.6667ZM5.83333 19.1667C5.37333 19.1667 5 18.7925 5 18.3333C5 17.8742 5.37333 17.5 5.83333 17.5C6.29333 17.5 6.66667 17.8742 6.66667 18.3333C6.66667 18.7925 6.29333 19.1667 5.83333 19.1667ZM14.1667 16.6667C13.2475 16.6667 12.5 17.4142 12.5 18.3333C12.5 19.2525 13.2475 20 14.1667 20C15.0858 20 15.8333 19.2525 15.8333 18.3333C15.8333 17.4142 15.0858 16.6667 14.1667 16.6667ZM14.1667 19.1667C13.7067 19.1667 13.3333 18.7925 13.3333 18.3333C13.3333 17.8742 13.7067 17.5 14.1667 17.5C14.6267 17.5 15 17.8742 15 18.3333C15 18.7925 14.6267 19.1667 14.1667 19.1667Z" fill="currentColor"/></svg>'
       + '</button>';
   };
@@ -3545,6 +3607,7 @@ function stripHtmlToText(html) {
         b.classList.toggle('out-of-stock', !!window.zappyVariantMatrix.isOutOfStock(cv.matrix, cv.sizeKey, b.getAttribute('data-size'), otherForSize));
       });
     }
+    window.zappyCardApplyCartBtnState(card, p, sel);
   }
 
   function zappyCardSelectColor(swatch) {
@@ -3581,6 +3644,12 @@ function stripHtmlToText(html) {
     var pid = card.getAttribute('data-product-id'); var p = window.zappyGetCardProduct(pid); if (!p) return;
     var cv = p.card_variants;
     var sel = window.zappyGetCardSelection(pid) || {};
+    // Authoritative out-of-stock guard: never add an unavailable item, even if
+    // the disabled styling was bypassed. Re-sync the button state and bail.
+    if (window.zappyCardCartBlockedReason(p, sel)) {
+      window.zappyCardApplyCartBtnState(card, p, sel);
+      return;
+    }
     var step = parseFloat(p.quantity_step || p.quantityStep) || 1;
     if (!cv) { addToCart(Object.assign({}, p, { quantity: step })); return; }
     var cardKeys = [];
@@ -3632,6 +3701,10 @@ function stripHtmlToText(html) {
       var sel = window.zappyGetCardSelection(pid) || {};
       if (sel.size) card.classList.add('zc-sizes-pinned');
       if (sel.color || sel.size) { zappyCardApplyImage(card, p, sel); zappyCardRefreshAvailability(card, p, sel); }
+      // Always re-sync the cart button's out-of-stock state — covers simple
+      // (no-variant) products and variant products with no persisted selection,
+      // neither of which go through zappyCardRefreshAvailability.
+      window.zappyCardApplyCartBtnState(card, p, sel);
     });
   };
 
