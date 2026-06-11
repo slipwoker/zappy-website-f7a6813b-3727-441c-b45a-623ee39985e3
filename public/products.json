@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T09:28:59.302Z",
+  "generated_at": "2026-06-11T09:34:34.087Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -9257,7 +9257,7 @@
     },
     {
       "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
-      "slug": "kvpst-achsvn-akrylyt-300-ml-dgm-anbr-4xk8vk",
+      "slug": "kvpst-achsvn-akrylyt-300-ml-dgm-anbr-jec498",
       "name": "קופסת אחסון אקרילית 300 מ\"ל דגם \"ענבר\" ",
       "name_translations": {},
       "description": "<p>צנצנות אקריל</p>",
@@ -9273,11 +9273,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-300-ml-dgm-anbr-4xk8vk",
+      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-300-ml-dgm-anbr-jec498",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-11T09:28:27.533Z"
+      "updated_at": "2026-06-11T09:33:36.203Z"
     },
     {
       "id": "5f35269a-5704-4c01-91f3-c0390fe83fbf",
@@ -9305,15 +9305,15 @@
     },
     {
       "id": "df7e2d89-6e8c-4048-b19a-849178ead91a",
-      "slug": "kvpst-achsvn-akrylyt-900-ml-dgm-anbr-blo6zc",
+      "slug": "kvpst-achsvn-akrylyt-900-ml-dgm-anbr-wo4vbk",
       "name": "קופסת אחסון אקרילית 900 מ\"ל \r\n דגם \"ענבר\"\r\n ",
       "name_translations": {},
-      "description": "",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": null,
-      "base_price": 0,
+      "price": 34.9,
+      "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9321,21 +9321,21 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-900-ml-dgm-anbr-blo6zc",
+      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-900-ml-dgm-anbr-wo4vbk",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:34:02.258Z"
     },
     {
       "id": "d6ba1a3f-da38-4a3c-8227-96a43c152788",
-      "slug": "kvpst-achsvn-akrylyt-700-ml-dgm-anbr-8703ph",
+      "slug": "kvpst-achsvn-akrylyt-700-ml-dgm-anbr-9y9zqp",
       "name": "קופסת אחסון אקרילית 700 מ\"ל \r\n דגם \"ענבר\"\r\n ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": null,
-      "base_price": 0,
+      "price": 29.9,
+      "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9343,9 +9343,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-700-ml-dgm-anbr-8703ph",
+      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-700-ml-dgm-anbr-9y9zqp",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:34:15.697Z"
     },
     {
       "id": "c4f1ab86-d1bc-46ab-9805-f75f3bd283a7",
