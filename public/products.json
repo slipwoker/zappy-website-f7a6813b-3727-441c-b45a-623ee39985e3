@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T11:08:36.275Z",
+  "generated_at": "2026-06-11T11:13:36.904Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8133,10 +8133,10 @@
     },
     {
       "id": "a6a1231c-9b23-4427-9e52-de3b56a610fd",
-      "slug": "mamd-3-kvmvt-tsba-shchvr-dgm-nubo-xz4msp",
+      "slug": "mamd-3-kvmvt-tsba-shchvr-dgm-nubo-jmaj09",
       "name": "מעמד 3 קומות צבע שחור\r\n דגם NUBO\r\n",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121562171",
       "brand": null,
@@ -8144,16 +8144,14 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659966-od4v3r.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-shchvr-dgm-nubo-xz4msp",
+      "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-shchvr-dgm-nubo-jmaj09",
       "categories": [
         "מעמדים דקורטיבים "
       ],
-      "updated_at": "2026-06-11T10:41:56.418Z"
+      "updated_at": "2026-06-11T11:13:05.243Z"
     },
     {
       "id": "84e8f139-f570-444d-ac3f-1b7221cd4b66",
