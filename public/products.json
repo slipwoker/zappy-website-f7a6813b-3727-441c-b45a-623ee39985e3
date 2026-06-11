@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T11:15:33.570Z",
+  "generated_at": "2026-06-11T11:23:41.989Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8087,10 +8087,10 @@
     },
     {
       "id": "113c5198-3fa1-42fb-a24f-6ecac4151134",
-      "slug": "mamd-5-kvmvt-tsba-ats-dgm-daro-aq70o7",
+      "slug": "mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft",
       "name": "מעמד 5 קומות צבע עץ\r\n דגם DARO\r\n",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561549",
       "brand": null,
@@ -8103,9 +8103,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-daro-aq70o7",
+      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T11:23:09.989Z"
     },
     {
       "id": "6d49792d-e1fe-4207-bfb8-29becf622051",
