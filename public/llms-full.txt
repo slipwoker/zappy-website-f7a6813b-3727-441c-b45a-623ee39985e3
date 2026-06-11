@@ -9472,11 +9472,9 @@ SKU: 7255882312106
 
 ---
 
-### קופסת אחסון אקרילית 500 מ"ל 
- דגם "ענבר"
- 
-URL: https://streetstock.co.il/product/kvpst-achsvn-akrylyt-500-ml-dgm-anbr-g70nok
-Price: NaN ILS
+### קופסת אחסון אקרילית 500 מ"ל דגם "ענבר"
+URL: https://streetstock.co.il/product/kvpst-achsvn-akrylyt-500-ml-dgm-anbr-8pxsqt
+Price: 0.00 ILS
 Availability: In stock
 
 ---
