@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:19:42.224Z",
+  "generated_at": "2026-06-11T10:20:38.797Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4157,7 +4157,7 @@
     },
     {
       "id": "3bd1f8af-c5c0-4c53-abde-f418bb7b9d42",
-      "slug": "kryt-vyskv-chlvmvt-z01dpy",
+      "slug": "kryt-vyskv-chlvmvt-v52ur4",
       "name": "כרית ויסקו חלומות",
       "name_translations": {},
       "description": "",
@@ -4173,11 +4173,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kryt-vyskv-chlvmvt-z01dpy",
+      "url": "https://streetstock.co.il/product/kryt-vyskv-chlvmvt-v52ur4",
       "categories": [
         "כריות שינה"
       ],
-      "updated_at": "2026-06-11T10:19:10.196Z"
+      "updated_at": "2026-06-11T10:20:06.391Z"
     },
     {
       "id": "a277f88b-0b83-4942-bec7-72bb13b4ad9c",
