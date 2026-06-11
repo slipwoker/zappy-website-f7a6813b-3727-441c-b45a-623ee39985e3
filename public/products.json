@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T09:58:12.880Z",
+  "generated_at": "2026-06-11T09:59:05.840Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8151,10 +8151,10 @@
     },
     {
       "id": "a4f30b2f-d748-4a2f-aed3-6d5197a0fec5",
-      "slug": "msgrt-tmvnh-13x18-sm-3tp5h9",
+      "slug": "msgrt-tmvnh-13x18-sm-icz23r",
       "name": "מסגרת תמונה 13X18 ס\"מ\r\n",
       "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561310",
       "brand": null,
@@ -8167,9 +8167,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-3tp5h9",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:58:34.097Z"
     },
     {
       "id": "20300e3a-d7a8-4b49-816b-2c07cf6531a4",
