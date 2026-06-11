@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Thu, 11 Jun 2026 10:40:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2026 10:42:29 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -1891,6 +1891,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>c49bf538-9162-44e2-aaa1-405b76d854df</g:id>
@@ -4374,6 +4375,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561495</g:mpn>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>22ad8924-ba39-4fdc-95e5-0bf046b57a77</g:id>
@@ -4388,6 +4390,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561488</g:mpn>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>8a822ac2-2552-4afa-ab7d-12564dfc4f86</g:id>
@@ -4416,6 +4419,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561426</g:mpn>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>824f4690-c7cd-47ac-b646-e878cf38ee91</g:id>
@@ -4458,6 +4462,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561433</g:mpn>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>0910f4d0-180b-4a45-92a0-b5ec40e86adf</g:id>
@@ -4552,6 +4557,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561457</g:mpn>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>a6a1231c-9b23-4427-9e52-de3b56a610fd</g:id>
@@ -4566,6 +4572,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562171</g:mpn>
+      <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
       <g:id>84e8f139-f570-444d-ac3f-1b7221cd4b66</g:id>

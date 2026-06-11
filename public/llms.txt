@@ -1189,6 +1189,7 @@ https://streetstock.co.il/product/st-3-kvpsavt-plstyk-dgm-mysv-1p7dof
 https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbv-evw52v
 - Price: 199.90 ILS
 - Availability: In stock
+- Category: מעמדים דקורטיבים 
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
 
