@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T09:53:32.301Z",
+  "generated_at": "2026-06-11T09:55:17.112Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4289,11 +4289,11 @@
     },
     {
       "id": "e2aeaf50-6f13-42da-9611-b0d2c85c4d0c",
-      "slug": "mgbt-gvp-dgm-tulip-3pfpm6",
+      "slug": "mgbt-gvp-dgm-tulip-g6hrye",
       "name": "מגבת גוף דגם TULIP",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות : 70X130 ס\"מ \r\nמגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ\"ר",
+      "short_description": "מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ\"ר",
       "sku": null,
       "brand": null,
       "price": 29.9,
@@ -4305,11 +4305,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-3pfpm6",
+      "url": "https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye",
       "categories": [
         "מגבות ומפות שולחן"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:54:45.085Z"
     },
     {
       "id": "f7111cdf-88e6-4f47-95c8-0526fd3b8987",
