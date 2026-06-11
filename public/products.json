@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T09:38:32.627Z",
+  "generated_at": "2026-06-11T09:39:35.083Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -6105,10 +6105,10 @@
     },
     {
       "id": "fd1d1ec5-d214-4c38-8a31-d5cb6d4a42c3",
-      "slug": "shkyt-vakvm-xl-70x100-5yp6bq",
+      "slug": "shkyt-vakvm-xl-70x100-n3t1l4",
       "name": "שקית ואקום XL 70X100\r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p>כללי</p>",
       "short_description": null,
       "sku": "7290121562713",
       "brand": null,
@@ -6121,11 +6121,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shkyt-vakvm-xl-70x100-5yp6bq",
+      "url": "https://streetstock.co.il/product/shkyt-vakvm-xl-70x100-n3t1l4",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:39:03.050Z"
     },
     {
       "id": "a38ae838-26c5-4522-83d8-5a6a35afdb31",
