@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:29:44.472Z",
+  "generated_at": "2026-06-11T10:30:47.335Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8618,7 +8618,7 @@
     },
     {
       "id": "5e0395db-e899-456f-9658-03c34ae435d2",
-      "slug": "mbrsht-aslh-tsba-lbn-dgm-bino-prcc52",
+      "slug": "mbrsht-aslh-tsba-lbn-dgm-bino-ghwf3j",
       "name": "מברשת אסלה צבע לבן דגם BINO\r\n",
       "name_translations": {},
       "description": "<p>פחי שירותים, פחי אמבטיה</p>",
@@ -8634,19 +8634,19 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-tsba-lbn-dgm-bino-prcc52",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-tsba-lbn-dgm-bino-ghwf3j",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-11T10:29:12.700Z"
+      "updated_at": "2026-06-11T10:30:15.245Z"
     },
     {
       "id": "5dec84d1-4092-4202-9a91-739f6b0e9e8d",
-      "slug": "mbrsht-aslh-tsba-shchvr-dgm-bino-g0xodc",
+      "slug": "mbrsht-aslh-tsba-shchvr-dgm-bino-z6ykb6",
       "name": "מברשת אסלה צבע שחור דגם BINO\r\n",
       "name_translations": {},
-      "description": "פחי שירותים, פחי אמבטיה",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563987",
       "brand": null,
@@ -8659,12 +8659,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-tsba-shchvr-dgm-bino-g0xodc",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-tsba-shchvr-dgm-bino-z6ykb6",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:30:27.150Z"
     },
     {
       "id": "b2ba98b8-2fb4-426d-8725-9ef21cc25eb9",
