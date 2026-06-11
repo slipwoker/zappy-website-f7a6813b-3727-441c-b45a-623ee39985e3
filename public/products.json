@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:06:47.406Z",
+  "generated_at": "2026-06-11T10:08:20.307Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3803,11 +3803,11 @@
     },
     {
       "id": "9448b5f2-542f-4c72-892b-f02a23879c85",
-      "slug": "agrn-yrkvt-dgm-spyys-tsba-lbn-9ne7jx",
+      "slug": "agrn-yrkvt-dgm-spyys-tsba-lbn-11xn7w",
       "name": "אגרן ירקות דגם ספייס צבע לבן",
       "name_translations": {},
       "description": "",
-      "short_description": "מידה: 30X27X80 ס\"מ\r\nמעמד אחסון 3 תאים",
+      "short_description": "מעמד אחסון 3 תאים",
       "sku": null,
       "brand": null,
       "price": 179.9,
@@ -3819,9 +3819,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-9ne7jx",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-11xn7w",
+      "categories": [
+        "עגלות שירות "
+      ],
+      "updated_at": "2026-06-11T10:07:48.494Z"
     },
     {
       "id": "34cbd291-8a13-4329-ba48-e6635d6f7925",
