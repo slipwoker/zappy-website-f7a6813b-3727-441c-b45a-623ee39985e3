@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:00:41.493Z",
+  "generated_at": "2026-06-11T10:01:43.853Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8217,10 +8217,10 @@
     },
     {
       "id": "77422bb9-11c5-40ef-8698-1e78c064f336",
-      "slug": "msgrt-tmvnh-a3-xa41x3",
+      "slug": "msgrt-tmvnh-a3-lscrvf",
       "name": "מסגרת תמונה A3\r\n",
       "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121565066",
       "brand": null,
@@ -8233,9 +8233,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-a3-xa41x3",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-a3-lscrvf",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:01:11.555Z"
     },
     {
       "id": "c3a818b8-2fe2-4147-a75e-b3215cdfbca8",
