@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:12:04.035Z",
+  "generated_at": "2026-06-11T10:12:53.577Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4570,10 +4570,10 @@
     },
     {
       "id": "f4325e29-66ba-4566-b142-681b9195ea37",
-      "slug": "arvn-nalyym-10-kvmvt-tsba-lbn-8dmyfc",
+      "slug": "arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5",
       "name": "ארון נעליים 10 קומות צבע לבן",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560870",
       "brand": null,
@@ -4586,9 +4586,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-8dmyfc",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5",
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-11T10:12:32.022Z"
     },
     {
       "id": "64866fb0-9aca-4766-aa95-f2a076ec16d5",
