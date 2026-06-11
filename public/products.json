@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:37:19.678Z",
+  "generated_at": "2026-06-11T10:40:41.172Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -10253,10 +10253,10 @@
     },
     {
       "id": "b405ab56-ad3e-48ea-95fb-82eb034d3f6c",
-      "slug": "myybsh-klym-alvmynyvm-emma-tsba-ksp-l0g7cc",
+      "slug": "myybsh-klym-alvmynyvm-emma-tsba-ksp-1aspum",
       "name": "מייבש כלים אלומיניום EMMA צבע כסף\r\n\r\n ",
       "name_translations": {},
-      "description": "מידות : אורך 43 ס\"מ\r\nרוחב 30 ס\"מ\r\nגובה 12 ס\"מ",
+      "description": "<p><br></p>",
       "short_description": "עיצוב חדשני המתאים לחלל הבית\r\nכולל סכומון ומעמד לכוסות\r\nאלומיניום אל חד \r\nקל לניקוי",
       "sku": "7290121563079",
       "brand": null,
@@ -10264,16 +10264,14 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837632411-y2rmv.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-l0g7cc",
+      "url": "https://streetstock.co.il/product/myybsh-klym-alvmynyvm-emma-tsba-ksp-1aspum",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:40:07.505Z"
     },
     {
       "id": "1aa29eb9-203c-4289-982a-ae84373bd8c9",
