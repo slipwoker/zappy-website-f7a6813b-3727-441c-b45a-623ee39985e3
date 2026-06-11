@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T10:23:07.659Z",
+  "generated_at": "2026-06-11T10:23:40.849Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4109,11 +4109,11 @@
     },
     {
       "id": "b94e9c47-959e-482b-89b3-03181408ca52",
-      "slug": "kryt-shynh-vigo-iuanzw",
+      "slug": "kryt-shynh-vigo-y4pis4",
       "name": "כרית שינה VIGO",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות : 50X70 ס\"מ",
+      "short_description": null,
       "sku": null,
       "brand": null,
       "price": 59.9,
@@ -4125,11 +4125,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kryt-shynh-vigo-iuanzw",
+      "url": "https://streetstock.co.il/product/kryt-shynh-vigo-y4pis4",
       "categories": [
         "כריות שינה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T10:23:09.107Z"
     },
     {
       "id": "ed1390b7-bf6f-43d6-96ab-1ea1ffd162c8",
