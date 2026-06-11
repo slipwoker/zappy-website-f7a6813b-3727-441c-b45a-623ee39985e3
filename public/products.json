@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-11T09:43:15.800Z",
+  "generated_at": "2026-06-11T09:45:12.028Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -8555,10 +8555,10 @@
     },
     {
       "id": "fee9775d-686e-4d5f-9db2-4b3240b48f05",
-      "slug": "kvpsat-zkvkyt-mrvbat-320-ml-t9vcmr",
+      "slug": "kvpsat-zkvkyt-mrvbat-320-ml-9jtkdn",
       "name": "קופסאת זכוכית מרובעת 320 מ\"ל \r\n \r\n ",
       "name_translations": {},
-      "description": "קופסאות אחסון",
+      "description": "<p>קופסאות אחסון</p>",
       "short_description": null,
       "sku": "7290121563871",
       "brand": null,
@@ -8571,11 +8571,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mrvbat-320-ml-t9vcmr",
+      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mrvbat-320-ml-9jtkdn",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-11T09:44:40.259Z"
     },
     {
       "id": "7c3ecbaf-d582-4095-9425-725c3c026a40",
