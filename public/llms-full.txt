@@ -9519,22 +9519,20 @@ Availability: In stock
 ---
 
 ### קופסאת אחסון אקרילית דגם "עדן" 300 מ"ל 
-URL: https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-caz7c4
+URL: https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-bgp390
 Price: 14.90 ILS
 Availability: In stock
 SKU: 7255882312014
 
-צנצנות אקריל
-
 ---
 
 ### קופסאת אחסון אקרילית דגם "עדן" 500 מ"ל 
-URL: https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-cai2uj
+URL: https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-bv49uk
 Price: 24.90 ILS
 Availability: In stock
 SKU: 7255882312021
 
-צנצנות אקריל
+=
 
 ---
 

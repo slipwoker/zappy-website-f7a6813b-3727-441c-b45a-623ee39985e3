@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:39:02.120Z",
+  "generated_at": "2026-06-14T14:39:34.370Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -9381,10 +9381,10 @@
     },
     {
       "id": "fa98c8da-bc8e-4e44-98b5-b3e8c29e1805",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-300-ml-caz7c4",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-300-ml-bgp390",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 300 מ\"ל ",
       "name_translations": {},
-      "description": "<p>צנצנות אקריל</p>",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7255882312014",
       "brand": null,
@@ -9397,18 +9397,18 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-caz7c4",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-bgp390",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-14T11:58:45.675Z"
+      "updated_at": "2026-06-14T14:39:02.607Z"
     },
     {
       "id": "400b07bb-8549-4373-8ea1-7099c5eb3e45",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-500-ml-cai2uj",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-500-ml-bv49uk",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 500 מ\"ל ",
       "name_translations": {},
-      "description": "<p>צנצנות אקריל</p>",
+      "description": "<p>=</p>",
       "short_description": null,
       "sku": "7255882312021",
       "brand": null,
@@ -9421,11 +9421,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-cai2uj",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-bv49uk",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-14T11:58:52.129Z"
+      "updated_at": "2026-06-14T14:39:32.622Z"
     },
     {
       "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
