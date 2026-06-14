@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T12:07:02.209Z",
+  "generated_at": "2026-06-14T12:08:15.973Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -9129,27 +9129,27 @@
     },
     {
       "id": "888498e9-15bb-47eb-b5ad-2efe6d8efb31",
-      "slug": "st-4-kvpsavt-achsvn-akrylyt-dgm-adn-900-ml-w9lkyo",
+      "slug": "st-4-kvpsavt-achsvn-akrylyt-dgm-adn-900-ml-omenle",
       "name": "סט 4 קופסאות אחסון אקרילית דגם \"עדן\" 900 מ\"ל ",
       "name_translations": {},
       "description": "<p>צנצנות אקריל</p>",
       "short_description": "\n",
       "sku": "7255882312045",
       "brand": null,
-      "price": 0,
+      "price": 99.9,
       "base_price": 99.9,
-      "sale_price": 0,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837647366-bdqugh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-kvpsavt-achsvn-akrylyt-dgm-adn-900-ml-w9lkyo",
+      "url": "https://streetstock.co.il/product/st-4-kvpsavt-achsvn-akrylyt-dgm-adn-900-ml-omenle",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-14T12:06:25.444Z"
+      "updated_at": "2026-06-14T12:07:44.387Z"
     },
     {
       "id": "a9b9b11a-5f55-44ea-98bb-3dc09616e055",
