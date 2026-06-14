@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:51:25.753Z",
+  "generated_at": "2026-06-14T14:51:47.817Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -3183,7 +3183,7 @@
     },
     {
       "id": "a4363ccb-1db8-4941-9ab0-b420b4554a3b",
-      "slug": "shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-aunfhu",
+      "slug": "shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-lkodzu",
       "name": "שמיכת קיץ מפנקת יחיד צבע כחול כהה",
       "name_translations": {},
       "description": "",
@@ -3199,11 +3199,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-aunfhu",
+      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-lkodzu",
       "categories": [
         "שמיכות קיץ "
       ],
-      "updated_at": "2026-06-14T08:50:52.012Z"
+      "updated_at": "2026-06-14T14:51:38.729Z"
     },
     {
       "id": "a2cb7838-3035-4b7c-b135-3b4f0bef27f6",
