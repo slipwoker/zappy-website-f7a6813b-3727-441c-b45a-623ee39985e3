@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:28:13.295Z",
+  "generated_at": "2026-06-14T14:30:14.543Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -10311,7 +10311,7 @@
     },
     {
       "id": "13d171fa-46e5-4823-9f24-98b52b34a6a3",
-      "slug": "pch-tats-rglyym-15-lytr-lbn-2gq08o",
+      "slug": "pch-tats-rglyym-15-lytr-lbn-4f4k67",
       "name": "פח טאצ' + רגליים 15 ליטר לבן",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -10327,13 +10327,13 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-lbn-2gq08o",
+      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-lbn-4f4k67",
       "categories": [
         "פחי מטבח",
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-14T14:05:03.303Z"
+      "updated_at": "2026-06-14T14:29:42.545Z"
     },
     {
       "id": "ca383bee-6279-4b86-aa7b-8aaf00751fa0",
