@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T13:18:05.037Z",
+  "generated_at": "2026-06-14T13:28:01.074Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -5006,7 +5006,7 @@
     },
     {
       "id": "7816aa98-d733-4305-b5d8-cbd50970461b",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-iev9pv",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-nhsgqm",
       "name": "סט פח + מברשת אסלה דגם LUNARIA\r\n צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -5022,12 +5022,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-iev9pv",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-nhsgqm",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-14T12:23:49.513Z"
+      "updated_at": "2026-06-14T13:27:29.033Z"
     },
     {
       "id": "59af7873-1680-4a88-ac12-e4a1d7b5065d",
