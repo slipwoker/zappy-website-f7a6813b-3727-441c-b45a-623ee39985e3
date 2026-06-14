@@ -462,6 +462,7 @@ https://streetstock.co.il/product/kvlpn-shvvytsry-chbrt-swiss-78tyi4
 https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-gcwf8w
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: סכיני מטבח
 - Description: עיצוב תנין צבעוני מדליק והומוריסטי שהילדים אוהבים. ידית ארגונומית נעימה למגע להב בטיחותי לילדים מגביר צריכת ירקות ופירות אצל ילדים
 - Image: https://streetstock.co.il/assets/product-1780837764195-8okj8a.webp
 
@@ -469,6 +470,7 @@ https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-gcwf8w
 https://streetstock.co.il/product/wolfgang-sntvkv-125-sm-gsocb2
 - Price: 59.90 ILS
 - Availability: In stock
+- Category: סכיני מטבח
 - Image: https://streetstock.co.il/assets/product-1780837764276-xb5m2a.webp
 
 ### סכין סולינגן צבע אדום 8.5 סמ

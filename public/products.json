@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T12:27:57.765Z",
+  "generated_at": "2026-06-14T12:33:05.882Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -1224,8 +1224,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-gcwf8w",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "סכיני מטבח"
+      ],
+      "updated_at": "2026-06-14T12:32:34.394Z"
     },
     {
       "id": "cb7f0d3c-c33e-4042-9f50-dcef94f97ffe",
@@ -1246,8 +1248,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/wolfgang-sntvkv-125-sm-gsocb2",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "סכיני מטבח"
+      ],
+      "updated_at": "2026-06-14T12:32:34.290Z"
     },
     {
       "id": "d2cc57d7-eebc-4494-892d-6745a1965883",
