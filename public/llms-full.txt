@@ -8965,23 +8965,19 @@ SKU: 7290121561433
 
 ### שולחן עץ סביון שחור
 
-URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-q1yyqv
+URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq
 Price: 79.90 ILS
 Availability: In stock
 SKU: 7290121561266
-
-מעמדים דקורטיביים
 
 ---
 
 ### שולחן עץ סביון לבן
 
-URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-345rni
+URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl
 Price: 79.90 ILS
 Availability: In stock
 SKU: 7290121561273
-
-מעמדים דקורטיביים
 
 ---
 
@@ -9123,12 +9119,10 @@ SKU: 7290121564878
 
 ### שטיח אמבטיה דגם AquaMat
 
-URL: https://streetstock.co.il/product/shtych-ambtyh-dgm-aquamat-qariek
+URL: https://streetstock.co.il/product/shtych-ambtyh-dgm-aquamat-00xx4p
 Price: 24.90 ILS
 Availability: In stock
 SKU: 7290121563215
-
-שטיחי אמבטיה
 
 ---
 

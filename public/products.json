@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:43:15.355Z",
+  "generated_at": "2026-06-14T14:44:42.647Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -8125,10 +8125,10 @@
     },
     {
       "id": "0910f4d0-180b-4a45-92a0-b5ec40e86adf",
-      "slug": "shvlchn-ats-sbyvn-shchvr-q1yyqv",
+      "slug": "shvlchn-ats-sbyvn-shchvr-c0f0bq",
       "name": "שולחן עץ סביון שחור\r\n",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561266",
       "brand": null,
@@ -8141,16 +8141,16 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-q1yyqv",
+      "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:43:21.273Z"
     },
     {
       "id": "e351a10c-e5f9-4396-b90c-2e64572e26a8",
-      "slug": "shvlchn-ats-sbyvn-lbn-345rni",
+      "slug": "shvlchn-ats-sbyvn-lbn-pk78vl",
       "name": "שולחן עץ סביון לבן\r\n",
       "name_translations": {},
-      "description": "מעמדים דקורטיביים",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561273",
       "brand": null,
@@ -8163,9 +8163,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-345rni",
+      "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:43:44.164Z"
     },
     {
       "id": "417635b9-1205-42e3-9e65-282b53f0ac94",
@@ -8485,10 +8485,10 @@
     },
     {
       "id": "16597c92-811d-4a4e-9031-837795e6f236",
-      "slug": "shtych-ambtyh-dgm-aquamat-qariek",
+      "slug": "shtych-ambtyh-dgm-aquamat-00xx4p",
       "name": "שטיח אמבטיה דגם AquaMat\r\n",
       "name_translations": {},
-      "description": "שטיחי אמבטיה",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563215",
       "brand": null,
@@ -8501,11 +8501,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-aquamat-qariek",
+      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-aquamat-00xx4p",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:44:11.093Z"
     },
     {
       "id": "d417e57a-18da-42b5-a646-c609e69645d2",
