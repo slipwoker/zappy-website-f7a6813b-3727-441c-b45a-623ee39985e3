@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T09:08:06.016Z",
+  "generated_at": "2026-06-14T09:08:39.776Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -5334,10 +5334,10 @@
     },
     {
       "id": "ee9f68dd-fc9a-4a50-afda-701b4aff46de",
-      "slug": "mshtch-chytvk-mktsvay-20x33-sm-vfg2fz",
+      "slug": "mshtch-chytvk-mktsvay-20x33-sm-tsywv6",
       "name": "משטח חיתוך מקצועי 20X33 ס\"מ \r\n",
       "name_translations": {},
-      "description": "משטחי חיתוך",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121562461",
       "brand": null,
@@ -5348,11 +5348,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-20x33-sm-vfg2fz",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-20x33-sm-tsywv6",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T09:08:08.016Z"
     },
     {
       "id": "85837a33-f718-4a8b-9368-77e720aa5012",
