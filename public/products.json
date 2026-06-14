@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:43:28.738Z",
+  "generated_at": "2026-06-14T08:44:42.029Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3923,11 +3923,11 @@
     },
     {
       "id": "238c8298-d638-4ec3-829b-47784d197dd8",
-      "slug": "mpt-shvlchn-dgm-lunar-ps-mvkh-vk0lh5",
+      "slug": "mpt-shvlchn-dgm-lunar-ps-mvkh-28pl5q",
       "name": "מפת שולחן דגם LUNAR פס מוקה",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות : 150X250 ס\"מ \r\nמפת שולחן יוקרתית ומבריקה עם גימור עדין.",
+      "short_description": "מפת שולחן יוקרתית ומבריקה עם גימור עדין.",
       "sku": null,
       "brand": null,
       "price": 59.9,
@@ -3939,11 +3939,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-lunar-ps-mvkh-vk0lh5",
+      "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-lunar-ps-mvkh-28pl5q",
       "categories": [
         "מגבות ומפות שולחן"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T08:44:09.980Z"
     },
     {
       "id": "5195d441-3612-4ecb-9ae4-97612a893359",
