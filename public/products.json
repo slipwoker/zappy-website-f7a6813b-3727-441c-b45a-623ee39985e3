@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:39:06.251Z",
+  "generated_at": "2026-06-14T08:40:51.965Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3899,11 +3899,11 @@
     },
     {
       "id": "0e5a5175-82bc-4ff0-b6c8-cada56cda749",
-      "slug": "mpt-shvlchn-dgm-waves-tsba-shmnt-y3xate",
+      "slug": "mpt-shvlchn-dgm-waves-tsba-shmnt-whrisk",
       "name": "מפת שולחן דגם WAVES צבע שמנת",
       "name_translations": {},
       "description": "",
-      "short_description": "מידות : 150X250 ס\"מ \r\nמפת שולחן יוקרתית ומבריקה עם גימור עדין.",
+      "short_description": "מפת שולחן יוקרתית ומבריקה עם גימור עדין.",
       "sku": null,
       "brand": null,
       "price": 59.9,
@@ -3915,11 +3915,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-waves-tsba-shmnt-y3xate",
+      "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-waves-tsba-shmnt-whrisk",
       "categories": [
         "מגבות ומפות שולחן"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T08:40:19.068Z"
     },
     {
       "id": "238c8298-d638-4ec3-829b-47784d197dd8",
