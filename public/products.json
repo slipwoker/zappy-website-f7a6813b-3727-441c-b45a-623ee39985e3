@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:37:30.602Z",
+  "generated_at": "2026-06-14T14:38:10.089Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -9247,10 +9247,10 @@
     },
     {
       "id": "840b6dfe-f56a-48db-8584-9be8dd4216f9",
-      "slug": "tsntsnt-achsvn-850-ml-i-dgm-gpn-24xwoi",
+      "slug": "tsntsnt-achsvn-850-ml-i-dgm-gpn-47do9l",
       "name": "צנצנת אחסון 850 מ\"ל I דגם \"גפן\"\r\n",
       "name_translations": {},
-      "description": "צנצנות זכוכית",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561662",
       "brand": null,
@@ -9261,11 +9261,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-i-dgm-gpn-24xwoi",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-i-dgm-gpn-47do9l",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:37:37.659Z"
     },
     {
       "id": "e0745ee0-67a9-418c-9075-ff755c6b23c1",
