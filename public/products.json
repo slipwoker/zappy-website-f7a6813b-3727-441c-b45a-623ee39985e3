@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:48:15.883Z",
+  "generated_at": "2026-06-14T14:48:44.386Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -2991,7 +2991,7 @@
     },
     {
       "id": "e04c240c-afe9-4d78-93fd-87dca63bea8a",
-      "slug": "shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-xii1xb",
+      "slug": "shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-3cbopz",
       "name": "שמיכת קיץ מפנקת זוגי צבע סגול לילך",
       "name_translations": {},
       "description": "",
@@ -3007,11 +3007,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-xii1xb",
+      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-3cbopz",
       "categories": [
         "שמיכות קיץ "
       ],
-      "updated_at": "2026-06-14T08:50:50.462Z"
+      "updated_at": "2026-06-14T14:48:37.087Z"
     },
     {
       "id": "b93499b5-9b42-4134-b1eb-f18d413f8d4a",
