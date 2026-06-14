@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:30:14.543Z",
+  "generated_at": "2026-06-14T14:30:48.301Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -9225,10 +9225,10 @@
     },
     {
       "id": "d77c3911-2a82-4b18-a46e-76018bc019ce",
-      "slug": "tsntsnt-achsvn-1100-ml-i-dgm-gpn-sf9mme",
+      "slug": "tsntsnt-achsvn-1100-ml-i-dgm-gpn-a9ahio",
       "name": "צנצנת אחסון 1100 מ\"ל I דגם \"גפן\"\r\n",
       "name_translations": {},
-      "description": "צנצנות זכוכית",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561655",
       "brand": null,
@@ -9239,11 +9239,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-i-dgm-gpn-sf9mme",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-i-dgm-gpn-a9ahio",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:30:16.699Z"
     },
     {
       "id": "840b6dfe-f56a-48db-8584-9be8dd4216f9",
