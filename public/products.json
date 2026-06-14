@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:51:24.549Z",
+  "generated_at": "2026-06-14T08:52:02.443Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -3334,8 +3334,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-n052tx",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-14T08:51:30.170Z"
     },
     {
       "id": "c7e19926-bed1-4277-969e-302b526d4c0f",
@@ -3356,8 +3358,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-4-mgyrvt-bmbvk-y40ieh",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-14T08:51:30.287Z"
     },
     {
       "id": "b81bfaf5-ad0a-4863-8239-4dccc1e31e84",

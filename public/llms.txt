@@ -1162,6 +1162,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-lbn-1nmkj5
 https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-n052tx
 - Price: 299.90 ILS
 - Availability: In stock
+- Category: מעמדים דקורטיבים 
 - Description: 37 ליטר : 50X30X120 ס"מ ארגונית במבו איכותית במיוחד. בעלת סל נשלף ומדפים.
 - Image: https://streetstock.co.il/assets/product-1780837738482-rs0nmf.webp
 
@@ -1169,6 +1170,7 @@ https://streetstock.co.il/product/mamd-kbysh-vmdpym-dgm-mvnv-n052tx
 https://streetstock.co.il/product/mamd-4-mgyrvt-bmbvk-y40ieh
 - Price: 149.90 ILS
 - Availability: In stock
+- Category: מעמדים דקורטיבים 
 - Description: 8 ליטר : 18X33X78 ס"מ מעמד 4 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837738440-5y889.webp
 
