@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T09:01:56.368Z",
+  "generated_at": "2026-06-14T09:04:29.005Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -5144,10 +5144,10 @@
     },
     {
       "id": "e6f4972a-d581-4179-84ad-9db68825d987",
-      "slug": "mshtch-chytvk-nyrvsth-20x30-sm-7db69o",
+      "slug": "mshtch-chytvk-nyrvsth-20x30-sm-e5i9k8",
       "name": "משטח חיתוך נירוסטה 20X30 ס\"מ ",
       "name_translations": {},
-      "description": "משטחי חיתוך",
+      "description": "<p>משטחי חיתוך</p>",
       "short_description": null,
       "sku": "7290121563611",
       "brand": null,
@@ -5160,11 +5160,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-20x30-sm-7db69o",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-20x30-sm-e5i9k8",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T09:03:57.308Z"
     },
     {
       "id": "8a1bc163-d662-48e3-bc5a-32fa37a0e5a6",
