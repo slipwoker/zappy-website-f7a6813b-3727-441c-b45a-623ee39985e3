@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T13:29:59.405Z",
+  "generated_at": "2026-06-14T13:31:42.300Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -8415,10 +8415,10 @@
     },
     {
       "id": "c3a818b8-2fe2-4147-a75e-b3215cdfbca8",
-      "slug": "st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-opo4yk",
+      "slug": "st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-yu8tno",
       "name": "סט פח+מברשת אסלה צבע קרם דגם NEVOA\r\n",
       "name_translations": {},
-      "description": "פחי שירותים, פחי אמבטיה",
+      "description": "<p>פחי שירותים, פחי אמבטיה</p>",
       "short_description": null,
       "sku": "729012161853",
       "brand": null,
@@ -8426,17 +8426,15 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837656008-nyki5.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-opo4yk",
+      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-yu8tno",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T13:31:19.305Z"
     },
     {
       "id": "3b4b565a-5ae5-4c78-b621-3b7a86638b5e",
@@ -8513,10 +8511,10 @@
     },
     {
       "id": "d417e57a-18da-42b5-a646-c609e69645d2",
-      "slug": "st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-w8fzx2",
+      "slug": "st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-6wibvj",
       "name": "סט פח+מברשת אסלה צבע שחור דגם NEVOA\r\n",
       "name_translations": {},
-      "description": "פחי שירותים, פחי אמבטיה",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561860",
       "brand": null,
@@ -8524,17 +8522,15 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837655594-gdhj9r.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-w8fzx2",
+      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-6wibvj",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T13:31:10.428Z"
     },
     {
       "id": "2c3cb38f-38b9-4030-bdf2-507601d35ac3",

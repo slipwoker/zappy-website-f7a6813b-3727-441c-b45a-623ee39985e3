@@ -9115,7 +9115,7 @@ SKU: 7290121565066
 
 ### סט פח+מברשת אסלה צבע קרם דגם NEVOA
 
-URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-opo4yk
+URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-yu8tno
 Price: 59.90 ILS
 Availability: In stock
 SKU: 729012161853
@@ -9157,12 +9157,10 @@ SKU: 7290121563215
 
 ### סט פח+מברשת אסלה צבע שחור דגם NEVOA
 
-URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-w8fzx2
+URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-6wibvj
 Price: 59.90 ILS
 Availability: In stock
 SKU: 7290121561860
-
-פחי שירותים, פחי אמבטיה
 
 ---
 
