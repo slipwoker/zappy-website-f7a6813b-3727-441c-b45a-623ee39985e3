@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T09:04:29.005Z",
+  "generated_at": "2026-06-14T09:05:03.698Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -5192,10 +5192,10 @@
     },
     {
       "id": "522a2812-0f22-46c1-b048-225c24444d2a",
-      "slug": "mshtch-chytvk-nyrvsth-23x34-sm-yxr0oo",
+      "slug": "mshtch-chytvk-nyrvsth-23x34-sm-ntt2cr",
       "name": "משטח חיתוך נירוסטה 23X34 ס\"מ ",
       "name_translations": {},
-      "description": "משטחי חיתוך",
+      "description": "<p>משטחי חיתוך</p>",
       "short_description": null,
       "sku": "7290121563604",
       "brand": null,
@@ -5208,11 +5208,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-23x34-sm-yxr0oo",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-23x34-sm-ntt2cr",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T09:04:32.063Z"
     },
     {
       "id": "ae1e73e6-3384-40bc-a082-ebeac542c2e6",
