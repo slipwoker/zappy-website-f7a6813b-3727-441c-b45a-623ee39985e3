@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:49:50.243Z",
+  "generated_at": "2026-06-14T14:50:38.797Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -3087,7 +3087,7 @@
     },
     {
       "id": "68f5b678-69bb-48c7-9dbd-5e7169e8153c",
-      "slug": "shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-b7zmil",
+      "slug": "shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-br07ol",
       "name": "שמיכת קיץ מפנקת יחיד צבע אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -3103,15 +3103,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-b7zmil",
+      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-br07ol",
       "categories": [
         "שמיכות קיץ "
       ],
-      "updated_at": "2026-06-14T08:50:52.484Z"
+      "updated_at": "2026-06-14T14:50:06.637Z"
     },
     {
       "id": "6dcd2b2d-a99c-417b-9e0a-23d1d79b3055",
-      "slug": "shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-bj28fv",
+      "slug": "shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-7k6k2m",
       "name": "שמיכת קיץ מפנקת יחיד צבע אפור כהה",
       "name_translations": {},
       "description": "",
@@ -3127,11 +3127,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-bj28fv",
+      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-7k6k2m",
       "categories": [
         "שמיכות קיץ "
       ],
-      "updated_at": "2026-06-14T08:50:51.060Z"
+      "updated_at": "2026-06-14T14:50:31.587Z"
     },
     {
       "id": "452e65b3-0c64-48dd-91d1-ce9af911c267",
