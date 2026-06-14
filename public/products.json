@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:46:03.671Z",
+  "generated_at": "2026-06-14T08:46:53.790Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -9403,25 +9403,25 @@
     },
     {
       "id": "ab0691bf-66b2-431f-9416-40fd4896d5cb",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-150-ml-nlnqqz",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-150-ml-63q4tq",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 150 מ\"ל",
       "name_translations": {},
-      "description": "צנצנות אקריל",
+      "description": "<p>צנצנות אקריל</p>",
       "short_description": null,
       "sku": "7290121561044",
       "brand": null,
-      "price": null,
+      "price": 14.9,
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-150-ml-nlnqqz",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-150-ml-63q4tq",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T08:46:21.336Z"
     },
     {
       "id": "56d36c81-a31e-4596-9d60-35692666c65e",
