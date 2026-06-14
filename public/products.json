@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:53:25.729Z",
+  "generated_at": "2026-06-14T14:54:19.770Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -6170,10 +6170,10 @@
     },
     {
       "id": "cfa768c8-d626-4b5d-9012-9c765a03013f",
-      "slug": "shkyt-vakvm-m-50x60-k1bt41",
+      "slug": "shkyt-vakvm-m-50x60-we2s0k",
       "name": "שקית ואקום M 50X60\r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p>כללי</p>",
       "short_description": null,
       "sku": "7290121562737",
       "brand": null,
@@ -6186,11 +6186,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shkyt-vakvm-m-50x60-k1bt41",
+      "url": "https://streetstock.co.il/product/shkyt-vakvm-m-50x60-we2s0k",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:54:07.868Z"
     },
     {
       "id": "8b0a47de-5234-49c6-872d-d00d337bf2a3",
@@ -6218,10 +6218,10 @@
     },
     {
       "id": "2db7e437-f5fa-4dc4-874c-1499522a9b80",
-      "slug": "shkyt-vakvm-l-60x80-xcyyc9",
+      "slug": "shkyt-vakvm-l-60x80-r6x4o3",
       "name": "שקית ואקום L 60X80\r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121562720",
       "brand": null,
@@ -6234,11 +6234,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shkyt-vakvm-l-60x80-xcyyc9",
+      "url": "https://streetstock.co.il/product/shkyt-vakvm-l-60x80-r6x4o3",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:53:47.802Z"
     },
     {
       "id": "2dd8357b-a35d-4031-b52d-d3116bb91b9c",

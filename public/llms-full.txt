@@ -8084,7 +8084,7 @@ SKU: 7290121562348
 
 ### שקית ואקום M 50X60
 
-URL: https://streetstock.co.il/product/shkyt-vakvm-m-50x60-k1bt41
+URL: https://streetstock.co.il/product/shkyt-vakvm-m-50x60-we2s0k
 Price: 9.90 ILS
 Availability: In stock
 SKU: 7290121562737
@@ -8106,12 +8106,10 @@ SKU: 7290121563673
 
 ### שקית ואקום L 60X80
 
-URL: https://streetstock.co.il/product/shkyt-vakvm-l-60x80-xcyyc9
+URL: https://streetstock.co.il/product/shkyt-vakvm-l-60x80-r6x4o3
 Price: 11.90 ILS
 Availability: In stock
 SKU: 7290121562720
-
-כללי
 
 ---
 
