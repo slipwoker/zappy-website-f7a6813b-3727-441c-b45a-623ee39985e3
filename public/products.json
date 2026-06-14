@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:54:19.770Z",
+  "generated_at": "2026-06-14T14:54:39.859Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -6291,10 +6291,10 @@
     },
     {
       "id": "a38ae838-26c5-4522-83d8-5a6a35afdb31",
-      "slug": "shkyt-kbysh-50x60-sm-5722lp",
+      "slug": "shkyt-kbysh-50x60-sm-dwcbvr",
       "name": "שקית כביסה 50X60 ס\"מ\r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121562744",
       "brand": null,
@@ -6307,11 +6307,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shkyt-kbysh-50x60-sm-5722lp",
+      "url": "https://streetstock.co.il/product/shkyt-kbysh-50x60-sm-dwcbvr",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:54:38.072Z"
     },
     {
       "id": "cf4cee89-73fa-410d-99e8-209eda010f34",
