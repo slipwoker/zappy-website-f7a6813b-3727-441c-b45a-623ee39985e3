@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:27:38.898Z",
+  "generated_at": "2026-06-14T14:28:13.295Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -10527,10 +10527,10 @@
     },
     {
       "id": "165bb015-8cf6-4805-b979-3702eba81109",
-      "slug": "pch-dvvshh-45-lytr-tsba-shchvr-gksvpl",
+      "slug": "pch-dvvshh-45-lytr-tsba-shchvr-aw1o3y",
       "name": "פח דוושה 45 ליטר צבע שחור\r\n",
       "name_translations": {},
-      "description": "מידות : גובה 69 ס\"מ\r\nרוחב 30 ס\"מ\r\nעומק 38 ס\"מ",
+      "description": "<p><br></p>",
       "short_description": "פח דוושה 45 ליטר\r\nגלגלים נוחים לשינוע | פלסטיק איכותי\r\nעיצוב חדשני ומודרני לחלל הבית",
       "sku": "7290121565059",
       "brand": null,
@@ -10541,11 +10541,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-45-lytr-tsba-shchvr-gksvpl",
+      "url": "https://streetstock.co.il/product/pch-dvvshh-45-lytr-tsba-shchvr-aw1o3y",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:27:41.835Z"
     }
   ]
 }
