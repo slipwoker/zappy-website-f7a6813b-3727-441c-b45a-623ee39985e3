@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T12:18:01.736Z",
+  "generated_at": "2026-06-14T12:19:53.061Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -2269,7 +2269,7 @@
     },
     {
       "id": "5b5482b5-93f1-41c6-8338-2abfe253f1a2",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-e7m0c3",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-m91wls",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה ברק",
       "name_translations": {},
       "description": "",
@@ -2281,15 +2281,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1781439281490-v3mhg6.webp"
+        "https://streetstock.co.il/assets/product-enhanced-1781439547828-nlndt.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-e7m0c3",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-m91wls",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-14T12:17:29.808Z"
+      "updated_at": "2026-06-14T12:19:21.335Z"
     },
     {
       "id": "3ca2f1b1-1227-4393-a45d-768965b082b6",
