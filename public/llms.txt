@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 446** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 447** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
@@ -1514,6 +1514,13 @@ https://streetstock.co.il/product/kryt-shynh-softty-j82j6x
 - Description: כרית שינה איכותית במיוחד במילוי שלוש שכבות סיליקון תפוחים היוצרת חווית שינה אוורירית ורכה במיוחד תוך שמירה על כל חלקי הצוואר.
 - Image: https://streetstock.co.il/assets/product-1780837726051-5w7m5h.webp
 
+### מגבת גוף דגם TULIP (Copy)
+https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-copy-73flkc
+- Price: 29.90 ILS
+- Availability: In stock
+- Category: מגבות ומפות שולחן
+- Image: https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp
+
 ### מגבת גוף דגם TULIP
 https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye
 - Price: 29.90 ILS
@@ -1622,13 +1629,6 @@ https://streetstock.co.il/product/mamd-akryly-lmbrshvt-mshcht-shynyym-izk9q4
 - SKU: 7290121564496
 - Description: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1780837719712-r6tk22.webp
-
-### סיר נירוסטה 28 ס"מ – 7 ליטר
-https://streetstock.co.il/product/syr-nyrvsth-28-sm-7-lytr-ztxtmf
-- Price: 169.90 ILS
-- Availability: In stock
-- Category: סירים ומחבתות
-- Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
 
 ---
 
