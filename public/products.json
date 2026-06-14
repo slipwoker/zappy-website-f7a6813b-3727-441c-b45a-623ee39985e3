@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T10:22:16.294Z",
+  "generated_at": "2026-06-14T11:59:17.408Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -5851,8 +5851,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-14T11:57:57.095Z"
     },
     {
       "id": "7cbdaa12-80a2-415b-af90-6d724a7db35f",
@@ -5873,8 +5875,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-14T11:57:57.228Z"
     },
     {
       "id": "e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f",
@@ -5895,8 +5899,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-abgt30",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-14T11:57:57.712Z"
     },
     {
       "id": "811542f0-2c9d-4ebc-95e6-5b70b0112710",
@@ -5917,8 +5923,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-14T11:57:57.350Z"
     },
     {
       "id": "d0411331-3e4c-4679-acee-fe78755d59f1",
@@ -5939,8 +5947,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-14T11:57:57.592Z"
     },
     {
       "id": "b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb",
@@ -5961,8 +5971,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-06-14T11:57:57.476Z"
     },
     {
       "id": "c5cfcf0b-95d1-44cc-b6f8-5aedbdfac36b",
@@ -9117,14 +9129,14 @@
     },
     {
       "id": "888498e9-15bb-47eb-b5ad-2efe6d8efb31",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-900-ml-5e6f9s",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-900-ml-xqgvir",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 900 מ\"ל ",
       "name_translations": {},
-      "description": "צנצנות אקריל",
+      "description": "<p>צנצנות אקריל</p>",
       "short_description": null,
       "sku": "7255882312045",
       "brand": null,
-      "price": null,
+      "price": 34.9,
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
@@ -9133,22 +9145,22 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-900-ml-5e6f9s",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-900-ml-xqgvir",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T11:58:27.548Z"
     },
     {
       "id": "a9b9b11a-5f55-44ea-98bb-3dc09616e055",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-700-ml-rijnvm",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-700-ml-sosbcv",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 700 מ\"ל\r\n",
       "name_translations": {},
-      "description": "צנצנות אקריל",
+      "description": "<p>צנצנות אקריל</p>",
       "short_description": null,
       "sku": "7255882312038",
       "brand": null,
-      "price": null,
+      "price": 29.9,
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
@@ -9157,11 +9169,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-700-ml-rijnvm",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-700-ml-sosbcv",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T11:58:37.687Z"
     },
     {
       "id": "0fecaa62-c843-4e63-8f4b-cfb6c6755bef",
@@ -9345,14 +9357,14 @@
     },
     {
       "id": "fa98c8da-bc8e-4e44-98b5-b3e8c29e1805",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-300-ml-i78amq",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-300-ml-caz7c4",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 300 מ\"ל ",
       "name_translations": {},
-      "description": "צנצנות אקריל",
+      "description": "<p>צנצנות אקריל</p>",
       "short_description": null,
       "sku": "7255882312014",
       "brand": null,
-      "price": null,
+      "price": 14.9,
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
@@ -9361,22 +9373,22 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-i78amq",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-caz7c4",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T11:58:45.675Z"
     },
     {
       "id": "400b07bb-8549-4373-8ea1-7099c5eb3e45",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-500-ml-n8bxf5",
+      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-500-ml-cai2uj",
       "name": "קופסאת אחסון אקרילית דגם \"עדן\" 500 מ\"ל ",
       "name_translations": {},
-      "description": "צנצנות אקריל",
+      "description": "<p>צנצנות אקריל</p>",
       "short_description": null,
       "sku": "7255882312021",
       "brand": null,
-      "price": null,
+      "price": 24.9,
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
@@ -9385,11 +9397,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-n8bxf5",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-cai2uj",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T11:58:52.129Z"
     },
     {
       "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
