@@ -1604,16 +1604,15 @@ https://streetstock.co.il/product/svtaz-nyrvsth-32-sm-38-lytr-01vcdf
 - Category: סירים ומחבתות
 - Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
 
-### סכומית מגירה גדול אקריל
+### סכומית מגירה בינוני אקריל
  דגם MAAYAN
 
-https://streetstock.co.il/product/skvmyt-mgyrh-gdvl-akryl-dgm-maayan-3qs3f4
-- Price: 39.90 ILS
+https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-vpmthp
+- Price: 29.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
-- SKU: 7290121560436
-- Description: מוצרי אקריל
-- Image: https://streetstock.co.il/assets/product-1780837720079-jnr1t.webp
+- SKU: 7290121560443
+- Image: https://streetstock.co.il/assets/product-1780837712790-di18hi.webp
 
 ### ארון נעליים 10 קומות צבע לבן
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5
