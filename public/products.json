@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T13:28:01.074Z",
+  "generated_at": "2026-06-14T13:29:59.405Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -8830,10 +8830,10 @@
     },
     {
       "id": "b2ba98b8-2fb4-426d-8725-9ef21cc25eb9",
-      "slug": "st-pch-mbrsht-tsba-mvkh-dgm-clevo-khnmsz",
+      "slug": "st-pch-mbrsht-tsba-mvkh-dgm-clevo-7dmhfi",
       "name": "סט פח + מברשת צבע מוקה\r\n דגם CLEVO\r\n\r\n ",
       "name_translations": {},
-      "description": "פחי שירותים, פחי אמבטיה",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563628",
       "brand": null,
@@ -8846,12 +8846,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-tsba-mvkh-dgm-clevo-khnmsz",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-tsba-mvkh-dgm-clevo-7dmhfi",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T13:29:23.378Z"
     },
     {
       "id": "70be8473-d4fd-48f5-98f4-afacfb440d8f",
