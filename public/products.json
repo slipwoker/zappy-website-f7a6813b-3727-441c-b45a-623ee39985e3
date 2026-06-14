@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:49:09.093Z",
+  "generated_at": "2026-06-14T14:49:29.754Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -2823,7 +2823,7 @@
     },
     {
       "id": "0a6debbf-e719-4777-9be8-e007531b40ef",
-      "slug": "shmykt-kyts-mpnkt-zvgy-tsba-tklt-oahujp",
+      "slug": "shmykt-kyts-mpnkt-zvgy-tsba-tklt-v99z3k",
       "name": "שמיכת קיץ מפנקת זוגי צבע תכלת",
       "name_translations": {},
       "description": "",
@@ -2839,11 +2839,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-oahujp",
+      "url": "https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-v99z3k",
       "categories": [
         "שמיכות קיץ "
       ],
-      "updated_at": "2026-06-14T08:50:52.248Z"
+      "updated_at": "2026-06-14T14:49:18.674Z"
     },
     {
       "id": "68d39010-7cd2-4a80-b371-28f5bc7ce102",
