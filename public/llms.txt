@@ -996,6 +996,7 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-9qks4z
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-oahujp
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742981-r3k8owk.webp
 
@@ -1003,6 +1004,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tklt-oahujp
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-kchvl-khh-7sbm55
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742966-v458rd.webp
 
@@ -1010,6 +1012,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-kchvl-khh-7sbm55
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-bhyr-s05zzk
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742942-0nfjt9.webp
 
@@ -1017,6 +1020,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-bhyr-s05zzk
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-khh-d2md3i
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742816-l0t1wc.webp
 
@@ -1024,6 +1028,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-apvr-khh-d2md3i
 https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-whps5n
 - Price: 249.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: סט מצעים איכותי במיוחד עשוי 100% פרקל כותנה בצפיפות 200 חוטים למ"ר מבד נעים למגע במיוחד עם רקמה מלכותית מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837742840-e4x0ii.webp
 
@@ -1031,6 +1036,7 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-whps
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-shmnt-yllszr
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742845-vuyx3u.webp
 
@@ -1038,6 +1044,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-shmnt-yllszr
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-vrvd-x2wntj
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742808-3c35or.webp
 
@@ -1045,6 +1052,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-vrvd-x2wntj
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-xii1xb
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837742767-vohulh.webp
 
@@ -1052,6 +1060,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-sgvl-lylk-xii1xb
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-3lbzq5
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740421-f1j7ik.webp
 
@@ -1059,6 +1068,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tvrkyz-3lbzq5
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tvrkyz-stv0ab
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837740412-7o4q68.webp
 
@@ -1066,6 +1076,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-tvrkyz-stv0ab
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-shmnt-etoz7i
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740311-e2m0l.webp
 
@@ -1073,6 +1084,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-shmnt-etoz7i
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-b7zmil
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740307-2lqlyd.webp
 
@@ -1080,6 +1092,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-bhyr-b7zmil
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-bj28fv
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740223-xrlcy.webp
 
@@ -1087,6 +1100,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-apvr-khh-bj28fv
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tklt-3jkdap
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740231-r0rjtk.webp
 
@@ -1094,6 +1108,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-tklt-3jkdap
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-vrvd-skku12
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740197-7uwkc.webp
 
@@ -1101,6 +1116,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-vrvd-skku12
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-aunfhu
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740108-zyf6kn.webp
 
@@ -1108,6 +1124,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-kchvl-khh-aunfhu
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-ard8m2
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837740109-olfn0d.webp
 
@@ -1115,6 +1132,7 @@ https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-sgvl-lylk-ard8m2
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-zvgy-tsba-lbn-hcvj8n
 - Price: 49.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות זוגי 220X200
 - Image: https://streetstock.co.il/assets/product-1780837740012-x8r4g8.webp
 
@@ -1136,6 +1154,7 @@ https://streetstock.co.il/product/mamd-6-mgyrvt-dgm-bmbv-9lifhn
 https://streetstock.co.il/product/shmykt-kyts-mpnkt-ychyd-tsba-lbn-1nmkj5
 - Price: 29.90 ILS
 - Availability: In stock
+- Category: שמיכות קיץ 
 - Description: שמיכת קיץ מפנקת מידות יחיד 150X200
 - Image: https://streetstock.co.il/assets/product-1780837738567-nptc8.webp
 
