@@ -1485,6 +1485,7 @@ https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-t1ambl
 - Price: 34.90 ILS
 - Availability: In stock
+- Category: מגני מזרון
 - Description: מידות : 90X200 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837726221-xoodbm.webp
 
@@ -1492,6 +1493,7 @@ https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-t1ambl
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-w9ovsc
 - Price: 44.90 ILS
 - Availability: In stock
+- Category: מגני מזרון
 - Description: מידות : 160X200 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837726185-vcpj3j.webp
 
@@ -1499,6 +1501,7 @@ https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-w9ovsc
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-w833hg
 - Price: 39.90 ILS
 - Availability: In stock
+- Category: מגני מזרון
 - Description: מידות : 120X200 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837726122-ane66k.webp
 

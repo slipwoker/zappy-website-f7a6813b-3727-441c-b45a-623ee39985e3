@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T08:52:02.443Z",
+  "generated_at": "2026-06-14T08:53:31.101Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4322,8 +4322,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-t1ambl",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-06-14T08:52:59.194Z"
     },
     {
       "id": "9e790c94-c60a-43cc-9dee-f6af90a1a462",
@@ -4344,8 +4346,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-w9ovsc",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-06-14T08:52:59.326Z"
     },
     {
       "id": "b1e5bb7a-0886-47d4-911b-a2649957cf00",
@@ -4366,8 +4370,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-w833hg",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-06-14T08:52:59.459Z"
     },
     {
       "id": "c5c24c35-7cbe-4bc7-9bf4-e2884d74d7ad",

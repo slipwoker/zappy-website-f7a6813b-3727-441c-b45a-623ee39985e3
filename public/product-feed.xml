@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 14 Jun 2026 08:52:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 08:53:31 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -2350,6 +2350,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגני מזרון</g:product_type>
     </item>
     <item>
       <g:id>9e790c94-c60a-43cc-9dee-f6af90a1a462</g:id>
@@ -2362,6 +2363,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגני מזרון</g:product_type>
     </item>
     <item>
       <g:id>b1e5bb7a-0886-47d4-911b-a2649957cf00</g:id>
@@ -2374,6 +2376,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגני מזרון</g:product_type>
     </item>
     <item>
       <g:id>c5c24c35-7cbe-4bc7-9bf4-e2884d74d7ad</g:id>
