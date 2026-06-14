@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-14T14:02:43.343Z",
+  "generated_at": "2026-06-14T14:03:29.583Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -7829,10 +7829,10 @@
     },
     {
       "id": "20b7f23e-cda4-43c2-a0d7-bb33685fc2cb",
-      "slug": "aglt-shrvt-4-kvmvt-lbn-dgm-calirfonia-id367-6-l1u9oq",
-      "name": "עגלת שרות 4 קומות לבן דגם CALIRFONIA\r\n ID367 (6)",
+      "slug": "aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-jirgqt",
+      "name": "עגלת שירות 4 קומות לבן דגם CALIRFONIA",
       "name_translations": {},
-      "description": "עגלות שירות",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560269",
       "brand": null,
@@ -7845,16 +7845,16 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-calirfonia-id367-6-l1u9oq",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-jirgqt",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:02:57.789Z"
     },
     {
       "id": "910c85e9-69ce-4acd-8ce4-5d34b7220862",
-      "slug": "aglt-shrvt-3-kvmvt-shchvr-dgm-calirfonia-k5kxns",
-      "name": "עגלת שרות 3 קומות שחור דגם CALIRFONIA\r\n",
+      "slug": "aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6",
+      "name": "עגלת שירות 3 קומות שחור דגם CALIRFONIA",
       "name_translations": {},
-      "description": "עגלות שירות",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121565110",
       "brand": null,
@@ -7867,9 +7867,9 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-3-kvmvt-shchvr-dgm-calirfonia-k5kxns",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6",
       "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-14T14:03:29.261Z"
     },
     {
       "id": "3143a343-3c95-4b69-b4b7-7d89d301fbec",

@@ -8843,25 +8843,19 @@ SKU: 7290121560856
 
 ---
 
-### עגלת שרות 4 קומות לבן דגם CALIRFONIA
- ID367 (6)
-URL: https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-calirfonia-id367-6-l1u9oq
+### עגלת שירות 4 קומות לבן דגם CALIRFONIA
+URL: https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-jirgqt
 Price: 179.90 ILS
 Availability: In stock
 SKU: 7290121560269
 
-עגלות שירות
-
 ---
 
-### עגלת שרות 3 קומות שחור דגם CALIRFONIA
-
-URL: https://streetstock.co.il/product/aglt-shrvt-3-kvmvt-shchvr-dgm-calirfonia-k5kxns
+### עגלת שירות 3 קומות שחור דגם CALIRFONIA
+URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6
 Price: 129.90 ILS
 Availability: In stock
 SKU: 7290121565110
-
-עגלות שירות
 
 ---
 
