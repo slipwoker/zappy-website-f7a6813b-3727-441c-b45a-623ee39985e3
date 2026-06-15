@@ -1282,11 +1282,12 @@ https://streetstock.co.il/product/tslchvt-pvrtsln-glaze-12-chlkym-15u1xy
 - Description: צלחת 20 ס"מ צלחת 27 ס"מ
 
 ### צנצנת זכוכית 750 מ"ל
-https://streetstock.co.il/product/tsntsnt-zkvkyt-750-ml-3vrc0q
+https://streetstock.co.il/product/tsntsnt-zkvkyt-750-ml-cypf85
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: צנצנות זכוכית
 - Description: צנצנות אחסון זכוכית מכסה עץ אקשיה
+- Image: https://streetstock.co.il/assets/product-1781512166052-rfaji.webp
 
 ### הדום דגם קשת צבע מוקה
 https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-c1tevv
