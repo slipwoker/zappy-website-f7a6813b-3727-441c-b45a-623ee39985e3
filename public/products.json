@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:19:38.757Z",
+  "generated_at": "2026-06-15T08:20:19.865Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 446,
+  "count": 445,
   "products": [
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
@@ -3416,7 +3416,7 @@
     },
     {
       "id": "8bcf3e3d-52b5-4f0b-9da6-36942e05992e",
-      "slug": "tsydnyt-bd-9-sm-psym-te0o3k",
+      "slug": "tsydnyt-bd-9-sm-psym-r02uf6",
       "name": "צידנית בד 9 ס\"מ פסים",
       "name_translations": {},
       "description": "",
@@ -3427,14 +3427,16 @@
       "base_price": 35,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781511596949-67dnni.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-te0o3k",
+      "url": "https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6",
       "categories": [
         "קיץ"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:20:05.906Z"
     },
     {
       "id": "cd65521e-f6e5-4969-ace0-756479a0162c",
@@ -3453,28 +3455,6 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-0dya1v",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "321bd63e-3330-44ab-b987-3de96c286365",
-      "slug": "tsydnyt-bd-28-sm-psym-0ivm65",
-      "name": "צידנית בד 28 ס\"מ פסים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צידניות בד + ידית נשיאה ",
-      "sku": null,
-      "brand": null,
-      "price": 60,
-      "base_price": 60,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-28-sm-psym-0ivm65",
       "categories": [
         "קיץ"
       ],
@@ -4935,10 +4915,10 @@
     },
     {
       "id": "f4b0185e-72bd-4796-83af-ee1086093870",
-      "slug": "skvmyt-mgyrh-bynvny-akryl-dgm-maayan-pinlp1",
+      "slug": "skvmyt-mgyrh-bynvny-akryl-dgm-maayan-764zwi",
       "name": "סכומית מגירה בינוני אקריל\r\n דגם MAAYAN\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560443",
       "brand": null,
@@ -4951,12 +4931,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-pinlp1",
+      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-764zwi",
       "categories": [
         "מוצרי אקריל",
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:20:17.705Z"
     },
     {
       "id": "1b215d23-1302-48fc-881c-5b7f7a95dff6",

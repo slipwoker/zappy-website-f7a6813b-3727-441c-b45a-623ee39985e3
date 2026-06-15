@@ -7683,7 +7683,7 @@ Availability: In stock
 ---
 
 ### צידנית בד 9 ס"מ פסים
-URL: https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-te0o3k
+URL: https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6
 Price: 35.00 ILS
 Availability: In stock
 
@@ -7692,13 +7692,6 @@ Availability: In stock
 ### סט 3 צדניות פלסטיק בגדלים שונים
 URL: https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-0dya1v
 Price: 249.90 ILS
-Availability: In stock
-
----
-
-### צידנית בד 28 ס"מ פסים
-URL: https://streetstock.co.il/product/tsydnyt-bd-28-sm-psym-0ivm65
-Price: 60.00 ILS
 Availability: In stock
 
 ---
@@ -8152,12 +8145,10 @@ SKU: 7290121562263
 ### סכומית מגירה בינוני אקריל
  דגם MAAYAN
 
-URL: https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-pinlp1
+URL: https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-764zwi
 Price: 29.90 ILS
 Availability: In stock
 SKU: 7290121560443
-
-מוצרי אקריל
 
 ---
 

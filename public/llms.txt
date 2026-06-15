@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 446** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 445** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
@@ -1195,11 +1195,12 @@ https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-dxp8mx
 - Image: https://streetstock.co.il/assets/product-1780837738316-hvyhsh.webp
 
 ### צידנית בד 9 ס"מ פסים
-https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-te0o3k
+https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6
 - Price: 35.00 ILS
 - Availability: In stock
 - Category: קיץ
 - Description: צידניות בד + ידית נשיאה
+- Image: https://streetstock.co.il/assets/product-1781511596949-67dnni.webp
 
 ### סט 3 צדניות פלסטיק בגדלים שונים
 https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-0dya1v
@@ -1207,13 +1208,6 @@ https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-0dya1v
 - Availability: In stock
 - Category: קיץ
 - Description: סט 3 צידניות 7+14+26- קשיחות איכותיות מגיעות עם קרחון מובנה במכסה -מתנה!
-
-### צידנית בד 28 ס"מ פסים
-https://streetstock.co.il/product/tsydnyt-bd-28-sm-psym-0ivm65
-- Price: 60.00 ILS
-- Availability: In stock
-- Category: קיץ
-- Description: צידניות בד + ידית נשיאה
 
 ### קופסאות אחסון CRUNCH 1.7 ליטר
 https://streetstock.co.il/product/kvpsavt-achsvn-crunch-17-lytr-o4djqw
@@ -1637,6 +1631,13 @@ https://streetstock.co.il/product/mamd-akryly-lmbrshvt-mshcht-shynyym-1rqpdb
 ### סיר נירוסטה 28 ס"מ – 7 ליטר
 https://streetstock.co.il/product/syr-nyrvsth-28-sm-7-lytr-ztxtmf
 - Price: 169.90 ILS
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
+
+### מחבת נירוסטה 24 ס"מ
+https://streetstock.co.il/product/mchbt-nyrvsth-24-sm-t3uq9e
+- Price: 89.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
