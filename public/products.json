@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:16:49.935Z",
+  "generated_at": "2026-06-15T10:11:00.833Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 443,
@@ -9827,7 +9827,7 @@
     },
     {
       "id": "87e86c6d-a8c2-4ef3-bf1a-8fc394fe1c20",
-      "slug": "st-3-kshry-kypvl-akryl-wb68zj",
+      "slug": "st-3-kshry-kypvl-akryl-l8ci80",
       "name": "סט 3 קשרי קיפול אקריל\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -9839,15 +9839,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837641997-0yu8a.webp"
+        "https://streetstock.co.il/assets/product-1781518218139-j0am8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-kshry-kypvl-akryl-wb68zj",
+      "url": "https://streetstock.co.il/product/st-3-kshry-kypvl-akryl-l8ci80",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-15T08:28:47.110Z"
+      "updated_at": "2026-06-15T10:10:29.187Z"
     },
     {
       "id": "18ae4d3e-5fe7-4a75-a467-ca51513b1fa5",
