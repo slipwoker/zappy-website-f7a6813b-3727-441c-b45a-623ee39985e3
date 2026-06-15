@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T05:59:26.171Z",
+  "generated_at": "2026-06-15T06:00:15.780Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -10361,15 +10361,15 @@
     },
     {
       "id": "f801cb14-6627-4a6c-bbad-1de01431b764",
-      "slug": "pch-33-lytr-tsba-shchvr-touch-pure-h08k04",
+      "slug": "pch-33-lytr-tsba-shchvr-touch-pure-x9dmm5",
       "name": "פח 33 ליטר צבע שחור TOUCH PURE",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\r\nנפתח על ידי לחיצה קלה\r\nקל לניקוי\r\nטבעת פנימית לאחיזה של השקיות אשפה\r\n",
       "sku": "7290121560047",
       "brand": null,
-      "price": 279.9,
-      "base_price": 279.9,
+      "price": 249.9,
+      "base_price": 249.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -10377,23 +10377,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-shchvr-touch-pure-h08k04",
+      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-shchvr-touch-pure-x9dmm5",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-06-14T14:17:52.484Z"
+      "updated_at": "2026-06-15T05:59:31.345Z"
     },
     {
       "id": "c25860ac-3c84-4312-bce4-f1c2bd0250a2",
-      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-vq7rwx",
+      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-rzerq0",
       "name": "פח 33 ליטר צבע מוקה TOUCH PURE",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\nנפתח על ידי לחיצה קלה\nקל לניקוי\nטבעת פנימית לאחיזה של השקיות אשפה",
       "sku": "7290121560023",
       "brand": null,
-      "price": 279.9,
-      "base_price": 279.9,
+      "price": 249.9,
+      "base_price": 249.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -10401,11 +10401,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-vq7rwx",
+      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-rzerq0",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-06-14T14:13:18.193Z"
+      "updated_at": "2026-06-15T05:59:44.054Z"
     },
     {
       "id": "b405ab56-ad3e-48ea-95fb-82eb034d3f6c",
