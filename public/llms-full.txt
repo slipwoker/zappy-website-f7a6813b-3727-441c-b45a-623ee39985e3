@@ -7690,7 +7690,7 @@ Availability: In stock
 ---
 
 ### סט 3 צדניות פלסטיק בגדלים שונים
-URL: https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-0dya1v
+URL: https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o
 Price: 249.90 ILS
 Availability: In stock
 
@@ -8613,8 +8613,8 @@ SKU: 7290113794184
 
 ---
 
-### סט 4 סלסאות צבע אפור
-URL: https://streetstock.co.il/product/st-4-slsavt-tsba-apvr-oxqs4i
+### סט 4 סלסאות צבע שחור
+URL: https://streetstock.co.il/product/st-4-slsavt-tsba-shchvr-lklsf5
 Price: 49.90 ILS
 Availability: In stock
 SKU: 6537825614340
