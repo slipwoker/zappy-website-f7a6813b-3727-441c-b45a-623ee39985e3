@@ -8333,7 +8333,7 @@ SKU: 7290121562461
 
 ### מארז 2 כוסות זכוכית 375 מ"ל
  
-URL: https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-0mtcvp
+URL: https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-9i87m1
 Price: 19.90 ILS
 Availability: In stock
 SKU: 7290121564922
@@ -9928,7 +9928,7 @@ SKU: 7290121565035
 
 ### כוס זכוכית 500 מ"ל דגם "פסים"
 
-URL: https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-sy1sc7
+URL: https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-ny1hxb
 Price: 9.90 ILS
 Availability: In stock
 SKU: 7290121560924

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T10:13:03.872Z",
+  "generated_at": "2026-06-15T10:13:50.108Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 443,
@@ -5409,10 +5409,10 @@
     },
     {
       "id": "85837a33-f718-4a8b-9368-77e720aa5012",
-      "slug": "marz-2-kvsvt-zkvkyt-375-ml-0mtcvp",
+      "slug": "marz-2-kvsvt-zkvkyt-375-ml-9i87m1",
       "name": "מארז 2 כוסות זכוכית 375 מ\"ל\r\n ",
       "name_translations": {},
-      "description": "כוסות",
+      "description": "<p>כוסות</p>",
       "short_description": null,
       "sku": "7290121564922",
       "brand": null,
@@ -5421,16 +5421,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837703993-d1yrs.webp",
-        "https://streetstock.co.il/assets/product-1780837706224-dmeyuh.webp"
+        "https://streetstock.co.il/assets/product-1781518388426-webt5.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-0mtcvp",
+      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-9i87m1",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T10:13:26.169Z"
     },
     {
       "id": "0333c679-cd9a-4241-9414-5f4b23bc0b5a",
@@ -9156,10 +9155,10 @@
     },
     {
       "id": "0874fefa-d2e7-4997-80cf-e7cea5977190",
-      "slug": "kvs-zkvkyt-500-ml-dgm-psym-sy1sc7",
+      "slug": "kvs-zkvkyt-500-ml-dgm-psym-ny1hxb",
       "name": "כוס זכוכית 500 מ\"ל דגם \"פסים\"\r\n",
       "name_translations": {},
-      "description": "כוסות",
+      "description": "<p>כוסות</p>",
       "short_description": null,
       "sku": "7290121560924",
       "brand": null,
@@ -9167,14 +9166,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781518419595-1i0qbi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-sy1sc7",
+      "url": "https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-ny1hxb",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T10:13:48.101Z"
     },
     {
       "id": "f05d7a8f-1ae1-4657-a60c-b8f9cfcfc210",
