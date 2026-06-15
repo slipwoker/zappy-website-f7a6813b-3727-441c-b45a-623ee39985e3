@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T07:40:14.393Z",
+  "generated_at": "2026-06-15T07:42:17.864Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -8084,8 +8084,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-shchvr-dgm-kora-ip61ol",
-      "categories": [],
-      "updated_at": "2026-06-11T11:13:59.093Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:45.596Z"
     },
     {
       "id": "b251fa33-11d5-4164-bbaf-7dae78954f5d",
@@ -8130,8 +8132,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-cw1jzr",
-      "categories": [],
-      "updated_at": "2026-06-11T11:15:01.446Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:45.731Z"
     },
     {
       "id": "432d0297-71d8-4a42-a0ca-9c375400cb56",
@@ -8152,8 +8156,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-g0src2",
-      "categories": [],
-      "updated_at": "2026-06-11T11:24:54.646Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:46.119Z"
     },
     {
       "id": "74509957-05db-4e97-a211-3d6da4f1ba19",
@@ -8198,8 +8204,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq",
-      "categories": [],
-      "updated_at": "2026-06-14T14:43:21.273Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:46.363Z"
     },
     {
       "id": "e351a10c-e5f9-4396-b90c-2e64572e26a8",
@@ -8220,8 +8228,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl",
-      "categories": [],
-      "updated_at": "2026-06-14T14:43:44.164Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:45.870Z"
     },
     {
       "id": "417635b9-1205-42e3-9e65-282b53f0ac94",
@@ -8242,8 +8252,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/shvlchn-nshkn-aydyal-of12rs",
-      "categories": [],
-      "updated_at": "2026-06-14T14:42:43.717Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:45.475Z"
     },
     {
       "id": "c7047305-84aa-4c42-bd76-93990f446503",
@@ -8264,8 +8276,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-shchvr-dgm-silo-9gi80j",
-      "categories": [],
-      "updated_at": "2026-06-11T11:24:12.464Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:46.241Z"
     },
     {
       "id": "61d1420e-d62e-4393-a261-688d5982415d",
@@ -8308,8 +8322,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft",
-      "categories": [],
-      "updated_at": "2026-06-11T11:23:09.989Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:41:45.992Z"
     },
     {
       "id": "6d49792d-e1fe-4207-bfb8-29becf622051",
