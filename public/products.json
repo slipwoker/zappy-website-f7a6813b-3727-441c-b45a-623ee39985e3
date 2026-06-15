@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T10:12:24.767Z",
+  "generated_at": "2026-06-15T10:13:03.872Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 443,
@@ -7778,7 +7778,7 @@
     },
     {
       "id": "bc12d9ec-dc00-4aa4-a76d-d095db0e536b",
-      "slug": "mtlh-kbysh-tsba-shchvr-dgm-noam-h4cuzu",
+      "slug": "mtlh-kbysh-tsba-shchvr-dgm-noam-48m0n7",
       "name": "מתלה כביסה צבע שחור\r\n דגם NOAM\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -7789,14 +7789,16 @@
       "base_price": 199.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781518341521-ihwlj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-tsba-shchvr-dgm-noam-h4cuzu",
+      "url": "https://streetstock.co.il/product/mtlh-kbysh-tsba-shchvr-dgm-noam-48m0n7",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-06-14T09:15:20.206Z"
+      "updated_at": "2026-06-15T10:12:32.029Z"
     },
     {
       "id": "d2287446-666b-4881-b18a-687e5aa69ec4",
