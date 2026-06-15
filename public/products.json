@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:09:16.005Z",
+  "generated_at": "2026-06-15T09:10:10.172Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 444,
@@ -8979,7 +8979,7 @@
     },
     {
       "id": "51f439e8-7395-46b7-aafc-5c97a6d6db22",
-      "slug": "pch-ambtyh-5-lytr-tsba-lbn-dgm-bino-fuo9tx",
+      "slug": "pch-ambtyh-5-lytr-tsba-lbn-dgm-bino-yw85hh",
       "name": "פח אמבטיה 5 ליטר צבע לבן דגם BINO\r\n ",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -8990,15 +8990,17 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514539964-ovt6ax.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-ambtyh-5-lytr-tsba-lbn-dgm-bino-fuo9tx",
+      "url": "https://streetstock.co.il/product/pch-ambtyh-5-lytr-tsba-lbn-dgm-bino-yw85hh",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-14T14:25:23.294Z"
+      "updated_at": "2026-06-15T09:09:37.805Z"
     },
     {
       "id": "72553c12-af23-46b8-82bc-32b38ab1957e",
