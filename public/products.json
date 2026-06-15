@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:07:27.427Z",
+  "generated_at": "2026-06-15T09:08:14.159Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 444,
@@ -7794,7 +7794,7 @@
     },
     {
       "id": "d2287446-666b-4881-b18a-687e5aa69ec4",
-      "slug": "aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-dlzro8",
+      "slug": "aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-vn2rno",
       "name": "עגלת שירות 3 קומות שחור דגם ARIZONA",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -7805,15 +7805,17 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514452267-jcgz94.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-dlzro8",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-vn2rno",
       "categories": [
         "עגלות שירות ",
         "כללי"
       ],
-      "updated_at": "2026-06-15T07:39:40.713Z"
+      "updated_at": "2026-06-15T09:07:42.090Z"
     },
     {
       "id": "61e276c3-d873-4c8b-8f7a-043b44fb1662",
