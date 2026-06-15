@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:03:09.565Z",
+  "generated_at": "2026-06-15T09:03:48.717Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 444,
@@ -7454,10 +7454,10 @@
     },
     {
       "id": "d689322e-e8c6-42b4-98cf-2c3127ca7447",
-      "slug": "mbrsht-sylykvn-silix-q04h6o",
+      "slug": "mbrsht-sylykvn-silix-ur830d",
       "name": "מברשת סיליקון SILIX\r\n",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121563413",
       "brand": null,
@@ -7465,14 +7465,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514183956-szi51p.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-sylykvn-silix-q04h6o",
+      "url": "https://streetstock.co.il/product/mbrsht-sylykvn-silix-ur830d",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T09:03:16.630Z"
     },
     {
       "id": "5f9d506d-aa24-4aa5-aed6-6f8c4681442e",
