@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:17:35.734Z",
+  "generated_at": "2026-06-15T08:17:27.373Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -2528,7 +2528,7 @@
     },
     {
       "id": "ba11b6f1-1c83-4520-a954-46b38350ea54",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-led4uz",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-tl5ovx",
       "name": "סט מצעים כותנה פרקל דגם עמנואל צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -2539,16 +2539,14 @@
       "base_price": 249.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781511431915-zrax04.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-led4uz",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-tl5ovx",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-15T08:17:22.400Z"
+      "updated_at": "2026-06-14T08:49:03.150Z"
     },
     {
       "id": "0df88da6-8fd8-494c-81a9-270686931cc6",
