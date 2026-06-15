@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T06:06:33.668Z",
+  "generated_at": "2026-06-15T06:09:46.040Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -9547,25 +9547,27 @@
     },
     {
       "id": "ab0691bf-66b2-431f-9416-40fd4896d5cb",
-      "slug": "st-10-kvpsavt-achsvn-akryly-dgm-adn-150-ml-bwcqxp",
+      "slug": "st-10-kvpsavt-achsvn-akryly-dgm-adn-150-ml-vl324y",
       "name": "סט 10 קופסאות אחסון אקרילי דגם \"עדן\" 150 מ\"ל",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561044",
       "brand": null,
-      "price": 14.9,
-      "base_price": 14.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781503740389-j8dfht.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-10-kvpsavt-achsvn-akryly-dgm-adn-150-ml-bwcqxp",
+      "url": "https://streetstock.co.il/product/st-10-kvpsavt-achsvn-akryly-dgm-adn-150-ml-vl324y",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-15T05:57:36.309Z"
+      "updated_at": "2026-06-15T06:09:14.340Z"
     },
     {
       "id": "56d36c81-a31e-4596-9d60-35692666c65e",
