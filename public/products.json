@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:05:03.081Z",
+  "generated_at": "2026-06-15T09:05:49.535Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 444,
@@ -7478,10 +7478,10 @@
     },
     {
       "id": "5f9d506d-aa24-4aa5-aed6-6f8c4681442e",
-      "slug": "lkkn-sylykvn-silix-2eiuux",
+      "slug": "lkkn-sylykvn-silix-brd8t1",
       "name": "לקקן סיליקון SILIX\r\n",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121563437",
       "brand": null,
@@ -7489,14 +7489,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514297548-l5tdss.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/lkkn-sylykvn-silix-2eiuux",
+      "url": "https://streetstock.co.il/product/lkkn-sylykvn-silix-brd8t1",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T09:05:14.903Z"
     },
     {
       "id": "0003027b-7159-42e8-a344-ddfc71bddfbc",
