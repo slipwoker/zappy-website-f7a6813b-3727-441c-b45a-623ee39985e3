@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:02:01.630Z",
+  "generated_at": "2026-06-15T09:02:37.452Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 444,
@@ -6808,10 +6808,10 @@
     },
     {
       "id": "070caff9-4fff-4d93-bc13-a87b80c20cf4",
-      "slug": "kart-nyrvsth-18-sm-dgm-bowlix-bvtn4t",
+      "slug": "kart-nyrvsth-18-sm-dgm-bowlix-5xgdov",
       "name": "קערת נירוסטה 18 ס\"מ דגם BOWLIX\r\n",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121562591",
       "brand": null,
@@ -6819,14 +6819,16 @@
       "base_price": 13.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514099387-ihyykd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-18-sm-dgm-bowlix-bvtn4t",
+      "url": "https://streetstock.co.il/product/kart-nyrvsth-18-sm-dgm-bowlix-5xgdov",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T09:02:04.819Z"
     },
     {
       "id": "7266e326-1dbf-449a-93e4-9c151222bf77",
@@ -7046,10 +7048,10 @@
     },
     {
       "id": "01316694-5db3-4a8d-a479-a248a495e496",
-      "slug": "svcht-lymvn-mktsvay-ddmba3",
+      "slug": "svcht-lymvn-mktsvay-egyqbb",
       "name": "סוחט לימון מקצועי ",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121562638",
       "brand": null,
@@ -7057,14 +7059,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514145557-rzgk3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svcht-lymvn-mktsvay-ddmba3",
+      "url": "https://streetstock.co.il/product/svcht-lymvn-mktsvay-egyqbb",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T09:02:37.217Z"
     },
     {
       "id": "7aae2338-3d80-4f7a-a60c-72e289025a18",
