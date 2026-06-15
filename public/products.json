@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T10:14:20.011Z",
+  "generated_at": "2026-06-15T10:15:30.649Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 443,
@@ -9179,10 +9179,10 @@
     },
     {
       "id": "f05d7a8f-1ae1-4657-a60c-b8f9cfcfc210",
-      "slug": "kvs-zkvkyt-350-ml-dgm-yhlvm-5xkd7s",
+      "slug": "kvs-zkvkyt-350-ml-dgm-yhlvm-0z10g3",
       "name": "כוס זכוכית 350 מ\"ל דגם \"יהלום\"\r\n",
       "name_translations": {},
-      "description": "כוסות",
+      "description": "<p>כוסות</p>",
       "short_description": null,
       "sku": "7290121560917",
       "brand": null,
@@ -9190,21 +9190,23 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781518465061-pwllfd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-350-ml-dgm-yhlvm-5xkd7s",
+      "url": "https://streetstock.co.il/product/kvs-zkvkyt-350-ml-dgm-yhlvm-0z10g3",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T10:14:33.377Z"
     },
     {
       "id": "1936d09c-8353-4d03-82be-9cc24efa2338",
-      "slug": "kvs-zkvkyt-400-ml-dgm-ptryh-nfzbg9",
+      "slug": "kvs-zkvkyt-400-ml-dgm-ptryh-4qhjkz",
       "name": "כוס זכוכית 400 מ\"ל דגם \"פטריה\"\r\n",
       "name_translations": {},
-      "description": "כוסות",
+      "description": "<p>כוסות</p>",
       "short_description": null,
       "sku": "7290121560948",
       "brand": null,
@@ -9212,14 +9214,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781518490524-5s5ejt.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-400-ml-dgm-ptryh-nfzbg9",
+      "url": "https://streetstock.co.il/product/kvs-zkvkyt-400-ml-dgm-ptryh-4qhjkz",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T10:14:58.550Z"
     },
     {
       "id": "6157b1a0-9214-4107-b73d-9e2ff12e70f7",
