@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:25:59.109Z",
+  "generated_at": "2026-06-15T08:26:56.331Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -9473,10 +9473,10 @@
     },
     {
       "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
-      "slug": "kvpst-achsvn-akrylyt-300-ml-dgm-anbr-ogubky",
+      "slug": "kvpst-achsvn-akrylyt-300-ml-dgm-anbr-d1zz9s",
       "name": "קופסת אחסון אקרילית 300 מ\"ל דגם \"ענבר\" ",
       "name_translations": {},
-      "description": "<p>צנצנות אקריל</p>",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564748",
       "brand": null,
@@ -9489,11 +9489,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-300-ml-dgm-anbr-ogubky",
+      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-300-ml-dgm-anbr-d1zz9s",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-11T09:37:49.863Z"
+      "updated_at": "2026-06-15T08:26:24.404Z"
     },
     {
       "id": "5f35269a-5704-4c01-91f3-c0390fe83fbf",
@@ -9569,7 +9569,7 @@
     },
     {
       "id": "c4f1ab86-d1bc-46ab-9805-f75f3bd283a7",
-      "slug": "argvnyt-mstvbbt-dgm-karin-j9b5mc",
+      "slug": "argvnyt-mstvbbt-dgm-karin-6pddes",
       "name": "ארגונית מסתובבת דגם \"KARIN\"\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -9583,11 +9583,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mstvbbt-dgm-karin-j9b5mc",
+      "url": "https://streetstock.co.il/product/argvnyt-mstvbbt-dgm-karin-6pddes",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-15T08:25:27.302Z"
+      "updated_at": "2026-06-15T08:25:59.472Z"
     },
     {
       "id": "ab0691bf-66b2-431f-9416-40fd4896d5cb",
@@ -9615,10 +9615,10 @@
     },
     {
       "id": "56d36c81-a31e-4596-9d60-35692666c65e",
-      "slug": "mykl-achsvn-pkk-mzygh-1300-ml-2yw8rg",
+      "slug": "mykl-achsvn-pkk-mzygh-1300-ml-fd3ihk",
       "name": "מיכל אחסון + פקק מזיגה 1300 מ\"ל\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560702",
       "brand": null,
@@ -9629,11 +9629,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1300-ml-2yw8rg",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1300-ml-fd3ihk",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:26:38.376Z"
     },
     {
       "id": "4deed2ec-2dc1-4c82-9e43-c774529f8de9",
