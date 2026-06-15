@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:06:32.346Z",
+  "generated_at": "2026-06-15T09:07:27.427Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 444,
@@ -7747,10 +7747,10 @@
     },
     {
       "id": "5665814b-c9b1-4e06-b4ed-f9242ee7448f",
-      "slug": "aglt-shvk-alvmynyvm-dgm-ohio-5qjqd7",
+      "slug": "aglt-shvk-alvmynyvm-dgm-ohio-lxwo07",
       "name": "עגלת שוק אלומיניום דגם OHIO\r\n",
       "name_translations": {},
-      "description": "כללי, עגלות שירות",
+      "description": "<p>כללי, עגלות שירות</p>",
       "short_description": null,
       "sku": "729012162959",
       "brand": null,
@@ -7758,15 +7758,17 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781514403654-0nisfs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-ohio-5qjqd7",
+      "url": "https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-ohio-lxwo07",
       "categories": [
         "עגלות שירות ",
         "כללי"
       ],
-      "updated_at": "2026-06-15T07:39:40.814Z"
+      "updated_at": "2026-06-15T09:06:55.059Z"
     },
     {
       "id": "bc12d9ec-dc00-4aa4-a76d-d095db0e536b",
