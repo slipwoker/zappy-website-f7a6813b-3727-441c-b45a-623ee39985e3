@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T12:18:13.069Z",
+  "generated_at": "2026-06-15T12:22:21.590Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 442,
@@ -4859,15 +4859,15 @@
     },
     {
       "id": "c14bf319-1c48-4af9-ace2-016cc21aff89",
-      "slug": "syr-nyrvsth-24-sm-4-lytr-uco6kc",
+      "slug": "syr-nyrvsth-24-sm-4-lytr-6le283",
       "name": "סיר נירוסטה 24 ס\"מ – 4 ליטר",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי.\r\nהסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.",
       "sku": null,
       "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
+      "price": 159.9,
+      "base_price": 159.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -4875,23 +4875,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-nyrvsth-24-sm-4-lytr-uco6kc",
+      "url": "https://streetstock.co.il/product/syr-nyrvsth-24-sm-4-lytr-6le283",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-15T12:17:10.749Z"
+      "updated_at": "2026-06-15T12:21:34.692Z"
     },
     {
       "id": "80baec47-5edb-4cab-92d4-7edcae7a76a3",
-      "slug": "syr-nyrvsth-20-sm-27-lytr-f23auo",
+      "slug": "syr-nyrvsth-20-sm-27-lytr-iffuva",
       "name": "סיר נירוסטה 20 ס\"מ – 2.7 ליטר",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי.\r\nהסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.",
       "sku": null,
       "brand": null,
-      "price": 139.9,
-      "base_price": 139.9,
+      "price": 150,
+      "base_price": 150,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -4899,11 +4899,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-nyrvsth-20-sm-27-lytr-f23auo",
+      "url": "https://streetstock.co.il/product/syr-nyrvsth-20-sm-27-lytr-iffuva",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-15T12:17:39.868Z"
+      "updated_at": "2026-06-15T12:21:49.153Z"
     },
     {
       "id": "d57a3cc4-42cf-4a2b-a435-437ddd557dbf",

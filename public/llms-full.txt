@@ -8328,15 +8328,15 @@ SKU: 7290121560887
 ---
 
 ### סיר נירוסטה 24 ס"מ – 4 ליטר
-URL: https://streetstock.co.il/product/syr-nyrvsth-24-sm-4-lytr-uco6kc
-Price: 149.90 ILS
+URL: https://streetstock.co.il/product/syr-nyrvsth-24-sm-4-lytr-6le283
+Price: 159.90 ILS
 Availability: In stock
 
 ---
 
 ### סיר נירוסטה 20 ס"מ – 2.7 ליטר
-URL: https://streetstock.co.il/product/syr-nyrvsth-20-sm-27-lytr-f23auo
-Price: 139.90 ILS
+URL: https://streetstock.co.il/product/syr-nyrvsth-20-sm-27-lytr-iffuva
+Price: 150.00 ILS
 Availability: In stock
 
 ---
