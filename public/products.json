@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:35:13.770Z",
+  "generated_at": "2026-06-15T08:36:47.210Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -4520,7 +4520,7 @@
     },
     {
       "id": "4f7f34c5-bb0f-4df3-a459-98727407245e",
-      "slug": "syr-20-sm-26-lytr-o2nfjy",
+      "slug": "syr-20-sm-26-lytr-9t37hi",
       "name": "סיר 20 ס\"מ – 2.6 ליטר",
       "name_translations": {},
       "description": "",
@@ -4531,14 +4531,16 @@
       "base_price": 79.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512527688-x5bxr6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-20-sm-26-lytr-o2nfjy",
+      "url": "https://streetstock.co.il/product/syr-20-sm-26-lytr-9t37hi",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:35:37.576Z"
     },
     {
       "id": "b7f4ba32-c63a-4dfd-b6a5-ecc7205343a5",
@@ -4586,7 +4588,7 @@
     },
     {
       "id": "2a182786-a8f9-49c5-85ea-678beb3f0b2e",
-      "slug": "syr-24-sm-43-lytr-qe94ev",
+      "slug": "syr-24-sm-43-lytr-wl8pjp",
       "name": "סיר 24 ס\"מ – 4.3 ליטר",
       "name_translations": {},
       "description": "",
@@ -4597,14 +4599,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512548248-7n4xny.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-24-sm-43-lytr-qe94ev",
+      "url": "https://streetstock.co.il/product/syr-24-sm-43-lytr-wl8pjp",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:35:55.762Z"
     },
     {
       "id": "e94d06a7-c267-410c-a03d-5ac61ca6dbb6",
@@ -4630,7 +4634,7 @@
     },
     {
       "id": "5b5f514f-15f4-4dd4-bcb4-8b38bd49b468",
-      "slug": "syr-28-sm-67-lytr-5rrpy5",
+      "slug": "syr-28-sm-67-lytr-3qug2z",
       "name": "סיר 28 ס\"מ – 6.7 ליטר",
       "name_translations": {},
       "description": "",
@@ -4641,14 +4645,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512566005-eexkfx.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-28-sm-67-lytr-5rrpy5",
+      "url": "https://streetstock.co.il/product/syr-28-sm-67-lytr-3qug2z",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:36:13.998Z"
     },
     {
       "id": "58302929-a322-4d08-985a-5e5e40f0ceb6",
