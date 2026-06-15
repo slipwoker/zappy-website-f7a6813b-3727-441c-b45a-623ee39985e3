@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:56:06.306Z",
+  "generated_at": "2026-06-15T08:58:13.676Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -6349,10 +6349,10 @@
     },
     {
       "id": "cf4cee89-73fa-410d-99e8-209eda010f34",
-      "slug": "mamd-nyyr-tvalt-mtkpl-dgm-serena-kufh40",
+      "slug": "mamd-nyyr-tvalt-mtkpl-dgm-serena-8gm09q",
       "name": "מעמד נייר טואלט מתקפל דגם SERENA\r\n",
       "name_translations": {},
-      "description": "כללי, מוצרי אמבט",
+      "description": "<p>כללי, מוצרי אמבט</p>",
       "short_description": null,
       "sku": "7290121561914",
       "brand": null,
@@ -6360,15 +6360,18 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781513831551-8iic5o.webp",
+        "https://streetstock.co.il/assets/product-1781513849611-xa8qy.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-nyyr-tvalt-mtkpl-dgm-serena-kufh40",
+      "url": "https://streetstock.co.il/product/mamd-nyyr-tvalt-mtkpl-dgm-serena-8gm09q",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:57:41.607Z"
     },
     {
       "id": "543c5a69-330c-4e2f-ab05-4c689c1b100b",
