@@ -1257,12 +1257,13 @@ https://streetstock.co.il/product/st-3-kvpsavt-shkvpvt-mksh-tsbavny-dgm-rvzh-vwg
 - Description: 550 מ"ל : 17X12X6 ס"מ 1150 מ"ל : 19X15X8 ס"מ 1900 מ"ל : 22X17X10 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837734038-zgtsit.webp
 
-###  צנצנות זכוכית LUMA 450 מ"ל 
-https://streetstock.co.il/product/tsntsnvt-zkvkyt-luma-450-ml-3bvfsd
+### צנצנת זכוכית LUMA 450 מ"ל 
+https://streetstock.co.il/product/tsntsnt-zkvkyt-luma-450-ml-lgm5tp
 - Price: 11.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: צנצנות אחסון זכוכית עם מכסה וואקום לשמירה על טריות דגם לומה.
+- Image: https://streetstock.co.il/assets/product-1781512082049-y6a6je.webp
 
 ### צנצנת זכוכית 1070 מ"ל
 https://streetstock.co.il/product/tsntsnt-zkvkyt-1070-ml-slx415
