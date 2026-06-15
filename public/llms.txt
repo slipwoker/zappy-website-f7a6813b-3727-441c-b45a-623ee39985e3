@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 447** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 446** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
@@ -1194,13 +1194,6 @@ https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-dxp8mx
 - Description: כיסאות חוף בעיצוב צעים קייצים קיבולת משקל:עד 110 קילו
 - Image: https://streetstock.co.il/assets/product-1780837738316-hvyhsh.webp
 
-### צידנית בד 16 ס"מ פסים
-https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-kan15o
-- Price: 50.00 ILS
-- Availability: Out of stock
-- Category: קיץ
-- Description: צידניות בד + ידית נשיאה
-
 ### צידנית בד 9 ס"מ פסים
 https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-te0o3k
 - Price: 35.00 ILS
@@ -1641,6 +1634,13 @@ https://streetstock.co.il/product/mamd-akryly-lmbrshvt-mshcht-shynyym-izk9q4
 - SKU: 7290121564496
 - Description: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1780837719712-r6tk22.webp
+
+### סיר נירוסטה 28 ס"מ – 7 ליטר
+https://streetstock.co.il/product/syr-nyrvsth-28-sm-7-lytr-ztxtmf
+- Price: 169.90 ILS
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
 
 ---
 

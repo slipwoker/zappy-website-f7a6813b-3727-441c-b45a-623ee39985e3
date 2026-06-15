@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:19:02.759Z",
+  "generated_at": "2026-06-15T08:19:21.602Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 447,
+  "count": 446,
   "products": [
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
@@ -3415,28 +3415,6 @@
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
-      "id": "ec633e4e-f402-4352-b70a-bfbda945534a",
-      "slug": "tsydnyt-bd-16-sm-psym-kan15o",
-      "name": "צידנית בד 16 ס\"מ פסים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צידניות בד + ידית נשיאה ",
-      "sku": null,
-      "brand": null,
-      "price": 50,
-      "base_price": 50,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": false,
-      "stock_status": "out_of_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-kan15o",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-06-15T08:18:30.042Z"
-    },
-    {
       "id": "8bcf3e3d-52b5-4f0b-9da6-36942e05992e",
       "slug": "tsydnyt-bd-9-sm-psym-te0o3k",
       "name": "צידנית בד 9 ס\"מ פסים",
@@ -5532,10 +5510,10 @@
     },
     {
       "id": "4265b328-0b48-43b9-9172-83573ac1149e",
-      "slug": "mamd-akryl-dgm-lucas-jks66m",
+      "slug": "mamd-akryl-dgm-lucas-r87cfz",
       "name": "מעמד אקריל דגם LUCAS\r\n ",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564533",
       "brand": null,
@@ -5548,11 +5526,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-akryl-dgm-lucas-jks66m",
+      "url": "https://streetstock.co.il/product/mamd-akryl-dgm-lucas-r87cfz",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:19:05.417Z"
     },
     {
       "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",

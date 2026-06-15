@@ -7682,13 +7682,6 @@ Availability: In stock
 
 ---
 
-### צידנית בד 16 ס"מ פסים
-URL: https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-kan15o
-Price: 50.00 ILS
-Availability: Out of stock
-
----
-
 ### צידנית בד 9 ס"מ פסים
 URL: https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-te0o3k
 Price: 35.00 ILS
@@ -8403,12 +8396,10 @@ SKU: 7290121562928
 
 ### מעמד אקריל דגם LUCAS
  
-URL: https://streetstock.co.il/product/mamd-akryl-dgm-lucas-jks66m
+URL: https://streetstock.co.il/product/mamd-akryl-dgm-lucas-r87cfz
 Price: 24.90 ILS
 Availability: In stock
 SKU: 7290121564533
-
-מוצרי אקריל
 
 ---
 
