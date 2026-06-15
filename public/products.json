@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T05:58:08.081Z",
+  "generated_at": "2026-06-15T05:59:26.171Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -10337,15 +10337,15 @@
     },
     {
       "id": "ca383bee-6279-4b86-aa7b-8aaf00751fa0",
-      "slug": "pch-33-lytr-tsba-lbn-touch-pure-n8anq5",
+      "slug": "pch-33-lytr-tsba-lbn-touch-pure-zbahow",
       "name": "פח 33 ליטר צבע לבן TOUCH PURE",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\r\nנפתח על ידי לחיצה קלה\r\nקל לניקוי\r\nטבעת פנימית לאחיזה של השקיות אשפה\r\n",
       "sku": "7290121560030",
       "brand": null,
-      "price": 279.9,
-      "base_price": 279.9,
+      "price": 249.9,
+      "base_price": 249.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -10353,11 +10353,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-n8anq5",
+      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-zbahow",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-06-14T14:05:49.788Z"
+      "updated_at": "2026-06-15T05:58:54.471Z"
     },
     {
       "id": "f801cb14-6627-4a6c-bbad-1de01431b764",
