@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T05:56:17.349Z",
+  "generated_at": "2026-06-15T05:57:21.373Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -9381,15 +9381,15 @@
     },
     {
       "id": "fa98c8da-bc8e-4e44-98b5-b3e8c29e1805",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-300-ml-bgp390",
-      "name": "קופסאת אחסון אקרילית דגם \"עדן\" 300 מ\"ל ",
+      "slug": "st-10-kvpsavt-achsvn-akryly-dgm-adn-300-ml-4px7yb",
+      "name": "סט 10 קופסאות אחסון אקרילי דגם \"עדן\" 300 מ\"ל ",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7255882312014",
       "brand": null,
-      "price": 14.9,
-      "base_price": 14.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9397,16 +9397,16 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-300-ml-bgp390",
+      "url": "https://streetstock.co.il/product/st-10-kvpsavt-achsvn-akryly-dgm-adn-300-ml-4px7yb",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-14T14:39:02.607Z"
+      "updated_at": "2026-06-15T05:56:49.275Z"
     },
     {
       "id": "400b07bb-8549-4373-8ea1-7099c5eb3e45",
-      "slug": "kvpsat-achsvn-akrylyt-dgm-adn-500-ml-bv49uk",
-      "name": "קופסאת אחסון אקרילית דגם \"עדן\" 500 מ\"ל ",
+      "slug": "st-6-kvpsavt-achsvn-akryly-dgm-adn-500-ml-spo4l6",
+      "name": "סט 6 קופסאות אחסון אקרילי דגם \"עדן\" 500 מ\"ל ",
       "name_translations": {},
       "description": "<p>=</p>",
       "short_description": null,
@@ -9421,11 +9421,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-akrylyt-dgm-adn-500-ml-bv49uk",
+      "url": "https://streetstock.co.il/product/st-6-kvpsavt-achsvn-akryly-dgm-adn-500-ml-spo4l6",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-14T14:39:32.622Z"
+      "updated_at": "2026-06-15T05:57:09.180Z"
     },
     {
       "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
