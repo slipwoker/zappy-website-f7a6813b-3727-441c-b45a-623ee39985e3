@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:23:49.021Z",
+  "generated_at": "2026-06-15T08:24:42.566Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -9379,10 +9379,10 @@
     },
     {
       "id": "cefbf533-d660-4ec3-b70b-af419808e57a",
-      "slug": "mlchyyh-akrylyt-dgm-shy-5fwpbx",
+      "slug": "mlchyyh-akrylyt-dgm-shy-ebsc58",
       "name": "מלחייה אקרילית דגם \"שי\" ",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7255882312106",
       "brand": null,
@@ -9393,11 +9393,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mlchyyh-akrylyt-dgm-shy-5fwpbx",
+      "url": "https://streetstock.co.il/product/mlchyyh-akrylyt-dgm-shy-ebsc58",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:24:32.282Z"
     },
     {
       "id": "45975601-2e5a-4aee-9507-ec9735ab96fc",
@@ -9497,10 +9497,10 @@
     },
     {
       "id": "5f35269a-5704-4c01-91f3-c0390fe83fbf",
-      "slug": "mykl-achsvn-pkk-mzygh-1800-ml-eglg6r",
+      "slug": "mykl-achsvn-pkk-mzygh-1800-ml-aq3nv1",
       "name": "מיכל אחסון + פקק מזיגה 1800 מ\"ל\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560795",
       "brand": null,
@@ -9513,11 +9513,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1800-ml-eglg6r",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1800-ml-aq3nv1",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:24:10.912Z"
     },
     {
       "id": "df7e2d89-6e8c-4048-b19a-849178ead91a",
@@ -9637,10 +9637,10 @@
     },
     {
       "id": "4deed2ec-2dc1-4c82-9e43-c774529f8de9",
-      "slug": "kvpst-achsvn-akrylyt-l-c6s3bc",
+      "slug": "kvpst-achsvn-akrylyt-l-45vnub",
       "name": "קופסת אחסון אקרילית L\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564366",
       "brand": null,
@@ -9653,11 +9653,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-l-c6s3bc",
+      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-l-45vnub",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:23:54.456Z"
     },
     {
       "id": "24e6390c-fb28-468c-96b9-eb3f0ff3e75a",
