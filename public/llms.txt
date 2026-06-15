@@ -1445,12 +1445,14 @@ https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-rxwvcn
 https://streetstock.co.il/product/zvg-mgny-kryt-n9qnuv
 - Price: 24.90 ILS
 - Availability: In stock
+- Category: מגני מזרון
 - Image: https://streetstock.co.il/assets/product-1780837729326-vaf61.webp
 
 ### מגן מזרון איכותי מיטה זוגי 1.8
 https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-18-wy8fmf
 - Price: 54.90 ILS
 - Availability: In stock
+- Category: מגני מזרון
 - Description: מידות : 180X200 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837729272-rmqgw.webp
 

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T07:37:12.755Z",
+  "generated_at": "2026-06-15T07:38:37.061Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -4183,8 +4183,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/zvg-mgny-kryt-n9qnuv",
-      "categories": [],
-      "updated_at": "2026-06-11T10:18:23.461Z"
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-06-15T07:38:04.509Z"
     },
     {
       "id": "0d7b66cd-90c8-4642-934a-1f6da080e971",
@@ -4205,8 +4207,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-18-wy8fmf",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-06-15T07:38:04.399Z"
     },
     {
       "id": "2805d1dc-d2af-453f-8522-9721e2207890",
