@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:40:13.966Z",
+  "generated_at": "2026-06-15T08:42:35.184Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -4807,25 +4807,27 @@
     },
     {
       "id": "4b76df87-490c-45f3-bbf3-4a9830775cf6",
-      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-jvop58",
+      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-anph2k",
       "name": "מתלה כביסה טלסקופי דגם DANNY צבע לבן",
       "name_translations": {},
       "description": "<p><br></p>",
-      "short_description": null,
+      "short_description": "מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר.\nהמתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים.\nהעיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר.\nמתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד.\nפתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.",
       "sku": "7290121560405",
       "brand": null,
       "price": 149.9,
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512824442-5yfb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-jvop58",
+      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-anph2k",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-06-14T09:14:29.885Z"
+      "updated_at": "2026-06-15T08:40:33.653Z"
     },
     {
       "id": "162ae038-938f-42b6-8a93-b08f9bbdacaf",
@@ -4853,7 +4855,7 @@
     },
     {
       "id": "e1835401-8535-4535-8b60-7e9e0c6a2891",
-      "slug": "arvn-nalyym-10-kvmvt-tsba-shchvr-5zz2su",
+      "slug": "arvn-nalyym-10-kvmvt-tsba-shchvr-rq31t6",
       "name": "ארון נעליים 10 קומות צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -4864,14 +4866,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512870829-n6e7oj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-5zz2su",
+      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-rq31t6",
       "categories": [
         "מעמדים דקורטיבים "
       ],
-      "updated_at": "2026-06-11T10:16:01.944Z"
+      "updated_at": "2026-06-15T08:42:33.386Z"
     },
     {
       "id": "c14bf319-1c48-4af9-ace2-016cc21aff89",
@@ -5066,11 +5070,11 @@
     },
     {
       "id": "3113db7c-297b-4ebc-a514-f6f7bf48cadf",
-      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-dj7auu",
+      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-jrvfus",
       "name": "מתלה כביסה טלסקופי דגם DANNY צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
-      "short_description": null,
+      "short_description": "מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר.\nהמתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים.\nהעיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר.\nמתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד.\nפתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.",
       "sku": "7290121561006",
       "brand": null,
       "price": 149.9,
@@ -5082,11 +5086,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-dj7auu",
+      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-jrvfus",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-06-14T09:13:48.107Z"
+      "updated_at": "2026-06-15T08:40:42.619Z"
     },
     {
       "id": "5ce84e01-aac0-49c3-9ee4-0903057a37fb",
