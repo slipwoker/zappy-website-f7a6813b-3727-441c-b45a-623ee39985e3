@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:36:47.210Z",
+  "generated_at": "2026-06-15T08:38:25.114Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -4544,7 +4544,7 @@
     },
     {
       "id": "b7f4ba32-c63a-4dfd-b6a5-ecc7205343a5",
-      "slug": "svtaz-nyrvsth-28-sm-25-lytr-2aysvs",
+      "slug": "svtaz-nyrvsth-28-sm-25-lytr-92he07",
       "name": "סוטאז נירוסטה 28 ס\"מ – 2.5 ליטר",
       "name_translations": {},
       "description": "",
@@ -4555,18 +4555,20 @@
       "base_price": 179.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512664787-xdhtv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svtaz-nyrvsth-28-sm-25-lytr-2aysvs",
+      "url": "https://streetstock.co.il/product/svtaz-nyrvsth-28-sm-25-lytr-92he07",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:37:52.906Z"
     },
     {
       "id": "96602a68-d668-4538-aa4e-542ea73a2c44",
-      "slug": "svtaz-32-sm-53-lytr-5w8fsn",
+      "slug": "svtaz-32-sm-53-lytr-q95882",
       "name": "סוטאז' 32 ס\"מ – 5.3 ליטר",
       "name_translations": {},
       "description": "",
@@ -4577,14 +4579,16 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512604852-sg1e44.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svtaz-32-sm-53-lytr-5w8fsn",
+      "url": "https://streetstock.co.il/product/svtaz-32-sm-53-lytr-q95882",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:36:53.806Z"
     },
     {
       "id": "2a182786-a8f9-49c5-85ea-678beb3f0b2e",
@@ -4612,7 +4616,7 @@
     },
     {
       "id": "e94d06a7-c267-410c-a03d-5ac61ca6dbb6",
-      "slug": "svtaz-28-sm-38-lytr-u7ytys",
+      "slug": "svtaz-28-sm-38-lytr-qa95ht",
       "name": "סוטאז' 28 ס\"מ – 3.8 ליטר",
       "name_translations": {},
       "description": "",
@@ -4623,14 +4627,16 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512625695-y7v8wp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svtaz-28-sm-38-lytr-u7ytys",
+      "url": "https://streetstock.co.il/product/svtaz-28-sm-38-lytr-qa95ht",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:37:13.972Z"
     },
     {
       "id": "5b5f514f-15f4-4dd4-bcb4-8b38bd49b468",
@@ -4658,7 +4664,7 @@
     },
     {
       "id": "58302929-a322-4d08-985a-5e5e40f0ceb6",
-      "slug": "svtaz-nyrvsth-32-sm-38-lytr-01vcdf",
+      "slug": "svtaz-nyrvsth-32-sm-38-lytr-dmjdtb",
       "name": "סוטאז נירוסטה 32 ס\"מ – 3.8 ליטר",
       "name_translations": {},
       "description": "",
@@ -4669,14 +4675,16 @@
       "base_price": 199.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512645578-2zki1r.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svtaz-nyrvsth-32-sm-38-lytr-01vcdf",
+      "url": "https://streetstock.co.il/product/svtaz-nyrvsth-32-sm-38-lytr-dmjdtb",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:37:33.627Z"
     },
     {
       "id": "977e0421-7223-4952-a264-d5314dff0fa4",
