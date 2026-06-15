@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T07:31:22.029Z",
+  "generated_at": "2026-06-15T07:36:27.267Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -3287,8 +3287,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-oexoqp",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:35:55.677Z"
     },
     {
       "id": "7b4af8da-e358-4e0f-aab2-4fc2e74ad139",
