@@ -9105,6 +9105,13 @@ body[data-zappy-site-type="ecommerce"] {
 
 /* Base page styling - matches hero section theme */
 .ecommerce-page {
+  /* width:100% + box-sizing is REQUIRED: V2 sites set body to display:flex;
+     flex-direction:column (sticky-footer guard). Without an explicit width the
+     margin:0 auto auto cross-axis margins stop this flex item from stretching,
+     so main collapses to its min-content (about one 250px product column) and
+     the products grid renders as a single mobile-like column. */
+  width: 100%;
+  box-sizing: border-box;
   padding: 60px 24px;
   padding-top: 24px;
   max-width: 1440px;
