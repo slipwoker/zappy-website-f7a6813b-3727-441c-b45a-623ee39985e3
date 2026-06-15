@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:17:54.652Z",
+  "generated_at": "2026-06-15T08:18:33.118Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -3416,7 +3416,7 @@
     },
     {
       "id": "ec633e4e-f402-4352-b70a-bfbda945534a",
-      "slug": "tsydnyt-bd-16-sm-psym-xn3z5u",
+      "slug": "tsydnyt-bd-16-sm-psym-kan15o",
       "name": "צידנית בד 16 ס\"מ פסים",
       "name_translations": {},
       "description": "",
@@ -3428,13 +3428,13 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-xn3z5u",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
+      "url": "https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-kan15o",
       "categories": [
         "קיץ"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:18:30.042Z"
     },
     {
       "id": "8bcf3e3d-52b5-4f0b-9da6-36942e05992e",

@@ -7683,9 +7683,9 @@ Availability: In stock
 ---
 
 ### צידנית בד 16 ס"מ פסים
-URL: https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-xn3z5u
+URL: https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-kan15o
 Price: 50.00 ILS
-Availability: In stock
+Availability: Out of stock
 
 ---
 
