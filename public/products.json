@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:30:06.244Z",
+  "generated_at": "2026-06-15T08:32:02.541Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -3654,10 +3654,10 @@
     },
     {
       "id": "e979bbdf-71ee-4313-9b36-fbc412101967",
-      "slug": "tslchvt-pvrtsln-glaze-12-chlkym-15u1xy",
+      "slug": "tslchvt-pvrtsln-glaze-12-chlkym-8wy5hr",
       "name": "צלחות פורצלן GLAZE\r\n12 חלקים",
       "name_translations": {},
-      "description": "",
+      "description": "<p>סט 12 צלחות פורצלן דגם GLAZE . </p><p>הסט מורכב מ : 6 צלחת מנה ראשונה</p><p>6 צלחת מנה עיקרית</p>",
       "short_description": "צלחת 20 ס\"מ\r\nצלחת 27 ס\"מ\r\n",
       "sku": null,
       "brand": null,
@@ -3665,14 +3665,16 @@
       "base_price": 199.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512184048-o1si4b.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tslchvt-pvrtsln-glaze-12-chlkym-15u1xy",
+      "url": "https://streetstock.co.il/product/tslchvt-pvrtsln-glaze-12-chlkym-8wy5hr",
       "categories": [
         "צלחות+סכום"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:31:30.327Z"
     },
     {
       "id": "6b44e604-3d03-4eaa-8956-2b532f4292f6",
