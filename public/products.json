@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T12:07:01.919Z",
+  "generated_at": "2026-06-15T12:08:39.469Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 443,
+  "count": 442,
   "products": [
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
@@ -4399,30 +4399,6 @@
         "כריות שינה"
       ],
       "updated_at": "2026-06-11T10:22:37.805Z"
-    },
-    {
-      "id": "c5366505-ceec-42a7-9dac-ef761e954b92",
-      "slug": "mgbt-gvp-dgm-tulip-copy-73flkc",
-      "name": "מגבת גוף דגם TULIP (Copy)",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 29.9,
-      "base_price": 29.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-copy-73flkc",
-      "categories": [
-        "מגבות ומפות שולחן"
-      ],
-      "updated_at": "2026-06-14T12:27:13.954Z"
     },
     {
       "id": "e2aeaf50-6f13-42da-9611-b0d2c85c4d0c",

@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 443** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 442** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
@@ -1519,13 +1519,6 @@ https://streetstock.co.il/product/kryt-shynh-softty-j82j6x
 - Description: כרית שינה איכותית במיוחד במילוי שלוש שכבות סיליקון תפוחים היוצרת חווית שינה אוורירית ורכה במיוחד תוך שמירה על כל חלקי הצוואר.
 - Image: https://streetstock.co.il/assets/product-1780837726051-5w7m5h.webp
 
-### מגבת גוף דגם TULIP (Copy)
-https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-copy-73flkc
-- Price: 29.90 ILS
-- Availability: In stock
-- Category: מגבות ומפות שולחן
-- Image: https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp
-
 ### מגבת גוף דגם TULIP
 https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye
 - Price: 29.90 ILS
@@ -1654,6 +1647,15 @@ https://streetstock.co.il/product/mchbt-nyrvsth-24-sm-1tuzpn
 - Category: סירים ומחבתות
 - Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
 - Image: https://streetstock.co.il/assets/product-1781512701051-wv4ah5.webp
+
+### מתלה כביסה טלסקופי דגם DANNY צבע לבן
+https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-anph2k
+- Price: 149.90 ILS
+- Availability: In stock
+- Category: מתקני כביסה
+- SKU: 7290121560405
+- Description: מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר. המתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים. העיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר. מתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד. פתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.
+- Image: https://streetstock.co.il/assets/product-1781512824442-5yfb.webp
 
 ---
 
