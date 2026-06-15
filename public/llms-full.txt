@@ -8796,7 +8796,7 @@ SKU: 7290121562300
 
 ### קופסאת טישו מלבן
 
-URL: https://streetstock.co.il/product/kvpsat-tyshv-mlbn-1abxcy
+URL: https://streetstock.co.il/product/kvpsat-tyshv-mlbn-k8epid
 Price: 29.90 ILS
 Availability: In stock
 SKU: 7290121561112
@@ -8807,7 +8807,7 @@ SKU: 7290121561112
 
 ### אלמוגית לכיור נתלה על הברז
 
-URL: https://streetstock.co.il/product/almvgyt-lkyvr-ntlh-al-hbrz-plas68
+URL: https://streetstock.co.il/product/almvgyt-lkyvr-ntlh-al-hbrz-gkp129
 Price: 9.90 ILS
 Availability: In stock
 SKU: 7290121563680

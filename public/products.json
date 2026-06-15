@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:58:13.676Z",
+  "generated_at": "2026-06-15T08:59:31.025Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -6496,10 +6496,10 @@
     },
     {
       "id": "26d35378-de45-4339-a255-ca7cb1f28ae3",
-      "slug": "kvpsat-tyshv-mlbn-1abxcy",
+      "slug": "kvpsat-tyshv-mlbn-k8epid",
       "name": "קופסאת טישו מלבן\r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p>כללי</p>",
       "short_description": null,
       "sku": "7290121561112",
       "brand": null,
@@ -6507,21 +6507,23 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781513885251-dhmdc8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-tyshv-mlbn-1abxcy",
+      "url": "https://streetstock.co.il/product/kvpsat-tyshv-mlbn-k8epid",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:58:19.563Z"
     },
     {
       "id": "f6388cb3-6b31-4fbe-a4b9-3fbc01a3e2c9",
-      "slug": "almvgyt-lkyvr-ntlh-al-hbrz-plas68",
+      "slug": "almvgyt-lkyvr-ntlh-al-hbrz-gkp129",
       "name": "אלמוגית לכיור נתלה על הברז\r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p>כללי</p>",
       "short_description": null,
       "sku": "7290121563680",
       "brand": null,
@@ -6529,14 +6531,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781513915304-78rcg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/almvgyt-lkyvr-ntlh-al-hbrz-plas68",
+      "url": "https://streetstock.co.il/product/almvgyt-lkyvr-ntlh-al-hbrz-gkp129",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:58:46.470Z"
     },
     {
       "id": "56d99042-a969-401e-b462-ea4edd081bf0",
