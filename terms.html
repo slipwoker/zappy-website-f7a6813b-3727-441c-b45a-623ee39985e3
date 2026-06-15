@@ -275,6 +275,43 @@
     @media (max-width:480px) { .zppb-banner { padding:32px 20px; min-height:400px; } .zppb-h { font-size:22px; } .zppb-sub { font-size:14px; } .zppb-countdown { font-size:24px; } .zppb-countdown span { padding:6px 12px; } }
     body.zappy-edit-mode .zppb-overlay { display:none !important; }
     </style>
+
+    <style id="zappy-announcement-bar-styles">
+    /* Announcement Bar Styles */
+    .zappy-announcement-bar {
+      background-color: #000000 !important;
+      color: #ffffff !important;
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      text-align: center !important;
+      padding: 10px 20px !important;
+      font-size: 14px !important;
+      font-weight: 500 !important;
+      line-height: 1.4 !important;
+      box-sizing: border-box !important;
+      z-index: 1001 !important;
+      min-height: 40px !important;
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message {
+      position: absolute !important;
+      opacity: 0 !important;
+      transition: opacity 0.5s ease-in-out !important;
+      width: 100% !important;
+      left: 0 !important;
+      right: 0 !important;
+      padding: 0 20px !important;
+      box-sizing: border-box !important;
+    }
+    .zappy-announcement-bar .zappy-announcement-message.active {
+      opacity: 1 !important;
+    }
+    </style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -366,6 +403,9 @@
 </head>
 <body>
 
+<div class="zappy-announcement-bar">
+      <span class="zappy-announcement-message active">סט מצעים 2 ב 249.90</span>
+    </div>
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
 
 
