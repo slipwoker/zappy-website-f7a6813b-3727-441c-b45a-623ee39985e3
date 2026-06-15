@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:00:02.878Z",
+  "generated_at": "2026-06-15T09:00:29.632Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 445,
+  "count": 444,
   "products": [
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
@@ -6589,28 +6589,6 @@
         "כללי"
       ],
       "updated_at": "2026-06-15T08:59:30.224Z"
-    },
-    {
-      "id": "72221133-0d09-40fd-8830-fa82a46ed0fe",
-      "slug": "gygyt-mtkplt-gdvlh-38-l-kjvew7",
-      "name": "גיגית מתקפלת גדולה 38 ל'",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "8697404117278",
-      "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/gygyt-mtkplt-gdvlh-38-l-kjvew7",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
       "id": "ce3832d6-dce1-403d-8e8f-025fed14aee0",
