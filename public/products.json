@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:39:01.573Z",
+  "generated_at": "2026-06-15T08:39:56.235Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -4829,7 +4829,7 @@
     },
     {
       "id": "162ae038-938f-42b6-8a93-b08f9bbdacaf",
-      "slug": "mchbt-nyrvsth-28-sm-hhdly3",
+      "slug": "mchbt-nyrvsth-28-sm-4e9zyq",
       "name": "מחבת נירוסטה 28 ס\"מ",
       "name_translations": {},
       "description": "",
@@ -4840,14 +4840,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781512773436-8fq92.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-nyrvsth-28-sm-hhdly3",
+      "url": "https://streetstock.co.il/product/mchbt-nyrvsth-28-sm-4e9zyq",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:39:41.645Z"
     },
     {
       "id": "e1835401-8535-4535-8b60-7e9e0c6a2891",
