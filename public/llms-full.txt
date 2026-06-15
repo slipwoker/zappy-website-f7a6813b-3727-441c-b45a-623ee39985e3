@@ -8517,7 +8517,7 @@ SKU: 6926865211235
 ---
 
 ### מארז שלוש נורות לד 15 וואט 
-URL: https://streetstock.co.il/product/marz-shlvsh-nvrvt-ld-15-vvat-ginnkq
+URL: https://streetstock.co.il/product/marz-shlvsh-nvrvt-ld-15-vvat-apamkd
 Price: 24.90 ILS
 Availability: In stock
 SKU: 7290113799721
@@ -8604,7 +8604,7 @@ SKU: 7290121561921
 ---
 
 ### מארז שלוש נורות לד 10 וואט 
-URL: https://streetstock.co.il/product/marz-shlvsh-nvrvt-ld-10-vvat-hafilr
+URL: https://streetstock.co.il/product/marz-shlvsh-nvrvt-ld-10-vvat-fuwqk5
 Price: 19.90 ILS
 Availability: In stock
 SKU: 7290113794184
