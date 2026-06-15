@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:26:56.331Z",
+  "generated_at": "2026-06-15T08:27:10.111Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -9733,10 +9733,10 @@
     },
     {
       "id": "2fde0019-ffdb-4d7a-8408-28df9d97b51d",
-      "slug": "mamd-akryly-rb-shymvshy-dgm-maren-jb4356",
+      "slug": "mamd-akryly-rb-shymvshy-dgm-maren-izux2q",
       "name": "מעמד אקרילי רב שימושי \r\nדגם MAREN\r\n\r\n ",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564410",
       "brand": null,
@@ -9749,11 +9749,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-akryly-rb-shymvshy-dgm-maren-jb4356",
+      "url": "https://streetstock.co.il/product/mamd-akryly-rb-shymvshy-dgm-maren-izux2q",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:26:57.638Z"
     },
     {
       "id": "2b3e906f-1b34-428f-8ebe-542d2610592c",
