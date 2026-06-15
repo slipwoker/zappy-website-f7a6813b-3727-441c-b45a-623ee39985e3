@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T07:36:27.267Z",
+  "generated_at": "2026-06-15T07:37:12.755Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -3311,8 +3311,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mamd-6-mgyrvt-dgm-bmbv-9lifhn",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-06-15T07:36:41.037Z"
     },
     {
       "id": "cf59163f-9ca5-435d-95b7-1507665f7190",
