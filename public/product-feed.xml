@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 15 Jun 2026 06:14:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 06:15:53 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -699,10 +699,39 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba</g:id>
-      <g:title>סכין ילדים דגם תנין ARCOSTEEL</g:title>
+      <g:id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba__07338d53-af3b-4fa1-a3ff-1c6b3708748b</g:id>
+      <g:title>סכין ילדים דגם תנין ARCOSTEEL - Green</g:title>
       <g:description>עיצוב תנין צבעוני מדליק והומוריסטי שהילדים אוהבים. ידית ארגונומית נעימה למגע להב בטיחותי לילדים מגביר צריכת ירקות ופירות אצל ילדים</g:description>
-      <g:link>https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-gcwf8w</g:link>
+      <g:link>https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-4g6bro</g:link>
+      <g:item_group_id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837764195-8okj8a.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סכיני מטבח</g:product_type>
+    </item>
+    <item>
+      <g:id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba__63b4f9e0-fc33-49ff-b05c-c20aa62d54fb</g:id>
+      <g:title>סכין ילדים דגם תנין ARCOSTEEL - תכלת</g:title>
+      <g:description>עיצוב תנין צבעוני מדליק והומוריסטי שהילדים אוהבים. ידית ארגונומית נעימה למגע להב בטיחותי לילדים מגביר צריכת ירקות ופירות אצל ילדים</g:description>
+      <g:link>https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-4g6bro</g:link>
+      <g:item_group_id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837764195-8okj8a.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סכיני מטבח</g:product_type>
+    </item>
+    <item>
+      <g:id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba__4e2b47f1-09eb-4fe9-b8f0-917a62e6beae</g:id>
+      <g:title>סכין ילדים דגם תנין ARCOSTEEL - Red</g:title>
+      <g:description>עיצוב תנין צבעוני מדליק והומוריסטי שהילדים אוהבים. ידית ארגונומית נעימה למגע להב בטיחותי לילדים מגביר צריכת ירקות ופירות אצל ילדים</g:description>
+      <g:link>https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-4g6bro</g:link>
+      <g:item_group_id>e4e6dcad-0510-4a1d-995f-53ae6adbc5ba</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837764195-8okj8a.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>

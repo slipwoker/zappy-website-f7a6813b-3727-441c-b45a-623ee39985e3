@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T06:14:08.587Z",
+  "generated_at": "2026-06-15T06:15:53.008Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -1207,7 +1207,7 @@
     },
     {
       "id": "e4e6dcad-0510-4a1d-995f-53ae6adbc5ba",
-      "slug": "skyn-yldym-dgm-tnyn-arcosteel-gcwf8w",
+      "slug": "skyn-yldym-dgm-tnyn-arcosteel-4g6bro",
       "name": "סכין ילדים דגם תנין ARCOSTEEL",
       "name_translations": {},
       "description": "",
@@ -1223,11 +1223,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-gcwf8w",
+      "url": "https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-4g6bro",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-06-14T12:32:34.394Z"
+      "updated_at": "2026-06-15T06:15:39.620Z"
     },
     {
       "id": "cb7f0d3c-c33e-4042-9f50-dcef94f97ffe",
