@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T06:12:26.073Z",
+  "generated_at": "2026-06-15T06:14:08.587Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -1183,7 +1183,7 @@
     },
     {
       "id": "0fea0596-0dd8-4858-8360-cfbcaaf76873",
-      "slug": "kvlpn-shvvytsry-chbrt-swiss-78tyi4",
+      "slug": "kvlpn-shvvytsry-chbrt-swiss-ptxzpz",
       "name": "קולפן שוויצרי חברת SWISS",
       "name_translations": {},
       "description": "",
@@ -1199,11 +1199,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvlpn-shvvytsry-chbrt-swiss-78tyi4",
+      "url": "https://streetstock.co.il/product/kvlpn-shvvytsry-chbrt-swiss-ptxzpz",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-15T06:11:54.026Z"
+      "updated_at": "2026-06-15T06:13:36.692Z"
     },
     {
       "id": "e4e6dcad-0510-4a1d-995f-53ae6adbc5ba",
