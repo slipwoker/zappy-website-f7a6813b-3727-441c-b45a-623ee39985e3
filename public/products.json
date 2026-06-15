@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:19:21.602Z",
+  "generated_at": "2026-06-15T08:19:38.757Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 446,
@@ -4733,10 +4733,10 @@
     },
     {
       "id": "64866fb0-9aca-4766-aa95-f2a076ec16d5",
-      "slug": "mamd-akryly-lmbrshvt-mshcht-shynyym-izk9q4",
+      "slug": "mamd-akryly-lmbrshvt-mshcht-shynyym-1rqpdb",
       "name": "מעמד אקרילי למברשות + משחת שיניים",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564496",
       "brand": null,
@@ -4749,11 +4749,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-akryly-lmbrshvt-mshcht-shynyym-izk9q4",
+      "url": "https://streetstock.co.il/product/mamd-akryly-lmbrshvt-mshcht-shynyym-1rqpdb",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:19:38.257Z"
     },
     {
       "id": "db48f457-c94c-4d09-b6cf-dab4802e2046",
