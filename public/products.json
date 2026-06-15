@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T06:28:28.673Z",
+  "generated_at": "2026-06-15T06:36:14.387Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -2230,8 +2230,11 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "שמיכות פוך ",
+        "שמיכות קיץ "
+      ],
+      "updated_at": "2026-06-15T06:35:42.581Z"
     },
     {
       "id": "cefa7d5b-5c97-4479-a73f-60470e591a00",
@@ -2252,8 +2255,11 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "שמיכות פוך ",
+        "שמיכות קיץ "
+      ],
+      "updated_at": "2026-06-15T06:35:42.697Z"
     },
     {
       "id": "040b04f4-60aa-44b2-b033-718ed215e4a4",

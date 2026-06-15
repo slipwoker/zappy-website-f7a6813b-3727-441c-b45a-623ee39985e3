@@ -798,6 +798,7 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm
 - Price: 99.90 ILS
 - Availability: In stock
+- Category: שמיכות פוך 
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780903164990-ptfcp8.webp
 
@@ -805,6 +806,7 @@ https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-k
 https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n
 - Price: 99.90 ILS
 - Availability: In stock
+- Category: שמיכות פוך 
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780903164990-vqjm5u.webp
 
