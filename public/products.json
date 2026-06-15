@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T06:16:11.428Z",
+  "generated_at": "2026-06-15T06:19:07.142Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -1975,7 +1975,7 @@
     },
     {
       "id": "e09ac29d-fd5c-4f4d-8436-2abaaaf55697",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-nukzv7",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-kbgw4e",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע טורקיז",
       "name_translations": {},
       "description": "<p>מידות הגדולה 28\" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק\"ג / נפח: 115 ליטר (130 לאחר הרחבה)</p><p>מידות הבינונית 24\" - חיצוני: 71 * 43 * 28 / משקל: 3.4 ק\"ג / נפח: 80 ליטר (91 לאחר הרחבה)</p><p>מידות הקטנה 19\" - חיצוני: 55 * 36 * 24 / משקל: 2.7 ק\"ג / נפח: 43 ליטר&nbsp;(50 לאחר הרחבה)</p>",
@@ -1986,18 +1986,20 @@
       "base_price": 499.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781504304062-3u9pffj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-nukzv7",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-kbgw4e",
       "categories": [
         "מזוודות "
       ],
-      "updated_at": "2026-06-11T11:29:29.097Z"
+      "updated_at": "2026-06-15T06:18:35.046Z"
     },
     {
       "id": "abb39e79-2d78-4947-b1e8-be3814974a9b",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-6y8gz7",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-6n9tra",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע אפור",
       "name_translations": {},
       "description": "",
@@ -2008,14 +2010,16 @@
       "base_price": 499.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781504328396-s7zn0h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-6y8gz7",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-6n9tra",
       "categories": [
         "מזוודות "
       ],
-      "updated_at": "2026-06-09T13:58:26.884Z"
+      "updated_at": "2026-06-15T06:19:05.507Z"
     },
     {
       "id": "986cad34-c3c1-4ea2-816b-98b95b1d797a",
