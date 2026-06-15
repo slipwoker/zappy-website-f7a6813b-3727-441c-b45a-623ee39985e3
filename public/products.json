@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:54:57.991Z",
+  "generated_at": "2026-06-15T08:56:06.306Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -6037,10 +6037,10 @@
     },
     {
       "id": "c5cfcf0b-95d1-44cc-b6f8-5aedbdfac36b",
-      "slug": "mamd-nyyr-svpg-dgm-papero-6lggcp",
+      "slug": "mamd-nyyr-svpg-dgm-papero-97i835",
       "name": "מעמד נייר סופג דגם PAPERO\r\n",
       "name_translations": {},
-      "description": "כללי, מוצרי אמבט",
+      "description": "<p>כללי, מוצרי אמבט</p>",
       "short_description": null,
       "sku": "7290121561921",
       "brand": null,
@@ -6048,14 +6048,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781513705730-f7terg.webp",
+        "https://streetstock.co.il/assets/product-1781513724092-6bgv8j.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-nyyr-svpg-dgm-papero-6lggcp",
+      "url": "https://streetstock.co.il/product/mamd-nyyr-svpg-dgm-papero-97i835",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:55:34.514Z"
     },
     {
       "id": "0ddc7983-2197-42fe-8121-cb0495da1d03",
