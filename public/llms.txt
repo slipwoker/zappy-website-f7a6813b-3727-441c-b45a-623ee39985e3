@@ -1361,13 +1361,13 @@ https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-11xn7w
 - Description: מעמד אחסון 3 תאים
 - Image: https://streetstock.co.il/assets/product-1780837731810-9o9yy4.webp
 
-### צלחות פורצלן SPIRAL 
-18 חלקים
-https://streetstock.co.il/product/tslchvt-pvrtsln-spiral-18-chlkym-e5fnqa
+### סט 18 צלחות פורצלן SPIRAL 18 חלקים
+https://streetstock.co.il/product/st-18-tslchvt-pvrtsln-spiral-18-chlkym-54n36f
 - Price: 249.90 ILS
 - Availability: In stock
 - Category: צלחות+סכום
 - Description: צלחת 20 ס"מ צלחת 27 ס"מ קערה 20 ס"מ
+- Image: https://streetstock.co.il/assets/product-1781512323411-ejni6h.webp
 
 ### מפת שולחן דגם WAVES צבע אפור
 https://streetstock.co.il/product/mpt-shvlchn-dgm-waves-tsba-apvr-ebw226
