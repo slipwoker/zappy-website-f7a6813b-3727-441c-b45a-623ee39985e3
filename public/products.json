@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T07:42:17.864Z",
+  "generated_at": "2026-06-15T07:50:52.428Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 447,
@@ -5499,8 +5499,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-80-sm-ej2s0t",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מראות ומסגרות"
+      ],
+      "updated_at": "2026-06-15T07:50:19.853Z"
     },
     {
       "id": "da307361-12b4-44e5-9033-5c6c4b0b4921",
@@ -8300,8 +8302,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מראות ומסגרות"
+      ],
+      "updated_at": "2026-06-15T07:50:19.509Z"
     },
     {
       "id": "113c5198-3fa1-42fb-a24f-6ecac4151134",
@@ -8392,8 +8396,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-bh5lom",
-      "categories": [],
-      "updated_at": "2026-06-11T09:57:40.580Z"
+      "categories": [
+        "מראות ומסגרות"
+      ],
+      "updated_at": "2026-06-15T07:50:19.624Z"
     },
     {
       "id": "a4f30b2f-d748-4a2f-aed3-6d5197a0fec5",
@@ -8414,8 +8420,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r",
-      "categories": [],
-      "updated_at": "2026-06-11T09:58:34.097Z"
+      "categories": [
+        "מראות ומסגרות"
+      ],
+      "updated_at": "2026-06-15T07:50:19.738Z"
     },
     {
       "id": "20300e3a-d7a8-4b49-816b-2c07cf6531a4",
@@ -8436,8 +8444,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/msgrt-tmvnh-a4-9b3c43",
-      "categories": [],
-      "updated_at": "2026-06-11T10:00:09.555Z"
+      "categories": [
+        "מראות ומסגרות"
+      ],
+      "updated_at": "2026-06-15T07:50:19.273Z"
     },
     {
       "id": "598350ec-5489-4d70-a0a6-0079b796f88b",
@@ -8458,8 +8468,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "categories": [
+        "מראות ומסגרות"
+      ],
+      "updated_at": "2026-06-15T07:50:19.392Z"
     },
     {
       "id": "77422bb9-11c5-40ef-8698-1e78c064f336",
