@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:20:19.865Z",
+  "generated_at": "2026-06-15T08:20:59.275Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -5394,10 +5394,10 @@
     },
     {
       "id": "0333c679-cd9a-4241-9414-5f4b23bc0b5a",
-      "slug": "pamvn-avgh-yvkrty-kbrt-akryl-lrvj0x",
+      "slug": "pamvn-avgh-yvkrty-kbrt-akryl-goew94",
       "name": "פעמון עוגה יוקרתי + קברט אקריל\r\n\r\n  ",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564397",
       "brand": null,
@@ -5410,11 +5410,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-lrvj0x",
+      "url": "https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-goew94",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:20:33.212Z"
     },
     {
       "id": "06aa0f5c-2bd0-4d69-9999-24a5bdb062ed",
@@ -5514,10 +5514,10 @@
     },
     {
       "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",
-      "slug": "zvg-mchlky-mdpym-akryl-6ubwpy",
+      "slug": "zvg-mchlky-mdpym-akryl-kkthlk",
       "name": "זוג מחלקי מדפים אקריל\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564526",
       "brand": null,
@@ -5530,11 +5530,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-6ubwpy",
+      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-kkthlk",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:20:49.572Z"
     },
     {
       "id": "32699074-a01b-4a62-8037-4a04e8ca2cbf",
