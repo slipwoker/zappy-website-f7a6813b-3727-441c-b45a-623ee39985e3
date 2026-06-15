@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T09:10:10.172Z",
+  "generated_at": "2026-06-15T09:11:20.824Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 444,
+  "count": 443,
   "products": [
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
@@ -9185,28 +9185,6 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kvs-zkvkyt-350-ml-dgm-yhlvm-5xkd7s",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "75142fea-3478-4738-b811-1aa2eef6ceb9",
-      "slug": "marz-6-kvsvt-yyn-mhvdrvt-330-ml-tmpr8g",
-      "name": "מארז 6 כוסות יין מהודרות 330 מ\"ל\r\n\r\n",
-      "name_translations": {},
-      "description": "כוסות",
-      "short_description": null,
-      "sku": "7290121561747",
-      "brand": null,
-      "price": 39.9,
-      "base_price": 39.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-6-kvsvt-yyn-mhvdrvt-330-ml-tmpr8g",
       "categories": [
         "כוסות + קנקני שתייה"
       ],

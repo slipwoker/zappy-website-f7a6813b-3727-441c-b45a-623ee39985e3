@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 444** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 443** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
