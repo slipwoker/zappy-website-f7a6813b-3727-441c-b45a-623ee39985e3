@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-15T08:27:10.111Z",
+  "generated_at": "2026-06-15T08:27:42.492Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 445,
@@ -9805,10 +9805,10 @@
     },
     {
       "id": "18ae4d3e-5fe7-4a75-a467-ca51513b1fa5",
-      "slug": "mtkn-kvsvt-akryly-dgm-yam-cnynwi",
+      "slug": "mtkn-kvsvt-akryly-dgm-yam-tmfp7s",
       "name": "מתקן כוסות אקרילי דגם YAM\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560368",
       "brand": null,
@@ -9821,11 +9821,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtkn-kvsvt-akryly-dgm-yam-cnynwi",
+      "url": "https://streetstock.co.il/product/mtkn-kvsvt-akryly-dgm-yam-tmfp7s",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:27:10.697Z"
     },
     {
       "id": "afaf4e1f-f19c-4d6f-965e-d4d46350f086",
@@ -9853,10 +9853,10 @@
     },
     {
       "id": "b925e12f-769b-46de-8929-857b71b85a63",
-      "slug": "kvpst-achsvn-akrylyt-m-wl6xt8",
+      "slug": "kvpst-achsvn-akrylyt-m-ap7hyj",
       "name": "קופסת אחסון אקרילית M\r\n ",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564373",
       "brand": null,
@@ -9869,11 +9869,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-m-wl6xt8",
+      "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-m-ap7hyj",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-06-15T08:27:26.830Z"
     },
     {
       "id": "32fb532c-c4d2-4354-8386-eb114ee607fb",
