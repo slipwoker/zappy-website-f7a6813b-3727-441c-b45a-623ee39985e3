@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 10:09:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 10:11:02 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -3683,10 +3683,10 @@
       <g:product_type>צנצנות אקריל</g:product_type>
     </item>
     <item>
-      <g:id>ddbe9651-1dbb-4be1-b94c-130572e1caa0</g:id>
+      <g:id>ddbe9651-1dbb-4be1-b94c-130572e1caa0__1714aeb2-2a62-4f8b-9c95-c914b27e08ef</g:id>
       <g:title>מראה עגולה מסגרת אלומיניום שחור
  80 ס&quot;מ
- </g:title>
+  - Black</g:title>
       <g:description>מראות ומסגרות תמונה</g:description>
       <g:link>https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-80-sm-ej2s0t</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837703879-hc18wq.webp</g:image_link>
@@ -5751,11 +5751,57 @@
       <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
-      <g:id>61d1420e-d62e-4393-a261-688d5982415d</g:id>
+      <g:id>61d1420e-d62e-4393-a261-688d5982415d__a7b58700-ae2f-4ffc-b9b3-8f0a99b4e2ff</g:id>
       <g:title>מראה מלבנית מסגרת אלומיניום
- 40X60 ס&quot;מ</g:title>
+ 40X60 ס&quot;מ - Black</g:title>
       <g:description>מראות ומסגרות תמונה</g:description>
       <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc</g:link>
+      <g:item_group_id>61d1420e-d62e-4393-a261-688d5982415d</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659967-zb9qe.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561365</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>61d1420e-d62e-4393-a261-688d5982415d__ac4cf109-029a-4b93-b515-8f9f349ff5a1</g:id>
+      <g:title>מראה מלבנית מסגרת אלומיניום
+ 40X60 ס&quot;מ - Gold</g:title>
+      <g:description>מראות ומסגרות תמונה</g:description>
+      <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc</g:link>
+      <g:item_group_id>61d1420e-d62e-4393-a261-688d5982415d</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659967-zb9qe.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561365</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>61d1420e-d62e-4393-a261-688d5982415d__915ee3ec-8f5e-405c-b2a1-2ea66750d652</g:id>
+      <g:title>מראה מלבנית מסגרת אלומיניום
+ 40X60 ס&quot;מ - Beige</g:title>
+      <g:description>מראות ומסגרות תמונה</g:description>
+      <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc</g:link>
+      <g:item_group_id>61d1420e-d62e-4393-a261-688d5982415d</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659967-zb9qe.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561365</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>61d1420e-d62e-4393-a261-688d5982415d__7630f5b2-8ef6-494f-a89b-1ed2ddb777e5</g:id>
+      <g:title>מראה מלבנית מסגרת אלומיניום
+ 40X60 ס&quot;מ - Silver</g:title>
+      <g:description>מראות ומסגרות תמונה</g:description>
+      <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc</g:link>
+      <g:item_group_id>61d1420e-d62e-4393-a261-688d5982415d</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837659967-zb9qe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>99.90 ILS</g:price>
@@ -5852,11 +5898,57 @@
       <g:product_type>מראות ומסגרות</g:product_type>
     </item>
     <item>
-      <g:id>598350ec-5489-4d70-a0a6-0079b796f88b</g:id>
+      <g:id>598350ec-5489-4d70-a0a6-0079b796f88b__1b8da0a1-e3e9-45bb-8d91-dfc78d6fbc2c</g:id>
       <g:title>מראה מלבנית מסגרת אלומיניום
- 50X70 ס&quot;מ</g:title>
+ 50X70 ס&quot;מ - Black</g:title>
       <g:description>מראות ומסגרות תמונה</g:description>
       <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i</g:link>
+      <g:item_group_id>598350ec-5489-4d70-a0a6-0079b796f88b</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659021-cm17c8.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>129.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561358</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>598350ec-5489-4d70-a0a6-0079b796f88b__63c82a31-95e0-4c35-89d5-ee16b8ef74ec</g:id>
+      <g:title>מראה מלבנית מסגרת אלומיניום
+ 50X70 ס&quot;מ - Gold</g:title>
+      <g:description>מראות ומסגרות תמונה</g:description>
+      <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i</g:link>
+      <g:item_group_id>598350ec-5489-4d70-a0a6-0079b796f88b</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659021-cm17c8.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>129.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561358</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>598350ec-5489-4d70-a0a6-0079b796f88b__5b79328d-839e-4424-bbde-3615713df01e</g:id>
+      <g:title>מראה מלבנית מסגרת אלומיניום
+ 50X70 ס&quot;מ - Beige</g:title>
+      <g:description>מראות ומסגרות תמונה</g:description>
+      <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i</g:link>
+      <g:item_group_id>598350ec-5489-4d70-a0a6-0079b796f88b</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659021-cm17c8.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>129.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561358</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>598350ec-5489-4d70-a0a6-0079b796f88b__5d60dbb9-442a-4fb7-bbb2-754fe853fe72</g:id>
+      <g:title>מראה מלבנית מסגרת אלומיניום
+ 50X70 ס&quot;מ - Silver</g:title>
+      <g:description>מראות ומסגרות תמונה</g:description>
+      <g:link>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i</g:link>
+      <g:item_group_id>598350ec-5489-4d70-a0a6-0079b796f88b</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837659021-cm17c8.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>129.90 ILS</g:price>
