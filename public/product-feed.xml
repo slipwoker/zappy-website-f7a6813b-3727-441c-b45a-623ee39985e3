@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 08:42:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:45:27 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -2349,10 +2349,11 @@
       <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
-      <g:id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84</g:id>
-      <g:title>כיסא חוף חלק דגם סאן</g:title>
+      <g:id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84__c50a941a-f380-4d5c-895b-dc0c618589e4</g:id>
+      <g:title>כיסא חוף חלק דגם סאן - Beige</g:title>
       <g:description>כיסאות חוף בעיצוב צעים קייצים קיבולת משקל:עד 110 קילו</g:description>
       <g:link>https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-dxp8mx</g:link>
+      <g:item_group_id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837738316-hvyhsh.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>39.90 ILS</g:price>
@@ -2362,10 +2363,39 @@
       <g:product_type>קיץ</g:product_type>
     </item>
     <item>
-      <g:id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e</g:id>
-      <g:title>צידנית בד 9 ס&quot;מ פסים</g:title>
+      <g:id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84__14496427-5689-4d3b-854d-6740c0f42d62</g:id>
+      <g:title>כיסא חוף חלק דגם סאן - Rose Gold</g:title>
+      <g:description>כיסאות חוף בעיצוב צעים קייצים קיבולת משקל:עד 110 קילו</g:description>
+      <g:link>https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-dxp8mx</g:link>
+      <g:item_group_id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837738316-hvyhsh.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>קיץ</g:product_type>
+    </item>
+    <item>
+      <g:id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84__37b955fc-54b3-43dc-8ca2-8cc56b98af27</g:id>
+      <g:title>כיסא חוף חלק דגם סאן - turquoise</g:title>
+      <g:description>כיסאות חוף בעיצוב צעים קייצים קיבולת משקל:עד 110 קילו</g:description>
+      <g:link>https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-dxp8mx</g:link>
+      <g:item_group_id>b81bfaf5-ad0a-4863-8239-4dccc1e31e84</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837738316-hvyhsh.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>קיץ</g:product_type>
+    </item>
+    <item>
+      <g:id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e__a2709b8e-baef-469b-ba81-ee12892bde18</g:id>
+      <g:title>צידנית בד 9 ס&quot;מ פסים - Blue</g:title>
       <g:description>צידניות בד + ידית נשיאה</g:description>
       <g:link>https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6</g:link>
+      <g:item_group_id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1781511596949-67dnni.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>35.00 ILS</g:price>
@@ -2375,10 +2405,67 @@
       <g:product_type>קיץ</g:product_type>
     </item>
     <item>
-      <g:id>cd65521e-f6e5-4969-ace0-756479a0162c</g:id>
-      <g:title>סט 3 צדניות פלסטיק בגדלים שונים</g:title>
+      <g:id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e__3e789ee6-8a29-47c4-9cae-f6a4a1a8748f</g:id>
+      <g:title>צידנית בד 9 ס&quot;מ פסים - Green</g:title>
+      <g:description>צידניות בד + ידית נשיאה</g:description>
+      <g:link>https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6</g:link>
+      <g:item_group_id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781511596949-67dnni.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>35.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>קיץ</g:product_type>
+    </item>
+    <item>
+      <g:id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e__a152de6b-68b1-477c-9279-5e768afb6441</g:id>
+      <g:title>צידנית בד 9 ס&quot;מ פסים - Yellow</g:title>
+      <g:description>צידניות בד + ידית נשיאה</g:description>
+      <g:link>https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6</g:link>
+      <g:item_group_id>8bcf3e3d-52b5-4f0b-9da6-36942e05992e</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781511596949-67dnni.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>35.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>קיץ</g:product_type>
+    </item>
+    <item>
+      <g:id>cd65521e-f6e5-4969-ace0-756479a0162c__db57a028-15f3-40a7-8084-c415e64eed1f</g:id>
+      <g:title>סט 3 צדניות פלסטיק בגדלים שונים - Blue</g:title>
       <g:description>סט 3 צידניות 7+14+26- קשיחות איכותיות מגיעות עם קרחון מובנה במכסה -מתנה!</g:description>
       <g:link>https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o</g:link>
+      <g:item_group_id>cd65521e-f6e5-4969-ace0-756479a0162c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781518253710-o9w7xb.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>קיץ</g:product_type>
+    </item>
+    <item>
+      <g:id>cd65521e-f6e5-4969-ace0-756479a0162c__63b1cf0e-c92b-455b-9ef6-1ec21eeb7991</g:id>
+      <g:title>סט 3 צדניות פלסטיק בגדלים שונים - Green</g:title>
+      <g:description>סט 3 צידניות 7+14+26- קשיחות איכותיות מגיעות עם קרחון מובנה במכסה -מתנה!</g:description>
+      <g:link>https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o</g:link>
+      <g:item_group_id>cd65521e-f6e5-4969-ace0-756479a0162c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781518253710-o9w7xb.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>קיץ</g:product_type>
+    </item>
+    <item>
+      <g:id>cd65521e-f6e5-4969-ace0-756479a0162c__b4c92d90-a0ac-4021-900b-47265df24db2</g:id>
+      <g:title>סט 3 צדניות פלסטיק בגדלים שונים - Yellow</g:title>
+      <g:description>סט 3 צידניות 7+14+26- קשיחות איכותיות מגיעות עם קרחון מובנה במכסה -מתנה!</g:description>
+      <g:link>https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o</g:link>
+      <g:item_group_id>cd65521e-f6e5-4969-ace0-756479a0162c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1781518253710-o9w7xb.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
