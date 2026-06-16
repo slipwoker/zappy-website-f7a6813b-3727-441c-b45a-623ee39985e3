@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:43:45.187Z",
+  "generated_at": "2026-06-16T12:45:52.720Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -351,7 +351,7 @@
     },
     {
       "id": "b23d7052-0596-4858-8ce2-82979633f86f",
-      "slug": "argvnyt-akrylyt-dgm-shopia-c61n6j",
+      "slug": "argvnyt-akrylyt-dgm-shopia-a5gcnx",
       "name": "ארגונית אקרילית דגם \"SHOPIA\" ",
       "name_translations": {},
       "description": "",
@@ -362,14 +362,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613932320-5fnk9c.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-shopia-c61n6j",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-shopia-a5gcnx",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:52.596Z"
+      "updated_at": "2026-06-16T12:45:51.144Z"
     },
     {
       "id": "66ae43ff-5a21-495e-b932-1bb0255ce496",
@@ -395,7 +397,7 @@
     },
     {
       "id": "ee1a5ef3-bf76-4f85-a2f9-8350faeaabca",
-      "slug": "argvnyt-akrylyt-dgm-adam-ic3yqd",
+      "slug": "argvnyt-akrylyt-dgm-adam-zh746x",
       "name": "ארגונית אקרילית דגם \"ADAM\" ",
       "name_translations": {},
       "description": "",
@@ -406,14 +408,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613901429-7oi0xl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-adam-ic3yqd",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-adam-zh746x",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:52.577Z"
+      "updated_at": "2026-06-16T12:45:19.087Z"
     },
     {
       "id": "9f5fe67d-f128-470a-b108-09a0f05bd93d",
