@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:36:11.184Z",
+  "generated_at": "2026-06-16T12:37:51.068Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -55,7 +55,7 @@
     },
     {
       "id": "4ecbccde-916d-420f-971f-e8589b8d87f1",
-      "slug": "argvnyt-akrylyt-dgm-linor-dn04f2",
+      "slug": "argvnyt-akrylyt-dgm-linor-6x7d46",
       "name": "ארגונית אקרילית דגם \"LINOR\"",
       "name_translations": {},
       "description": "",
@@ -66,18 +66,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613379236-bpsuv9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-linor-dn04f2",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-linor-6x7d46",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:54.033Z"
+      "updated_at": "2026-06-16T12:36:50.840Z"
     },
     {
       "id": "6b9dcf4a-8312-4828-acf2-c276c9c44a9d",
-      "slug": "argvnyt-akrylyt-dgm-sapir-juonc1",
+      "slug": "argvnyt-akrylyt-dgm-sapir-taultj",
       "name": "ארגונית אקרילית דגם \"SAPIR\"",
       "name_translations": {},
       "description": "",
@@ -88,14 +90,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613424047-h9d31t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-sapir-juonc1",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-sapir-taultj",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:54.033Z"
+      "updated_at": "2026-06-16T12:37:17.742Z"
     },
     {
       "id": "de78f54a-4413-4905-8ea3-af0a4406b3a1",
