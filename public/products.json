@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:35:10.214Z",
+  "generated_at": "2026-06-16T12:36:11.184Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
   "products": [
     {
       "id": "89f19a72-a4bb-467d-b5a2-f4df0a5eb798",
-      "slug": "argvnyt-akrylyt-mchvlkt-mkshdgm-dor-kdh7zk",
+      "slug": "argvnyt-akrylyt-mchvlkt-mkshdgm-dor-y7qeoq",
       "name": "ארגונית אקרילית מחולקת + מכסהדגם \"DOR\"",
       "name_translations": {},
       "description": "",
@@ -23,15 +23,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-kdh7zk",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-y7qeoq",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:34:38.182Z"
+      "updated_at": "2026-06-16T12:35:39.050Z"
     },
     {
       "id": "c0a5c7a3-3f22-42c5-bcfd-be514500f5c2",
-      "slug": "argvnyt-akrylyt-mchvlkt-mksh-dgm-roni-5uszlr",
+      "slug": "argvnyt-akrylyt-mchvlkt-mksh-dgm-roni-byn7vj",
       "name": "ארגונית אקרילית מחולקת + מכסה דגם \"RONI\"",
       "name_translations": {},
       "description": "",
@@ -42,14 +42,16 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613290312-hcs4el.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mksh-dgm-roni-5uszlr",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mksh-dgm-roni-byn7vj",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:55.179Z"
+      "updated_at": "2026-06-16T12:35:16.143Z"
     },
     {
       "id": "4ecbccde-916d-420f-971f-e8589b8d87f1",
