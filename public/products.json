@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:40:32.525Z",
+  "generated_at": "2026-06-16T12:41:16.309Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -127,7 +127,7 @@
     },
     {
       "id": "d8325d5e-277b-4547-b14e-2ef7d76f4165",
-      "slug": "argvnyt-akrylyt-dgm-stav-nus3a5",
+      "slug": "argvnyt-akrylyt-dgm-stav-8vde4x",
       "name": "ארגונית אקרילית דגם \"STAV\"",
       "name_translations": {},
       "description": "",
@@ -138,14 +138,16 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613611307-jixwlc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-stav-nus3a5",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-stav-8vde4x",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:53.946Z"
+      "updated_at": "2026-06-16T12:40:44.199Z"
     },
     {
       "id": "b0e9c116-fe1f-49d2-994c-6ac3ec61cdcb",
