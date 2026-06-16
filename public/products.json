@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T07:54:25.501Z",
+  "generated_at": "2026-06-16T07:55:12.710Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 442,
@@ -10301,15 +10301,15 @@
     },
     {
       "id": "432eb862-1dbd-4b03-afbc-ed8a997cbf62",
-      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-tturqa",
+      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-3qqapj",
       "name": "סיר יציקת אלומיניום 20 ס\"מ צבע מוקה \r\nסדרת LUSSO\r\n\r\n ",
       "name_translations": {},
       "description": "",
       "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n20 ס\"מ | 2.3 ליטר\r\nסדרת LUSSO",
       "sku": "7290121564779",
       "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
+      "price": 100,
+      "base_price": 100,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -10317,11 +10317,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-tturqa",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-3qqapj",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-15T08:05:35.535Z"
+      "updated_at": "2026-06-16T07:54:40.808Z"
     },
     {
       "id": "ef03c3f1-9f52-4c57-a5e8-d22c0cb535fd",
