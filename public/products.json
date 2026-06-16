@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T07:51:13.428Z",
+  "generated_at": "2026-06-16T07:51:36.815Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 442,
@@ -4618,15 +4618,15 @@
     },
     {
       "id": "5b5f514f-15f4-4dd4-bcb4-8b38bd49b468",
-      "slug": "syr-28-sm-67-lytr-3qug2z",
+      "slug": "syr-28-sm-67-lytr-n3rztw",
       "name": "סיר 28 ס\"מ – 6.7 ליטר",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
       "sku": null,
       "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
+      "price": 129.9,
+      "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -4634,11 +4634,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-28-sm-67-lytr-3qug2z",
+      "url": "https://streetstock.co.il/product/syr-28-sm-67-lytr-n3rztw",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-15T08:36:13.998Z"
+      "updated_at": "2026-06-16T07:51:17.100Z"
     },
     {
       "id": "58302929-a322-4d08-985a-5e5e40f0ceb6",
