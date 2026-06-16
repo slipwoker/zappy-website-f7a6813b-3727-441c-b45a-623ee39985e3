@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 09:56:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 09:56:50 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -4736,11 +4736,42 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>e638e356-ac87-44c4-8e73-5bd1958a6f09</g:id>
+      <g:id>e638e356-ac87-44c4-8e73-5bd1958a6f09__97d9c79c-a453-417f-a688-f70279d382f8</g:id>
       <g:title>תרווד סיליקון SILIX
-</g:title>
+ - Ivory</g:title>
       <g:description>כלי בית</g:description>
       <g:link>https://streetstock.co.il/product/trvvd-sylykvn-silix-f9eiyh</g:link>
+      <g:item_group_id>e638e356-ac87-44c4-8e73-5bd1958a6f09</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837680998-5ojjzm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563406</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>e638e356-ac87-44c4-8e73-5bd1958a6f09__6904ab89-b7ef-4717-a18f-aa99a56baff4</g:id>
+      <g:title>תרווד סיליקון SILIX
+ - Beige</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/trvvd-sylykvn-silix-f9eiyh</g:link>
+      <g:item_group_id>e638e356-ac87-44c4-8e73-5bd1958a6f09</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837680998-5ojjzm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563406</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>e638e356-ac87-44c4-8e73-5bd1958a6f09__631f3ac3-227f-4e38-ba18-933f55a1d64c</g:id>
+      <g:title>תרווד סיליקון SILIX
+ - Black</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/trvvd-sylykvn-silix-f9eiyh</g:link>
+      <g:item_group_id>e638e356-ac87-44c4-8e73-5bd1958a6f09</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837680998-5ojjzm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>11.90 ILS</g:price>
