@@ -68,13 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 443** (showing first 200; full catalog at https://streetstock.co.il/products.json)
-
-### ארגונית אקרילית דגם "SHOPIA" 
-https://streetstock.co.il/product/argvnyt-akrylyt-dgm-shopia-99khrx
-- Price: 14.90 ILS
-- Availability: In stock
-- Category: ארגוניות אקריל
+**Total active products: 442** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
@@ -1654,6 +1648,15 @@ https://streetstock.co.il/product/mchbt-nyrvsth-24-sm-1tuzpn
 - Category: סירים ומחבתות
 - Description: סדרת גולד מיוצרת מנירוסטה איכותית בשיטת PRESS מורכבת מ3 שכבות המעניקות פיזור חום אחיד ובישול איכותי. הסירים מצופים ציפוי פנימי NON STICK המעניק חווית בישול איכותית ובריאה.
 - Image: https://streetstock.co.il/assets/product-1781512701051-wv4ah5.webp
+
+### מתלה כביסה טלסקופי דגם DANNY צבע לבן
+https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-anph2k
+- Price: 149.90 ILS
+- Availability: In stock
+- Category: מתקני כביסה
+- SKU: 7290121560405
+- Description: מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר. המתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים. העיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר. מתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד. פתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.
+- Image: https://streetstock.co.il/assets/product-1781512824442-5yfb.webp
 
 ---
 

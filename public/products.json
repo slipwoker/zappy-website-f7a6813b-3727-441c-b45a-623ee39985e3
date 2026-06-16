@@ -1,32 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:30:25.583Z",
+  "generated_at": "2026-06-16T12:30:55.410Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 443,
+  "count": 442,
   "products": [
-    {
-      "id": "1654b82d-a8c8-4ab7-ae57-7a8a4e41c046",
-      "slug": "argvnyt-akrylyt-dgm-shopia-99khrx",
-      "name": "ארגונית אקרילית דגם \"SHOPIA\" ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 14.9,
-      "base_price": 14.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-shopia-99khrx",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-06-16T12:24:17.075Z"
-    },
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
       "slug": "vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb",
