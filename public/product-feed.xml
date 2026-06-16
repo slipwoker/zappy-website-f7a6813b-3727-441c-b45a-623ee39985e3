@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 10:11:02 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 10:12:55 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -3809,10 +3809,10 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>2b8ed829-86af-41f5-b5ff-3e5c0d2d203f</g:id>
+      <g:id>2b8ed829-86af-41f5-b5ff-3e5c0d2d203f__9786f6a4-75ad-4a5c-b610-e25bd3977e67</g:id>
       <g:title>מראה עגולה מסגרת אלומיניום שחור
  40 ס&quot;מ 
- </g:title>
+  - Black</g:title>
       <g:description>מראות ומסגרות תמונה</g:description>
       <g:link>https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-40-sm-kkc7zu</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837700683-rtv25y.webp</g:image_link>
@@ -3850,10 +3850,10 @@
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>cb4a764b-dfc2-4526-b8e9-8058b25e74d4</g:id>
+      <g:id>cb4a764b-dfc2-4526-b8e9-8058b25e74d4__8c58ee77-6ecf-4d5e-8df1-6a050b5f90c3</g:id>
       <g:title>מראה עגולה מסגרת אלומיניום שחור
  60 ס&quot;מ
- </g:title>
+  - Black</g:title>
       <g:description>מראות ומסגרות תמונה</g:description>
       <g:link>https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-60-sm-uz3hit</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837700655-1bhaki.webp</g:image_link>
@@ -5856,11 +5856,12 @@
       <g:product_type>מעמדים דקורטיבים </g:product_type>
     </item>
     <item>
-      <g:id>84e8f139-f570-444d-ac3f-1b7221cd4b66</g:id>
+      <g:id>84e8f139-f570-444d-ac3f-1b7221cd4b66__6d7bf8c6-f166-4b25-b064-7bbef5b0fc51</g:id>
       <g:title>מסגרת תמונה 10X15 ס&quot;מ
-</g:title>
+ - Black</g:title>
       <g:description></g:description>
       <g:link>https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-bh5lom</g:link>
+      <g:item_group_id>84e8f139-f570-444d-ac3f-1b7221cd4b66</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837659380-it25vc.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>9.90 ILS</g:price>
@@ -5870,11 +5871,27 @@
       <g:product_type>מראות ומסגרות</g:product_type>
     </item>
     <item>
-      <g:id>a4f30b2f-d748-4a2f-aed3-6d5197a0fec5</g:id>
+      <g:id>84e8f139-f570-444d-ac3f-1b7221cd4b66__ca72bb4c-ecd5-43bb-895b-c483f1f4b85f</g:id>
+      <g:title>מסגרת תמונה 10X15 ס&quot;מ
+ - White</g:title>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-bh5lom</g:link>
+      <g:item_group_id>84e8f139-f570-444d-ac3f-1b7221cd4b66</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659380-it25vc.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561327</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>a4f30b2f-d748-4a2f-aed3-6d5197a0fec5__f2021803-0096-4ef7-9792-bc1ccbdcc9db</g:id>
       <g:title>מסגרת תמונה 13X18 ס&quot;מ
-</g:title>
+ - Black</g:title>
       <g:description></g:description>
       <g:link>https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r</g:link>
+      <g:item_group_id>a4f30b2f-d748-4a2f-aed3-6d5197a0fec5</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837659088-8oocj5.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>12.90 ILS</g:price>
@@ -5884,11 +5901,42 @@
       <g:product_type>מראות ומסגרות</g:product_type>
     </item>
     <item>
-      <g:id>20300e3a-d7a8-4b49-816b-2c07cf6531a4</g:id>
+      <g:id>a4f30b2f-d748-4a2f-aed3-6d5197a0fec5__d2a28d00-de9c-47e0-8643-70bbdb676323</g:id>
+      <g:title>מסגרת תמונה 13X18 ס&quot;מ
+ - White</g:title>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r</g:link>
+      <g:item_group_id>a4f30b2f-d748-4a2f-aed3-6d5197a0fec5</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659088-8oocj5.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>12.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561310</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>20300e3a-d7a8-4b49-816b-2c07cf6531a4__89e783f8-68de-4153-bf45-3580349fc5c9</g:id>
       <g:title>מסגרת תמונה A4
-</g:title>
+ - Black</g:title>
       <g:description></g:description>
       <g:link>https://streetstock.co.il/product/msgrt-tmvnh-a4-9b3c43</g:link>
+      <g:item_group_id>20300e3a-d7a8-4b49-816b-2c07cf6531a4</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837659028-ltuhal.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561303</g:mpn>
+      <g:product_type>מראות ומסגרות</g:product_type>
+    </item>
+    <item>
+      <g:id>20300e3a-d7a8-4b49-816b-2c07cf6531a4__5bd7189d-6c8c-40f0-9a85-452533abe5c4</g:id>
+      <g:title>מסגרת תמונה A4
+ - White</g:title>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/msgrt-tmvnh-a4-9b3c43</g:link>
+      <g:item_group_id>20300e3a-d7a8-4b49-816b-2c07cf6531a4</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837659028-ltuhal.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
@@ -5958,11 +6006,26 @@
       <g:product_type>מראות ומסגרות</g:product_type>
     </item>
     <item>
-      <g:id>77422bb9-11c5-40ef-8698-1e78c064f336</g:id>
+      <g:id>77422bb9-11c5-40ef-8698-1e78c064f336__1f3e59dd-467f-4772-b9e3-170f9c56f01f</g:id>
       <g:title>מסגרת תמונה A3
-</g:title>
+ - Black</g:title>
       <g:description></g:description>
       <g:link>https://streetstock.co.il/product/msgrt-tmvnh-a3-lscrvf</g:link>
+      <g:item_group_id>77422bb9-11c5-40ef-8698-1e78c064f336</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837658969-n32q3.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>24.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121565066</g:mpn>
+    </item>
+    <item>
+      <g:id>77422bb9-11c5-40ef-8698-1e78c064f336__ec6db092-48f3-4bb1-96a5-85608fc408ef</g:id>
+      <g:title>מסגרת תמונה A3
+ - White</g:title>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/msgrt-tmvnh-a3-lscrvf</g:link>
+      <g:item_group_id>77422bb9-11c5-40ef-8698-1e78c064f336</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837658969-n32q3.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>24.90 ILS</g:price>
