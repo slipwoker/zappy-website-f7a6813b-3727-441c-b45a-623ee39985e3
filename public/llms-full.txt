@@ -8207,8 +8207,8 @@ Availability: In stock
 ---
 
 ### סיר 20 ס"מ – 2.6 ליטר
-URL: https://streetstock.co.il/product/syr-20-sm-26-lytr-9t37hi
-Price: 79.90 ILS
+URL: https://streetstock.co.il/product/syr-20-sm-26-lytr-7rjnik
+Price: 99.90 ILS
 Availability: In stock
 
 ---
@@ -8228,8 +8228,8 @@ Availability: In stock
 ---
 
 ### סיר 24 ס"מ – 4.3 ליטר
-URL: https://streetstock.co.il/product/syr-24-sm-43-lytr-wl8pjp
-Price: 99.90 ILS
+URL: https://streetstock.co.il/product/syr-24-sm-43-lytr-d4t2qt
+Price: 119.90 ILS
 Availability: In stock
 
 ---
