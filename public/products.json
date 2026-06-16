@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:52:12.384Z",
+  "generated_at": "2026-06-16T12:52:48.128Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -475,7 +475,7 @@
     },
     {
       "id": "13774512-7c86-4dd0-8fa4-7c52485b510c",
-      "slug": "argvnyt-akrylyt-dgm-tali-b8p058",
+      "slug": "argvnyt-akrylyt-dgm-tali-pe9dmb",
       "name": "ארגונית אקרילית דגם \"TALI\"",
       "name_translations": {},
       "description": "",
@@ -486,14 +486,16 @@
       "base_price": 7.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781614321480-01wlq6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tali-b8p058",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tali-pe9dmb",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:52.569Z"
+      "updated_at": "2026-06-16T12:52:16.109Z"
     },
     {
       "id": "578144bc-ebef-46ae-9744-24b86765c8e5",
