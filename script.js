@@ -2000,6 +2000,8 @@ window.onload = function() {
 ;
 
 ;
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -2577,6 +2579,19 @@ function stripHtmlToText(html) {
     localStorage.setItem('zappy_cart_' + websiteId, JSON.stringify(cart));
     updateCartCount();
     renderCartDrawer(); // Keep drawer in sync
+    // Keep the checkout order summary in sync with ANY cart mutation (remove /
+    // qty change / add) that happens while the shopper is on the checkout page —
+    // e.g. opening the cart drawer from checkout and removing an item. Without
+    // this, updateOrderTotals only re-ran on an unrelated trigger (shipping
+    // reselect, autosave, re-navigation), so the checkout kept showing the
+    // removed item until then — the intermittent "stale checkout" race.
+    // updateOrderTotals is a hoisted function declaration and never calls
+    // saveCart, so there is no recursion. The id guard skips the work on every
+    // non-checkout page.
+    if (typeof updateOrderTotals === 'function' &&
+        (document.getElementById('order-items') || document.getElementById('subtotal'))) {
+      try { updateOrderTotals(); } catch (e) {}
+    }
   }
   
   function updateCartCount() {
@@ -3416,7 +3431,7 @@ function stripHtmlToText(html) {
         favBtnHtml: favBtnHtml,
         productHref: productHref,
         priceHtml: priceHtml,
-        shortDesc: stripHtmlToText(p.description || ''),
+        shortDesc: stripHtmlToText(p.short_description || ''),
         isCatalogMode: isCatalogMode,
         localizedViewDetails: localizedViewDetails
       });
@@ -3889,7 +3904,19 @@ function stripHtmlToText(html) {
       return;
     }
     var step = parseFloat(p.quantity_step || p.quantityStep) || 1;
-    if (!cv) { addToCart(Object.assign({}, p, { quantity: step })); return; }
+    if (!cv) {
+      // card_variants is only attached by GET /storefront/products; cards from
+      // curated collections / related grids may ship without it. Never blind-add a
+      // variant product — route to Quick View so the shopper picks a variant.
+      var hasVariants = (parseInt(p.variant_count || 0, 10) > 0)
+        || (Array.isArray(p.variants) && p.variants.length > 0);
+      if (hasVariants) {
+        if (typeof window.zappyOpenQuickView === 'function') window.zappyOpenQuickView(p.slug || p.id, sel);
+        return;
+      }
+      addToCart(Object.assign({}, p, { quantity: step }));
+      return;
+    }
     var cardKeys = [];
     if (cv.colorKey) cardKeys.push(cv.colorKey);
     if (cv.sizeKey) cardKeys.push(cv.sizeKey);
@@ -6081,7 +6108,18 @@ function stripHtmlToText(html) {
       } else if (d.type === 'fixed' && eligibleSubtotal > 0) {
         seasonalDiscount += Math.min(parseFloat(d.value), eligibleSubtotal);
       } else if (d.type === 'free_shipping') {
-        seasonalFreeShipping = true;
+        // Merchant opt-in: when display_config.freeShippingRequiresAllEligible is
+        // set, free shipping applies only if EVERY cart item is a selected product.
+        var requireAllEligible = d.display_config && d.display_config.freeShippingRequiresAllEligible === true;
+        if (requireAllEligible && !appliesToAll) {
+          var allEligible = cart.length > 0;
+          for (var k = 0; k < cart.length; k++) {
+            if (ids.indexOf(cart[k].id) === -1) { allEligible = false; break; }
+          }
+          if (allEligible) seasonalFreeShipping = true;
+        } else {
+          seasonalFreeShipping = true;
+        }
       }
     }
   }
@@ -6337,6 +6375,11 @@ function stripHtmlToText(html) {
     const subtotal = getCartSubtotal();
     let shippingCost = getShippingCost();
     var coursesOnlyCheckout = isCartCoursesOnly();
+    // The shipping price the customer would pay if no free-shipping benefit
+    // (coupon, seasonal discount, first-order, or free-above-threshold) applied.
+    // Used to show the original price struck-through next to "FREE" so the
+    // shopper understands a discount zeroed their shipping.
+    var baseShippingPrice = (!coursesOnlyCheckout && selectedShipping) ? (parseFloat(selectedShipping.price) || 0) : 0;
     var shippingRow = document.getElementById('shipping-row');
     if (shippingRow) shippingRow.style.display = coursesOnlyCheckout ? 'none' : '';
     
@@ -6375,7 +6418,16 @@ function stripHtmlToText(html) {
     
     if (subtotalEl) subtotalEl.textContent = formatMoney(subtotal);
     if (vatAmountEl) vatAmountEl.textContent = formatMoney(vatAmount);
-    if (shippingCostEl) shippingCostEl.textContent = shippingCost === 0 ? getEcomText('free', t.free || 'FREE') : formatMoney(shippingCost);
+    if (shippingCostEl) {
+      var freeShipLabel = getEcomText('free', t.free || 'FREE');
+      if (shippingCost === 0 && baseShippingPrice > 0) {
+        // Free shipping was granted (coupon/seasonal/first-order/threshold):
+        // show the original price struck-through so the saving is visible.
+        shippingCostEl.innerHTML = '<span class="shipping-original-price" style="text-decoration:line-through;opacity:0.55;font-weight:400;font-size:0.85em;margin-inline-end:6px;">' + formatMoney(baseShippingPrice) + '</span>' + freeShipLabel;
+      } else {
+        shippingCostEl.textContent = shippingCost === 0 ? freeShipLabel : formatMoney(shippingCost);
+      }
+    }
     
     // Show/hide discount row (coupon + seasonal combined)
     if (discountRow && discountEl) {
@@ -9554,7 +9606,7 @@ function renderProductGrid(grid, products, t, isFeaturedSection, viewMode) {
       favBtnHtml: favBtnHtml,
       productHref: productHref,
       priceHtml: priceHtml,
-      shortDesc: stripHtmlToText(p.description || ''),
+      shortDesc: stripHtmlToText(p.short_description || ''),
       isCatalogMode: isCatalogMode,
       localizedViewDetails: localizedViewDetails
     });
