@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 08:10:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:15:17 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -1363,10 +1363,11 @@
       <g:product_type>שמיכות פוך </g:product_type>
     </item>
     <item>
-      <g:id>040b04f4-60aa-44b2-b033-718ed215e4a4</g:id>
-      <g:title>סט מצעים כותנה הום סטייל דגם נבדה טורקיז</g:title>
+      <g:id>040b04f4-60aa-44b2-b033-718ed215e4a4__dd28959c-7263-4c20-84ab-317ad7c560b2</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה טורקיז - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gzql</g:link>
+      <g:item_group_id>040b04f4-60aa-44b2-b033-718ed215e4a4</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837750889-b16g7s.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>149.90 ILS</g:price>
@@ -1376,8 +1377,22 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>5b5482b5-93f1-41c6-8338-2abfe253f1a2__766327cd-e926-4654-8dd4-2464f96b17b5</g:id>
-      <g:title>סט מצעים כותנה הום סטייל דגם נבדה ברק - זוגי 1.60</g:title>
+      <g:id>040b04f4-60aa-44b2-b033-718ed215e4a4__f648c396-6799-459c-b5ab-5fdf6b4d1f6a</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה טורקיז - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gzql</g:link>
+      <g:item_group_id>040b04f4-60aa-44b2-b033-718ed215e4a4</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837750889-b16g7s.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>5b5482b5-93f1-41c6-8338-2abfe253f1a2__34da4a71-056c-43ad-b306-5d4a1f17b372</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה ברק - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-m91wls</g:link>
       <g:item_group_id>5b5482b5-93f1-41c6-8338-2abfe253f1a2</g:item_group_id>
@@ -1390,8 +1405,8 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>5b5482b5-93f1-41c6-8338-2abfe253f1a2__7effef1d-ef7f-43f7-9a09-61a939762ac5</g:id>
-      <g:title>סט מצעים כותנה הום סטייל דגם נבדה ברק - זוגי 1.80 קינג</g:title>
+      <g:id>5b5482b5-93f1-41c6-8338-2abfe253f1a2__5aad050d-6f70-477f-9347-2eeaa167e3f2</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה ברק - זוגי 180X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-m91wls</g:link>
       <g:item_group_id>5b5482b5-93f1-41c6-8338-2abfe253f1a2</g:item_group_id>
@@ -1404,10 +1419,11 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>3ca2f1b1-1227-4393-a45d-768965b082b6</g:id>
-      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע אבן</g:title>
+      <g:id>3ca2f1b1-1227-4393-a45d-768965b082b6__2cec972e-4610-4cc3-8118-b3ad76efb278</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע אבן - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-nef8qi</g:link>
+      <g:item_group_id>3ca2f1b1-1227-4393-a45d-768965b082b6</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837748386-mav9ri.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
@@ -1417,10 +1433,25 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>2faff163-9ffb-40d7-9f32-a37e580c4557</g:id>
-      <g:title>סט מצעים כותנה הום סטייל דגם נבדה כחול</g:title>
+      <g:id>3ca2f1b1-1227-4393-a45d-768965b082b6__08c860d5-dd6e-4283-986e-92ca1acbd95a</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע אבן - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-nef8qi</g:link>
+      <g:item_group_id>3ca2f1b1-1227-4393-a45d-768965b082b6</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837748386-mav9ri.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>2faff163-9ffb-40d7-9f32-a37e580c4557__71ce8652-4825-407d-82d2-3e1a87bb7df8</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה כחול - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-6t8b7v</g:link>
+      <g:item_group_id>2faff163-9ffb-40d7-9f32-a37e580c4557</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837748386-z09cgm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>149.90 ILS</g:price>
@@ -1430,10 +1461,25 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>e1793fe9-afa7-421a-a70b-c3aae524398f</g:id>
-      <g:title>סט מצעים כותנה פרקל דגם קוסמוי צבע לבן+בז&apos;</g:title>
+      <g:id>2faff163-9ffb-40d7-9f32-a37e580c4557__bd6c6de3-7b44-43b2-86c4-b9a515f4be42</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה כחול - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-6t8b7v</g:link>
+      <g:item_group_id>2faff163-9ffb-40d7-9f32-a37e580c4557</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837748386-z09cgm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>e1793fe9-afa7-421a-a70b-c3aae524398f__714397e1-81ec-411b-bb56-e412de90b9c2</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם קוסמוי צבע לבן+בז&apos; - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-4j30dt</g:link>
+      <g:item_group_id>e1793fe9-afa7-421a-a70b-c3aae524398f</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837748386-oawkwv.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
@@ -1443,10 +1489,25 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>ac1e8759-3718-4c62-9581-906d0204c510</g:id>
-      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע אפור</g:title>
+      <g:id>e1793fe9-afa7-421a-a70b-c3aae524398f__44d90a15-556c-4c88-b590-d246e279bf8a</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם קוסמוי צבע לבן+בז&apos; - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-4j30dt</g:link>
+      <g:item_group_id>e1793fe9-afa7-421a-a70b-c3aae524398f</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837748386-oawkwv.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>ac1e8759-3718-4c62-9581-906d0204c510__123329e6-3356-44ab-8848-a88c53decd95</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע אפור - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-0vewrz</g:link>
+      <g:item_group_id>ac1e8759-3718-4c62-9581-906d0204c510</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837748386-kza17.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
@@ -1456,10 +1517,25 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>3f18f066-b4cf-4a84-8cf7-a56602a72600</g:id>
-      <g:title>סט מצעים כותנה פרקל דגם פקאן צבע לבן</g:title>
+      <g:id>ac1e8759-3718-4c62-9581-906d0204c510__0ffd4b30-649d-4811-b095-49ea3eaac303</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע אפור - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-0vewrz</g:link>
+      <g:item_group_id>ac1e8759-3718-4c62-9581-906d0204c510</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837748386-kza17.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>3f18f066-b4cf-4a84-8cf7-a56602a72600__2892b7a9-5c88-4a90-ab9b-bfcfaf340590</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם פקאן צבע לבן - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-pojqys</g:link>
+      <g:item_group_id>3f18f066-b4cf-4a84-8cf7-a56602a72600</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837748066-7674be.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
@@ -1469,10 +1545,25 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>d7ebcc42-f919-4d47-a9c5-28afa80fcc97</g:id>
-      <g:title>סט מצעים כותנה פרקל דגם קוסמוי צבע לבן</g:title>
+      <g:id>3f18f066-b4cf-4a84-8cf7-a56602a72600__e1074a86-06f4-48dc-95d3-7dfb910df355</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם פקאן צבע לבן - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-pojqys</g:link>
+      <g:item_group_id>3f18f066-b4cf-4a84-8cf7-a56602a72600</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837748066-7674be.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>d7ebcc42-f919-4d47-a9c5-28afa80fcc97__af78f991-82f0-4e93-b7d6-47112b694ba8</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם קוסמוי צבע לבן - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-z7r5l3</g:link>
+      <g:item_group_id>d7ebcc42-f919-4d47-a9c5-28afa80fcc97</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837747978-kmd9lo.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
@@ -1482,10 +1573,39 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>56d878d8-e449-4f6f-8e5b-ced4274cd4ad</g:id>
-      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע לבן</g:title>
+      <g:id>d7ebcc42-f919-4d47-a9c5-28afa80fcc97__a1f809d8-9649-455e-a31c-0f39f9c42106</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם קוסמוי צבע לבן - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-z7r5l3</g:link>
+      <g:item_group_id>d7ebcc42-f919-4d47-a9c5-28afa80fcc97</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837747978-kmd9lo.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>56d878d8-e449-4f6f-8e5b-ced4274cd4ad__95acec89-0b1e-4738-80e1-5d26d78306f9</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע לבן - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-ulnqlx</g:link>
+      <g:item_group_id>56d878d8-e449-4f6f-8e5b-ced4274cd4ad</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837747978-bt7pf8.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>249.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>56d878d8-e449-4f6f-8e5b-ced4274cd4ad__614a827f-beec-4da9-b322-00e319fe4e7e</g:id>
+      <g:title>סט מצעים כותנה פרקל דגם עמנואל צבע לבן - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-ulnqlx</g:link>
+      <g:item_group_id>56d878d8-e449-4f6f-8e5b-ced4274cd4ad</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837747978-bt7pf8.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
