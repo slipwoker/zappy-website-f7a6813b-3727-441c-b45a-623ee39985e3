@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T11:48:09.512Z",
+  "generated_at": "2026-06-16T11:53:34.807Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 442,
@@ -9535,15 +9535,15 @@
     },
     {
       "id": "5f35269a-5704-4c01-91f3-c0390fe83fbf",
-      "slug": "mykl-achsvn-pkk-mzygh-1800-ml-aq3nv1",
+      "slug": "mykl-achsvn-pkk-mzygh-1800-ml-ttoz6q",
       "name": "מיכל אחסון + פקק מזיגה 1800 מ\"ל\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560795",
       "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
+      "price": 24.9,
+      "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9551,11 +9551,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1800-ml-aq3nv1",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1800-ml-ttoz6q",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-15T08:24:10.912Z"
+      "updated_at": "2026-06-16T11:53:03.043Z"
     },
     {
       "id": "df7e2d89-6e8c-4048-b19a-849178ead91a",
