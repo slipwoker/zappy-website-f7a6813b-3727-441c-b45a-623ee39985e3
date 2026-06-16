@@ -1,30 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:05:50.172Z",
+  "generated_at": "2026-06-16T12:08:28.578Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 443,
+  "count": 442,
   "products": [
-    {
-      "id": "10b08c44-180b-4a62-b274-5bada34fe0b2",
-      "slug": "tst-shl-zapy-pi52ya",
-      "name": "טסט של זאפי",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 1,
-      "base_price": 99,
-      "sale_price": 1,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tst-shl-zapy-pi52ya",
-      "categories": [],
-      "updated_at": "2026-06-16T12:04:00.356Z"
-    },
     {
       "id": "586233a7-3885-4141-9d04-66dec08721ff",
       "slug": "vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb",
