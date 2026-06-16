@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:57:39.317Z",
+  "generated_at": "2026-06-16T13:01:15.393Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -343,7 +343,7 @@
     },
     {
       "id": "bf78e523-eeca-4889-8e98-eed21894e796",
-      "slug": "argvnyt-akrylyt-dgm-anat-zsoztj",
+      "slug": "argvnyt-akrylyt-dgm-anat-zzujpi",
       "name": "ארגונית אקרילית דגם \"ANAT\"",
       "name_translations": {},
       "description": "",
@@ -354,14 +354,16 @@
       "base_price": 6.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781614822869-q2xxhb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-anat-zsoztj",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-anat-zzujpi",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:51:40.859Z"
+      "updated_at": "2026-06-16T13:00:42.599Z"
     },
     {
       "id": "b23d7052-0596-4858-8ce2-82979633f86f",
