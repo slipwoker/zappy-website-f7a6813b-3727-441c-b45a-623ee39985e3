@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:49:48.691Z",
+  "generated_at": "2026-06-16T12:50:31.542Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -285,8 +285,8 @@
     },
     {
       "id": "dc696a53-8778-4dbb-a8db-7778e20e7ce2",
-      "slug": "argvnyt-mgyrh-dgm-carmel-mydh-l-12wl66",
-      "name": "ארגונית מגירה דגם \"CARMEL\" מידה L",
+      "slug": "st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-bw6e0g",
+      "name": "סט 3 ארגוניות מגירה דגם \"CARMEL\" מידה L",
       "name_translations": {},
       "description": "",
       "short_description": "ארגונית מגירה אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.",
@@ -296,14 +296,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781614175177-yo72.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-dgm-carmel-mydh-l-12wl66",
+      "url": "https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-bw6e0g",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:53.362Z"
+      "updated_at": "2026-06-16T12:49:59.885Z"
     },
     {
       "id": "79b6238f-75d3-46e2-9945-6d84db32773e",
