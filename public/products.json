@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:54:01.122Z",
+  "generated_at": "2026-06-16T12:54:36.711Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -197,7 +197,7 @@
     },
     {
       "id": "a4386efb-eadb-4d22-b44e-558c3914be40",
-      "slug": "argvnyt-akrylyt-dgm-gil-26sxu3",
+      "slug": "argvnyt-akrylyt-dgm-gil-9p692o",
       "name": "ארגונית אקרילית דגם \"GIL\"",
       "name_translations": {},
       "description": "",
@@ -211,11 +211,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gil-26sxu3",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gil-9p692o",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:53.945Z"
+      "updated_at": "2026-06-16T12:54:04.523Z"
     },
     {
       "id": "9da7f8d5-e91d-40da-85cd-d395f2de141f",
