@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:47:18.559Z",
+  "generated_at": "2026-06-16T12:48:44.950Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -445,7 +445,7 @@
     },
     {
       "id": "f801ba3b-9eeb-4d45-b417-8f10ec1cebca",
-      "slug": "argvnyt-akrylyt-dgm-elias-jheiql",
+      "slug": "argvnyt-akrylyt-dgm-elias-4smbvk",
       "name": "ארגונית אקרילית דגם \"ELIAS\" ",
       "name_translations": {},
       "description": "",
@@ -456,14 +456,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781614063060-qic3op.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-elias-jheiql",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-elias-4smbvk",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:52.574Z"
+      "updated_at": "2026-06-16T12:48:12.107Z"
     },
     {
       "id": "13774512-7c86-4dd0-8fa4-7c52485b510c",
