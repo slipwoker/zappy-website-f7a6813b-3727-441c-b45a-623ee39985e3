@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:53:27.452Z",
+  "generated_at": "2026-06-16T12:54:01.122Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -241,7 +241,7 @@
     },
     {
       "id": "8bdfeed4-7488-4382-8529-a18491fc57ec",
-      "slug": "argvnyt-akrylyt-dgm-gal-ielud1",
+      "slug": "argvnyt-akrylyt-dgm-gal-z9act6",
       "name": "ארגונית אקרילית דגם \"GAL\"",
       "name_translations": {},
       "description": "",
@@ -253,15 +253,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1781614361006-l4hl7m.webp"
+        "https://streetstock.co.il/assets/product-1781614394205-6ntsvd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-ielud1",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-z9act6",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:52:55.679Z"
+      "updated_at": "2026-06-16T12:53:29.308Z"
     },
     {
       "id": "8db7e56d-5ea5-463c-b3e2-86f88c093e03",
