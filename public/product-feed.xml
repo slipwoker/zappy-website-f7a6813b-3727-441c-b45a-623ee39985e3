@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 08:08:47 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 08:09:20 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -1241,10 +1241,25 @@
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>a71138f3-8b31-455a-8b8c-3f90e530f869</g:id>
-      <g:title>סט מצעים כותנה הום סטייל דגם נבדה אפור</g:title>
+      <g:id>a71138f3-8b31-455a-8b8c-3f90e530f869__1d07effd-7b1d-4567-8b9b-68a35a20313f</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה אפור - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
       <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k</g:link>
+      <g:item_group_id>a71138f3-8b31-455a-8b8c-3f90e530f869</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837751201-uflzl.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>a71138f3-8b31-455a-8b8c-3f90e530f869__006c8d40-4a11-4935-b9ff-bb06d118a96b</g:id>
+      <g:title>סט מצעים כותנה הום סטייל דגם נבדה אפור - זוגי 180X200</g:title>
+      <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
+      <g:link>https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k</g:link>
+      <g:item_group_id>a71138f3-8b31-455a-8b8c-3f90e530f869</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837751201-uflzl.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>149.90 ILS</g:price>
