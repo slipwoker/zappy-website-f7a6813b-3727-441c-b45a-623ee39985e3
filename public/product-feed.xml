@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 09:56:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 09:56:42 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -4691,11 +4691,42 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4</g:id>
+      <g:id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4__d919929c-4157-44d8-82aa-5cc519996c27</g:id>
       <g:title>תרווד סיליקון CLEAX
-</g:title>
+ - Ivory</g:title>
       <g:description>כלי בית</g:description>
       <g:link>https://streetstock.co.il/product/trvvd-sylykvn-cleax-gbhkz7</g:link>
+      <g:item_group_id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837680679-tsw12c.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563475</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4__2613b112-990e-47c5-952b-fe4e5b6140e9</g:id>
+      <g:title>תרווד סיליקון CLEAX
+ - Beige</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/trvvd-sylykvn-cleax-gbhkz7</g:link>
+      <g:item_group_id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837680679-tsw12c.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563475</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4__4a5b232f-7c9a-4b04-8116-f7c59c60e5d0</g:id>
+      <g:title>תרווד סיליקון CLEAX
+ - Black</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/trvvd-sylykvn-cleax-gbhkz7</g:link>
+      <g:item_group_id>fdb28e75-2a1c-42ce-8366-7d6d6b8338f4</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837680679-tsw12c.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>9.90 ILS</g:price>
