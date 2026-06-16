@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T10:12:55.522Z",
+  "generated_at": "2026-06-16T10:14:26.417Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 442,
@@ -8508,7 +8508,7 @@
     },
     {
       "id": "c3a818b8-2fe2-4147-a75e-b3215cdfbca8",
-      "slug": "st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-gwrvdb",
+      "slug": "st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-cqltvr",
       "name": "סט פח+מברשת אסלה צבע קרם דגם NEVOA\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -8519,15 +8519,17 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781604822124-luwym.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-gwrvdb",
+      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-cqltvr",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-06-14T13:32:40.232Z"
+      "updated_at": "2026-06-16T10:13:54.706Z"
     },
     {
       "id": "3b4b565a-5ae5-4c78-b621-3b7a86638b5e",
