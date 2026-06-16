@@ -225,10 +225,11 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tali-b8p058
 - Description: ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.
 
 ### מיכל אחסון + פקק מזיגה 2300 מ"ל
-https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-2300-ml-6onjhk
+https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-2300-ml-mazbfc
 - Price: 29.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
+- Image: https://streetstock.co.il/assets/product-1781613670214-5aqvx.webp
 
 ### וילון זברה גלילה - שחור 120X160 ס"מ
 https://streetstock.co.il/product/vylvn-zbrh-glylh-shchvr-120x160-sm-141wxb
