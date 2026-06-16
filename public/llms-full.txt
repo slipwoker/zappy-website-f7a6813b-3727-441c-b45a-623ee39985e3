@@ -8207,8 +8207,8 @@ Availability: In stock
 ---
 
 ### סיר 20 ס"מ – 2.6 ליטר
-URL: https://streetstock.co.il/product/syr-20-sm-26-lytr-7rjnik
-Price: 99.90 ILS
+URL: https://streetstock.co.il/product/syr-20-sm-26-lytr-znrqiu
+Price: 100.00 ILS
 Availability: In stock
 
 ---
@@ -10558,8 +10558,8 @@ SKU: 7290121564052
 סדרת LUSSO
 
  
-URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-gjnprb
-Price: 99.90 ILS
+URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h
+Price: 100.00 ILS
 Availability: In stock
 SKU: 7290121564069
 

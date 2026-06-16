@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T07:51:48.986Z",
+  "generated_at": "2026-06-16T07:54:15.081Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 442,
@@ -4498,15 +4498,15 @@
     },
     {
       "id": "4f7f34c5-bb0f-4df3-a459-98727407245e",
-      "slug": "syr-20-sm-26-lytr-7rjnik",
+      "slug": "syr-20-sm-26-lytr-znrqiu",
       "name": "סיר 20 ס\"מ – 2.6 ליטר",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
       "sku": null,
       "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
+      "price": 100,
+      "base_price": 100,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -4514,11 +4514,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-20-sm-26-lytr-7rjnik",
+      "url": "https://streetstock.co.il/product/syr-20-sm-26-lytr-znrqiu",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-16T07:51:04.749Z"
+      "updated_at": "2026-06-16T07:53:42.816Z"
     },
     {
       "id": "b7f4ba32-c63a-4dfd-b6a5-ecc7205343a5",
@@ -10205,15 +10205,15 @@
     },
     {
       "id": "3dbd8b96-abb5-4eca-9d8e-03ada27011b7",
-      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-gjnprb",
+      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h",
       "name": "סיר יציקת אלומיניום 20 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
       "name_translations": {},
       "description": "",
       "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n20 ס\"מ | 2.3 ליטר\r\nסדרת LUSSO",
       "sku": "7290121564069",
       "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
+      "price": 100,
+      "base_price": 100,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -10221,11 +10221,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-gjnprb",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-15T08:05:35.485Z"
+      "updated_at": "2026-06-16T07:53:53.135Z"
     },
     {
       "id": "b5ba33a7-b626-4a99-8ce8-ce3d629da1fd",
