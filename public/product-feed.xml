@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 09:58:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 09:58:49 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -4604,11 +4604,42 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>7aae2338-3d80-4f7a-a60c-72e289025a18</g:id>
+      <g:id>7aae2338-3d80-4f7a-a60c-72e289025a18__5530b042-86f7-4890-a7b6-0ee1df351ec4</g:id>
       <g:title>מברשת סיליקון CLEAX
-</g:title>
+ - Ivory</g:title>
       <g:description>כלי בית</g:description>
       <g:link>https://streetstock.co.il/product/mbrsht-sylykvn-cleax-73m23r</g:link>
+      <g:item_group_id>7aae2338-3d80-4f7a-a60c-72e289025a18</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837681376-pualxu.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563482</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>7aae2338-3d80-4f7a-a60c-72e289025a18__0fbd6ed3-617a-47e0-965e-452d357509eb</g:id>
+      <g:title>מברשת סיליקון CLEAX
+ - Beige</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/mbrsht-sylykvn-cleax-73m23r</g:link>
+      <g:item_group_id>7aae2338-3d80-4f7a-a60c-72e289025a18</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837681376-pualxu.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563482</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>7aae2338-3d80-4f7a-a60c-72e289025a18__d1d5525a-a96f-47d6-b2d1-a60b16539004</g:id>
+      <g:title>מברשת סיליקון CLEAX
+ - Black</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/mbrsht-sylykvn-cleax-73m23r</g:link>
+      <g:item_group_id>7aae2338-3d80-4f7a-a60c-72e289025a18</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837681376-pualxu.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>9.90 ILS</g:price>
