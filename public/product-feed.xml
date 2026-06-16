@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 10:02:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 10:06:38 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -4938,11 +4938,12 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c</g:id>
+      <g:id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c__47813afe-a514-42a9-8a46-eb22f7cec286</g:id>
       <g:title>כף מריחה סיליקון SILIX
-</g:title>
+ - Ivory</g:title>
       <g:description>כלי בית</g:description>
       <g:link>https://streetstock.co.il/product/kp-mrychh-sylykvn-silix-yrz4cd</g:link>
+      <g:item_group_id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1781514329510-3d8gdj.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>11.90 ILS</g:price>
@@ -4952,11 +4953,72 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>d689322e-e8c6-42b4-98cf-2c3127ca7447</g:id>
+      <g:id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c__57d3cf6a-12bb-4ffa-a0da-e4e88d647cc7</g:id>
+      <g:title>כף מריחה סיליקון SILIX
+ - Beige</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/kp-mrychh-sylykvn-silix-yrz4cd</g:link>
+      <g:item_group_id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781514329510-3d8gdj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563420</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c__c07f7ba3-fa43-4997-9039-7a30793849f4</g:id>
+      <g:title>כף מריחה סיליקון SILIX
+ - Black</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/kp-mrychh-sylykvn-silix-yrz4cd</g:link>
+      <g:item_group_id>3cc52fbd-c832-438c-8a97-1a28d1f96f7c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781514329510-3d8gdj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563420</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>d689322e-e8c6-42b4-98cf-2c3127ca7447__6b954455-836d-4166-bc32-b2d47dcfb8c5</g:id>
       <g:title>מברשת סיליקון SILIX
-</g:title>
+ - Ivory</g:title>
       <g:description>כלי בית</g:description>
       <g:link>https://streetstock.co.il/product/mbrsht-sylykvn-silix-ur830d</g:link>
+      <g:item_group_id>d689322e-e8c6-42b4-98cf-2c3127ca7447</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781514183956-szi51p.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563413</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>d689322e-e8c6-42b4-98cf-2c3127ca7447__82f13dfc-6deb-4462-b655-11e8482e5766</g:id>
+      <g:title>מברשת סיליקון SILIX
+ - Beige</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/mbrsht-sylykvn-silix-ur830d</g:link>
+      <g:item_group_id>d689322e-e8c6-42b4-98cf-2c3127ca7447</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1781514183956-szi51p.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>11.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563413</g:mpn>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>d689322e-e8c6-42b4-98cf-2c3127ca7447__8c1b57c7-081f-4eee-9d84-9e089ddc919e</g:id>
+      <g:title>מברשת סיליקון SILIX
+ - Black</g:title>
+      <g:description>כלי בית</g:description>
+      <g:link>https://streetstock.co.il/product/mbrsht-sylykvn-silix-ur830d</g:link>
+      <g:item_group_id>d689322e-e8c6-42b4-98cf-2c3127ca7447</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1781514183956-szi51p.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>11.90 ILS</g:price>
