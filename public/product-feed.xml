@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 16 Jun 2026 09:57:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 09:58:08 GMT</lastBuildDate>
     <item>
       <g:id>586233a7-3885-4141-9d04-66dec08721ff</g:id>
       <g:title>וילון זברה גלילה - שחור 120X160 ס&quot;מ</g:title>
@@ -4977,11 +4977,42 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>d13c3035-3416-4d70-8aa5-5c67c59cf3de</g:id>
+      <g:id>d13c3035-3416-4d70-8aa5-5c67c59cf3de__82b1b78c-e3b4-4b48-99cb-fc98ef3ec6ed</g:id>
       <g:title>עגלת שוק דגם OREGON
-</g:title>
+ - Brown</g:title>
       <g:description>כללי, עגלות שירות</g:description>
       <g:link>https://streetstock.co.il/product/aglt-shvk-dgm-oregon-775v3g</g:link>
+      <g:item_group_id>d13c3035-3416-4d70-8aa5-5c67c59cf3de</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837670482-93pfiz.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>129.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563031</g:mpn>
+      <g:product_type>עגלות שירות </g:product_type>
+    </item>
+    <item>
+      <g:id>d13c3035-3416-4d70-8aa5-5c67c59cf3de__4377161a-1e9f-408c-93d3-93e6bb2084f3</g:id>
+      <g:title>עגלת שוק דגם OREGON
+ - Black</g:title>
+      <g:description>כללי, עגלות שירות</g:description>
+      <g:link>https://streetstock.co.il/product/aglt-shvk-dgm-oregon-775v3g</g:link>
+      <g:item_group_id>d13c3035-3416-4d70-8aa5-5c67c59cf3de</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837670482-93pfiz.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>129.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121563031</g:mpn>
+      <g:product_type>עגלות שירות </g:product_type>
+    </item>
+    <item>
+      <g:id>d13c3035-3416-4d70-8aa5-5c67c59cf3de__e3d25bd3-5844-4ad7-b773-060d0183abdc</g:id>
+      <g:title>עגלת שוק דגם OREGON
+ - Blue</g:title>
+      <g:description>כללי, עגלות שירות</g:description>
+      <g:link>https://streetstock.co.il/product/aglt-shvk-dgm-oregon-775v3g</g:link>
+      <g:item_group_id>d13c3035-3416-4d70-8aa5-5c67c59cf3de</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837670482-93pfiz.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>129.90 ILS</g:price>
