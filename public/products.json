@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:39:17.615Z",
+  "generated_at": "2026-06-16T12:40:22.770Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -149,7 +149,7 @@
     },
     {
       "id": "b0e9c116-fe1f-49d2-994c-6ac3ec61cdcb",
-      "slug": "argvnyt-akrylyt-dgm-iris-6lej4n",
+      "slug": "argvnyt-akrylyt-dgm-iris-r0t2yv",
       "name": "ארגונית אקרילית דגם \"IRIS\"",
       "name_translations": {},
       "description": "",
@@ -160,14 +160,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613575279-n9ghoj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-iris-6lej4n",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-iris-r0t2yv",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:53.946Z"
+      "updated_at": "2026-06-16T12:40:00.070Z"
     },
     {
       "id": "5cfc5d1d-13c7-4986-967b-f3f429fc7ee2",
