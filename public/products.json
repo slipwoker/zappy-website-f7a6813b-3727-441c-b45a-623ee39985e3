@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:24:52.767Z",
+  "generated_at": "2026-06-16T12:26:10.395Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -381,8 +381,8 @@
     },
     {
       "id": "aa3a705b-ad1d-4589-858b-f6ea2b934b09",
-      "slug": "argvnyt-mgyrh-dgm-carmel-mydh-m-53bx25",
-      "name": "ארגונית מגירה דגם \"CARMEL\" מידה M",
+      "slug": "st-4-argvnyvt-mgyrh-dgm-carmel-mydh-m-9ckeau",
+      "name": "סט 4 ארגוניות מגירה דגם \"CARMEL\" מידה M",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -392,14 +392,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781612713194-b6rqhj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-dgm-carmel-mydh-m-53bx25",
+      "url": "https://streetstock.co.il/product/st-4-argvnyvt-mgyrh-dgm-carmel-mydh-m-9ckeau",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:24:17.108Z"
+      "updated_at": "2026-06-16T12:25:38.667Z"
     },
     {
       "id": "dd046ee1-2587-448a-885e-66b5f3141f23",
