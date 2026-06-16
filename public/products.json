@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-16T12:33:28.139Z",
+  "generated_at": "2026-06-16T12:35:10.214Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
   "products": [
     {
       "id": "89f19a72-a4bb-467d-b5a2-f4df0a5eb798",
-      "slug": "argvnyt-akrylyt-mchvlkt-mkshdgm-dor-yj85mh",
+      "slug": "argvnyt-akrylyt-mchvlkt-mkshdgm-dor-kdh7zk",
       "name": "ארגונית אקרילית מחולקת + מכסהדגם \"DOR\"",
       "name_translations": {},
       "description": "",
@@ -18,14 +18,16 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1781613233440-j85grh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-yj85mh",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-kdh7zk",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-06-16T12:32:55.234Z"
+      "updated_at": "2026-06-16T12:34:38.182Z"
     },
     {
       "id": "c0a5c7a3-3f22-42c5-bcfd-be514500f5c2",

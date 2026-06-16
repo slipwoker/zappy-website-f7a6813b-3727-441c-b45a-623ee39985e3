@@ -71,11 +71,12 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 464** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### ארגונית אקרילית מחולקת + מכסהדגם "DOR"
-https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-yj85mh
+https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-kdh7zk
 - Price: 49.90 ILS
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.
+- Image: https://streetstock.co.il/assets/product-1781613233440-j85grh.webp
 
 ### ארגונית אקרילית מחולקת + מכסה דגם "RONI"
 https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mksh-dgm-roni-5uszlr
