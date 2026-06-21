@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:07:56.707Z",
+  "generated_at": "2026-06-21T08:11:14.496Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -199,7 +199,7 @@
     },
     {
       "id": "d3ca47e3-f39c-4100-8f7d-041656fb8423",
-      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-lbn-ijqim9",
+      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-lbn-vqeteh",
       "name": "וילון אמבטיה דגם ג'אקרד צבע לבן",
       "name_translations": {},
       "description": "",
@@ -210,18 +210,20 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029284897-x7vaea.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-lbn-ijqim9",
+      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-lbn-vqeteh",
       "categories": [
         "וילונות אמבטיה"
       ],
-      "updated_at": "2026-06-21T08:04:18.242Z"
+      "updated_at": "2026-06-21T08:08:11.422Z"
     },
     {
       "id": "a0ca638b-1479-494c-b5ce-d21cfd222f16",
-      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-shmnt-xmedgl",
+      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-shmnt-4g4l8l",
       "name": "וילון אמבטיה דגם ג'אקרד צבע שמנת",
       "name_translations": {},
       "description": "",
@@ -232,18 +234,20 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029299845-0x1yz8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shmnt-xmedgl",
+      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shmnt-4g4l8l",
       "categories": [
         "וילונות אמבטיה"
       ],
-      "updated_at": "2026-06-21T08:04:18.169Z"
+      "updated_at": "2026-06-21T08:08:26.428Z"
     },
     {
       "id": "58b51256-47cd-4e0a-a1dd-ac31225aacfd",
-      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-apvr-peb7pt",
+      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-apvr-e7th99",
       "name": "וילון אמבטיה דגם ג'אקרד צבע אפור",
       "name_translations": {},
       "description": "",
@@ -254,18 +258,20 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029315429-xuqp0i.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-apvr-peb7pt",
+      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-apvr-e7th99",
       "categories": [
         "וילונות אמבטיה"
       ],
-      "updated_at": "2026-06-21T08:04:18.169Z"
+      "updated_at": "2026-06-21T08:08:42.122Z"
     },
     {
       "id": "723d6cea-7f0f-40dd-8ad9-9021c4edd04b",
-      "slug": "zvg-mgny-kryt-kvlktsyyt-premium-jcgrbt",
+      "slug": "zvg-mgny-kryt-kvlktsyyt-premium-l9ga1g",
       "name": "זוג מגני כרית קולקציית PREMIUM",
       "name_translations": {},
       "description": "",
@@ -276,18 +282,20 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029330293-1xcs9w.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mgny-kryt-kvlktsyyt-premium-jcgrbt",
+      "url": "https://streetstock.co.il/product/zvg-mgny-kryt-kvlktsyyt-premium-l9ga1g",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:04:17.939Z"
+      "updated_at": "2026-06-21T08:08:56.110Z"
     },
     {
       "id": "784e708c-9450-492f-b069-6144c90699d2",
-      "slug": "mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-l6x5s9",
+      "slug": "mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-vijfwn",
       "name": "מגן מזרן מיטה וחצי קוקלציית PREMIUM",
       "name_translations": {},
       "description": "",
@@ -298,18 +306,20 @@
       "base_price": 69.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029370566-a9hnf7.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-l6x5s9",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-vijfwn",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:04:16.571Z"
+      "updated_at": "2026-06-21T08:09:38.599Z"
     },
     {
       "id": "7c7246d7-b558-4fc7-89ed-cc80932d9348",
-      "slug": "shmykt-pvk-dgm-kvlrdv-zvgy-benz3s",
+      "slug": "shmykt-pvk-dgm-kvlrdv-zvgy-4wg3ue",
       "name": "שמיכת פוך דגם קולרדו זוגי",
       "name_translations": {},
       "description": "",
@@ -320,18 +330,20 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029394418-bdcotb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-kvlrdv-zvgy-benz3s",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-kvlrdv-zvgy-4wg3ue",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:04:16.449Z"
+      "updated_at": "2026-06-21T08:10:02.369Z"
     },
     {
       "id": "2cdcfc68-b7e2-4108-9fc0-b3b8a3ad7a86",
-      "slug": "mgn-mzrn-ychyd-kvkltsyt-premium-uc82sw",
+      "slug": "mgn-mzrn-ychyd-kvkltsyt-premium-77ukpo",
       "name": "מגן מזרן יחיד קוקלצית PREMIUM",
       "name_translations": {},
       "description": "",
@@ -342,18 +354,20 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029411188-pb95lk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-ychyd-kvkltsyt-premium-uc82sw",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-ychyd-kvkltsyt-premium-77ukpo",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:04:16.433Z"
+      "updated_at": "2026-06-21T08:10:17.843Z"
     },
     {
       "id": "02d6b6aa-51b1-4d7c-a722-8c2114a9b250",
-      "slug": "mgn-mzrn-zvgy-18-kvkltsyyt-premium-lx6lmy",
+      "slug": "mgn-mzrn-zvgy-18-kvkltsyyt-premium-dud28p",
       "name": "מגן מזרן זוגי 1.8 קוקלציית PREMIUM",
       "name_translations": {},
       "description": "",
@@ -364,18 +378,20 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029426062-d9053h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-zvgy-18-kvkltsyyt-premium-lx6lmy",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-zvgy-18-kvkltsyyt-premium-dud28p",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:04:16.269Z"
+      "updated_at": "2026-06-21T08:10:42.826Z"
     },
     {
       "id": "a659d191-0ff8-4fc9-99f2-4826a4964e02",
-      "slug": "mgn-mzrn-zvgy-16-kvkltsyyt-premium-3ryzia",
+      "slug": "mgn-mzrn-zvgy-16-kvkltsyyt-premium-ckuxbg",
       "name": "מגן מזרן זוגי 1.6 קוקלציית PREMIUM",
       "name_translations": {},
       "description": "",
@@ -386,14 +402,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029450886-00y8oi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-zvgy-16-kvkltsyyt-premium-3ryzia",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-zvgy-16-kvkltsyyt-premium-ckuxbg",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:04:16.264Z"
+      "updated_at": "2026-06-21T08:11:00.816Z"
     },
     {
       "id": "426b2920-a4c4-4afe-b042-eeeac072503f",
