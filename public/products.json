@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:07:22.259Z",
+  "generated_at": "2026-06-21T08:07:36.191Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -127,7 +127,7 @@
     },
     {
       "id": "4c284934-a812-4dad-bffe-022c21270f67",
-      "slug": "sdyn-ychyd-100-kvtnh-zk0ssm",
+      "slug": "sdyn-ychyd-100-kvtnh-85ho8k",
       "name": "סדין יחיד 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -143,11 +143,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-zk0ssm",
+      "url": "https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-85ho8k",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:07:04.262Z"
+      "updated_at": "2026-06-21T08:07:24.946Z"
     },
     {
       "id": "5a966164-2706-4c4e-a4da-7b6d73c81d3c",
