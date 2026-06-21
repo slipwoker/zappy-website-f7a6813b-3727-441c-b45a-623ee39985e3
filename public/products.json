@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T11:07:23.031Z",
+  "generated_at": "2026-06-21T11:08:36.084Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -4972,8 +4972,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-waves-tsba-apvr-ebw226",
-      "categories": [],
-      "updated_at": "2026-06-14T08:37:37.473Z"
+      "categories": [
+        "מפות שולחן"
+      ],
+      "updated_at": "2026-06-21T11:08:03.747Z"
     },
     {
       "id": "c330c226-4da7-4c43-9374-efeff916aeed",
@@ -4994,8 +4996,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-waves-tsba-lbn-vhf7u0",
-      "categories": [],
-      "updated_at": "2026-06-14T08:38:34.493Z"
+      "categories": [
+        "מפות שולחן"
+      ],
+      "updated_at": "2026-06-21T11:08:03.994Z"
     },
     {
       "id": "0e5a5175-82bc-4ff0-b6c8-cada56cda749",
@@ -5016,8 +5020,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-waves-tsba-shmnt-whrisk",
-      "categories": [],
-      "updated_at": "2026-06-14T08:40:19.068Z"
+      "categories": [
+        "מפות שולחן"
+      ],
+      "updated_at": "2026-06-21T11:08:03.489Z"
     },
     {
       "id": "238c8298-d638-4ec3-829b-47784d197dd8",
@@ -5038,8 +5044,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-lunar-ps-mvkh-28pl5q",
-      "categories": [],
-      "updated_at": "2026-06-14T08:44:09.980Z"
+      "categories": [
+        "מפות שולחן"
+      ],
+      "updated_at": "2026-06-21T11:08:03.606Z"
     },
     {
       "id": "5195d441-3612-4ecb-9ae4-97612a893359",
@@ -5084,8 +5092,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-lunar-ps-ksp-tx5og1",
-      "categories": [],
-      "updated_at": "2026-06-14T08:44:58.445Z"
+      "categories": [
+        "מפות שולחן"
+      ],
+      "updated_at": "2026-06-21T11:08:03.855Z"
     },
     {
       "id": "c79dfc56-8765-4379-81d3-d5b89e6abc4b",
@@ -5106,8 +5116,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mpt-shvlchn-dgm-lunar-ps-shchvr-t1mlqz",
-      "categories": [],
-      "updated_at": "2026-06-14T08:45:31.905Z"
+      "categories": [
+        "מפות שולחן"
+      ],
+      "updated_at": "2026-06-21T11:08:04.104Z"
     },
     {
       "id": "f80187ce-91ff-4125-85cb-af7c50d0ecd3",
@@ -5296,8 +5308,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt",
-      "categories": [],
-      "updated_at": "2026-06-15T12:11:36.998Z"
+      "categories": [
+        "מגבות"
+      ],
+      "updated_at": "2026-06-21T11:08:27.823Z"
     },
     {
       "id": "2cc9db62-1e1a-4cbd-836a-7bab68b2cd70",
@@ -5414,8 +5428,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye",
-      "categories": [],
-      "updated_at": "2026-06-21T07:35:24.699Z"
+      "categories": [
+        "מגבות"
+      ],
+      "updated_at": "2026-06-21T11:08:28.045Z"
     },
     {
       "id": "f7111cdf-88e6-4f47-95c8-0526fd3b8987",
@@ -5484,8 +5500,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3",
-      "categories": [],
-      "updated_at": "2026-06-21T07:35:51.777Z"
+      "categories": [
+        "מגבות"
+      ],
+      "updated_at": "2026-06-21T11:08:27.932Z"
     },
     {
       "id": "4f7f34c5-bb0f-4df3-a459-98727407245e",
