@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:12:23.403Z",
+  "generated_at": "2026-06-21T08:12:43.116Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -511,7 +511,7 @@
     },
     {
       "id": "dd6d6630-a0b4-46f9-882e-6b3983e8c5b5",
-      "slug": "shmykt-pvk-dgm-kvlrdv-ychyd-003m5r",
+      "slug": "shmykt-pvk-dgm-kvlrdv-ychyd-1vwvkc",
       "name": "שמיכת פוך דגם קולרדו יחיד",
       "name_translations": {},
       "description": "",
@@ -522,14 +522,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029543727-o53j9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-kvlrdv-ychyd-003m5r",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-kvlrdv-ychyd-1vwvkc",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:04:16.215Z"
+      "updated_at": "2026-06-21T08:12:31.183Z"
     },
     {
       "id": "6e14c0e5-cc8a-4b2d-b51e-65a9592b4714",
