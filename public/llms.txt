@@ -71,10 +71,11 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 465** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### סט פח + מברשת צבע לבן דגם CLEVO 
-https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-mbj6yn
+https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-j9w5wi
 - Price: 79.90 ILS
 - Availability: In stock
 - Category: פחי שירותים
+- Image: https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp
 
 ### ארגונית אקרילית מחולקת + מכסהדגם "DOR"
 https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-y7qeoq
