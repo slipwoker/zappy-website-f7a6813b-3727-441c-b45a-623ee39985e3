@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 21 Jun 2026 07:32:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 07:33:30 GMT</lastBuildDate>
     <item>
       <g:id>6e14c0e5-cc8a-4b2d-b51e-65a9592b4714</g:id>
       <g:title>סט פח + מברשת צבע לבן דגם CLEVO </g:title>
@@ -2959,19 +2959,6 @@
       <g:identifier_exists>no</g:identifier_exists>
     </item>
     <item>
-      <g:id>02c0e6ea-856a-42c6-8b0b-76b0e32d5d1d</g:id>
-      <g:title>אגרן ירקות דגם ספייס צבע מוקה</g:title>
-      <g:description>מעמד אחסון 3 תאים</g:description>
-      <g:link>https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-l6jfqz</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837731993-r1muud.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>179.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>עגלות שירות </g:product_type>
-    </item>
-    <item>
       <g:id>8ff56820-724e-448f-9fd2-0bac9020bd69</g:id>
       <g:title>פח 5 ליטר עם רגליים דגם אורלנדו צבע שחור</g:title>
       <g:description>פח 5 ליטר עם רגליים פח פנימי נשלף לנוחות מירבית ובעל מנגנון טריקה שקטה</g:description>
@@ -2983,19 +2970,6 @@
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>פחי שירותים</g:product_type>
-    </item>
-    <item>
-      <g:id>9f1519f9-ced9-404c-afea-338b9ddfef26</g:id>
-      <g:title>אגרן ירקות דגם ספייס צבע שחור</g:title>
-      <g:description>מעמד אחסון 3 תאים</g:description>
-      <g:link>https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-shchvr-w6vn16</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837731906-he9xi4.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>179.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>0f309071-6b35-47a9-bd76-69d9903151db</g:id>
@@ -3035,19 +3009,6 @@
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>פחי שירותים</g:product_type>
-    </item>
-    <item>
-      <g:id>9448b5f2-542f-4c72-892b-f02a23879c85</g:id>
-      <g:title>אגרן ירקות דגם ספייס צבע לבן</g:title>
-      <g:description>מעמד אחסון 3 תאים</g:description>
-      <g:link>https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-11xn7w</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837731810-9o9yy4.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>179.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>34cbd291-8a13-4329-ba48-e6635d6f7925</g:id>

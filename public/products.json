@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T07:32:40.408Z",
+  "generated_at": "2026-06-21T07:33:30.424Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 462,
+  "count": 459,
   "products": [
     {
       "id": "6e14c0e5-cc8a-4b2d-b51e-65a9592b4714",
@@ -4302,30 +4302,6 @@
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
-      "id": "02c0e6ea-856a-42c6-8b0b-76b0e32d5d1d",
-      "slug": "agrn-yrkvt-dgm-spyys-tsba-mvkh-l6jfqz",
-      "name": "אגרן ירקות דגם ספייס צבע מוקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מעמד אחסון 3 תאים",
-      "sku": null,
-      "brand": null,
-      "price": 179.9,
-      "base_price": 179.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837731993-r1muud.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-l6jfqz",
-      "categories": [
-        "עגלות שירות "
-      ],
-      "updated_at": "2026-06-11T10:05:11.456Z"
-    },
-    {
       "id": "8ff56820-724e-448f-9fd2-0bac9020bd69",
       "slug": "pch-5-lytr-am-rglyym-dgm-avrlndv-tsba-shchvr-v1l2fk",
       "name": "פח 5 ליטר עם רגליים דגם אורלנדו צבע שחור",
@@ -4349,30 +4325,6 @@
         "פחי אמבטיה"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "9f1519f9-ced9-404c-afea-338b9ddfef26",
-      "slug": "agrn-yrkvt-dgm-spyys-tsba-shchvr-w6vn16",
-      "name": "אגרן ירקות דגם ספייס צבע שחור",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מעמד אחסון 3 תאים",
-      "sku": null,
-      "brand": null,
-      "price": 179.9,
-      "base_price": 179.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837731906-he9xi4.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-shchvr-w6vn16",
-      "categories": [
-        "עגלות שירות "
-      ],
-      "updated_at": "2026-06-11T10:06:15.691Z"
     },
     {
       "id": "0f309071-6b35-47a9-bd76-69d9903151db",
@@ -4448,30 +4400,6 @@
         "פחי אמבטיה"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "9448b5f2-542f-4c72-892b-f02a23879c85",
-      "slug": "agrn-yrkvt-dgm-spyys-tsba-lbn-11xn7w",
-      "name": "אגרן ירקות דגם ספייס צבע לבן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מעמד אחסון 3 תאים",
-      "sku": null,
-      "brand": null,
-      "price": 179.9,
-      "base_price": 179.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837731810-9o9yy4.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-lbn-11xn7w",
-      "categories": [
-        "עגלות שירות "
-      ],
-      "updated_at": "2026-06-11T10:07:48.494Z"
     },
     {
       "id": "34cbd291-8a13-4329-ba48-e6635d6f7925",
