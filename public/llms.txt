@@ -88,7 +88,6 @@ https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shchvr-wag4uj
 https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-fc336d
 - Price: 79.90 ILS
 - Availability: In stock
-- Category: סדינים 100% כותנה
 - Description: סדין 100% כותנה משובחת מסדרת MIX YOUR STYLE מתאים למזרן 30 ס"מ גובה.
 - Image: https://streetstock.co.il/assets/product-1782029171243-lpe4vl.webp
 
@@ -96,7 +95,6 @@ https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-fc336d
 https://streetstock.co.il/product/sdyn-zvgy-180-100-kvtnh-myyq2r
 - Price: 69.90 ILS
 - Availability: In stock
-- Category: סדינים 100% כותנה
 - Description: סדין 100% כותנה משובחת מסדרת MIX YOUR STYLE מתאים למזרן 30 ס"מ גובה.
 - Image: https://streetstock.co.il/assets/product-1782029190035-ohhoy.webp
 
@@ -104,14 +102,12 @@ https://streetstock.co.il/product/sdyn-zvgy-180-100-kvtnh-myyq2r
 https://streetstock.co.il/product/zvg-tsypyvt-lkryt-100-kvtnh-atb2dr
 - Price: 24.90 ILS
 - Availability: In stock
-- Category: סדינים 100% כותנה
 - Image: https://streetstock.co.il/assets/product-1782029204240-ix7jf9.webp
 
 ### סדין יחיד 100% כותנה
 https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-85ho8k
 - Price: 39.90 ILS
 - Availability: In stock
-- Category: סדינים 100% כותנה
 - Description: סדין 100% כותנה משובחת מסדרת MIX YOUR STYLE מתאים למזרן 30 ס"מ גובה.
 - Image: https://streetstock.co.il/assets/product-1782029217834-52q9gm.webp
 
@@ -119,7 +115,6 @@ https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-85ho8k
 https://streetstock.co.il/product/sdyn-zvgy-160-100-kvtnh-ci5cor
 - Price: 59.90 ILS
 - Availability: In stock
-- Category: סדינים 100% כותנה
 - Description: סדין 100% כותנה משובחת מסדרת MIX YOUR STYLE מתאים למזרן 30 ס"מ גובה.
 - Image: https://streetstock.co.il/assets/product-1782029253390-uc7dv.webp
 
@@ -127,7 +122,6 @@ https://streetstock.co.il/product/sdyn-zvgy-160-100-kvtnh-ci5cor
 https://streetstock.co.il/product/sdyn-myth-vchtsy-100-kvtnh-pszrna
 - Price: 49.90 ILS
 - Availability: In stock
-- Category: סדינים 100% כותנה
 - Description: סדין 100% כותנה משובחת מסדרת MIX YOUR STYLE מתאים למזרן 30 ס"מ גובה.
 - Image: https://streetstock.co.il/assets/product-1782029268838-5127lr.webp
 
