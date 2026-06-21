@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:11:14.496Z",
+  "generated_at": "2026-06-21T08:11:49.288Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -415,7 +415,7 @@
     },
     {
       "id": "426b2920-a4c4-4afe-b042-eeeac072503f",
-      "slug": "mgn-mzrn-zvgy-140-kvkltsyyt-premium-u0xjsl",
+      "slug": "mgn-mzrn-zvgy-140-kvkltsyyt-premium-9z2zlt",
       "name": "מגן מזרן זוגי 1.40 קוקלציית PREMIUM",
       "name_translations": {},
       "description": "",
@@ -426,18 +426,20 @@
       "base_price": 89.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029469671-907au.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-zvgy-140-kvkltsyyt-premium-u0xjsl",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-zvgy-140-kvkltsyyt-premium-9z2zlt",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:04:16.245Z"
+      "updated_at": "2026-06-21T08:11:17.415Z"
     },
     {
       "id": "57a524ab-d320-4b2c-b068-8c73ac9a74d9",
-      "slug": "shmykt-pvk-dgm-dnyalh-zvgy-1og50n",
+      "slug": "shmykt-pvk-dgm-dnyalh-zvgy-kzutae",
       "name": "שמיכת פוך דגם דניאלה זוגי",
       "name_translations": {},
       "description": "",
@@ -448,14 +450,16 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029485412-ody9oh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-zvgy-1og50n",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-zvgy-kzutae",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:04:16.240Z"
+      "updated_at": "2026-06-21T08:11:35.873Z"
     },
     {
       "id": "fb274985-2438-464d-8b41-88e85a866308",
