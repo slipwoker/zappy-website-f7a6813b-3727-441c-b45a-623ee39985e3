@@ -68,7 +68,13 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 464** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 465** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### סט פח + מברשת צבע לבן דגם CLEVO 
+https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-mbj6yn
+- Price: 79.90 ILS
+- Availability: In stock
+- Category: פחי שירותים
 
 ### ארגונית אקרילית מחולקת + מכסהדגם "DOR"
 https://streetstock.co.il/product/argvnyt-akrylyt-mchvlkt-mkshdgm-dor-y7qeoq
@@ -1645,14 +1651,6 @@ https://streetstock.co.il/product/kryt-spa-eh7i10
 - Category: כריות שינה
 - Description: כרית בד חיצוני 100% כותנה מגיע באריזת בד כותנה
 - Image: https://streetstock.co.il/assets/product-1780837726372-8svflh.webp
-
-### כרית ויסקו חלומות
-https://streetstock.co.il/product/kryt-vyskv-chlvmvt-v52ur4
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: כריות שינה
-- Description: כרית ויסקו יוקרתית לתמיכה בכלי חלקי הצוואר והראש
-- Image: https://streetstock.co.il/assets/product-1780837726228-ze0fga.webp
 
 ---
 

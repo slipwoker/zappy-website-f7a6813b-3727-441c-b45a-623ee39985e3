@@ -1,10 +1,33 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T07:04:30.359Z",
+  "generated_at": "2026-06-21T07:30:15.939Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 464,
+  "count": 465,
   "products": [
+    {
+      "id": "6e14c0e5-cc8a-4b2d-b51e-65a9592b4714",
+      "slug": "st-pch-mbrsht-tsba-lbn-dgm-clevo-mbj6yn",
+      "name": "סט פח + מברשת צבע לבן דגם CLEVO ",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-mbj6yn",
+      "categories": [
+        "פחי שירותים",
+        "פחי אמבטיה"
+      ],
+      "updated_at": "2026-06-21T07:29:13.862Z"
+    },
     {
       "id": "89f19a72-a4bb-467d-b5a2-f4df0a5eb798",
       "slug": "argvnyt-akrylyt-mchvlkt-mkshdgm-dor-y7qeoq",
@@ -9835,7 +9858,7 @@
     },
     {
       "id": "d77c3911-2a82-4b18-a46e-76018bc019ce",
-      "slug": "tsntsnt-achsvn-1100-ml-i-dgm-gpn-a9ahio",
+      "slug": "tsntsnt-achsvn-1100-ml-i-dgm-gpn-mmufui",
       "name": "צנצנת אחסון 1100 מ\"ל I דגם \"גפן\"\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -9846,18 +9869,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782026990995-mkv8dw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-i-dgm-gpn-a9ahio",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-i-dgm-gpn-mmufui",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-06-14T14:30:16.699Z"
+      "updated_at": "2026-06-21T07:29:58.812Z"
     },
     {
       "id": "840b6dfe-f56a-48db-8584-9be8dd4216f9",
-      "slug": "tsntsnt-achsvn-850-ml-i-dgm-gpn-47do9l",
+      "slug": "tsntsnt-achsvn-850-ml-i-dgm-gpn-xfh9x1",
       "name": "צנצנת אחסון 850 מ\"ל I דגם \"גפן\"\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -9868,14 +9893,16 @@
       "base_price": 12.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782026975993-csdjyn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-i-dgm-gpn-47do9l",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-i-dgm-gpn-xfh9x1",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-06-14T14:37:37.659Z"
+      "updated_at": "2026-06-21T07:29:43.515Z"
     },
     {
       "id": "e0745ee0-67a9-418c-9075-ff755c6b23c1",
