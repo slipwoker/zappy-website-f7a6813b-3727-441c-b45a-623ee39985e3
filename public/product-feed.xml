@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 21 Jun 2026 07:34:28 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jun 2026 07:36:20 GMT</lastBuildDate>
     <item>
       <g:id>6e14c0e5-cc8a-4b2d-b51e-65a9592b4714</g:id>
       <g:title>סט פח + מברשת צבע לבן דגם CLEVO </g:title>
@@ -3356,10 +3356,95 @@
       <g:product_type>כריות שינה</g:product_type>
     </item>
     <item>
-      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:id>
-      <g:title>מגבת גוף דגם TULIP</g:title>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__9ad37b1b-12e7-4696-90b2-7dae93f7e7bd</g:id>
+      <g:title>מגבת גוף דגם TULIP - White</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
       <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__4de2e682-01b0-4e84-83ec-273f48f204b7</g:id>
+      <g:title>מגבת גוף דגם TULIP - Gray</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__95de8246-606c-4a3b-acb7-b0c805ff5a86</g:id>
+      <g:title>מגבת גוף דגם TULIP - Charcoal</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__c994c548-723a-41cf-a119-a2fb65147670</g:id>
+      <g:title>מגבת גוף דגם TULIP - Navy</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__8ef0b801-3147-4c04-8a2a-6f8c374e3c11</g:id>
+      <g:title>מגבת גוף דגם TULIP - Beige</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__23b39798-3091-42b5-9af8-aebea4660522</g:id>
+      <g:title>מגבת גוף דגם TULIP - Silver</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c__072166ec-bce8-4e42-b6a7-e4c3a068e220</g:id>
+      <g:title>מגבת גוף דגם TULIP - Pink</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
@@ -3395,10 +3480,95 @@
       <g:product_type>סירים ומחבתות</g:product_type>
     </item>
     <item>
-      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357</g:id>
-      <g:title>מגבת מטבח דגם TULIP</g:title>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__75fc85d0-f484-4ef5-8654-41c28112bb9f</g:id>
+      <g:title>מגבת מטבח דגם TULIP - White</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
       <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__1fdd26cf-4870-4071-89a1-cdcbd915f5fe</g:id>
+      <g:title>מגבת מטבח דגם TULIP - Gray</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__be58f4ef-5dcf-4578-a9b0-5279b0fb5298</g:id>
+      <g:title>מגבת מטבח דגם TULIP - Charcoal</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__fd0a68d8-0d7d-4c3e-b9b0-9dac114856d4</g:id>
+      <g:title>מגבת מטבח דגם TULIP - Navy</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__a12c8885-ce6e-4edc-871b-7a2bd3b895cf</g:id>
+      <g:title>מגבת מטבח דגם TULIP - Beige</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__659016de-b2b1-446b-a126-8b0cceb6ee1a</g:id>
+      <g:title>מגבת מטבח דגם TULIP - Silver</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מגבות ומפות שולחן</g:product_type>
+    </item>
+    <item>
+      <g:id>c2345aea-f3bc-47f7-90b0-141665e05357__bc4b5a87-dfab-4bcf-8f52-66074ba2db1d</g:id>
+      <g:title>מגבת מטבח דגם TULIP - Pink</g:title>
+      <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
+      <g:link>https://streetstock.co.il/product/mgbt-mtbch-dgm-tulip-menek3</g:link>
+      <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>9.90 ILS</g:price>
