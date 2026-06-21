@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:11:49.288Z",
+  "generated_at": "2026-06-21T08:12:08.446Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -463,7 +463,7 @@
     },
     {
       "id": "fb274985-2438-464d-8b41-88e85a866308",
-      "slug": "shmykt-pvk-dgm-dvbay-ychyd-1h0yrf",
+      "slug": "shmykt-pvk-dgm-dvbay-ychyd-d55kur",
       "name": "שמיכת פוך דגם דובאי יחיד",
       "name_translations": {},
       "description": "",
@@ -474,14 +474,16 @@
       "base_price": 199.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029504294-l96mlj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dvbay-ychyd-1h0yrf",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dvbay-ychyd-d55kur",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:04:16.240Z"
+      "updated_at": "2026-06-21T08:11:51.081Z"
     },
     {
       "id": "19da7e32-718b-49c0-89bb-a529a8b1fd77",
