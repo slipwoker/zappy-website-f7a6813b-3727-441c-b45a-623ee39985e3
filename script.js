@@ -12335,6 +12335,93 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
+/* ZAPPY_CUSTOM_JS_START:3d629e95258c */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  // Hero image rotation on mobile only (every 4 seconds)
+  var heroBg = document.querySelector('.home-hero-bg');
+  if (!heroBg) return;
+  
+  var img1 = heroBg.querySelector('.hero-bg-img-1');
+  var img2 = heroBg.querySelector('.hero-bg-img-2');
+  if (!img1 || !img2) return;
+  
+  var currentVisible = 1; // img1 starts visible
+  var intervalId = null;
+  var isMobile = false;
+  
+  function checkMobile() {
+    return window.innerWidth <= 768;
+  }
+  
+  function startRotation() {
+    if (intervalId) return; // already running
+    isMobile = true;
+    // Make both images fill the container on mobile
+    img2.style.cssText = 'object-position:50% 50%;display:block;object-fit:fill;position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 0.8s ease-in-out;z-index:0';
+    img1.style.cssText = img1.style.cssText + ';position:absolute;top:0;left:0;width:100%;height:100%;opacity:1;transition:opacity 0.8s ease-in-out;z-index:1';
+    heroBg.style.position = 'relative';
+    
+    intervalId = setInterval(function() {
+      if (currentVisible === 1) {
+        img1.style.opacity = '0';
+        img1.style.zIndex = '0';
+        img2.style.opacity = '1';
+        img2.style.zIndex = '1';
+        currentVisible = 2;
+      } else {
+        img2.style.opacity = '0';
+        img2.style.zIndex = '0';
+        img1.style.opacity = '1';
+        img1.style.zIndex = '1';
+        currentVisible = 1;
+      }
+    }, 4000);
+  }
+  
+  function stopRotation() {
+    if (!intervalId) return;
+    clearInterval(intervalId);
+    intervalId = null;
+    isMobile = false;
+    // Restore img1 to desktop state
+    img1.style.cssText = 'object-position:50% 50%;display:block;object-fit:fill;position:static;width:auto;height:auto;opacity:1;z-index:auto';
+    img2.style.cssText = 'object-position:50% 50%;display:none;object-fit:fill';
+    img2.style.opacity = '0';
+    img2.style.zIndex = '0';
+  }
+  
+  function handleResize() {
+    var nowMobile = checkMobile();
+    if (nowMobile && !isMobile) {
+      startRotation();
+    } else if (!nowMobile && isMobile) {
+      stopRotation();
+    }
+  }
+  
+  // Initial check
+  if (checkMobile()) {
+    startRotation();
+  }
+  
+  // Listen for resize
+  window.addEventListener('resize', handleResize);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:3d629e95258c */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
