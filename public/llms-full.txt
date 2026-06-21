@@ -8083,16 +8083,6 @@ Availability: In stock
 
 ---
 
-### סכומית מגירה בינוני אקריל
- דגם MAAYAN
-
-URL: https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-vpmthp
-Price: 29.90 ILS
-Availability: In stock
-SKU: 7290121560443
-
----
-
 ### ארון נעליים 10 קומות צבע לבן
 URL: https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5
 Price: 119.90 ILS
@@ -8167,16 +8157,6 @@ Availability: In stock
 SKU: 7290121562263
 
 כללי
-
----
-
-### סכומית מגירה בינוני אקריל
- דגם MAAYAN
-
-URL: https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-764zwi
-Price: 29.90 ILS
-Availability: In stock
-SKU: 7290121560443
 
 ---
 

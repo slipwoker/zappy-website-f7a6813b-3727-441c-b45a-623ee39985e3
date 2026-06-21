@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 459** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 457** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### סט פח + מברשת צבע לבן דגם CLEVO 
 https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-j9w5wi
