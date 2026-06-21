@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:07:36.191Z",
+  "generated_at": "2026-06-21T08:07:56.707Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -151,7 +151,7 @@
     },
     {
       "id": "5a966164-2706-4c4e-a4da-7b6d73c81d3c",
-      "slug": "sdyn-zvgy-160-100-kvtnh-ibj9vw",
+      "slug": "sdyn-zvgy-160-100-kvtnh-ci5cor",
       "name": "סדין זוגי 1.60 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -162,18 +162,20 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029253390-uc7dv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-zvgy-160-100-kvtnh-ibj9vw",
+      "url": "https://streetstock.co.il/product/sdyn-zvgy-160-100-kvtnh-ci5cor",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:04:18.334Z"
+      "updated_at": "2026-06-21T08:07:40.430Z"
     },
     {
       "id": "56cad165-3190-4815-8fe7-99247460fd0f",
-      "slug": "sdyn-myth-vchtsy-100-kvtnh-6zbeg6",
+      "slug": "sdyn-myth-vchtsy-100-kvtnh-pszrna",
       "name": "סדין מיטה וחצי 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -184,14 +186,16 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029268838-5127lr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-myth-vchtsy-100-kvtnh-6zbeg6",
+      "url": "https://streetstock.co.il/product/sdyn-myth-vchtsy-100-kvtnh-pszrna",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:04:18.301Z"
+      "updated_at": "2026-06-21T08:07:56.485Z"
     },
     {
       "id": "d3ca47e3-f39c-4100-8f7d-041656fb8423",
