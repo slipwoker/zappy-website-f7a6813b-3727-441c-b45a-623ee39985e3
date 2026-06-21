@@ -391,7 +391,6 @@
 
 <div class="zappy-announcement-bar">
       <span class="zappy-announcement-message active">סט מצעים 2 ב 399.90 ש&quot;ח </span>
-      <span class="zappy-announcement-message">סט מצעים 2 ב 399.90 ש&quot;ח </span>
     </div>
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
 
@@ -1306,17 +1305,6 @@
 
     
 
-<script>
-(function() {
-  var messages = document.querySelectorAll('.zappy-announcement-message');
-  if (messages.length <= 1) return;
-  var current = 0;
-  setInterval(function() {
-    messages[current].classList.remove('active');
-    current = (current + 1) % messages.length;
-    messages[current].classList.add('active');
-  }, 4000);
-})();</script>
 
     <script src="/script.js"></script>
 
