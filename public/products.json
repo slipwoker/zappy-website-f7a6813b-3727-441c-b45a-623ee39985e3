@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:04:52.776Z",
+  "generated_at": "2026-06-21T08:05:34.194Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -31,7 +31,7 @@
     },
     {
       "id": "41231c17-1457-4c42-949c-3234b0731866",
-      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-shchvr-qi6q2f",
+      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-shchvr-hw660j",
       "name": "וילון אמבטיה דגם ג'אקרד צבע שחור",
       "name_translations": {},
       "description": "",
@@ -42,14 +42,16 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029110678-l01hz.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shchvr-qi6q2f",
+      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shchvr-hw660j",
       "categories": [
         "וילונות אמבטיה"
       ],
-      "updated_at": "2026-06-21T08:04:20.401Z"
+      "updated_at": "2026-06-21T08:05:20.954Z"
     },
     {
       "id": "58af8bb8-6049-46a6-85b2-930c80945075",
