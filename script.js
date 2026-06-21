@@ -12335,12 +12335,12 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
-/* ZAPPY_CUSTOM_JS_START:3d629e95258c */
+/* ZAPPY_CUSTOM_JS_START:58e2d519cb6e */
 (function () {
   function __zappyCustomInit() {
     try {
 (function() {
-  // Hero image rotation on mobile only (every 4 seconds)
+  // Hero image rotation - mobile only, cross-fade every 4 seconds
   var heroBg = document.querySelector('.home-hero-bg');
   if (!heroBg) return;
   
@@ -12348,67 +12348,116 @@ async function loadRelatedProducts(currentProduct, t) {
   var img2 = heroBg.querySelector('.hero-bg-img-2');
   if (!img1 || !img2) return;
   
-  var currentVisible = 1; // img1 starts visible
+  var current = 1;
   var intervalId = null;
-  var isMobile = false;
   
-  function checkMobile() {
+  function isMobile() {
     return window.innerWidth <= 768;
   }
   
-  function startRotation() {
-    if (intervalId) return; // already running
-    isMobile = true;
-    // Make both images fill the container on mobile
-    img2.style.cssText = 'object-position:50% 50%;display:block;object-fit:fill;position:absolute;top:0;left:0;width:100%;height:100%;opacity:0;transition:opacity 0.8s ease-in-out;z-index:0';
-    img1.style.cssText = img1.style.cssText + ';position:absolute;top:0;left:0;width:100%;height:100%;opacity:1;transition:opacity 0.8s ease-in-out;z-index:1';
+  function setupMobile() {
+    // Position img1 as the base, img2 on top (hidden)
+    img1.style.position = 'absolute';
+    img1.style.top = '0';
+    img1.style.left = '0';
+    img1.style.width = '100%';
+    img1.style.height = '100%';
+    img1.style.objectFit = 'fill';
+    img1.style.display = 'block';
+    img1.style.opacity = '1';
+    img1.style.transition = 'opacity 0.8s ease-in-out';
+    img1.style.zIndex = '1';
+    img1.style.margin = '0';
+    
+    img2.style.position = 'absolute';
+    img2.style.top = '0';
+    img2.style.left = '0';
+    img2.style.width = '100%';
+    img2.style.height = '100%';
+    img2.style.objectFit = 'fill';
+    img2.style.display = 'block';
+    img2.style.opacity = '0';
+    img2.style.transition = 'opacity 0.8s ease-in-out';
+    img2.style.zIndex = '0';
+    img2.style.margin = '0';
+    
     heroBg.style.position = 'relative';
+    current = 1;
+  }
+  
+  function teardownMobile() {
+    // Reset img1
+    img1.style.position = '';
+    img1.style.top = '';
+    img1.style.left = '';
+    img1.style.width = '';
+    img1.style.height = '';
+    img1.style.objectFit = '';
+    img1.style.opacity = '';
+    img1.style.transition = '';
+    img1.style.zIndex = '';
+    img1.style.margin = '';
+    
+    // Hide img2
+    img2.style.position = '';
+    img2.style.top = '';
+    img2.style.left = '';
+    img2.style.width = '';
+    img2.style.height = '';
+    img2.style.objectFit = '';
+    img2.style.display = 'none';
+    img2.style.opacity = '';
+    img2.style.transition = '';
+    img2.style.zIndex = '';
+    img2.style.margin = '';
+  }
+  
+  function startRotation() {
+    if (intervalId) return;
     
     intervalId = setInterval(function() {
-      if (currentVisible === 1) {
+      if (current === 1) {
         img1.style.opacity = '0';
         img1.style.zIndex = '0';
         img2.style.opacity = '1';
         img2.style.zIndex = '1';
-        currentVisible = 2;
+        current = 2;
       } else {
         img2.style.opacity = '0';
         img2.style.zIndex = '0';
         img1.style.opacity = '1';
         img1.style.zIndex = '1';
-        currentVisible = 1;
+        current = 1;
       }
     }, 4000);
   }
   
   function stopRotation() {
-    if (!intervalId) return;
-    clearInterval(intervalId);
-    intervalId = null;
-    isMobile = false;
-    // Restore img1 to desktop state
-    img1.style.cssText = 'object-position:50% 50%;display:block;object-fit:fill;position:static;width:auto;height:auto;opacity:1;z-index:auto';
-    img2.style.cssText = 'object-position:50% 50%;display:none;object-fit:fill';
-    img2.style.opacity = '0';
-    img2.style.zIndex = '0';
-  }
-  
-  function handleResize() {
-    var nowMobile = checkMobile();
-    if (nowMobile && !isMobile) {
-      startRotation();
-    } else if (!nowMobile && isMobile) {
-      stopRotation();
+    if (intervalId) {
+      clearInterval(intervalId);
+      intervalId = null;
     }
   }
   
-  // Initial check
-  if (checkMobile()) {
-    startRotation();
+  function handleResize() {
+    if (isMobile()) {
+      setupMobile();
+      startRotation();
+    } else {
+      stopRotation();
+      teardownMobile();
+    }
   }
   
-  // Listen for resize
-  window.addEventListener('resize', handleResize);
+  // Initial run
+  handleResize();
+  
+  // Watch for resize
+  var resizeTimer;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(handleResize, 250);
+  });
 })();
     } catch (e) {
       if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
@@ -12420,7 +12469,7 @@ async function loadRelatedProducts(currentProduct, t) {
     __zappyCustomInit();
   }
 })();
-/* ZAPPY_CUSTOM_JS_END:3d629e95258c */
+/* ZAPPY_CUSTOM_JS_END:58e2d519cb6e */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
