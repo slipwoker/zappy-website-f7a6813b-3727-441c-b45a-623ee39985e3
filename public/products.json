@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:15:46.032Z",
+  "generated_at": "2026-06-21T08:16:55.116Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -55,7 +55,7 @@
     },
     {
       "id": "58af8bb8-6049-46a6-85b2-930c80945075",
-      "slug": "sdyn-zvgy-200-100-kvtnh-fc336d",
+      "slug": "sdyn-zvgy-200-100-kvtnh-e2x2a9",
       "name": "סדין זוגי 200 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -71,9 +71,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-fc336d",
-      "categories": [],
-      "updated_at": "2026-06-21T08:06:21.427Z"
+      "url": "https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-e2x2a9",
+      "categories": [
+        "סדינים 100% כותנה "
+      ],
+      "updated_at": "2026-06-21T08:15:53.928Z"
     },
     {
       "id": "84d85dad-474f-40a6-aa86-ae91a1138861",
@@ -94,8 +96,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-zvgy-180-100-kvtnh-myyq2r",
-      "categories": [],
-      "updated_at": "2026-06-21T08:06:36.051Z"
+      "categories": [
+        "סדינים 100% כותנה "
+      ],
+      "updated_at": "2026-06-21T08:16:23.478Z"
     },
     {
       "id": "7c869992-d38c-4d0e-b790-7c35a7179b97",
@@ -116,8 +120,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/zvg-tsypyvt-lkryt-100-kvtnh-atb2dr",
-      "categories": [],
-      "updated_at": "2026-06-21T08:06:50.505Z"
+      "categories": [
+        "סדינים 100% כותנה "
+      ],
+      "updated_at": "2026-06-21T08:16:23.373Z"
     },
     {
       "id": "4c284934-a812-4dad-bffe-022c21270f67",
@@ -138,8 +144,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-85ho8k",
-      "categories": [],
-      "updated_at": "2026-06-21T08:07:24.946Z"
+      "categories": [
+        "סדינים 100% כותנה "
+      ],
+      "updated_at": "2026-06-21T08:16:23.010Z"
     },
     {
       "id": "5a966164-2706-4c4e-a4da-7b6d73c81d3c",
@@ -160,8 +168,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-zvgy-160-100-kvtnh-ci5cor",
-      "categories": [],
-      "updated_at": "2026-06-21T08:07:40.430Z"
+      "categories": [
+        "סדינים 100% כותנה "
+      ],
+      "updated_at": "2026-06-21T08:16:23.246Z"
     },
     {
       "id": "56cad165-3190-4815-8fe7-99247460fd0f",
@@ -182,8 +192,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-myth-vchtsy-100-kvtnh-pszrna",
-      "categories": [],
-      "updated_at": "2026-06-21T08:07:56.485Z"
+      "categories": [
+        "סדינים 100% כותנה "
+      ],
+      "updated_at": "2026-06-21T08:16:23.124Z"
     },
     {
       "id": "d3ca47e3-f39c-4100-8f7d-041656fb8423",
