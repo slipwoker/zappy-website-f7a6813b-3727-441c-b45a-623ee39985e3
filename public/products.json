@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:12:08.446Z",
+  "generated_at": "2026-06-21T08:12:23.403Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -487,7 +487,7 @@
     },
     {
       "id": "19da7e32-718b-49c0-89bb-a529a8b1fd77",
-      "slug": "shmykt-pvk-dgm-dnyalh-ychyd-91t5sl",
+      "slug": "shmykt-pvk-dgm-dnyalh-ychyd-s3xf9u",
       "name": "שמיכת פוך דגם דניאלה יחיד",
       "name_translations": {},
       "description": "",
@@ -498,14 +498,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029520697-q9rmqx.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-ychyd-91t5sl",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-ychyd-s3xf9u",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:04:16.237Z"
+      "updated_at": "2026-06-21T08:12:09.120Z"
     },
     {
       "id": "dd6d6630-a0b4-46f9-882e-6b3983e8c5b5",
