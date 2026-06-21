@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-21T08:05:52.543Z",
+  "generated_at": "2026-06-21T08:07:22.259Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -31,7 +31,7 @@
     },
     {
       "id": "41231c17-1457-4c42-949c-3234b0731866",
-      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-shchvr-hw660j",
+      "slug": "vylvn-ambtyh-dgm-gakrd-tsba-shchvr-wag4uj",
       "name": "וילון אמבטיה דגם ג'אקרד צבע שחור",
       "name_translations": {},
       "description": "",
@@ -47,15 +47,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shchvr-hw660j",
+      "url": "https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-shchvr-wag4uj",
       "categories": [
         "וילונות אמבטיה"
       ],
-      "updated_at": "2026-06-21T08:05:20.954Z"
+      "updated_at": "2026-06-21T08:05:57.134Z"
     },
     {
       "id": "58af8bb8-6049-46a6-85b2-930c80945075",
-      "slug": "sdyn-zvgy-200-100-kvtnh-djptrx",
+      "slug": "sdyn-zvgy-200-100-kvtnh-fc336d",
       "name": "סדין זוגי 200 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -66,18 +66,20 @@
       "base_price": 79.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029171243-lpe4vl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-djptrx",
+      "url": "https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-fc336d",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:04:18.406Z"
+      "updated_at": "2026-06-21T08:06:21.427Z"
     },
     {
       "id": "84d85dad-474f-40a6-aa86-ae91a1138861",
-      "slug": "sdyn-zvgy-180-100-kvtnh-qnf84p",
+      "slug": "sdyn-zvgy-180-100-kvtnh-myyq2r",
       "name": "סדין זוגי 1.80 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -88,18 +90,20 @@
       "base_price": 69.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029190035-ohhoy.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-zvgy-180-100-kvtnh-qnf84p",
+      "url": "https://streetstock.co.il/product/sdyn-zvgy-180-100-kvtnh-myyq2r",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:04:18.342Z"
+      "updated_at": "2026-06-21T08:06:36.051Z"
     },
     {
       "id": "7c869992-d38c-4d0e-b790-7c35a7179b97",
-      "slug": "zvg-tsypyvt-lkryt-100-kvtnh-k0r9hn",
+      "slug": "zvg-tsypyvt-lkryt-100-kvtnh-atb2dr",
       "name": "זוג ציפיות לכרית 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -110,18 +114,20 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029204240-ix7jf9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-tsypyvt-lkryt-100-kvtnh-k0r9hn",
+      "url": "https://streetstock.co.il/product/zvg-tsypyvt-lkryt-100-kvtnh-atb2dr",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:04:18.341Z"
+      "updated_at": "2026-06-21T08:06:50.505Z"
     },
     {
       "id": "4c284934-a812-4dad-bffe-022c21270f67",
-      "slug": "sdyn-ychyd-100-kvtnh-o8ba9e",
+      "slug": "sdyn-ychyd-100-kvtnh-zk0ssm",
       "name": "סדין יחיד 100% כותנה",
       "name_translations": {},
       "description": "",
@@ -132,14 +138,16 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782029217834-52q9gm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-o8ba9e",
+      "url": "https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-zk0ssm",
       "categories": [
         "סדינים 100% כותנה"
       ],
-      "updated_at": "2026-06-21T08:04:18.336Z"
+      "updated_at": "2026-06-21T08:07:04.262Z"
     },
     {
       "id": "5a966164-2706-4c4e-a4da-7b6d73c81d3c",
