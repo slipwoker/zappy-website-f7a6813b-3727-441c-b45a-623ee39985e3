@@ -16099,6 +16099,67 @@ function fixContrast(){
     }
   })();
 
+  function reviveCanonicalHeroBackgroundWrappers() {
+    try {
+      var imgs = document.querySelectorAll('img[data-hero-bg], img[data-hero-background="true"]');
+      for (var i = 0; i < imgs.length; i++) {
+        var img = imgs[i];
+        var parent = img.parentElement;
+        while (parent && parent !== document.body && parent.tagName !== 'SECTION') {
+          parent.style.display = '';
+          parent.removeAttribute('data-zappy-original-bg');
+          parent.removeAttribute('data-zappy-preview-hidden');
+          parent = parent.parentElement;
+        }
+        img.removeAttribute('data-zappy-original-bg');
+      }
+    } catch (e) {}
+  }
+
+  function scheduleCanonicalHeroWrapperRevival() {
+    reviveCanonicalHeroBackgroundWrappers();
+    [100, 500, 1500, 3000, 6000, 10000].forEach(function(delay) {
+      setTimeout(reviveCanonicalHeroBackgroundWrappers, delay);
+    });
+    try {
+      if (window.__zappyHeroWrapperRevivalObserver) return;
+      var observer = new MutationObserver(function(mutations) {
+        for (var i = 0; i < mutations.length; i++) {
+          var target = mutations[i].target;
+          if (!target || !target.querySelector) continue;
+          if (
+            (target.matches && target.matches('img[data-hero-bg], img[data-hero-background="true"]')) ||
+            target.querySelector('img[data-hero-bg], img[data-hero-background="true"]')
+          ) {
+            reviveCanonicalHeroBackgroundWrappers();
+            break;
+          }
+        }
+      });
+      observer.observe(document.documentElement, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+        attributeFilter: ['style', 'data-zappy-original-bg', 'data-zappy-preview-hidden']
+      });
+      window.__zappyHeroWrapperRevivalObserver = observer;
+      setTimeout(function() {
+        try {
+          observer.disconnect();
+          if (window.__zappyHeroWrapperRevivalObserver === observer) {
+            window.__zappyHeroWrapperRevivalObserver = null;
+          }
+        } catch (e) {}
+      }, 15000);
+    } catch (e) {}
+  }
+
+  scheduleCanonicalHeroWrapperRevival();
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', scheduleCanonicalHeroWrapperRevival, { once: true });
+  }
+  window.addEventListener('load', scheduleCanonicalHeroWrapperRevival, { once: true });
+
 })();
 
 
