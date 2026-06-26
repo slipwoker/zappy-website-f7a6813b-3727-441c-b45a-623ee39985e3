@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T06:59:46.191Z",
+  "generated_at": "2026-06-26T07:00:35.044Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 466,
+  "count": 464,
   "products": [
     {
       "id": "9f4ef581-e426-4f83-be24-63f6fc0a4cb0",
@@ -9561,56 +9561,6 @@
         "פחי אמבטיה"
       ],
       "updated_at": "2026-06-14T14:26:02.917Z"
-    },
-    {
-      "id": "5e0395db-e899-456f-9658-03c34ae435d2",
-      "slug": "mbrsht-aslh-tsba-lbn-dgm-bino-ghwf3j",
-      "name": "מברשת אסלה צבע לבן דגם BINO\r\n",
-      "name_translations": {},
-      "description": "<p>פחי שירותים, פחי אמבטיה</p>",
-      "short_description": null,
-      "sku": "7290121563970",
-      "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837652219-7sexaq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-tsba-lbn-dgm-bino-ghwf3j",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-06-11T10:30:15.245Z"
-    },
-    {
-      "id": "5dec84d1-4092-4202-9a91-739f6b0e9e8d",
-      "slug": "mbrsht-aslh-tsba-shchvr-dgm-bino-z6ykb6",
-      "name": "מברשת אסלה צבע שחור דגם BINO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121563987",
-      "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837652696-j5df4q.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-tsba-shchvr-dgm-bino-z6ykb6",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-06-11T10:30:27.150Z"
     },
     {
       "id": "b2ba98b8-2fb4-426d-8725-9ef21cc25eb9",
