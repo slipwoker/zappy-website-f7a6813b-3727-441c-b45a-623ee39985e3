@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T07:26:15.040Z",
+  "generated_at": "2026-06-26T07:27:17.349Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 471,
@@ -31,7 +31,7 @@
     },
     {
       "id": "4114f314-86b9-4f19-8c7f-cd40bd02b42c",
-      "slug": "marz-6-kpyvt-akryl-995dwv",
+      "slug": "marz-6-kpyvt-akryl-7132g2",
       "name": "מארז 6 כפיות אקריל",
       "name_translations": {},
       "description": "",
@@ -42,18 +42,20 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782458793839-7mvu1s.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-6-kpyvt-akryl-995dwv",
+      "url": "https://streetstock.co.il/product/marz-6-kpyvt-akryl-7132g2",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:22:57.292Z"
+      "updated_at": "2026-06-26T07:26:44.002Z"
     },
     {
       "id": "63755e16-fcaf-4ea6-afee-0c117f9d535a",
-      "slug": "argvnyt-mgyrh-4-kvmvt-dgm-shon-mv5t0h",
+      "slug": "argvnyt-mgyrh-4-kvmvt-dgm-shon-w62hqt",
       "name": "ארגונית מגירה 4 קומות  דגם SHON",
       "name_translations": {},
       "description": "",
@@ -64,14 +66,16 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782458820244-5bif0h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-mv5t0h",
+      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-w62hqt",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:22:57.290Z"
+      "updated_at": "2026-06-26T07:27:09.892Z"
     },
     {
       "id": "14af5322-4730-4c8d-9e5a-76056e844806",

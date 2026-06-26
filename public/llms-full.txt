@@ -6126,7 +6126,7 @@ SKU: 7290121564519
 ---
 
 ### מארז 6 כפיות אקריל
-URL: https://streetstock.co.il/product/marz-6-kpyvt-akryl-995dwv
+URL: https://streetstock.co.il/product/marz-6-kpyvt-akryl-7132g2
 Price: 9.90 ILS
 Availability: In stock
 SKU: 7290121565486
@@ -6134,7 +6134,7 @@ SKU: 7290121565486
 ---
 
 ### ארגונית מגירה 4 קומות  דגם SHON
-URL: https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-mv5t0h
+URL: https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-w62hqt
 Price: 34.90 ILS
 Availability: In stock
 SKU: 7290121565417
