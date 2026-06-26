@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 470** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 468** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### וילון אמבטיה דגם ג'אקרד צבע ירוק
 https://streetstock.co.il/product/vylvn-ambtyh-dgm-gakrd-tsba-yrvk-nui0ux

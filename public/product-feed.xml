@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Fri, 26 Jun 2026 06:57:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 06:58:25 GMT</lastBuildDate>
     <item>
       <g:id>9f4ef581-e426-4f83-be24-63f6fc0a4cb0</g:id>
       <g:title>וילון אמבטיה דגם ג&apos;אקרד צבע ירוק</g:title>
@@ -3994,20 +3994,6 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>1b215d23-1302-48fc-881c-5b7f7a95dff6</g:id>
-      <g:title>סט פח + מברשת אסלה דגם LUNARIA
- צבע לבן</g:title>
-      <g:description>פחי שירותים, פחי אמבטיה</g:description>
-      <g:link>https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-2h4b8b</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781504519609-aim2pk.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>79.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561945</g:mpn>
-      <g:product_type>פחי שירותים</g:product_type>
-    </item>
-    <item>
       <g:id>0f093b8c-eab2-49fe-a7ec-59c844deecc3</g:id>
       <g:title>סכומון עגול שחור M</g:title>
       <g:description>כלי בית</g:description>
@@ -4019,20 +4005,6 @@
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561761</g:mpn>
       <g:product_type>כלי בית</g:product_type>
-    </item>
-    <item>
-      <g:id>7816aa98-d733-4305-b5d8-cbd50970461b</g:id>
-      <g:title>סט פח + מברשת אסלה דגם LUNARIA
- צבע שחור</g:title>
-      <g:description></g:description>
-      <g:link>https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-nhsgqm</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781439801376-duodoo.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>79.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561938</g:mpn>
-      <g:product_type>פחי שירותים</g:product_type>
     </item>
     <item>
       <g:id>59af7873-1680-4a88-ac12-e4a1d7b5065d</g:id>

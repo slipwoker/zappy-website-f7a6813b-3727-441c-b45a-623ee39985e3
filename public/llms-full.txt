@@ -7806,17 +7806,6 @@ SKU: 7290121562263
 
 ---
 
-### סט פח + מברשת אסלה דגם LUNARIA
- צבע לבן
-URL: https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-2h4b8b
-Price: 79.90 ILS
-Availability: In stock
-SKU: 7290121561945
-
-פחי שירותים, פחי אמבטיה
-
----
-
 ### סכומון עגול שחור M
 URL: https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-nl4k7j
 Price: 14.90 ILS
@@ -7824,15 +7813,6 @@ Availability: In stock
 SKU: 7290121561761
 
 כלי בית
-
----
-
-### סט פח + מברשת אסלה דגם LUNARIA
- צבע שחור
-URL: https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-nhsgqm
-Price: 79.90 ILS
-Availability: In stock
-SKU: 7290121561938
 
 ---
 
