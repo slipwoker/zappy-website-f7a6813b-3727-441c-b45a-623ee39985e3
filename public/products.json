@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T07:27:42.732Z",
+  "generated_at": "2026-06-26T07:28:38.587Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 471,
@@ -103,7 +103,7 @@
     },
     {
       "id": "51b04499-5d6a-4ece-bac1-603f041c7079",
-      "slug": "mshtch-chytvk-mktsvay-akryl-dgm-rynt-l6x4jh",
+      "slug": "mshtch-chytvk-mktsvay-akryl-dgm-rynt-4ykjb1",
       "name": "משטח חיתוך מקצועי אקריל דגם רינת",
       "name_translations": {},
       "description": "",
@@ -114,18 +114,20 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782458877735-jsesr6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-akryl-dgm-rynt-l6x4jh",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-akryl-dgm-rynt-4ykjb1",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:22:57.288Z"
+      "updated_at": "2026-06-26T07:28:05.702Z"
     },
     {
       "id": "6f2c6c47-22e1-4882-b042-9ebade536168",
-      "slug": "kvpsa-tyshv-shkvph-twgyqw",
+      "slug": "kvpsa-tyshv-shkvph-94ab3b",
       "name": "קופסא טישו שקופה",
       "name_translations": {},
       "description": "",
@@ -136,14 +138,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782458901867-vardw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsa-tyshv-shkvph-twgyqw",
+      "url": "https://streetstock.co.il/product/kvpsa-tyshv-shkvph-94ab3b",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:22:57.287Z"
+      "updated_at": "2026-06-26T07:28:32.694Z"
     },
     {
       "id": "dd940fc8-925e-4245-8aca-6d7355de7bfc",

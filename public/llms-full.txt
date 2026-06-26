@@ -6150,7 +6150,7 @@ SKU: 7290121564380
 ---
 
 ### משטח חיתוך מקצועי אקריל דגם רינת
-URL: https://streetstock.co.il/product/mshtch-chytvk-mktsvay-akryl-dgm-rynt-l6x4jh
+URL: https://streetstock.co.il/product/mshtch-chytvk-mktsvay-akryl-dgm-rynt-4ykjb1
 Price: 59.90 ILS
 Availability: In stock
 SKU: 7290121565400
@@ -6158,7 +6158,7 @@ SKU: 7290121565400
 ---
 
 ### קופסא טישו שקופה
-URL: https://streetstock.co.il/product/kvpsa-tyshv-shkvph-twgyqw
+URL: https://streetstock.co.il/product/kvpsa-tyshv-shkvph-94ab3b
 Price: 19.90 ILS
 Availability: In stock
 SKU: 7290121564359
