@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T07:27:17.349Z",
+  "generated_at": "2026-06-26T07:27:42.732Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 471,
@@ -79,7 +79,7 @@
     },
     {
       "id": "14af5322-4730-4c8d-9e5a-76056e844806",
-      "slug": "dly-shtyph-akryl-13-lytr-bg3hej",
+      "slug": "dly-shtyph-akryl-13-lytr-4be37u",
       "name": "דלי שטיפה אקריל 13 ליטר",
       "name_translations": {},
       "description": "",
@@ -90,14 +90,16 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782458848965-iqu2i1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-bg3hej",
+      "url": "https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-4be37u",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:22:57.289Z"
+      "updated_at": "2026-06-26T07:27:42.064Z"
     },
     {
       "id": "51b04499-5d6a-4ece-bac1-603f041c7079",
