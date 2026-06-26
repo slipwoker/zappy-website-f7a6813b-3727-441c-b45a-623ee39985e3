@@ -71,11 +71,12 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 471** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### זוג מחלק מגירות
-https://streetstock.co.il/product/zvg-mchlk-mgyrvt-lmigln
+https://streetstock.co.il/product/zvg-mchlk-mgyrvt-m48trm
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
 - SKU: 7290121564519
+- Image: https://streetstock.co.il/assets/product-1782458729236-9m6s6u5.webp
 
 ### מארז 6 כפיות אקריל
 https://streetstock.co.il/product/marz-6-kpyvt-akryl-995dwv

@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T07:23:59.089Z",
+  "generated_at": "2026-06-26T07:26:15.040Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 471,
   "products": [
     {
       "id": "803c1f59-b3d4-4783-b64a-30ff29dd4def",
-      "slug": "zvg-mchlk-mgyrvt-lmigln",
+      "slug": "zvg-mchlk-mgyrvt-m48trm",
       "name": "זוג מחלק מגירות",
       "name_translations": {},
       "description": "",
@@ -18,14 +18,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1782458729236-9m6s6u5.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlk-mgyrvt-lmigln",
+      "url": "https://streetstock.co.il/product/zvg-mchlk-mgyrvt-m48trm",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:23:26.235Z"
+      "updated_at": "2026-06-26T07:25:42.487Z"
     },
     {
       "id": "4114f314-86b9-4f19-8c7f-cd40bd02b42c",
