@@ -7731,44 +7731,9 @@ Availability: In stock
 
 ---
 
-### סיר 20 ס"מ – 2.6 ליטר
-URL: https://streetstock.co.il/product/syr-20-sm-26-lytr-znrqiu
-Price: 100.00 ILS
-Availability: In stock
-
----
-
 ### סוטאז נירוסטה 28 ס"מ – 2.5 ליטר
 URL: https://streetstock.co.il/product/svtaz-nyrvsth-28-sm-25-lytr-92he07
 Price: 179.90 ILS
-Availability: In stock
-
----
-
-### סוטאז' 32 ס"מ – 5.3 ליטר
-URL: https://streetstock.co.il/product/svtaz-32-sm-53-lytr-q95882
-Price: 149.90 ILS
-Availability: In stock
-
----
-
-### סיר 24 ס"מ – 4.3 ליטר
-URL: https://streetstock.co.il/product/syr-24-sm-43-lytr-d4t2qt
-Price: 119.90 ILS
-Availability: In stock
-
----
-
-### סוטאז' 28 ס"מ – 3.8 ליטר
-URL: https://streetstock.co.il/product/svtaz-28-sm-38-lytr-qa95ht
-Price: 129.90 ILS
-Availability: In stock
-
----
-
-### סיר 28 ס"מ – 6.7 ליטר
-URL: https://streetstock.co.il/product/syr-28-sm-67-lytr-n3rztw
-Price: 129.90 ILS
 Availability: In stock
 
 ---
@@ -7777,14 +7742,6 @@ Availability: In stock
 URL: https://streetstock.co.il/product/svtaz-nyrvsth-32-sm-38-lytr-dmjdtb
 Price: 199.90 ILS
 Availability: In stock
-
----
-
-### ארון נעליים 10 קומות צבע לבן
-URL: https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5
-Price: 119.90 ILS
-Availability: In stock
-SKU: 7290121560870
 
 ---
 
@@ -9998,28 +9955,6 @@ Availability: In stock
 SKU: 7290121563390
 
 סט תה קפה סוכר
-
----
-
-### סיר סוטאז' יציקת אלומיניום 32 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-shchvr-sdrt-lusso-0oejqc
-Price: 149.90 ILS
-Availability: In stock
-SKU: 7290121564199
-
----
-
-### סיר סוטאז' יציקת אלומיניום 28 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-xvur8i
-Price: 119.90 ILS
-Availability: In stock
-SKU: 7290121564106
 
 ---
 

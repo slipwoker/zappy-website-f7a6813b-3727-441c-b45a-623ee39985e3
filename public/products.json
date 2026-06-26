@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T06:52:47.622Z",
+  "generated_at": "2026-06-26T06:56:40.116Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 479,
+  "count": 471,
   "products": [
     {
       "id": "9f4ef581-e426-4f83-be24-63f6fc0a4cb0",
@@ -5507,30 +5507,6 @@
       "updated_at": "2026-06-21T11:08:27.932Z"
     },
     {
-      "id": "4f7f34c5-bb0f-4df3-a459-98727407245e",
-      "slug": "syr-20-sm-26-lytr-znrqiu",
-      "name": "סיר 20 ס\"מ – 2.6 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 100,
-      "base_price": 100,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512527688-x5bxr6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-20-sm-26-lytr-znrqiu",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T08:48:55.721Z"
-    },
-    {
       "id": "b7f4ba32-c63a-4dfd-b6a5-ecc7205343a5",
       "slug": "svtaz-nyrvsth-28-sm-25-lytr-92he07",
       "name": "סוטאז נירוסטה 28 ס\"מ – 2.5 ליטר",
@@ -5555,102 +5531,6 @@
       "updated_at": "2026-06-16T07:46:57.799Z"
     },
     {
-      "id": "96602a68-d668-4538-aa4e-542ea73a2c44",
-      "slug": "svtaz-32-sm-53-lytr-q95882",
-      "name": "סוטאז' 32 ס\"מ – 5.3 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512604852-sg1e44.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svtaz-32-sm-53-lytr-q95882",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
-      "id": "2a182786-a8f9-49c5-85ea-678beb3f0b2e",
-      "slug": "syr-24-sm-43-lytr-d4t2qt",
-      "name": "סיר 24 ס\"מ – 4.3 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512548248-7n4xny.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-24-sm-43-lytr-d4t2qt",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
-      "id": "e94d06a7-c267-410c-a03d-5ac61ca6dbb6",
-      "slug": "svtaz-28-sm-38-lytr-qa95ht",
-      "name": "סוטאז' 28 ס\"מ – 3.8 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 129.9,
-      "base_price": 129.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512625695-y7v8wp.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svtaz-28-sm-38-lytr-qa95ht",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
-      "id": "5b5f514f-15f4-4dd4-bcb4-8b38bd49b468",
-      "slug": "syr-28-sm-67-lytr-n3rztw",
-      "name": "סיר 28 ס\"מ – 6.7 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 129.9,
-      "base_price": 129.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512566005-eexkfx.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-28-sm-67-lytr-n3rztw",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
       "id": "58302929-a322-4d08-985a-5e5e40f0ceb6",
       "slug": "svtaz-nyrvsth-32-sm-38-lytr-dmjdtb",
       "name": "סוטאז נירוסטה 32 ס\"מ – 3.8 ליטר",
@@ -5673,30 +5553,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-06-16T07:46:57.748Z"
-    },
-    {
-      "id": "f4325e29-66ba-4566-b142-681b9195ea37",
-      "slug": "arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5",
-      "name": "ארון נעליים 10 קומות צבע לבן",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121560870",
-      "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837719713-yk77lw.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-zefsj5",
-      "categories": [
-        "מעמדים דקורטיבים "
-      ],
-      "updated_at": "2026-06-11T10:12:32.022Z"
     },
     {
       "id": "64866fb0-9aca-4766-aa95-f2a076ec16d5",
@@ -11024,54 +10880,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "3c31712e-5dbb-48cf-9992-db3a6e8fa153",
-      "slug": "syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-shchvr-sdrt-lusso-0oejqc",
-      "name": "סיר סוטאז' יציקת אלומיניום 32 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר סוטאז' יציקת אלומיניום בעל ציפוי NON STICK\r\n32 ס\"מ | 5 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564199",
-      "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638588-ut4bkt.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-shchvr-sdrt-lusso-0oejqc",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
-      "id": "b691df18-7397-4b30-8bc2-f512921620ec",
-      "slug": "syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-xvur8i",
-      "name": "סיר סוטאז' יציקת אלומיניום 28 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר סוטאז' יציקת אלומיניום בעל ציפוי NON STICK\r\n28 ס\"מ | 3.5 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564106",
-      "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837637123-uvzplq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-xvur8i",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
     },
     {
       "id": "230ee081-c7cc-4478-868f-4dab2c0354fa",
