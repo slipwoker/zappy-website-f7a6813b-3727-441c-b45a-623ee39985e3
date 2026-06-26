@@ -7782,14 +7782,6 @@ Availability: In stock
 
 ---
 
-### ארון נעליים 10 קומות צבע שחור
-URL: https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-ewp5ak
-Price: 119.90 ILS
-Availability: In stock
-SKU: 7290121560887
-
----
-
 ### סיר נירוסטה 24 ס"מ – 4 ליטר
 URL: https://streetstock.co.il/product/syr-nyrvsth-24-sm-4-lytr-6le283
 Price: 159.90 ILS
