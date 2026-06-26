@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-26T07:07:06.393Z",
+  "generated_at": "2026-06-26T07:09:43.874Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 464,
@@ -6277,7 +6277,7 @@
     },
     {
       "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",
-      "slug": "zvg-mchlky-mdpym-akryl-fxugp3",
+      "slug": "zvg-mchlky-mdpym-akryl-7x7dd1",
       "name": "זוג מחלקי מדפים אקריל\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -6293,11 +6293,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-fxugp3",
+      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-7x7dd1",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-15T08:21:20.414Z"
+      "updated_at": "2026-06-26T07:09:11.213Z"
     },
     {
       "id": "32699074-a01b-4a62-8037-4a04e8ca2cbf",
