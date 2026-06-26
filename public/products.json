@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-06-25T12:37:03.562Z",
+  "generated_at": "2026-06-26T06:52:47.622Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 479,
@@ -10427,15 +10427,15 @@
     },
     {
       "id": "400b07bb-8549-4373-8ea1-7099c5eb3e45",
-      "slug": "st-6-kvpsavt-achsvn-akryly-dgm-adn-500-ml-auiqok",
+      "slug": "st-6-kvpsavt-achsvn-akryly-dgm-adn-500-ml-tw8x3s",
       "name": "סט 6 קופסאות אחסון אקרילי דגם \"עדן\" 500 מ\"ל ",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7255882312021",
       "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -10443,11 +10443,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-6-kvpsavt-achsvn-akryly-dgm-adn-500-ml-auiqok",
+      "url": "https://streetstock.co.il/product/st-6-kvpsavt-achsvn-akryly-dgm-adn-500-ml-tw8x3s",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-06-15T08:28:05.098Z"
+      "updated_at": "2026-06-26T06:52:15.144Z"
     },
     {
       "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
