@@ -5212,7 +5212,7 @@ function stripHtmlToText(html) {
               zip: shippingZip
             },
             shippingMethodId: selectedShipping.id,
-            shippingCost: selectedShipping.price || 0,
+            shippingCost: (typeof getShippingCost === 'function' ? getShippingCost() : (selectedShipping.price || 0)),
             shippingMethodName: selectedShipping.name || 'משלוח',
             cart: checkoutCart,
             couponCode: appliedCoupon ? appliedCoupon.code : null,
@@ -5248,7 +5248,7 @@ function stripHtmlToText(html) {
         if (reference) {
           // Ensure numeric values are properly parsed (shipping.price may be string from DB)
           const subtotalNum = getCartSubtotal();
-          const shippingCostNum = parseFloat(selectedShipping.price) || 0;
+          const shippingCostNum = (typeof getShippingCost === 'function' ? getShippingCost() : (parseFloat(selectedShipping.price) || 0));
           const discountNum = parseFloat(couponDiscount + seasonalDiscount + bundleDiscount + firstOrderDiscount + customerCartDiscount) || 0;
           const pendingOrderData = {
             cartItems: checkoutCart,
@@ -12748,14 +12748,15 @@ async function loadRelatedProducts(currentProduct, t) {
         var slotCS = window.getComputedStyle(slotEl);
         var slotWidthGap = slotRect.width - wrapRect.width;
         var slotHeightGap = wrapRect.height - slotRect.height;
-        if (slotWidthGap <= 4 && !(slotHeightGap > 4 && slotRect.height > 0 && slotCS.overflow !== 'visible')) return;
+        var forceCardSlotFill = widthMode === 'card-slot' || wrapper.getAttribute('data-zappy-card-slot-fill') === '1';
+        if (!forceCardSlotFill && slotWidthGap <= 4 && !(slotHeightGap > 4 && slotRect.height > 0 && slotCS.overflow !== 'visible')) return;
         var swStr = wrapper.getAttribute('data-zappy-zoom-wrapper-width');
         var shStr = wrapper.getAttribute('data-zappy-zoom-wrapper-height');
         var swNum = parseFloat(swStr) || 0;
         var shNum = parseFloat(shStr) || 0;
         wrapper.style.setProperty('width', '100%', 'important');
         wrapper.style.setProperty('max-width', '100%', 'important');
-        if (slotHeightGap > 4 && slotRect.height > 0 && slotCS.overflow !== 'visible') {
+        if (slotRect.height > 0 && (forceCardSlotFill || (slotHeightGap > 4 && slotCS.overflow !== 'visible'))) {
           wrapper.style.setProperty('height', '100%', 'important');
           wrapper.style.setProperty('aspect-ratio', 'auto', 'important');
           wrapper.style.setProperty('padding-bottom', '0', 'important');
@@ -16867,3 +16868,77 @@ function fixContrast(){
 /* ZAPPY_CUSTOMER_DISCOUNT_PRODUCT_DETAIL_RACE_V1 */
 
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
+
+/* ZAPPY_CHECKOUT_SHIPPING_THRESHOLD_PAYLOAD_V1 */
+
+/* ZAPPY_CHECKOUT_BUTTON_CONTRAST_RUNTIME_V1 */
+;(function() {
+  if (window.__zappyCheckoutButtonContrastRuntimeV1) return;
+  window.__zappyCheckoutButtonContrastRuntimeV1 = true;
+
+  function parseRgb(color) {
+    var match = String(color || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+    return match ? { r: parseInt(match[1], 10), g: parseInt(match[2], 10), b: parseInt(match[3], 10) } : null;
+  }
+
+  function luminance(rgb) {
+    var vals = [rgb.r, rgb.g, rgb.b].map(function(v) {
+      v = v / 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    return 0.2126 * vals[0] + 0.7152 * vals[1] + 0.0722 * vals[2];
+  }
+
+  function contrast(a, b) {
+    var l1 = luminance(a);
+    var l2 = luminance(b);
+    return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+  }
+
+  function effectiveBg(el) {
+    var node = el;
+    while (node) {
+      var bg = window.getComputedStyle(node).backgroundColor;
+      var rgb = parseRgb(bg);
+      if (rgb && !/rgba\([^)]*,\s*0\s*\)/.test(bg)) return rgb;
+      node = node.parentElement;
+    }
+    return { r: 255, g: 255, b: 255 };
+  }
+
+  function fixButton(btn) {
+    if (!btn) return;
+    var bg = effectiveBg(btn);
+    var dark = { r: 17, g: 17, b: 17 };
+    var light = { r: 255, g: 255, b: 255 };
+    var nextColor = contrast(light, bg) >= contrast(dark, bg) ? '#FFFFFF' : '#111111';
+    if (btn.style.getPropertyValue('color') !== nextColor || btn.style.getPropertyPriority('color') !== 'important') {
+      btn.style.setProperty('color', nextColor, 'important');
+    }
+  }
+
+  function sync() {
+    document.querySelectorAll('#place-order-btn, .checkout-place-order-btn').forEach(fixButton);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', sync);
+  } else {
+    sync();
+  }
+
+  if (typeof MutationObserver !== 'undefined') {
+    var observer = new MutationObserver(sync);
+    function observeButtons() {
+      document.querySelectorAll('#place-order-btn, .checkout-place-order-btn').forEach(function(btn) {
+        observer.observe(btn, { attributes: true, attributeFilter: ['class', 'style', 'disabled'] });
+      });
+      sync();
+    }
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', observeButtons);
+    } else {
+      observeButtons();
+    }
+  }
+})();
