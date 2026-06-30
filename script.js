@@ -12335,6 +12335,70 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
+/* ZAPPY_CUSTOM_JS_START:14fec1b058c6 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  var section = document.querySelector('#home-hero-section');
+  if (!section) return;
+  
+  var images = [
+    'assets/site-home-hero-image-1-1782827702798-e3ccty.webp?v=1782827702798',
+    'assets/site-home-hero-image-1-1782827753660-gn2kdo.webp?v=1782827753660',
+    'assets/site-home-hero-image-1-1782827794497-u1p1e0.webp?v=1782827794497'
+  ];
+  
+  var bgDiv = section.querySelector('.home-hero-bg');
+  if (!bgDiv) return;
+  
+  // Remove existing zoom-wrapper and image
+  var existingWrapper = bgDiv.querySelector('[data-zappy-zoom-wrapper]');
+  if (existingWrapper) existingWrapper.remove();
+  
+  // Create carousel container
+  var carousel = document.createElement('div');
+  carousel.className = 'hero-carousel';
+  carousel.style.cssText = 'position:absolute;inset:0;z-index:0;overflow:hidden;';
+  
+  // Create all 3 image layers
+  images.forEach(function(src, i) {
+    var div = document.createElement('div');
+    div.className = 'hero-carousel-slide';
+    div.style.cssText = 'position:absolute;inset:0;z-index:' + (images.length - i) + ';opacity:' + (i === 0 ? '1' : '0') + ';transition:opacity 1.2s ease-in-out;';
+    
+    var img = document.createElement('img');
+    img.src = src;
+    img.alt = 'Street Stock';
+    img.style.cssText = 'width:100%;height:100%;object-fit:cover;object-position:center center;display:block;';
+    div.appendChild(img);
+    carousel.appendChild(div);
+  });
+  
+  bgDiv.appendChild(carousel);
+  
+  // Rotate every 3 seconds
+  var slides = carousel.querySelectorAll('.hero-carousel-slide');
+  var current = 0;
+  
+  setInterval(function() {
+    slides[current].style.opacity = '0';
+    current = (current + 1) % slides.length;
+    slides[current].style.opacity = '1';
+  }, 3000);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:14fec1b058c6 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
