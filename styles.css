@@ -18192,9 +18192,8 @@ html body .home-hero-section .zappy-hero-carousel { inset: 0 !important; }
 .mobile-carousel-section .zappy-img-carousel {
   width: 100% !important;
   position: relative !important;
-  overflow: visible !important;
-  aspect-ratio: auto !important;
-  min-height: auto !important;
+  overflow: hidden !important;
+  aspect-ratio: 4 / 5 !important;
 }
 
 .mobile-carousel-section .zappy-img-carousel-slide {
@@ -18217,7 +18216,7 @@ html body .home-hero-section .zappy-hero-carousel { inset: 0 !important; }
   width: 100% !important;
   height: auto !important;
   display: block !important;
-  object-fit: contain !important;
+  object-fit: cover !important;
 }
 }
 .mobile-carousel-section {
@@ -18345,10 +18344,9 @@ html body .mobile-carousel-section {
 #mobile-carousel-section .zappy-img-carousel {
   width: 100% !important;
   height: auto !important;
-  aspect-ratio: auto !important;
+  aspect-ratio: 4 / 5 !important;
   position: relative !important;
-  overflow: visible !important;
-  min-height: auto !important;
+  overflow: hidden !important;
 }
 
 #mobile-carousel-section .zappy-img-carousel-slide {
@@ -18369,7 +18367,7 @@ html body .mobile-carousel-section {
 #mobile-carousel-section .zappy-img-carousel-slide img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain !important;
+  object-fit: cover !important;
   display: block !important;
 }
 }
@@ -18577,47 +18575,6 @@ html body .mobile-carousel-section {
 
 .home-hero-section {
   display: flex !important;
-}
-}
-
-@media (max-width: 768px) {
-.mobile-carousel-section .zappy-img-carousel {
-  width: 100% !important;
-  aspect-ratio: 3 / 4 !important;
-  position: relative !important;
-  overflow: hidden !important;
-  min-height: 400px !important;
-}
-
-.mobile-carousel-section .zappy-img-carousel-slide img {
-  width: 100% !important;
-  height: 100% !important;
-  object-fit: contain !important;
-  display: block !important;
-}
-}
-
-@media (max-width: 768px) {
-html body #mobile-carousel-section .zappy-img-carousel {
-  overflow: visible !important;
-  aspect-ratio: auto !important;
-  min-height: auto !important;
-  height: auto !important;
-}
-
-html body #mobile-carousel-section .zappy-img-carousel-slide img {
-  object-fit: contain !important;
-  width: 100% !important;
-  height: auto !important;
-}
-
-html body #mobile-carousel-section .zappy-img-carousel-slide {
-  position: relative !important;
-  height: auto !important;
-}
-
-html body #mobile-carousel-section .zappy-carousel-container-wrapper {
-  height: auto !important;
 }
 }
 /* mobile-submenu-overflow-fix */
