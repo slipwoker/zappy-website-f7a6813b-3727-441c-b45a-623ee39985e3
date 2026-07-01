@@ -12335,29 +12335,37 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
-/* ZAPPY_CUSTOM_JS_START:7b5e193ba62f */
+/* ZAPPY_CUSTOM_JS_START:d1d84de352b8 */
 (function () {
   function __zappyCustomInit() {
     try {
 (function() {
-  const carousel = document.querySelector('.home-hero-section .zappy-hero-carousel');
+  var carousel = document.querySelector('.home-hero-section .zappy-hero-carousel');
   if (!carousel) return;
   
-  const slides = carousel.querySelectorAll('.zappy-hero-carousel-slide');
+  var slides = carousel.querySelectorAll('.zappy-hero-carousel-slide');
   if (slides.length <= 1) return;
   
-  const interval = parseInt(carousel.getAttribute('data-interval')) || 3000;
-  let current = 0;
+  var interval = 3000;
+  var current = 0;
   
-  // Ensure only the first slide is active
-  slides.forEach(function(slide, i) {
-    slide.classList.toggle('is-active', i === 0);
-  });
+  // Reset: make only the first slide active
+  for (var i = 0; i < slides.length; i++) {
+    if (i === 0) {
+      slides[i].classList.add('is-active');
+      slides[i].style.opacity = '1';
+    } else {
+      slides[i].classList.remove('is-active');
+      slides[i].style.opacity = '0';
+    }
+  }
   
   setInterval(function() {
     slides[current].classList.remove('is-active');
+    slides[current].style.opacity = '0';
     current = (current + 1) % slides.length;
     slides[current].classList.add('is-active');
+    slides[current].style.opacity = '1';
   }, interval);
 })();
     } catch (e) {
@@ -12370,7 +12378,7 @@ async function loadRelatedProducts(currentProduct, t) {
     __zappyCustomInit();
   }
 })();
-/* ZAPPY_CUSTOM_JS_END:7b5e193ba62f */
+/* ZAPPY_CUSTOM_JS_END:d1d84de352b8 */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
