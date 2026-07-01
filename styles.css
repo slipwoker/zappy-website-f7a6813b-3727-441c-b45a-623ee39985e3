@@ -18577,6 +18577,12 @@ html body .mobile-carousel-section {
   display: flex !important;
 }
 }
+
+@media (max-width: 768px) {
+html body #mobile-carousel-section #zappy-attached-carousel-1782890442301.zappy-img-carousel {
+  aspect-ratio: 4 / 5 !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
