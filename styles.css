@@ -18192,7 +18192,7 @@ html body .home-hero-section .zappy-hero-carousel { inset: 0 !important; }
 .mobile-carousel-section .zappy-img-carousel {
   width: 100% !important;
   position: relative !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   aspect-ratio: auto !important;
   min-height: auto !important;
 }
@@ -18347,7 +18347,7 @@ html body .mobile-carousel-section {
   height: auto !important;
   aspect-ratio: auto !important;
   position: relative !important;
-  overflow: hidden !important;
+  overflow: visible !important;
   min-height: auto !important;
 }
 
