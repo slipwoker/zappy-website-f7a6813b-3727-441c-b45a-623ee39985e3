@@ -12335,6 +12335,43 @@ async function loadRelatedProducts(currentProduct, t) {
 }
 /* ==ZAPPY E-COMMERCE JS END== */
 
+/* ZAPPY_CUSTOM_JS_START:7b5e193ba62f */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  const carousel = document.querySelector('.home-hero-section .zappy-hero-carousel');
+  if (!carousel) return;
+  
+  const slides = carousel.querySelectorAll('.zappy-hero-carousel-slide');
+  if (slides.length <= 1) return;
+  
+  const interval = parseInt(carousel.getAttribute('data-interval')) || 3000;
+  let current = 0;
+  
+  // Ensure only the first slide is active
+  slides.forEach(function(slide, i) {
+    slide.classList.toggle('is-active', i === 0);
+  });
+  
+  setInterval(function() {
+    slides[current].classList.remove('is-active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('is-active');
+  }, interval);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:7b5e193ba62f */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
