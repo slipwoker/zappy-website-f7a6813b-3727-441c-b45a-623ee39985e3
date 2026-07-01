@@ -18193,6 +18193,8 @@ html body .home-hero-section .zappy-hero-carousel { inset: 0 !important; }
   width: 100% !important;
   position: relative !important;
   overflow: hidden !important;
+  aspect-ratio: auto !important;
+  min-height: auto !important;
 }
 
 .mobile-carousel-section .zappy-img-carousel-slide {
@@ -18215,7 +18217,7 @@ html body .home-hero-section .zappy-hero-carousel { inset: 0 !important; }
   width: 100% !important;
   height: auto !important;
   display: block !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
 }
 }
 .mobile-carousel-section {
@@ -18343,9 +18345,10 @@ html body .mobile-carousel-section {
 #mobile-carousel-section .zappy-img-carousel {
   width: 100% !important;
   height: auto !important;
-  aspect-ratio: 4 / 3 !important;
+  aspect-ratio: auto !important;
   position: relative !important;
   overflow: hidden !important;
+  min-height: auto !important;
 }
 
 #mobile-carousel-section .zappy-img-carousel-slide {
@@ -18366,7 +18369,7 @@ html body .mobile-carousel-section {
 #mobile-carousel-section .zappy-img-carousel-slide img {
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
+  object-fit: contain !important;
   display: block !important;
 }
 }
