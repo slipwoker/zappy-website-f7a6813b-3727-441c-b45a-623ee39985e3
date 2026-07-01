@@ -18596,6 +18596,30 @@ html body .mobile-carousel-section {
   display: block !important;
 }
 }
+
+@media (max-width: 768px) {
+html body #mobile-carousel-section .zappy-img-carousel {
+  overflow: visible !important;
+  aspect-ratio: auto !important;
+  min-height: auto !important;
+  height: auto !important;
+}
+
+html body #mobile-carousel-section .zappy-img-carousel-slide img {
+  object-fit: contain !important;
+  width: 100% !important;
+  height: auto !important;
+}
+
+html body #mobile-carousel-section .zappy-img-carousel-slide {
+  position: relative !important;
+  height: auto !important;
+}
+
+html body #mobile-carousel-section .zappy-carousel-container-wrapper {
+  height: auto !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
