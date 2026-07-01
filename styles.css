@@ -18620,16 +18620,6 @@ html body #mobile-carousel-section .zappy-carousel-container-wrapper {
   height: auto !important;
 }
 }
-
-@media (max-width: 768px) {
-#mobile-carousel-section .zappy-img-carousel {
-  background-color: var(--secondary-color) !important;
-}
-
-#mobile-carousel-section .zappy-img-carousel-slide {
-  background-color: var(--secondary-color) !important;
-}
-}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
