@@ -18490,6 +18490,92 @@ html body .mobile-carousel-section {
 .mobile-carousel-section + #zappy-attached-carousel-1782891721961 {
   display: none !important;
 }
+
+@media (max-width: 768px) {
+#mobile-carousel-section .zappy-img-carousel {
+  width: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  min-height: 280px !important;
+}
+
+#mobile-carousel-section .zappy-img-carousel-slide {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0 !important;
+  transition: opacity 0.8s ease-in-out !important;
+}
+
+#mobile-carousel-section .zappy-img-carousel-slide.is-active {
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+#mobile-carousel-section .zappy-img-carousel-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+#home-hero-section.home-hero-section {
+  display: none !important;
+}
+}
+
+@media (max-width: 768px) {
+.mobile-carousel-section {
+  display: block !important;
+}
+
+.mobile-carousel-section .zappy-img-carousel {
+  width: 100% !important;
+  aspect-ratio: 4 / 3 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  min-height: 280px !important;
+}
+
+.mobile-carousel-section .zappy-img-carousel-slide {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0 !important;
+  transition: opacity 0.8s ease-in-out !important;
+}
+
+.mobile-carousel-section .zappy-img-carousel-slide.is-active {
+  opacity: 1 !important;
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+.mobile-carousel-section .zappy-img-carousel-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  display: block !important;
+}
+
+.home-hero-section {
+  display: none !important;
+}
+}
+
+@media (min-width: 769px) {
+.mobile-carousel-section {
+  display: none !important;
+}
+
+.home-hero-section {
+  display: flex !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
