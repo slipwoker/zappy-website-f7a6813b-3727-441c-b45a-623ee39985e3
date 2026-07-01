@@ -18198,6 +18198,7 @@ html body .home-hero-section .zappy-hero-carousel { inset: 0 !important; }
 }
 
 .mobile-carousel-section .zappy-img-carousel-slide {
+  position: absolute !important;
   top: 0 !important;
   left: 0 !important;
   width: 100% !important;
@@ -18617,21 +18618,6 @@ html body #mobile-carousel-section .zappy-img-carousel-slide {
 
 html body #mobile-carousel-section .zappy-carousel-container-wrapper {
   height: auto !important;
-}
-}
-
-@media (max-width: 768px) {
-#mobile-carousel-section .zappy-carousel-container-wrapper {
-  background-color: var(--secondary-color) !important;
-}
-
-#mobile-carousel-section .zappy-carousel-track {
-  background-color: var(--secondary-color) !important;
-  gap: 0 !important;
-}
-
-#mobile-carousel-section .zappy-img-carousel-slide {
-  background-color: var(--secondary-color) !important;
 }
 }
 /* mobile-submenu-overflow-fix */
