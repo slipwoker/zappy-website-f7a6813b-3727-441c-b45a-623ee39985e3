@@ -18461,6 +18461,29 @@ html body .mobile-carousel-section .zappy-img-carousel-slide img { height: 100% 
 #home-hero-section.home-hero-section {
   display: flex !important;
 }
+
+@media (min-width: 769px) {
+.mobile-carousel-section {
+  display: none !important;
+}
+}
+
+@media (max-width: 768px) {
+.mobile-carousel-section {
+  display: block !important;
+}
+}
+/* zappy-self-heal */
+.mobile-carousel-section { display: none !important; }
+
+/* zappy-self-heal */
+html body .mobile-carousel-section { display: none !important; }
+
+
+.mobile-carousel-section ~ #zappy-attached-carousel-1782891721961,
+.mobile-carousel-section + #zappy-attached-carousel-1782891721961 {
+  display: none !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
