@@ -18308,8 +18308,9 @@ html body .mobile-carousel-section .zappy-img-carousel-slide img { height: 100% 
 .home-hero-section { display: none !important; }
 .mobile-carousel-section { display: block !important; }
 
-/* zappy-self-heal */
-html body .home-hero-section { display: none !important; }
+html body .home-hero-section {
+  display: block;
+}
 html body .mobile-carousel-section { display: block !important; }
 
 
