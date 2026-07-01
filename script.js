@@ -12556,48 +12556,6 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:5b9ac74f6c27 */
 
-/* ZAPPY_CUSTOM_JS_START:b145f077b53f */
-(function () {
-  function __zappyCustomInit() {
-    try {
-(function() {
-  var container = document.getElementById('zappy-attached-carousel-1782890442301');
-  if (!container) return;
-  
-  var slides = container.querySelectorAll('.zappy-img-carousel-slide');
-  if (slides.length < 2) return;
-  
-  var currentIdx = 0;
-  var interval = parseInt(container.getAttribute('data-interval')) || 3000;
-  
-  // Find initial active slide
-  for (var i = 0; i < slides.length; i++) {
-    if (slides[i].classList.contains('is-active')) {
-      currentIdx = i;
-      break;
-    }
-  }
-  
-  function nextSlide() {
-    slides[currentIdx].classList.remove('is-active');
-    currentIdx = (currentIdx + 1) % slides.length;
-    slides[currentIdx].classList.add('is-active');
-  }
-  
-  setInterval(nextSlide, interval);
-})();
-    } catch (e) {
-      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
-  } else {
-    __zappyCustomInit();
-  }
-})();
-/* ZAPPY_CUSTOM_JS_END:b145f077b53f */
-
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
