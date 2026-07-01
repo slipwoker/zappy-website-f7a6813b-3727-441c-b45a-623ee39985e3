@@ -18576,6 +18576,23 @@ html body .mobile-carousel-section {
   display: flex !important;
 }
 }
+
+@media (max-width: 768px) {
+.mobile-carousel-section .zappy-img-carousel {
+  width: 100% !important;
+  aspect-ratio: 3 / 4 !important;
+  position: relative !important;
+  overflow: hidden !important;
+  min-height: 400px !important;
+}
+
+.mobile-carousel-section .zappy-img-carousel-slide img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: contain !important;
+  display: block !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
