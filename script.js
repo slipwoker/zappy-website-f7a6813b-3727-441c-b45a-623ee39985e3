@@ -12380,6 +12380,57 @@ async function loadRelatedProducts(currentProduct, t) {
 })();
 /* ZAPPY_CUSTOM_JS_END:d1d84de352b8 */
 
+/* ZAPPY_CUSTOM_JS_START:3407033defd7 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  const carousel = document.querySelector('.mobile-carousel-section .zappy-img-carousel');
+  if (!carousel) return;
+  
+  const slides = carousel.querySelectorAll('.zappy-img-carousel-slide');
+  if (slides.length <= 1) return;
+  
+  let currentIndex = 0;
+  const interval = parseInt(carousel.getAttribute('data-interval')) || 3000;
+  
+  function showSlide(index) {
+    slides.forEach(function(slide, i) {
+      if (i === index) {
+        slide.classList.add('is-active');
+        slide.style.opacity = '1';
+        slide.style.position = 'relative';
+        slide.style.zIndex = '1';
+      } else {
+        slide.classList.remove('is-active');
+        slide.style.opacity = '0';
+        slide.style.position = 'absolute';
+        slide.style.zIndex = '0';
+      }
+    });
+  }
+  
+  // Initialize
+  showSlide(0);
+  
+  // Auto-rotate
+  setInterval(function() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  }, interval);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:3407033defd7 */
+
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 (function(){
