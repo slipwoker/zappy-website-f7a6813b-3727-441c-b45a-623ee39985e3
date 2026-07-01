@@ -18457,6 +18457,10 @@ html body .mobile-carousel-section .zappy-img-carousel-slide { inset: 0 !importa
 html body .mobile-carousel-section .zappy-img-carousel-slide { height: 100% !important; }
 html body .mobile-carousel-section .zappy-img-carousel-slide img { height: 100% !important; }
 
+
+#home-hero-section.home-hero-section {
+  display: flex !important;
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
