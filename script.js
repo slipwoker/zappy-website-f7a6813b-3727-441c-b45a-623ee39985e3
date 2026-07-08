@@ -2008,6 +2008,105 @@ window.onload = function() {
 ;
 
 ;
+
+
+/* ZAPPY_CUSTOM_JS_START:d1d84de352b8 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  var carousel = document.querySelector('.home-hero-section .zappy-hero-carousel');
+  if (!carousel) return;
+  
+  var slides = carousel.querySelectorAll('.zappy-hero-carousel-slide');
+  if (slides.length <= 1) return;
+  
+  var interval = 3000;
+  var current = 0;
+  
+  // Reset: make only the first slide active
+  for (var i = 0; i < slides.length; i++) {
+    if (i === 0) {
+      slides[i].classList.add('is-active');
+      slides[i].style.opacity = '1';
+    } else {
+      slides[i].classList.remove('is-active');
+      slides[i].style.opacity = '0';
+    }
+  }
+  
+  setInterval(function() {
+    slides[current].classList.remove('is-active');
+    slides[current].style.opacity = '0';
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('is-active');
+    slides[current].style.opacity = '1';
+  }, interval);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:d1d84de352b8 */
+
+/* ZAPPY_CUSTOM_JS_START:3407033defd7 */
+(function () {
+  function __zappyCustomInit() {
+    try {
+(function() {
+  const carousel = document.querySelector('.mobile-carousel-section .zappy-img-carousel');
+  if (!carousel) return;
+  
+  const slides = carousel.querySelectorAll('.zappy-img-carousel-slide');
+  if (slides.length <= 1) return;
+  
+  let currentIndex = 0;
+  const interval = parseInt(carousel.getAttribute('data-interval')) || 3000;
+  
+  function showSlide(index) {
+    slides.forEach(function(slide, i) {
+      if (i === index) {
+        slide.classList.add('is-active');
+        slide.style.opacity = '1';
+        slide.style.position = 'relative';
+        slide.style.zIndex = '1';
+      } else {
+        slide.classList.remove('is-active');
+        slide.style.opacity = '0';
+        slide.style.position = 'absolute';
+        slide.style.zIndex = '0';
+      }
+    });
+  }
+  
+  // Initialize
+  showSlide(0);
+  
+  // Auto-rotate
+  setInterval(function() {
+    currentIndex = (currentIndex + 1) % slides.length;
+    showSlide(currentIndex);
+  }, interval);
+})();
+    } catch (e) {
+      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
+  } else {
+    __zappyCustomInit();
+  }
+})();
+/* ZAPPY_CUSTOM_JS_END:3407033defd7 */
+
+;
 /* ==ZAPPY E-COMMERCE JS START== */
 // E-commerce functionality
 (function() {
@@ -2116,6 +2215,8 @@ window.onload = function() {
       document.body.style.setProperty('padding-top', announcementBarHeight + 'px', 'important');
     }
   }
+
+  try { window.zappySetupFixedHeaders = setupFixedHeaders; } catch (e) {}
   
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', setupFixedHeaders);
@@ -2127,12 +2228,13 @@ window.onload = function() {
   setTimeout(setupFixedHeaders, 200);
   setTimeout(setupFixedHeaders, 500);
   const getApiBase = function() {
-    const explicitBase = (window.ZAPPY_API_BASE || '').replace(/\/$/, '');
-    const path = window.location ? window.location.pathname : '';
+    const path = window.location && window.location.pathname ? window.location.pathname : '';
     if (path.indexOf('/preview') !== -1 || path.indexOf('/preview-fullscreen') !== -1) {
-      return window.location.origin;
+      return window.location ? window.location.origin : '';
     }
-    return explicitBase;
+    const explicitBase = (window.ZAPPY_API_BASE || '').replace(/\/$/, '');
+    if (explicitBase) return explicitBase;
+    return window.location ? window.location.origin : '';
   };
   const buildApiUrl = function(path) {
     if (path.charAt(0) !== '/') {
@@ -2182,7 +2284,7 @@ window.onload = function() {
   if (!websiteId) return;
   
   // Translations
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"barakn123@gmail.com"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"streetstock@gmail.com"};
   const zappyEcomDefaultLanguage = "he";
 
   // Multi-currency (currency per language). When disabled, formatMoney() uses
@@ -2327,7 +2429,7 @@ window.onload = function() {
   // baked dictionary cannot drift from the JSON source-of-truth.
   // Pre-refactor this was a hand-curated en+he literal — see
   // buildEcomRuntimeTextForBaking() in multiLanguageService.js for the why.
-  const ECOM_RUNTIME_TEXT = {"ar":{"loading":"جارٍ التحميل…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"أضف {count} منتجات إلى السلة","addToCart":"أضف إلى السلة","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"أوافق على","all":"الكل","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"شقة، طابق، رمز المبنى، ملاحظات، إلخ.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"خصم الحزمة","bundleTotal":"إجمالي الحزمة","callNow":"Call Now","cancel":"Cancel","capacity":"السعة","cart":"Cart","category":"Category","checkout":"الدفع","city":"المدينة","cityRequired":"يرجى إدخال المدينة","color":"اللون","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"متابعة التسوق","continueToHomePage":"Continue to Home Page","countryRegion":"البلد / المنطقة","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"لا توجد دورات متاحة بعد.","coursesCatalogError":"فشل في تحميل الدورات.","coursesCatalogSubtitle":"تصفح مكتبة الدورات الكاملة لدينا.","coursesCatalogTitle":"الدورات","coursesCertificateLoading":"جاري التحقق…","coursesCertificateTitle":"التحقق من الشهادة","coursesDetailEnroll":"أضف إلى السلة","coursesDetailResume":"متابعة التعلم","coursesDigitalDelivery":"الوصول الرقمي عبر الإنترنت","coursesLessonCompleted":"مكتمل","coursesLessonLoading":"جاري تحميل الدرس…","coursesLessonMarkComplete":"تحديد كمكتمل","coursesLessonNext":"التالي","coursesLessonPrev":"السابق","coursesMyLearningEmpty":"لم تسجل في أي دورات بعد.","coursesMyLearningLoading":"جاري تحميل دوراتك…","coursesMyLearningSubtitle":"تابع من حيث توقفت.","coursesMyLearningTitle":"تعلمي","coursesCertCourse":"الدورة","coursesCertDownload":"تحميل","coursesCertError":"فشل في التحقق.","coursesCertInvalid":"لا يمكن التحقق من هذه الشهادة.","coursesCertIssued":"تاريخ الإصدار","coursesCertStudent":"الطالب","coursesCertValid":"تم التحقق","coursesCertIssuer":"صادر عن","coursesCertCode":"رمز التحقق","coursesViewCertificate":"عرض الشهادة","coursesCertEarnedTitle":"اكتملت الدورة!","coursesCertEarnedBody":"شهادتك جاهزة.","coursesCurriculumEmpty":"المنهج قادم قريباً.","coursesFree":"مجاني","coursesJoinLive":"انضم مباشرة","coursesLessonGate":"سجل في هذه الدورة للوصول إلى هذا الدرس.","coursesLessonLocked":"الدرس مقفل","coursesLessonLoadError":"فشل في تحميل الدرس.","coursesEnrollCta":"عرض الدورة والتسجيل","coursesEnrollmentRevoked":"تسجيلك لم يعد نشطاً.","coursesDripLocked":"هذا الدرس سيتم فتحه وفقاً لجدول زمني.","coursesVideoProcessing":"الفيديو لا يزال قيد المعالجة. تحقق مرة أخرى قريباً.","coursesVideoFailed":"فشل في معالجة الفيديو. يرجى إعادة تحميل فيديو الدرس من Course Studio.","coursesDetailLoading":"جاري التحميل…","coursesDetailInstructor":"المدرب","coursesDetailCurriculum":"المنهج الدراسي","coursesLevelBeginner":"مبتدئ","coursesLevelIntermediate":"متوسط","coursesLevelAdvanced":"متقدم","coursesLessonUnsupported":"نوع الدرس هذا غير مدعوم بعد.","coursesLiveScheduled":"تم جدولة الجلسة المباشرة","coursesPreview":"معاينة","coursesQuizError":"فشل في تحميل الاختبار.","coursesQuizLoading":"جاري تحميل الاختبار…","coursesQuizNone":"لا يوجد اختبار في هذا الدرس.","coursesQuizPassed":"لقد نجحت!","coursesQuizRetry":"حاول مرة أخرى.","coursesQuizSubmit":"إرسال","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"أيام","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"الخصم","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"يرجى إدخال بريد إلكتروني صالح","emailRequired":"يرجى إدخال عنوان البريد الإلكتروني","emptyCart":"السلة فارغة","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"خطأ في تحميل الخيارات","featured":"مميز","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"مجاني","freeAbove":"مجاني فوق","frequentlyBoughtTogether":"يُشترى معًا بشكل متكرر","frequentlyBoughtTogetherSubtitle":"وفّر وقتك واحصل على كل ما تحتاجه","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"الرئيسية","inStock":"متوفر","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"الطول","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"المادة","minimumOrderNotMet":"الحد الأدنى لمبلغ الطلب: {{amount}}. أضف {{remaining}} للمتابعة.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"يرجى إدخال الاسم الكامل","new":"جديد","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"متجرك جاهز للمنتجات","previewEmptyStoreBody":"أضف أول منتج في مدير المتجر ليراه يظهر هنا.","previewEmptyStoreButton":"أضف منتجات","previewOnlyBadge":"للمعاينة فقط","noShippingMethods":"لا توجد خيارات شحن متاحة","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"غير متوفر","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"يرجى إدخال رقم الهاتف","placeOrder":"Place Order","pleaseAcceptTerms":"يرجى الموافقة على الشروط والأحكام","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"متابعة الدفع","productDetails":"تفاصيل المنتج","productNotFound":"Product not found","products":"المنتجات","profileUpdated":"Profile updated successfully","quantity":"الكمية","relatedProducts":"منتجات ذات صلة","remove":"إزالة","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"تخفيضات","saveAddressForNextTime":"احفظ هذا العنوان للمرة القادمة","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"الشحن","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"يرجى اختيار طريقة الشحن","signInHere":"Sign in here","size":"الحجم","sku":"رمز المنتج","specifications":"المواصفات","startingAt":"ابتداءً من","stateProvince":"الولاية / المحافظة","stateRequired":"يرجى اختيار الولاية / المحافظة","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"معلومات إضافية","street":"Street Address","streetAndNumber":"الشارع والرقم","streetRequired":"يرجى إدخال عنوان الشارع","style":"الطراز","subtotal":"المجموع الفرعي","termsAndConditions":"الشروط والأحكام","thankYouOrder":"Thank you for your order","total":"المجموع","totalToPay":"المبلغ الإجمالي المستحق","transactionDate":"Transaction Date","upsellFree":"مجاناً","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"شامل ضريبة القيمة المضافة","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"عرض التفاصيل","viewOrder":"View Order","weight":"الوزن","work":"Work","yourCart":"سلتك","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"الرمز البريدي","coursesAlreadyOwned":"أنت مسجل بالفعل في هذه الدورة.","coursesAlreadyOwnedCheckout":"أنت مسجل بالفعل في دورة في سلة التسوق.","coursesEnrollmentCheckFailed":"لا يمكن التحقق من ملكية الدورة. يرجى المحاولة مرة أخرى.","coursesAlreadyEnrolledPrompt":"مسجل بالفعل؟","coursesLoginLink":"تسجيل الدخول","processing":"جارٍ المعالجة...","checkoutFailed":"فشل الدفع. يرجى المحاولة مرة أخرى."},"bg":{"loading":"Зареждане…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добави {count} продукта в количката","addToCart":"Добави в количката","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Съгласен съм с","all":"Всички","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Апартамент, етаж, код на сграда, бележки и др.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Отстъпка за пакет","bundleTotal":"Общо за комплекта","callNow":"Call Now","cancel":"Cancel","capacity":"Капацитет","cart":"Cart","category":"Category","checkout":"Поръчка","city":"Град","cityRequired":"Моля, въведете града си","color":"Цвят","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продължи пазаруването","continueToHomePage":"Continue to Home Page","countryRegion":"Държава / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Все още няма налични курсове.","coursesCatalogError":"Неуспешно зареждане на курсовете.","coursesCatalogSubtitle":"Разгледайте пълната ни библиотека от курсове.","coursesCatalogTitle":"Курсове","coursesCertificateLoading":"Проверява се…","coursesCertificateTitle":"Проверка на сертификат","coursesDetailEnroll":"Добави в количката","coursesDetailResume":"Продължи обучението","coursesDigitalDelivery":"Цифров онлайн достъп","coursesLessonCompleted":"Завършено","coursesLessonLoading":"Зарежда се урок…","coursesLessonMarkComplete":"Маркирай като завършен","coursesLessonNext":"Следващ","coursesLessonPrev":"Предишен","coursesMyLearningEmpty":"Все още не сте записани в никакви курсове.","coursesMyLearningLoading":"Зареждат се вашите курсове…","coursesMyLearningSubtitle":"Продължете от там, където спряхте.","coursesMyLearningTitle":"Моето обучение","coursesCertCourse":"Курс","coursesCertDownload":"Изтегли","coursesCertError":"Верификацията неуспешна.","coursesCertInvalid":"Този сертификат не може да бъде верифициран.","coursesCertIssued":"Издаден","coursesCertStudent":"Студент","coursesCertValid":"Верифициран","coursesCertIssuer":"Издадено от","coursesCertCode":"Код за проверка","coursesViewCertificate":"Виж сертификата","coursesCertEarnedTitle":"Курсът е завършен!","coursesCertEarnedBody":"Вашият сертификат е готов.","coursesCurriculumEmpty":"Учебната програма идва скоро.","coursesFree":"Безплатно","coursesJoinLive":"Присъедини се на живо","coursesLessonGate":"Запишете се в този курс, за да получите достъп до този урок.","coursesLessonLocked":"Урокът е заключен","coursesLessonLoadError":"Неуспешно зареждане на урока.","coursesEnrollCta":"Вижте курса и се запишете","coursesEnrollmentRevoked":"Вашата регистрация вече не е активна.","coursesDripLocked":"Този урок се отключва по график.","coursesVideoProcessing":"Видеото все още се обработва. Проверете отново скоро.","coursesVideoFailed":"Обработката на видеото неуспешна. Моля, качете отново видеото на урока от Course Studio.","coursesDetailLoading":"Зарежда се…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебна програма","coursesLevelBeginner":"Начинаещ","coursesLevelIntermediate":"Средно ниво","coursesLevelAdvanced":"Напреднал","coursesLessonUnsupported":"Този тип урок все още не се поддържа.","coursesLiveScheduled":"Планирана е сесия на живо","coursesPreview":"Преглед","coursesQuizError":"Неуспешно зареждане на теста.","coursesQuizLoading":"Зарежда се тест…","coursesQuizNone":"Няма тест за този урок.","coursesQuizPassed":"Успяхте!","coursesQuizRetry":"Опитайте отново.","coursesQuizSubmit":"Изпрати","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дни","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Отстъпка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Моля, въведете валиден имейл адрес","emailRequired":"Моля, въведете имейл адреса си","emptyCart":"Количката ви е празна","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Грешка при зареждане на опциите","featured":"Препоръчани","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕЗПЛАТНО","freeAbove":"Безплатно над","frequentlyBoughtTogether":"Често купувани заедно","frequentlyBoughtTogetherSubtitle":"Спестете време и вземете всичко необходимо","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Начало","inStock":"В наличност","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Дължина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимална сума на поръчката: {{amount}}. Добавете още {{remaining}}, за да продължите.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Моля, въведете пълното си име","new":"Нови","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Магазинът ви е готов за продукти","previewEmptyStoreBody":"Добавете първия си продукт в мениджъра на магазина, за да го видите тук.","previewEmptyStoreButton":"Добавяне на продукти","previewOnlyBadge":"Само за преглед","noShippingMethods":"Няма налични опции за доставка","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Изчерпан","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Моля, въведете телефонния си номер","placeOrder":"Place Order","pleaseAcceptTerms":"Моля, приемете общите условия","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Към плащане","productDetails":"Детайли за продукта","productNotFound":"Product not found","products":"Продукти","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Свързани продукти","remove":"Премахни","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Намаление","saveAddressForNextTime":"Запази този адрес за следващия път","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Моля, изберете метод за доставка","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Спецификации","startingAt":"От","stateProvince":"Област / Провинция","stateRequired":"Моля, изберете област / провинция","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Допълнителна информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Моля, въведете адреса си","style":"Стил","subtotal":"Междинна сума","termsAndConditions":"Общите условия","thankYouOrder":"Thank you for your order","total":"Общо","totalToPay":"Общо за плащане","transactionDate":"Transaction Date","upsellFree":"Безплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включително ДДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Виж детайли","viewOrder":"View Order","weight":"Тегло","work":"Work","yourCart":"Вашата количка","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Пощенски код","coursesAlreadyOwned":"Вече притежавате този курс.","coursesAlreadyOwnedCheckout":"Вече сте записани за курс в количката.","coursesEnrollmentCheckFailed":"Не можа да се провери собствеността на курса. Моля, опитайте отново.","coursesAlreadyEnrolledPrompt":"Вече записани?","coursesLoginLink":"Влезте","processing":"Обработва се...","checkoutFailed":"Плащането не бе успешно. Моля, опитайте отново."},"de":{"loading":"Wird geladen…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} Artikel in den Warenkorb","addToCart":"In den Warenkorb","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Ich akzeptiere die","all":"Alle","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Wohnung, Etage, Gebäudecode, Hinweise usw.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Paketrabatt","bundleTotal":"Bundle-Gesamtsumme","callNow":"Call Now","cancel":"Cancel","capacity":"Kapazität","cart":"Cart","category":"Category","checkout":"Zur Kasse","city":"Stadt","cityRequired":"Bitte geben Sie Ihre Stadt ein","color":"Farbe","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Weiter einkaufen","continueToHomePage":"Continue to Home Page","countryRegion":"Land / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Noch keine Kurse verfügbar.","coursesCatalogError":"Kurse konnten nicht geladen werden.","coursesCatalogSubtitle":"Durchsuchen Sie unsere vollständige Kursbibliothek.","coursesCatalogTitle":"Kurse","coursesCertificateLoading":"Überprüfung läuft…","coursesCertificateTitle":"Zertifikat-Verifizierung","coursesDetailEnroll":"In den Warenkorb","coursesDetailResume":"Lernen fortsetzen","coursesDigitalDelivery":"Digitaler Online-Zugang","coursesLessonCompleted":"Abgeschlossen","coursesLessonLoading":"Lektion wird geladen…","coursesLessonMarkComplete":"Als abgeschlossen markieren","coursesLessonNext":"Weiter","coursesLessonPrev":"Zurück","coursesMyLearningEmpty":"Sie haben sich noch für keinen Kurs eingeschrieben.","coursesMyLearningLoading":"Ihre Kurse werden geladen…","coursesMyLearningSubtitle":"Setzen Sie dort fort, wo Sie aufgehört haben.","coursesMyLearningTitle":"Mein Lernen","coursesCertCourse":"Kurs","coursesCertDownload":"Herunterladen","coursesCertError":"Verifizierung fehlgeschlagen.","coursesCertInvalid":"Dieses Zertifikat konnte nicht verifiziert werden.","coursesCertIssued":"Ausgestellt","coursesCertStudent":"Student","coursesCertValid":"Verifiziert","coursesCertIssuer":"Ausgestellt von","coursesCertCode":"Prüfcode","coursesViewCertificate":"Zertifikat ansehen","coursesCertEarnedTitle":"Kurs abgeschlossen!","coursesCertEarnedBody":"Ihr Zertifikat ist bereit.","coursesCurriculumEmpty":"Lehrplan folgt in Kürze.","coursesFree":"Kostenlos","coursesJoinLive":"Live beitreten","coursesLessonGate":"Melden Sie sich für diesen Kurs an, um auf diese Lektion zuzugreifen.","coursesLessonLocked":"Lektion gesperrt","coursesLessonLoadError":"Lektion konnte nicht geladen werden.","coursesEnrollCta":"Kurs ansehen & einschreiben","coursesEnrollmentRevoked":"Ihre Einschreibung ist nicht mehr aktiv.","coursesDripLocked":"Diese Lektion wird nach einem Zeitplan freigeschaltet.","coursesVideoProcessing":"Video wird noch verarbeitet. Schauen Sie bald wieder vorbei.","coursesVideoFailed":"Videoverarbeitung fehlgeschlagen. Bitte laden Sie das Lektionsvideo erneut aus dem Course Studio hoch.","coursesDetailLoading":"Lädt…","coursesDetailInstructor":"Dozent","coursesDetailCurriculum":"Lehrplan","coursesLevelBeginner":"Anfänger","coursesLevelIntermediate":"Fortgeschritten","coursesLevelAdvanced":"Experte","coursesLessonUnsupported":"Dieser Lektionstyp wird noch nicht unterstützt.","coursesLiveScheduled":"Live-Session geplant","coursesPreview":"Vorschau","coursesQuizError":"Quiz konnte nicht geladen werden.","coursesQuizLoading":"Quiz wird geladen…","coursesQuizNone":"Kein Quiz in dieser Lektion.","coursesQuizPassed":"Sie haben bestanden!","coursesQuizRetry":"Erneut versuchen.","coursesQuizSubmit":"Absenden","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"Tage","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Rabatt","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Bitte geben Sie eine gültige E-Mail-Adresse ein","emailRequired":"Bitte geben Sie Ihre E-Mail-Adresse ein","emptyCart":"Ihr Warenkorb ist leer","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Fehler beim Laden der Optionen","featured":"Empfohlen","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"KOSTENLOS","freeAbove":"Kostenlos ab","frequentlyBoughtTogether":"Oft zusammen gekauft","frequentlyBoughtTogetherSubtitle":"Sparen Sie Zeit und holen Sie sich alles, was Sie brauchen","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Startseite","inStock":"Auf Lager","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Länge","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Mindestbestellwert: {{amount}}. Fügen Sie noch {{remaining}} hinzu, um fortzufahren.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Bitte geben Sie Ihren vollständigen Namen ein","new":"Neu","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Dein Shop ist bereit für Produkte","previewEmptyStoreBody":"Füge dein erstes Produkt im Store Manager hinzu, damit es hier erscheint.","previewEmptyStoreButton":"Produkte hinzufügen","previewOnlyBadge":"Nur Vorschau","noShippingMethods":"Keine Versandoptionen verfügbar","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Nicht verfügbar","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Bitte geben Sie Ihre Telefonnummer ein","placeOrder":"Place Order","pleaseAcceptTerms":"Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Zur Kasse gehen","productDetails":"Produktdetails","productNotFound":"Product not found","products":"Produkte","profileUpdated":"Profile updated successfully","quantity":"Menge","relatedProducts":"Ähnliche Produkte","remove":"Entfernen","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Diese Adresse für das nächste Mal speichern","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Versand","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Bitte wählen Sie eine Versandart","signInHere":"Sign in here","size":"Größe","sku":"Art.-Nr.","specifications":"Spezifikationen","startingAt":"Ab","stateProvince":"Bundesland / Provinz","stateRequired":"Bitte wählen Sie ein Bundesland / Provinz","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Zusätzliche Informationen","street":"Street Address","streetAndNumber":"Straße und Hausnummer","streetRequired":"Bitte geben Sie Ihre Straßenadresse ein","style":"Stil","subtotal":"Zwischensumme","termsAndConditions":"Allgemeinen Geschäftsbedingungen","thankYouOrder":"Thank you for your order","total":"Gesamt","totalToPay":"Gesamtbetrag","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Inkl. MwSt.","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Details ansehen","viewOrder":"View Order","weight":"Gewicht","work":"Work","yourCart":"Ihr Warenkorb","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Postleitzahl","coursesAlreadyOwned":"Sie besitzen diesen Kurs bereits.","coursesAlreadyOwnedCheckout":"Sie sind bereits in einem Kurs in Ihrem Warenkorb eingeschrieben.","coursesEnrollmentCheckFailed":"Kursberechtigung konnte nicht überprüft werden. Bitte versuchen Sie es erneut.","coursesAlreadyEnrolledPrompt":"Bereits eingeschrieben?","coursesLoginLink":"Anmelden","processing":"Wird verarbeitet...","checkoutFailed":"Bezahlung fehlgeschlagen. Bitte versuchen Sie es erneut."},"el":{"loading":"Φόρτωση…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Προσθήκη {count} προϊόντων στο καλάθι","addToCart":"Προσθήκη στο καλάθι","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Συμφωνώ με τους","all":"Όλα","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Διαμέρισμα, όροφος, κωδικός κτιρίου, σημειώσεις κτλ.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Έκπτωση πακέτου","bundleTotal":"Σύνολο πακέτου","callNow":"Call Now","cancel":"Cancel","capacity":"Χωρητικότητα","cart":"Cart","category":"Category","checkout":"Ταμείο","city":"Πόλη","cityRequired":"Παρακαλώ εισάγετε την πόλη σας","color":"Χρώμα","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Συνέχεια αγορών","continueToHomePage":"Continue to Home Page","countryRegion":"Χώρα / Περιοχή","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Δεν υπάρχουν ακόμη διαθέσιμα μαθήματα.","coursesCatalogError":"Αποτυχία φόρτωσης μαθημάτων.","coursesCatalogSubtitle":"Περιηγηθείτε στην πλήρη βιβλιοθήκη μαθημάτων μας.","coursesCatalogTitle":"Μαθήματα","coursesCertificateLoading":"Επαλήθευση…","coursesCertificateTitle":"Επαλήθευση Πιστοποιητικού","coursesDetailEnroll":"Προσθήκη στο καλάθι","coursesDetailResume":"Συνέχεια μάθησης","coursesDigitalDelivery":"Ψηφιακή διαδικτυακή πρόσβαση","coursesLessonCompleted":"Ολοκληρώθηκε","coursesLessonLoading":"Φόρτωση μαθήματος…","coursesLessonMarkComplete":"Σήμανση ως ολοκληρωμένο","coursesLessonNext":"Επόμενο","coursesLessonPrev":"Προηγούμενο","coursesMyLearningEmpty":"Δεν έχετε εγγραφεί σε κανένα μάθημα ακόμα.","coursesMyLearningLoading":"Φόρτωση των μαθημάτων σας…","coursesMyLearningSubtitle":"Συνεχίστε από εκεί που σταματήσατε.","coursesMyLearningTitle":"Η Μάθησή Μου","coursesCertCourse":"Μάθημα","coursesCertDownload":"Λήψη","coursesCertError":"Η επαλήθευση απέτυχε.","coursesCertInvalid":"Αυτό το πιστοποιητικό δεν μπόρεσε να επαληθευτεί.","coursesCertIssued":"Εκδόθηκε","coursesCertStudent":"Μαθητής","coursesCertValid":"Επαληθευμένο","coursesCertIssuer":"Εκδόθηκε από","coursesCertCode":"Κωδικός επαλήθευσης","coursesViewCertificate":"Προβολή πιστοποιητικού","coursesCertEarnedTitle":"Το μάθημα ολοκληρώθηκε!","coursesCertEarnedBody":"Το πιστοποιητικό σας είναι έτοιμο.","coursesCurriculumEmpty":"Το πρόγραμμα σπουδών έρχεται σύντομα.","coursesFree":"Δωρεάν","coursesJoinLive":"Συμμετοχή ζωντανά","coursesLessonGate":"Εγγραφείτε σε αυτό το μάθημα για να αποκτήσετε πρόσβαση σε αυτό το μάθημα.","coursesLessonLocked":"Μάθημα κλειδωμένο","coursesLessonLoadError":"Αποτυχία φόρτωσης μαθήματος.","coursesEnrollCta":"Δείτε το μάθημα και εγγραφείτε","coursesEnrollmentRevoked":"Η εγγραφή σας δεν είναι πλέον ενεργή.","coursesDripLocked":"Αυτό το μάθημα ξεκλειδώνει σύμφωνα με το πρόγραμμα.","coursesVideoProcessing":"Το βίντεο εξακολουθεί να επεξεργάζεται. Ελέγξτε ξανά σύντομα.","coursesVideoFailed":"Η επεξεργασία του βίντεο απέτυχε. Παρακαλώ ανεβάστε ξανά το βίντεο του μαθήματος από το Course Studio.","coursesDetailLoading":"Φόρτωση…","coursesDetailInstructor":"Εκπαιδευτής","coursesDetailCurriculum":"Πρόγραμμα Σπουδών","coursesLevelBeginner":"Αρχάριος","coursesLevelIntermediate":"Μεσαίο Επίπεδο","coursesLevelAdvanced":"Προχωρημένο","coursesLessonUnsupported":"Αυτός ο τύπος μαθήματος δεν υποστηρίζεται ακόμη.","coursesLiveScheduled":"Προγραμματισμένη ζωντανή συνεδρία","coursesPreview":"Προεπισκόπηση","coursesQuizError":"Αποτυχία φόρτωσης κουίζ.","coursesQuizLoading":"Φόρτωση κουίζ…","coursesQuizNone":"Δεν υπάρχει κουίζ σε αυτό το μάθημα.","coursesQuizPassed":"Περάσατε!","coursesQuizRetry":"Δοκιμάστε ξανά.","coursesQuizSubmit":"Υποβολή","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"ημέρες","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Έκπτωση","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email","emailRequired":"Παρακαλώ εισάγετε τη διεύθυνση email σας","emptyCart":"Το καλάθι σας είναι άδειο","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Σφάλμα φόρτωσης επιλογών","featured":"Επιλεγμένα","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ΔΩΡΕΑΝ","freeAbove":"Δωρεάν άνω των","frequentlyBoughtTogether":"Συχνά αγοράζονται μαζί","frequentlyBoughtTogetherSubtitle":"Εξοικονομήστε χρόνο και αποκτήστε ό,τι χρειάζεστε","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Αρχική","inStock":"Διαθέσιμο","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Μήκος","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Υλικό","minimumOrderNotMet":"Ελάχιστο ποσό παραγγελίας: {{amount}}. Προσθέστε {{remaining}} ακόμη για να συνεχίσετε.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Παρακαλώ εισάγετε το πλήρες όνομά σας","new":"Νέα","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Το κατάστημά σας είναι έτοιμο για προϊόντα","previewEmptyStoreBody":"Προσθέστε το πρώτο προϊόν στον διαχειριστή καταστήματος για να εμφανιστεί εδώ.","previewEmptyStoreButton":"Προσθήκη προϊόντων","previewOnlyBadge":"Μόνο προεπισκόπηση","noShippingMethods":"Δεν υπάρχουν διαθέσιμες επιλογές αποστολής","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Εξαντλημένο","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Παρακαλώ εισάγετε τον αριθμό τηλεφώνου σας","placeOrder":"Place Order","pleaseAcceptTerms":"Παρακαλώ αποδεχθείτε τους όρους και τις προϋποθέσεις","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Συνέχεια στο ταμείο","productDetails":"Λεπτομέρειες προϊόντος","productNotFound":"Product not found","products":"Προϊόντα","profileUpdated":"Profile updated successfully","quantity":"Ποσότητα","relatedProducts":"Σχετικά προϊόντα","remove":"Αφαίρεση","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Προσφορές","saveAddressForNextTime":"Αποθήκευση αυτής της διεύθυνσης για την επόμενη φορά","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Αποστολή","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Παρακαλώ επιλέξτε μέθοδο αποστολής","signInHere":"Sign in here","size":"Μέγεθος","sku":"Κωδικός","specifications":"Προδιαγραφές","startingAt":"Από","stateProvince":"Νομός / Περιφέρεια","stateRequired":"Παρακαλώ επιλέξτε νομό / περιφέρεια","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Πρόσθετες πληροφορίες","street":"Street Address","streetAndNumber":"Οδός και αριθμός","streetRequired":"Παρακαλώ εισάγετε τη διεύθυνσή σας","style":"Στυλ","subtotal":"Υποσύνολο","termsAndConditions":"Όρους και Προϋποθέσεις","thankYouOrder":"Thank you for your order","total":"Σύνολο","totalToPay":"Σύνολο προς Πληρωμή","transactionDate":"Transaction Date","upsellFree":"Δωρεάν","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Συμπεριλαμβανομένου ΦΠΑ","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Λεπτομέρειες","viewOrder":"View Order","weight":"Βάρος","work":"Work","yourCart":"Το καλάθι σας","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Ταχυδρομικός κώδικας","coursesAlreadyOwned":"Έχετε ήδη πρόσβαση σε αυτό το μάθημα.","coursesAlreadyOwnedCheckout":"Είστε ήδη εγγεγραμμένοι σε μάθημα στο καλάθι σας.","coursesEnrollmentCheckFailed":"Δεν ήταν δυνατή η επαλήθευση της κυριότητας του μαθήματος. Παρακαλώ δοκιμάστε ξανά.","coursesAlreadyEnrolledPrompt":"Ήδη εγγεγραμμένοι;","coursesLoginLink":"Σύνδεση","processing":"Επεξεργασία...","checkoutFailed":"Η πληρωμή απέτυχε. Παρακαλώ δοκιμάστε ξανά."},"en":{"loading":"Loading…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Add {count} items to cart","addToCart":"Add to Cart","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"I agree to the","all":"All","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt, Floor, Building Code, Notes, Etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Bundle Discount","bundleTotal":"Bundle total","callNow":"Call Now","cancel":"Cancel","capacity":"Capacity","cart":"Cart","category":"Category","checkout":"Checkout","city":"City","cityRequired":"Please enter your city","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continue Shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Country / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"No courses available yet.","coursesCatalogError":"Failed to load courses.","coursesCatalogSubtitle":"Browse our full course library.","coursesCatalogTitle":"Courses","coursesCertificateLoading":"Verifying…","coursesCertificateTitle":"Certificate Verification","coursesDetailEnroll":"Add to Cart","coursesDetailResume":"Resume learning","coursesDigitalDelivery":"Digital online access","coursesLessonCompleted":"Completed","coursesLessonLoading":"Loading lesson…","coursesLessonMarkComplete":"Mark complete","coursesLessonNext":"Next","coursesLessonPrev":"Previous","coursesMyLearningEmpty":"You haven't enrolled in any courses yet.","coursesMyLearningLoading":"Loading your courses…","coursesMyLearningSubtitle":"Continue where you left off.","coursesMyLearningTitle":"My Learning","coursesCertCourse":"Course","coursesCertDownload":"Download","coursesCertError":"Verification failed.","coursesCertInvalid":"This certificate could not be verified.","coursesCertIssued":"Issued","coursesCertStudent":"Student","coursesCertValid":"Verified","coursesCertIssuer":"Issued by","coursesCertCode":"Verification code","coursesViewCertificate":"View certificate","coursesCertEarnedTitle":"Course complete!","coursesCertEarnedBody":"Your certificate is ready.","coursesCurriculumEmpty":"Curriculum coming soon.","coursesFree":"Free","coursesJoinLive":"Join live","coursesLessonGate":"Enroll in this course to access this lesson.","coursesLessonLocked":"Lesson locked","coursesLessonLoadError":"Failed to load lesson.","coursesEnrollCta":"View course & enroll","coursesEnrollmentRevoked":"Your enrollment is no longer active.","coursesDripLocked":"This lesson unlocks on a schedule.","coursesVideoProcessing":"Video is still processing. Check back soon.","coursesVideoFailed":"Video processing failed. Please re-upload the lesson video from Course Studio.","coursesDetailLoading":"Loading…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Curriculum","coursesLevelBeginner":"Beginner","coursesLevelIntermediate":"Intermediate","coursesLevelAdvanced":"Advanced","coursesLessonUnsupported":"This lesson type is not yet supported.","coursesLiveScheduled":"Live session scheduled","coursesPreview":"Preview","coursesQuizError":"Failed to load quiz.","coursesQuizLoading":"Loading quiz…","coursesQuizNone":"No quiz on this lesson.","coursesQuizPassed":"You passed!","coursesQuizRetry":"Try again.","coursesQuizSubmit":"Submit","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"days","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Discount","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Please enter a valid email address","emailRequired":"Please enter your email address","emptyCart":"Your cart is empty","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error loading options","featured":"Featured","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"FREE","freeAbove":"Free above","frequentlyBoughtTogether":"Frequently bought together","frequentlyBoughtTogetherSubtitle":"Save time and get everything you need","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"In Stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Length","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Minimum order amount: {{amount}}. Add {{remaining}} more to proceed.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Please enter your full name","new":"New","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Your store is ready for products","previewEmptyStoreBody":"Add your first product in Store Manager to see it appear here.","previewEmptyStoreButton":"Add products","previewOnlyBadge":"Preview only","noShippingMethods":"No shipping options available","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Out of Stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Please enter your phone number","placeOrder":"Place Order","pleaseAcceptTerms":"Please accept the terms and conditions","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceed to Checkout","productDetails":"Product Details","productNotFound":"Product not found","products":"Products","profileUpdated":"Profile updated successfully","quantity":"Quantity","relatedProducts":"Related Products","remove":"Remove","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Save this address for next time","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Shipping","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Please select a shipping method","signInHere":"Sign in here","size":"Size","sku":"SKU","specifications":"Specifications","startingAt":"Starting at","stateProvince":"State / Province","stateRequired":"Please select a state / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Additional Information","street":"Street Address","streetAndNumber":"Street and Number","streetRequired":"Please enter your street address","style":"Style","subtotal":"Subtotal","termsAndConditions":"Terms and Conditions","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total to Pay","transactionDate":"Transaction Date","upsellFree":"Free","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Including VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"View Details","viewOrder":"View Order","weight":"Weight","work":"Work","yourCart":"Your Cart","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Zip / Postal Code","coursesAlreadyOwned":"You already own this course.","coursesAlreadyOwnedCheckout":"You are already enrolled in a course in your cart.","coursesEnrollmentCheckFailed":"Could not verify course ownership. Please try again.","coursesAlreadyEnrolledPrompt":"Already enrolled?","coursesLoginLink":"Log in","processing":"Processing...","checkoutFailed":"Checkout failed. Please try again."},"es":{"loading":"Cargando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Añadir {count} artículos al carrito","addToCart":"Añadir al carrito","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Acepto los","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., piso, código de edificio, notas, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Descuento por paquete","bundleTotal":"Total del paquete","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidad","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Ciudad","cityRequired":"Por favor, introduzca su ciudad","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Seguir comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Región","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aún no hay cursos disponibles.","coursesCatalogError":"Error al cargar los cursos.","coursesCatalogSubtitle":"Explora nuestra biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificación de Certificado","coursesDetailEnroll":"Añadir al carrito","coursesDetailResume":"Continuar aprendiendo","coursesDigitalDelivery":"Acceso digital en línea","coursesLessonCompleted":"Completado","coursesLessonLoading":"Cargando lección…","coursesLessonMarkComplete":"Marcar como completado","coursesLessonNext":"Siguiente","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Aún no te has inscrito en ningún curso.","coursesMyLearningLoading":"Cargando tus cursos…","coursesMyLearningSubtitle":"Continúa donde lo dejaste.","coursesMyLearningTitle":"Mi Aprendizaje","coursesCertCourse":"Curso","coursesCertDownload":"Descargar","coursesCertError":"Error en la verificación.","coursesCertInvalid":"Este certificado no pudo ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudiante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificación","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"¡Curso completado!","coursesCertEarnedBody":"Tu certificado está listo.","coursesCurriculumEmpty":"Plan de estudios próximamente.","coursesFree":"Gratis","coursesJoinLive":"Unirse en vivo","coursesLessonGate":"Inscríbete en este curso para acceder a esta lección.","coursesLessonLocked":"Lección bloqueada","coursesLessonLoadError":"Error al cargar la lección.","coursesEnrollCta":"Ver curso e inscribirse","coursesEnrollmentRevoked":"Tu inscripción ya no está activa.","coursesDripLocked":"Esta lección se desbloquea según un cronograma.","coursesVideoProcessing":"El video aún se está procesando. Vuelve pronto.","coursesVideoFailed":"El procesamiento del video falló. Por favor, vuelve a subir el video de la lección desde Course Studio.","coursesDetailLoading":"Cargando…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Currículum","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzado","coursesLessonUnsupported":"Este tipo de lección aún no es compatible.","coursesLiveScheduled":"Sesión en vivo programada","coursesPreview":"Vista previa","coursesQuizError":"Error al cargar el cuestionario.","coursesQuizLoading":"Cargando cuestionario…","coursesQuizNone":"No hay cuestionario en esta lección.","coursesQuizPassed":"¡Aprobaste!","coursesQuizRetry":"Intentar de nuevo.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"días","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Descuento","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, introduzca un correo electrónico válido","emailRequired":"Por favor, introduzca su correo electrónico","emptyCart":"Tu carrito está vacío","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error al cargar opciones","featured":"Destacados","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATIS","freeAbove":"Gratis a partir de","frequentlyBoughtTogether":"Comprados juntos habitualmente","frequentlyBoughtTogetherSubtitle":"Ahorra tiempo y consigue todo lo que necesitas","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Inicio","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longitud","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Monto mínimo de pedido: {{amount}}. Agregue {{remaining}} más para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, introduzca su nombre completo","new":"Nuevos","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Tu tienda está lista para productos","previewEmptyStoreBody":"Añade tu primer producto en el administrador de la tienda para verlo aparecer aquí.","previewEmptyStoreButton":"Añadir productos","previewOnlyBadge":"Solo vista previa","noShippingMethods":"No hay opciones de envío disponibles","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Agotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, introduzca su número de teléfono","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, acepte los términos y condiciones","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceder al pago","productDetails":"Detalles del producto","productNotFound":"Product not found","products":"Productos","profileUpdated":"Profile updated successfully","quantity":"Cantidad","relatedProducts":"Productos relacionados","remove":"Eliminar","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Ofertas","saveAddressForNextTime":"Guardar esta dirección para la próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envío","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, seleccione un método de envío","signInHere":"Sign in here","size":"Talla","sku":"SKU","specifications":"Especificaciones","startingAt":"Desde","stateProvince":"Estado / Provincia","stateRequired":"Por favor, seleccione un estado / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Información adicional","street":"Street Address","streetAndNumber":"Calle y número","streetRequired":"Por favor, introduzca su dirección","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Términos y Condiciones","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluido","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalles","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Tu carrito","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Código postal","coursesAlreadyOwned":"Ya tienes acceso a este curso.","coursesAlreadyOwnedCheckout":"Ya estás inscrito en un curso de tu carrito.","coursesEnrollmentCheckFailed":"No se pudo verificar la propiedad del curso. Por favor, inténtalo de nuevo.","coursesAlreadyEnrolledPrompt":"¿Ya estás inscrito?","coursesLoginLink":"Iniciar sesión","processing":"Procesando...","checkoutFailed":"El pago falló. Por favor, inténtalo de nuevo."},"fr":{"loading":"Chargement…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Ajouter {count} articles au panier","addToCart":"Ajouter au panier","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"J'accepte les","all":"Tout","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., étage, code bâtiment, notes, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Remise lot","bundleTotal":"Total du lot","callNow":"Call Now","cancel":"Cancel","capacity":"Capacité","cart":"Cart","category":"Category","checkout":"Paiement","city":"Ville","cityRequired":"Veuillez entrer votre ville","color":"Couleur","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuer vos achats","continueToHomePage":"Continue to Home Page","countryRegion":"Pays / Région","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aucun cours disponible pour le moment.","coursesCatalogError":"Échec du chargement des cours.","coursesCatalogSubtitle":"Parcourez notre bibliothèque complète de cours.","coursesCatalogTitle":"Cours","coursesCertificateLoading":"Vérification en cours…","coursesCertificateTitle":"Vérification de certificat","coursesDetailEnroll":"Ajouter au panier","coursesDetailResume":"Reprendre l'apprentissage","coursesDigitalDelivery":"Accès numérique en ligne","coursesLessonCompleted":"Terminé","coursesLessonLoading":"Chargement de la leçon…","coursesLessonMarkComplete":"Marquer comme terminé","coursesLessonNext":"Suivant","coursesLessonPrev":"Précédent","coursesMyLearningEmpty":"Vous ne vous êtes encore inscrit à aucun cours.","coursesMyLearningLoading":"Chargement de vos cours…","coursesMyLearningSubtitle":"Continuez là où vous vous êtes arrêté.","coursesMyLearningTitle":"Mon apprentissage","coursesCertCourse":"Cours","coursesCertDownload":"Télécharger","coursesCertError":"Échec de la vérification.","coursesCertInvalid":"Ce certificat n'a pas pu être vérifié.","coursesCertIssued":"Délivré","coursesCertStudent":"Étudiant","coursesCertValid":"Vérifié","coursesCertIssuer":"Délivré par","coursesCertCode":"Code de vérification","coursesViewCertificate":"Voir le certificat","coursesCertEarnedTitle":"Cours terminé !","coursesCertEarnedBody":"Votre certificat est prêt.","coursesCurriculumEmpty":"Programme à venir.","coursesFree":"Gratuit","coursesJoinLive":"Rejoindre en direct","coursesLessonGate":"Inscrivez-vous à ce cours pour accéder à cette leçon.","coursesLessonLocked":"Leçon verrouillée","coursesLessonLoadError":"Échec du chargement de la leçon.","coursesEnrollCta":"Voir le cours et s'inscrire","coursesEnrollmentRevoked":"Votre inscription n'est plus active.","coursesDripLocked":"Cette leçon se débloque selon un calendrier.","coursesVideoProcessing":"La vidéo est encore en cours de traitement. Revenez bientôt.","coursesVideoFailed":"Le traitement de la vidéo a échoué. Veuillez télécharger à nouveau la vidéo de la leçon depuis Course Studio.","coursesDetailLoading":"Chargement…","coursesDetailInstructor":"Instructeur","coursesDetailCurriculum":"Programme","coursesLevelBeginner":"Débutant","coursesLevelIntermediate":"Intermédiaire","coursesLevelAdvanced":"Avancé","coursesLessonUnsupported":"Ce type de leçon n'est pas encore pris en charge.","coursesLiveScheduled":"Session en direct programmée","coursesPreview":"Aperçu","coursesQuizError":"Échec du chargement du quiz.","coursesQuizLoading":"Chargement du quiz…","coursesQuizNone":"Aucun quiz pour cette leçon.","coursesQuizPassed":"Vous avez réussi !","coursesQuizRetry":"Réessayer.","coursesQuizSubmit":"Soumettre","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"jours","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Remise","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Veuillez entrer une adresse e-mail valide","emailRequired":"Veuillez entrer votre adresse e-mail","emptyCart":"Votre panier est vide","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erreur lors du chargement des options","featured":"En vedette","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUIT","freeAbove":"Gratuit à partir de","frequentlyBoughtTogether":"Souvent achetés ensemble","frequentlyBoughtTogetherSubtitle":"Gagnez du temps et obtenez tout ce dont vous avez besoin","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Accueil","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longueur","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Matériau","minimumOrderNotMet":"Montant minimum de commande : {{amount}}. Ajoutez {{remaining}} pour continuer.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Veuillez entrer votre nom complet","new":"Nouveau","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Votre boutique est prête pour les produits","previewEmptyStoreBody":"Ajoutez votre premier produit dans le gestionnaire de boutique pour le voir apparaître ici.","previewEmptyStoreButton":"Ajouter des produits","previewOnlyBadge":"Aperçu uniquement","noShippingMethods":"Aucune option de livraison disponible","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Rupture de stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Veuillez entrer votre numéro de téléphone","placeOrder":"Place Order","pleaseAcceptTerms":"Veuillez accepter les conditions générales","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procéder au paiement","productDetails":"Détails du produit","productNotFound":"Product not found","products":"Produits","profileUpdated":"Profile updated successfully","quantity":"Quantité","relatedProducts":"Produits similaires","remove":"Supprimer","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Soldes","saveAddressForNextTime":"Enregistrer cette adresse pour la prochaine fois","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Livraison","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Veuillez sélectionner un mode de livraison","signInHere":"Sign in here","size":"Taille","sku":"Référence","specifications":"Spécifications","startingAt":"À partir de","stateProvince":"État / Province","stateRequired":"Veuillez sélectionner un état / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informations supplémentaires","street":"Street Address","streetAndNumber":"Rue et numéro","streetRequired":"Veuillez entrer votre adresse","style":"Style","subtotal":"Sous-total","termsAndConditions":"Conditions Générales","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total à payer","transactionDate":"Transaction Date","upsellFree":"Gratuit","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"TVA incluse","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Voir les détails","viewOrder":"View Order","weight":"Poids","work":"Work","yourCart":"Votre panier","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Code postal","coursesAlreadyOwned":"Vous possédez déjà ce cours.","coursesAlreadyOwnedCheckout":"Vous êtes déjà inscrit à un cours dans votre panier.","coursesEnrollmentCheckFailed":"Impossible de vérifier la propriété du cours. Veuillez réessayer.","coursesAlreadyEnrolledPrompt":"Déjà inscrit ?","coursesLoginLink":"Se connecter","processing":"Traitement en cours...","checkoutFailed":"Le paiement a échoué. Veuillez réessayer."},"he":{"loading":"טוען…","accountWelcome":"ברוך הבא","addAddress":"הוסף כתובת","addBundleToCart":"הוספת {count} מוצרים לעגלה","addToCart":"הוסף לעגלה","addedToCart":"המוצר נוסף לעגלה!","addedToFavorites":"נוסף למועדפים","addressDeleted":"הכתובת נמחקה","addressLabel":"שם הכתובת","addressSaved":"הכתובת נשמרה בהצלחה","addresses":"כתובות","agreeToTerms":"אני מסכים/ה ל","all":"הכל","alreadyHaveAccount":"כבר יש לך חשבון?","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","applyCoupon":"החל","backToProducts":"חזרה למוצרים","browseFavorites":"גלו את כל המוצרים שלנו","bundleDiscount":"הנחת חבילה","bundleTotal":"סה\"כ לעגלה","callNow":"התקשר עכשיו","cancel":"ביטול","capacity":"קיבולת","cart":"עגלת קניות","category":"קטגוריה","checkout":"תשלום","city":"עיר","cityRequired":"נא להזין עיר","color":"צבע","confirmDelete":"האם אתה בטוח שברצונך למחוק?","contactInformation":"פרטי התקשרות","continueShopping":"להמשך קניות","continueToHomePage":"המשך לדף הבית","countryRegion":"מדינה / אזור","couponApplied":"הקופון הוחל בהצלחה!","couponCode":"קוד קופון","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","coursesCatalogEmpty":"אין קורסים זמינים עדיין.","coursesCatalogError":"נכשל בטעינת הקורסים.","coursesCatalogSubtitle":"עיינו בספריית הקורסים המלאה שלנו.","coursesCatalogTitle":"קורסים","coursesCertificateLoading":"מאמת…","coursesCertificateTitle":"אימות תעודה","coursesDetailEnroll":"הוסף לעגלה","coursesDetailResume":"המשך ללמוד","coursesDigitalDelivery":"גישה דיגיטלית מקוונת","coursesLessonCompleted":"הושלם","coursesLessonLoading":"טוען שיעור…","coursesLessonMarkComplete":"סימון כהושלם","coursesLessonNext":"הבא","coursesLessonPrev":"הקודם","coursesMyLearningEmpty":"עדיין לא נרשמתם לקורסים.","coursesMyLearningLoading":"טוען את הקורסים שלך…","coursesMyLearningSubtitle":"המשיכו מהמקום שבו עצרתם.","coursesMyLearningTitle":"הלמידה שלי","coursesCertCourse":"קורס","coursesCertDownload":"הורדה","coursesCertError":"האימות נכשל.","coursesCertInvalid":"לא ניתן לאמת את התעודה הזו.","coursesCertIssued":"הונפק","coursesCertStudent":"תלמיד","coursesCertValid":"מאומת","coursesCertIssuer":"הונפק על ידי","coursesCertCode":"קוד אימות","coursesViewCertificate":"צפייה בתעודה","coursesCertEarnedTitle":"הקורס הושלם!","coursesCertEarnedBody":"התעודה שלך מוכנה.","coursesCurriculumEmpty":"תכנית הלימודים תגיע בקרוב.","coursesFree":"חינם","coursesJoinLive":"הצטרף בשידור חי","coursesLessonGate":"הירשם לקורס זה כדי לגשת לשיעור זה.","coursesLessonLocked":"השיעור נעול","coursesLessonLoadError":"טעינת השיעור נכשלה.","coursesEnrollCta":"צפה בקורס והירשם","coursesEnrollmentRevoked":"ההרשמה שלך לקורס אינה פעילה יותר.","coursesDripLocked":"שיעור זה ייפתח לפי לוח זמנים.","coursesVideoProcessing":"הסרטון עדיין בעיבוד. נסה שוב בקרוב.","coursesVideoFailed":"עיבוד הסרטון נכשל. העלה מחדש את סרטון השיעור מ-Course Studio.","coursesDetailLoading":"טוען…","coursesDetailInstructor":"מדריך","coursesDetailCurriculum":"תכנית לימודים","coursesLevelBeginner":"מתחיל","coursesLevelIntermediate":"בינוני","coursesLevelAdvanced":"מתקדם","coursesLessonUnsupported":"סוג השיעור הזה עדיין לא נתמך.","coursesLiveScheduled":"מפגש חי מתוזמן","coursesPreview":"תצוגה מקדימה","coursesQuizError":"נכשל בטעינת החידון.","coursesQuizLoading":"טוען חידון...","coursesQuizNone":"אין חידון בשיעור זה.","coursesQuizPassed":"עברת בהצלחה!","coursesQuizRetry":"נסה שוב.","coursesQuizSubmit":"שלח","allCourses":"כל הקורסים","backToCourses":"חזרה לקורסים","coursesNav":"קורסים","featuredCourses":"קורסים מומלצים","loadingCourses":"טוען קורסים...","noFeaturedCourses":"עוד לא נבחרו קורסים מומלצים. צפו בכל הקורסים שלנו!","searchCourses":"חיפוש קורסים","customerInfo":"פרטי לקוח","customerLogin":"התחברות לקוחות","days":"ימים","defaultAddress":"כתובת ברירת מחדל","deleteAddress":"מחק כתובת","discount":"הנחה","editAddress":"ערוך כתובת","editProfile":"עריכת פרופיל","email":"אימייל","emailAddress":"כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","emailRequired":"נא להזין כתובת אימייל","emptyCart":"העגלה ריקה","enterCode":"הזן את הקוד שנשלח לאימייל שלך","enterCouponCode":"הזן קוד קופון","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","errorLoading":"שגיאה בטעינת האפשרויות","featured":"מומלצים","featuredCategories":"קנו לפי קטגוריה","featuredProducts":"מוצרים מומלצים","free":"חינם","freeAbove":"חינם מעל","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","fullName":"שם מלא","haveCouponCode":"יש לי קוד קופון","home":"דף הבית","inStock":"במלאי","inquiryAbout":"פנייה בנושא","invalidCoupon":"קוד קופון לא תקין","items":"פריטים","length":"אורך","linkCopied":"הקישור הועתק!","loadingOrder":"טוען פרטי הזמנה...","loadingPayment":"טוען אפשרויות תשלום...","loadingProducts":"טוען מוצרים...","loadingShipping":"טוען שיטות משלוח...","loggedInAs":"מחובר כ:","login":"התחברות","loginHere":"התחבר כאן","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","logout":"התנתק","material":"חומר","minimumOrderNotMet":"סכום מינימום להזמנה: {{amount}}. יש להוסיף עוד {{remaining}} כדי להמשיך.","mobileNumber":"מספר טלפון","myAccount":"החשבון שלי","myFavorites":"המועדפים שלי","name":"שם","nameRequired":"נא להזין שם מלא","new":"חדשים","next":"הבא","noAddresses":"אין כתובות שמורות","noFavorites":"אין עדיין מוצרים מועדפים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","noOrders":"אין עדיין הזמנות","noProducts":"אין מוצרים להצגה כרגע","previewEmptyStoreTitle":"החנות שלך מוכנה למוצרים","previewEmptyStoreBody":"הוסף את המוצר הראשון במנהל החנות כדי לראות אותו מופיע כאן.","previewEmptyStoreButton":"הוסף מוצרים","previewOnlyBadge":"תצוגה מקדימה בלבד","noShippingMethods":"אין אפשרויות משלוח זמינות","notLoggedIn":"לא מחובר","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderDate":"תאריך","orderDetails":"פרטי ההזמנה","orderItems":"פריטים בהזמנה","orderNotFound":"לא נמצאה הזמנה","orderNumber":"מספר הזמנה","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","orderStatus":"סטטוס","orderSuccess":"ההזמנה התקבלה!","orderSummary":"סיכום הזמנה","orderTotal":"סה\"כ","other":"אחר","ourProducts":"המוצרים שלנו","outOfStock":"אזל מהמלאי","paidAmount":"סכום ששולם","payment":"תשלום","paymentMethod":"אמצעי תשלום","paymentNotConfigured":"תשלום מקוון לא מוגדר","personalDetails":"פרטים אישיים","phone":"טלפון","phoneRequired":"נא להזין מספר טלפון","placeOrder":"בצע הזמנה","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","pleaseSelect":"נא לבחור","proceedToCheckout":"המשך לתשלום","productDetails":"פרטי המוצר","productNotFound":"המוצר לא נמצא","products":"מוצרים","profileUpdated":"הפרופיל עודכן בהצלחה","quantity":"כמות","relatedProducts":"מוצרים דומים","remove":"הסר","removeCoupon":"הסר","removeFromFavorites":"הסר ממועדפים","removedFromFavorites":"הוסר מהמועדפים","returnPolicy":"מדיניות החזרות","sale":"מבצעים","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","saveChanges":"שמור שינויים","saveToFavorites":"שמור למועדפים","saving":"שומר...","searchProducts":"חיפוש מוצרים","selectVariant":"בחר אפשרות","sendCode":"שלח קוד","sendInquiry":"שלח פנייה","setAsDefault":"הגדר כברירת מחדל","shareProduct":"שתף מוצר","shipping":"משלוח","shippingAddress":"כתובת למשלוח","shippingMethod":"שיטת משלוח","shippingRequired":"נא לבחור שיטת משלוח","signInHere":"התחבר כאן","size":"גודל","sku":"מק\"ט","specifications":"מפרט טכני","startingAt":"החל מ","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","statusCancelled":"בוטל","statusDelivered":"נמסר","statusPaid":"שולם","statusPending":"ממתין לתשלום","statusProcessing":"בטיפול","statusShipped":"נשלח","storeNote":"מידע נוסף","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","streetRequired":"נא להזין רחוב ומספר","style":"סגנון","subtotal":"סכום ביניים","termsAndConditions":"תנאי השימוש","thankYouOrder":"תודה על ההזמנה","total":"סה\"כ","totalToPay":"סה\"כ לתשלום","transactionDate":"תאריך עסקה","upsellFree":"חינם","variantUnavailable":"לא זמין","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","verificationCode":"קוד אימות","verify":"אמת","viewAllResults":"הצג את כל התוצאות","viewDetails":"לפרטים נוספים","viewOrder":"צפה בהזמנה","weight":"משקל","work":"עבודה","yourCart":"העגלה שלך","yourOrders":"ההזמנות שלך","zip":"מיקוד","zipPostal":"מיקוד","coursesAlreadyOwned":"כבר יש לך גישה לקורס זה.","coursesAlreadyOwnedCheckout":"כבר נרשמת לקורס שבעגלת הקניות.","coursesEnrollmentCheckFailed":"לא ניתן לאמת בעלות על הקורס. אנא נסה שוב.","coursesAlreadyEnrolledPrompt":"כבר נרשמת?","coursesLoginLink":"לכניסה","processing":"מעבד...","checkoutFailed":"שגיאה בתהליך התשלום. נסו שוב."},"it":{"loading":"Caricamento…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Aggiungi {count} articoli al carrello","addToCart":"Aggiungi al carrello","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Accetto i","all":"Tutti","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Appt., piano, codice edificio, note, ecc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Sconto pacchetto","bundleTotal":"Totale bundle","callNow":"Call Now","cancel":"Cancel","capacity":"Capacità","cart":"Cart","category":"Category","checkout":"Cassa","city":"Città","cityRequired":"Inserisci la tua città","color":"Colore","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continua lo shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Paese / Regione","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Nessun corso ancora disponibile.","coursesCatalogError":"Impossibile caricare i corsi.","coursesCatalogSubtitle":"Sfoglia la nostra libreria completa di corsi.","coursesCatalogTitle":"Corsi","coursesCertificateLoading":"Verifica in corso…","coursesCertificateTitle":"Verifica Certificato","coursesDetailEnroll":"Aggiungi al carrello","coursesDetailResume":"Riprendi l'apprendimento","coursesDigitalDelivery":"Accesso digitale online","coursesLessonCompleted":"Completato","coursesLessonLoading":"Caricamento lezione…","coursesLessonMarkComplete":"Segna come completato","coursesLessonNext":"Successivo","coursesLessonPrev":"Precedente","coursesMyLearningEmpty":"Non ti sei ancora iscritto a nessun corso.","coursesMyLearningLoading":"Caricamento dei tuoi corsi…","coursesMyLearningSubtitle":"Continua da dove avevi lasciato.","coursesMyLearningTitle":"Il Mio Apprendimento","coursesCertCourse":"Corso","coursesCertDownload":"Scarica","coursesCertError":"Verifica fallita.","coursesCertInvalid":"Questo certificato non può essere verificato.","coursesCertIssued":"Rilasciato","coursesCertStudent":"Studente","coursesCertValid":"Verificato","coursesCertIssuer":"Rilasciato da","coursesCertCode":"Codice di verifica","coursesViewCertificate":"Visualizza certificato","coursesCertEarnedTitle":"Corso completato!","coursesCertEarnedBody":"Il tuo certificato è pronto.","coursesCurriculumEmpty":"Programma in arrivo.","coursesFree":"Gratuito","coursesJoinLive":"Partecipa dal vivo","coursesLessonGate":"Iscriviti a questo corso per accedere a questa lezione.","coursesLessonLocked":"Lezione bloccata","coursesLessonLoadError":"Impossibile caricare la lezione.","coursesEnrollCta":"Visualizza corso e iscriviti","coursesEnrollmentRevoked":"La tua iscrizione non è più attiva.","coursesDripLocked":"Questa lezione si sblocca secondo un programma.","coursesVideoProcessing":"Il video è ancora in elaborazione. Ricontrolla presto.","coursesVideoFailed":"Elaborazione video fallita. Si prega di ricaricare il video della lezione da Course Studio.","coursesDetailLoading":"Caricamento…","coursesDetailInstructor":"Istruttore","coursesDetailCurriculum":"Programma","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzato","coursesLessonUnsupported":"Questo tipo di lezione non è ancora supportato.","coursesLiveScheduled":"Sessione dal vivo programmata","coursesPreview":"Anteprima","coursesQuizError":"Impossibile caricare il quiz.","coursesQuizLoading":"Caricamento quiz…","coursesQuizNone":"Nessun quiz per questa lezione.","coursesQuizPassed":"Hai superato!","coursesQuizRetry":"Riprova.","coursesQuizSubmit":"Invia","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"giorni","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Sconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Inserisci un indirizzo email valido","emailRequired":"Inserisci il tuo indirizzo email","emptyCart":"Il tuo carrello è vuoto","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Errore nel caricamento delle opzioni","featured":"In evidenza","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUITA","freeAbove":"Gratuita sopra","frequentlyBoughtTogether":"Spesso acquistati insieme","frequentlyBoughtTogetherSubtitle":"Risparmia tempo e prendi tutto ciò che ti serve","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"Disponibile","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Lunghezza","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Materiale","minimumOrderNotMet":"Importo minimo dell'ordine: {{amount}}. Aggiungi altri {{remaining}} per procedere.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Inserisci il tuo nome completo","new":"Novità","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Il tuo negozio è pronto per i prodotti","previewEmptyStoreBody":"Aggiungi il tuo primo prodotto nel Gestore negozio per vederlo apparire qui.","previewEmptyStoreButton":"Aggiungi prodotti","previewOnlyBadge":"Solo anteprima","noShippingMethods":"Nessuna opzione di spedizione disponibile","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esaurito","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Inserisci il tuo numero di telefono","placeOrder":"Place Order","pleaseAcceptTerms":"Si prega di accettare i termini e le condizioni","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procedi al pagamento","productDetails":"Dettagli prodotto","productNotFound":"Product not found","products":"Prodotti","profileUpdated":"Profile updated successfully","quantity":"Quantità","relatedProducts":"Prodotti correlati","remove":"Rimuovi","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Saldi","saveAddressForNextTime":"Salva questo indirizzo per la prossima volta","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Spedizione","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Seleziona un metodo di spedizione","signInHere":"Sign in here","size":"Taglia","sku":"Codice","specifications":"Specifiche","startingAt":"A partire da","stateProvince":"Stato / Provincia","stateRequired":"Seleziona uno stato / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informazioni aggiuntive","street":"Street Address","streetAndNumber":"Via e numero","streetRequired":"Inserisci il tuo indirizzo","style":"Stile","subtotal":"Subtotale","termsAndConditions":"Termini e Condizioni","thankYouOrder":"Thank you for your order","total":"Totale","totalToPay":"Totale da Pagare","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA inclusa","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Vedi dettagli","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Il tuo carrello","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CAP","coursesAlreadyOwned":"Possiedi già questo corso.","coursesAlreadyOwnedCheckout":"Sei già iscritto a un corso nel carrello.","coursesEnrollmentCheckFailed":"Impossibile verificare la proprietà del corso. Riprova.","coursesAlreadyEnrolledPrompt":"Già iscritto?","coursesLoginLink":"Accedi","processing":"Elaborazione...","checkoutFailed":"Il pagamento non è riuscito. Riprova."},"ja":{"loading":"読み込み中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} 点をカートに追加","addToCart":"カートに追加","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"私は同意します","all":"すべて","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"部屋番号、階、建物コード、備考など","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"バンドル割引","bundleTotal":"セット合計","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"お会計","city":"市区町村","cityRequired":"市区町村を入力してください","color":"色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"買い物を続ける","continueToHomePage":"Continue to Home Page","countryRegion":"国 / 地域","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"まだコースがありません。","coursesCatalogError":"コースの読み込みに失敗しました。","coursesCatalogSubtitle":"全コースライブラリをご覧ください。","coursesCatalogTitle":"コース","coursesCertificateLoading":"確認中…","coursesCertificateTitle":"証明書の確認","coursesDetailEnroll":"カートに追加","coursesDetailResume":"学習を再開する","coursesDigitalDelivery":"デジタルオンラインアクセス","coursesLessonCompleted":"完了","coursesLessonLoading":"レッスンを読み込み中…","coursesLessonMarkComplete":"完了にする","coursesLessonNext":"次へ","coursesLessonPrev":"前へ","coursesMyLearningEmpty":"まだコースに登録していません。","coursesMyLearningLoading":"コースを読み込み中…","coursesMyLearningSubtitle":"中断したところから続けましょう。","coursesMyLearningTitle":"マイラーニング","coursesCertCourse":"コース","coursesCertDownload":"ダウンロード","coursesCertError":"認証に失敗しました。","coursesCertInvalid":"この証明書は認証できませんでした。","coursesCertIssued":"発行日","coursesCertStudent":"受講者","coursesCertValid":"認証済み","coursesCertIssuer":"発行者","coursesCertCode":"確認コード","coursesViewCertificate":"証明書を表示","coursesCertEarnedTitle":"コース修了！","coursesCertEarnedBody":"証明書の準備ができました。","coursesCurriculumEmpty":"カリキュラムは近日公開予定です。","coursesFree":"無料","coursesJoinLive":"ライブに参加","coursesLessonGate":"このレッスンにアクセスするには、このコースに登録してください。","coursesLessonLocked":"レッスンはロックされています","coursesLessonLoadError":"レッスンの読み込みに失敗しました。","coursesEnrollCta":"コースを見る・申し込む","coursesEnrollmentRevoked":"あなたの登録は無効になりました。","coursesDripLocked":"このレッスンはスケジュールに従って解除されます。","coursesVideoProcessing":"動画はまだ処理中です。しばらくしてからもう一度確認してください。","coursesVideoFailed":"動画の処理に失敗しました。Course Studioからレッスン動画を再アップロードしてください。","coursesDetailLoading":"読み込み中…","coursesDetailInstructor":"講師","coursesDetailCurriculum":"カリキュラム","coursesLevelBeginner":"初級","coursesLevelIntermediate":"中級","coursesLevelAdvanced":"上級","coursesLessonUnsupported":"このレッスンタイプはまだサポートされていません。","coursesLiveScheduled":"ライブセッション予定","coursesPreview":"プレビュー","coursesQuizError":"クイズの読み込みに失敗しました。","coursesQuizLoading":"クイズを読み込み中…","coursesQuizNone":"このレッスンにはクイズがありません。","coursesQuizPassed":"合格しました！","coursesQuizRetry":"もう一度挑戦する。","coursesQuizSubmit":"提出","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"日","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"割引","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"有効なメールアドレスを入力してください","emailRequired":"メールアドレスを入力してください","emptyCart":"カートは空です","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"オプションの読み込みエラー","featured":"おすすめ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"無料","freeAbove":"以上で送料無料","frequentlyBoughtTogether":"よく一緒に購入されています","frequentlyBoughtTogetherSubtitle":"必要なものをまとめて手早く揃えましょう","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"ホーム","inStock":"在庫あり","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"長さ","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"素材","minimumOrderNotMet":"最低注文金額: {{amount}}。あと{{remaining}}追加してください。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"フルネームを入力してください","new":"新着","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ストアに商品を追加できます","previewEmptyStoreBody":"ストアマネージャーで最初の商品を追加すると、ここに表示されます。","previewEmptyStoreButton":"商品を追加","previewOnlyBadge":"プレビューのみ","noShippingMethods":"配送オプションがありません","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"在庫切れ","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"電話番号を入力してください","placeOrder":"Place Order","pleaseAcceptTerms":"利用規約に同意してください","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"お会計に進む","productDetails":"商品詳細","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"関連商品","remove":"削除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"セール","saveAddressForNextTime":"この住所を次回のために保存","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"送料","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"配送方法を選択してください","signInHere":"Sign in here","size":"サイズ","sku":"商品コード","specifications":"仕様","startingAt":"〜から","stateProvince":"都道府県","stateRequired":"都道府県を選択してください","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"追加情報","street":"Street Address","streetAndNumber":"番地","streetRequired":"住所を入力してください","style":"スタイル","subtotal":"小計","termsAndConditions":"利用規約","thankYouOrder":"Thank you for your order","total":"合計","totalToPay":"お支払い合計","transactionDate":"Transaction Date","upsellFree":"無料","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"税込み","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"詳細を見る","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"カート","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"郵便番号","coursesAlreadyOwned":"このコースはすでに所有しています。","coursesAlreadyOwnedCheckout":"カート内のコースにはすでに登録済みです。","coursesEnrollmentCheckFailed":"コース所有権を確認できませんでした。もう一度お試しください。","coursesAlreadyEnrolledPrompt":"すでに受講済みですか？","coursesLoginLink":"ログイン","processing":"処理中...","checkoutFailed":"お支払いに失敗しました。もう一度お試しください。"},"lt":{"loading":"Įkeliama…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Pridėti {count} prekių į krepšelį","addToCart":"Į krepšelį","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Sutinku su","all":"Visi","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Butas, aukštas, pastato kodas, pastabos ir kt.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Paketo nuolaida","bundleTotal":"Rinkinio iš viso","callNow":"Call Now","cancel":"Cancel","capacity":"Talpa","cart":"Cart","category":"Category","checkout":"Apmokėti","city":"Miestas","cityRequired":"Prašome įvesti miestą","color":"Spalva","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Tęsti apsipirkimą","continueToHomePage":"Continue to Home Page","countryRegion":"Šalis / regionas","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Kursų dar nėra.","coursesCatalogError":"Nepavyko įkelti kursų.","coursesCatalogSubtitle":"Naršykite visą mūsų kursų biblioteką.","coursesCatalogTitle":"Kursai","coursesCertificateLoading":"Tikrinama…","coursesCertificateTitle":"Sertifikato patvirtinimas","coursesDetailEnroll":"Į krepšelį","coursesDetailResume":"Tęsti mokymąsi","coursesDigitalDelivery":"Skaitmeninis prieigos internetu","coursesLessonCompleted":"Užbaigta","coursesLessonLoading":"Kraunama pamoka…","coursesLessonMarkComplete":"Pažymėti kaip baigtą","coursesLessonNext":"Kitas","coursesLessonPrev":"Ankstesnis","coursesMyLearningEmpty":"Dar nesate užsiregistravę į jokius kursus.","coursesMyLearningLoading":"Kraunami jūsų kursai…","coursesMyLearningSubtitle":"Tęskite ten, kur sustojote.","coursesMyLearningTitle":"Mano mokymasis","coursesCertCourse":"Kursas","coursesCertDownload":"Atsisiųsti","coursesCertError":"Patikrinimas nepavyko.","coursesCertInvalid":"Šio sertifikato nepavyko patikrinti.","coursesCertIssued":"Išduotas","coursesCertStudent":"Studentas","coursesCertValid":"Patikrintas","coursesCertIssuer":"Išdavė","coursesCertCode":"Patvirtinimo kodas","coursesViewCertificate":"Peržiūrėti sertifikatą","coursesCertEarnedTitle":"Kursas baigtas!","coursesCertEarnedBody":"Jūsų sertifikatas paruoštas.","coursesCurriculumEmpty":"Programa bus pateikta netrukus.","coursesFree":"Nemokamas","coursesJoinLive":"Prisijungti prie tiesioginės transliacijos","coursesLessonGate":"Užsiregistruokite į šį kursą, kad galėtumėte pasiekti šią pamoką.","coursesLessonLocked":"Pamoka užrakinta","coursesLessonLoadError":"Nepavyko įkelti pamokos.","coursesEnrollCta":"Peržiūrėti kursą ir registruotis","coursesEnrollmentRevoked":"Jūsų registracija nebegalioja.","coursesDripLocked":"Ši pamoka atsirakins pagal grafiką.","coursesVideoProcessing":"Vaizdo įrašas vis dar apdorojamas. Grįžkite vėliau.","coursesVideoFailed":"Vaizdo įrašo apdorojimas nepavyko. Prašome iš naujo įkelti pamokos vaizdo įrašą iš Course Studio.","coursesDetailLoading":"Kraunama…","coursesDetailInstructor":"Instruktorius","coursesDetailCurriculum":"Programa","coursesLevelBeginner":"Pradedantysis","coursesLevelIntermediate":"Vidutinis","coursesLevelAdvanced":"Pažengęs","coursesLessonUnsupported":"Šis pamokos tipas dar nepalaikomas.","coursesLiveScheduled":"Suplanuotas tiesioginis seansas","coursesPreview":"Peržiūra","coursesQuizError":"Nepavyko įkelti testo.","coursesQuizLoading":"Įkeliamas testas…","coursesQuizNone":"Šioje pamokoje nėra testo.","coursesQuizPassed":"Jūs išlaikėte!","coursesQuizRetry":"Bandyti dar kartą.","coursesQuizSubmit":"Pateikti","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dienos","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Nuolaida","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Prašome įvesti teisingą el. pašto adresą","emailRequired":"Prašome įvesti el. paštą","emptyCart":"Jūsų krepšelis tuščias","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Klaida įkeliant parinktis","featured":"Rekomenduojami","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"NEMOKAMAS","freeAbove":"Nemokamas nuo","frequentlyBoughtTogether":"Dažnai perkama kartu","frequentlyBoughtTogetherSubtitle":"Sutaupykite laiko ir gaukite viską, ko reikia","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Pagrindinis","inStock":"Yra sandėlyje","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Ilgis","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Medžiaga","minimumOrderNotMet":"Minimali užsakymo suma: {{amount}}. Pridėkite dar {{remaining}}, kad galėtumėte tęsti.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Prašome įvesti vardą ir pavardę","new":"Naujiena","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Jūsų parduotuvė paruošta produktams","previewEmptyStoreBody":"Pridėkite pirmąjį produktą parduotuvės tvarkyklėje, kad jis atsirastų čia.","previewEmptyStoreButton":"Pridėti produktų","previewOnlyBadge":"Tik peržiūrai","noShippingMethods":"Pristatymo būdų nėra","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Išparduota","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Prašome įvesti telefono numerį","placeOrder":"Place Order","pleaseAcceptTerms":"Prašome sutikti su taisyklėmis ir sąlygomis","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Pereiti prie apmokėjimo","productDetails":"Prekės detalės","productNotFound":"Product not found","products":"Prekės","profileUpdated":"Profile updated successfully","quantity":"Kiekis","relatedProducts":"Susijusios prekės","remove":"Pašalinti","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Išpardavimas","saveAddressForNextTime":"Išsaugoti šį adresą kitam kartui","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Pristatymas","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Prašome pasirinkti pristatymo būdą","signInHere":"Sign in here","size":"Dydis","sku":"Kodas","specifications":"Specifikacijos","startingAt":"Nuo","stateProvince":"Apskritis / rajonas","stateRequired":"Prašome pasirinkti apskritį / rajoną","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Papildoma informacija","street":"Street Address","streetAndNumber":"Gatvė ir namo numeris","streetRequired":"Prašome įvesti adresą","style":"Stilius","subtotal":"Tarpinė suma","termsAndConditions":"taisyklėmis ir sąlygomis","thankYouOrder":"Thank you for your order","total":"Iš viso","totalToPay":"Iš viso mokėti","transactionDate":"Transaction Date","upsellFree":"Nemokama","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Įskaitant PVM","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Peržiūrėti","viewOrder":"View Order","weight":"Svoris","work":"Work","yourCart":"Jūsų krepšelis","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Pašto kodas","coursesAlreadyOwned":"Jau turite prieigą prie šio kurso.","coursesAlreadyOwnedCheckout":"Jau esate užsiregistravę į kursą krepšelyje.","coursesEnrollmentCheckFailed":"Nepavyko patikrinti kurso nuosavybės. Bandykite dar kartą.","coursesAlreadyEnrolledPrompt":"Jau užsiregistravote?","coursesLoginLink":"Prisijunkite","processing":"Apdorojama...","checkoutFailed":"Mokėjimas nepavyko. Bandykite dar kartą."},"pt":{"loading":"Carregando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Adicionar {count} itens ao carrinho","addToCart":"Adicionar ao carrinho","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Eu concordo com os","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apto, andar, código do edifício, observações, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Desconto de pacote","bundleTotal":"Total do pacote","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidade","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Cidade","cityRequired":"Por favor, insira sua cidade","color":"Cor","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuar comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Região","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Ainda não há cursos disponíveis.","coursesCatalogError":"Falha ao carregar cursos.","coursesCatalogSubtitle":"Navegue por nossa biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificação de Certificado","coursesDetailEnroll":"Adicionar ao carrinho","coursesDetailResume":"Continuar aprendendo","coursesDigitalDelivery":"Acesso digital online","coursesLessonCompleted":"Concluído","coursesLessonLoading":"Carregando lição…","coursesLessonMarkComplete":"Marcar como concluído","coursesLessonNext":"Próximo","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Você ainda não se inscreveu em nenhum curso.","coursesMyLearningLoading":"Carregando seus cursos…","coursesMyLearningSubtitle":"Continue de onde parou.","coursesMyLearningTitle":"Meu Aprendizado","coursesCertCourse":"Curso","coursesCertDownload":"Baixar","coursesCertError":"Verificação falhou.","coursesCertInvalid":"Este certificado não pôde ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificação","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"Curso concluído!","coursesCertEarnedBody":"Seu certificado está pronto.","coursesCurriculumEmpty":"Currículo em breve.","coursesFree":"Grátis","coursesJoinLive":"Participar ao vivo","coursesLessonGate":"Inscreva-se neste curso para acessar esta aula.","coursesLessonLocked":"Lição bloqueada","coursesLessonLoadError":"Falha ao carregar a lição.","coursesEnrollCta":"Ver curso e inscrever-se","coursesEnrollmentRevoked":"Sua inscrição não está mais ativa.","coursesDripLocked":"Esta lição será desbloqueada conforme cronograma.","coursesVideoProcessing":"Vídeo ainda está sendo processado. Volte em breve.","coursesVideoFailed":"Falha no processamento do vídeo. Por favor, faça o upload novamente do vídeo da aula no Course Studio.","coursesDetailLoading":"Carregando…","coursesDetailInstructor":"Instrutor","coursesDetailCurriculum":"Currículo","coursesLevelBeginner":"Iniciante","coursesLevelIntermediate":"Intermediário","coursesLevelAdvanced":"Avançado","coursesLessonUnsupported":"Este tipo de aula ainda não é suportado.","coursesLiveScheduled":"Sessão ao vivo agendada","coursesPreview":"Visualizar","coursesQuizError":"Falha ao carregar quiz.","coursesQuizLoading":"Carregando quiz…","coursesQuizNone":"Nenhum quiz nesta aula.","coursesQuizPassed":"Você passou!","coursesQuizRetry":"Tente novamente.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dias","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Desconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, insira um e-mail válido","emailRequired":"Por favor, insira seu e-mail","emptyCart":"Seu carrinho está vazio","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erro ao carregar opções","featured":"Destaques","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRÁTIS","freeAbove":"Grátis acima de","frequentlyBoughtTogether":"Frequentemente comprados juntos","frequentlyBoughtTogetherSubtitle":"Economize tempo e leve tudo o que precisa","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Início","inStock":"Em estoque","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Comprimento","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Valor mínimo do pedido: {{amount}}. Adicione mais {{remaining}} para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, insira seu nome completo","new":"Novidades","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Sua loja está pronta para produtos","previewEmptyStoreBody":"Adicione seu primeiro produto no Gerenciador da loja para vê-lo aparecer aqui.","previewEmptyStoreButton":"Adicionar produtos","previewOnlyBadge":"Somente pré-visualização","noShippingMethods":"Nenhuma opção de envio disponível","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esgotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, insira seu telefone","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, aceite os termos e condições","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ir para o pagamento","productDetails":"Detalhes do produto","productNotFound":"Product not found","products":"Produtos","profileUpdated":"Profile updated successfully","quantity":"Quantidade","relatedProducts":"Produtos relacionados","remove":"Remover","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Promoção","saveAddressForNextTime":"Salvar este endereço para a próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envio","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, selecione um método de envio","signInHere":"Sign in here","size":"Tamanho","sku":"Código","specifications":"Especificações","startingAt":"A partir de","stateProvince":"Estado / Província","stateRequired":"Por favor, selecione um estado / província","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informações adicionais","street":"Street Address","streetAndNumber":"Rua e número","streetRequired":"Por favor, insira seu endereço","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Termos e Condições","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Grátis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluído","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalhes","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Seu carrinho","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CEP / Código Postal","coursesAlreadyOwned":"Você já possui este curso.","coursesAlreadyOwnedCheckout":"Você já está inscrito em um curso no carrinho.","coursesEnrollmentCheckFailed":"Não foi possível verificar a propriedade do curso. Tente novamente.","coursesAlreadyEnrolledPrompt":"Já está inscrito?","coursesLoginLink":"Entrar","processing":"Processando...","checkoutFailed":"Falha no pagamento. Tente novamente."},"ru":{"loading":"Загрузка…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добавить {count} товаров в корзину","addToCart":"В корзину","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Я соглашаюсь с","all":"Все","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Кв., этаж, код дома, заметки и т.д.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Скидка за набор","bundleTotal":"Итого набор","callNow":"Call Now","cancel":"Cancel","capacity":"Объем","cart":"Cart","category":"Category","checkout":"Оформить заказ","city":"Город","cityRequired":"Пожалуйста, введите город","color":"Цвет","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продолжить покупки","continueToHomePage":"Continue to Home Page","countryRegion":"Страна / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Курсы пока недоступны.","coursesCatalogError":"Не удалось загрузить курсы.","coursesCatalogSubtitle":"Просмотрите нашу полную библиотеку курсов.","coursesCatalogTitle":"Курсы","coursesCertificateLoading":"Проверка…","coursesCertificateTitle":"Проверка сертификата","coursesDetailEnroll":"В корзину","coursesDetailResume":"Продолжить обучение","coursesDigitalDelivery":"Цифровой онлайн-доступ","coursesLessonCompleted":"Завершено","coursesLessonLoading":"Загрузка урока…","coursesLessonMarkComplete":"Отметить как завершенный","coursesLessonNext":"Далее","coursesLessonPrev":"Назад","coursesMyLearningEmpty":"Вы еще не записались ни на один курс.","coursesMyLearningLoading":"Загрузка ваших курсов…","coursesMyLearningSubtitle":"Продолжите с того места, где остановились.","coursesMyLearningTitle":"Мое обучение","coursesCertCourse":"Курс","coursesCertDownload":"Скачать","coursesCertError":"Проверка не удалась.","coursesCertInvalid":"Этот сертификат не удалось проверить.","coursesCertIssued":"Выдан","coursesCertStudent":"Студент","coursesCertValid":"Проверен","coursesCertIssuer":"Выдано","coursesCertCode":"Код проверки","coursesViewCertificate":"Посмотреть сертификат","coursesCertEarnedTitle":"Курс завершён!","coursesCertEarnedBody":"Ваш сертификат готов.","coursesCurriculumEmpty":"Программа курса скоро появится.","coursesFree":"Бесплатно","coursesJoinLive":"Присоединиться к прямому эфиру","coursesLessonGate":"Запишитесь на этот курс, чтобы получить доступ к этому уроку.","coursesLessonLocked":"Урок заблокирован","coursesLessonLoadError":"Не удалось загрузить урок.","coursesEnrollCta":"Посмотреть курс и записаться","coursesEnrollmentRevoked":"Ваша регистрация больше не активна.","coursesDripLocked":"Этот урок откроется по расписанию.","coursesVideoProcessing":"Видео все еще обрабатывается. Проверьте позже.","coursesVideoFailed":"Обработка видео не удалась. Пожалуйста, повторно загрузите видео урока из Course Studio.","coursesDetailLoading":"Загрузка…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебная программа","coursesLevelBeginner":"Начинающий","coursesLevelIntermediate":"Средний","coursesLevelAdvanced":"Продвинутый","coursesLessonUnsupported":"Этот тип урока пока не поддерживается.","coursesLiveScheduled":"Запланирована прямая трансляция","coursesPreview":"Предварительный просмотр","coursesQuizError":"Не удалось загрузить тест.","coursesQuizLoading":"Загрузка теста…","coursesQuizNone":"В этом уроке нет теста.","coursesQuizPassed":"Вы прошли тест!","coursesQuizRetry":"Попробовать снова.","coursesQuizSubmit":"Отправить","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дней","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Скидка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Пожалуйста, введите корректный email","emailRequired":"Пожалуйста, введите ваш email","emptyCart":"Корзина пуста","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Ошибка загрузки вариантов","featured":"Рекомендуемые","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕСПЛАТНО","freeAbove":"Бесплатно от","frequentlyBoughtTogether":"Часто покупают вместе","frequentlyBoughtTogetherSubtitle":"Экономьте время и получите все необходимое","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Главная","inStock":"В наличии","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Длина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимальная сумма заказа: {{amount}}. Добавьте ещё {{remaining}} для продолжения.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Пожалуйста, введите ваше полное имя","new":"Новинки","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Ваш магазин готов к товарам","previewEmptyStoreBody":"Добавьте первый товар в менеджере магазина, чтобы увидеть его здесь.","previewEmptyStoreButton":"Добавить товары","previewOnlyBadge":"Только в предпросмотре","noShippingMethods":"Варианты доставки недоступны","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Нет в наличии","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Пожалуйста, введите номер телефона","placeOrder":"Place Order","pleaseAcceptTerms":"Пожалуйста, примите условия использования","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Перейти к оплате","productDetails":"Описание товара","productNotFound":"Product not found","products":"Товары","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Похожие товары","remove":"Удалить","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Распродажа","saveAddressForNextTime":"Сохранить этот адрес на будущее","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Пожалуйста, выберите способ доставки","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Характеристики","startingAt":"От","stateProvince":"Штат / Область","stateRequired":"Пожалуйста, выберите штат / область","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Дополнительная информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Пожалуйста, введите адрес","style":"Стиль","subtotal":"Подытог","termsAndConditions":"Условиями использования","thankYouOrder":"Thank you for your order","total":"Итого","totalToPay":"Итого к оплате","transactionDate":"Transaction Date","upsellFree":"Бесплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включая НДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Подробнее","viewOrder":"View Order","weight":"Вес","work":"Work","yourCart":"Ваша корзина","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Почтовый индекс","coursesAlreadyOwned":"У вас уже есть доступ к этому курсу.","coursesAlreadyOwnedCheckout":"Вы уже записаны на курс из корзины.","coursesEnrollmentCheckFailed":"Не удалось подтвердить владение курсом. Пожалуйста, попробуйте снова.","coursesAlreadyEnrolledPrompt":"Уже записаны?","coursesLoginLink":"Войти","processing":"Обработка...","checkoutFailed":"Ошибка оплаты. Пожалуйста, попробуйте снова."},"th":{"loading":"กำลังโหลด…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"เพิ่ม {count} รายการลงตะกร้า","addToCart":"เพิ่มลงตะกร้า","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"ฉันยอมรับ","all":"ทั้งหมด","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"ห้อง, ชั้น, รหัสอาคาร, หมายเหตุ ฯลฯ","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"ส่วนลดชุด","bundleTotal":"ยอดรวมแพ็กเกจ","callNow":"Call Now","cancel":"Cancel","capacity":"ความจุ","cart":"Cart","category":"Category","checkout":"ชำระเงิน","city":"จังหวัด","cityRequired":"กรุณากรอกจังหวัด","color":"สี","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"เลือกซื้อสินค้าต่อ","continueToHomePage":"Continue to Home Page","countryRegion":"ประเทศ / ภูมิภาค","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"ยังไม่มีคอร์สเรียนที่พร้อมใช้งาน","coursesCatalogError":"โหลดคอร์สเรียนไม่สำเร็จ","coursesCatalogSubtitle":"เรียนดูคอร์สเรียนทั้งหมดของเรา","coursesCatalogTitle":"คอร์สเรียน","coursesCertificateLoading":"กำลังตรวจสอบ…","coursesCertificateTitle":"การตรวจสอบใบประกาศนียบัตร","coursesDetailEnroll":"เพิ่มลงตะกร้า","coursesDetailResume":"เรียนต่อ","coursesDigitalDelivery":"การเข้าถึงออนไลน์แบบดิจิทัล","coursesLessonCompleted":"เสร็จสมบูรณ์","coursesLessonLoading":"กำลังโหลดบทเรียน…","coursesLessonMarkComplete":"ทำเครื่องหมายว่าเสร็จสิ้น","coursesLessonNext":"ถัดไป","coursesLessonPrev":"ก่อนหน้า","coursesMyLearningEmpty":"คุณยังไม่ได้ลงทะเบียนเรียนคอร์สใดๆ","coursesMyLearningLoading":"กำลังโหลดคอร์สของคุณ…","coursesMyLearningSubtitle":"เรียนต่อจากจุดที่คุณหยุดไว้","coursesMyLearningTitle":"การเรียนของฉัน","coursesCertCourse":"คอร์สเรียน","coursesCertDownload":"ดาวน์โหลด","coursesCertError":"การตรวจสอบไม่สำเร็จ","coursesCertInvalid":"ไม่สามารถตรวจสอบใบประกาศนียบัตรนี้ได้","coursesCertIssued":"ออกให้เมื่อ","coursesCertStudent":"นักเรียน","coursesCertValid":"ตรวจสอบแล้ว","coursesCertIssuer":"ออกโดย","coursesCertCode":"รหัสยืนยัน","coursesViewCertificate":"ดูใบรับรอง","coursesCertEarnedTitle":"เรียนจบหลักสูตรแล้ว!","coursesCertEarnedBody":"ใบรับรองของคุณพร้อมแล้ว","coursesCurriculumEmpty":"หลักสูตรจะเปิดให้เร็วๆ นี้","coursesFree":"ฟรี","coursesJoinLive":"เข้าร่วมสด","coursesLessonGate":"ลงทะเบียนเรียนคอร์สนี้เพื่อเข้าถึงบทเรียนนี้","coursesLessonLocked":"บทเรียนถูกล็อค","coursesLessonLoadError":"ไม่สามารถโหลดบทเรียนได้","coursesEnrollCta":"ดูคอร์สและลงทะเบียน","coursesEnrollmentRevoked":"การลงทะเบียนของคุณไม่ได้ใช้งานอีกต่อไป","coursesDripLocked":"บทเรียนนี้จะปลดล็อคตามกำหนดการ","coursesVideoProcessing":"วิดีโอยังอยู่ระหว่างการประมวลผล กรุณาตรวจสอบอีกครั้งในภายหลัง","coursesVideoFailed":"การประมวลผลวิดีโอล้มเหลว กรุณาอัปโหลดวิดีโอบทเรียนใหม่จาก Course Studio","coursesDetailLoading":"กำลังโหลด…","coursesDetailInstructor":"ผู้สอน","coursesDetailCurriculum":"หลักสูตร","coursesLevelBeginner":"ผู้เริ่มต้น","coursesLevelIntermediate":"ระดับกลาง","coursesLevelAdvanced":"ระดับสูง","coursesLessonUnsupported":"ประเภทบทเรียนนี้ยังไม่รองรับ","coursesLiveScheduled":"กำหนดการเรียนสดแล้ว","coursesPreview":"ดูตัวอย่าง","coursesQuizError":"โหลดแบบทดสอบไม่สำเร็จ","coursesQuizLoading":"กำลังโหลดแบบทดสอบ…","coursesQuizNone":"ไม่มีแบบทดสอบในบทเรียนนี้","coursesQuizPassed":"คุณผ่านแล้ว!","coursesQuizRetry":"ลองใหม่อีกครั้ง","coursesQuizSubmit":"ส่งคำตอบ","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"วัน","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"ส่วนลด","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"กรุณากรอกอีเมลที่ถูกต้อง","emailRequired":"กรุณากรอกอีเมล","emptyCart":"ตะกร้าของคุณว่างเปล่า","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"เกิดข้อผิดพลาดในการโหลดตัวเลือก","featured":"แนะนำ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ฟรี","freeAbove":"ฟรีเมื่อซื้อครบ","frequentlyBoughtTogether":"มักซื้อด้วยกัน","frequentlyBoughtTogetherSubtitle":"ประหยัดเวลาและได้ทุกอย่างที่คุณต้องการ","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"หน้าแรก","inStock":"มีสินค้า","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"ความยาว","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"วัสดุ","minimumOrderNotMet":"ยอดสั่งซื้อขั้นต่ำ: {{amount}} กรุณาเพิ่มอีก {{remaining}} เพื่อดำเนินการต่อ","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"กรุณากรอกชื่อ-นามสกุล","new":"ใหม่","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ร้านค้าของคุณพร้อมสำหรับสินค้าแล้ว","previewEmptyStoreBody":"เพิ่มสินค้าชิ้นแรกในตัวจัดการร้านค้าเพื่อดูว่าสินค้าจะแสดงที่นี่","previewEmptyStoreButton":"เพิ่มสินค้า","previewOnlyBadge":"เฉพาะตัวอย่าง","noShippingMethods":"ไม่มีตัวเลือกการจัดส่ง","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"สินค้าหมด","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"กรุณากรอกเบอร์โทรศัพท์","placeOrder":"Place Order","pleaseAcceptTerms":"กรุณายอมรับข้อกำหนดและเงื่อนไข","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"ดำเนินการชำระเงิน","productDetails":"รายละเอียดสินค้า","productNotFound":"Product not found","products":"สินค้า","profileUpdated":"Profile updated successfully","quantity":"จำนวน","relatedProducts":"สินค้าที่เกี่ยวข้อง","remove":"ลบ","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"ลดราคา","saveAddressForNextTime":"บันทึกที่อยู่นี้สำหรับครั้งหน้า","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"การจัดส่ง","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"กรุณาเลือกวิธีการจัดส่ง","signInHere":"Sign in here","size":"ขนาด","sku":"รหัสสินค้า","specifications":"ข้อมูลจำเพาะ","startingAt":"เริ่มต้นที่","stateProvince":"จังหวัด / รัฐ","stateRequired":"กรุณาเลือกจังหวัด / รัฐ","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"ข้อมูลเพิ่มเติม","street":"Street Address","streetAndNumber":"ถนนและเลขที่","streetRequired":"กรุณากรอกที่อยู่","style":"สไตล์","subtotal":"ยอดรวมย่อย","termsAndConditions":"ข้อกำหนดและเงื่อนไข","thankYouOrder":"Thank you for your order","total":"รวม","totalToPay":"ยอดรวมที่ต้องชำระ","transactionDate":"Transaction Date","upsellFree":"ฟรี","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"รวม VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"ดูรายละเอียด","viewOrder":"View Order","weight":"น้ำหนัก","work":"Work","yourCart":"ตะกร้าของคุณ","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"รหัสไปรษณีย์","coursesAlreadyOwned":"คุณมีคอร์สนี้อยู่แล้ว","coursesAlreadyOwnedCheckout":"คุณลงทะเบียนคอร์สในตะกร้าแล้ว","coursesEnrollmentCheckFailed":"ไม่สามารถตรวจสอบความเป็นเจ้าของคอร์สได้ กรุณาลองใหม่อีกครั้ง","coursesAlreadyEnrolledPrompt":"ลงทะเบียนแล้ว?","coursesLoginLink":"เข้าสู่ระบบ","processing":"กำลังดำเนินการ...","checkoutFailed":"การชำระเงินล้มเหลว กรุณาลองใหม่อีกครั้ง"},"tr":{"loading":"Yükleniyor…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} ürünü sepete ekle","addToCart":"Sepete Ekle","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Kabul ediyorum","all":"Tümü","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Daire, kat, bina kodu, notlar vb.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Paket İndirimi","bundleTotal":"Paket toplamı","callNow":"Call Now","cancel":"Cancel","capacity":"Kapasite","cart":"Cart","category":"Category","checkout":"Ödeme","city":"Şehir","cityRequired":"Lütfen şehrinizi girin","color":"Renk","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Alışverişe Devam Et","continueToHomePage":"Continue to Home Page","countryRegion":"Ülke / Bölge","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Henüz mevcut kurs yok.","coursesCatalogError":"Kurslar yüklenemedi.","coursesCatalogSubtitle":"Tüm kurs kütüphanemizi inceleyin.","coursesCatalogTitle":"Kurslar","coursesCertificateLoading":"Doğrulanıyor…","coursesCertificateTitle":"Sertifika Doğrulama","coursesDetailEnroll":"Sepete Ekle","coursesDetailResume":"Öğrenmeye devam et","coursesDigitalDelivery":"Dijital çevrimiçi erişim","coursesLessonCompleted":"Tamamlandı","coursesLessonLoading":"Ders yükleniyor…","coursesLessonMarkComplete":"Tamamlandı olarak işaretle","coursesLessonNext":"Sonraki","coursesLessonPrev":"Önceki","coursesMyLearningEmpty":"Henüz hiçbir kursa kayıt olmadınız.","coursesMyLearningLoading":"Kurslarınız yükleniyor…","coursesMyLearningSubtitle":"Kaldığınız yerden devam edin.","coursesMyLearningTitle":"Öğrenimim","coursesCertCourse":"Kurs","coursesCertDownload":"İndir","coursesCertError":"Doğrulama başarısız.","coursesCertInvalid":"Bu sertifika doğrulanamadı.","coursesCertIssued":"Verildi","coursesCertStudent":"Öğrenci","coursesCertValid":"Doğrulandı","coursesCertIssuer":"Veren","coursesCertCode":"Doğrulama kodu","coursesViewCertificate":"Sertifikayı görüntüle","coursesCertEarnedTitle":"Kurs tamamlandı!","coursesCertEarnedBody":"Sertifikanız hazır.","coursesCurriculumEmpty":"Müfredat yakında gelecek.","coursesFree":"Ücretsiz","coursesJoinLive":"Canlı katıl","coursesLessonGate":"Bu derse erişmek için kursa kaydolun.","coursesLessonLocked":"Ders kilitli","coursesLessonLoadError":"Ders yüklenemedi.","coursesEnrollCta":"Kursu görüntüle ve kaydol","coursesEnrollmentRevoked":"Kaydınız artık aktif değil.","coursesDripLocked":"Bu ders programlı olarak açılacak.","coursesVideoProcessing":"Video hala işleniyor. Kısa süre sonra tekrar kontrol edin.","coursesVideoFailed":"Video işleme başarısız oldu. Lütfen ders videosunu Course Studio'dan yeniden yükleyin.","coursesDetailLoading":"Yükleniyor…","coursesDetailInstructor":"Eğitmen","coursesDetailCurriculum":"Müfredat","coursesLevelBeginner":"Başlangıç","coursesLevelIntermediate":"Orta","coursesLevelAdvanced":"İleri","coursesLessonUnsupported":"Bu ders türü henüz desteklenmiyor.","coursesLiveScheduled":"Canlı oturum planlandı","coursesPreview":"Önizleme","coursesQuizError":"Quiz yüklenemedi.","coursesQuizLoading":"Quiz yükleniyor…","coursesQuizNone":"Bu derste quiz yok.","coursesQuizPassed":"Başardınız!","coursesQuizRetry":"Tekrar dene.","coursesQuizSubmit":"Gönder","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"gün","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"İndirim","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Lütfen geçerli bir e-posta adresi girin","emailRequired":"Lütfen e-posta adresinizi girin","emptyCart":"Sepetiniz boş","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Seçenekler yüklenirken hata oluştu","featured":"Öne Çıkanlar","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ÜCRETSİZ","freeAbove":"Ücretsiz kargo","frequentlyBoughtTogether":"Sıkça birlikte alınanlar","frequentlyBoughtTogetherSubtitle":"Zamandan kazanın ve ihtiyacınız olan her şeyi alın","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Ana Sayfa","inStock":"Stokta","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Uzunluk","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Malzeme","minimumOrderNotMet":"Minimum sipariş tutarı: {{amount}}. Devam etmek için {{remaining}} daha ekleyin.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Lütfen tam adınızı girin","new":"Yeni","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Mağazanız ürünler için hazır","previewEmptyStoreBody":"Burada görünmesi için Mağaza Yöneticisi'nde ilk ürününüzü ekleyin.","previewEmptyStoreButton":"Ürün ekle","previewOnlyBadge":"Yalnızca önizleme","noShippingMethods":"Kargo seçeneği bulunmuyor","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Stokta Yok","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Lütfen telefon numaranızı girin","placeOrder":"Place Order","pleaseAcceptTerms":"Lütfen şartları ve koşulları kabul edin","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ödemeye Geç","productDetails":"Ürün Detayları","productNotFound":"Product not found","products":"Ürünler","profileUpdated":"Profile updated successfully","quantity":"Adet","relatedProducts":"İlgili Ürünler","remove":"Kaldır","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"İndirim","saveAddressForNextTime":"Bu adresi bir sonraki sefer için kaydet","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Kargo","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Lütfen bir kargo yöntemi seçin","signInHere":"Sign in here","size":"Beden","sku":"Stok Kodu","specifications":"Teknik Özellikler","startingAt":"Başlayan fiyat","stateProvince":"Eyalet / İl","stateRequired":"Lütfen bir eyalet / il seçin","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Ek Bilgiler","street":"Street Address","streetAndNumber":"Sokak ve numara","streetRequired":"Lütfen adresinizi girin","style":"Stil","subtotal":"Ara Toplam","termsAndConditions":"Şartlar ve Koşullar","thankYouOrder":"Thank you for your order","total":"Toplam","totalToPay":"Ödenecek Toplam","transactionDate":"Transaction Date","upsellFree":"Ücretsiz","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"KDV Dahil","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Detayları Gör","viewOrder":"View Order","weight":"Ağırlık","work":"Work","yourCart":"Sepetiniz","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Posta Kodu","coursesAlreadyOwned":"Bu kursa zaten sahipsiniz.","coursesAlreadyOwnedCheckout":"Sepetinizdeki bir kursa zaten kayıtlısınız.","coursesEnrollmentCheckFailed":"Kurs sahipliği doğrulanamadı. Lütfen tekrar deneyin.","coursesAlreadyEnrolledPrompt":"Zaten kayıtlı mısınız?","coursesLoginLink":"Giriş yapın","processing":"İşleniyor...","checkoutFailed":"Ödeme başarısız oldu. Lütfen tekrar deneyin."},"zh":{"loading":"加载中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"将 {count} 件商品加入购物车","addToCart":"加入购物车","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"我同意","all":"全部","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"公寓、楼层、建筑代码、备注等。","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"套装折扣","bundleTotal":"组合总计","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"结账","city":"城市","cityRequired":"请输入您的城市","color":"颜色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"继续购物","continueToHomePage":"Continue to Home Page","countryRegion":"国家 / 地区","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"暂无可用课程。","coursesCatalogError":"加载课程失败。","coursesCatalogSubtitle":"浏览我们完整的课程库。","coursesCatalogTitle":"课程","coursesCertificateLoading":"验证中…","coursesCertificateTitle":"证书验证","coursesDetailEnroll":"加入购物车","coursesDetailResume":"继续学习","coursesDigitalDelivery":"数字在线访问","coursesLessonCompleted":"已完成","coursesLessonLoading":"加载课程中…","coursesLessonMarkComplete":"标记完成","coursesLessonNext":"下一个","coursesLessonPrev":"上一个","coursesMyLearningEmpty":"您还没有报名任何课程。","coursesMyLearningLoading":"加载您的课程中…","coursesMyLearningSubtitle":"从上次停下的地方继续。","coursesMyLearningTitle":"我的学习","coursesCertCourse":"课程","coursesCertDownload":"下载","coursesCertError":"验证失败。","coursesCertInvalid":"此证书无法验证。","coursesCertIssued":"颁发时间","coursesCertStudent":"学员","coursesCertValid":"已验证","coursesCertIssuer":"颁发者","coursesCertCode":"验证码","coursesViewCertificate":"查看证书","coursesCertEarnedTitle":"课程完成！","coursesCertEarnedBody":"您的证书已就绪。","coursesCurriculumEmpty":"课程大纲即将推出。","coursesFree":"免费","coursesJoinLive":"加入直播","coursesLessonGate":"请注册此课程以访问本课时。","coursesLessonLocked":"课程已锁定","coursesLessonLoadError":"加载课程失败。","coursesEnrollCta":"查看课程并报名","coursesEnrollmentRevoked":"您的注册已失效。","coursesDripLocked":"此课程将按计划解锁。","coursesVideoProcessing":"视频仍在处理中。请稍后再试。","coursesVideoFailed":"视频处理失败。请从课程工作室重新上传课程视频。","coursesDetailLoading":"加载中…","coursesDetailInstructor":"讲师","coursesDetailCurriculum":"课程大纲","coursesLevelBeginner":"初级","coursesLevelIntermediate":"中级","coursesLevelAdvanced":"高级","coursesLessonUnsupported":"暂不支持此课时类型。","coursesLiveScheduled":"直播课程已安排","coursesPreview":"预览","coursesQuizError":"加载测验失败。","coursesQuizLoading":"正在加载测验…","coursesQuizNone":"本课时无测验。","coursesQuizPassed":"您通过了！","coursesQuizRetry":"重新尝试。","coursesQuizSubmit":"提交","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"天","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"折扣","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"请输入有效的电子邮件地址","emailRequired":"请输入您的电子邮件地址","emptyCart":"您的购物车是空的","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"加载选项时出错","featured":"精选","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"免费","freeAbove":"满额免运费","frequentlyBoughtTogether":"经常一起购买","frequentlyBoughtTogetherSubtitle":"节省时间，一次买齐所需","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"首页","inStock":"有货","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"长度","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"材质","minimumOrderNotMet":"最低订单金额：{{amount}}。还需添加 {{remaining}} 才能结账。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"请输入您的全名","new":"新品","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"您的商店已准备好添加商品","previewEmptyStoreBody":"在商店管理器中添加第一个商品，即可在这里看到它。","previewEmptyStoreButton":"添加商品","previewOnlyBadge":"仅预览","noShippingMethods":"暂无配送方式","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"缺货","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"请输入您的电话号码","placeOrder":"Place Order","pleaseAcceptTerms":"请接受条款和条件","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"继续结账","productDetails":"商品详情","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"相关商品","remove":"移除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"促销","saveAddressForNextTime":"保存此地址以备下次使用","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"配送","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"请选择运输方式","signInHere":"Sign in here","size":"尺寸","sku":"货号","specifications":"规格参数","startingAt":"起价","stateProvince":"州 / 省","stateRequired":"请选择州 / 省","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"附加信息","street":"Street Address","streetAndNumber":"街道和门牌号","streetRequired":"请输入您的街道地址","style":"款式","subtotal":"小计","termsAndConditions":"条款和条件","thankYouOrder":"Thank you for your order","total":"总计","totalToPay":"应付总额","transactionDate":"Transaction Date","upsellFree":"免费","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"含税","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"查看详情","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"您的购物车","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"邮政编码","coursesAlreadyOwned":"您已拥有此课程。","coursesAlreadyOwnedCheckout":"您已注册了购物车中的课程。","coursesEnrollmentCheckFailed":"无法验证课程所有权。请重试。","coursesAlreadyEnrolledPrompt":"已注册？","coursesLoginLink":"登录","processing":"处理中...","checkoutFailed":"支付失败。请重试。"}};
+  const ECOM_RUNTIME_TEXT = {"ar":{"loading":"جارٍ التحميل…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"أضف {count} منتجات إلى السلة","addToCart":"أضف إلى السلة","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"أوافق على","all":"الكل","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"شقة، طابق، رمز المبنى، ملاحظات، إلخ.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"احجز الآن","bookingChooseDate":"اختر تاريخًا","bookingChooseTime":"اختر وقتًا","bookingDate":"التاريخ","bookingLoading":"جارٍ تحميل التوفر…","bookingNoDates":"لا توجد تواريخ متاحة حاليًا","bookingNoSlots":"لا توجد أوقات متاحة حاليًا","bookingRemaining":"بقي {count}","bookingSelectOption":"اختر","bookingSelectTime":"اختر وقتًا","bookingSelectDateFirst":"يرجى اختيار التاريخ أولًا","bookingSelectTimeFirst":"يرجى اختيار التاريخ والوقت أولًا","bookingTime":"الوقت","browseFavorites":"Discover all our products","bundleDiscount":"خصم الحزمة","seasonalDiscount":"خصم موسمي","customerDiscount":"خصم العميل","bundleTotal":"إجمالي الحزمة","callNow":"Call Now","cancel":"Cancel","capacity":"السعة","cart":"Cart","category":"Category","checkout":"الدفع","city":"المدينة","cityRequired":"يرجى إدخال المدينة","color":"اللون","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"متابعة التسوق","continueToHomePage":"Continue to Home Page","countryRegion":"البلد / المنطقة","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"لا توجد دورات متاحة بعد.","coursesCatalogError":"فشل في تحميل الدورات.","coursesCatalogSubtitle":"تصفح مكتبة الدورات الكاملة لدينا.","coursesCatalogTitle":"الدورات","coursesCertificateLoading":"جاري التحقق…","coursesCertificateTitle":"التحقق من الشهادة","coursesDetailEnroll":"أضف إلى السلة","coursesDetailResume":"متابعة التعلم","coursesDigitalDelivery":"الوصول الرقمي عبر الإنترنت","coursesLessonCompleted":"مكتمل","coursesLessonLoading":"جاري تحميل الدرس…","coursesLessonMarkComplete":"تحديد كمكتمل","coursesLessonNext":"التالي","coursesLessonPrev":"السابق","coursesMyLearningEmpty":"لم تسجل في أي دورات بعد.","coursesMyLearningLoading":"جاري تحميل دوراتك…","coursesMyLearningSubtitle":"تابع من حيث توقفت.","coursesMyLearningTitle":"تعلمي","coursesCertCourse":"الدورة","coursesCertDownload":"تحميل","coursesCertError":"فشل في التحقق.","coursesCertInvalid":"لا يمكن التحقق من هذه الشهادة.","coursesCertIssued":"تاريخ الإصدار","coursesCertStudent":"الطالب","coursesCertValid":"تم التحقق","coursesCertIssuer":"صادر عن","coursesCertCode":"رمز التحقق","coursesViewCertificate":"عرض الشهادة","coursesCertEarnedTitle":"اكتملت الدورة!","coursesCertEarnedBody":"شهادتك جاهزة.","coursesCurriculumEmpty":"المنهج قادم قريباً.","coursesFree":"مجاني","coursesJoinLive":"انضم مباشرة","coursesLessonGate":"سجل في هذه الدورة للوصول إلى هذا الدرس.","coursesLessonLocked":"الدرس مقفل","coursesLessonLoadError":"فشل في تحميل الدرس.","coursesEnrollCta":"عرض الدورة والتسجيل","coursesEnrollmentRevoked":"تسجيلك لم يعد نشطاً.","coursesDripLocked":"هذا الدرس سيتم فتحه وفقاً لجدول زمني.","coursesVideoProcessing":"الفيديو لا يزال قيد المعالجة. تحقق مرة أخرى قريباً.","coursesVideoFailed":"فشل في معالجة الفيديو. يرجى إعادة تحميل فيديو الدرس من Course Studio.","coursesDetailLoading":"جاري التحميل…","coursesDetailInstructor":"المدرب","coursesDetailCurriculum":"المنهج الدراسي","coursesLevelBeginner":"مبتدئ","coursesLevelIntermediate":"متوسط","coursesLevelAdvanced":"متقدم","coursesLessonUnsupported":"نوع الدرس هذا غير مدعوم بعد.","coursesLiveScheduled":"تم جدولة الجلسة المباشرة","coursesPreview":"معاينة","coursesQuizError":"فشل في تحميل الاختبار.","coursesQuizLoading":"جاري تحميل الاختبار…","coursesQuizNone":"لا يوجد اختبار في هذا الدرس.","coursesQuizPassed":"لقد نجحت!","coursesQuizRetry":"حاول مرة أخرى.","coursesQuizSubmit":"إرسال","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"أيام","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"الخصم","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"يرجى إدخال بريد إلكتروني صالح","emailRequired":"يرجى إدخال عنوان البريد الإلكتروني","emptyCart":"السلة فارغة","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"خطأ في تحميل الخيارات","featured":"مميز","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"مجاني","freeAbove":"مجاني فوق","frequentlyBoughtTogether":"يُشترى معًا بشكل متكرر","frequentlyBoughtTogetherSubtitle":"وفّر وقتك واحصل على كل ما تحتاجه","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"الرئيسية","inStock":"متوفر","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"الطول","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"المادة","minimumOrderNotMet":"الحد الأدنى لمبلغ الطلب: {{amount}}. أضف {{remaining}} للمتابعة.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"يرجى إدخال الاسم الكامل","new":"جديد","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"متجرك جاهز للمنتجات","previewEmptyStoreBody":"أضف أول منتج في مدير المتجر ليراه يظهر هنا.","previewEmptyStoreButton":"أضف منتجات","previewOnlyBadge":"للمعاينة فقط","noShippingMethods":"لا توجد خيارات شحن متاحة","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"غير متوفر","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"يرجى إدخال رقم الهاتف","placeOrder":"Place Order","pleaseAcceptTerms":"يرجى الموافقة على الشروط والأحكام","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"متابعة الدفع","productDetails":"تفاصيل المنتج","productNotFound":"Product not found","products":"المنتجات","profileUpdated":"Profile updated successfully","quantity":"الكمية","relatedProducts":"منتجات ذات صلة","remove":"إزالة","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"تخفيضات","saveAddressForNextTime":"احفظ هذا العنوان للمرة القادمة","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"نتائج البحث","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"الشحن","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"يرجى اختيار طريقة الشحن","signInHere":"Sign in here","size":"الحجم","sku":"رمز المنتج","specifications":"المواصفات","startingAt":"ابتداءً من","stateProvince":"الولاية / المحافظة","stateRequired":"يرجى اختيار الولاية / المحافظة","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"معلومات إضافية","street":"Street Address","streetAndNumber":"الشارع والرقم","streetRequired":"يرجى إدخال عنوان الشارع","style":"الطراز","subtotal":"المجموع الفرعي","termsAndConditions":"الشروط والأحكام","thankYouOrder":"Thank you for your order","total":"المجموع","totalToPay":"المبلغ الإجمالي المستحق","transactionDate":"Transaction Date","upsellFree":"مجاناً","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"شامل ضريبة القيمة المضافة","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"عرض التفاصيل","viewOrder":"View Order","weight":"الوزن","work":"Work","yourCart":"سلتك","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"الرمز البريدي","coursesAlreadyOwned":"أنت مسجل بالفعل في هذه الدورة.","coursesAlreadyOwnedCheckout":"أنت مسجل بالفعل في دورة في سلة التسوق.","coursesEnrollmentCheckFailed":"لا يمكن التحقق من ملكية الدورة. يرجى المحاولة مرة أخرى.","coursesAlreadyEnrolledPrompt":"مسجل بالفعل؟","coursesLoginLink":"تسجيل الدخول","yourCourse":"دورتك","courseAccessMethod":"وصول إلكتروني إلى الدورة","processing":"جارٍ المعالجة...","checkoutFailed":"فشل الدفع. يرجى المحاولة مرة أخرى."},"bg":{"loading":"Зареждане…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добави {count} продукта в количката","addToCart":"Добави в количката","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Съгласен съм с","all":"Всички","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Апартамент, етаж, код на сграда, бележки и др.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Резервирайте сега","bookingChooseDate":"Изберете дата","bookingChooseTime":"Изберете час","bookingDate":"Дата","bookingLoading":"Зареждане на наличността…","bookingNoDates":"В момента няма свободни дати","bookingNoSlots":"В момента няма свободни часове","bookingRemaining":"Остават {count}","bookingSelectOption":"Изберете","bookingSelectTime":"Изберете час","bookingSelectDateFirst":"Моля, първо изберете дата","bookingSelectTimeFirst":"Моля, първо изберете дата и час","bookingTime":"Час","browseFavorites":"Discover all our products","bundleDiscount":"Отстъпка за пакет","seasonalDiscount":"Сезонна отстъпка","customerDiscount":"Клиентска отстъпка","bundleTotal":"Общо за комплекта","callNow":"Call Now","cancel":"Cancel","capacity":"Капацитет","cart":"Cart","category":"Category","checkout":"Поръчка","city":"Град","cityRequired":"Моля, въведете града си","color":"Цвят","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продължи пазаруването","continueToHomePage":"Continue to Home Page","countryRegion":"Държава / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Все още няма налични курсове.","coursesCatalogError":"Неуспешно зареждане на курсовете.","coursesCatalogSubtitle":"Разгледайте пълната ни библиотека от курсове.","coursesCatalogTitle":"Курсове","coursesCertificateLoading":"Проверява се…","coursesCertificateTitle":"Проверка на сертификат","coursesDetailEnroll":"Добави в количката","coursesDetailResume":"Продължи обучението","coursesDigitalDelivery":"Цифров онлайн достъп","coursesLessonCompleted":"Завършено","coursesLessonLoading":"Зарежда се урок…","coursesLessonMarkComplete":"Маркирай като завършен","coursesLessonNext":"Следващ","coursesLessonPrev":"Предишен","coursesMyLearningEmpty":"Все още не сте записани в никакви курсове.","coursesMyLearningLoading":"Зареждат се вашите курсове…","coursesMyLearningSubtitle":"Продължете от там, където спряхте.","coursesMyLearningTitle":"Моето обучение","coursesCertCourse":"Курс","coursesCertDownload":"Изтегли","coursesCertError":"Верификацията неуспешна.","coursesCertInvalid":"Този сертификат не може да бъде верифициран.","coursesCertIssued":"Издаден","coursesCertStudent":"Студент","coursesCertValid":"Верифициран","coursesCertIssuer":"Издадено от","coursesCertCode":"Код за проверка","coursesViewCertificate":"Виж сертификата","coursesCertEarnedTitle":"Курсът е завършен!","coursesCertEarnedBody":"Вашият сертификат е готов.","coursesCurriculumEmpty":"Учебната програма идва скоро.","coursesFree":"Безплатно","coursesJoinLive":"Присъедини се на живо","coursesLessonGate":"Запишете се в този курс, за да получите достъп до този урок.","coursesLessonLocked":"Урокът е заключен","coursesLessonLoadError":"Неуспешно зареждане на урока.","coursesEnrollCta":"Вижте курса и се запишете","coursesEnrollmentRevoked":"Вашата регистрация вече не е активна.","coursesDripLocked":"Този урок се отключва по график.","coursesVideoProcessing":"Видеото все още се обработва. Проверете отново скоро.","coursesVideoFailed":"Обработката на видеото неуспешна. Моля, качете отново видеото на урока от Course Studio.","coursesDetailLoading":"Зарежда се…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебна програма","coursesLevelBeginner":"Начинаещ","coursesLevelIntermediate":"Средно ниво","coursesLevelAdvanced":"Напреднал","coursesLessonUnsupported":"Този тип урок все още не се поддържа.","coursesLiveScheduled":"Планирана е сесия на живо","coursesPreview":"Преглед","coursesQuizError":"Неуспешно зареждане на теста.","coursesQuizLoading":"Зарежда се тест…","coursesQuizNone":"Няма тест за този урок.","coursesQuizPassed":"Успяхте!","coursesQuizRetry":"Опитайте отново.","coursesQuizSubmit":"Изпрати","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дни","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Отстъпка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Моля, въведете валиден имейл адрес","emailRequired":"Моля, въведете имейл адреса си","emptyCart":"Количката ви е празна","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Грешка при зареждане на опциите","featured":"Препоръчани","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕЗПЛАТНО","freeAbove":"Безплатно над","frequentlyBoughtTogether":"Често купувани заедно","frequentlyBoughtTogetherSubtitle":"Спестете време и вземете всичко необходимо","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Начало","inStock":"В наличност","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Дължина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимална сума на поръчката: {{amount}}. Добавете още {{remaining}}, за да продължите.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Моля, въведете пълното си име","new":"Нови","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Магазинът ви е готов за продукти","previewEmptyStoreBody":"Добавете първия си продукт в мениджъра на магазина, за да го видите тук.","previewEmptyStoreButton":"Добавяне на продукти","previewOnlyBadge":"Само за преглед","noShippingMethods":"Няма налични опции за доставка","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Изчерпан","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Моля, въведете телефонния си номер","placeOrder":"Place Order","pleaseAcceptTerms":"Моля, приемете общите условия","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Към плащане","productDetails":"Детайли за продукта","productNotFound":"Product not found","products":"Продукти","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Свързани продукти","remove":"Премахни","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Намаление","saveAddressForNextTime":"Запази този адрес за следващия път","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Резултати от търсенето","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Моля, изберете метод за доставка","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Спецификации","startingAt":"От","stateProvince":"Област / Провинция","stateRequired":"Моля, изберете област / провинция","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Допълнителна информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Моля, въведете адреса си","style":"Стил","subtotal":"Междинна сума","termsAndConditions":"Общите условия","thankYouOrder":"Thank you for your order","total":"Общо","totalToPay":"Общо за плащане","transactionDate":"Transaction Date","upsellFree":"Безплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включително ДДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Виж детайли","viewOrder":"View Order","weight":"Тегло","work":"Work","yourCart":"Вашата количка","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Пощенски код","coursesAlreadyOwned":"Вече притежавате този курс.","coursesAlreadyOwnedCheckout":"Вече сте записани за курс в количката.","coursesEnrollmentCheckFailed":"Не можа да се провери собствеността на курса. Моля, опитайте отново.","coursesAlreadyEnrolledPrompt":"Вече записани?","coursesLoginLink":"Влезте","yourCourse":"вашият курс","courseAccessMethod":"Онлайн достъп до курса","processing":"Обработва се...","checkoutFailed":"Плащането не бе успешно. Моля, опитайте отново."},"de":{"loading":"Wird geladen…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} Artikel in den Warenkorb","addToCart":"In den Warenkorb","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Ich akzeptiere die","all":"Alle","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Wohnung, Etage, Gebäudecode, Hinweise usw.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Jetzt buchen","bookingChooseDate":"Datum wählen","bookingChooseTime":"Uhrzeit wählen","bookingDate":"Datum","bookingLoading":"Verfügbarkeit wird geladen…","bookingNoDates":"Derzeit keine verfügbaren Daten","bookingNoSlots":"Derzeit keine verfügbaren Zeiten","bookingRemaining":"Noch {count}","bookingSelectOption":"Auswählen","bookingSelectTime":"Uhrzeit auswählen","bookingSelectDateFirst":"Bitte zuerst ein Datum wählen","bookingSelectTimeFirst":"Bitte zuerst Datum und Uhrzeit wählen","bookingTime":"Uhrzeit","browseFavorites":"Discover all our products","bundleDiscount":"Paketrabatt","seasonalDiscount":"Saisonaler Rabatt","customerDiscount":"Kundenrabatt","bundleTotal":"Bundle-Gesamtsumme","callNow":"Call Now","cancel":"Cancel","capacity":"Kapazität","cart":"Cart","category":"Category","checkout":"Zur Kasse","city":"Stadt","cityRequired":"Bitte geben Sie Ihre Stadt ein","color":"Farbe","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Weiter einkaufen","continueToHomePage":"Continue to Home Page","countryRegion":"Land / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Noch keine Kurse verfügbar.","coursesCatalogError":"Kurse konnten nicht geladen werden.","coursesCatalogSubtitle":"Durchsuchen Sie unsere vollständige Kursbibliothek.","coursesCatalogTitle":"Kurse","coursesCertificateLoading":"Überprüfung läuft…","coursesCertificateTitle":"Zertifikat-Verifizierung","coursesDetailEnroll":"In den Warenkorb","coursesDetailResume":"Lernen fortsetzen","coursesDigitalDelivery":"Digitaler Online-Zugang","coursesLessonCompleted":"Abgeschlossen","coursesLessonLoading":"Lektion wird geladen…","coursesLessonMarkComplete":"Als abgeschlossen markieren","coursesLessonNext":"Weiter","coursesLessonPrev":"Zurück","coursesMyLearningEmpty":"Sie haben sich noch für keinen Kurs eingeschrieben.","coursesMyLearningLoading":"Ihre Kurse werden geladen…","coursesMyLearningSubtitle":"Setzen Sie dort fort, wo Sie aufgehört haben.","coursesMyLearningTitle":"Mein Lernen","coursesCertCourse":"Kurs","coursesCertDownload":"Herunterladen","coursesCertError":"Verifizierung fehlgeschlagen.","coursesCertInvalid":"Dieses Zertifikat konnte nicht verifiziert werden.","coursesCertIssued":"Ausgestellt","coursesCertStudent":"Student","coursesCertValid":"Verifiziert","coursesCertIssuer":"Ausgestellt von","coursesCertCode":"Prüfcode","coursesViewCertificate":"Zertifikat ansehen","coursesCertEarnedTitle":"Kurs abgeschlossen!","coursesCertEarnedBody":"Ihr Zertifikat ist bereit.","coursesCurriculumEmpty":"Lehrplan folgt in Kürze.","coursesFree":"Kostenlos","coursesJoinLive":"Live beitreten","coursesLessonGate":"Melden Sie sich für diesen Kurs an, um auf diese Lektion zuzugreifen.","coursesLessonLocked":"Lektion gesperrt","coursesLessonLoadError":"Lektion konnte nicht geladen werden.","coursesEnrollCta":"Kurs ansehen & einschreiben","coursesEnrollmentRevoked":"Ihre Einschreibung ist nicht mehr aktiv.","coursesDripLocked":"Diese Lektion wird nach einem Zeitplan freigeschaltet.","coursesVideoProcessing":"Video wird noch verarbeitet. Schauen Sie bald wieder vorbei.","coursesVideoFailed":"Videoverarbeitung fehlgeschlagen. Bitte laden Sie das Lektionsvideo erneut aus dem Course Studio hoch.","coursesDetailLoading":"Lädt…","coursesDetailInstructor":"Dozent","coursesDetailCurriculum":"Lehrplan","coursesLevelBeginner":"Anfänger","coursesLevelIntermediate":"Fortgeschritten","coursesLevelAdvanced":"Experte","coursesLessonUnsupported":"Dieser Lektionstyp wird noch nicht unterstützt.","coursesLiveScheduled":"Live-Session geplant","coursesPreview":"Vorschau","coursesQuizError":"Quiz konnte nicht geladen werden.","coursesQuizLoading":"Quiz wird geladen…","coursesQuizNone":"Kein Quiz in dieser Lektion.","coursesQuizPassed":"Sie haben bestanden!","coursesQuizRetry":"Erneut versuchen.","coursesQuizSubmit":"Absenden","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"Tage","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Rabatt","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Bitte geben Sie eine gültige E-Mail-Adresse ein","emailRequired":"Bitte geben Sie Ihre E-Mail-Adresse ein","emptyCart":"Ihr Warenkorb ist leer","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Fehler beim Laden der Optionen","featured":"Empfohlen","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"KOSTENLOS","freeAbove":"Kostenlos ab","frequentlyBoughtTogether":"Oft zusammen gekauft","frequentlyBoughtTogetherSubtitle":"Sparen Sie Zeit und holen Sie sich alles, was Sie brauchen","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Startseite","inStock":"Auf Lager","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Länge","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Mindestbestellwert: {{amount}}. Fügen Sie noch {{remaining}} hinzu, um fortzufahren.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Bitte geben Sie Ihren vollständigen Namen ein","new":"Neu","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Dein Shop ist bereit für Produkte","previewEmptyStoreBody":"Füge dein erstes Produkt im Store Manager hinzu, damit es hier erscheint.","previewEmptyStoreButton":"Produkte hinzufügen","previewOnlyBadge":"Nur Vorschau","noShippingMethods":"Keine Versandoptionen verfügbar","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Nicht verfügbar","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Bitte geben Sie Ihre Telefonnummer ein","placeOrder":"Place Order","pleaseAcceptTerms":"Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Zur Kasse gehen","productDetails":"Produktdetails","productNotFound":"Product not found","products":"Produkte","profileUpdated":"Profile updated successfully","quantity":"Menge","relatedProducts":"Ähnliche Produkte","remove":"Entfernen","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Diese Adresse für das nächste Mal speichern","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Suchergebnisse","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Versand","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Bitte wählen Sie eine Versandart","signInHere":"Sign in here","size":"Größe","sku":"Art.-Nr.","specifications":"Spezifikationen","startingAt":"Ab","stateProvince":"Bundesland / Provinz","stateRequired":"Bitte wählen Sie ein Bundesland / Provinz","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Zusätzliche Informationen","street":"Street Address","streetAndNumber":"Straße und Hausnummer","streetRequired":"Bitte geben Sie Ihre Straßenadresse ein","style":"Stil","subtotal":"Zwischensumme","termsAndConditions":"Allgemeinen Geschäftsbedingungen","thankYouOrder":"Thank you for your order","total":"Gesamt","totalToPay":"Gesamtbetrag","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Inkl. MwSt.","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Details ansehen","viewOrder":"View Order","weight":"Gewicht","work":"Work","yourCart":"Ihr Warenkorb","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Postleitzahl","coursesAlreadyOwned":"Sie besitzen diesen Kurs bereits.","coursesAlreadyOwnedCheckout":"Sie sind bereits in einem Kurs in Ihrem Warenkorb eingeschrieben.","coursesEnrollmentCheckFailed":"Kursberechtigung konnte nicht überprüft werden. Bitte versuchen Sie es erneut.","coursesAlreadyEnrolledPrompt":"Bereits eingeschrieben?","coursesLoginLink":"Anmelden","yourCourse":"dein Kurs","courseAccessMethod":"Online-Kurszugang","processing":"Wird verarbeitet...","checkoutFailed":"Bezahlung fehlgeschlagen. Bitte versuchen Sie es erneut."},"el":{"loading":"Φόρτωση…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Προσθήκη {count} προϊόντων στο καλάθι","addToCart":"Προσθήκη στο καλάθι","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Συμφωνώ με τους","all":"Όλα","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Διαμέρισμα, όροφος, κωδικός κτιρίου, σημειώσεις κτλ.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Κράτηση τώρα","bookingChooseDate":"Επιλέξτε ημερομηνία","bookingChooseTime":"Επιλέξτε ώρα","bookingDate":"Ημερομηνία","bookingLoading":"Φόρτωση διαθεσιμότητας…","bookingNoDates":"Δεν υπάρχουν διαθέσιμες ημερομηνίες αυτή τη στιγμή","bookingNoSlots":"Δεν υπάρχουν διαθέσιμες ώρες αυτή τη στιγμή","bookingRemaining":"Απομένουν {count}","bookingSelectOption":"Επιλογή","bookingSelectTime":"Επιλέξτε ώρα","bookingSelectDateFirst":"Παρακαλώ επιλέξτε πρώτα ημερομηνία","bookingSelectTimeFirst":"Παρακαλώ επιλέξτε πρώτα ημερομηνία και ώρα","bookingTime":"Ώρα","browseFavorites":"Discover all our products","bundleDiscount":"Έκπτωση πακέτου","seasonalDiscount":"Εποχική έκπτωση","customerDiscount":"Έκπτωση πελάτη","bundleTotal":"Σύνολο πακέτου","callNow":"Call Now","cancel":"Cancel","capacity":"Χωρητικότητα","cart":"Cart","category":"Category","checkout":"Ταμείο","city":"Πόλη","cityRequired":"Παρακαλώ εισάγετε την πόλη σας","color":"Χρώμα","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Συνέχεια αγορών","continueToHomePage":"Continue to Home Page","countryRegion":"Χώρα / Περιοχή","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Δεν υπάρχουν ακόμη διαθέσιμα μαθήματα.","coursesCatalogError":"Αποτυχία φόρτωσης μαθημάτων.","coursesCatalogSubtitle":"Περιηγηθείτε στην πλήρη βιβλιοθήκη μαθημάτων μας.","coursesCatalogTitle":"Μαθήματα","coursesCertificateLoading":"Επαλήθευση…","coursesCertificateTitle":"Επαλήθευση Πιστοποιητικού","coursesDetailEnroll":"Προσθήκη στο καλάθι","coursesDetailResume":"Συνέχεια μάθησης","coursesDigitalDelivery":"Ψηφιακή διαδικτυακή πρόσβαση","coursesLessonCompleted":"Ολοκληρώθηκε","coursesLessonLoading":"Φόρτωση μαθήματος…","coursesLessonMarkComplete":"Σήμανση ως ολοκληρωμένο","coursesLessonNext":"Επόμενο","coursesLessonPrev":"Προηγούμενο","coursesMyLearningEmpty":"Δεν έχετε εγγραφεί σε κανένα μάθημα ακόμα.","coursesMyLearningLoading":"Φόρτωση των μαθημάτων σας…","coursesMyLearningSubtitle":"Συνεχίστε από εκεί που σταματήσατε.","coursesMyLearningTitle":"Η Μάθησή Μου","coursesCertCourse":"Μάθημα","coursesCertDownload":"Λήψη","coursesCertError":"Η επαλήθευση απέτυχε.","coursesCertInvalid":"Αυτό το πιστοποιητικό δεν μπόρεσε να επαληθευτεί.","coursesCertIssued":"Εκδόθηκε","coursesCertStudent":"Μαθητής","coursesCertValid":"Επαληθευμένο","coursesCertIssuer":"Εκδόθηκε από","coursesCertCode":"Κωδικός επαλήθευσης","coursesViewCertificate":"Προβολή πιστοποιητικού","coursesCertEarnedTitle":"Το μάθημα ολοκληρώθηκε!","coursesCertEarnedBody":"Το πιστοποιητικό σας είναι έτοιμο.","coursesCurriculumEmpty":"Το πρόγραμμα σπουδών έρχεται σύντομα.","coursesFree":"Δωρεάν","coursesJoinLive":"Συμμετοχή ζωντανά","coursesLessonGate":"Εγγραφείτε σε αυτό το μάθημα για να αποκτήσετε πρόσβαση σε αυτό το μάθημα.","coursesLessonLocked":"Μάθημα κλειδωμένο","coursesLessonLoadError":"Αποτυχία φόρτωσης μαθήματος.","coursesEnrollCta":"Δείτε το μάθημα και εγγραφείτε","coursesEnrollmentRevoked":"Η εγγραφή σας δεν είναι πλέον ενεργή.","coursesDripLocked":"Αυτό το μάθημα ξεκλειδώνει σύμφωνα με το πρόγραμμα.","coursesVideoProcessing":"Το βίντεο εξακολουθεί να επεξεργάζεται. Ελέγξτε ξανά σύντομα.","coursesVideoFailed":"Η επεξεργασία του βίντεο απέτυχε. Παρακαλώ ανεβάστε ξανά το βίντεο του μαθήματος από το Course Studio.","coursesDetailLoading":"Φόρτωση…","coursesDetailInstructor":"Εκπαιδευτής","coursesDetailCurriculum":"Πρόγραμμα Σπουδών","coursesLevelBeginner":"Αρχάριος","coursesLevelIntermediate":"Μεσαίο Επίπεδο","coursesLevelAdvanced":"Προχωρημένο","coursesLessonUnsupported":"Αυτός ο τύπος μαθήματος δεν υποστηρίζεται ακόμη.","coursesLiveScheduled":"Προγραμματισμένη ζωντανή συνεδρία","coursesPreview":"Προεπισκόπηση","coursesQuizError":"Αποτυχία φόρτωσης κουίζ.","coursesQuizLoading":"Φόρτωση κουίζ…","coursesQuizNone":"Δεν υπάρχει κουίζ σε αυτό το μάθημα.","coursesQuizPassed":"Περάσατε!","coursesQuizRetry":"Δοκιμάστε ξανά.","coursesQuizSubmit":"Υποβολή","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"ημέρες","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Έκπτωση","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email","emailRequired":"Παρακαλώ εισάγετε τη διεύθυνση email σας","emptyCart":"Το καλάθι σας είναι άδειο","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Σφάλμα φόρτωσης επιλογών","featured":"Επιλεγμένα","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ΔΩΡΕΑΝ","freeAbove":"Δωρεάν άνω των","frequentlyBoughtTogether":"Συχνά αγοράζονται μαζί","frequentlyBoughtTogetherSubtitle":"Εξοικονομήστε χρόνο και αποκτήστε ό,τι χρειάζεστε","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Αρχική","inStock":"Διαθέσιμο","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Μήκος","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Υλικό","minimumOrderNotMet":"Ελάχιστο ποσό παραγγελίας: {{amount}}. Προσθέστε {{remaining}} ακόμη για να συνεχίσετε.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Παρακαλώ εισάγετε το πλήρες όνομά σας","new":"Νέα","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Το κατάστημά σας είναι έτοιμο για προϊόντα","previewEmptyStoreBody":"Προσθέστε το πρώτο προϊόν στον διαχειριστή καταστήματος για να εμφανιστεί εδώ.","previewEmptyStoreButton":"Προσθήκη προϊόντων","previewOnlyBadge":"Μόνο προεπισκόπηση","noShippingMethods":"Δεν υπάρχουν διαθέσιμες επιλογές αποστολής","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Εξαντλημένο","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Παρακαλώ εισάγετε τον αριθμό τηλεφώνου σας","placeOrder":"Place Order","pleaseAcceptTerms":"Παρακαλώ αποδεχθείτε τους όρους και τις προϋποθέσεις","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Συνέχεια στο ταμείο","productDetails":"Λεπτομέρειες προϊόντος","productNotFound":"Product not found","products":"Προϊόντα","profileUpdated":"Profile updated successfully","quantity":"Ποσότητα","relatedProducts":"Σχετικά προϊόντα","remove":"Αφαίρεση","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Προσφορές","saveAddressForNextTime":"Αποθήκευση αυτής της διεύθυνσης για την επόμενη φορά","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Αποτελέσματα αναζήτησης","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Αποστολή","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Παρακαλώ επιλέξτε μέθοδο αποστολής","signInHere":"Sign in here","size":"Μέγεθος","sku":"Κωδικός","specifications":"Προδιαγραφές","startingAt":"Από","stateProvince":"Νομός / Περιφέρεια","stateRequired":"Παρακαλώ επιλέξτε νομό / περιφέρεια","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Πρόσθετες πληροφορίες","street":"Street Address","streetAndNumber":"Οδός και αριθμός","streetRequired":"Παρακαλώ εισάγετε τη διεύθυνσή σας","style":"Στυλ","subtotal":"Υποσύνολο","termsAndConditions":"Όρους και Προϋποθέσεις","thankYouOrder":"Thank you for your order","total":"Σύνολο","totalToPay":"Σύνολο προς Πληρωμή","transactionDate":"Transaction Date","upsellFree":"Δωρεάν","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Συμπεριλαμβανομένου ΦΠΑ","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Λεπτομέρειες","viewOrder":"View Order","weight":"Βάρος","work":"Work","yourCart":"Το καλάθι σας","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Ταχυδρομικός κώδικας","coursesAlreadyOwned":"Έχετε ήδη πρόσβαση σε αυτό το μάθημα.","coursesAlreadyOwnedCheckout":"Είστε ήδη εγγεγραμμένοι σε μάθημα στο καλάθι σας.","coursesEnrollmentCheckFailed":"Δεν ήταν δυνατή η επαλήθευση της κυριότητας του μαθήματος. Παρακαλώ δοκιμάστε ξανά.","coursesAlreadyEnrolledPrompt":"Ήδη εγγεγραμμένοι;","coursesLoginLink":"Σύνδεση","yourCourse":"το μάθημά σας","courseAccessMethod":"Διαδικτυακή πρόσβαση στο μάθημα","processing":"Επεξεργασία...","checkoutFailed":"Η πληρωμή απέτυχε. Παρακαλώ δοκιμάστε ξανά."},"en":{"loading":"Loading…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Add {count} items to cart","addToCart":"Add to Cart","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"I agree to the","all":"All","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt, Floor, Building Code, Notes, Etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Book now","bookingChooseDate":"Choose a date","bookingChooseTime":"Choose a time","bookingDate":"Date","bookingLoading":"Loading availability…","bookingNoDates":"No available dates right now","bookingNoSlots":"No available times right now","bookingRemaining":"{count} left","bookingSelectOption":"Select","bookingSelectTime":"Select a time","bookingSelectDateFirst":"Please choose a date first","bookingSelectTimeFirst":"Please choose a date and time first","bookingTime":"Time","browseFavorites":"Discover all our products","bundleDiscount":"Bundle Discount","seasonalDiscount":"Seasonal Discount","customerDiscount":"Customer Discount","bundleTotal":"Bundle total","callNow":"Call Now","cancel":"Cancel","capacity":"Capacity","cart":"Cart","category":"Category","checkout":"Checkout","city":"City","cityRequired":"Please enter your city","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continue Shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Country / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"No courses available yet.","coursesCatalogError":"Failed to load courses.","coursesCatalogSubtitle":"Browse our full course library.","coursesCatalogTitle":"Courses","coursesCertificateLoading":"Verifying…","coursesCertificateTitle":"Certificate Verification","coursesDetailEnroll":"Add to Cart","coursesDetailResume":"Resume learning","coursesDigitalDelivery":"Digital online access","coursesLessonCompleted":"Completed","coursesLessonLoading":"Loading lesson…","coursesLessonMarkComplete":"Mark complete","coursesLessonNext":"Next","coursesLessonPrev":"Previous","coursesMyLearningEmpty":"You haven't enrolled in any courses yet.","coursesMyLearningLoading":"Loading your courses…","coursesMyLearningSubtitle":"Continue where you left off.","coursesMyLearningTitle":"My Learning","coursesCertCourse":"Course","coursesCertDownload":"Download","coursesCertError":"Verification failed.","coursesCertInvalid":"This certificate could not be verified.","coursesCertIssued":"Issued","coursesCertStudent":"Student","coursesCertValid":"Verified","coursesCertIssuer":"Issued by","coursesCertCode":"Verification code","coursesViewCertificate":"View certificate","coursesCertEarnedTitle":"Course complete!","coursesCertEarnedBody":"Your certificate is ready.","coursesCurriculumEmpty":"Curriculum coming soon.","coursesFree":"Free","coursesJoinLive":"Join live","coursesLessonGate":"Enroll in this course to access this lesson.","coursesLessonLocked":"Lesson locked","coursesLessonLoadError":"Failed to load lesson.","coursesEnrollCta":"View course & enroll","coursesEnrollmentRevoked":"Your enrollment is no longer active.","coursesDripLocked":"This lesson unlocks on a schedule.","coursesVideoProcessing":"Video is still processing. Check back soon.","coursesVideoFailed":"Video processing failed. Please re-upload the lesson video from Course Studio.","coursesDetailLoading":"Loading…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Curriculum","coursesLevelBeginner":"Beginner","coursesLevelIntermediate":"Intermediate","coursesLevelAdvanced":"Advanced","coursesLessonUnsupported":"This lesson type is not yet supported.","coursesLiveScheduled":"Live session scheduled","coursesPreview":"Preview","coursesQuizError":"Failed to load quiz.","coursesQuizLoading":"Loading quiz…","coursesQuizNone":"No quiz on this lesson.","coursesQuizPassed":"You passed!","coursesQuizRetry":"Try again.","coursesQuizSubmit":"Submit","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"days","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Discount","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Please enter a valid email address","emailRequired":"Please enter your email address","emptyCart":"Your cart is empty","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error loading options","featured":"Featured","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"FREE","freeAbove":"Free above","frequentlyBoughtTogether":"Frequently bought together","frequentlyBoughtTogetherSubtitle":"Save time and get everything you need","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"In Stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Length","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Minimum order amount: {{amount}}. Add {{remaining}} more to proceed.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Please enter your full name","new":"New","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Your store is ready for products","previewEmptyStoreBody":"Add your first product in Store Manager to see it appear here.","previewEmptyStoreButton":"Add products","previewOnlyBadge":"Preview only","noShippingMethods":"No shipping options available","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Out of Stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Please enter your phone number","placeOrder":"Place Order","pleaseAcceptTerms":"Please accept the terms and conditions","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceed to Checkout","productDetails":"Product Details","productNotFound":"Product not found","products":"Products","profileUpdated":"Profile updated successfully","quantity":"Quantity","relatedProducts":"Related Products","remove":"Remove","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Save this address for next time","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Search results","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Shipping","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Please select a shipping method","signInHere":"Sign in here","size":"Size","sku":"SKU","specifications":"Specifications","startingAt":"Starting at","stateProvince":"State / Province","stateRequired":"Please select a state / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Additional Information","street":"Street Address","streetAndNumber":"Street and Number","streetRequired":"Please enter your street address","style":"Style","subtotal":"Subtotal","termsAndConditions":"Terms and Conditions","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total to Pay","transactionDate":"Transaction Date","upsellFree":"Free","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Including VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"View Details","viewOrder":"View Order","weight":"Weight","work":"Work","yourCart":"Your Cart","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Zip / Postal Code","coursesAlreadyOwned":"You already own this course.","coursesAlreadyOwnedCheckout":"You are already enrolled in a course in your cart.","coursesEnrollmentCheckFailed":"Could not verify course ownership. Please try again.","coursesAlreadyEnrolledPrompt":"Already enrolled?","coursesLoginLink":"Log in","yourCourse":"your course","courseAccessMethod":"Online course access","processing":"Processing...","checkoutFailed":"Checkout failed. Please try again."},"es":{"loading":"Cargando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Añadir {count} artículos al carrito","addToCart":"Añadir al carrito","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Acepto los","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., piso, código de edificio, notas, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Reservar ahora","bookingChooseDate":"Elige una fecha","bookingChooseTime":"Elige una hora","bookingDate":"Fecha","bookingLoading":"Cargando disponibilidad…","bookingNoDates":"No hay fechas disponibles ahora","bookingNoSlots":"No hay horarios disponibles ahora","bookingRemaining":"Quedan {count}","bookingSelectOption":"Seleccionar","bookingSelectTime":"Selecciona una hora","bookingSelectDateFirst":"Elige primero una fecha","bookingSelectTimeFirst":"Elige primero una fecha y una hora","bookingTime":"Hora","browseFavorites":"Discover all our products","bundleDiscount":"Descuento por paquete","seasonalDiscount":"Descuento estacional","customerDiscount":"Descuento de cliente","bundleTotal":"Total del paquete","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidad","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Ciudad","cityRequired":"Por favor, introduzca su ciudad","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Seguir comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Región","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aún no hay cursos disponibles.","coursesCatalogError":"Error al cargar los cursos.","coursesCatalogSubtitle":"Explora nuestra biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificación de Certificado","coursesDetailEnroll":"Añadir al carrito","coursesDetailResume":"Continuar aprendiendo","coursesDigitalDelivery":"Acceso digital en línea","coursesLessonCompleted":"Completado","coursesLessonLoading":"Cargando lección…","coursesLessonMarkComplete":"Marcar como completado","coursesLessonNext":"Siguiente","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Aún no te has inscrito en ningún curso.","coursesMyLearningLoading":"Cargando tus cursos…","coursesMyLearningSubtitle":"Continúa donde lo dejaste.","coursesMyLearningTitle":"Mi Aprendizaje","coursesCertCourse":"Curso","coursesCertDownload":"Descargar","coursesCertError":"Error en la verificación.","coursesCertInvalid":"Este certificado no pudo ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudiante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificación","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"¡Curso completado!","coursesCertEarnedBody":"Tu certificado está listo.","coursesCurriculumEmpty":"Plan de estudios próximamente.","coursesFree":"Gratis","coursesJoinLive":"Unirse en vivo","coursesLessonGate":"Inscríbete en este curso para acceder a esta lección.","coursesLessonLocked":"Lección bloqueada","coursesLessonLoadError":"Error al cargar la lección.","coursesEnrollCta":"Ver curso e inscribirse","coursesEnrollmentRevoked":"Tu inscripción ya no está activa.","coursesDripLocked":"Esta lección se desbloquea según un cronograma.","coursesVideoProcessing":"El video aún se está procesando. Vuelve pronto.","coursesVideoFailed":"El procesamiento del video falló. Por favor, vuelve a subir el video de la lección desde Course Studio.","coursesDetailLoading":"Cargando…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Currículum","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzado","coursesLessonUnsupported":"Este tipo de lección aún no es compatible.","coursesLiveScheduled":"Sesión en vivo programada","coursesPreview":"Vista previa","coursesQuizError":"Error al cargar el cuestionario.","coursesQuizLoading":"Cargando cuestionario…","coursesQuizNone":"No hay cuestionario en esta lección.","coursesQuizPassed":"¡Aprobaste!","coursesQuizRetry":"Intentar de nuevo.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"días","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Descuento","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, introduzca un correo electrónico válido","emailRequired":"Por favor, introduzca su correo electrónico","emptyCart":"Tu carrito está vacío","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error al cargar opciones","featured":"Destacados","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATIS","freeAbove":"Gratis a partir de","frequentlyBoughtTogether":"Comprados juntos habitualmente","frequentlyBoughtTogetherSubtitle":"Ahorra tiempo y consigue todo lo que necesitas","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Inicio","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longitud","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Monto mínimo de pedido: {{amount}}. Agregue {{remaining}} más para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, introduzca su nombre completo","new":"Nuevos","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Tu tienda está lista para productos","previewEmptyStoreBody":"Añade tu primer producto en el administrador de la tienda para verlo aparecer aquí.","previewEmptyStoreButton":"Añadir productos","previewOnlyBadge":"Solo vista previa","noShippingMethods":"No hay opciones de envío disponibles","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Agotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, introduzca su número de teléfono","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, acepte los términos y condiciones","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceder al pago","productDetails":"Detalles del producto","productNotFound":"Product not found","products":"Productos","profileUpdated":"Profile updated successfully","quantity":"Cantidad","relatedProducts":"Productos relacionados","remove":"Eliminar","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Ofertas","saveAddressForNextTime":"Guardar esta dirección para la próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Resultados de búsqueda","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envío","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, seleccione un método de envío","signInHere":"Sign in here","size":"Talla","sku":"SKU","specifications":"Especificaciones","startingAt":"Desde","stateProvince":"Estado / Provincia","stateRequired":"Por favor, seleccione un estado / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Información adicional","street":"Street Address","streetAndNumber":"Calle y número","streetRequired":"Por favor, introduzca su dirección","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Términos y Condiciones","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluido","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalles","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Tu carrito","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Código postal","coursesAlreadyOwned":"Ya tienes acceso a este curso.","coursesAlreadyOwnedCheckout":"Ya estás inscrito en un curso de tu carrito.","coursesEnrollmentCheckFailed":"No se pudo verificar la propiedad del curso. Por favor, inténtalo de nuevo.","coursesAlreadyEnrolledPrompt":"¿Ya estás inscrito?","coursesLoginLink":"Iniciar sesión","yourCourse":"tu curso","courseAccessMethod":"Acceso online al curso","processing":"Procesando...","checkoutFailed":"El pago falló. Por favor, inténtalo de nuevo."},"fr":{"loading":"Chargement…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Ajouter {count} articles au panier","addToCart":"Ajouter au panier","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"J'accepte les","all":"Tout","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., étage, code bâtiment, notes, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Réserver","bookingChooseDate":"Choisir une date","bookingChooseTime":"Choisir un horaire","bookingDate":"Date","bookingLoading":"Chargement des disponibilités…","bookingNoDates":"Aucune date disponible pour le moment","bookingNoSlots":"Aucun horaire disponible pour le moment","bookingRemaining":"Il reste {count}","bookingSelectOption":"Sélectionner","bookingSelectTime":"Sélectionnez un horaire","bookingSelectDateFirst":"Veuillez d'abord choisir une date","bookingSelectTimeFirst":"Veuillez d'abord choisir une date et une heure","bookingTime":"Heure","browseFavorites":"Discover all our products","bundleDiscount":"Remise lot","seasonalDiscount":"Remise saisonnière","customerDiscount":"Remise client","bundleTotal":"Total du lot","callNow":"Call Now","cancel":"Cancel","capacity":"Capacité","cart":"Cart","category":"Category","checkout":"Paiement","city":"Ville","cityRequired":"Veuillez entrer votre ville","color":"Couleur","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuer vos achats","continueToHomePage":"Continue to Home Page","countryRegion":"Pays / Région","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aucun cours disponible pour le moment.","coursesCatalogError":"Échec du chargement des cours.","coursesCatalogSubtitle":"Parcourez notre bibliothèque complète de cours.","coursesCatalogTitle":"Cours","coursesCertificateLoading":"Vérification en cours…","coursesCertificateTitle":"Vérification de certificat","coursesDetailEnroll":"Ajouter au panier","coursesDetailResume":"Reprendre l'apprentissage","coursesDigitalDelivery":"Accès numérique en ligne","coursesLessonCompleted":"Terminé","coursesLessonLoading":"Chargement de la leçon…","coursesLessonMarkComplete":"Marquer comme terminé","coursesLessonNext":"Suivant","coursesLessonPrev":"Précédent","coursesMyLearningEmpty":"Vous ne vous êtes encore inscrit à aucun cours.","coursesMyLearningLoading":"Chargement de vos cours…","coursesMyLearningSubtitle":"Continuez là où vous vous êtes arrêté.","coursesMyLearningTitle":"Mon apprentissage","coursesCertCourse":"Cours","coursesCertDownload":"Télécharger","coursesCertError":"Échec de la vérification.","coursesCertInvalid":"Ce certificat n'a pas pu être vérifié.","coursesCertIssued":"Délivré","coursesCertStudent":"Étudiant","coursesCertValid":"Vérifié","coursesCertIssuer":"Délivré par","coursesCertCode":"Code de vérification","coursesViewCertificate":"Voir le certificat","coursesCertEarnedTitle":"Cours terminé !","coursesCertEarnedBody":"Votre certificat est prêt.","coursesCurriculumEmpty":"Programme à venir.","coursesFree":"Gratuit","coursesJoinLive":"Rejoindre en direct","coursesLessonGate":"Inscrivez-vous à ce cours pour accéder à cette leçon.","coursesLessonLocked":"Leçon verrouillée","coursesLessonLoadError":"Échec du chargement de la leçon.","coursesEnrollCta":"Voir le cours et s'inscrire","coursesEnrollmentRevoked":"Votre inscription n'est plus active.","coursesDripLocked":"Cette leçon se débloque selon un calendrier.","coursesVideoProcessing":"La vidéo est encore en cours de traitement. Revenez bientôt.","coursesVideoFailed":"Le traitement de la vidéo a échoué. Veuillez télécharger à nouveau la vidéo de la leçon depuis Course Studio.","coursesDetailLoading":"Chargement…","coursesDetailInstructor":"Instructeur","coursesDetailCurriculum":"Programme","coursesLevelBeginner":"Débutant","coursesLevelIntermediate":"Intermédiaire","coursesLevelAdvanced":"Avancé","coursesLessonUnsupported":"Ce type de leçon n'est pas encore pris en charge.","coursesLiveScheduled":"Session en direct programmée","coursesPreview":"Aperçu","coursesQuizError":"Échec du chargement du quiz.","coursesQuizLoading":"Chargement du quiz…","coursesQuizNone":"Aucun quiz pour cette leçon.","coursesQuizPassed":"Vous avez réussi !","coursesQuizRetry":"Réessayer.","coursesQuizSubmit":"Soumettre","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"jours","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Remise","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Veuillez entrer une adresse e-mail valide","emailRequired":"Veuillez entrer votre adresse e-mail","emptyCart":"Votre panier est vide","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erreur lors du chargement des options","featured":"En vedette","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUIT","freeAbove":"Gratuit à partir de","frequentlyBoughtTogether":"Souvent achetés ensemble","frequentlyBoughtTogetherSubtitle":"Gagnez du temps et obtenez tout ce dont vous avez besoin","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Accueil","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longueur","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Matériau","minimumOrderNotMet":"Montant minimum de commande : {{amount}}. Ajoutez {{remaining}} pour continuer.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Veuillez entrer votre nom complet","new":"Nouveau","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Votre boutique est prête pour les produits","previewEmptyStoreBody":"Ajoutez votre premier produit dans le gestionnaire de boutique pour le voir apparaître ici.","previewEmptyStoreButton":"Ajouter des produits","previewOnlyBadge":"Aperçu uniquement","noShippingMethods":"Aucune option de livraison disponible","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Rupture de stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Veuillez entrer votre numéro de téléphone","placeOrder":"Place Order","pleaseAcceptTerms":"Veuillez accepter les conditions générales","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procéder au paiement","productDetails":"Détails du produit","productNotFound":"Product not found","products":"Produits","profileUpdated":"Profile updated successfully","quantity":"Quantité","relatedProducts":"Produits similaires","remove":"Supprimer","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Soldes","saveAddressForNextTime":"Enregistrer cette adresse pour la prochaine fois","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Résultats de recherche","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Livraison","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Veuillez sélectionner un mode de livraison","signInHere":"Sign in here","size":"Taille","sku":"Référence","specifications":"Spécifications","startingAt":"À partir de","stateProvince":"État / Province","stateRequired":"Veuillez sélectionner un état / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informations supplémentaires","street":"Street Address","streetAndNumber":"Rue et numéro","streetRequired":"Veuillez entrer votre adresse","style":"Style","subtotal":"Sous-total","termsAndConditions":"Conditions Générales","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total à payer","transactionDate":"Transaction Date","upsellFree":"Gratuit","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"TVA incluse","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Voir les détails","viewOrder":"View Order","weight":"Poids","work":"Work","yourCart":"Votre panier","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Code postal","coursesAlreadyOwned":"Vous possédez déjà ce cours.","coursesAlreadyOwnedCheckout":"Vous êtes déjà inscrit à un cours dans votre panier.","coursesEnrollmentCheckFailed":"Impossible de vérifier la propriété du cours. Veuillez réessayer.","coursesAlreadyEnrolledPrompt":"Déjà inscrit ?","coursesLoginLink":"Se connecter","yourCourse":"votre cours","courseAccessMethod":"Accès en ligne au cours","processing":"Traitement en cours...","checkoutFailed":"Le paiement a échoué. Veuillez réessayer."},"he":{"loading":"טוען…","accountWelcome":"ברוך הבא","addAddress":"הוסף כתובת","addBundleToCart":"הוספת {count} מוצרים לעגלה","addToCart":"הוסף לעגלה","addedToCart":"המוצר נוסף לעגלה!","addedToFavorites":"נוסף למועדפים","addressDeleted":"הכתובת נמחקה","addressLabel":"שם הכתובת","addressSaved":"הכתובת נשמרה בהצלחה","addresses":"כתובות","agreeToTerms":"אני מסכים/ה ל","all":"הכל","alreadyHaveAccount":"כבר יש לך חשבון?","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","applyCoupon":"החל","backToProducts":"חזרה למוצרים","bookNow":"הזמינו עכשיו","bookingChooseDate":"בחרו תאריך","bookingChooseTime":"בחרו שעה","bookingDate":"תאריך","bookingLoading":"טוען זמינות…","bookingNoDates":"אין תאריכים פנויים כרגע","bookingNoSlots":"אין זמנים פנויים כרגע","bookingRemaining":"נותרו {count}","bookingSelectOption":"בחירה","bookingSelectTime":"בחרו שעה","bookingSelectDateFirst":"אנא בחרו תאריך תחילה","bookingSelectTimeFirst":"אנא בחרו תאריך ושעה תחילה","bookingTime":"שעה","browseFavorites":"גלו את כל המוצרים שלנו","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","bundleTotal":"סה\"כ לעגלה","callNow":"התקשר עכשיו","cancel":"ביטול","capacity":"קיבולת","cart":"עגלת קניות","category":"קטגוריה","checkout":"תשלום","city":"עיר","cityRequired":"נא להזין עיר","color":"צבע","confirmDelete":"האם אתה בטוח שברצונך למחוק?","contactInformation":"פרטי התקשרות","continueShopping":"להמשך קניות","continueToHomePage":"המשך לדף הבית","countryRegion":"מדינה / אזור","couponApplied":"הקופון הוחל בהצלחה!","couponCode":"קוד קופון","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","coursesCatalogEmpty":"אין קורסים זמינים עדיין.","coursesCatalogError":"נכשל בטעינת הקורסים.","coursesCatalogSubtitle":"עיינו בספריית הקורסים המלאה שלנו.","coursesCatalogTitle":"קורסים","coursesCertificateLoading":"מאמת…","coursesCertificateTitle":"אימות תעודה","coursesDetailEnroll":"הוסף לעגלה","coursesDetailResume":"המשך ללמוד","coursesDigitalDelivery":"גישה דיגיטלית מקוונת","coursesLessonCompleted":"הושלם","coursesLessonLoading":"טוען שיעור…","coursesLessonMarkComplete":"סימון כהושלם","coursesLessonNext":"הבא","coursesLessonPrev":"הקודם","coursesMyLearningEmpty":"עדיין לא נרשמתם לקורסים.","coursesMyLearningLoading":"טוען את הקורסים שלך…","coursesMyLearningSubtitle":"המשיכו מהמקום שבו עצרתם.","coursesMyLearningTitle":"הלמידה שלי","coursesCertCourse":"קורס","coursesCertDownload":"הורדה","coursesCertError":"האימות נכשל.","coursesCertInvalid":"לא ניתן לאמת את התעודה הזו.","coursesCertIssued":"הונפק","coursesCertStudent":"תלמיד","coursesCertValid":"מאומת","coursesCertIssuer":"הונפק על ידי","coursesCertCode":"קוד אימות","coursesViewCertificate":"צפייה בתעודה","coursesCertEarnedTitle":"הקורס הושלם!","coursesCertEarnedBody":"התעודה שלך מוכנה.","coursesCurriculumEmpty":"תכנית הלימודים תגיע בקרוב.","coursesFree":"חינם","coursesJoinLive":"הצטרף בשידור חי","coursesLessonGate":"הירשם לקורס זה כדי לגשת לשיעור זה.","coursesLessonLocked":"השיעור נעול","coursesLessonLoadError":"טעינת השיעור נכשלה.","coursesEnrollCta":"צפה בקורס והירשם","coursesEnrollmentRevoked":"ההרשמה שלך לקורס אינה פעילה יותר.","coursesDripLocked":"שיעור זה ייפתח לפי לוח זמנים.","coursesVideoProcessing":"הסרטון עדיין בעיבוד. נסה שוב בקרוב.","coursesVideoFailed":"עיבוד הסרטון נכשל. העלה מחדש את סרטון השיעור מ-Course Studio.","coursesDetailLoading":"טוען…","coursesDetailInstructor":"מדריך","coursesDetailCurriculum":"תכנית לימודים","coursesLevelBeginner":"מתחיל","coursesLevelIntermediate":"בינוני","coursesLevelAdvanced":"מתקדם","coursesLessonUnsupported":"סוג השיעור הזה עדיין לא נתמך.","coursesLiveScheduled":"מפגש חי מתוזמן","coursesPreview":"תצוגה מקדימה","coursesQuizError":"נכשל בטעינת החידון.","coursesQuizLoading":"טוען חידון...","coursesQuizNone":"אין חידון בשיעור זה.","coursesQuizPassed":"עברת בהצלחה!","coursesQuizRetry":"נסה שוב.","coursesQuizSubmit":"שלח","allCourses":"כל הקורסים","backToCourses":"חזרה לקורסים","coursesNav":"קורסים","featuredCourses":"קורסים מומלצים","loadingCourses":"טוען קורסים...","noFeaturedCourses":"עוד לא נבחרו קורסים מומלצים. צפו בכל הקורסים שלנו!","searchCourses":"חיפוש קורסים","customerInfo":"פרטי לקוח","customerLogin":"התחברות לקוחות","days":"ימים","defaultAddress":"כתובת ברירת מחדל","deleteAddress":"מחק כתובת","discount":"הנחה","editAddress":"ערוך כתובת","editProfile":"עריכת פרופיל","email":"אימייל","emailAddress":"כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","emailRequired":"נא להזין כתובת אימייל","emptyCart":"העגלה ריקה","enterCode":"הזן את הקוד שנשלח לאימייל שלך","enterCouponCode":"הזן קוד קופון","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","errorLoading":"שגיאה בטעינת האפשרויות","featured":"מומלצים","featuredCategories":"קנו לפי קטגוריה","featuredProducts":"מוצרים מומלצים","free":"חינם","freeAbove":"חינם מעל","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","fullName":"שם מלא","haveCouponCode":"יש לי קוד קופון","home":"דף הבית","inStock":"במלאי","inquiryAbout":"פנייה בנושא","invalidCoupon":"קוד קופון לא תקין","items":"פריטים","length":"אורך","linkCopied":"הקישור הועתק!","loadingOrder":"טוען פרטי הזמנה...","loadingPayment":"טוען אפשרויות תשלום...","loadingProducts":"טוען מוצרים...","loadingShipping":"טוען שיטות משלוח...","loggedInAs":"מחובר כ:","login":"התחברות","loginHere":"התחבר כאן","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","logout":"התנתק","material":"חומר","minimumOrderNotMet":"סכום מינימום להזמנה: {{amount}}. יש להוסיף עוד {{remaining}} כדי להמשיך.","mobileNumber":"מספר טלפון","myAccount":"החשבון שלי","myFavorites":"המועדפים שלי","name":"שם","nameRequired":"נא להזין שם מלא","new":"חדשים","next":"הבא","noAddresses":"אין כתובות שמורות","noFavorites":"אין עדיין מוצרים מועדפים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","noOrders":"אין עדיין הזמנות","noProducts":"אין מוצרים להצגה כרגע","previewEmptyStoreTitle":"החנות שלך מוכנה למוצרים","previewEmptyStoreBody":"הוסף את המוצר הראשון במנהל החנות כדי לראות אותו מופיע כאן.","previewEmptyStoreButton":"הוסף מוצרים","previewOnlyBadge":"תצוגה מקדימה בלבד","noShippingMethods":"אין אפשרויות משלוח זמינות","notLoggedIn":"לא מחובר","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderDate":"תאריך","orderDetails":"פרטי ההזמנה","orderItems":"פריטים בהזמנה","orderNotFound":"לא נמצאה הזמנה","orderNumber":"מספר הזמנה","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","orderStatus":"סטטוס","orderSuccess":"ההזמנה התקבלה!","orderSummary":"סיכום הזמנה","orderTotal":"סה\"כ","other":"אחר","ourProducts":"המוצרים שלנו","outOfStock":"אזל מהמלאי","paidAmount":"סכום ששולם","payment":"תשלום","paymentMethod":"אמצעי תשלום","paymentNotConfigured":"תשלום מקוון לא מוגדר","personalDetails":"פרטים אישיים","phone":"טלפון","phoneRequired":"נא להזין מספר טלפון","placeOrder":"בצע הזמנה","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","pleaseSelect":"נא לבחור","proceedToCheckout":"המשך לתשלום","productDetails":"פרטי המוצר","productNotFound":"המוצר לא נמצא","products":"מוצרים","profileUpdated":"הפרופיל עודכן בהצלחה","quantity":"כמות","relatedProducts":"מוצרים דומים","remove":"הסר","removeCoupon":"הסר","removeFromFavorites":"הסר ממועדפים","removedFromFavorites":"הוסר מהמועדפים","returnPolicy":"מדיניות החזרות","sale":"מבצעים","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","saveChanges":"שמור שינויים","saveToFavorites":"שמור למועדפים","saving":"שומר...","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","selectVariant":"בחר אפשרות","sendCode":"שלח קוד","sendInquiry":"שלח פנייה","setAsDefault":"הגדר כברירת מחדל","shareProduct":"שתף מוצר","shipping":"משלוח","shippingAddress":"כתובת למשלוח","shippingMethod":"שיטת משלוח","shippingRequired":"נא לבחור שיטת משלוח","signInHere":"התחבר כאן","size":"גודל","sku":"מק\"ט","specifications":"מפרט טכני","startingAt":"החל מ","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","statusCancelled":"בוטל","statusDelivered":"נמסר","statusPaid":"שולם","statusPending":"ממתין לתשלום","statusProcessing":"בטיפול","statusShipped":"נשלח","storeNote":"מידע נוסף","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","streetRequired":"נא להזין רחוב ומספר","style":"סגנון","subtotal":"סכום ביניים","termsAndConditions":"תנאי השימוש","thankYouOrder":"תודה על ההזמנה","total":"סה\"כ","totalToPay":"סה\"כ לתשלום","transactionDate":"תאריך עסקה","upsellFree":"חינם","variantUnavailable":"לא זמין","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","verificationCode":"קוד אימות","verify":"אמת","viewAllResults":"הצג את כל התוצאות","viewDetails":"לפרטים נוספים","viewOrder":"צפה בהזמנה","weight":"משקל","work":"עבודה","yourCart":"העגלה שלך","yourOrders":"ההזמנות שלך","zip":"מיקוד","zipPostal":"מיקוד","coursesAlreadyOwned":"כבר יש לך גישה לקורס זה.","coursesAlreadyOwnedCheckout":"כבר נרשמת לקורס שבעגלת הקניות.","coursesEnrollmentCheckFailed":"לא ניתן לאמת בעלות על הקורס. אנא נסה שוב.","coursesAlreadyEnrolledPrompt":"כבר נרשמת?","coursesLoginLink":"לכניסה","yourCourse":"הקורס שלך","courseAccessMethod":"גישה דיגיטלית מקוונת","processing":"מעבד...","checkoutFailed":"שגיאה בתהליך התשלום. נסו שוב."},"it":{"loading":"Caricamento…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Aggiungi {count} articoli al carrello","addToCart":"Aggiungi al carrello","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Accetto i","all":"Tutti","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Appt., piano, codice edificio, note, ecc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Prenota ora","bookingChooseDate":"Scegli una data","bookingChooseTime":"Scegli un orario","bookingDate":"Data","bookingLoading":"Caricamento disponibilità…","bookingNoDates":"Nessuna data disponibile al momento","bookingNoSlots":"Nessun orario disponibile al momento","bookingRemaining":"{count} rimasti","bookingSelectOption":"Seleziona","bookingSelectTime":"Seleziona un orario","bookingSelectDateFirst":"Scegli prima una data","bookingSelectTimeFirst":"Scegli prima una data e un orario","bookingTime":"Ora","browseFavorites":"Discover all our products","bundleDiscount":"Sconto pacchetto","seasonalDiscount":"Sconto stagionale","customerDiscount":"Sconto cliente","bundleTotal":"Totale bundle","callNow":"Call Now","cancel":"Cancel","capacity":"Capacità","cart":"Cart","category":"Category","checkout":"Cassa","city":"Città","cityRequired":"Inserisci la tua città","color":"Colore","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continua lo shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Paese / Regione","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Nessun corso ancora disponibile.","coursesCatalogError":"Impossibile caricare i corsi.","coursesCatalogSubtitle":"Sfoglia la nostra libreria completa di corsi.","coursesCatalogTitle":"Corsi","coursesCertificateLoading":"Verifica in corso…","coursesCertificateTitle":"Verifica Certificato","coursesDetailEnroll":"Aggiungi al carrello","coursesDetailResume":"Riprendi l'apprendimento","coursesDigitalDelivery":"Accesso digitale online","coursesLessonCompleted":"Completato","coursesLessonLoading":"Caricamento lezione…","coursesLessonMarkComplete":"Segna come completato","coursesLessonNext":"Successivo","coursesLessonPrev":"Precedente","coursesMyLearningEmpty":"Non ti sei ancora iscritto a nessun corso.","coursesMyLearningLoading":"Caricamento dei tuoi corsi…","coursesMyLearningSubtitle":"Continua da dove avevi lasciato.","coursesMyLearningTitle":"Il Mio Apprendimento","coursesCertCourse":"Corso","coursesCertDownload":"Scarica","coursesCertError":"Verifica fallita.","coursesCertInvalid":"Questo certificato non può essere verificato.","coursesCertIssued":"Rilasciato","coursesCertStudent":"Studente","coursesCertValid":"Verificato","coursesCertIssuer":"Rilasciato da","coursesCertCode":"Codice di verifica","coursesViewCertificate":"Visualizza certificato","coursesCertEarnedTitle":"Corso completato!","coursesCertEarnedBody":"Il tuo certificato è pronto.","coursesCurriculumEmpty":"Programma in arrivo.","coursesFree":"Gratuito","coursesJoinLive":"Partecipa dal vivo","coursesLessonGate":"Iscriviti a questo corso per accedere a questa lezione.","coursesLessonLocked":"Lezione bloccata","coursesLessonLoadError":"Impossibile caricare la lezione.","coursesEnrollCta":"Visualizza corso e iscriviti","coursesEnrollmentRevoked":"La tua iscrizione non è più attiva.","coursesDripLocked":"Questa lezione si sblocca secondo un programma.","coursesVideoProcessing":"Il video è ancora in elaborazione. Ricontrolla presto.","coursesVideoFailed":"Elaborazione video fallita. Si prega di ricaricare il video della lezione da Course Studio.","coursesDetailLoading":"Caricamento…","coursesDetailInstructor":"Istruttore","coursesDetailCurriculum":"Programma","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzato","coursesLessonUnsupported":"Questo tipo di lezione non è ancora supportato.","coursesLiveScheduled":"Sessione dal vivo programmata","coursesPreview":"Anteprima","coursesQuizError":"Impossibile caricare il quiz.","coursesQuizLoading":"Caricamento quiz…","coursesQuizNone":"Nessun quiz per questa lezione.","coursesQuizPassed":"Hai superato!","coursesQuizRetry":"Riprova.","coursesQuizSubmit":"Invia","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"giorni","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Sconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Inserisci un indirizzo email valido","emailRequired":"Inserisci il tuo indirizzo email","emptyCart":"Il tuo carrello è vuoto","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Errore nel caricamento delle opzioni","featured":"In evidenza","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUITA","freeAbove":"Gratuita sopra","frequentlyBoughtTogether":"Spesso acquistati insieme","frequentlyBoughtTogetherSubtitle":"Risparmia tempo e prendi tutto ciò che ti serve","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"Disponibile","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Lunghezza","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Materiale","minimumOrderNotMet":"Importo minimo dell'ordine: {{amount}}. Aggiungi altri {{remaining}} per procedere.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Inserisci il tuo nome completo","new":"Novità","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Il tuo negozio è pronto per i prodotti","previewEmptyStoreBody":"Aggiungi il tuo primo prodotto nel Gestore negozio per vederlo apparire qui.","previewEmptyStoreButton":"Aggiungi prodotti","previewOnlyBadge":"Solo anteprima","noShippingMethods":"Nessuna opzione di spedizione disponibile","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esaurito","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Inserisci il tuo numero di telefono","placeOrder":"Place Order","pleaseAcceptTerms":"Si prega di accettare i termini e le condizioni","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procedi al pagamento","productDetails":"Dettagli prodotto","productNotFound":"Product not found","products":"Prodotti","profileUpdated":"Profile updated successfully","quantity":"Quantità","relatedProducts":"Prodotti correlati","remove":"Rimuovi","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Saldi","saveAddressForNextTime":"Salva questo indirizzo per la prossima volta","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Risultati della ricerca","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Spedizione","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Seleziona un metodo di spedizione","signInHere":"Sign in here","size":"Taglia","sku":"Codice","specifications":"Specifiche","startingAt":"A partire da","stateProvince":"Stato / Provincia","stateRequired":"Seleziona uno stato / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informazioni aggiuntive","street":"Street Address","streetAndNumber":"Via e numero","streetRequired":"Inserisci il tuo indirizzo","style":"Stile","subtotal":"Subtotale","termsAndConditions":"Termini e Condizioni","thankYouOrder":"Thank you for your order","total":"Totale","totalToPay":"Totale da Pagare","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA inclusa","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Vedi dettagli","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Il tuo carrello","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CAP","coursesAlreadyOwned":"Possiedi già questo corso.","coursesAlreadyOwnedCheckout":"Sei già iscritto a un corso nel carrello.","coursesEnrollmentCheckFailed":"Impossibile verificare la proprietà del corso. Riprova.","coursesAlreadyEnrolledPrompt":"Già iscritto?","coursesLoginLink":"Accedi","yourCourse":"il tuo corso","courseAccessMethod":"Accesso online al corso","processing":"Elaborazione...","checkoutFailed":"Il pagamento non è riuscito. Riprova."},"ja":{"loading":"読み込み中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} 点をカートに追加","addToCart":"カートに追加","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"私は同意します","all":"すべて","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"部屋番号、階、建物コード、備考など","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"今すぐ予約","bookingChooseDate":"日付を選択","bookingChooseTime":"時間を選択","bookingDate":"日付","bookingLoading":"空き状況を読み込み中…","bookingNoDates":"現在利用可能な日付はありません","bookingNoSlots":"現在予約可能な時間がありません","bookingRemaining":"残り{count}","bookingSelectOption":"選択","bookingSelectTime":"時間を選択","bookingSelectDateFirst":"先に日付を選択してください","bookingSelectTimeFirst":"先に日付と時間を選択してください","bookingTime":"時間","browseFavorites":"Discover all our products","bundleDiscount":"バンドル割引","seasonalDiscount":"季節割引","customerDiscount":"顧客割引","bundleTotal":"セット合計","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"お会計","city":"市区町村","cityRequired":"市区町村を入力してください","color":"色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"買い物を続ける","continueToHomePage":"Continue to Home Page","countryRegion":"国 / 地域","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"まだコースがありません。","coursesCatalogError":"コースの読み込みに失敗しました。","coursesCatalogSubtitle":"全コースライブラリをご覧ください。","coursesCatalogTitle":"コース","coursesCertificateLoading":"確認中…","coursesCertificateTitle":"証明書の確認","coursesDetailEnroll":"カートに追加","coursesDetailResume":"学習を再開する","coursesDigitalDelivery":"デジタルオンラインアクセス","coursesLessonCompleted":"完了","coursesLessonLoading":"レッスンを読み込み中…","coursesLessonMarkComplete":"完了にする","coursesLessonNext":"次へ","coursesLessonPrev":"前へ","coursesMyLearningEmpty":"まだコースに登録していません。","coursesMyLearningLoading":"コースを読み込み中…","coursesMyLearningSubtitle":"中断したところから続けましょう。","coursesMyLearningTitle":"マイラーニング","coursesCertCourse":"コース","coursesCertDownload":"ダウンロード","coursesCertError":"認証に失敗しました。","coursesCertInvalid":"この証明書は認証できませんでした。","coursesCertIssued":"発行日","coursesCertStudent":"受講者","coursesCertValid":"認証済み","coursesCertIssuer":"発行者","coursesCertCode":"確認コード","coursesViewCertificate":"証明書を表示","coursesCertEarnedTitle":"コース修了！","coursesCertEarnedBody":"証明書の準備ができました。","coursesCurriculumEmpty":"カリキュラムは近日公開予定です。","coursesFree":"無料","coursesJoinLive":"ライブに参加","coursesLessonGate":"このレッスンにアクセスするには、このコースに登録してください。","coursesLessonLocked":"レッスンはロックされています","coursesLessonLoadError":"レッスンの読み込みに失敗しました。","coursesEnrollCta":"コースを見る・申し込む","coursesEnrollmentRevoked":"あなたの登録は無効になりました。","coursesDripLocked":"このレッスンはスケジュールに従って解除されます。","coursesVideoProcessing":"動画はまだ処理中です。しばらくしてからもう一度確認してください。","coursesVideoFailed":"動画の処理に失敗しました。Course Studioからレッスン動画を再アップロードしてください。","coursesDetailLoading":"読み込み中…","coursesDetailInstructor":"講師","coursesDetailCurriculum":"カリキュラム","coursesLevelBeginner":"初級","coursesLevelIntermediate":"中級","coursesLevelAdvanced":"上級","coursesLessonUnsupported":"このレッスンタイプはまだサポートされていません。","coursesLiveScheduled":"ライブセッション予定","coursesPreview":"プレビュー","coursesQuizError":"クイズの読み込みに失敗しました。","coursesQuizLoading":"クイズを読み込み中…","coursesQuizNone":"このレッスンにはクイズがありません。","coursesQuizPassed":"合格しました！","coursesQuizRetry":"もう一度挑戦する。","coursesQuizSubmit":"提出","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"日","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"割引","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"有効なメールアドレスを入力してください","emailRequired":"メールアドレスを入力してください","emptyCart":"カートは空です","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"オプションの読み込みエラー","featured":"おすすめ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"無料","freeAbove":"以上で送料無料","frequentlyBoughtTogether":"よく一緒に購入されています","frequentlyBoughtTogetherSubtitle":"必要なものをまとめて手早く揃えましょう","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"ホーム","inStock":"在庫あり","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"長さ","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"素材","minimumOrderNotMet":"最低注文金額: {{amount}}。あと{{remaining}}追加してください。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"フルネームを入力してください","new":"新着","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ストアに商品を追加できます","previewEmptyStoreBody":"ストアマネージャーで最初の商品を追加すると、ここに表示されます。","previewEmptyStoreButton":"商品を追加","previewOnlyBadge":"プレビューのみ","noShippingMethods":"配送オプションがありません","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"在庫切れ","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"電話番号を入力してください","placeOrder":"Place Order","pleaseAcceptTerms":"利用規約に同意してください","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"お会計に進む","productDetails":"商品詳細","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"関連商品","remove":"削除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"セール","saveAddressForNextTime":"この住所を次回のために保存","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"検索結果","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"送料","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"配送方法を選択してください","signInHere":"Sign in here","size":"サイズ","sku":"商品コード","specifications":"仕様","startingAt":"〜から","stateProvince":"都道府県","stateRequired":"都道府県を選択してください","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"追加情報","street":"Street Address","streetAndNumber":"番地","streetRequired":"住所を入力してください","style":"スタイル","subtotal":"小計","termsAndConditions":"利用規約","thankYouOrder":"Thank you for your order","total":"合計","totalToPay":"お支払い合計","transactionDate":"Transaction Date","upsellFree":"無料","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"税込み","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"詳細を見る","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"カート","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"郵便番号","coursesAlreadyOwned":"このコースはすでに所有しています。","coursesAlreadyOwnedCheckout":"カート内のコースにはすでに登録済みです。","coursesEnrollmentCheckFailed":"コース所有権を確認できませんでした。もう一度お試しください。","coursesAlreadyEnrolledPrompt":"すでに受講済みですか？","coursesLoginLink":"ログイン","yourCourse":"あなたのコース","courseAccessMethod":"オンラインコースアクセス","processing":"処理中...","checkoutFailed":"お支払いに失敗しました。もう一度お試しください。"},"lt":{"loading":"Įkeliama…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Pridėti {count} prekių į krepšelį","addToCart":"Į krepšelį","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Sutinku su","all":"Visi","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Butas, aukštas, pastato kodas, pastabos ir kt.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Rezervuoti dabar","bookingChooseDate":"Pasirinkite datą","bookingChooseTime":"Pasirinkite laiką","bookingDate":"Data","bookingLoading":"Įkeliamas pasiekiamumas…","bookingNoDates":"Šiuo metu nėra galimų datų","bookingNoSlots":"Šiuo metu nėra laisvų laikų","bookingRemaining":"Liko {count}","bookingSelectOption":"Pasirinkti","bookingSelectTime":"Pasirinkite laiką","bookingSelectDateFirst":"Pirmiausia pasirinkite datą","bookingSelectTimeFirst":"Pirmiausia pasirinkite datą ir laiką","bookingTime":"Laikas","browseFavorites":"Discover all our products","bundleDiscount":"Paketo nuolaida","seasonalDiscount":"Sezoninė nuolaida","customerDiscount":"Kliento nuolaida","bundleTotal":"Rinkinio iš viso","callNow":"Call Now","cancel":"Cancel","capacity":"Talpa","cart":"Cart","category":"Category","checkout":"Apmokėti","city":"Miestas","cityRequired":"Prašome įvesti miestą","color":"Spalva","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Tęsti apsipirkimą","continueToHomePage":"Continue to Home Page","countryRegion":"Šalis / regionas","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Kursų dar nėra.","coursesCatalogError":"Nepavyko įkelti kursų.","coursesCatalogSubtitle":"Naršykite visą mūsų kursų biblioteką.","coursesCatalogTitle":"Kursai","coursesCertificateLoading":"Tikrinama…","coursesCertificateTitle":"Sertifikato patvirtinimas","coursesDetailEnroll":"Į krepšelį","coursesDetailResume":"Tęsti mokymąsi","coursesDigitalDelivery":"Skaitmeninis prieigos internetu","coursesLessonCompleted":"Užbaigta","coursesLessonLoading":"Kraunama pamoka…","coursesLessonMarkComplete":"Pažymėti kaip baigtą","coursesLessonNext":"Kitas","coursesLessonPrev":"Ankstesnis","coursesMyLearningEmpty":"Dar nesate užsiregistravę į jokius kursus.","coursesMyLearningLoading":"Kraunami jūsų kursai…","coursesMyLearningSubtitle":"Tęskite ten, kur sustojote.","coursesMyLearningTitle":"Mano mokymasis","coursesCertCourse":"Kursas","coursesCertDownload":"Atsisiųsti","coursesCertError":"Patikrinimas nepavyko.","coursesCertInvalid":"Šio sertifikato nepavyko patikrinti.","coursesCertIssued":"Išduotas","coursesCertStudent":"Studentas","coursesCertValid":"Patikrintas","coursesCertIssuer":"Išdavė","coursesCertCode":"Patvirtinimo kodas","coursesViewCertificate":"Peržiūrėti sertifikatą","coursesCertEarnedTitle":"Kursas baigtas!","coursesCertEarnedBody":"Jūsų sertifikatas paruoštas.","coursesCurriculumEmpty":"Programa bus pateikta netrukus.","coursesFree":"Nemokamas","coursesJoinLive":"Prisijungti prie tiesioginės transliacijos","coursesLessonGate":"Užsiregistruokite į šį kursą, kad galėtumėte pasiekti šią pamoką.","coursesLessonLocked":"Pamoka užrakinta","coursesLessonLoadError":"Nepavyko įkelti pamokos.","coursesEnrollCta":"Peržiūrėti kursą ir registruotis","coursesEnrollmentRevoked":"Jūsų registracija nebegalioja.","coursesDripLocked":"Ši pamoka atsirakins pagal grafiką.","coursesVideoProcessing":"Vaizdo įrašas vis dar apdorojamas. Grįžkite vėliau.","coursesVideoFailed":"Vaizdo įrašo apdorojimas nepavyko. Prašome iš naujo įkelti pamokos vaizdo įrašą iš Course Studio.","coursesDetailLoading":"Kraunama…","coursesDetailInstructor":"Instruktorius","coursesDetailCurriculum":"Programa","coursesLevelBeginner":"Pradedantysis","coursesLevelIntermediate":"Vidutinis","coursesLevelAdvanced":"Pažengęs","coursesLessonUnsupported":"Šis pamokos tipas dar nepalaikomas.","coursesLiveScheduled":"Suplanuotas tiesioginis seansas","coursesPreview":"Peržiūra","coursesQuizError":"Nepavyko įkelti testo.","coursesQuizLoading":"Įkeliamas testas…","coursesQuizNone":"Šioje pamokoje nėra testo.","coursesQuizPassed":"Jūs išlaikėte!","coursesQuizRetry":"Bandyti dar kartą.","coursesQuizSubmit":"Pateikti","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dienos","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Nuolaida","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Prašome įvesti teisingą el. pašto adresą","emailRequired":"Prašome įvesti el. paštą","emptyCart":"Jūsų krepšelis tuščias","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Klaida įkeliant parinktis","featured":"Rekomenduojami","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"NEMOKAMAS","freeAbove":"Nemokamas nuo","frequentlyBoughtTogether":"Dažnai perkama kartu","frequentlyBoughtTogetherSubtitle":"Sutaupykite laiko ir gaukite viską, ko reikia","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Pagrindinis","inStock":"Yra sandėlyje","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Ilgis","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Medžiaga","minimumOrderNotMet":"Minimali užsakymo suma: {{amount}}. Pridėkite dar {{remaining}}, kad galėtumėte tęsti.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Prašome įvesti vardą ir pavardę","new":"Naujiena","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Jūsų parduotuvė paruošta produktams","previewEmptyStoreBody":"Pridėkite pirmąjį produktą parduotuvės tvarkyklėje, kad jis atsirastų čia.","previewEmptyStoreButton":"Pridėti produktų","previewOnlyBadge":"Tik peržiūrai","noShippingMethods":"Pristatymo būdų nėra","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Išparduota","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Prašome įvesti telefono numerį","placeOrder":"Place Order","pleaseAcceptTerms":"Prašome sutikti su taisyklėmis ir sąlygomis","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Pereiti prie apmokėjimo","productDetails":"Prekės detalės","productNotFound":"Product not found","products":"Prekės","profileUpdated":"Profile updated successfully","quantity":"Kiekis","relatedProducts":"Susijusios prekės","remove":"Pašalinti","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Išpardavimas","saveAddressForNextTime":"Išsaugoti šį adresą kitam kartui","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Paieškos rezultatai","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Pristatymas","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Prašome pasirinkti pristatymo būdą","signInHere":"Sign in here","size":"Dydis","sku":"Kodas","specifications":"Specifikacijos","startingAt":"Nuo","stateProvince":"Apskritis / rajonas","stateRequired":"Prašome pasirinkti apskritį / rajoną","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Papildoma informacija","street":"Street Address","streetAndNumber":"Gatvė ir namo numeris","streetRequired":"Prašome įvesti adresą","style":"Stilius","subtotal":"Tarpinė suma","termsAndConditions":"taisyklėmis ir sąlygomis","thankYouOrder":"Thank you for your order","total":"Iš viso","totalToPay":"Iš viso mokėti","transactionDate":"Transaction Date","upsellFree":"Nemokama","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Įskaitant PVM","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Peržiūrėti","viewOrder":"View Order","weight":"Svoris","work":"Work","yourCart":"Jūsų krepšelis","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Pašto kodas","coursesAlreadyOwned":"Jau turite prieigą prie šio kurso.","coursesAlreadyOwnedCheckout":"Jau esate užsiregistravę į kursą krepšelyje.","coursesEnrollmentCheckFailed":"Nepavyko patikrinti kurso nuosavybės. Bandykite dar kartą.","coursesAlreadyEnrolledPrompt":"Jau užsiregistravote?","coursesLoginLink":"Prisijunkite","yourCourse":"jūsų kursas","courseAccessMethod":"Internetinė prieiga prie kurso","processing":"Apdorojama...","checkoutFailed":"Mokėjimas nepavyko. Bandykite dar kartą."},"pt":{"loading":"Carregando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Adicionar {count} itens ao carrinho","addToCart":"Adicionar ao carrinho","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Eu concordo com os","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apto, andar, código do edifício, observações, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Reservar agora","bookingChooseDate":"Escolha uma data","bookingChooseTime":"Escolha um horário","bookingDate":"Data","bookingLoading":"Carregando disponibilidade…","bookingNoDates":"Não há datas disponíveis no momento","bookingNoSlots":"Nenhum horário disponível no momento","bookingRemaining":"{count} restantes","bookingSelectOption":"Selecionar","bookingSelectTime":"Selecione um horário","bookingSelectDateFirst":"Escolha primeiro uma data","bookingSelectTimeFirst":"Escolha primeiro uma data e um horário","bookingTime":"Hora","browseFavorites":"Discover all our products","bundleDiscount":"Desconto de pacote","seasonalDiscount":"Desconto sazonal","customerDiscount":"Desconto do cliente","bundleTotal":"Total do pacote","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidade","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Cidade","cityRequired":"Por favor, insira sua cidade","color":"Cor","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuar comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Região","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Ainda não há cursos disponíveis.","coursesCatalogError":"Falha ao carregar cursos.","coursesCatalogSubtitle":"Navegue por nossa biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificação de Certificado","coursesDetailEnroll":"Adicionar ao carrinho","coursesDetailResume":"Continuar aprendendo","coursesDigitalDelivery":"Acesso digital online","coursesLessonCompleted":"Concluído","coursesLessonLoading":"Carregando lição…","coursesLessonMarkComplete":"Marcar como concluído","coursesLessonNext":"Próximo","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Você ainda não se inscreveu em nenhum curso.","coursesMyLearningLoading":"Carregando seus cursos…","coursesMyLearningSubtitle":"Continue de onde parou.","coursesMyLearningTitle":"Meu Aprendizado","coursesCertCourse":"Curso","coursesCertDownload":"Baixar","coursesCertError":"Verificação falhou.","coursesCertInvalid":"Este certificado não pôde ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificação","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"Curso concluído!","coursesCertEarnedBody":"Seu certificado está pronto.","coursesCurriculumEmpty":"Currículo em breve.","coursesFree":"Grátis","coursesJoinLive":"Participar ao vivo","coursesLessonGate":"Inscreva-se neste curso para acessar esta aula.","coursesLessonLocked":"Lição bloqueada","coursesLessonLoadError":"Falha ao carregar a lição.","coursesEnrollCta":"Ver curso e inscrever-se","coursesEnrollmentRevoked":"Sua inscrição não está mais ativa.","coursesDripLocked":"Esta lição será desbloqueada conforme cronograma.","coursesVideoProcessing":"Vídeo ainda está sendo processado. Volte em breve.","coursesVideoFailed":"Falha no processamento do vídeo. Por favor, faça o upload novamente do vídeo da aula no Course Studio.","coursesDetailLoading":"Carregando…","coursesDetailInstructor":"Instrutor","coursesDetailCurriculum":"Currículo","coursesLevelBeginner":"Iniciante","coursesLevelIntermediate":"Intermediário","coursesLevelAdvanced":"Avançado","coursesLessonUnsupported":"Este tipo de aula ainda não é suportado.","coursesLiveScheduled":"Sessão ao vivo agendada","coursesPreview":"Visualizar","coursesQuizError":"Falha ao carregar quiz.","coursesQuizLoading":"Carregando quiz…","coursesQuizNone":"Nenhum quiz nesta aula.","coursesQuizPassed":"Você passou!","coursesQuizRetry":"Tente novamente.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dias","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Desconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, insira um e-mail válido","emailRequired":"Por favor, insira seu e-mail","emptyCart":"Seu carrinho está vazio","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erro ao carregar opções","featured":"Destaques","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRÁTIS","freeAbove":"Grátis acima de","frequentlyBoughtTogether":"Frequentemente comprados juntos","frequentlyBoughtTogetherSubtitle":"Economize tempo e leve tudo o que precisa","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Início","inStock":"Em estoque","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Comprimento","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Valor mínimo do pedido: {{amount}}. Adicione mais {{remaining}} para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, insira seu nome completo","new":"Novidades","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Sua loja está pronta para produtos","previewEmptyStoreBody":"Adicione seu primeiro produto no Gerenciador da loja para vê-lo aparecer aqui.","previewEmptyStoreButton":"Adicionar produtos","previewOnlyBadge":"Somente pré-visualização","noShippingMethods":"Nenhuma opção de envio disponível","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esgotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, insira seu telefone","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, aceite os termos e condições","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ir para o pagamento","productDetails":"Detalhes do produto","productNotFound":"Product not found","products":"Produtos","profileUpdated":"Profile updated successfully","quantity":"Quantidade","relatedProducts":"Produtos relacionados","remove":"Remover","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Promoção","saveAddressForNextTime":"Salvar este endereço para a próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Resultados da pesquisa","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envio","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, selecione um método de envio","signInHere":"Sign in here","size":"Tamanho","sku":"Código","specifications":"Especificações","startingAt":"A partir de","stateProvince":"Estado / Província","stateRequired":"Por favor, selecione um estado / província","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informações adicionais","street":"Street Address","streetAndNumber":"Rua e número","streetRequired":"Por favor, insira seu endereço","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Termos e Condições","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Grátis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluído","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalhes","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Seu carrinho","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CEP / Código Postal","coursesAlreadyOwned":"Você já possui este curso.","coursesAlreadyOwnedCheckout":"Você já está inscrito em um curso no carrinho.","coursesEnrollmentCheckFailed":"Não foi possível verificar a propriedade do curso. Tente novamente.","coursesAlreadyEnrolledPrompt":"Já está inscrito?","coursesLoginLink":"Entrar","yourCourse":"seu curso","courseAccessMethod":"Acesso online ao curso","processing":"Processando...","checkoutFailed":"Falha no pagamento. Tente novamente."},"ru":{"loading":"Загрузка…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добавить {count} товаров в корзину","addToCart":"В корзину","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Я соглашаюсь с","all":"Все","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Кв., этаж, код дома, заметки и т.д.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Забронировать","bookingChooseDate":"Выберите дату","bookingChooseTime":"Выберите время","bookingDate":"Дата","bookingLoading":"Загрузка доступности…","bookingNoDates":"Сейчас нет доступных дат","bookingNoSlots":"Сейчас нет свободного времени","bookingRemaining":"Осталось {count}","bookingSelectOption":"Выбрать","bookingSelectTime":"Выберите время","bookingSelectDateFirst":"Сначала выберите дату","bookingSelectTimeFirst":"Сначала выберите дату и время","bookingTime":"Время","browseFavorites":"Discover all our products","bundleDiscount":"Скидка за набор","seasonalDiscount":"Сезонная скидка","customerDiscount":"Скидка клиента","bundleTotal":"Итого набор","callNow":"Call Now","cancel":"Cancel","capacity":"Объем","cart":"Cart","category":"Category","checkout":"Оформить заказ","city":"Город","cityRequired":"Пожалуйста, введите город","color":"Цвет","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продолжить покупки","continueToHomePage":"Continue to Home Page","countryRegion":"Страна / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Курсы пока недоступны.","coursesCatalogError":"Не удалось загрузить курсы.","coursesCatalogSubtitle":"Просмотрите нашу полную библиотеку курсов.","coursesCatalogTitle":"Курсы","coursesCertificateLoading":"Проверка…","coursesCertificateTitle":"Проверка сертификата","coursesDetailEnroll":"В корзину","coursesDetailResume":"Продолжить обучение","coursesDigitalDelivery":"Цифровой онлайн-доступ","coursesLessonCompleted":"Завершено","coursesLessonLoading":"Загрузка урока…","coursesLessonMarkComplete":"Отметить как завершенный","coursesLessonNext":"Далее","coursesLessonPrev":"Назад","coursesMyLearningEmpty":"Вы еще не записались ни на один курс.","coursesMyLearningLoading":"Загрузка ваших курсов…","coursesMyLearningSubtitle":"Продолжите с того места, где остановились.","coursesMyLearningTitle":"Мое обучение","coursesCertCourse":"Курс","coursesCertDownload":"Скачать","coursesCertError":"Проверка не удалась.","coursesCertInvalid":"Этот сертификат не удалось проверить.","coursesCertIssued":"Выдан","coursesCertStudent":"Студент","coursesCertValid":"Проверен","coursesCertIssuer":"Выдано","coursesCertCode":"Код проверки","coursesViewCertificate":"Посмотреть сертификат","coursesCertEarnedTitle":"Курс завершён!","coursesCertEarnedBody":"Ваш сертификат готов.","coursesCurriculumEmpty":"Программа курса скоро появится.","coursesFree":"Бесплатно","coursesJoinLive":"Присоединиться к прямому эфиру","coursesLessonGate":"Запишитесь на этот курс, чтобы получить доступ к этому уроку.","coursesLessonLocked":"Урок заблокирован","coursesLessonLoadError":"Не удалось загрузить урок.","coursesEnrollCta":"Посмотреть курс и записаться","coursesEnrollmentRevoked":"Ваша регистрация больше не активна.","coursesDripLocked":"Этот урок откроется по расписанию.","coursesVideoProcessing":"Видео все еще обрабатывается. Проверьте позже.","coursesVideoFailed":"Обработка видео не удалась. Пожалуйста, повторно загрузите видео урока из Course Studio.","coursesDetailLoading":"Загрузка…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебная программа","coursesLevelBeginner":"Начинающий","coursesLevelIntermediate":"Средний","coursesLevelAdvanced":"Продвинутый","coursesLessonUnsupported":"Этот тип урока пока не поддерживается.","coursesLiveScheduled":"Запланирована прямая трансляция","coursesPreview":"Предварительный просмотр","coursesQuizError":"Не удалось загрузить тест.","coursesQuizLoading":"Загрузка теста…","coursesQuizNone":"В этом уроке нет теста.","coursesQuizPassed":"Вы прошли тест!","coursesQuizRetry":"Попробовать снова.","coursesQuizSubmit":"Отправить","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дней","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Скидка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Пожалуйста, введите корректный email","emailRequired":"Пожалуйста, введите ваш email","emptyCart":"Корзина пуста","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Ошибка загрузки вариантов","featured":"Рекомендуемые","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕСПЛАТНО","freeAbove":"Бесплатно от","frequentlyBoughtTogether":"Часто покупают вместе","frequentlyBoughtTogetherSubtitle":"Экономьте время и получите все необходимое","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Главная","inStock":"В наличии","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Длина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимальная сумма заказа: {{amount}}. Добавьте ещё {{remaining}} для продолжения.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Пожалуйста, введите ваше полное имя","new":"Новинки","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Ваш магазин готов к товарам","previewEmptyStoreBody":"Добавьте первый товар в менеджере магазина, чтобы увидеть его здесь.","previewEmptyStoreButton":"Добавить товары","previewOnlyBadge":"Только в предпросмотре","noShippingMethods":"Варианты доставки недоступны","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Нет в наличии","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Пожалуйста, введите номер телефона","placeOrder":"Place Order","pleaseAcceptTerms":"Пожалуйста, примите условия использования","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Перейти к оплате","productDetails":"Описание товара","productNotFound":"Product not found","products":"Товары","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Похожие товары","remove":"Удалить","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Распродажа","saveAddressForNextTime":"Сохранить этот адрес на будущее","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Результаты поиска","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Пожалуйста, выберите способ доставки","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Характеристики","startingAt":"От","stateProvince":"Штат / Область","stateRequired":"Пожалуйста, выберите штат / область","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Дополнительная информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Пожалуйста, введите адрес","style":"Стиль","subtotal":"Подытог","termsAndConditions":"Условиями использования","thankYouOrder":"Thank you for your order","total":"Итого","totalToPay":"Итого к оплате","transactionDate":"Transaction Date","upsellFree":"Бесплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включая НДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Подробнее","viewOrder":"View Order","weight":"Вес","work":"Work","yourCart":"Ваша корзина","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Почтовый индекс","coursesAlreadyOwned":"У вас уже есть доступ к этому курсу.","coursesAlreadyOwnedCheckout":"Вы уже записаны на курс из корзины.","coursesEnrollmentCheckFailed":"Не удалось подтвердить владение курсом. Пожалуйста, попробуйте снова.","coursesAlreadyEnrolledPrompt":"Уже записаны?","coursesLoginLink":"Войти","yourCourse":"ваш курс","courseAccessMethod":"Онлайн-доступ к курсу","processing":"Обработка...","checkoutFailed":"Ошибка оплаты. Пожалуйста, попробуйте снова."},"th":{"loading":"กำลังโหลด…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"เพิ่ม {count} รายการลงตะกร้า","addToCart":"เพิ่มลงตะกร้า","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"ฉันยอมรับ","all":"ทั้งหมด","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"ห้อง, ชั้น, รหัสอาคาร, หมายเหตุ ฯลฯ","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"จองเลย","bookingChooseDate":"เลือกวันที่","bookingChooseTime":"เลือกเวลา","bookingDate":"วันที่","bookingLoading":"กำลังโหลดเวลาที่ว่าง…","bookingNoDates":"ยังไม่มีวันที่ว่างในขณะนี้","bookingNoSlots":"ขณะนี้ไม่มีเวลาที่ว่าง","bookingRemaining":"เหลือ {count}","bookingSelectOption":"เลือก","bookingSelectTime":"เลือกเวลา","bookingSelectDateFirst":"โปรดเลือกวันที่ก่อน","bookingSelectTimeFirst":"โปรดเลือกวันที่และเวลาก่อน","bookingTime":"เวลา","browseFavorites":"Discover all our products","bundleDiscount":"ส่วนลดชุด","seasonalDiscount":"ส่วนลดตามฤดูกาล","customerDiscount":"ส่วนลดลูกค้า","bundleTotal":"ยอดรวมแพ็กเกจ","callNow":"Call Now","cancel":"Cancel","capacity":"ความจุ","cart":"Cart","category":"Category","checkout":"ชำระเงิน","city":"จังหวัด","cityRequired":"กรุณากรอกจังหวัด","color":"สี","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"เลือกซื้อสินค้าต่อ","continueToHomePage":"Continue to Home Page","countryRegion":"ประเทศ / ภูมิภาค","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"ยังไม่มีคอร์สเรียนที่พร้อมใช้งาน","coursesCatalogError":"โหลดคอร์สเรียนไม่สำเร็จ","coursesCatalogSubtitle":"เรียนดูคอร์สเรียนทั้งหมดของเรา","coursesCatalogTitle":"คอร์สเรียน","coursesCertificateLoading":"กำลังตรวจสอบ…","coursesCertificateTitle":"การตรวจสอบใบประกาศนียบัตร","coursesDetailEnroll":"เพิ่มลงตะกร้า","coursesDetailResume":"เรียนต่อ","coursesDigitalDelivery":"การเข้าถึงออนไลน์แบบดิจิทัล","coursesLessonCompleted":"เสร็จสมบูรณ์","coursesLessonLoading":"กำลังโหลดบทเรียน…","coursesLessonMarkComplete":"ทำเครื่องหมายว่าเสร็จสิ้น","coursesLessonNext":"ถัดไป","coursesLessonPrev":"ก่อนหน้า","coursesMyLearningEmpty":"คุณยังไม่ได้ลงทะเบียนเรียนคอร์สใดๆ","coursesMyLearningLoading":"กำลังโหลดคอร์สของคุณ…","coursesMyLearningSubtitle":"เรียนต่อจากจุดที่คุณหยุดไว้","coursesMyLearningTitle":"การเรียนของฉัน","coursesCertCourse":"คอร์สเรียน","coursesCertDownload":"ดาวน์โหลด","coursesCertError":"การตรวจสอบไม่สำเร็จ","coursesCertInvalid":"ไม่สามารถตรวจสอบใบประกาศนียบัตรนี้ได้","coursesCertIssued":"ออกให้เมื่อ","coursesCertStudent":"นักเรียน","coursesCertValid":"ตรวจสอบแล้ว","coursesCertIssuer":"ออกโดย","coursesCertCode":"รหัสยืนยัน","coursesViewCertificate":"ดูใบรับรอง","coursesCertEarnedTitle":"เรียนจบหลักสูตรแล้ว!","coursesCertEarnedBody":"ใบรับรองของคุณพร้อมแล้ว","coursesCurriculumEmpty":"หลักสูตรจะเปิดให้เร็วๆ นี้","coursesFree":"ฟรี","coursesJoinLive":"เข้าร่วมสด","coursesLessonGate":"ลงทะเบียนเรียนคอร์สนี้เพื่อเข้าถึงบทเรียนนี้","coursesLessonLocked":"บทเรียนถูกล็อค","coursesLessonLoadError":"ไม่สามารถโหลดบทเรียนได้","coursesEnrollCta":"ดูคอร์สและลงทะเบียน","coursesEnrollmentRevoked":"การลงทะเบียนของคุณไม่ได้ใช้งานอีกต่อไป","coursesDripLocked":"บทเรียนนี้จะปลดล็อคตามกำหนดการ","coursesVideoProcessing":"วิดีโอยังอยู่ระหว่างการประมวลผล กรุณาตรวจสอบอีกครั้งในภายหลัง","coursesVideoFailed":"การประมวลผลวิดีโอล้มเหลว กรุณาอัปโหลดวิดีโอบทเรียนใหม่จาก Course Studio","coursesDetailLoading":"กำลังโหลด…","coursesDetailInstructor":"ผู้สอน","coursesDetailCurriculum":"หลักสูตร","coursesLevelBeginner":"ผู้เริ่มต้น","coursesLevelIntermediate":"ระดับกลาง","coursesLevelAdvanced":"ระดับสูง","coursesLessonUnsupported":"ประเภทบทเรียนนี้ยังไม่รองรับ","coursesLiveScheduled":"กำหนดการเรียนสดแล้ว","coursesPreview":"ดูตัวอย่าง","coursesQuizError":"โหลดแบบทดสอบไม่สำเร็จ","coursesQuizLoading":"กำลังโหลดแบบทดสอบ…","coursesQuizNone":"ไม่มีแบบทดสอบในบทเรียนนี้","coursesQuizPassed":"คุณผ่านแล้ว!","coursesQuizRetry":"ลองใหม่อีกครั้ง","coursesQuizSubmit":"ส่งคำตอบ","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"วัน","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"ส่วนลด","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"กรุณากรอกอีเมลที่ถูกต้อง","emailRequired":"กรุณากรอกอีเมล","emptyCart":"ตะกร้าของคุณว่างเปล่า","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"เกิดข้อผิดพลาดในการโหลดตัวเลือก","featured":"แนะนำ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ฟรี","freeAbove":"ฟรีเมื่อซื้อครบ","frequentlyBoughtTogether":"มักซื้อด้วยกัน","frequentlyBoughtTogetherSubtitle":"ประหยัดเวลาและได้ทุกอย่างที่คุณต้องการ","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"หน้าแรก","inStock":"มีสินค้า","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"ความยาว","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"วัสดุ","minimumOrderNotMet":"ยอดสั่งซื้อขั้นต่ำ: {{amount}} กรุณาเพิ่มอีก {{remaining}} เพื่อดำเนินการต่อ","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"กรุณากรอกชื่อ-นามสกุล","new":"ใหม่","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ร้านค้าของคุณพร้อมสำหรับสินค้าแล้ว","previewEmptyStoreBody":"เพิ่มสินค้าชิ้นแรกในตัวจัดการร้านค้าเพื่อดูว่าสินค้าจะแสดงที่นี่","previewEmptyStoreButton":"เพิ่มสินค้า","previewOnlyBadge":"เฉพาะตัวอย่าง","noShippingMethods":"ไม่มีตัวเลือกการจัดส่ง","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"สินค้าหมด","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"กรุณากรอกเบอร์โทรศัพท์","placeOrder":"Place Order","pleaseAcceptTerms":"กรุณายอมรับข้อกำหนดและเงื่อนไข","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"ดำเนินการชำระเงิน","productDetails":"รายละเอียดสินค้า","productNotFound":"Product not found","products":"สินค้า","profileUpdated":"Profile updated successfully","quantity":"จำนวน","relatedProducts":"สินค้าที่เกี่ยวข้อง","remove":"ลบ","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"ลดราคา","saveAddressForNextTime":"บันทึกที่อยู่นี้สำหรับครั้งหน้า","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"ผลการค้นหา","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"การจัดส่ง","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"กรุณาเลือกวิธีการจัดส่ง","signInHere":"Sign in here","size":"ขนาด","sku":"รหัสสินค้า","specifications":"ข้อมูลจำเพาะ","startingAt":"เริ่มต้นที่","stateProvince":"จังหวัด / รัฐ","stateRequired":"กรุณาเลือกจังหวัด / รัฐ","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"ข้อมูลเพิ่มเติม","street":"Street Address","streetAndNumber":"ถนนและเลขที่","streetRequired":"กรุณากรอกที่อยู่","style":"สไตล์","subtotal":"ยอดรวมย่อย","termsAndConditions":"ข้อกำหนดและเงื่อนไข","thankYouOrder":"Thank you for your order","total":"รวม","totalToPay":"ยอดรวมที่ต้องชำระ","transactionDate":"Transaction Date","upsellFree":"ฟรี","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"รวม VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"ดูรายละเอียด","viewOrder":"View Order","weight":"น้ำหนัก","work":"Work","yourCart":"ตะกร้าของคุณ","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"รหัสไปรษณีย์","coursesAlreadyOwned":"คุณมีคอร์สนี้อยู่แล้ว","coursesAlreadyOwnedCheckout":"คุณลงทะเบียนคอร์สในตะกร้าแล้ว","coursesEnrollmentCheckFailed":"ไม่สามารถตรวจสอบความเป็นเจ้าของคอร์สได้ กรุณาลองใหม่อีกครั้ง","coursesAlreadyEnrolledPrompt":"ลงทะเบียนแล้ว?","coursesLoginLink":"เข้าสู่ระบบ","yourCourse":"คอร์สของคุณ","courseAccessMethod":"การเข้าถึงคอร์สออนไลน์","processing":"กำลังดำเนินการ...","checkoutFailed":"การชำระเงินล้มเหลว กรุณาลองใหม่อีกครั้ง"},"tr":{"loading":"Yükleniyor…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} ürünü sepete ekle","addToCart":"Sepete Ekle","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Kabul ediyorum","all":"Tümü","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Daire, kat, bina kodu, notlar vb.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Şimdi rezervasyon yap","bookingChooseDate":"Bir tarih seçin","bookingChooseTime":"Bir saat seçin","bookingDate":"Tarih","bookingLoading":"Uygunluk yükleniyor…","bookingNoDates":"Şu anda uygun tarih yok","bookingNoSlots":"Şu anda uygun saat yok","bookingRemaining":"{count} kaldı","bookingSelectOption":"Seçin","bookingSelectTime":"Bir saat seçin","bookingSelectDateFirst":"Lütfen önce bir tarih seçin","bookingSelectTimeFirst":"Lütfen önce bir tarih ve saat seçin","bookingTime":"Saat","browseFavorites":"Discover all our products","bundleDiscount":"Paket İndirimi","seasonalDiscount":"Sezon indirimi","customerDiscount":"Müşteri indirimi","bundleTotal":"Paket toplamı","callNow":"Call Now","cancel":"Cancel","capacity":"Kapasite","cart":"Cart","category":"Category","checkout":"Ödeme","city":"Şehir","cityRequired":"Lütfen şehrinizi girin","color":"Renk","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Alışverişe Devam Et","continueToHomePage":"Continue to Home Page","countryRegion":"Ülke / Bölge","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Henüz mevcut kurs yok.","coursesCatalogError":"Kurslar yüklenemedi.","coursesCatalogSubtitle":"Tüm kurs kütüphanemizi inceleyin.","coursesCatalogTitle":"Kurslar","coursesCertificateLoading":"Doğrulanıyor…","coursesCertificateTitle":"Sertifika Doğrulama","coursesDetailEnroll":"Sepete Ekle","coursesDetailResume":"Öğrenmeye devam et","coursesDigitalDelivery":"Dijital çevrimiçi erişim","coursesLessonCompleted":"Tamamlandı","coursesLessonLoading":"Ders yükleniyor…","coursesLessonMarkComplete":"Tamamlandı olarak işaretle","coursesLessonNext":"Sonraki","coursesLessonPrev":"Önceki","coursesMyLearningEmpty":"Henüz hiçbir kursa kayıt olmadınız.","coursesMyLearningLoading":"Kurslarınız yükleniyor…","coursesMyLearningSubtitle":"Kaldığınız yerden devam edin.","coursesMyLearningTitle":"Öğrenimim","coursesCertCourse":"Kurs","coursesCertDownload":"İndir","coursesCertError":"Doğrulama başarısız.","coursesCertInvalid":"Bu sertifika doğrulanamadı.","coursesCertIssued":"Verildi","coursesCertStudent":"Öğrenci","coursesCertValid":"Doğrulandı","coursesCertIssuer":"Veren","coursesCertCode":"Doğrulama kodu","coursesViewCertificate":"Sertifikayı görüntüle","coursesCertEarnedTitle":"Kurs tamamlandı!","coursesCertEarnedBody":"Sertifikanız hazır.","coursesCurriculumEmpty":"Müfredat yakında gelecek.","coursesFree":"Ücretsiz","coursesJoinLive":"Canlı katıl","coursesLessonGate":"Bu derse erişmek için kursa kaydolun.","coursesLessonLocked":"Ders kilitli","coursesLessonLoadError":"Ders yüklenemedi.","coursesEnrollCta":"Kursu görüntüle ve kaydol","coursesEnrollmentRevoked":"Kaydınız artık aktif değil.","coursesDripLocked":"Bu ders programlı olarak açılacak.","coursesVideoProcessing":"Video hala işleniyor. Kısa süre sonra tekrar kontrol edin.","coursesVideoFailed":"Video işleme başarısız oldu. Lütfen ders videosunu Course Studio'dan yeniden yükleyin.","coursesDetailLoading":"Yükleniyor…","coursesDetailInstructor":"Eğitmen","coursesDetailCurriculum":"Müfredat","coursesLevelBeginner":"Başlangıç","coursesLevelIntermediate":"Orta","coursesLevelAdvanced":"İleri","coursesLessonUnsupported":"Bu ders türü henüz desteklenmiyor.","coursesLiveScheduled":"Canlı oturum planlandı","coursesPreview":"Önizleme","coursesQuizError":"Quiz yüklenemedi.","coursesQuizLoading":"Quiz yükleniyor…","coursesQuizNone":"Bu derste quiz yok.","coursesQuizPassed":"Başardınız!","coursesQuizRetry":"Tekrar dene.","coursesQuizSubmit":"Gönder","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"gün","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"İndirim","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Lütfen geçerli bir e-posta adresi girin","emailRequired":"Lütfen e-posta adresinizi girin","emptyCart":"Sepetiniz boş","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Seçenekler yüklenirken hata oluştu","featured":"Öne Çıkanlar","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ÜCRETSİZ","freeAbove":"Ücretsiz kargo","frequentlyBoughtTogether":"Sıkça birlikte alınanlar","frequentlyBoughtTogetherSubtitle":"Zamandan kazanın ve ihtiyacınız olan her şeyi alın","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Ana Sayfa","inStock":"Stokta","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Uzunluk","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Malzeme","minimumOrderNotMet":"Minimum sipariş tutarı: {{amount}}. Devam etmek için {{remaining}} daha ekleyin.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Lütfen tam adınızı girin","new":"Yeni","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Mağazanız ürünler için hazır","previewEmptyStoreBody":"Burada görünmesi için Mağaza Yöneticisi'nde ilk ürününüzü ekleyin.","previewEmptyStoreButton":"Ürün ekle","previewOnlyBadge":"Yalnızca önizleme","noShippingMethods":"Kargo seçeneği bulunmuyor","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Stokta Yok","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Lütfen telefon numaranızı girin","placeOrder":"Place Order","pleaseAcceptTerms":"Lütfen şartları ve koşulları kabul edin","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ödemeye Geç","productDetails":"Ürün Detayları","productNotFound":"Product not found","products":"Ürünler","profileUpdated":"Profile updated successfully","quantity":"Adet","relatedProducts":"İlgili Ürünler","remove":"Kaldır","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"İndirim","saveAddressForNextTime":"Bu adresi bir sonraki sefer için kaydet","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Arama sonuçları","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Kargo","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Lütfen bir kargo yöntemi seçin","signInHere":"Sign in here","size":"Beden","sku":"Stok Kodu","specifications":"Teknik Özellikler","startingAt":"Başlayan fiyat","stateProvince":"Eyalet / İl","stateRequired":"Lütfen bir eyalet / il seçin","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Ek Bilgiler","street":"Street Address","streetAndNumber":"Sokak ve numara","streetRequired":"Lütfen adresinizi girin","style":"Stil","subtotal":"Ara Toplam","termsAndConditions":"Şartlar ve Koşullar","thankYouOrder":"Thank you for your order","total":"Toplam","totalToPay":"Ödenecek Toplam","transactionDate":"Transaction Date","upsellFree":"Ücretsiz","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"KDV Dahil","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Detayları Gör","viewOrder":"View Order","weight":"Ağırlık","work":"Work","yourCart":"Sepetiniz","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Posta Kodu","coursesAlreadyOwned":"Bu kursa zaten sahipsiniz.","coursesAlreadyOwnedCheckout":"Sepetinizdeki bir kursa zaten kayıtlısınız.","coursesEnrollmentCheckFailed":"Kurs sahipliği doğrulanamadı. Lütfen tekrar deneyin.","coursesAlreadyEnrolledPrompt":"Zaten kayıtlı mısınız?","coursesLoginLink":"Giriş yapın","yourCourse":"kursunuz","courseAccessMethod":"Çevrimiçi kurs erişimi","processing":"İşleniyor...","checkoutFailed":"Ödeme başarısız oldu. Lütfen tekrar deneyin."},"zh":{"loading":"加载中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"将 {count} 件商品加入购物车","addToCart":"加入购物车","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"我同意","all":"全部","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"公寓、楼层、建筑代码、备注等。","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"立即预订","bookingChooseDate":"选择日期","bookingChooseTime":"选择时间","bookingDate":"日期","bookingLoading":"正在加载可用时段…","bookingNoDates":"目前没有可预约日期","bookingNoSlots":"目前没有可预约的时间","bookingRemaining":"剩余 {count}","bookingSelectOption":"选择","bookingSelectTime":"选择时间","bookingSelectDateFirst":"请先选择日期","bookingSelectTimeFirst":"请先选择日期和时间","bookingTime":"时间","browseFavorites":"Discover all our products","bundleDiscount":"套装折扣","seasonalDiscount":"季节折扣","customerDiscount":"客户折扣","bundleTotal":"组合总计","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"结账","city":"城市","cityRequired":"请输入您的城市","color":"颜色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"继续购物","continueToHomePage":"Continue to Home Page","countryRegion":"国家 / 地区","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"暂无可用课程。","coursesCatalogError":"加载课程失败。","coursesCatalogSubtitle":"浏览我们完整的课程库。","coursesCatalogTitle":"课程","coursesCertificateLoading":"验证中…","coursesCertificateTitle":"证书验证","coursesDetailEnroll":"加入购物车","coursesDetailResume":"继续学习","coursesDigitalDelivery":"数字在线访问","coursesLessonCompleted":"已完成","coursesLessonLoading":"加载课程中…","coursesLessonMarkComplete":"标记完成","coursesLessonNext":"下一个","coursesLessonPrev":"上一个","coursesMyLearningEmpty":"您还没有报名任何课程。","coursesMyLearningLoading":"加载您的课程中…","coursesMyLearningSubtitle":"从上次停下的地方继续。","coursesMyLearningTitle":"我的学习","coursesCertCourse":"课程","coursesCertDownload":"下载","coursesCertError":"验证失败。","coursesCertInvalid":"此证书无法验证。","coursesCertIssued":"颁发时间","coursesCertStudent":"学员","coursesCertValid":"已验证","coursesCertIssuer":"颁发者","coursesCertCode":"验证码","coursesViewCertificate":"查看证书","coursesCertEarnedTitle":"课程完成！","coursesCertEarnedBody":"您的证书已就绪。","coursesCurriculumEmpty":"课程大纲即将推出。","coursesFree":"免费","coursesJoinLive":"加入直播","coursesLessonGate":"请注册此课程以访问本课时。","coursesLessonLocked":"课程已锁定","coursesLessonLoadError":"加载课程失败。","coursesEnrollCta":"查看课程并报名","coursesEnrollmentRevoked":"您的注册已失效。","coursesDripLocked":"此课程将按计划解锁。","coursesVideoProcessing":"视频仍在处理中。请稍后再试。","coursesVideoFailed":"视频处理失败。请从课程工作室重新上传课程视频。","coursesDetailLoading":"加载中…","coursesDetailInstructor":"讲师","coursesDetailCurriculum":"课程大纲","coursesLevelBeginner":"初级","coursesLevelIntermediate":"中级","coursesLevelAdvanced":"高级","coursesLessonUnsupported":"暂不支持此课时类型。","coursesLiveScheduled":"直播课程已安排","coursesPreview":"预览","coursesQuizError":"加载测验失败。","coursesQuizLoading":"正在加载测验…","coursesQuizNone":"本课时无测验。","coursesQuizPassed":"您通过了！","coursesQuizRetry":"重新尝试。","coursesQuizSubmit":"提交","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"天","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"折扣","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"请输入有效的电子邮件地址","emailRequired":"请输入您的电子邮件地址","emptyCart":"您的购物车是空的","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"加载选项时出错","featured":"精选","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"免费","freeAbove":"满额免运费","frequentlyBoughtTogether":"经常一起购买","frequentlyBoughtTogetherSubtitle":"节省时间，一次买齐所需","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"首页","inStock":"有货","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"长度","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"材质","minimumOrderNotMet":"最低订单金额：{{amount}}。还需添加 {{remaining}} 才能结账。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"请输入您的全名","new":"新品","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"您的商店已准备好添加商品","previewEmptyStoreBody":"在商店管理器中添加第一个商品，即可在这里看到它。","previewEmptyStoreButton":"添加商品","previewOnlyBadge":"仅预览","noShippingMethods":"暂无配送方式","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"缺货","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"请输入您的电话号码","placeOrder":"Place Order","pleaseAcceptTerms":"请接受条款和条件","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"继续结账","productDetails":"商品详情","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"相关商品","remove":"移除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"促销","saveAddressForNextTime":"保存此地址以备下次使用","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"搜索结果","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"配送","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"请选择运输方式","signInHere":"Sign in here","size":"尺寸","sku":"货号","specifications":"规格参数","startingAt":"起价","stateProvince":"州 / 省","stateRequired":"请选择州 / 省","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"附加信息","street":"Street Address","streetAndNumber":"街道和门牌号","streetRequired":"请输入您的街道地址","style":"款式","subtotal":"小计","termsAndConditions":"条款和条件","thankYouOrder":"Thank you for your order","total":"总计","totalToPay":"应付总额","transactionDate":"Transaction Date","upsellFree":"免费","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"含税","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"查看详情","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"您的购物车","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"邮政编码","coursesAlreadyOwned":"您已拥有此课程。","coursesAlreadyOwnedCheckout":"您已注册了购物车中的课程。","coursesEnrollmentCheckFailed":"无法验证课程所有权。请重试。","coursesAlreadyEnrolledPrompt":"已注册？","coursesLoginLink":"登录","yourCourse":"您的课程","courseAccessMethod":"在线课程访问","processing":"处理中...","checkoutFailed":"支付失败。请重试。"}};
 
   // Helper to get localized e-commerce UI text
   // Tries zappyI18n first for multilingual support, falls back to static t object
@@ -2356,6 +2458,55 @@ window.onload = function() {
     }
     return getEcomText(key, fallback);
   }
+
+  window.zappyTranslateVariantValue = function(product, attr, sourceValue, fallback) {
+    var fallbackText = String(fallback != null && fallback !== '' ? fallback : sourceValue || '');
+    if (!product || !attr || sourceValue == null) return fallbackText;
+    var lang = String((typeof getCurrentEcomLanguage === 'function' ? getCurrentEcomLanguage() : '') || '').split('-')[0].toLowerCase();
+    function translateKnownColor(value) {
+      if (lang !== 'he') return '';
+      if (String(attr || '').toLowerCase().indexOf('color') === -1 && String(attr || '').toLowerCase() !== 'colour') return '';
+      var raw = String(value == null ? '' : value).trim();
+      if (!raw || /[\u0590-\u05FF]/.test(raw)) return '';
+      var map = {
+        black: 'שחור', white: 'לבן', gray: 'אפור', grey: 'אפור', red: 'אדום',
+        green: 'ירוק', blue: 'כחול', navy: 'כחול כהה', pink: 'ורוד',
+        purple: 'סגול', yellow: 'צהוב', orange: 'כתום', brown: 'חום',
+        beige: 'בז׳', gold: 'זהב', silver: 'כסף', teal: 'טורקיז',
+        mint: 'מנטה', cream: 'קרם', ivory: 'שנהב'
+      };
+      var direct = map[raw.toLowerCase().replace(/\s+/g, ' ')];
+      if (direct) return direct;
+      var parts = raw.split(/\s*-\s*/).filter(Boolean);
+      if (parts.length > 1) {
+        var translated = parts.map(function(part) { return map[String(part).toLowerCase().replace(/\s+/g, ' ')]; });
+        if (translated.every(Boolean)) return translated.join('-');
+      }
+      return '';
+    }
+    var wanted = String(sourceValue);
+    function matches(attrs) {
+      return attrs && Object.prototype.hasOwnProperty.call(attrs, attr) && String(attrs[attr]) === wanted;
+    }
+    var variants = Array.isArray(product.variants) ? product.variants : [];
+    for (var i = 0; i < variants.length; i++) {
+      var variant = variants[i] || {};
+      var attrs = variant.attributes_source || variant.attributes || {};
+      if (!matches(attrs)) continue;
+      var translatedAttrs = variant.attributes_translations && lang && variant.attributes_translations[lang];
+      if (translatedAttrs && translatedAttrs[attr]) return translateKnownColor(translatedAttrs[attr]) || String(translatedAttrs[attr]);
+      var displayAttrs = variant.attributes_display || {};
+      if (displayAttrs && displayAttrs[attr]) return translateKnownColor(displayAttrs[attr]) || String(displayAttrs[attr]);
+    }
+    var matrix = product.card_variants && Array.isArray(product.card_variants.matrix) ? product.card_variants.matrix : [];
+    for (var j = 0; j < matrix.length; j++) {
+      var row = matrix[j] || {};
+      if (!matches(row.attributes || {})) continue;
+      var rowDisplayAttrs = row.attributes_display || {};
+      if (rowDisplayAttrs && rowDisplayAttrs[attr]) return translateKnownColor(rowDisplayAttrs[attr]) || String(rowDisplayAttrs[attr]);
+    }
+    return translateKnownColor(fallbackText) || fallbackText;
+  };
 
   function getLocalizedCartItemName(item) {
     if (!item) return '';
@@ -2450,6 +2601,7 @@ function stripHtmlToText(html) {
   let vatRate = 0.18; // Default fallback (Israel VAT rate as of January 2025)
   let productLayout = 'standard'; // Default product card layout
   let storeSettingsFetched = false;
+  let storeSettingsPromise = null;
   let sidebarFiltersConfig = {};
   let sortingConfig = {};
   let viewToggleEnabled = true;
@@ -2462,6 +2614,8 @@ function stripHtmlToText(html) {
   // Fetch store settings (including tax rate and product layout) from API
   async function fetchStoreSettings() {
     if (storeSettingsFetched) return;
+    if (storeSettingsPromise) return storeSettingsPromise;
+    storeSettingsPromise = (async function() {
     try {
       const res = await fetch(buildApiUrlWithLang('/api/ecommerce/storefront/settings?websiteId=' + websiteId));
       const data = await res.json();
@@ -2510,7 +2664,11 @@ function stripHtmlToText(html) {
       }
     } catch (e) {
       console.warn('Failed to fetch store settings, using defaults:', e);
+    } finally {
+      storeSettingsPromise = null;
     }
+    })();
+    return storeSettingsPromise;
   }
   
   // Fetch settings on page load
@@ -2585,6 +2743,7 @@ function stripHtmlToText(html) {
     localStorage.setItem('zappy_cart_' + websiteId, JSON.stringify(cart));
     updateCartCount();
     renderCartDrawer(); // Keep drawer in sync
+    ensureCartDiscountDataLoadedForCart();
     // Keep the checkout order summary in sync with ANY cart mutation (remove /
     // qty change / add) that happens while the shopper is on the checkout page —
     // e.g. opening the cart drawer from checkout and removing an item. Without
@@ -2598,6 +2757,56 @@ function stripHtmlToText(html) {
         (document.getElementById('order-items') || document.getElementById('subtotal'))) {
       try { updateOrderTotals(); } catch (e) {}
     }
+  }
+
+  let cartDiscountDataLoadPromise = null;
+  let cartDiscountDataLoaded = false;
+  let cartDiscountCustomerTokenLoaded = '';
+  function ensureCartDiscountDataLoadedForCart() {
+    if (!Array.isArray(cart) || cart.length === 0) return Promise.resolve();
+    var customerToken = '';
+    try { customerToken = localStorage.getItem('zappy_customer_token_' + websiteId) || ''; } catch (e) {}
+    var customerDiscountInSync = customerToken
+      ? (cartDiscountCustomerTokenLoaded === customerToken)
+      : (!cartDiscountCustomerTokenLoaded);
+    if (cartDiscountDataLoaded && customerDiscountInSync) return Promise.resolve();
+    if (cartDiscountDataLoadPromise) return cartDiscountDataLoadPromise;
+
+    var taskMetas = [];
+    if (!cartDiscountDataLoaded) {
+      taskMetas.push({ key: 'seasonal', run: fetchSeasonalDiscounts });
+      taskMetas.push({ key: 'bundle', run: fetchQuantityBundles });
+    }
+    if (customerToken && cartDiscountCustomerTokenLoaded !== customerToken) {
+      taskMetas.push({ key: 'customer', run: fetchCustomerDiscount });
+    } else if (!customerToken && cartDiscountCustomerTokenLoaded) {
+      taskMetas.push({ key: 'customer', run: fetchCustomerDiscount });
+    }
+
+    cartDiscountDataLoadPromise = Promise.all(
+      taskMetas.map(function(meta) {
+        return meta.run().then(function(ok) { return { key: meta.key, ok: ok !== false }; });
+      })
+    ).then(function(results) {
+      var neededSeasonal = taskMetas.some(function(m) { return m.key === 'seasonal'; });
+      var neededBundle = taskMetas.some(function(m) { return m.key === 'bundle'; });
+      var seasonalOk = !neededSeasonal || results.some(function(r) { return r.key === 'seasonal' && r.ok; });
+      var bundleOk = !neededBundle || results.some(function(r) { return r.key === 'bundle' && r.ok; });
+      if (seasonalOk && bundleOk) cartDiscountDataLoaded = true;
+
+      var customerResult = results.find(function(r) { return r.key === 'customer'; });
+      if (customerResult && customerResult.ok) {
+        cartDiscountCustomerTokenLoaded = customerToken || '';
+      }
+      updateCartDrawerSummary();
+      if (typeof updateOrderTotals === 'function' &&
+          (document.getElementById('order-items') || document.getElementById('subtotal'))) {
+        updateOrderTotals();
+      }
+    }).finally(function() {
+      cartDiscountDataLoadPromise = null;
+    });
+    return cartDiscountDataLoadPromise;
   }
   
   function updateCartCount() {
@@ -2733,9 +2942,9 @@ function stripHtmlToText(html) {
       labels[key] = attrLabels[key] || attrLabels[String(key).toLowerCase()] || key;
 
       var isColor = String(key).toLowerCase() === 'color' || String(key).toLowerCase().includes('color');
-      if (isColor && typeof window.getConfiguredColorSwatchHex === 'function') {
+      if (isColor && typeof window.getConfiguredColorSwatchMeta === 'function') {
         if (!colorSwatches[key]) colorSwatches[key] = {};
-        colorSwatches[key][String(value)] = window.getConfiguredColorSwatchHex(item, key, value);
+        colorSwatches[key][String(value)] = window.getConfiguredColorSwatchMeta(item, key, value);
       }
     });
 
@@ -2779,6 +2988,60 @@ function stripHtmlToText(html) {
     return !!(p && p.custom_fields && p.custom_fields.showPrice === false);
   };
 
+  // A service / event product (FEATURE_ECOMMERCE_SERVICES). Such products are
+  // booked (date + time + optional customer form) rather than blind-added — the
+  // card CTA opens Quick View and Add to Cart is gated until a slot is chosen.
+  window.zappyIsServiceProduct = function(p) {
+    return !!(p && (p.product_kind === 'service' || p.productKind === 'service'));
+  };
+
+  // Human-readable booking date/time (timezone-aware) for a cart/order line, or
+  // '' when the item carries no booking. Date-only service bookings store local
+  // noon internally for stable date math, so never show hour/minute for those.
+  // Used by the cart drawer, cart page, and order-success renderers.
+  window.zappyBookingSummary = function(item) {
+    if (!item || !item.booking || !item.booking.startsAt) return '';
+    var b = item.booking;
+    var dateOnly = !!b.dateOnly || !b.endsAt;
+    try {
+      return new Intl.DateTimeFormat(undefined, {
+        timeZone: b.timezone || undefined,
+        weekday: 'short', month: 'short', day: 'numeric',
+        ...(dateOnly ? {} : { hour: '2-digit', minute: '2-digit' })
+      }).format(new Date(b.startsAt));
+    } catch (e) {
+      try { return dateOnly ? new Date(b.startsAt).toLocaleDateString() : new Date(b.startsAt).toLocaleString(); } catch (e2) { return ''; }
+    }
+  };
+
+  // Stable DOM composite id for a cart line. Includes the variant id and, for
+  // service bookings, a slot + form-answer fingerprint so two bookings of the
+  // same service (different time or different form answers) get distinct
+  // qty/remove controls. Every renderer + zappyUpdateQty + zappyRemoveFromCart
+  // MUST use this so the ids match.
+  window.zappyCartCompositeId = function(i) {
+    var variantId = i && i.selectedVariant ? i.selectedVariant.id : null;
+    var base = variantId ? i.id + '-' + variantId : i.id;
+    if (i && i.booking) {
+      var slotPart = String(i.booking.slotId || i.booking.startsAt || '').replace(/[^a-zA-Z0-9]/g, '');
+      var faStr = i.booking.formAnswers ? JSON.stringify(i.booking.formAnswers) : '';
+      var h = 0; for (var n = 0; n < faStr.length; n++) { h = ((h << 5) - h + faStr.charCodeAt(n)) | 0; }
+      base += '-b' + slotPart + (faStr ? '-' + (h >>> 0).toString(36) : '');
+    }
+    return base;
+  };
+
+  // True when the whole cart is services that don't need shipping — checkout
+  // then skips the shipping address/method step. A single physical (or
+  // requires-shipping service) line flips this false.
+  window.zappyCartIsServiceOnly = function() {
+    if (!Array.isArray(cart) || cart.length === 0) return false;
+    return cart.every(function(it) {
+      if (!window.zappyIsServiceProduct(it)) return false;
+      return !(it.booking && it.booking.requiresShipping);
+    });
+  };
+
   function addToCart(product) {
     // Hard guard: never let a price-hidden ("contact for price") product enter
     // the cart, even if a stale button or a programmatic caller slips through.
@@ -2788,14 +3051,22 @@ function stripHtmlToText(html) {
       product.quantity = 1;
     }
 
-    // Create a unique cart item ID that includes variant info
+    // Create a unique cart item ID that includes variant info. Service bookings
+    // (FEATURE_ECOMMERCE_SERVICES) also key on the chosen slot + form answers so
+    // two bookings of the same service at different times stay separate lines.
+    var bookingKey = function(it) {
+      if (!it || !it.booking) return '';
+      var b = it.booking;
+      var fa = b.formAnswers ? JSON.stringify(b.formAnswers) : '';
+      return '|' + (b.slotId || b.startsAt || '') + '|' + fa;
+    };
     const variantId = product.selectedVariant ? product.selectedVariant.id : null;
-    const cartItemId = variantId ? product.id + '-' + variantId : product.id;
+    const cartItemId = (variantId ? product.id + '-' + variantId : product.id) + bookingKey(product);
     
-    // Find existing item with same product AND variant
+    // Find existing item with same product AND variant AND booking slot
     const existing = cart.find(item => {
       const existingVariantId = item.selectedVariant ? item.selectedVariant.id : null;
-      const existingCartId = existingVariantId ? item.id + '-' + existingVariantId : item.id;
+      const existingCartId = (existingVariantId ? item.id + '-' + existingVariantId : item.id) + bookingKey(item);
       return existingCartId === cartItemId;
     });
     
@@ -2832,6 +3103,8 @@ function stripHtmlToText(html) {
   
   // Store loaded products for filtering
   var productsCache = [];
+  var productsFetchPromises = {};
+  var productsRenderSeq = 0;
   var currentFilter = 'all'; // kept for legacy compat, not used with sidebar filters
   
   // Load products on products page (uses public storefront API)
@@ -2857,7 +3130,7 @@ function stripHtmlToText(html) {
         const catRes = await fetch(buildApiUrlWithLang('/api/ecommerce/storefront/categories?websiteId=' + websiteId));
         const catData = await catRes.json();
         if (catData.success && catData.data) {
-          const category = catData.data.find(function(c) { return c.id === categoryId; });
+          const category = matchStorefrontCategory(catData.data, categoryId);
           if (category) {
             const productsSection = document.querySelector('.products-section');
             const titleEl = productsSection ? productsSection.querySelector('h1') : null;
@@ -2873,7 +3146,7 @@ function stripHtmlToText(html) {
     }
     
     // Load products with default filter
-    loadProductsWithFilter('all');
+    return loadProductsWithFilter('all');
   }
   
   // Load products with optional filter (all, featured, new, sale)
@@ -2881,6 +3154,7 @@ function stripHtmlToText(html) {
     const grid = document.getElementById('zappy-product-grid');
     if (!grid) return;
     
+    const renderSeq = ++productsRenderSeq;
     currentFilter = filter || 'all';
     
     // Update active filter button
@@ -2909,14 +3183,26 @@ function stripHtmlToText(html) {
       // Build API URL with language support for translations
       let apiUrl = buildApiUrlWithLang('/api/ecommerce/storefront/products?websiteId=' + websiteId);
       if (categoryId) {
-        apiUrl += '&categoryId=' + categoryId;
+        const resolvedCategoryId = await resolveStorefrontCategoryParam(categoryId, websiteId);
+        if (resolvedCategoryId) {
+          apiUrl += '&categoryId=' + encodeURIComponent(resolvedCategoryId);
+        }
       }
       if (searchQuery && searchQuery.length >= 2) {
         apiUrl += '&search=' + encodeURIComponent(searchQuery);
       }
       
-      const res = await fetch(apiUrl);
-      const data = await res.json();
+      let productsFetchPromise = productsFetchPromises[apiUrl];
+      if (!productsFetchPromise) {
+        productsFetchPromise = fetch(apiUrl)
+          .then(function(res) { return res.json(); })
+          .finally(function() { delete productsFetchPromises[apiUrl]; });
+        productsFetchPromises[apiUrl] = productsFetchPromise;
+      }
+      const data = await productsFetchPromise;
+      if (renderSeq !== productsRenderSeq) {
+        return;
+      }
       
       if (!data.success || !data.data?.length) {
         if (data.success && await zappyHasAnyStorefrontProducts() === false) {
@@ -2941,6 +3227,7 @@ function stripHtmlToText(html) {
       if (typeof _syncCardFavorites === 'function') _syncCardFavorites();
     } catch (e) {
       console.error('Failed to load products', e);
+      if (renderSeq !== productsRenderSeq) return;
       grid.innerHTML = '<div class="empty-cart">' + t.errorLoading + '</div>';
     }
   }
@@ -3415,7 +3702,7 @@ function stripHtmlToText(html) {
       
       // Build card content based on layout
       var cardContent = '';
-      var imageHtml = imageUrl ? '<img src="' + imageUrl + '" alt="' + p.name + '">' : '<div class="no-image-placeholder">📦</div>';
+      var imageHtml = imageUrl ? '<img src="' + imageUrl + '" alt="' + p.name + '" width="800" height="800" loading="lazy" decoding="async">' : '<div class="no-image-placeholder">📦</div>';
       
       // Get localized button text based on mode
       var localizedAddToCart = getEcomText('addToCart', t.addToCart);
@@ -3575,6 +3862,30 @@ function stripHtmlToText(html) {
     if (/^[a-zA-Z ]+$/.test(s)) return s.toLowerCase();
     return '#94a3b8';
   }
+  function zappyCardCssUrl(v) {
+    return String(v == null ? '' : v).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n|\r/g, '');
+  }
+  function zappyCardSwatchStyle(val) {
+    var swatchImage = val && (val.swatchImage || val.image);
+    if (swatchImage) {
+      var resolver = window.resolveProductImageUrl || function(x) { return x; };
+      return "background-image:url('" + zappyCardCssUrl(resolver(swatchImage)) + "');background-size:" + zappyCardEscAttr(val.imageSize || 'cover') + ';background-position:' + zappyCardEscAttr(val.imagePosition || '50% 50%') + ';';
+    }
+    if (val && val.hex2) {
+      return 'background:linear-gradient(90deg,' + zappyCardCssColor(val.hex || val.value) + ' 0 50%,' + zappyCardCssColor(val.hex2) + ' 50% 100%);';
+    }
+    return 'background:' + zappyCardCssColor((val && (val.hex || val.value)) || '') + ';';
+  }
+  function zappyCardSwatchLabel(val, attrKey, product) {
+    var label = String((val && val.label) || '').trim();
+    var sourceValue = val && val.value;
+    if (typeof window.zappyTranslateVariantValue === 'function' && product && attrKey && sourceValue != null) {
+      label = window.zappyTranslateVariantValue(product, attrKey, sourceValue, label || sourceValue);
+    }
+    if (val && val.swatchImage) return label || 'Image swatch';
+    if (val && val.hex2) return label;
+    return label;
+  }
   function zappyCardSelAttrs(cv, sel) {
     var attrs = {};
     if (cv.colorKey && sel.color) attrs[cv.colorKey] = sel.color;
@@ -3716,10 +4027,11 @@ function stripHtmlToText(html) {
           val = vals[j];
           oos = window.zappyVariantMatrix.isOutOfStock(cv.matrix, cv.colorKey, val.value, otherForColor);
           cls = 'zc-swatch' + (sel.color === val.value ? ' selected' : '') + (oos ? ' out-of-stock' : '');
+          var swatchLabel = zappyCardSwatchLabel(val, cv.colorKey, p) || val.label;
           dots += '<button type="button" class="' + cls + '" data-color="' + zappyCardEscAttr(val.value) + '"'
             + (val.image ? ' data-image="' + zappyCardEscAttr(val.image) + '"' : '')
-            + ' title="' + zappyCardEscAttr(val.label) + '" aria-label="' + zappyCardEscAttr(val.label) + '">'
-            + '<span class="zc-swatch-dot" style="background:' + zappyCardCssColor(val.hex || val.value) + '"></span></button>';
+            + ' title="' + zappyCardEscAttr(swatchLabel) + '" aria-label="' + zappyCardEscAttr(swatchLabel) + '">'
+            + '<span class="zc-swatch-dot" style="' + zappyCardSwatchStyle(val) + '"></span></button>';
         }
         var cScroll = vals.length > 8;
         out.swatchRow = '<div class="zc-swatches' + (cScroll ? ' zc-scrollable' : '') + '" data-card-swatches>'
@@ -3762,6 +4074,15 @@ function stripHtmlToText(html) {
   };
 
   window.zappyCardCartBtnHtml = function(p) {
+    // Service / event products get a "Book" affordance (calendar icon) that
+    // opens Quick View instead of the cart glyph — capacity/availability is
+    // decided inside the booking widget, so it is never disabled here.
+    if (window.zappyIsServiceProduct(p)) {
+      var bookLbl = getEcomText('bookNow', (t && t.bookNow) || 'Book now');
+      return '<button type="button" class="card-cart-btn card-book-btn" data-card-cart data-product-id="' + zappyCardEscAttr(p.id) + '" title="' + zappyCardEscAttr(bookLbl) + '" aria-label="' + zappyCardEscAttr(bookLbl) + '">'
+        + '<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>'
+        + '</button>';
+    }
     var lbl = getEcomText('addToCart', t.addToCart);
     var blocked = !!window.zappyCardCartBlockedReason(p, window.zappyGetCardSelection(p.id) || {});
     var oosLbl = getEcomText('outOfStock', (t && t.outOfStock) || 'Out of Stock');
@@ -3771,6 +4092,15 @@ function stripHtmlToText(html) {
       + ' aria-label="' + zappyCardEscAttr(ariaLbl) + '">'
       + '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M19.5275 4.09583C19.13 3.61083 18.5425 3.33333 17.9158 3.33333H3.74167L3.52833 1.7975C3.38667 0.773333 2.5 0 1.465 0H0.416667C0.186667 0 0 0.186667 0 0.416667C0 0.646667 0.186667 0.833333 0.416667 0.833333H1.46583C2.08667 0.833333 2.61833 1.29667 2.70333 1.91167L4.1875 12.5992C4.44417 14.4425 6.04167 15.8333 7.90167 15.8333H16.25C16.48 15.8333 16.6667 15.6467 16.6667 15.4167C16.6667 15.1867 16.48 15 16.25 15H7.90167C6.46 15 5.22333 13.9258 5.01667 12.5H15.55C17.3317 12.5 18.8775 11.2325 19.2267 9.48583L19.9592 5.825C20.0817 5.21 19.9242 4.58 19.5267 4.09583H19.5275ZM19.1425 5.66167L18.41 9.3225C18.1383 10.6808 16.935 11.6667 15.55 11.6667H4.89917L3.8575 4.16667H17.9158C18.2917 4.16667 18.6442 4.33333 18.8825 4.62417C19.1208 4.915 19.215 5.29333 19.1425 5.66167ZM5.83333 16.6667C4.91417 16.6667 4.16667 17.4142 4.16667 18.3333C4.16667 19.2525 4.91417 20 5.83333 20C6.7525 20 7.5 19.2525 7.5 18.3333C7.5 17.4142 6.7525 16.6667 5.83333 16.6667ZM5.83333 19.1667C5.37333 19.1667 5 18.7925 5 18.3333C5 17.8742 5.37333 17.5 5.83333 17.5C6.29333 17.5 6.66667 17.8742 6.66667 18.3333C6.66667 18.7925 6.29333 19.1667 5.83333 19.1667ZM14.1667 16.6667C13.2475 16.6667 12.5 17.4142 12.5 18.3333C12.5 19.2525 13.2475 20 14.1667 20C15.0858 20 15.8333 19.2525 15.8333 18.3333C15.8333 17.4142 15.0858 16.6667 14.1667 16.6667ZM14.1667 19.1667C13.7067 19.1667 13.3333 18.7925 13.3333 18.3333C13.3333 17.8742 13.7067 17.5 14.1667 17.5C14.6267 17.5 15 17.8742 15 18.3333C15 18.7925 14.6267 19.1667 14.1667 19.1667Z" fill="currentColor"/></svg>'
       + '</button>';
+  };
+
+  window.zappyBuildInquiryHref = function(p) {
+    var bizEmail = (t && t.businessEmail) ? String(t.businessEmail).trim() : '';
+    if (bizEmail) {
+      var subj = getEcomText('inquiryAbout', (t && t.inquiryAbout) || 'Inquiry about') + ' ' + ((p && p.name) || '');
+      return 'mailto:' + encodeURIComponent(bizEmail) + '?subject=' + encodeURIComponent(subj);
+    }
+    return buildStorefrontPath('/contact');
   };
 
   // Assemble the full card inner HTML (shared by both renderers).
@@ -3787,21 +4117,13 @@ function stripHtmlToText(html) {
     var bodyLink = '<a href="' + parts.productHref + '" class="product-card-body-link"><div class="card-content"><h3>' + p.name + '</h3>' + desc + '</div></a>';
     var cartBtn;
     if (parts.isCatalogMode) {
-      cartBtn = '<a href="' + parts.productHref + '" class="card-cart-btn view-details-btn" aria-label="' + zappyCardEscAttr(parts.localizedViewDetails || '') + '">'
-        + '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg></a>';
+      cartBtn = '';
     } else if (window.zappyProductPriceHidden(p)) {
       // Contact-for-price product: swap the cart affordance for an inquiry
       // button (envelope). Prefer a mailto to the store email; fall back to the
       // contact page when no business email is configured.
       var inqLbl = getEcomText('sendInquiry', (t && t.sendInquiry) || 'Send Inquiry');
-      var bizEmail = (t && t.businessEmail) ? String(t.businessEmail).trim() : '';
-      var inqHref;
-      if (bizEmail) {
-        var subj = getEcomText('inquiryAbout', (t && t.inquiryAbout) || 'Inquiry about') + ' ' + (p.name || '');
-        inqHref = 'mailto:' + encodeURIComponent(bizEmail) + '?subject=' + encodeURIComponent(subj);
-      } else {
-        inqHref = buildStorefrontPath('/contact');
-      }
+      var inqHref = window.zappyBuildInquiryHref(p);
       cartBtn = '<a href="' + zappyCardEscAttr(inqHref) + '" class="card-cart-btn card-inquiry-btn" title="' + zappyCardEscAttr(inqLbl) + '" aria-label="' + zappyCardEscAttr(inqLbl) + '">'
         + '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>';
     } else {
@@ -3903,6 +4225,12 @@ function stripHtmlToText(html) {
     var pid = card.getAttribute('data-product-id'); var p = window.zappyGetCardProduct(pid); if (!p) return;
     var cv = p.card_variants;
     var sel = window.zappyGetCardSelection(pid) || {};
+    // Service / event products are booked (date + time + optional form), never
+    // blind-added — always route to Quick View which hosts the booking widget.
+    if (window.zappyIsServiceProduct(p)) {
+      if (typeof window.zappyOpenQuickView === 'function') window.zappyOpenQuickView(p.slug || p.id, sel);
+      return;
+    }
     // Authoritative out-of-stock guard: never add an unavailable item, even if
     // the disabled styling was bypassed. Re-sync the button state and bail.
     if (window.zappyCardCartBlockedReason(p, sel)) {
@@ -4036,7 +4364,8 @@ function stripHtmlToText(html) {
         var seld = qvState.selections[opt.key] === val.value;
         var cls = (isColor ? 'zappy-qv-swatch' : 'zappy-qv-pill') + (seld ? ' selected' : '') + (oos ? ' out-of-stock' : '');
         if (isColor) {
-          rows += '<button type="button" class="' + cls + '" data-qv-opt="' + zappyCardEscAttr(opt.key) + '" data-qv-val="' + zappyCardEscAttr(val.value) + '" title="' + zappyCardEscAttr(val.label) + '" aria-label="' + zappyCardEscAttr(val.label) + '"><span class="zappy-qv-swatch-dot" style="background:' + zappyCardCssColor(val.hex || val.value) + '"></span></button>';
+          var qvSwatchLabel = zappyCardSwatchLabel(val) || val.label;
+          rows += '<button type="button" class="' + cls + '" data-qv-opt="' + zappyCardEscAttr(opt.key) + '" data-qv-val="' + zappyCardEscAttr(val.value) + '" title="' + zappyCardEscAttr(qvSwatchLabel) + '" aria-label="' + zappyCardEscAttr(qvSwatchLabel) + '"><span class="zappy-qv-swatch-dot" style="' + zappyCardSwatchStyle(val) + '"></span></button>';
         } else {
           rows += '<button type="button" class="' + cls + '" data-qv-opt="' + zappyCardEscAttr(opt.key) + '" data-qv-val="' + zappyCardEscAttr(val.value) + '">' + zappyCardEscAttr(val.label) + '</button>';
         }
@@ -4053,6 +4382,51 @@ function stripHtmlToText(html) {
     var allSelected = keys.length > 0 && keys.every(function(k) { return !!qvState.selections[k]; });
     if (!allSelected) return null;
     return window.zappyVariantMatrix.findMatching(cv.matrix, qvState.selections);
+  }
+
+  function qvReconcileSelections(changedKey) {
+    var cv = qvState.cv;
+    if (!cv || !Array.isArray(cv.options) || !Array.isArray(cv.matrix)) return;
+    var optionKeys = cv.options.map(function(option) { return option.key; }).filter(Boolean);
+    var changedValue = changedKey ? qvState.selections[changedKey] : null;
+    if (changedKey && changedValue && !window.zappyVariantMatrix.existsWith(cv.matrix, changedKey, changedValue, {})) {
+      delete qvState.selections[changedKey];
+      return;
+    }
+    var guard = 0;
+    while (guard++ < optionKeys.length + 2) {
+      var changed = false;
+      for (var i = 0; i < optionKeys.length; i++) {
+        var key = optionKeys[i];
+        if (!qvState.selections[key]) continue;
+        var other = {};
+        for (var k in qvState.selections) {
+          if (k !== key && qvState.selections[k]) other[k] = qvState.selections[k];
+        }
+        if (!window.zappyVariantMatrix.existsWith(cv.matrix, key, qvState.selections[key], other)) {
+          delete qvState.selections[key];
+          changed = true;
+        }
+      }
+      if (!changed) break;
+    }
+    optionKeys.forEach(function(key) {
+      if (qvState.selections[key]) return;
+      var opt = (cv.options || []).find(function(option) { return option.key === key; });
+      var viable = [];
+      (opt && opt.values || []).forEach(function(entry) {
+        var value = entry && entry.value;
+        if (value == null) return;
+        var other = {};
+        for (var k in qvState.selections) {
+          if (k !== key && qvState.selections[k]) other[k] = qvState.selections[k];
+        }
+        if (window.zappyVariantMatrix.existsWith(cv.matrix, key, value, other) && !window.zappyVariantMatrix.isOutOfStock(cv.matrix, key, value, other)) {
+          viable.push(value);
+        }
+      });
+      if (viable.length === 1) qvState.selections[key] = viable[0];
+    });
   }
 
   function qvRefresh() {
@@ -4080,15 +4454,22 @@ function stripHtmlToText(html) {
     var priceBox = content.querySelector('.zappy-qv-price');
     if (priceBox) priceBox.innerHTML = qvPriceHtml(product, variant);
     var cartBtn = content.querySelector('.zappy-qv-addcart');
-    if (cartBtn) {
+    if (cartBtn && cartBtn.tagName === 'BUTTON') {
       var keys = (cv && cv.options || []).map(function(o) { return o.key; });
       var allSelected = !cv || keys.length === 0 || keys.every(function(k) { return !!qvState.selections[k]; });
       var available = !cv || (variant && variant.available);
-      var ready = allSelected && available;
+      var isService = qvBookingIsService();
+      var bookingOk = qvBookingReady();
+      var chooseBookingLabel = (qvState.availability && qvState.availability.dateOnly)
+        ? getEcomText('bookingChooseDate', t.bookingChooseDate || 'Choose a date')
+        : getEcomText('bookingChooseTime', t.bookingChooseTime || 'Choose a time');
+      var ready = allSelected && available && bookingOk;
       cartBtn.disabled = !ready;
       cartBtn.classList.toggle('is-disabled', !ready);
       if (cv && keys.length && !allSelected) cartBtn.textContent = getEcomText('selectVariant', t.selectVariant || 'Select options');
       else if (!available) cartBtn.textContent = getEcomText('outOfStock', t.outOfStock || 'Out of stock');
+      else if (isService && !bookingOk) cartBtn.textContent = chooseBookingLabel;
+      else if (isService) cartBtn.textContent = getEcomText('bookNow', t.bookNow || 'Book now');
       else cartBtn.textContent = getEcomText('addToCart', t.addToCart || 'Add to cart');
     }
   }
@@ -4098,6 +4479,7 @@ function stripHtmlToText(html) {
     // Clicking the selected value again clears it (toggle).
     if (qvState.selections[optKey] === val) delete qvState.selections[optKey];
     else qvState.selections[optKey] = val;
+    qvReconcileSelections(optKey);
     qvRefresh();
   }
 
@@ -4123,6 +4505,20 @@ function stripHtmlToText(html) {
     if (variant) {
       item.selectedVariant = { id: variant.id, attributes: variant.attributes, price: variant.price, sku: variant.sku, image: variant.image };
     }
+    if (qvBookingIsService()) {
+      if (!qvBookingReady()) return; // button is disabled anyway
+      var av = qvState.availability || {}; var b = qvState.booking || {};
+      item.booking = {
+        slotId: b.slotId || null,
+        startsAt: b.startsAt || null,
+        endsAt: b.endsAt || null,
+        timezone: av.timezone || null,
+        durationMinutes: av.durationMinutes || null,
+        dateOnly: !!av.dateOnly,
+        requiresShipping: !!av.requiresShipping,
+        formAnswers: Object.assign({}, b.formAnswers || {})
+      };
+    }
     qvSyncCardSelection();
     // Close QV first (restores body scroll), then add — addToCart opens the
     // cart drawer and re-locks scroll on its own.
@@ -4144,6 +4540,271 @@ function stripHtmlToText(html) {
       window.zappySetCardSelection(product.id, Object.assign({}, prev, sel));
       window.zappyAfterCardsRendered(document);
     }
+  }
+
+  // ── Service booking widget (FEATURE_ECOMMERCE_SERVICES) ─────────────────────
+  // Service/event products render a date + time + optional custom-form picker
+  // inside Quick View. Availability comes from the public storefront API and is
+  // cached on qvState for the life of the modal.
+  window.zappyEnsureBookingWidgetStyles = window.zappyEnsureBookingWidgetStyles || function() {
+    if (!document.getElementById('zappy-booking-widget-css')) {
+      var style = document.createElement('style');
+      style.id = 'zappy-booking-widget-css';
+      style.textContent =
+        '.zappy-qv-booking{display:flex!important;flex-direction:column!important;gap:10px!important;width:min(100%,320px)!important;max-width:320px!important;margin:8px 0 18px!important;align-self:flex-start!important;padding:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;box-sizing:border-box!important}' +
+      '.zappy-qv-book-row{display:flex!important;flex-direction:column!important;gap:5px!important}' +
+      '.zappy-qv-book-row.is-check{flex-direction:row!important;align-items:center!important;gap:8px!important}' +
+      '.zappy-qv-book-label{font-size:12px!important;font-weight:600!important;color:var(--text-color,#374151)!important}' +
+      '.zappy-qv-book-req{color:#dc2626!important}' +
+      '.zappy-qv-book-select,.zappy-qv-book-input{width:100%!important;min-height:42px!important;padding:8px 12px!important;border:1px solid var(--border-color,#d1d5db)!important;border-radius:8px!important;background:#fff!important;color:var(--text-color,#111827)!important;font-size:14px!important;font-family:inherit!important;box-sizing:border-box!important}' +
+      '.zappy-qv-book-input:focus,.zappy-qv-book-select:focus{outline:none!important;border-color:var(--primary-color,#ff0083)!important}' +
+      '.zappy-qv-book-calendar{width:100%!important;max-width:320px!important;margin:0!important;padding:10px!important;border:1px solid var(--border-color,#d1d5db)!important;border-radius:12px!important;background:#fff!important;box-shadow:0 8px 22px rgba(15,23,42,.06)!important;box-sizing:border-box!important}' +
+      '.zappy-qv-book-cal-head{display:grid!important;grid-template-columns:32px 1fr 32px!important;align-items:center!important;gap:8px!important;margin-bottom:8px!important}' +
+      '.zappy-qv-book-cal-title{text-align:center!important;font-size:13px!important;font-weight:700!important;color:var(--text-color,#111827)!important}' +
+      '.zappy-qv-book-cal-nav{width:32px!important;height:32px!important;border:1px solid var(--border-color,#d1d5db)!important;border-radius:999px!important;background:#fff!important;color:var(--text-color,#111827)!important;cursor:pointer!important;font:inherit!important;line-height:1!important;display:inline-flex!important;align-items:center!important;justify-content:center!important;padding:0!important}' +
+      '.zappy-qv-book-cal-nav:disabled{opacity:.35!important;cursor:not-allowed!important}' +
+      '.zappy-qv-book-cal-weekdays,.zappy-qv-book-cal-grid{display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr))!important;gap:4px!important}' +
+      '.zappy-qv-book-cal-weekdays{margin-bottom:4px!important}' +
+      '.zappy-qv-book-cal-weekday{text-align:center!important;font-size:11px!important;font-weight:700!important;color:var(--text-muted,#6b7280)!important}' +
+      '.zappy-qv-book-cal-day{min-width:0!important;width:100%!important;height:34px!important;border:1px solid transparent!important;border-radius:9px!important;background:transparent!important;color:var(--text-muted,#9ca3af)!important;font:inherit!important;font-size:13px!important;cursor:default!important;padding:0!important;box-sizing:border-box!important}' +
+      '.zappy-qv-book-cal-day.is-available{border-color:var(--border-color,#d1d5db)!important;background:rgba(255,255,255,.72)!important;color:var(--text-color,#111827)!important;cursor:pointer!important}' +
+      '.zappy-qv-book-cal-day.is-available:hover{border-color:var(--primary-color,#ff0083)!important}' +
+      '.zappy-qv-book-cal-day.is-selected{border-color:var(--primary-color,#ff0083)!important;background:var(--primary-color,#ff0083)!important;color:var(--text-light,#fff)!important;font-weight:700!important}' +
+      'textarea.zappy-qv-book-input{min-height:60px!important;resize:vertical!important}' +
+      '.zappy-qv-book-check{width:18px!important;height:18px!important;accent-color:var(--primary-color,#ff0083)!important}' +
+      '.zappy-qv-book-row.is-check .zappy-qv-book-label{font-weight:500!important;order:2!important}' +
+        '.zappy-qv-book-loading,.zappy-qv-book-empty{font-size:13px!important;color:var(--text-muted,#6b7280)!important;padding:4px 0!important}' +
+        '.product-add-row.zappy-service-booking-actions{position:static!important;bottom:auto!important;z-index:auto!important}';
+      document.head.appendChild(style);
+    }
+    var pdpBooking = document.getElementById('zappy-pdp-booking');
+    var actionRow = document.querySelector('.product-add-row');
+    if (pdpBooking && actionRow) actionRow.classList.add('zappy-service-booking-actions');
+  };
+  function qvBookingIsService() { return window.zappyIsServiceProduct(qvState.product); }
+  function qvBookingSlotKey(s) { return s && (s.slotId ? 's' + s.slotId : 't' + s.startsAt); }
+
+  function qvBookingFetch() {
+    var product = qvState.product; if (!product) return;
+    qvState.availability = null; qvState.availLoading = true;
+    var wid = window.ZAPPY_WEBSITE_ID;
+    fetch(buildApiUrlWithLang('/api/ecommerce/storefront/service-availability?websiteId=' + wid + '&productId=' + encodeURIComponent(product.id)))
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        qvState.availLoading = false;
+        qvState.availability = (data && data.success && data.data) ? data.data : { slots: [], formSchema: [] };
+      })
+      .catch(function() { qvState.availLoading = false; qvState.availability = { slots: [], formSchema: [] }; })
+      .then(function() { var m = qvEl('zappy-qv-modal'); if (m && !m.hidden) qvRender(); });
+  }
+
+  function qvBookingLocalDateKey(iso, tz) {
+    try {
+      var parts = new Intl.DateTimeFormat('en-CA', { timeZone: tz || undefined, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(iso));
+      var y = '', m = '', d = ''; parts.forEach(function(p) { if (p.type === 'year') y = p.value; if (p.type === 'month') m = p.value; if (p.type === 'day') d = p.value; });
+      return y + '-' + m + '-' + d;
+    } catch (e) { return String(iso).slice(0, 10); }
+  }
+  function qvBookingDateLabel(dateKey) {
+    try { return new Intl.DateTimeFormat(undefined, { timeZone: 'UTC', weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(dateKey + 'T12:00:00Z')); }
+    catch (e) { return dateKey; }
+  }
+  function qvBookingMonthKey(dateKey) {
+    return String(dateKey || '').slice(0, 7);
+  }
+  function qvBookingMonthLabel(monthKey) {
+    try { return new Intl.DateTimeFormat(undefined, { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(new Date(monthKey + '-01T12:00:00Z')); }
+    catch (e) { return monthKey; }
+  }
+  function qvBookingAddMonths(monthKey, delta) {
+    var p = String(monthKey || '').split('-');
+    var dt = new Date(Date.UTC(parseInt(p[0], 10) || 1970, (parseInt(p[1], 10) || 1) - 1 + delta, 1));
+    return dt.getUTCFullYear() + '-' + String(dt.getUTCMonth() + 1).padStart(2, '0');
+  }
+  function qvBookingWeekdayLabels() {
+    var out = [];
+    for (var i = 0; i < 7; i++) {
+      try { out.push(new Intl.DateTimeFormat(undefined, { timeZone: 'UTC', weekday: 'narrow' }).format(new Date(Date.UTC(2026, 1, 1 + i)))); }
+      catch (e) { out.push(['S','M','T','W','T','F','S'][i]); }
+    }
+    return out;
+  }
+  function qvBookingRenderCalendar(grp, booking) {
+    var available = {};
+    var months = [];
+    grp.order.forEach(function(k) {
+      available[k] = true;
+      var mk = qvBookingMonthKey(k);
+      if (months.indexOf(mk) === -1) months.push(mk);
+    });
+    booking.month = months.indexOf(booking.month) !== -1 ? booking.month : qvBookingMonthKey(booking.date || grp.order[0]);
+    if (months.indexOf(booking.month) === -1) booking.month = months[0];
+    var currentIdx = months.indexOf(booking.month);
+    var p = String(booking.month || '').split('-');
+    var y = parseInt(p[0], 10) || 1970;
+    var m = (parseInt(p[1], 10) || 1) - 1;
+    var firstDay = new Date(Date.UTC(y, m, 1)).getUTCDay();
+    var daysInMonth = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    var weekdays = qvBookingWeekdayLabels().map(function(d) { return '<div class="zappy-qv-book-cal-weekday">' + zappyCardEscAttr(d) + '</div>'; }).join('');
+    var cells = '';
+    for (var blank = 0; blank < firstDay; blank++) cells += '<span class="zappy-qv-book-cal-day" aria-hidden="true"></span>';
+    for (var day = 1; day <= daysInMonth; day++) {
+      var dk = booking.month + '-' + String(day).padStart(2, '0');
+      var isAvailable = !!available[dk];
+      var cls = 'zappy-qv-book-cal-day' + (isAvailable ? ' is-available' : '') + (dk === booking.date ? ' is-selected' : '');
+      var attrs = isAvailable
+        ? ' type="button" data-qv-book-date="' + zappyCardEscAttr(dk) + '" aria-label="' + zappyCardEscAttr(qvBookingDateLabel(dk)) + '"'
+        : ' type="button" disabled aria-hidden="true"';
+      cells += '<button class="' + cls + '"' + attrs + '>' + day + '</button>';
+    }
+    return '<div class="zappy-qv-book-calendar" data-qv-book-calendar="date">'
+      + '<div class="zappy-qv-book-cal-head">'
+      + '<button type="button" class="zappy-qv-book-cal-nav" data-qv-book-month="' + zappyCardEscAttr(months[currentIdx - 1] || qvBookingAddMonths(booking.month, -1)) + '"' + (currentIdx <= 0 ? ' disabled' : '') + '>‹</button>'
+      + '<div class="zappy-qv-book-cal-title">' + zappyCardEscAttr(qvBookingMonthLabel(booking.month)) + '</div>'
+      + '<button type="button" class="zappy-qv-book-cal-nav" data-qv-book-month="' + zappyCardEscAttr(months[currentIdx + 1] || qvBookingAddMonths(booking.month, 1)) + '"' + (currentIdx >= months.length - 1 ? ' disabled' : '') + '>›</button>'
+      + '</div>'
+      + '<div class="zappy-qv-book-cal-weekdays">' + weekdays + '</div>'
+      + '<div class="zappy-qv-book-cal-grid">' + cells + '</div>'
+      + '</div>';
+  }
+  function qvBookingTimeLabel(iso, tz) {
+    try { return new Intl.DateTimeFormat(undefined, { timeZone: tz || undefined, hour: '2-digit', minute: '2-digit' }).format(new Date(iso)); }
+    catch (e) { return String(iso); }
+  }
+  function qvBookingGroupByDate() {
+    var av = qvState.availability || {}; var tz = av.timezone; var out = {}; var order = [];
+    (av.slots || []).forEach(function(s) {
+      if (s.remaining != null && s.remaining <= 0) return;
+      var k = qvBookingLocalDateKey(s.startsAt, tz);
+      if (!out[k]) { out[k] = []; order.push(k); }
+      out[k].push(s);
+    });
+    return { map: out, order: order };
+  }
+
+  function qvBookingSelectFirstDateSlot(b, grp) {
+    var av = qvState.availability || {};
+    if (!av.dateOnly || !b || !b.date) return;
+    var daySlots = (grp && grp.map && grp.map[b.date]) || [];
+    var slot = daySlots[0] || null;
+    if (!slot) { b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; return; }
+    b.slotKey = qvBookingSlotKey(slot);
+    b.slotId = slot.slotId || null;
+    b.startsAt = slot.startsAt;
+    b.endsAt = slot.endsAt || null;
+  }
+
+  function qvBookingRenderForm(schema, answers) {
+    schema = Array.isArray(schema) ? schema : []; if (!schema.length) return '';
+    answers = answers || {}; var html = '';
+    for (var i = 0; i < schema.length; i++) {
+      var f = schema[i]; if (!f || !f.key) continue;
+      var val = answers[f.key] != null ? answers[f.key] : '';
+      var reqStar = f.required ? ' <span class="zappy-qv-book-req">*</span>' : '';
+      var lbl = '<label class="zappy-qv-book-label">' + zappyCardEscAttr(f.label || f.key) + reqStar + '</label>';
+      var attr = 'data-qv-book-field="' + zappyCardEscAttr(f.key) + '"';
+      var input = '';
+      if (f.type === 'textarea') { input = '<textarea class="zappy-qv-book-input" ' + attr + ' rows="2">' + zappyCardEscAttr(String(val)) + '</textarea>'; }
+      else if (f.type === 'select') {
+        var opts = '<option value="">' + getEcomText('bookingSelectOption', 'Select') + '</option>';
+        (f.options || []).forEach(function(o) { opts += '<option value="' + zappyCardEscAttr(o) + '"' + (String(val) === String(o) ? ' selected' : '') + '>' + zappyCardEscAttr(o) + '</option>'; });
+        input = '<select class="zappy-qv-book-select" ' + attr + '>' + opts + '</select>';
+      }
+      else if (f.type === 'checkbox') { input = '<input type="checkbox" class="zappy-qv-book-check" ' + attr + (val ? ' checked' : '') + '>'; }
+      else {
+        var itype = (f.type === 'number' ? 'number' : f.type === 'email' ? 'email' : f.type === 'phone' ? 'tel' : f.type === 'date' ? 'date' : 'text');
+        input = '<input type="' + itype + '" class="zappy-qv-book-input" ' + attr + ' value="' + zappyCardEscAttr(String(val)) + '">';
+      }
+      html += '<div class="zappy-qv-book-row' + (f.type === 'checkbox' ? ' is-check' : '') + '">' + lbl + input + '</div>';
+    }
+    return html;
+  }
+
+  function qvBookingRenderBlock() {
+    if (typeof window.zappyEnsureBookingWidgetStyles === 'function') window.zappyEnsureBookingWidgetStyles();
+    if (!qvBookingIsService()) return '';
+    var av = qvState.availability;
+    if (qvState.availLoading || !av) {
+      return '<div class="zappy-qv-booking"><div class="zappy-qv-book-loading">' + getEcomText('bookingLoading', 'Loading availability…') + '</div></div>';
+    }
+    var b = qvState.booking || (qvState.booking = { formAnswers: {} });
+    var grp = qvBookingGroupByDate();
+    var tz = av.timezone;
+    var dateOnly = !!av.dateOnly;
+    var formHtml = qvBookingRenderForm(av.formSchema, b.formAnswers);
+    if (!grp.order.length) {
+      return '<div class="zappy-qv-booking"><div class="zappy-qv-book-empty">' + (dateOnly ? getEcomText('bookingNoDates', 'No available dates right now') : getEcomText('bookingNoSlots', 'No available times right now')) + '</div>' + formHtml + '</div>';
+    }
+    if (!b.date || grp.order.indexOf(b.date) === -1) { b.date = grp.order[0]; b.slotKey = null; b.slotId = null; b.startsAt = null; }
+    var calendarHtml = qvBookingRenderCalendar(grp, b);
+    var daySlots = grp.map[b.date] || [];
+    var stillThere = daySlots.some(function(s) { return qvBookingSlotKey(s) === b.slotKey; });
+    if (!stillThere) { b.slotKey = null; b.slotId = null; b.startsAt = null; }
+    if (dateOnly && !b.startsAt) qvBookingSelectFirstDateSlot(b, grp);
+    if (dateOnly) {
+      return '<div class="zappy-qv-booking">'
+        + '<div class="zappy-qv-book-row"><label class="zappy-qv-book-label">' + getEcomText('bookingDate', 'Date') + '</label>'
+        +   calendarHtml + '</div>'
+        + formHtml
+        + '</div>';
+    }
+    var timeOpts = '<option value="">' + getEcomText('bookingSelectTime', 'Select a time') + '</option>';
+    daySlots.forEach(function(s) {
+      var key = qvBookingSlotKey(s);
+      var lbl = s.label ? s.label : qvBookingTimeLabel(s.startsAt, tz);
+      if (s.remaining != null && s.remaining <= 5) lbl += ' · ' + String(getEcomText('bookingRemaining', '{count} left')).replace(/\{count\}/g, String(s.remaining));
+      timeOpts += '<option value="' + zappyCardEscAttr(key) + '"' + (key === b.slotKey ? ' selected' : '') + '>' + zappyCardEscAttr(lbl) + '</option>';
+    });
+    return '<div class="zappy-qv-booking">'
+      + '<div class="zappy-qv-book-row"><label class="zappy-qv-book-label">' + getEcomText('bookingDate', 'Date') + '</label>'
+      +   calendarHtml + '</div>'
+      + '<div class="zappy-qv-book-row"><label class="zappy-qv-book-label">' + getEcomText('bookingTime', 'Time') + '</label>'
+      +   '<select class="zappy-qv-book-select" data-qv-book="time">' + timeOpts + '</select></div>'
+      + formHtml
+      + '</div>';
+  }
+
+  // Swap just the booking block in place (used when the date changes so the
+  // time options re-render) then refresh the button state.
+  function qvBookingRefresh() {
+    var content = qvEl('zappy-qv-content'); if (!content) return;
+    var wrap = content.querySelector('.zappy-qv-booking');
+    if (wrap) {
+      var tmp = document.createElement('div'); tmp.innerHTML = qvBookingRenderBlock();
+      var fresh = tmp.firstChild;
+      if (fresh) wrap.parentNode.replaceChild(fresh, wrap);
+    }
+    qvRefresh();
+  }
+
+  function qvBookingSelectTime(key) {
+    var b = qvState.booking || (qvState.booking = { formAnswers: {} });
+    var grp = qvBookingGroupByDate(); var day = grp.map[b.date] || []; var slot = null;
+    for (var i = 0; i < day.length; i++) { if (qvBookingSlotKey(day[i]) === key) { slot = day[i]; break; } }
+    if (!slot) { b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; }
+    else { b.slotKey = key; b.slotId = slot.slotId || null; b.startsAt = slot.startsAt; b.endsAt = slot.endsAt; }
+    qvRefresh();
+  }
+
+  function qvBookingSetField(key, node) {
+    var b = qvState.booking || (qvState.booking = { formAnswers: {} });
+    b.formAnswers = b.formAnswers || {};
+    b.formAnswers[key] = (node.type === 'checkbox') ? !!node.checked : node.value;
+    qvRefresh();
+  }
+
+  function qvBookingReady() {
+    if (!qvBookingIsService()) return true;
+    var av = qvState.availability; var b = qvState.booking;
+    if (!av || !b || !b.startsAt) return false;
+    var schema = Array.isArray(av.formSchema) ? av.formSchema : [];
+    for (var i = 0; i < schema.length; i++) {
+      var f = schema[i]; if (!f || !f.required) continue;
+      var v = b.formAnswers ? b.formAnswers[f.key] : null;
+      if (f.type === 'checkbox') { if (!v) return false; }
+      else if (v == null || String(v).trim() === '') return false;
+    }
+    return true;
   }
 
   function qvRender() {
@@ -4180,7 +4841,9 @@ function stripHtmlToText(html) {
     if (isCatalog || window.zappyProductPriceHidden(product)) {
       // Catalog sites AND contact-for-price products (showPrice === false) are
       // inquiry-only: never offer an Add to Cart in the Quick View.
-      cartArea = '<a href="' + href + '" class="zappy-qv-addcart zappy-qv-viewbtn">' + getEcomText('viewDetails', t.viewDetails || 'View product') + '</a>';
+      var inqLbl = getEcomText('sendInquiry', (t && t.sendInquiry) || 'Send Inquiry');
+      var inqHref = window.zappyBuildInquiryHref ? window.zappyBuildInquiryHref(product) : buildStorefrontPath('/contact');
+      cartArea = '<a href="' + zappyCardEscAttr(inqHref) + '" class="zappy-qv-addcart zappy-qv-viewbtn">' + inqLbl + '</a>';
     } else {
       var step = qvState.step || 1;
       cartArea = '<div class="zappy-qv-qty"><button type="button" class="zappy-qv-qty-btn" data-qv-qty="-1">-</button>'
@@ -4198,6 +4861,7 @@ function stripHtmlToText(html) {
       +   (shortDesc ? '<p class="zappy-qv-desc">' + zappyCardEscAttr(shortDesc) + '</p>' : '')
       +   '<div class="zappy-qv-price">' + qvPriceHtml(product, null) + '</div>'
       +   '<div class="zappy-qv-variants">' + qvRenderVariantGroups() + '</div>'
+      +   qvBookingRenderBlock()
       +   '<div class="zappy-qv-actions">' + cartArea + '</div>'
       +   '<a href="' + href + '" class="zappy-qv-viewlink">' + getEcomText('viewDetails', t.viewDetails || (isRTL ? 'לפרטים המלאים' : 'View full details')) + '</a>'
       + '</div>';
@@ -4258,7 +4922,7 @@ function stripHtmlToText(html) {
     var cv = (cardProduct && cardProduct.card_variants) || null;
     var slug = (cardProduct && (cardProduct.slug || cardProduct.id)) || slugOrId;
 
-    qvState = { product: cardProduct || { name: '', id: slugOrId, slug: slug, price: 0 }, cv: cv, selections: {}, qty: 1, step: 1 };
+    qvState = { product: cardProduct || { name: '', id: slugOrId, slug: slug, price: 0 }, cv: cv, selections: {}, qty: 1, step: 1, booking: { formAnswers: {} }, availability: null, availLoading: false };
     if (preselected) {
       if (cv) {
         if (cv.colorKey && preselected.color) qvState.selections[cv.colorKey] = preselected.color;
@@ -4272,17 +4936,21 @@ function stripHtmlToText(html) {
       .then(function(data) {
         if (data && data.success && data.data) {
           var full = data.data;
-          // Keep card_variants (richer for the card) but take gallery/desc/price from full.
-          qvState.product = Object.assign({}, full, cardProduct ? { card_variants: cardProduct.card_variants } : {});
+          var fullCardVariants = full.card_variants || (cardProduct && cardProduct.card_variants) || null;
+          // Take gallery/desc/price from full and use the freshest normalized
+          // variant payload available so image/split swatches match the PDP.
+          qvState.product = Object.assign({}, full, fullCardVariants ? { card_variants: fullCardVariants } : {});
           qvState.step = parseFloat(full.quantity_step) || 1;
-          if (!qvState.cv && full.card_variants) qvState.cv = full.card_variants;
+          if (fullCardVariants) qvState.cv = fullCardVariants;
         }
         // modal might have been closed while fetching
         if (!qvEl('zappy-qv-modal') || qvEl('zappy-qv-modal').hidden) return;
         qvRender();
+        // Service products load their availability, then re-render the widget.
+        if (window.zappyIsServiceProduct(qvState.product)) { qvState.availLoading = true; qvBookingFetch(); }
       })
       .catch(function() {
-        if (qvState.product && qvState.product.name) { qvRender(); }
+        if (qvState.product && qvState.product.name) { qvRender(); if (window.zappyIsServiceProduct(qvState.product)) { qvState.availLoading = true; qvBookingFetch(); } }
         else { content.innerHTML = '<div class="zappy-qv-loading">' + getEcomText('errorLoading', t.errorLoading || 'Could not load product') + '</div>'; }
       });
   };
@@ -4321,8 +4989,30 @@ function stripHtmlToText(html) {
       }
       var thumb = node.closest('[data-qv-thumb]');
       if (thumb && modal.contains(thumb)) { e.preventDefault(); var mainImg = modal.querySelector('.zappy-qv-main-img img'); if (mainImg) mainImg.src = thumb.getAttribute('data-qv-thumb'); modal.querySelectorAll('.zappy-qv-thumb').forEach(function(b) { b.classList.toggle('selected', b === thumb); }); return; }
+      var bookDate = node.closest('[data-qv-book-date]');
+      if (bookDate && modal.contains(bookDate)) { e.preventDefault(); var b = qvState.booking || (qvState.booking = { formAnswers: {} }); b.date = bookDate.getAttribute('data-qv-book-date'); b.month = qvBookingMonthKey(b.date); b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; qvBookingSelectFirstDateSlot(b, qvBookingGroupByDate()); qvBookingRefresh(); return; }
+      var bookMonth = node.closest('[data-qv-book-month]');
+      if (bookMonth && modal.contains(bookMonth)) { e.preventDefault(); var mb = qvState.booking || (qvState.booking = { formAnswers: {} }); mb.month = bookMonth.getAttribute('data-qv-book-month'); qvBookingRefresh(); return; }
       var addBtn = node.closest('.zappy-qv-addcart');
       if (addBtn && modal.contains(addBtn) && addBtn.tagName === 'BUTTON') { e.preventDefault(); if (!addBtn.disabled) qvAddToCart(); return; }
+    }, false);
+    // Booking selectors (date/time) + custom form fields (service products).
+    document.addEventListener('change', function(e) {
+      var modal = qvEl('zappy-qv-modal'); if (!modal || modal.hidden) return;
+      var node = e.target; if (!node || !node.getAttribute) return;
+      if (!modal.contains(node)) return;
+      var bk = node.getAttribute('data-qv-book');
+      if (bk === 'date') { var b = qvState.booking || (qvState.booking = { formAnswers: {} }); b.date = node.value; b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; qvBookingSelectFirstDateSlot(b, qvBookingGroupByDate()); qvBookingRefresh(); return; }
+      if (bk === 'time') { qvBookingSelectTime(node.value); return; }
+      var fk = node.getAttribute('data-qv-book-field');
+      if (fk) { qvBookingSetField(fk, node); return; }
+    }, false);
+    document.addEventListener('input', function(e) {
+      var modal = qvEl('zappy-qv-modal'); if (!modal || modal.hidden) return;
+      var node = e.target; if (!node || !node.getAttribute) return;
+      if (!modal.contains(node)) return;
+      var fk = node.getAttribute('data-qv-book-field');
+      if (fk) qvBookingSetField(fk, node);
     }, false);
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape') { var modal = qvEl('zappy-qv-modal'); if (modal && !modal.hidden) window.zappyCloseQuickView(); }
@@ -4343,9 +5033,9 @@ function stripHtmlToText(html) {
     return bgColor;
   };
 
-  window.getConfiguredColorSwatchHex = function getConfiguredColorSwatchHex(source, attrKey, colorValue) {
-    if (!colorValue) return '';
-    if (/^#[0-9A-Fa-f]{3,8}$/.test(String(colorValue).trim())) return String(colorValue).trim();
+  window.getConfiguredColorSwatchMeta = function getConfiguredColorSwatchMeta(source, attrKey, colorValue) {
+    if (!colorValue) return { hex: '' };
+    if (/^#[0-9A-Fa-f]{3,8}$/.test(String(colorValue).trim())) return { hex: String(colorValue).trim() };
 
     var compactSwatches = source && source.variantColorSwatches;
     if (compactSwatches && typeof compactSwatches === 'object') {
@@ -4358,7 +5048,19 @@ function stripHtmlToText(html) {
         var valueKey = Object.keys(swatchesForKey).find(function(key) {
           return String(key).trim().replace(/\s+/g, ' ').toLowerCase() === normalizedCompactValue;
         });
-        if (valueKey && swatchesForKey[valueKey]) return swatchesForKey[valueKey];
+        if (valueKey && swatchesForKey[valueKey]) {
+          var compactValue = swatchesForKey[valueKey];
+          if (compactValue && typeof compactValue === 'object') {
+            return {
+              hex: compactValue.hex || window.getLegacyColorSwatchHex(colorValue),
+              hex2: compactValue.hex2 || '',
+              swatchImage: compactValue.swatchImage || compactValue.image || '',
+              imagePosition: compactValue.imagePosition || '50% 50%',
+              imageSize: compactValue.imageSize || ''
+            };
+          }
+          return { hex: compactValue };
+        }
       }
     }
 
@@ -4379,12 +5081,25 @@ function stripHtmlToText(html) {
       var normalizedValue = String(colorValue).trim().replace(/\s+/g, ' ').toLowerCase();
       var match = values.find(function(value) {
         var label = typeof value === 'string' ? value : value && value.label;
-        return label && String(label).trim().replace(/\s+/g, ' ').toLowerCase() === normalizedValue && value && value.hex;
+        return label && String(label).trim().replace(/\s+/g, ' ').toLowerCase() === normalizedValue && value && typeof value === 'object';
       });
-      if (match && match.hex) return match.hex;
+      if (match) {
+        return {
+          hex: match.hex || window.getLegacyColorSwatchHex(colorValue),
+          hex2: match.hex2 || '',
+          swatchImage: match.image || match.swatchImage || '',
+          imagePosition: match.imagePosition || '50% 50%',
+          imageSize: match.imageSize || ''
+        };
+      }
     }
 
-    return window.getLegacyColorSwatchHex(colorValue);
+    return { hex: window.getLegacyColorSwatchHex(colorValue) };
+  };
+
+  window.getConfiguredColorSwatchHex = function getConfiguredColorSwatchHex(source, attrKey, colorValue) {
+    var meta = window.getConfiguredColorSwatchMeta(source, attrKey, colorValue);
+    return (meta && meta.hex) || '';
   };
 
   function getVariantConfig(source) {
@@ -4473,6 +5188,121 @@ function stripHtmlToText(html) {
     return document.getElementById('cart-drawer-total');
   }
 
+  function ensureCartDrawerSummaryRows() {
+    var footer = document.querySelector('#cart-drawer .cart-drawer-footer');
+    if (!footer) return null;
+    var totalRow = footer.querySelector('.cart-drawer-total');
+    if (!totalRow) return null;
+
+    var subtotalRow = footer.querySelector('.cart-drawer-subtotal');
+    if (!subtotalRow) {
+      subtotalRow = document.createElement('div');
+      subtotalRow.className = 'cart-drawer-subtotal zappy-cart-summary-row';
+      subtotalRow.innerHTML = '<span class="cart-drawer-subtotal-label"></span><span id="cart-drawer-subtotal"></span>';
+      footer.insertBefore(subtotalRow, totalRow);
+    }
+
+    var bundleRow = footer.querySelector('.cart-drawer-bundle-discount');
+    if (!bundleRow) {
+      bundleRow = document.createElement('div');
+      bundleRow.className = 'cart-drawer-bundle-discount zappy-cart-summary-row zappy-cart-discount-row';
+      bundleRow.innerHTML = '<span class="cart-drawer-bundle-discount-label"></span><span id="cart-drawer-bundle-discount"></span>';
+      footer.insertBefore(bundleRow, totalRow);
+    }
+
+    var seasonalRow = footer.querySelector('.cart-drawer-seasonal-discount');
+    if (!seasonalRow) {
+      seasonalRow = document.createElement('div');
+      seasonalRow.className = 'cart-drawer-seasonal-discount zappy-cart-summary-row zappy-cart-discount-row';
+      seasonalRow.innerHTML = '<span class="cart-drawer-seasonal-discount-label"></span><span id="cart-drawer-seasonal-discount"></span>';
+      footer.insertBefore(seasonalRow, totalRow);
+    }
+
+    var customerRow = footer.querySelector('.cart-drawer-customer-discount');
+    if (!customerRow) {
+      customerRow = document.createElement('div');
+      customerRow.className = 'cart-drawer-customer-discount zappy-cart-summary-row zappy-cart-discount-row';
+      customerRow.innerHTML = '<span class="cart-drawer-customer-discount-label"></span><span id="cart-drawer-customer-discount"></span>';
+      footer.insertBefore(customerRow, totalRow);
+    }
+
+    return { subtotalRow: subtotalRow, bundleRow: bundleRow, seasonalRow: seasonalRow, customerRow: customerRow, totalRow: totalRow };
+  }
+
+  function updateCartDrawerSummary() {
+    var drawerTotal = getCartDrawerTotalElement();
+    var rows = ensureCartDrawerSummaryRows();
+    if (!drawerTotal || !rows) return;
+    try {
+      var totalColor = window.getComputedStyle(rows.totalRow || drawerTotal).color;
+      if (totalColor) {
+        rows.subtotalRow.style.setProperty('--zappy-cart-drawer-total-color', totalColor);
+      }
+    } catch (e) {}
+
+    if (!cart || !cart.length) {
+      rows.subtotalRow.style.display = 'none';
+      rows.bundleRow.style.display = 'none';
+      rows.seasonalRow.style.display = 'none';
+      rows.customerRow.style.display = 'none';
+      drawerTotal.setAttribute('data-zappy-auto-discount', '0');
+      drawerTotal.textContent = formatMoney(0);
+      return;
+    }
+
+    var subtotal = getCartSubtotal();
+    calcQuantityBundleDiscount();
+    calcSeasonalCartDiscount();
+    calcCustomerCartDiscount();
+
+    var autoDiscount = (bundleDiscount || 0) + (seasonalDiscount || 0) + (customerCartDiscount || 0);
+    if (autoDiscount > subtotal) autoDiscount = subtotal;
+    var finalTotal = subtotal - autoDiscount;
+    var showBreakdown = autoDiscount > 0.005;
+    var remainingDiscount = autoDiscount;
+    var displayBundleDiscount = Math.min(Math.max(bundleDiscount || 0, 0), remainingDiscount);
+    remainingDiscount -= displayBundleDiscount;
+    var displaySeasonalDiscount = Math.min(Math.max(seasonalDiscount || 0, 0), remainingDiscount);
+    remainingDiscount -= displaySeasonalDiscount;
+    var displayCustomerDiscount = Math.min(Math.max(customerCartDiscount || 0, 0), remainingDiscount);
+
+    rows.subtotalRow.style.display = showBreakdown ? 'flex' : 'none';
+    rows.bundleRow.style.display = displayBundleDiscount > 0.005 ? 'flex' : 'none';
+    rows.seasonalRow.style.display = displaySeasonalDiscount > 0.005 ? 'flex' : 'none';
+    rows.customerRow.style.display = displayCustomerDiscount > 0.005 ? 'flex' : 'none';
+
+    if (showBreakdown) {
+      var subLabel = rows.subtotalRow.querySelector('.cart-drawer-subtotal-label');
+      if (subLabel) subLabel.textContent = getEcomText('subtotal', t.subtotal || 'Subtotal') + ':';
+      var subEl = document.getElementById('cart-drawer-subtotal');
+      if (subEl) subEl.textContent = formatMoney(subtotal);
+    }
+
+    if (displayBundleDiscount > 0.005) {
+      var bundleLabel = rows.bundleRow.querySelector('.cart-drawer-bundle-discount-label');
+      if (bundleLabel) bundleLabel.textContent = getEcomText('bundleDiscount', t.bundleDiscount || 'Bundle Discount') + ':';
+      var bundleEl = document.getElementById('cart-drawer-bundle-discount');
+      if (bundleEl) bundleEl.textContent = '-' + formatMoney(displayBundleDiscount);
+    }
+
+    if (displaySeasonalDiscount > 0.005) {
+      var seasonalLabel = rows.seasonalRow.querySelector('.cart-drawer-seasonal-discount-label');
+      if (seasonalLabel) seasonalLabel.textContent = getEcomText('seasonalDiscount', t.seasonalDiscount || t.discount || 'Discount') + ':';
+      var seasonalEl = document.getElementById('cart-drawer-seasonal-discount');
+      if (seasonalEl) seasonalEl.textContent = '-' + formatMoney(displaySeasonalDiscount);
+    }
+
+    if (displayCustomerDiscount > 0.005) {
+      var customerLabel = rows.customerRow.querySelector('.cart-drawer-customer-discount-label');
+      if (customerLabel) customerLabel.textContent = getEcomText('customerDiscount', t.customerDiscount || t.discount || 'Discount') + ':';
+      var customerEl = document.getElementById('cart-drawer-customer-discount');
+      if (customerEl) customerEl.textContent = '-' + formatMoney(displayCustomerDiscount);
+    }
+
+    drawerTotal.setAttribute('data-zappy-auto-discount', String(autoDiscount));
+    drawerTotal.textContent = formatMoney(finalTotal);
+  }
+
   function renderCartDrawer() {
     const drawerItems = document.getElementById('cart-drawer-items');
     const drawer = document.getElementById('cart-drawer');
@@ -4493,14 +5323,12 @@ function stripHtmlToText(html) {
     
     if (cart.length === 0) {
       drawerItems.innerHTML = '<div class="empty-cart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><p>' + getEcomText('emptyCart', t.emptyCart) + '</p></div>';
-      if (drawerTotal) drawerTotal.textContent = formatMoney(0);
+      updateCartDrawerSummary();
       return;
     }
     
-    let total = 0;
     drawerItems.innerHTML = cart.map(item => {
       const lineTotal = getCartLineTotal(item);
-      total += lineTotal;
       // Build human-readable variant info from attributes (e.g., "Size: 45 • Color: Green")
       var variantInfo = '';
       if (item.selectedVariant && item.selectedVariant.attributes && typeof item.selectedVariant.attributes === 'object') {
@@ -4517,8 +5345,11 @@ function stripHtmlToText(html) {
             var label = attrLabels[key] || attrLabels[key.toLowerCase()] || key;
             var isColor = key.toLowerCase() === 'color' || key.toLowerCase().includes('color');
             if (isColor) {
-              var bgColor = window.getConfiguredColorSwatchHex(item, key, value);
-              parts.push('<span class="cart-item-attr"><span class="cart-item-attr-label">' + label + ':</span> <span class="cart-item-color-swatch" title="' + displayValue + '" style="display:inline-block;width:14px;height:14px;border-radius:50%;background-color:' + bgColor + ';border:1px solid rgba(0,0,0,0.15);vertical-align:middle;margin-' + (document.documentElement.dir === 'rtl' ? 'right' : 'left') + ':4px;"></span></span>');
+              var swatchMeta = window.getConfiguredColorSwatchMeta(item, key, value) || {};
+              var swatchStyle = typeof zappyCardSwatchStyle === 'function'
+                ? zappyCardSwatchStyle({ value: value, label: displayValue, hex: swatchMeta.hex, hex2: swatchMeta.hex2, swatchImage: swatchMeta.swatchImage, imagePosition: swatchMeta.imagePosition, imageSize: swatchMeta.imageSize })
+                : 'background-color:' + (swatchMeta.hex || window.getLegacyColorSwatchHex(value)) + ';';
+              parts.push('<span class="cart-item-attr"><span class="cart-item-attr-label">' + label + ':</span> <span class="cart-item-color-swatch" title="' + displayValue + '" style="display:inline-block;width:14px;height:14px;border-radius:50%;' + swatchStyle + 'border:1px solid rgba(0,0,0,0.15);vertical-align:middle;margin-' + (document.documentElement.dir === 'rtl' ? 'right' : 'left') + ':4px;"></span></span>');
             } else {
               parts.push('<span class="cart-item-attr"><span class="cart-item-attr-label">' + label + ':</span> ' + displayValue + '</span>');
             }
@@ -4530,7 +5361,20 @@ function stripHtmlToText(html) {
       } else if (item.variantName) {
         variantInfo = '<div class="cart-item-variant">' + item.variantName + '</div>';
       }
-      var cartItemKey = item.id + (item.selectedVariant ? '-' + item.selectedVariant.id : '');
+      // Service booking time + form answers (FEATURE_ECOMMERCE_SERVICES).
+      var bookingSummary = window.zappyBookingSummary(item);
+      if (bookingSummary) {
+        var bookingLine = '<div class="cart-item-booking">🗓 ' + escapeCartHtml(bookingSummary);
+        var fa = item.booking && item.booking.formAnswers;
+        if (fa && typeof fa === 'object') {
+          var faParts = [];
+          Object.keys(fa).forEach(function(k) { if (fa[k] !== '' && fa[k] != null && fa[k] !== false) faParts.push(escapeCartHtml(String(fa[k]))); });
+          if (faParts.length) bookingLine += ' <span class="cart-item-attr-sep">•</span> ' + faParts.join(', ');
+        }
+        bookingLine += '</div>';
+        variantInfo += bookingLine;
+      }
+      var cartItemKey = window.zappyCartCompositeId(item);
       var itemName = getLocalizedCartItemName(item);
       var escapedItemName = escapeCartHtml(itemName);
       return '<div class="cart-item" data-item-id="' + cartItemKey + '">' +
@@ -4548,7 +5392,7 @@ function stripHtmlToText(html) {
         '<button class="cart-item-remove" onclick="window.zappyRemoveFromCart(\'' + cartItemKey + '\')"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6m3 0V4a2 2 0 012-2h4a2 2 0 012 2v2"/></svg></button>' +
       '</div>';
     }).join('');
-    if (drawerTotal) drawerTotal.textContent = formatMoney(total);
+    updateCartDrawerSummary();
   }
   
   // Open/close cart drawer
@@ -4564,7 +5408,12 @@ function stripHtmlToText(html) {
         '<button type="button" class="cart-drawer-close" id="cart-drawer-close">' +
         '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg></button></div>' +
         '<div class="cart-drawer-body" id="cart-drawer-items"><div class="empty-cart">' + getEcomText('emptyCart', t.emptyCart) + '</div></div>' +
-        '<div class="cart-drawer-footer"><div class="cart-drawer-total"><span>' + getEcomText('total', t.total) + ':</span><span id="cart-drawer-total">' + formatMoney(0) + '</span></div>' +
+        '<div class="cart-drawer-footer">' +
+        '<div class="cart-drawer-subtotal zappy-cart-summary-row"><span>' + getEcomText('subtotal', t.subtotal || 'Subtotal') + ':</span><span id="cart-drawer-subtotal">' + formatMoney(0) + '</span></div>' +
+        '<div class="cart-drawer-bundle-discount zappy-cart-summary-row zappy-cart-discount-row"><span>' + getEcomText('bundleDiscount', t.bundleDiscount || 'Bundle Discount') + ':</span><span id="cart-drawer-bundle-discount">-' + formatMoney(0) + '</span></div>' +
+        '<div class="cart-drawer-seasonal-discount zappy-cart-summary-row zappy-cart-discount-row"><span>' + getEcomText('seasonalDiscount', t.seasonalDiscount || t.discount || 'Discount') + ':</span><span id="cart-drawer-seasonal-discount">-' + formatMoney(0) + '</span></div>' +
+        '<div class="cart-drawer-customer-discount zappy-cart-summary-row zappy-cart-discount-row"><span>' + getEcomText('customerDiscount', t.customerDiscount || t.discount || 'Discount') + ':</span><span id="cart-drawer-customer-discount">-' + formatMoney(0) + '</span></div>' +
+        '<div class="cart-drawer-total"><span>' + getEcomText('total', t.total) + ':</span><span id="cart-drawer-total">' + formatMoney(0) + '</span></div>' +
         '<a href="/checkout" class="cart-drawer-checkout">' + getEcomText('proceedToCheckout', t.proceedToCheckout) + '</a></div></aside>';
       document.body.insertAdjacentHTML('beforeend', drawerHtml);
       drawer = document.getElementById('cart-drawer');
@@ -4598,12 +5447,8 @@ function stripHtmlToText(html) {
   
   // Update quantity (handles variant IDs in format "productId-variantId")
   window.zappyUpdateQty = function(compositeId, delta) {
-    // Find item by composite ID (product + variant)
-    const item = cart.find(i => {
-      const variantId = i.selectedVariant ? i.selectedVariant.id : null;
-      const itemCompositeId = variantId ? i.id + '-' + variantId : i.id;
-      return itemCompositeId === compositeId;
-    });
+    // Find item by composite ID (product + variant + booking)
+    const item = cart.find(i => window.zappyCartCompositeId(i) === compositeId);
     if (item) {
       const step = parseFloat(item.quantityStep) || 1;
       item.quantity += delta * step;
@@ -4611,11 +5456,7 @@ function stripHtmlToText(html) {
       var decimals = (step.toString().split('.')[1] || '').length;
       item.quantity = parseFloat(item.quantity.toFixed(decimals));
       if (item.quantity <= 0) {
-        cart = cart.filter(i => {
-          const variantId = i.selectedVariant ? i.selectedVariant.id : null;
-          const itemCompositeId = variantId ? i.id + '-' + variantId : i.id;
-          return itemCompositeId !== compositeId;
-        });
+        cart = cart.filter(i => window.zappyCartCompositeId(i) !== compositeId);
       }
       saveCart();
       renderCartDrawer();
@@ -4639,8 +5480,10 @@ function stripHtmlToText(html) {
       const lineTotal = getCartLineTotal(item);
       total += lineTotal;
       const itemPrice = getItemPrice(item);
-      const variantInfo = item.variantName ? '<br><span style="font-size:12px;color:#6b7280;">' + item.variantName + '</span>' : '';
-      const compositeId = item.selectedVariant ? item.id + '-' + item.selectedVariant.id : item.id;
+      var variantInfo = item.variantName ? '<br><span style="font-size:12px;color:#6b7280;">' + item.variantName + '</span>' : '';
+      var bkSummary = window.zappyBookingSummary(item);
+      if (bkSummary) variantInfo += '<br><span style="font-size:12px;color:#6b7280;">🗓 ' + escapeCartHtml(bkSummary) + '</span>';
+      const compositeId = window.zappyCartCompositeId(item);
       const itemName = getLocalizedCartItemName(item);
       const escapedItemName = escapeCartHtml(itemName);
       return '<div class="cart-item">' +
@@ -4663,12 +5506,23 @@ function stripHtmlToText(html) {
     return !!(cf && cf.course);
   }
 
+  // A cart line that needs no physical shipping: courses (digital access) and
+  // service/event bookings that the merchant did not flag requiresShipping.
+  function cartLineSkipsShipping(item) {
+    if (isCourseCartItem(item)) return true;
+    if (window.zappyIsServiceProduct(item)) return !(item.booking && item.booking.requiresShipping);
+    return false;
+  }
+
+  // NB: historically "courses only"; now also true for service-only carts that
+  // need no shipping. Drives the whole no-shipping checkout path (hide shipping
+  // step, digital delivery, zero shipping cost) — reused by services.
   function isCartCoursesOnly() {
     if (!cart || !cart.length) return false;
     // Courses-mode storefronts sell digital access only — never show physical shipping.
     if (isCoursesMode) return true;
     for (var i = 0; i < cart.length; i++) {
-      if (!isCourseCartItem(cart[i])) return false;
+      if (!cartLineSkipsShipping(cart[i])) return false;
     }
     return true;
   }
@@ -4676,7 +5530,7 @@ function stripHtmlToText(html) {
   function isCartZeroTotal() {
     if (!cart || !cart.length) return false;
     var subtotal = getCartSubtotal();
-    var shipping = isCartCoursesOnly() ? 0 : getShippingCost();
+    var shipping = getEffectiveCheckoutShippingCost();
     var discount = (couponDiscount || 0) + (seasonalDiscount || 0) + (bundleDiscount || 0) + (firstOrderDiscount || 0) + (customerCartDiscount || 0);
     if (discount > subtotal) discount = subtotal;
     return (subtotal + shipping - discount) <= 0.005;
@@ -4825,7 +5679,8 @@ function stripHtmlToText(html) {
         'paypal': '<svg width="36" height="36" viewBox="0 0 30.55 36" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M27.5 9.15s-.85.45-.89.68c-1.44 7.57-5.73 9.65-12.17 9.65h-3.29c-.81 0-1.92 1.13-2.05 1.9l-1.7 9.9.47.78-.45 3.06c-.09.45.22.9.72.95h5.81c.68 0 1.26-.5 1.4-1.17l.04-.32s1.08-6.93 1.08-6.94c.13-.81.58-1.53 1.49-1.53h.86c5.63 0 10.05-2.3 11.35-8.92.54-2.75.27-5.09-1.17-6.71a6.5 6.5 0 0 0-1.45-1.29Z" fill="#009BD9"/><path d="M26.08 7.68a15.8 15.8 0 0 0-4.44-.52h-8.79c-.68 0-1.86.89-1.99 1.57L8.87 20.95l.7.36c.13-.77.81-1.35 1.58-1.35h3.29c6.44 0 11.46-2.6 12.95-10.17.04-.23.07-.39.12-.64 0 0-.47-1.06-.86-1.26-.18-.08-.37-.15-.56-.2Z" fill="#192A67"/><path d="M11.5 9.19c.09-.68.68-1.17 1.4-1.17h8.74c1.04 0 2.03.09 2.88.23.59.09 1.17.23 1.76.41.45.14.86.32 1.22.5.45-2.79 0-4.69-1.53-6.44C24.34.81 21.33 0 17.45 0H6.28c-.77 0-1.44.59-1.58 1.35L.01 30.91c-.09.54.28 1.04.82 1.08h6.84l1.76-11.01L11.5 9.2Z" fill="#0A3B82"/></svg>',
         'phone': '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none"><path d="M49.1957 26.8205C49.273 28.6665 48.6149 30.4678 47.3657 31.8291C46.1166 33.1905 44.3785 34.0008 42.5326 34.0822C42.4247 34.0872 42.317 34.0897 42.2094 34.0897C41.719 34.0894 41.23 34.0363 40.7509 33.9314C39.3294 36.1262 37.4654 38.0002 35.2783 39.4334C33.0911 40.8666 30.6288 41.8275 28.049 42.2547C27.7439 43.1511 27.1352 43.9128 26.328 44.408C25.5209 44.9032 24.5661 45.1008 23.6287 44.9667C22.6913 44.8326 21.8303 44.3752 21.1943 43.6736C20.5584 42.972 20.1876 42.0702 20.146 41.1242C20.1044 40.1782 20.3947 39.2474 20.9666 38.4926C21.5385 37.7379 22.3561 37.2067 23.2781 36.9909C24.2001 36.7751 25.1686 36.8882 26.016 37.3106C26.8635 37.7331 27.5367 38.4384 27.9194 39.3046C31.5514 38.6329 34.8325 36.708 37.1909 33.8653C39.5493 31.0227 40.8354 27.4426 40.8251 23.749C40.8251 15.0229 33.726 7.92383 24.9999 7.92383C16.2739 7.92383 9.17473 15.0229 9.17473 23.749C9.17426 26.4473 9.86384 29.1008 11.178 31.4574C11.2225 31.5352 11.2559 31.6188 11.2773 31.7059C11.4042 32.0587 11.3906 32.4467 11.2394 32.7898C11.0881 33.1329 10.8107 33.4047 10.4647 33.5489C9.61726 33.9056 8.70711 34.0892 7.78772 34.0891C7.67951 34.0891 7.57108 34.0866 7.46242 34.0815C5.61739 33.9991 3.88035 33.1883 2.6322 31.827C1.38404 30.4658 0.726632 28.6651 0.804124 26.8198C0.835277 26.084 0.817894 25.4274 0.800902 24.7926C0.785081 24.1948 0.768577 23.5767 0.795726 22.9316C0.876749 21.1299 1.65177 19.4295 2.95847 18.1864C4.26517 16.9433 6.00218 16.2541 7.80569 16.263C10.7018 9.63682 17.3183 4.99414 24.9999 4.99414C32.6816 4.99414 39.2982 9.63682 42.1943 16.2631C43.9979 16.2528 45.7355 16.9415 47.0424 18.1846C48.3494 19.4277 49.1241 21.1286 49.204 22.9306C49.2313 23.5766 49.2149 24.1946 49.1989 24.7924C49.1821 25.4273 49.1646 26.0842 49.1957 26.8205ZM37.2856 23.749C37.2849 25.6312 36.8519 27.4881 36.02 29.1764C35.1881 30.8648 33.9796 32.3395 32.4876 33.4869C30.9956 34.6343 29.26 35.4237 27.4147 35.7943C25.5693 36.1648 23.6635 36.1066 21.8443 35.624L16.8715 38.4958C16.6206 38.6407 16.3324 38.7079 16.0432 38.689C15.7541 38.6701 15.4771 38.5658 15.2472 38.3894C15.0174 38.2131 14.845 37.9725 14.7518 37.6981C14.6587 37.4237 14.649 37.1279 14.724 36.848L15.9949 32.107C13.8903 29.8321 12.7192 26.8482 12.7148 23.749C12.7148 16.9729 18.2256 11.4605 24.9999 11.4605C31.7742 11.4605 37.2856 16.9729 37.2856 23.749ZM21.5844 23.749C21.5844 23.3605 21.4301 22.9879 21.1554 22.7132C20.8806 22.4385 20.5081 22.2842 20.1196 22.2842H20.1171C19.8275 22.2847 19.5446 22.3711 19.304 22.5324C19.0635 22.6937 18.8762 22.9226 18.7657 23.1903C18.6553 23.4581 18.6267 23.7525 18.6835 24.0365C18.7403 24.3204 18.88 24.5812 19.085 24.7858C19.29 24.9904 19.551 25.1296 19.8351 25.1859C20.1192 25.2422 20.4135 25.213 20.681 25.1021C20.9486 24.9911 21.1772 24.8034 21.338 24.5626C21.4988 24.3217 21.5847 24.0386 21.5847 23.749H21.5844ZM26.4651 23.749C26.4649 23.7011 26.4623 23.6532 26.4573 23.6055C26.4526 23.5576 26.4455 23.51 26.4359 23.4629C26.4271 23.416 26.4153 23.3696 26.4006 23.3242C26.387 23.2783 26.3704 23.2334 26.3529 23.1885C26.3353 23.1436 26.3138 23.1016 26.2913 23.0596C26.269 23.0173 26.2446 22.9763 26.2181 22.9365C26.1914 22.8964 26.1627 22.8576 26.1321 22.8203C26.102 22.783 26.0697 22.7474 26.0355 22.7139C26.0023 22.6797 25.9661 22.6475 25.929 22.6162C25.8918 22.5869 25.8528 22.5576 25.8127 22.5312C25.773 22.5048 25.732 22.4803 25.6898 22.458C25.6477 22.4355 25.6038 22.415 25.5598 22.3965C25.5158 22.3781 25.4709 22.3621 25.4251 22.3486C25.3338 22.3193 25.2394 22.3003 25.1439 22.292C25.0004 22.2782 24.8557 22.2851 24.7142 22.3125C24.6671 22.3221 24.6205 22.3342 24.5746 22.3486C24.5289 22.3621 24.4839 22.378 24.4399 22.3965C24.3959 22.415 24.352 22.4355 24.31 22.458C24.268 22.4805 24.227 22.5049 24.1868 22.5312C24.1467 22.5576 24.1077 22.5869 24.0717 22.6162C24.0336 22.6475 23.9985 22.6797 23.9643 22.7139C23.93 22.7475 23.8977 22.783 23.8675 22.8203C23.8373 22.8576 23.8089 22.8964 23.7826 22.9365C23.7558 22.9762 23.731 23.0173 23.7084 23.0596C23.6859 23.1014 23.6656 23.1444 23.6478 23.1885C23.6292 23.2329 23.6129 23.2782 23.5989 23.3242C23.5854 23.3691 23.5737 23.416 23.5639 23.4629C23.5542 23.51 23.547 23.5576 23.5423 23.6055C23.5375 23.6533 23.5355 23.7012 23.5355 23.749C23.5355 23.7969 23.5375 23.8457 23.5423 23.8936C23.5471 23.9411 23.5543 23.9883 23.5639 24.0352C23.5737 24.082 23.5854 24.1289 23.5989 24.1748C23.6129 24.2205 23.6292 24.2655 23.6478 24.3096C23.6656 24.3539 23.6859 24.3973 23.7084 24.4395C23.7308 24.4814 23.7563 24.5225 23.7826 24.5625C23.8089 24.6023 23.8373 24.6408 23.8675 24.6777C23.8979 24.7151 23.9302 24.751 23.9643 24.7852C23.9985 24.8184 24.0336 24.8516 24.0717 24.8818C24.1084 24.9123 24.1469 24.9407 24.1868 24.9668C24.227 24.9932 24.2679 25.0186 24.31 25.041C24.3948 25.0852 24.4834 25.1218 24.5746 25.1504C24.6204 25.1641 24.6673 25.1758 24.7142 25.1855C24.8083 25.2048 24.9042 25.2143 25.0003 25.2139C25.3884 25.2128 25.7603 25.0588 26.0355 24.7852C26.103 24.7166 26.1641 24.6421 26.2181 24.5625C26.2445 24.5225 26.2689 24.4814 26.2913 24.4395C26.3138 24.3975 26.3343 24.3535 26.3529 24.3096C26.3714 24.2656 26.387 24.2197 26.4006 24.1748C26.4152 24.129 26.427 24.0824 26.4359 24.0352C26.4454 23.9884 26.4526 23.9411 26.4573 23.8936C26.4622 23.8455 26.4648 23.7972 26.4648 23.7488L26.4651 23.749ZM31.3479 23.749C31.3479 23.3605 31.1935 22.9879 30.9188 22.7132C30.6441 22.4385 30.2715 22.2842 29.883 22.2842H29.8802C29.5906 22.2847 29.3077 22.3711 29.0672 22.5324C28.8266 22.6937 28.6393 22.9227 28.5289 23.1904C28.4184 23.4581 28.3898 23.7526 28.4467 24.0365C28.5035 24.3205 28.6433 24.5812 28.8482 24.7858C29.0532 24.9904 29.3142 25.1296 29.5983 25.1859C29.8824 25.2422 30.1768 25.213 30.4443 25.1021C30.7118 24.9911 30.9404 24.8034 31.1012 24.5626C31.262 24.3217 31.3479 24.0386 31.3479 23.749Z" fill="#4A4A4A"/></svg>',
         'apple-pay': '<svg width="50" height="21" viewBox="0 0 50 21" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.37 2.78A3.14 3.14 0 0 0 10.1.65 3.2 3.2 0 0 0 7.97 1.75a3 3 0 0 0-.76 2.06c.81.06 1.56-.37 2.16-1.03Zm.72 1.08c-1.2-.07-2.22.68-2.78.68-.57 0-1.43-.64-2.37-.62A3.5 3.5 0 0 0 2 5.55c-1.27 2.2-.33 5.46.9 7.25.61.88 1.33 1.87 2.28 1.83.9-.04 1.26-.58 2.35-.58s1.42.58 2.37.56c.99-.02 1.6-.88 2.2-1.77a7.8 7.8 0 0 0 1-2.05 3.2 3.2 0 0 1-1.92-2.93 3.24 3.24 0 0 1 1.54-2.72 3.33 3.33 0 0 0-2.63-1.28Zm8.15-1.5v12.2h1.89V10h2.61c2.38 0 4.05-1.64 4.05-4.07s-1.64-4.03-3.98-4.03h-4.57v2.46Zm1.89 1.56h2.17c1.64 0 2.57.87 2.57 2.4s-.93 2.41-2.58 2.41h-2.16V3.92Zm10.92 10.9c1.19 0 2.29-.6 2.79-1.56h.04v1.46h1.75V9.01c0-1.75-1.4-2.88-3.56-2.88-2 0-3.46 1.15-3.52 2.72h1.7c.14-.75.83-1.24 1.75-1.24 1.13 0 1.76.52 1.76 1.49v.65l-2.3.14c-2.14.13-3.3 1.01-3.3 2.53 0 1.54 1.19 2.57 2.89 2.57Zm.5-1.42c-.98 0-1.61-.47-1.61-1.2 0-.75.6-1.18 1.75-1.25l2.05-.13v.67c0 1.12-.95 1.91-2.19 1.91Zm5.37 4.56c1.84 0 2.71-.7 3.47-2.84l3.32-9.33h-1.93l-2.23 7.17h-.04l-2.23-7.17h-1.98l3.2 8.85-.17.54c-.29.92-.76 1.27-1.6 1.27-.15 0-.44-.02-.56-.03v1.48c.11.04.48.06.75.06Z" fill="#000"/></svg>',
-        'google-pay': '<svg width="50" height="20" viewBox="0 0 50 19.62" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.34 9.54V15.32H21.5V1.04h4.87c1.23 0 2.28.41 3.14 1.23.88.82 1.32 1.83 1.32 3.01 0 1.21-.44 2.22-1.32 3.03-.85.81-1.9 1.21-3.14 1.21h-3.03v.02Zm0-6.74v4.98h3.07c.73 0 1.34-.25 1.82-.74.49-.49.74-1.08.74-1.74 0-.66-.25-1.24-.74-1.73-.48-.5-1.08-.75-1.82-.75h-3.07v-.02Z" fill="#383E41"/><path d="M35.63 5.23c1.36 0 2.43.36 3.21 1.09.78.73 1.18 1.72 1.18 2.98v6.02h-1.75v-1.36h-.08c-.76 1.12-1.77 1.67-3.03 1.67-1.08 0-1.98-.32-2.7-.96-.73-.64-1.1-1.43-1.1-2.39 0-1.01.38-1.82 1.15-2.41.76-.6 1.79-.9 3.06-.9 1.09 0 1.99.2 2.69.6v-.42c0-.64-.25-1.18-.76-1.63-.5-.45-1.1-.67-1.77-.67-1.02 0-1.84.43-2.43 1.3l-1.62-1.01c.89-1.29 2.21-1.93 3.95-1.93Zm-2.37 7.09c0 .48.2.88.61 1.2.4.31.88.48 1.43.48.77 0 1.46-.29 2.06-.86.6-.57.91-1.24.91-2.02-.57-.45-1.36-.68-2.39-.68-.75 0-1.37.18-1.87.54-.49.37-.75.82-.75 1.34Z" fill="#383E41"/><path d="M50 5.54l-6.12 14.07h-1.99l2.28-4.92-4.03-9.15h2l2.91 7.02h.04l2.83-7.02H50Z" fill="#383E41"/><path d="M15.88 6.65H8.19v3.16h4.43c-.18 1.05-.76 1.95-1.64 2.54l2.64.16c1.54-1.43 2.42-3.53 2.42-6.02 0-.6-.05-1.17-.16-1.72Z" fill="#0085F7"/><path d="M10.98 12.35c-.74.5-1.68.78-2.79.78-2.14 0-3.95-1.44-4.6-3.38l2.27-.36.45 2.47c1.35 2.68 4.12 4.51 7.32 4.51 2.21 0 4.07-.73 5.42-1.98l-2.65-2.04h-.04Z" fill="#00A94B"/><path d="M3.34 8.19c0-.55.09-1.07.26-1.57L.87 4.51A8.19 8.19 0 0 0 0 8.19c0 1.32.31 2.57.87 3.68l2.72-2.11c-.17-.5-.25-1.02-.25-1.57Z" fill="#FFBB00"/><path d="M8.19 0C4.99 0 2.22 1.84.87 4.51l2.72 2.11C4.24 4.68 6.05 3.24 8.19 3.24c1.21 0 2.29.42 3.14 1.23l2.34-2.34C12.25.81 10.4 0 8.19 0Z" fill="#FF4031"/></svg>'
+        'google-pay': '<svg width="50" height="20" viewBox="0 0 50 19.62" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.34 9.54V15.32H21.5V1.04h4.87c1.23 0 2.28.41 3.14 1.23.88.82 1.32 1.83 1.32 3.01 0 1.21-.44 2.22-1.32 3.03-.85.81-1.9 1.21-3.14 1.21h-3.03v.02Zm0-6.74v4.98h3.07c.73 0 1.34-.25 1.82-.74.49-.49.74-1.08.74-1.74 0-.66-.25-1.24-.74-1.73-.48-.5-1.08-.75-1.82-.75h-3.07v-.02Z" fill="#383E41"/><path d="M35.63 5.23c1.36 0 2.43.36 3.21 1.09.78.73 1.18 1.72 1.18 2.98v6.02h-1.75v-1.36h-.08c-.76 1.12-1.77 1.67-3.03 1.67-1.08 0-1.98-.32-2.7-.96-.73-.64-1.1-1.43-1.1-2.39 0-1.01.38-1.82 1.15-2.41.76-.6 1.79-.9 3.06-.9 1.09 0 1.99.2 2.69.6v-.42c0-.64-.25-1.18-.76-1.63-.5-.45-1.1-.67-1.77-.67-1.02 0-1.84.43-2.43 1.3l-1.62-1.01c.89-1.29 2.21-1.93 3.95-1.93Zm-2.37 7.09c0 .48.2.88.61 1.2.4.31.88.48 1.43.48.77 0 1.46-.29 2.06-.86.6-.57.91-1.24.91-2.02-.57-.45-1.36-.68-2.39-.68-.75 0-1.37.18-1.87.54-.49.37-.75.82-.75 1.34Z" fill="#383E41"/><path d="M50 5.54l-6.12 14.07h-1.99l2.28-4.92-4.03-9.15h2l2.91 7.02h.04l2.83-7.02H50Z" fill="#383E41"/><path d="M15.88 6.65H8.19v3.16h4.43c-.18 1.05-.76 1.95-1.64 2.54l2.64.16c1.54-1.43 2.42-3.53 2.42-6.02 0-.6-.05-1.17-.16-1.72Z" fill="#0085F7"/><path d="M10.98 12.35c-.74.5-1.68.78-2.79.78-2.14 0-3.95-1.44-4.6-3.38l2.27-.36.45 2.47c1.35 2.68 4.12 4.51 7.32 4.51 2.21 0 4.07-.73 5.42-1.98l-2.65-2.04h-.04Z" fill="#00A94B"/><path d="M3.34 8.19c0-.55.09-1.07.26-1.57L.87 4.51A8.19 8.19 0 0 0 0 8.19c0 1.32.31 2.57.87 3.68l2.72-2.11c-.17-.5-.25-1.02-.25-1.57Z" fill="#FFBB00"/><path d="M8.19 0C4.99 0 2.22 1.84.87 4.51l2.72 2.11C4.24 4.68 6.05 3.24 8.19 3.24c1.21 0 2.29.42 3.14 1.23l2.34-2.34C12.25.81 10.4 0 8.19 0Z" fill="#FF4031"/></svg>',
+        'bit': '<svg width="44" height="24" viewBox="0 0 44 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="44" height="24" rx="6" fill="#0098C9"/><text x="22" y="16.5" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#ffffff" text-anchor="middle">bit</text></svg>'
       };
       
       container.innerHTML = paymentMethods.map((method, idx) => {
@@ -4924,6 +5779,9 @@ function stripHtmlToText(html) {
       if (field) {
         field.addEventListener('input', function() {
           clearFieldError(fieldId, fieldId + '-error');
+          if (fieldId === 'customer-email') {
+            scheduleFirstOrderDiscountCheck(field.value);
+          }
           updatePlaceOrderState();
         });
       }
@@ -4938,6 +5796,7 @@ function stripHtmlToText(html) {
           checkFirstOrderDiscount(em);
         }
       });
+      scheduleFirstOrderDiscountCheck(emailFieldForFirstOrder.value, 0);
     }
 
     // shipping-state is a <select>, so use 'change' instead of 'input'
@@ -5062,13 +5921,6 @@ function stripHtmlToText(html) {
         }
       }
       
-      // Validate payment is configured (skip for free checkout)
-      var freeCheckoutOrder = isCartZeroTotal();
-      if (!freeCheckoutOrder && (!isPaymentConfigured || !selectedPaymentMethod)) {
-        alert(t.paymentNotConfigured || (isRTL ? 'תשלום מקוון לא מוגדר. צרו קשר עם בעל האתר.' : 'Online payment not configured. Please contact the store owner.'));
-        return;
-      }
-      
       // Validate terms and conditions checkbox - MUST be checked to proceed
       var termsBox = document.getElementById('terms-checkbox');
       if (!termsBox || !termsBox.checked) {
@@ -5093,6 +5945,17 @@ function stripHtmlToText(html) {
           }
         }
         console.log('[E-COMMERCE] Validation failed, stopping checkout');
+        return;
+      }
+
+      // Make the visible checkout summary converge with the authoritative
+      // server-side checkout/init calculation before we decide free/payment state.
+      await checkFirstOrderDiscount(customerEmail);
+
+      // Validate payment is configured (skip for free checkout)
+      var freeCheckoutOrder = isCartZeroTotal();
+      if (!freeCheckoutOrder && (!isPaymentConfigured || !selectedPaymentMethod)) {
+        alert(t.paymentNotConfigured || (isRTL ? 'תשלום מקוון לא מוגדר. צרו קשר עם בעל האתר.' : 'Online payment not configured. Please contact the store owner.'));
         return;
       }
       
@@ -5212,12 +6075,13 @@ function stripHtmlToText(html) {
               zip: shippingZip
             },
             shippingMethodId: selectedShipping.id,
-            shippingCost: (typeof getShippingCost === 'function' ? getShippingCost() : (selectedShipping.price || 0)),
+            shippingCost: getShippingCost(),
             shippingMethodName: selectedShipping.name || 'משלוח',
             cart: checkoutCart,
             couponCode: appliedCoupon ? appliedCoupon.code : null,
             couponDiscount: couponDiscount + seasonalDiscount + bundleDiscount + firstOrderDiscount + customerCartDiscount,
             paymentMethodId: selectedPaymentMethod ? selectedPaymentMethod.id : null,
+            invoice4uBitPayment: !!(selectedPaymentMethod && selectedPaymentMethod.bit === true),
             lang: (typeof getCurrentEcomLanguage === 'function' ? getCurrentEcomLanguage() : '')
           })
         });
@@ -5246,9 +6110,8 @@ function stripHtmlToText(html) {
         // Store pending order data in localStorage for order success page
         const reference = data.data.reference;
         if (reference) {
-          // Ensure numeric values are properly parsed (shipping.price may be string from DB)
           const subtotalNum = getCartSubtotal();
-          const shippingCostNum = (typeof getShippingCost === 'function' ? getShippingCost() : (parseFloat(selectedShipping.price) || 0));
+          const shippingCostNum = getShippingCost();
           const discountNum = parseFloat(couponDiscount + seasonalDiscount + bundleDiscount + firstOrderDiscount + customerCartDiscount) || 0;
           const pendingOrderData = {
             cartItems: checkoutCart,
@@ -5315,6 +6178,29 @@ function stripHtmlToText(html) {
               placeOrderBtn.innerHTML = getEcomText('placeOrder', 'Place Order');
             };
 
+            // gs.min.js is only a loader shim: growPayment.init() asynchronously
+            // fetches api-versions.json and injects a SECOND script (mp.min.js);
+            // window.growRuntime only exists once that second script has loaded.
+            // Calling growPayment.renderPaymentOptions() before then does NOT
+            // throw — it invokes events.onError ("SDK was not loaded as needed"),
+            // which showed a fatal error on the FIRST click on cold caches
+            // (incognito / first visit) while the second click succeeded.
+            // So: never call renderPaymentOptions until window.growRuntime exists.
+            var renderWhenGrowRuntimeReady = function(authCode) {
+              if (window.growRuntime) { renderGrowWallet(authCode); return; }
+              var attempts = 0;
+              var pollReady = setInterval(function() {
+                attempts++;
+                if (window.growRuntime) {
+                  clearInterval(pollReady);
+                  renderGrowWallet(authCode);
+                } else if (attempts >= 80) { // 20 seconds
+                  clearInterval(pollReady);
+                  showGrowError(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
+                }
+              }, 250);
+            };
+
             var growSdkEvents = {
               onSuccess: function() {
                 var cur = window.__growCurrentOrder || {};
@@ -5322,7 +6208,13 @@ function stripHtmlToText(html) {
                 window.location.href = dest;
               },
               onFailure: function(r) { showGrowError(r && r.message ? r.message : (isRTL ? 'התשלום נכשל. נסו שוב.' : 'Payment failed. Please try again.')); },
-              onError: function(r) { showGrowError(r && r.message ? r.message : (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.')); },
+              onError: function(r) {
+                // Ignore the loader shim's "not ready yet" pseudo-error — it is
+                // emitted when renderPaymentOptions runs before mp.min.js has
+                // loaded, and the growRuntime readiness poll will retry anyway.
+                if (typeof r === 'string' && r.indexOf('SDK was not loaded') !== -1) return;
+                showGrowError(r && r.message ? r.message : (isRTL ? 'שגיאה בתשלום. נסו שוב.' : 'Payment error. Please try again.'));
+              },
               onTimeout: function() { showGrowError(isRTL ? 'פג תוקף התשלום. נסו שוב.' : 'Payment session expired. Please try again.'); },
               onWalletChange: function(state) {
                 if (state === 'open') {
@@ -5335,9 +6227,15 @@ function stripHtmlToText(html) {
             setTimeout(function() {
               paymentSection.style.display = 'none';
 
-              // SDK already loaded & initialized from a previous attempt
+              // SDK already loaded & initialized from a previous attempt.
+              // __growSdkInitDone only means init() was CALLED — the async
+              // runtime may still be loading, so go through the readiness poll.
               if (typeof growPayment !== 'undefined' && window.__growSdkInitDone) {
-                renderGrowWallet(data.data.authCode);
+                if (window.growRuntime && typeof growPayment.updateEvents === 'function') {
+                  // Re-bind events so callbacks target the CURRENT attempt's closures.
+                  growPayment.updateEvents(growSdkEvents);
+                }
+                renderWhenGrowRuntimeReady(data.data.authCode);
                 return;
               }
 
@@ -5349,7 +6247,7 @@ function stripHtmlToText(html) {
                   events: growSdkEvents
                 });
                 window.__growSdkInitDone = true;
-                setTimeout(function() { renderGrowWallet(data.data.authCode); }, 1000);
+                renderWhenGrowRuntimeReady(data.data.authCode);
                 return;
               }
 
@@ -5369,19 +6267,7 @@ function stripHtmlToText(html) {
                 });
 
                 window.__growSdkInitDone = true;
-                var attempts = 0;
-                var pollReady = setInterval(function() {
-                  attempts++;
-                  try {
-                    renderGrowWallet(data.data.authCode);
-                    clearInterval(pollReady);
-                  } catch(e) {
-                    if (attempts >= 6) {
-                      clearInterval(pollReady);
-                      showGrowError(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
-                    }
-                  }
-                }, 500);
+                renderWhenGrowRuntimeReady(data.data.authCode);
               };
               growScript.onerror = function() {
                 showGrowError(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
@@ -5396,8 +6282,12 @@ function stripHtmlToText(html) {
           throw new Error(isRTL ? 'שגיאה בטעינת מערכת התשלום. נסו שוב.' : 'Failed to load payment system. Please try again.');
         }
 
-        // Check if provider is Green Invoice - show iframe instead of redirect
-        if (data.data.provider === 'greeninvoice') {
+        // Providers that render their hosted payment page in an in-page iframe
+        // (replacing the Place Order area) instead of a full-page redirect.
+        // The iframe redirects to the order-success page on completion, which
+        // breaks out of the frame via window.top / postMessage (provider-agnostic).
+        var iframePaymentProviders = ['greeninvoice', 'invoice4u'];
+        if (iframePaymentProviders.indexOf(data.data.provider) !== -1) {
           // Animate out the payment section and button
           const paymentSection = document.getElementById('checkout-payment-section');
           const iframeContainer = document.getElementById('greeninvoice-iframe-container');
@@ -5406,7 +6296,32 @@ function stripHtmlToText(html) {
           if (paymentSection && iframeContainer && iframe) {
             // Add fade-out animation to payment section
             paymentSection.classList.add('fade-out');
-            
+
+            // Give the hosted payment page full width so wide provider pages
+            // (e.g. the Bit QR page) aren't clipped by the narrow (400px) summary
+            // column. Applied INLINE (not just via the CSS class) so it also works
+            // on existing sites whose stored CSS predates this change — a JS-only
+            // script refresh is enough.
+            var checkoutLayoutEl = document.querySelector('.checkout-layout');
+            if (checkoutLayoutEl) {
+              checkoutLayoutEl.classList.add('checkout-iframe-active');
+              checkoutLayoutEl.style.gridTemplateColumns = '1fr';
+              var checkoutFormEl = checkoutLayoutEl.querySelector('.checkout-form');
+              if (checkoutFormEl) checkoutFormEl.style.display = 'none';
+              var orderSummaryEl = checkoutLayoutEl.querySelector('.order-summary');
+              if (orderSummaryEl) {
+                orderSummaryEl.style.position = 'static';
+                orderSummaryEl.style.width = '100%';
+                orderSummaryEl.style.maxWidth = '760px';
+                orderSummaryEl.style.marginLeft = 'auto';
+                orderSummaryEl.style.marginRight = 'auto';
+              }
+            }
+            // Let the wrapper scroll rather than clip if a provider page is still
+            // wider than the available space (belt-and-suspenders vs. overflow:hidden).
+            var iframeWrapperEl = iframeContainer.querySelector('.greeninvoice-iframe-wrapper');
+            if (iframeWrapperEl) iframeWrapperEl.style.overflow = 'auto';
+
             // Show loading state in iframe container
             iframeContainer.style.display = 'block';
             iframeContainer.querySelector('.greeninvoice-iframe-wrapper').innerHTML = '<div class="greeninvoice-loading"><div class="greeninvoice-loading-spinner"></div><span>' + (isRTL ? 'טוען עמוד תשלום...' : 'Loading payment page...') + '</span></div>';
@@ -5423,7 +6338,13 @@ function stripHtmlToText(html) {
               paymentSection.style.display = 'none';
               
               // Create and show the iframe
-              iframeContainer.querySelector('.greeninvoice-iframe-wrapper').innerHTML = '<iframe id="greeninvoice-iframe" src="' + data.data.checkoutUrl + '" frameborder="0" allowpaymentrequest="true" style="width: 100%; height: 600px; border: none;"></iframe>';
+              // allow="payment *" delegates the Payment Request API into the
+              // cross-origin clearing iframe so wallet methods (Apple Pay /
+              // Google Pay) work; the legacy allowpaymentrequest is kept as a
+              // best-effort fallback for old browsers. Bit + wallets are enabled
+              // on the provider's terminal, not via our request — they render
+              // inside this hosted page automatically when approved.
+              iframeContainer.querySelector('.greeninvoice-iframe-wrapper').innerHTML = '<iframe id="greeninvoice-iframe" src="' + data.data.checkoutUrl + '" frameborder="0" allow="payment *" allowpaymentrequest="true" style="width: 100%; height: 600px; border: none;"></iframe>';
             }, 300);
             
             return; // Don't redirect
@@ -5490,6 +6411,7 @@ function stripHtmlToText(html) {
     
     if (savedEmail && !emailInput.value) {
       emailInput.value = savedEmail;
+      scheduleFirstOrderDiscountCheck(savedEmail, 0);
     }
 
     [nameInput, emailInput, phoneInput].forEach(function(input) {
@@ -5519,7 +6441,12 @@ function stripHtmlToText(html) {
         showLoggedIn(displayName, customer.email || savedEmail || '');
         
         if (customer.name && !nameInput.value && nameInput.dataset.checkoutEdited !== '1') nameInput.value = customer.name;
-        if (customer.email && !emailInput.value && emailInput.dataset.checkoutEdited !== '1') emailInput.value = customer.email;
+        if (customer.email && !emailInput.value && emailInput.dataset.checkoutEdited !== '1') {
+          emailInput.value = customer.email;
+          scheduleFirstOrderDiscountCheck(customer.email, 0);
+        } else if (emailInput.value) {
+          scheduleFirstOrderDiscountCheck(emailInput.value, 0);
+        }
         if (customer.phone && phoneInput && !phoneInput.value && phoneInput.dataset.checkoutEdited !== '1') phoneInput.value = customer.phone;
         
         // Auto-fill shipping address from customer's default address
@@ -5566,6 +6493,8 @@ function stripHtmlToText(html) {
       logoutBtn.addEventListener('click', function() {
         localStorage.removeItem(tokenKey);
         localStorage.removeItem(emailKey);
+        cartDiscountCustomerTokenLoaded = '';
+        if (typeof fetchCustomerDiscount === 'function') fetchCustomerDiscount();
         showLoggedOut();
       });
     }
@@ -5752,6 +6681,47 @@ function stripHtmlToText(html) {
     return !hasErrors;
   }
 
+  function parseCssRgb(color) {
+    var match = String(color || '').match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+    return match ? { r: parseInt(match[1], 10), g: parseInt(match[2], 10), b: parseInt(match[3], 10) } : null;
+  }
+
+  function getRgbLuminance(rgb) {
+    var vals = [rgb.r, rgb.g, rgb.b].map(function(v) {
+      v = v / 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    return 0.2126 * vals[0] + 0.7152 * vals[1] + 0.0722 * vals[2];
+  }
+
+  function getRgbContrast(a, b) {
+    var l1 = getRgbLuminance(a);
+    var l2 = getRgbLuminance(b);
+    return (Math.max(l1, l2) + 0.05) / (Math.min(l1, l2) + 0.05);
+  }
+
+  function getElementEffectiveBackground(el) {
+    var node = el;
+    while (node) {
+      var bg = window.getComputedStyle(node).backgroundColor;
+      var rgb = parseCssRgb(bg);
+      if (rgb && !/rgba\([^)]*,\s*0\s*\)/.test(bg)) return rgb;
+      node = node.parentElement;
+    }
+    return { r: 255, g: 255, b: 255 };
+  }
+
+  function applyCheckoutButtonContrast(btn) {
+    if (!btn) return;
+    var bg = getElementEffectiveBackground(btn);
+    var dark = { r: 17, g: 17, b: 17 };
+    var light = { r: 255, g: 255, b: 255 };
+    var darkRatio = getRgbContrast(dark, bg);
+    var lightRatio = getRgbContrast(light, bg);
+    var textColor = lightRatio >= darkRatio ? '#FFFFFF' : '#111111';
+    btn.style.setProperty('color', textColor, 'important');
+  }
+
   function updatePlaceOrderState() {
     var btn = document.getElementById('place-order-btn');
     if (!btn) return;
@@ -5782,6 +6752,7 @@ function stripHtmlToText(html) {
     var minOrderOk = !minimumOrderAmount || getCartSubtotal() >= minimumOrderAmount;
 
     btn.disabled = !(contactOk && shippingOk && paymentOk && termsOk && minOrderOk);
+    applyCheckoutButtonContrast(btn);
   }
 
   function formatMinimumOrderMessage(subtotal) {
@@ -5847,6 +6818,7 @@ function stripHtmlToText(html) {
     cart[idx].quantity = Math.max(1, (cart[idx].quantity || 1) + delta);
     saveCart();
     updateCartCount();
+    scheduleFirstOrderDiscountForCurrentEmail(0);
     updateOrderTotals();
     updateCheckoutItemsCount();
     applyCoursesOnlyCheckoutUi();
@@ -5859,6 +6831,7 @@ function stripHtmlToText(html) {
     cart.splice(idx, 1);
     saveCart();
     updateCartCount();
+    scheduleFirstOrderDiscountForCurrentEmail(0);
     updateOrderTotals();
     updateCheckoutItemsCount();
     applyCoursesOnlyCheckoutUi();
@@ -5879,6 +6852,12 @@ function stripHtmlToText(html) {
   let firstOrderFreeShipping = false;
   let firstOrderApplied = null;
   let firstOrderCheckedEmail = '';
+  let firstOrderCheckedSubtotal = null;
+  let firstOrderCheckTimer = null;
+  let firstOrderInFlightPromise = null;
+  let firstOrderInFlightEmail = '';
+  let firstOrderInFlightSubtotal = null;
+  let firstOrderRequestSeq = 0;
 
   // Quantity-bundle discount state
   let quantityBundles = [];
@@ -5976,7 +6955,7 @@ function stripHtmlToText(html) {
       if (typeof window.__zappyScheduleDynamicProductGridsDiscountRefresh === 'function') {
         window.__zappyScheduleDynamicProductGridsDiscountRefresh();
       }
-      return;
+      return true;
     }
     customerCartDiscount = 0;
     try {
@@ -5993,6 +6972,7 @@ function stripHtmlToText(html) {
     } catch (e) {
       console.warn('[E-COMMERCE] Failed to load customer discount', e);
       clearCustomerDiscountConfig();
+      return false;
     }
     updateOrderTotals();
     refreshProductListingAfterDiscount();
@@ -6001,6 +6981,7 @@ function stripHtmlToText(html) {
     }
     refreshProductDetailDiscountPricing();
     scheduleProductDetailDiscountRefresh();
+    return true;
   }
 
   async function fetchCustomerDiscount() {
@@ -6042,29 +7023,107 @@ function stripHtmlToText(html) {
     }
   }
 
-  async function checkFirstOrderDiscount(email) {
-    if (!email || email === firstOrderCheckedEmail) return;
-    firstOrderCheckedEmail = email;
+  function clearFirstOrderDiscountState() {
+    firstOrderRequestSeq++;
     firstOrderDiscount = 0;
     firstOrderFreeShipping = false;
     firstOrderApplied = null;
-    try {
-      var subtotal = getCartSubtotal();
-      var res = await fetch(buildApiUrl('/api/ecommerce/storefront/first-order-discount'), {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ websiteId: websiteId, customerEmail: email, orderSubtotal: subtotal })
-      });
-      var data = await res.json();
-      if (data.success && data.data) {
-        firstOrderDiscount = data.data.totalDiscount || 0;
-        firstOrderFreeShipping = data.data.freeShipping || false;
-        firstOrderApplied = data.data.appliedDiscount || null;
-      }
-    } catch (e) {
-      console.warn('[E-COMMERCE] Failed to check first-order discount', e);
+    firstOrderCheckedEmail = '';
+    firstOrderCheckedSubtotal = null;
+    firstOrderInFlightPromise = null;
+    firstOrderInFlightEmail = '';
+    firstOrderInFlightSubtotal = null;
+  }
+
+  function scheduleFirstOrderDiscountCheck(email, delayMs) {
+    if (firstOrderCheckTimer) clearTimeout(firstOrderCheckTimer);
+    var em = (email || '').trim();
+    if (!em || !isValidEmail(em)) {
+      clearFirstOrderDiscountState();
+      updateOrderTotals();
+      return Promise.resolve();
     }
-    updateOrderTotals();
+    var subtotal = getCartSubtotal();
+    if (em !== firstOrderCheckedEmail || firstOrderCheckedSubtotal === null || Math.abs(firstOrderCheckedSubtotal - subtotal) >= 0.005) {
+      firstOrderRequestSeq++;
+      firstOrderDiscount = 0;
+      firstOrderFreeShipping = false;
+      firstOrderApplied = null;
+      firstOrderCheckedSubtotal = null;
+      firstOrderInFlightPromise = null;
+      firstOrderInFlightEmail = '';
+      firstOrderInFlightSubtotal = null;
+      updateOrderTotals();
+    }
+    firstOrderCheckTimer = setTimeout(function() {
+      firstOrderCheckTimer = null;
+      checkFirstOrderDiscount(em);
+    }, delayMs == null ? 350 : delayMs);
+    return Promise.resolve();
+  }
+
+  function scheduleFirstOrderDiscountForCurrentEmail(delayMs) {
+    var emailInput = document.getElementById('customer-email');
+    var em = emailInput ? emailInput.value : '';
+    return scheduleFirstOrderDiscountCheck(em, delayMs);
+  }
+
+  async function checkFirstOrderDiscount(email) {
+    var em = (email || '').trim();
+    var subtotal = getCartSubtotal();
+    if (!em || !isValidEmail(em)) {
+      clearFirstOrderDiscountState();
+      updateOrderTotals();
+      updatePlaceOrderState();
+      return;
+    }
+    if (firstOrderInFlightPromise && em === firstOrderInFlightEmail && firstOrderInFlightSubtotal !== null && Math.abs(firstOrderInFlightSubtotal - subtotal) < 0.005) {
+      return firstOrderInFlightPromise;
+    }
+    if (em === firstOrderCheckedEmail && firstOrderCheckedSubtotal !== null && Math.abs(firstOrderCheckedSubtotal - subtotal) < 0.005) return;
+    if (firstOrderCheckTimer) {
+      clearTimeout(firstOrderCheckTimer);
+      firstOrderCheckTimer = null;
+    }
+    var requestSeq = ++firstOrderRequestSeq;
+    firstOrderInFlightEmail = em;
+    firstOrderInFlightSubtotal = subtotal;
+    firstOrderDiscount = 0;
+    firstOrderFreeShipping = false;
+    firstOrderApplied = null;
+    firstOrderInFlightPromise = (async function() {
+      try {
+        var res = await fetch(buildApiUrl('/api/ecommerce/storefront/first-order-discount'), {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ websiteId: websiteId, customerEmail: em, orderSubtotal: subtotal })
+        });
+        var data = await res.json();
+        if (requestSeq !== firstOrderRequestSeq) return;
+        firstOrderCheckedEmail = em;
+        firstOrderCheckedSubtotal = subtotal;
+        if (data.success && data.data) {
+          firstOrderDiscount = data.data.totalDiscount || 0;
+          firstOrderFreeShipping = data.data.freeShipping || false;
+          firstOrderApplied = data.data.appliedDiscount || null;
+        }
+      } catch (e) {
+        if (requestSeq === firstOrderRequestSeq) {
+          firstOrderCheckedEmail = em;
+          firstOrderCheckedSubtotal = subtotal;
+        }
+        console.warn('[E-COMMERCE] Failed to check first-order discount', e);
+      } finally {
+        if (requestSeq === firstOrderRequestSeq) {
+          firstOrderInFlightPromise = null;
+          firstOrderInFlightEmail = '';
+          firstOrderInFlightSubtotal = null;
+          updateOrderTotals();
+          updatePlaceOrderState();
+        }
+      }
+    })();
+    return firstOrderInFlightPromise;
   }
 
   async function fetchSeasonalDiscounts() {
@@ -6074,9 +7133,12 @@ function stripHtmlToText(html) {
       if (data.success && Array.isArray(data.data)) {
         seasonalDiscounts = data.data;
         updateOrderTotals();
+        return true;
       }
+      return false;
     } catch (e) {
       console.warn('[E-COMMERCE] Failed to load seasonal discounts', e);
+      return false;
     }
   }
 
@@ -6104,7 +7166,8 @@ function stripHtmlToText(html) {
       var eligibleSubtotal = 0;
       for (var j = 0; j < cart.length; j++) {
         var item = cart[j];
-        if (appliesToAll || ids.indexOf(item.id) !== -1) {
+        var itemProductId = item.productId || item.id;
+        if (appliesToAll || ids.indexOf(itemProductId) !== -1) {
           eligibleSubtotal += getCartLineTotal(item);
         }
       }
@@ -6120,7 +7183,7 @@ function stripHtmlToText(html) {
         if (requireAllEligible && !appliesToAll) {
           var allEligible = cart.length > 0;
           for (var k = 0; k < cart.length; k++) {
-            if (ids.indexOf(cart[k].id) === -1) { allEligible = false; break; }
+            if (ids.indexOf(cart[k].productId || cart[k].id) === -1) { allEligible = false; break; }
           }
           if (allEligible) seasonalFreeShipping = true;
         } else {
@@ -6137,51 +7200,84 @@ function stripHtmlToText(html) {
       if (data.success && Array.isArray(data.data)) {
         quantityBundles = data.data;
         updateOrderTotals();
+        if (typeof renderCartDrawer === 'function') renderCartDrawer();
+        return true;
       }
+      return false;
     } catch (e) {
       console.warn('[E-COMMERCE] Failed to load quantity bundles', e);
+      return false;
     }
+  }
+
+  function bundleIdInList(ids, id) {
+    var idStr = String(id || '');
+    for (var i = 0; i < ids.length; i++) {
+      if (String(ids[i]) === idStr) return true;
+    }
+    return false;
+  }
+
+  function calcBestQuantityBundleGroupDiscount(groupBundles, unitPrices) {
+    if (!groupBundles.length || !unitPrices.length) return 0;
+    unitPrices.sort(function(a, c) { return c - a; });
+
+    var prefixSums = [0];
+    for (var i = 0; i < unitPrices.length; i++) {
+      prefixSums.push(prefixSums[prefixSums.length - 1] + unitPrices[i]);
+    }
+
+    var dp = [0];
+    for (var n = 1; n <= unitPrices.length; n++) {
+      var best = dp[n - 1] || 0;
+      for (var b = 0; b < groupBundles.length; b++) {
+        var tier = groupBundles[b];
+        if (n < tier.qty) continue;
+        var groupSum = prefixSums[n] - prefixSums[n - tier.qty];
+        var saving = Math.max(0, groupSum - tier.bPrice);
+        if (saving <= 0) continue;
+        best = Math.max(best, (dp[n - tier.qty] || 0) + saving);
+      }
+      dp[n] = best;
+    }
+    return dp[unitPrices.length] || 0;
   }
 
   function calcQuantityBundleDiscount() {
     bundleDiscount = 0;
     if (!quantityBundles.length || !cart || !cart.length) return;
 
+    var groups = {};
     for (var i = 0; i < quantityBundles.length; i++) {
       var b = quantityBundles[i];
-      var qty = b.quantity;
-      var bPrice = b.bundlePrice;
-      if (!qty || qty < 2 || !bPrice && bPrice !== 0) continue;
+      var qty = parseInt(b.quantity, 10);
+      var bPrice = parseFloat(b.bundlePrice);
+      if (!qty || qty < 2 || !Number.isFinite(bPrice) || bPrice < 0) continue;
 
-      var ids = Array.isArray(b.eligibleProductIds) ? b.eligibleProductIds : [];
+      var ids = Array.isArray(b.eligibleProductIds) ? b.eligibleProductIds.map(function(id) { return String(id || ''); }).filter(Boolean).sort() : [];
       var appliesToAll = b.appliesTo === 'all';
       if (!appliesToAll && ids.length === 0) continue;
 
+      var key = appliesToAll ? 'all' : ('products:' + ids.join('|'));
+      if (!groups[key]) groups[key] = { appliesToAll: appliesToAll, ids: ids, bundles: [] };
+      groups[key].bundles.push({ qty: qty, bPrice: bPrice });
+    }
+
+    Object.keys(groups).forEach(function(key) {
+      var group = groups[key];
       var unitPrices = [];
       for (var j = 0; j < cart.length; j++) {
         var item = cart[j];
-        if (!appliesToAll && ids.indexOf(item.id) === -1) continue;
+        var itemProductId = item.productId || item.id;
+        if (!group.appliesToAll && !bundleIdInList(group.ids, itemProductId)) continue;
         var uPrice = getItemPrice(item);
         var itemQty = parseInt(item.quantity, 10) || 1;
         for (var k = 0; k < itemQty; k++) {
           unitPrices.push(uPrice);
         }
       }
-
-      if (unitPrices.length < qty) continue;
-
-      unitPrices.sort(function(a, c) { return c - a; });
-
-      var fullGroups = Math.floor(unitPrices.length / qty);
-      for (var g = 0; g < fullGroups; g++) {
-        var groupSum = 0;
-        for (var m = g * qty; m < (g + 1) * qty; m++) {
-          groupSum += unitPrices[m];
-        }
-        var saving = groupSum - bPrice;
-        if (saving > 0) bundleDiscount += saving;
-      }
-    }
+      bundleDiscount += calcBestQuantityBundleGroupDiscount(group.bundles, unitPrices);
+    });
   }
 
   // Initialize coupon functionality
@@ -6351,6 +7447,13 @@ function stripHtmlToText(html) {
     }
     return parseFloat(selectedShipping.price) || 0;
   }
+
+  function getEffectiveCheckoutShippingCost() {
+    if (isCartCoursesOnly()) return 0;
+    if (appliedCoupon && appliedCoupon.type === 'free_shipping') return 0;
+    if (seasonalFreeShipping || firstOrderFreeShipping) return 0;
+    return getShippingCost();
+  }
   
   // Update order totals on checkout page
   function updateOrderTotals() {
@@ -6397,7 +7500,6 @@ function stripHtmlToText(html) {
         couponDiscount = appliedCoupon.value;
       } else if (appliedCoupon.type === 'free_shipping') {
         couponDiscount = 0;
-        shippingCost = 0; // Free shipping coupon
       }
       // Cap discount at subtotal
       if (couponDiscount > subtotal) {
@@ -6409,9 +7511,7 @@ function stripHtmlToText(html) {
     calcSeasonalCartDiscount();
     calcQuantityBundleDiscount();
     calcCustomerCartDiscount();
-    if (seasonalFreeShipping || firstOrderFreeShipping) {
-      shippingCost = 0;
-    }
+    shippingCost = getEffectiveCheckoutShippingCost();
     var totalDiscount = couponDiscount + seasonalDiscount + bundleDiscount + firstOrderDiscount + customerCartDiscount;
     if (totalDiscount > subtotal) totalDiscount = subtotal;
     
@@ -6524,12 +7624,8 @@ function stripHtmlToText(html) {
   };
   
   window.zappyRemoveFromCart = function(compositeId) {
-    // Remove by composite ID (product + variant)
-    cart = cart.filter(item => {
-      const variantId = item.selectedVariant ? item.selectedVariant.id : null;
-      const itemCompositeId = variantId ? item.id + '-' + variantId : item.id;
-      return itemCompositeId !== compositeId;
-    });
+    // Remove by composite ID (product + variant + booking)
+    cart = cart.filter(item => window.zappyCartCompositeId(item) !== compositeId);
     saveCart();
     renderCart();
     renderCartDrawer();
@@ -6540,6 +7636,7 @@ function stripHtmlToText(html) {
   // ══════════════════════════════════════════════════════════════════════
   let allProducts = [];
   let searchTimeout = null;
+  const SEARCH_DROPDOWN_LIMIT = 5;
   
   async function loadAllProductsForSearch() {
     try {
@@ -6561,7 +7658,78 @@ function stripHtmlToText(html) {
       p.description?.toLowerCase().includes(q) ||
       p.sku?.toLowerCase().includes(q) ||
       p.tags?.some(tag => tag.toLowerCase().includes(q))
-    ).slice(0, 6); // Limit to 6 results
+    );
+  }
+
+  function escapeSearchHtml(value) {
+    return String(value == null ? '' : value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function buildSearchResultsUrl(query) {
+    const listingPath = typeof getProductsListingPath === 'function' ? getProductsListingPath() : '/products';
+    const isPreview = window.location.pathname.includes('preview-fullscreen') || window.location.pathname.includes('/api/website/preview');
+    if (isPreview) {
+      const urlObj = new URL(window.location.href);
+      urlObj.searchParams.set('page', listingPath);
+      urlObj.searchParams.set('search', query);
+      return urlObj.toString();
+    }
+    const searchDest = buildStorefrontPath(listingPath);
+    return searchDest + (searchDest.indexOf('?') === -1 ? '?' : '&') + 'search=' + encodeURIComponent(query);
+  }
+
+  function renderSearchViewAllButton(query) {
+    return '<button type="button" class="search-view-all" data-search-url="' + escapeSearchHtml(buildSearchResultsUrl(query)) + '">' +
+      escapeSearchHtml(t.viewAllResults || 'View all results') + '</button>';
+  }
+
+  function bindSearchViewAllButtons(container) {
+    if (!container) return;
+    container.querySelectorAll('button.search-view-all[data-search-url]').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        const url = btn.getAttribute('data-search-url');
+        if (url) window.location.href = url;
+      });
+    });
+  }
+
+  function updateProductsSearchTitle(searchQuery) {
+    const title = document.getElementById('products-page-title');
+    if (!title) return;
+    if (searchQuery && searchQuery.trim()) {
+      const label = typeof getEcomText === 'function'
+        ? getEcomText('searchResults', t.searchResults || 'Search results')
+        : (t.searchResults || 'Search results');
+      if ((title.textContent || '').trim() !== label) {
+        title.textContent = label;
+      }
+      if (title.getAttribute('data-search-title-active') !== 'true') {
+        title.setAttribute('data-search-title-active', 'true');
+      }
+    } else if (title.getAttribute('data-search-title-active') === 'true') {
+      title.textContent = t.ourProducts || t.products || 'Products';
+      title.removeAttribute('data-search-title-active');
+    }
+  }
+
+  function getActiveProductsSearchQuery() {
+    try {
+      const urlParams = new URLSearchParams(window.location.search);
+      const directSearch = (urlParams.get('search') || '').trim();
+      if (directSearch) return directSearch;
+      const pageParam = urlParams.get('page') || '';
+      if (pageParam) {
+        return (new URL(pageParam, window.location.origin).searchParams.get('search') || '').trim();
+      }
+    } catch (e) {}
+    return '';
   }
   
   function renderSearchResults(results, query) {
@@ -6575,9 +7743,9 @@ function stripHtmlToText(html) {
     }
     
     // Check if we're in preview mode for generating product URLs
-    var isPreviewMode = window.location.pathname.includes('preview-fullscreen');
+    var isPreviewMode = window.location.pathname.includes('preview-fullscreen') || window.location.pathname.includes('/api/website/preview');
     
-    let html = results.map(function(p) {
+    let html = results.slice(0, SEARCH_DROPDOWN_LIMIT).map(function(p) {
       var productUrl;
       if (isPreviewMode) {
         var urlObj = new URL(window.location.href);
@@ -6588,32 +7756,19 @@ function stripHtmlToText(html) {
         productUrl = buildStorefrontPath('/product/' + (p.slug || p.id));
       }
       return '<a href="' + productUrl + '" class="search-result-item">' +
-        (p.images?.[0] ? '<img src="' + resolveProductImageUrl(p.images[0]) + '" alt="' + p.name + '" class="search-result-img">' : '<div class="search-result-img"></div>') +
+        (p.images?.[0] ? '<img src="' + escapeSearchHtml(resolveProductImageUrl(p.images[0])) + '" alt="' + escapeSearchHtml(p.name || '') + '" class="search-result-img">' : '<div class="search-result-img"></div>') +
         '<div class="search-result-info">' +
-          '<div class="search-result-name">' + p.name + '</div>' +
+          '<div class="search-result-name">' + escapeSearchHtml(p.name || '') + '</div>' +
           '<div class="search-result-price">' + formatMoney(p.price) + '</div>' +
         '</div>' +
       '</a>';
     }).join('');
     
-    // Add "View all results" link
-    if (allProducts.filter(p => p.name?.toLowerCase().includes(query.toLowerCase())).length > 6) {
-      // Check if we're in preview mode
-      var isPreview = window.location.pathname.includes('preview-fullscreen');
-      var viewAllUrl;
-      if (isPreview) {
-        var urlObj = new URL(window.location.href);
-        urlObj.searchParams.set('page', '/products');
-        urlObj.searchParams.set('search', query);
-        viewAllUrl = urlObj.toString();
-      } else {
-        viewAllUrl = '/products?search=' + encodeURIComponent(query);
-      }
-      html += '<a href="' + viewAllUrl + '" class="search-view-all">' + 
-        (t.viewAllResults || 'View all results') + ' →</a>';
-    }
+    // Always offer a full results page; the dropdown is intentionally capped.
+    html += renderSearchViewAllButton(query);
     
     container.innerHTML = html;
+    bindSearchViewAllButtons(container);
     container.classList.add('active');
   }
   
@@ -6650,17 +7805,7 @@ function stripHtmlToText(html) {
       btn.addEventListener('click', function() {
         const query = input.value.trim();
         if (query.length >= 2) {
-          // Check if we're in preview mode
-          const isPreview = window.location.pathname.includes('preview-fullscreen');
-          if (isPreview) {
-            const url = new URL(window.location.href);
-            url.searchParams.set('page', '/products');
-            url.searchParams.set('search', query);
-            window.location.href = url.toString();
-          } else {
-            var searchDest = buildStorefrontPath(getProductsListingPath());
-            window.location.href = searchDest + (searchDest.indexOf('?') === -1 ? '?' : '&') + 'search=' + encodeURIComponent(query);
-          }
+          window.location.href = buildSearchResultsUrl(query);
         }
       });
     }
@@ -6670,17 +7815,7 @@ function stripHtmlToText(html) {
       if (e.key === 'Enter') {
         const query = this.value.trim();
         if (query.length >= 2) {
-          // Check if we're in preview mode
-          const isPreview = window.location.pathname.includes('preview-fullscreen');
-          if (isPreview) {
-            const url = new URL(window.location.href);
-            url.searchParams.set('page', '/products');
-            url.searchParams.set('search', query);
-            window.location.href = url.toString();
-          } else {
-            var searchDest = buildStorefrontPath(getProductsListingPath());
-            window.location.href = searchDest + (searchDest.indexOf('?') === -1 ? '?' : '&') + 'search=' + encodeURIComponent(query);
-          }
+          window.location.href = buildSearchResultsUrl(query);
         }
       }
     });
@@ -6693,13 +7828,21 @@ function stripHtmlToText(html) {
     });
     
     // Handle search query from URL on products page
-    if (window.location.pathname === '/products') {
-      const urlParams = new URLSearchParams(window.location.search);
-      const searchQuery = urlParams.get('search');
+    const activeListingPath = typeof getProductsListingPath === 'function' ? getProductsListingPath() : '/products';
+    const activePreviewPage = new URLSearchParams(window.location.search).get('page') || '';
+    if (
+      normalizeStorefrontRouteFromHref(window.location.pathname) === normalizeStorefrontRouteFromHref(activeListingPath) ||
+      normalizeStorefrontRouteFromHref(activePreviewPage) === normalizeStorefrontRouteFromHref(activeListingPath)
+    ) {
+      const searchQuery = getActiveProductsSearchQuery();
       if (searchQuery) {
         input.value = searchQuery;
-        // Filter products grid based on search
-        filterProductsGrid(searchQuery);
+        updateProductsSearchTitle(searchQuery);
+        // loadProductsWithFilter sends the search query to the storefront API.
+        // Do not client-filter before the async load completes, or the grid can
+        // show "Loading products..." and an empty state at the same time.
+      } else {
+        updateProductsSearchTitle('');
       }
     }
   }
@@ -6710,7 +7853,11 @@ function stripHtmlToText(html) {
     
     // Wait for products to load, then filter
     setTimeout(function() {
+      if (grid.querySelector('.loading-products')) return;
+      const existingNoResults = grid.querySelector('#search-no-results');
+      if (existingNoResults) existingNoResults.remove();
       const cards = grid.querySelectorAll('.product-card');
+      if (cards.length === 0) return;
       const q = query.toLowerCase();
       let visibleCount = 0;
       
@@ -7111,7 +8258,7 @@ function stripHtmlToText(html) {
                 websiteId +
                 '&search=' +
                 encodeURIComponent(query) +
-                '&limit=8'
+                '&limit=' + SEARCH_DROPDOWN_LIMIT
             );
 
             const res = await fetch(apiUrl);
@@ -7135,17 +8282,7 @@ function stripHtmlToText(html) {
         if (e.key === 'Enter') {
           const query = this.value.trim();
           if (query.length >= 2) {
-            // Check if we're in preview mode
-            const isPreview = window.location.pathname.includes('preview-fullscreen');
-            if (isPreview) {
-              const url = new URL(window.location.href);
-              url.searchParams.set('page', '/products');
-              url.searchParams.set('search', query);
-              window.location.href = url.toString();
-            } else {
-              var searchDest = buildStorefrontPath(getProductsListingPath());
-              window.location.href = searchDest + (searchDest.indexOf('?') === -1 ? '?' : '&') + 'search=' + encodeURIComponent(query);
-            }
+            window.location.href = buildSearchResultsUrl(query);
           }
         }
       });
@@ -7157,17 +8294,7 @@ function stripHtmlToText(html) {
           e.preventDefault();
           const query = input.value.trim();
           if (query.length >= 2) {
-            // Check if we're in preview mode
-            const isPreview = window.location.pathname.includes('preview-fullscreen');
-            if (isPreview) {
-              const url = new URL(window.location.href);
-              url.searchParams.set('page', '/products');
-              url.searchParams.set('search', query);
-              window.location.href = url.toString();
-            } else {
-              var searchDest = buildStorefrontPath(getProductsListingPath());
-              window.location.href = searchDest + (searchDest.indexOf('?') === -1 ? '?' : '&') + 'search=' + encodeURIComponent(query);
-            }
+            window.location.href = buildSearchResultsUrl(query);
           }
         });
       }
@@ -7200,9 +8327,9 @@ function stripHtmlToText(html) {
     }
     
     // Check if we're in preview mode for generating product URLs
-    var isPreviewMode = window.location.pathname.includes('preview-fullscreen');
+    var isPreviewMode = window.location.pathname.includes('preview-fullscreen') || window.location.pathname.includes('/api/website/preview');
     
-    let html = matches.slice(0, 8).map(function(p) {
+    let html = matches.slice(0, SEARCH_DROPDOWN_LIMIT).map(function(p) {
       const price = formatSearchPrice(p && p.price);
       const img = p.images && p.images[0] ? resolveProductImageUrl(p.images[0]) : '';
       var productUrl;
@@ -7215,9 +8342,9 @@ function stripHtmlToText(html) {
         productUrl = buildStorefrontPath('/product/' + (p.slug || p.id));
       }
       return '<a href="' + productUrl + '" class="search-result-item">' +
-        (img ? '<img src="' + img + '" alt="' + p.name + '" class="search-result-img">' : '') +
+        (img ? '<img src="' + escapeSearchHtml(img) + '" alt="' + escapeSearchHtml(p.name || '') + '" class="search-result-img">' : '<div class="search-result-img"></div>') +
         '<div class="search-result-info">' +
-          '<div class="search-result-name">' + p.name + '</div>' +
+          '<div class="search-result-name">' + escapeSearchHtml(p.name || '') + '</div>' +
           (price ? '<div class="search-result-price">' + price + '</div>' : '') +
         '</div>' +
       '</a>';
@@ -7225,22 +8352,11 @@ function stripHtmlToText(html) {
     
     // Always offer a "view all" link for mobile search
     if (query && query.length >= 2) {
-      // Check if we're in preview mode
-      var isPreview = window.location.pathname.includes('preview-fullscreen');
-      var viewAllUrl;
-      if (isPreview) {
-        var urlObj = new URL(window.location.href);
-        urlObj.searchParams.set('page', '/products');
-        urlObj.searchParams.set('search', query);
-        viewAllUrl = urlObj.toString();
-      } else {
-        viewAllUrl = '/products?search=' + encodeURIComponent(query);
-      }
-      html += '<a href="' + viewAllUrl + '" class="search-view-all">' + 
-        (t.viewAllResults || 'View all results') + '</a>';
+      html += renderSearchViewAllButton(query);
     }
     
     results.innerHTML = html;
+    bindSearchViewAllButtons(results);
   }
   
   // Initialize order success page
@@ -7278,6 +8394,8 @@ function stripHtmlToText(html) {
     const orderDetailsSection = document.getElementById('order-details-section');
     const orderItemsList = document.getElementById('order-items-list');
     const orderTotalsSummary = document.getElementById('order-totals-summary');
+    const transactionDetails = document.querySelector('.order-success-details');
+    if (transactionDetails) transactionDetails.style.display = 'none';
     
     // If the i18n runtime replaced the H1's innerHTML (stripping the span),
     // re-inject the span so confirm-order and order display still work.
@@ -7299,19 +8417,30 @@ function stripHtmlToText(html) {
       return;
     }
     
-    // Extract order number from reference (format: zappy_websiteId_timestamp)
+    // Keep the receipt in a neutral loading state until confirmed order/course
+    // data arrives. Showing the reference here caused courses receipts to flash
+    // "Thank you for enrolling in ORD-..." before hydration replaced it.
     const parts = reference.split('_');
     const orderDisplay = parts.length >= 3 ? parts[2] : reference;
-    if (orderNumberEl) orderNumberEl.textContent = '#' + orderDisplay;
     
     // Confirm/create the order on the server (in case webhook didn't fire)
     const websiteId = window.ZAPPY_WEBSITE_ID;
     let confirmedOrderData = null;
     if (websiteId) {
       try {
+        // EasyCard appends the closed-deal transaction id to the redirect URL.
+        // Forward it so the server can verify the REAL outcome before minting
+        // an order — EasyCard has no payment webhook and reuses one redirectUrl
+        // for success AND failure/cancel, so without this an abandoned/declined
+        // checkout would create a phantom "processing" order.
+        const easycardTransactionId = urlParams.get('transactionID')
+          || urlParams.get('transactionId')
+          || urlParams.get('transaction_id')
+          || null;
         const confirmRes = await fetch(buildApiUrl('/api/ecommerce/confirm-order/' + encodeURIComponent(reference)), {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' }
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(easycardTransactionId ? { easycardTransactionId: easycardTransactionId } : {})
         });
         const confirmData = await confirmRes.json();
         if (confirmData.success) {
@@ -7320,7 +8449,7 @@ function stripHtmlToText(html) {
             confirmedOrderData = confirmData.data.orderData;
           }
           // Update order number to the official one if available
-          if (confirmData.data.orderNumber && orderNumberEl) {
+          if (confirmData.data.orderNumber && orderNumberEl && !confirmData.data.isCoursesMode) {
             orderNumberEl.textContent = '#' + confirmData.data.orderNumber;
           }
           if (confirmData.data.loginToken) {
@@ -7335,6 +8464,44 @@ function stripHtmlToText(html) {
               source: 'client'
             });
           }
+        } else if (confirmData.paymentIncomplete) {
+          // The server VERIFIED the payment did NOT complete (e.g. an abandoned
+          // or declined EasyCard checkout that still landed on this redirect URL
+          // — EasyCard reuses one redirectUrl for success AND failure). Render a
+          // clear "payment not completed" state and STOP, instead of falling
+          // through to the localStorage pending-order thank-you UI below — a
+          // declined payment must never look like a completed order.
+          console.warn('Payment not completed:', confirmData);
+          localStorage.removeItem('zappy_pending_order_' + reference);
+          var failIcon = document.querySelector('.order-success-icon');
+          if (failIcon) {
+            failIcon.innerHTML = '<svg width="100" height="100" viewBox="0 0 100 100" fill="none">'
+              + '<circle cx="50" cy="50" r="48" fill="#ef4444"></circle>'
+              + '<path d="M35 35l30 30M65 35l-30 30" stroke="white" stroke-width="6" stroke-linecap="round"></path>'
+              + '</svg>';
+          }
+          var failTitle = document.querySelector('.order-success-title');
+          if (failTitle) failTitle.textContent = t.paymentNotCompleted || 'Payment not completed';
+          var failSubtitle = document.getElementById('order-confirmation-email');
+          if (failSubtitle) failSubtitle.textContent = t.paymentNotCompletedDesc || 'Your payment was not completed, so no order was created. You have not been charged. You can try again.';
+          var failDivider = document.querySelector('.order-success-divider');
+          if (failDivider) failDivider.style.display = 'none';
+          var failDetails = document.querySelector('.order-success-details');
+          if (failDetails) failDetails.style.display = 'none';
+          if (orderDetailsSection) orderDetailsSection.style.display = 'none';
+          var failBtn = document.querySelector('.continue-home-btn');
+          if (failBtn) {
+            failBtn.textContent = t.backToCheckout || 'Back to checkout';
+            var checkoutUrl = '/checkout';
+            if (isPreview) {
+              var u = new URL(window.location.href);
+              u.searchParams.set('page', '/checkout');
+              u.searchParams.delete('ref');
+              checkoutUrl = u.toString();
+            }
+            failBtn.setAttribute('href', checkoutUrl);
+          }
+          return;
         } else {
           console.warn('Order confirmation response:', confirmData);
         }
@@ -7400,8 +8567,14 @@ function stripHtmlToText(html) {
             var titleEl = document.querySelector('.order-success-title');
             var continueBtn = document.querySelector('.continue-home-btn');
             var detailLabels = document.querySelectorAll('.order-success-detail-label');
+            var courseTitle = orderData.primaryCourseName || (orderData.courseNames && orderData.courseNames[0]) || '';
             if (titleEl) {
-              titleEl.innerHTML = getEcomText('thankYouOrder', t.thankYouOrder || 'Thank you for your order') + ' <span class="order-number-inline" id="order-number-value">' + orderNumberEl.textContent + '</span>';
+              titleEl.textContent = getEcomText('thankYouOrder', t.thankYouOrder || 'Thank you for enrolling in') + ' ';
+              var courseSpan = document.createElement('span');
+              courseSpan.className = 'order-number-inline';
+              courseSpan.id = 'order-number-value';
+              courseSpan.textContent = courseTitle || getEcomText('yourCourse', 'your course');
+              titleEl.appendChild(courseSpan);
             }
             if (detailLabels[0]) detailLabels[0].textContent = getEcomText('transactionDate', t.transactionDate || t.orderDate || 'Date');
             if (detailLabels[1]) detailLabels[1].textContent = getEcomText('paymentMethod', t.paymentMethod || 'Payment Method');
@@ -7420,7 +8593,9 @@ function stripHtmlToText(html) {
           if (paymentEl && orderData.paymentMethodName) {
             paymentEl.textContent = orderData.paymentMethodName;
           }
-          if (shippingEl && orderData.shippingMethodName) {
+          if (shippingEl && isCourseSuccess) {
+            shippingEl.textContent = getEcomText('courseAccessMethod', t.courseAccessMethod || (isRTL ? 'גישה דיגיטלית מקוונת' : 'Online course access'));
+          } else if (shippingEl && orderData.shippingMethodName) {
             var shippingText = orderData.shippingMethodName;
             if (orderData.shippingIsPickup) {
               shippingText += '. ' + (isRTL ? 'איסוף עצמי' : 'Store pickup');
@@ -7430,6 +8605,7 @@ function stripHtmlToText(html) {
           if (emailEl && orderData.customerEmail) {
             emailEl.textContent = getEcomText('orderConfirmation', t.orderConfirmation || 'A confirmation email has been sent to') + ' ' + orderData.customerEmail;
           }
+          if (transactionDetails) transactionDetails.style.display = '';
           
           // Show order details
           if (orderDetailsSection) orderDetailsSection.style.display = 'block';
@@ -7439,8 +8615,10 @@ function stripHtmlToText(html) {
             orderItemsList.innerHTML = orderData.cartItems.map(function(item) {
               var lineTotal = getCartLineTotal(item);
               var variantLabel = item.variantName ? ' (' + item.variantName + ')' : '';
+              var bkSummary = window.zappyBookingSummary(item);
+              var bookingLine = bkSummary ? '<div class="order-success-item-booking">🗓 ' + escapeCartHtml(bkSummary) + '</div>' : '';
               return '<div class="order-success-item">' +
-                '<span>' + item.name + variantLabel + ' x ' + formatQtyDisplay(item) + '</span>' +
+                '<span>' + item.name + variantLabel + ' x ' + formatQtyDisplay(item) + bookingLine + '</span>' +
                 '<span>' + formatOrderMoney(lineTotal) + '</span>' +
                 '</div>';
             }).join('');
@@ -7449,7 +8627,7 @@ function stripHtmlToText(html) {
           // Render totals
           if (orderTotalsSummary) {
             let totalsHtml = '<div><span>' + (t.subtotal || 'Subtotal') + ':</span><span>' + formatOrderMoney(parseFloat(orderData.subtotal || 0)) + '</span></div>';
-            if (orderData.shippingCost > 0) {
+            if (!isCourseSuccess && orderData.shippingCost > 0) {
               totalsHtml += '<div><span>' + (t.shipping || 'Shipping') + ':</span><span>' + formatOrderMoney(parseFloat(orderData.shippingCost)) + '</span></div>';
             }
             if (orderData.discount > 0) {
@@ -8381,11 +9559,13 @@ function stripHtmlToText(html) {
   function initAll() {
     tryMagicLoginFromUrl();
     updateCartCount();
-    loadProducts();
+    if (shouldLoadProductsOnBoot()) loadProducts();
     initFilterButtons();
     renderCart();
-    loadShippingMethods();
-    loadPaymentMethods();
+    if (shouldLoadCheckoutDataOnBoot()) {
+      loadShippingMethods();
+      loadPaymentMethods();
+    }
     updateOrderTotals();
     initSearch();
     initMobileSearch();
@@ -8395,13 +9575,55 @@ function stripHtmlToText(html) {
     initCartDrawer();
     initCheckout();
     initCoupon();
-    fetchSeasonalDiscounts();
-    fetchQuantityBundles();
-    fetchCustomerDiscount();
+    if (shouldLoadCartDiscountDataOnBoot()) {
+      fetchSeasonalDiscounts();
+      fetchQuantityBundles();
+    }
+    if (shouldFetchCustomerDiscountOnBoot()) {
+      fetchCustomerDiscount();
+    }
     initOrderSuccess();
     initLogin();
     initAccount();
     updateHeaderAuthState();
+  }
+
+  function hasCartItemsOnBoot() {
+    return Array.isArray(cart) && cart.length > 0;
+  }
+
+  function shouldLoadProductsOnBoot() {
+    return !!document.getElementById('zappy-product-grid');
+  }
+
+  function shouldLoadCheckoutDataOnBoot() {
+    return !!(
+      document.getElementById('shipping-methods') ||
+      document.getElementById('payment-container') ||
+      document.getElementById('place-order-btn')
+    );
+  }
+
+  function hasProductPricingGridOnBoot() {
+    return !!(
+      document.getElementById('zappy-product-grid') ||
+      document.getElementById('zappy-featured-products') ||
+      document.getElementById('zappy-category-products') ||
+      document.getElementById('product-detail')
+    );
+  }
+
+  function shouldLoadCartDiscountDataOnBoot() {
+    return hasCartItemsOnBoot() ||
+      shouldLoadCheckoutDataOnBoot() ||
+      hasProductPricingGridOnBoot();
+  }
+
+  function shouldFetchCustomerDiscountOnBoot() {
+    var token = '';
+    try { token = localStorage.getItem('zappy_customer_token_' + websiteId) || ''; } catch (e) {}
+    if (!token) return false;
+    return shouldLoadCartDiscountDataOnBoot();
   }
   
   // Add categories submenu to Products link in mobile menu
@@ -8428,11 +9650,12 @@ function stripHtmlToText(html) {
     if (categories.length === 0) {
       const websiteId = window.ZAPPY_WEBSITE_ID;
       if (websiteId) {
-        fetch(buildApiUrl('/api/ecommerce/' + websiteId + '/categories'))
+        fetch(buildApiUrlWithLang('/api/ecommerce/storefront/categories?websiteId=' + websiteId))
           .then(function(r) { return r.json(); })
           .then(function(data) {
-            if (data.categories && data.categories.length > 0) {
-              categories = data.categories.map(function(c) {
+            var categoryRows = Array.isArray(data.data) ? data.data : (Array.isArray(data.categories) ? data.categories : []);
+            if (categoryRows.length > 0) {
+              categories = categoryRows.map(function(c) {
                 // Use SEO-friendly slug URL, fallback to id for backward compatibility
                 return { name: c.name, href: buildStorefrontPath('/category/' + (c.slug || c.id)) };
               });
@@ -8581,12 +9804,13 @@ function getActiveVatRate() {
 
 // API base helper for additional JS
 function getApiBase() {
-  var explicitBase = (window.ZAPPY_API_BASE || '').replace(/\/$/, '');
-  var path = window.location ? window.location.pathname : '';
+  var path = window.location && window.location.pathname ? window.location.pathname : '';
   if (path.indexOf('/preview') !== -1 || path.indexOf('/preview-fullscreen') !== -1) {
-    return window.location.origin;
+    return window.location ? window.location.origin : '';
   }
-  return explicitBase;
+  var explicitBase = (window.ZAPPY_API_BASE || '').replace(/\/$/, '');
+  if (explicitBase) return explicitBase;
+  return window.location ? window.location.origin : '';
 }
 function buildApiUrl(path) {
   if (path.charAt(0) !== '/') {
@@ -8635,6 +9859,59 @@ function buildApiUrlWithLang(path) {
     url += (url.indexOf('?') === -1 ? '?' : '&') + 'lang=' + encodeURIComponent(lang);
   }
   return url;
+}
+
+function isStorefrontUuid(value) {
+  return typeof value === 'string' && /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(value.trim());
+}
+
+function matchStorefrontCategory(categories, raw) {
+  if (!raw || !categories || !categories.length) return null;
+  var trimmed = String(raw).trim();
+  if (!trimmed) return null;
+  if (isStorefrontUuid(trimmed)) {
+    for (var i = 0; i < categories.length; i++) {
+      if (categories[i].id === trimmed) return categories[i];
+    }
+    return null;
+  }
+  var lower = trimmed.toLowerCase();
+  for (var j = 0; j < categories.length; j++) {
+    var c = categories[j];
+    if (c.slug && String(c.slug).toLowerCase() === lower) return c;
+    if (c.name && String(c.name).toLowerCase() === lower) return c;
+  }
+  return null;
+}
+
+async function resolveStorefrontCategoryParam(raw, websiteId) {
+  if (!raw || !websiteId) return null;
+  var trimmed = String(raw).trim();
+  if (!trimmed) return null;
+  if (isStorefrontUuid(trimmed)) return trimmed;
+  try {
+    var catRes = await fetch(buildApiUrlWithLang('/api/ecommerce/storefront/categories?websiteId=' + websiteId));
+    if (!catRes.ok) return null;
+    var catData = await catRes.json();
+    if (!catData.success || !catData.data) return null;
+    var matched = matchStorefrontCategory(catData.data, trimmed);
+    return matched ? matched.id : null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function resolveProductCategoryId(product) {
+  if (!product) return null;
+  var fromJunction = product.categories && product.categories[0] && product.categories[0].id;
+  var id = fromJunction || product.category_id || null;
+  return id && isStorefrontUuid(String(id)) ? String(id) : null;
+}
+
+function isPreviewFetchAbortError(err) {
+  if (!err) return false;
+  if (err.name === 'AbortError') return true;
+  return err.message === 'Failed to fetch';
 }
 
 function buildStorefrontPath(path) {
@@ -8823,6 +10100,13 @@ function repairCatalogSubmenuLabel() {
 function repairProductsListingTitle() {
   var productsPageTitle = document.getElementById('products-page-title');
   if (!productsPageTitle) return;
+  if (typeof getActiveProductsSearchQuery === 'function') {
+    var activeSearchQuery = getActiveProductsSearchQuery();
+    if (activeSearchQuery) {
+      updateProductsSearchTitle(activeSearchQuery);
+      return;
+    }
+  }
   // The merchant's explicit "All Products" label (store setting) is the most
   // authoritative heading for the listing page — prefer it over the generic
   // i18n heading and the nav-derived fallback so the page title matches the
@@ -8865,6 +10149,7 @@ function appendStorefrontQuery(path, query) {
 // Store settings for this section
 let additionalJsProductLayout = 'standard';
 let additionalJsSettingsFetched = false;
+let additionalJsSettingsPromise = null;
 let additionalJsAllProductsLabel = null;
 let additionalJsProductsMenuLabel = null;
 let additionalJsShowAllProductsSubmenu = true;
@@ -8884,8 +10169,10 @@ let catProductsCache = [];
 // Pass force=true to bypass the cache and re-fetch (e.g., when language changes)
 async function fetchAdditionalJsSettings(force) {
   if (additionalJsSettingsFetched && !force) return;
+  if (additionalJsSettingsPromise && !force) return additionalJsSettingsPromise;
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
+  additionalJsSettingsPromise = (async function() {
   try {
     const res = await fetch(buildApiUrlWithLang('/api/ecommerce/storefront/settings?websiteId=' + websiteId));
     const data = await res.json();
@@ -8917,7 +10204,12 @@ async function fetchAdditionalJsSettings(force) {
         // title should match the menu label instead of the generic "מוצרים".
         var listingTitleEl = document.getElementById('products-page-title');
         if (listingTitleEl) {
-          listingTitleEl.textContent = data.data.allProductsLabel;
+          var activeSearchQuery = (typeof getActiveProductsSearchQuery === 'function') ? getActiveProductsSearchQuery() : '';
+          if (activeSearchQuery) {
+            updateProductsSearchTitle(activeSearchQuery);
+          } else {
+            listingTitleEl.textContent = data.data.allProductsLabel;
+          }
         }
       } else if (additionalJsAllProductsLabel) {
         // No custom label for the ACTIVE language (labels are fetched per-language
@@ -9088,7 +10380,19 @@ async function fetchAdditionalJsSettings(force) {
     }
   } catch (e) {
     console.warn('Failed to fetch store settings:', e);
+  } finally {
+    additionalJsSettingsPromise = null;
   }
+  })();
+  return additionalJsSettingsPromise;
+}
+
+function scheduleFixedHeaderRecalc() {
+  var recalc = window.zappySetupFixedHeaders || (typeof setupFixedHeaders === 'function' ? setupFixedHeaders : null);
+  if (typeof recalc !== 'function') return;
+  [0, 50, 150, 350].forEach(function(delay) {
+    setTimeout(recalc, delay);
+  });
 }
 
 // Dynamically create/update/remove announcement bar based on settings
@@ -9104,6 +10408,7 @@ function handleDynamicAnnouncementBar(settings) {
       existingBar.remove();
       var styleTag = document.getElementById('zappy-announcement-bar-style');
       if (styleTag) styleTag.remove();
+      scheduleFixedHeaderRecalc();
     }
     return;
   }
@@ -9112,6 +10417,7 @@ function handleDynamicAnnouncementBar(settings) {
       existingBar.remove();
       var styleTag2 = document.getElementById('zappy-announcement-bar-style');
       if (styleTag2) styleTag2.remove();
+      scheduleFixedHeaderRecalc();
     }
     return;
   }
@@ -9120,6 +10426,7 @@ function handleDynamicAnnouncementBar(settings) {
       existingBar.remove();
       var styleTag3 = document.getElementById('zappy-announcement-bar-style');
       if (styleTag3) styleTag3.remove();
+      scheduleFixedHeaderRecalc();
     }
     return;
   }
@@ -9128,6 +10435,7 @@ function handleDynamicAnnouncementBar(settings) {
       existingBar.remove();
       var styleTag4 = document.getElementById('zappy-announcement-bar-style');
       if (styleTag4) styleTag4.remove();
+      scheduleFixedHeaderRecalc();
     }
     return;
   }
@@ -9144,7 +10452,10 @@ function handleDynamicAnnouncementBar(settings) {
     }
   }
   if (messages.length === 0) {
-    if (existingBar) existingBar.remove();
+    if (existingBar) {
+      existingBar.remove();
+      scheduleFixedHeaderRecalc();
+    }
     return;
   }
   
@@ -9202,13 +10513,12 @@ function handleDynamicAnnouncementBar(settings) {
     }
     
     // Trigger layout recalculation for fixed headers
-    if (typeof setupFixedHeaders === 'function') {
-      setTimeout(setupFixedHeaders, 100);
-    }
+    scheduleFixedHeaderRecalc();
   } else {
     // Update existing bar colors and messages
     existingBar.style.backgroundColor = bgColor;
     existingBar.style.color = textColor;
+    scheduleFixedHeaderRecalc();
   }
 }
 
@@ -9216,8 +10526,13 @@ function handleDynamicAnnouncementBar(settings) {
 // customer-discount fetch completes. The main /products listing already has
 // refreshProductListingAfterDiscount(); these sections live in additionalJs
 // and can paint full prices before window.__zappyCustomerDiscountConfig is set.
+var _zappyDynamicGridRefreshTimers = [];
+var _zappyRelatedProductsLastLoadedAt = 0;
+var _zappyRelatedProductsInflight = null;
+
 function refreshDynamicProductGridsAfterDiscount() {
-  var t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"barakn123@gmail.com"};
+  if (typeof document !== 'undefined' && document.visibilityState === 'hidden') return;
+  var t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"streetstock@gmail.com"};
 
   if (typeof loadFeaturedProducts === 'function' && document.getElementById('zappy-featured-products')) {
     loadFeaturedProducts();
@@ -9232,19 +10547,23 @@ function refreshDynamicProductGridsAfterDiscount() {
   }
 
   if (typeof loadRelatedProducts === 'function' && window.currentProduct && document.getElementById('related-products-grid')) {
+    if (Date.now() - _zappyRelatedProductsLastLoadedAt < 2000) return;
     loadRelatedProducts(window.currentProduct, t);
   }
 }
 
 function scheduleDynamicProductGridsDiscountRefresh() {
+  _zappyDynamicGridRefreshTimers.forEach(function(timerId) { clearTimeout(timerId); });
+  _zappyDynamicGridRefreshTimers = [];
   [0, 250, 750, 2000].forEach(function(delayMs) {
-    setTimeout(refreshDynamicProductGridsAfterDiscount, delayMs);
+    _zappyDynamicGridRefreshTimers.push(setTimeout(refreshDynamicProductGridsAfterDiscount, delayMs));
   });
 }
 
 window.__zappyRefreshDynamicProductGridsAfterDiscount = refreshDynamicProductGridsAfterDiscount;
 window.__zappyScheduleDynamicProductGridsDiscountRefresh = scheduleDynamicProductGridsDiscountRefresh;
 /* ZAPPY_CUSTOMER_DISCOUNT_GRID_REFRESH_V1 */
+/* ZAPPY_RELATED_PRODUCTS_FETCH_GUARD_V1 */
 
 // Load featured products on home page (uses public storefront API)
 // Only shows products marked as "featured" - no fallback to all products
@@ -9257,7 +10576,7 @@ async function loadFeaturedProducts() {
   // Ensure store settings are loaded first (for productLayout)
   await fetchAdditionalJsSettings();
   
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"barakn123@gmail.com"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"streetstock@gmail.com"};
   
   try {
     // Only fetch featured products - no fallback, with language support
@@ -9324,7 +10643,7 @@ async function loadFeaturedCategories() {
 // buildEcomRuntimeTextForBaking() in multiLanguageService.js for details.
 // (Pre-refactor this was a hand-curated en+he literal — same fragility class
 // as the original ECOMMERCE_UI_TRANSLATIONS, surfaced by the SKU-on-/en/* bug.)
-var ECOM_RUNTIME_TEXT = {"ar":{"loading":"جارٍ التحميل…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"أضف {count} منتجات إلى السلة","addToCart":"أضف إلى السلة","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"أوافق على","all":"الكل","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"شقة، طابق، رمز المبنى، ملاحظات، إلخ.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"خصم الحزمة","bundleTotal":"إجمالي الحزمة","callNow":"Call Now","cancel":"Cancel","capacity":"السعة","cart":"Cart","category":"Category","checkout":"الدفع","city":"المدينة","cityRequired":"يرجى إدخال المدينة","color":"اللون","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"متابعة التسوق","continueToHomePage":"Continue to Home Page","countryRegion":"البلد / المنطقة","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"لا توجد دورات متاحة بعد.","coursesCatalogError":"فشل في تحميل الدورات.","coursesCatalogSubtitle":"تصفح مكتبة الدورات الكاملة لدينا.","coursesCatalogTitle":"الدورات","coursesCertificateLoading":"جاري التحقق…","coursesCertificateTitle":"التحقق من الشهادة","coursesDetailEnroll":"أضف إلى السلة","coursesDetailResume":"متابعة التعلم","coursesDigitalDelivery":"الوصول الرقمي عبر الإنترنت","coursesLessonCompleted":"مكتمل","coursesLessonLoading":"جاري تحميل الدرس…","coursesLessonMarkComplete":"تحديد كمكتمل","coursesLessonNext":"التالي","coursesLessonPrev":"السابق","coursesMyLearningEmpty":"لم تسجل في أي دورات بعد.","coursesMyLearningLoading":"جاري تحميل دوراتك…","coursesMyLearningSubtitle":"تابع من حيث توقفت.","coursesMyLearningTitle":"تعلمي","coursesCertCourse":"الدورة","coursesCertDownload":"تحميل","coursesCertError":"فشل في التحقق.","coursesCertInvalid":"لا يمكن التحقق من هذه الشهادة.","coursesCertIssued":"تاريخ الإصدار","coursesCertStudent":"الطالب","coursesCertValid":"تم التحقق","coursesCertIssuer":"صادر عن","coursesCertCode":"رمز التحقق","coursesViewCertificate":"عرض الشهادة","coursesCertEarnedTitle":"اكتملت الدورة!","coursesCertEarnedBody":"شهادتك جاهزة.","coursesCurriculumEmpty":"المنهج قادم قريباً.","coursesFree":"مجاني","coursesJoinLive":"انضم مباشرة","coursesLessonGate":"سجل في هذه الدورة للوصول إلى هذا الدرس.","coursesLessonLocked":"الدرس مقفل","coursesLessonLoadError":"فشل في تحميل الدرس.","coursesEnrollCta":"عرض الدورة والتسجيل","coursesEnrollmentRevoked":"تسجيلك لم يعد نشطاً.","coursesDripLocked":"هذا الدرس سيتم فتحه وفقاً لجدول زمني.","coursesVideoProcessing":"الفيديو لا يزال قيد المعالجة. تحقق مرة أخرى قريباً.","coursesVideoFailed":"فشل في معالجة الفيديو. يرجى إعادة تحميل فيديو الدرس من Course Studio.","coursesDetailLoading":"جاري التحميل…","coursesDetailInstructor":"المدرب","coursesDetailCurriculum":"المنهج الدراسي","coursesLevelBeginner":"مبتدئ","coursesLevelIntermediate":"متوسط","coursesLevelAdvanced":"متقدم","coursesLessonUnsupported":"نوع الدرس هذا غير مدعوم بعد.","coursesLiveScheduled":"تم جدولة الجلسة المباشرة","coursesPreview":"معاينة","coursesQuizError":"فشل في تحميل الاختبار.","coursesQuizLoading":"جاري تحميل الاختبار…","coursesQuizNone":"لا يوجد اختبار في هذا الدرس.","coursesQuizPassed":"لقد نجحت!","coursesQuizRetry":"حاول مرة أخرى.","coursesQuizSubmit":"إرسال","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"أيام","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"الخصم","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"يرجى إدخال بريد إلكتروني صالح","emailRequired":"يرجى إدخال عنوان البريد الإلكتروني","emptyCart":"السلة فارغة","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"خطأ في تحميل الخيارات","featured":"مميز","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"مجاني","freeAbove":"مجاني فوق","frequentlyBoughtTogether":"يُشترى معًا بشكل متكرر","frequentlyBoughtTogetherSubtitle":"وفّر وقتك واحصل على كل ما تحتاجه","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"الرئيسية","inStock":"متوفر","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"الطول","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"المادة","minimumOrderNotMet":"الحد الأدنى لمبلغ الطلب: {{amount}}. أضف {{remaining}} للمتابعة.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"يرجى إدخال الاسم الكامل","new":"جديد","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"متجرك جاهز للمنتجات","previewEmptyStoreBody":"أضف أول منتج في مدير المتجر ليراه يظهر هنا.","previewEmptyStoreButton":"أضف منتجات","previewOnlyBadge":"للمعاينة فقط","noShippingMethods":"لا توجد خيارات شحن متاحة","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"غير متوفر","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"يرجى إدخال رقم الهاتف","placeOrder":"Place Order","pleaseAcceptTerms":"يرجى الموافقة على الشروط والأحكام","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"متابعة الدفع","productDetails":"تفاصيل المنتج","productNotFound":"Product not found","products":"المنتجات","profileUpdated":"Profile updated successfully","quantity":"الكمية","relatedProducts":"منتجات ذات صلة","remove":"إزالة","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"تخفيضات","saveAddressForNextTime":"احفظ هذا العنوان للمرة القادمة","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"الشحن","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"يرجى اختيار طريقة الشحن","signInHere":"Sign in here","size":"الحجم","sku":"رمز المنتج","specifications":"المواصفات","startingAt":"ابتداءً من","stateProvince":"الولاية / المحافظة","stateRequired":"يرجى اختيار الولاية / المحافظة","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"معلومات إضافية","street":"Street Address","streetAndNumber":"الشارع والرقم","streetRequired":"يرجى إدخال عنوان الشارع","style":"الطراز","subtotal":"المجموع الفرعي","termsAndConditions":"الشروط والأحكام","thankYouOrder":"Thank you for your order","total":"المجموع","totalToPay":"المبلغ الإجمالي المستحق","transactionDate":"Transaction Date","upsellFree":"مجاناً","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"شامل ضريبة القيمة المضافة","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"عرض التفاصيل","viewOrder":"View Order","weight":"الوزن","work":"Work","yourCart":"سلتك","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"الرمز البريدي","coursesAlreadyOwned":"أنت مسجل بالفعل في هذه الدورة.","coursesAlreadyOwnedCheckout":"أنت مسجل بالفعل في دورة في سلة التسوق.","coursesEnrollmentCheckFailed":"لا يمكن التحقق من ملكية الدورة. يرجى المحاولة مرة أخرى.","coursesAlreadyEnrolledPrompt":"مسجل بالفعل؟","coursesLoginLink":"تسجيل الدخول","processing":"جارٍ المعالجة...","checkoutFailed":"فشل الدفع. يرجى المحاولة مرة أخرى."},"bg":{"loading":"Зареждане…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добави {count} продукта в количката","addToCart":"Добави в количката","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Съгласен съм с","all":"Всички","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Апартамент, етаж, код на сграда, бележки и др.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Отстъпка за пакет","bundleTotal":"Общо за комплекта","callNow":"Call Now","cancel":"Cancel","capacity":"Капацитет","cart":"Cart","category":"Category","checkout":"Поръчка","city":"Град","cityRequired":"Моля, въведете града си","color":"Цвят","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продължи пазаруването","continueToHomePage":"Continue to Home Page","countryRegion":"Държава / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Все още няма налични курсове.","coursesCatalogError":"Неуспешно зареждане на курсовете.","coursesCatalogSubtitle":"Разгледайте пълната ни библиотека от курсове.","coursesCatalogTitle":"Курсове","coursesCertificateLoading":"Проверява се…","coursesCertificateTitle":"Проверка на сертификат","coursesDetailEnroll":"Добави в количката","coursesDetailResume":"Продължи обучението","coursesDigitalDelivery":"Цифров онлайн достъп","coursesLessonCompleted":"Завършено","coursesLessonLoading":"Зарежда се урок…","coursesLessonMarkComplete":"Маркирай като завършен","coursesLessonNext":"Следващ","coursesLessonPrev":"Предишен","coursesMyLearningEmpty":"Все още не сте записани в никакви курсове.","coursesMyLearningLoading":"Зареждат се вашите курсове…","coursesMyLearningSubtitle":"Продължете от там, където спряхте.","coursesMyLearningTitle":"Моето обучение","coursesCertCourse":"Курс","coursesCertDownload":"Изтегли","coursesCertError":"Верификацията неуспешна.","coursesCertInvalid":"Този сертификат не може да бъде верифициран.","coursesCertIssued":"Издаден","coursesCertStudent":"Студент","coursesCertValid":"Верифициран","coursesCertIssuer":"Издадено от","coursesCertCode":"Код за проверка","coursesViewCertificate":"Виж сертификата","coursesCertEarnedTitle":"Курсът е завършен!","coursesCertEarnedBody":"Вашият сертификат е готов.","coursesCurriculumEmpty":"Учебната програма идва скоро.","coursesFree":"Безплатно","coursesJoinLive":"Присъедини се на живо","coursesLessonGate":"Запишете се в този курс, за да получите достъп до този урок.","coursesLessonLocked":"Урокът е заключен","coursesLessonLoadError":"Неуспешно зареждане на урока.","coursesEnrollCta":"Вижте курса и се запишете","coursesEnrollmentRevoked":"Вашата регистрация вече не е активна.","coursesDripLocked":"Този урок се отключва по график.","coursesVideoProcessing":"Видеото все още се обработва. Проверете отново скоро.","coursesVideoFailed":"Обработката на видеото неуспешна. Моля, качете отново видеото на урока от Course Studio.","coursesDetailLoading":"Зарежда се…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебна програма","coursesLevelBeginner":"Начинаещ","coursesLevelIntermediate":"Средно ниво","coursesLevelAdvanced":"Напреднал","coursesLessonUnsupported":"Този тип урок все още не се поддържа.","coursesLiveScheduled":"Планирана е сесия на живо","coursesPreview":"Преглед","coursesQuizError":"Неуспешно зареждане на теста.","coursesQuizLoading":"Зарежда се тест…","coursesQuizNone":"Няма тест за този урок.","coursesQuizPassed":"Успяхте!","coursesQuizRetry":"Опитайте отново.","coursesQuizSubmit":"Изпрати","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дни","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Отстъпка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Моля, въведете валиден имейл адрес","emailRequired":"Моля, въведете имейл адреса си","emptyCart":"Количката ви е празна","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Грешка при зареждане на опциите","featured":"Препоръчани","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕЗПЛАТНО","freeAbove":"Безплатно над","frequentlyBoughtTogether":"Често купувани заедно","frequentlyBoughtTogetherSubtitle":"Спестете време и вземете всичко необходимо","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Начало","inStock":"В наличност","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Дължина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимална сума на поръчката: {{amount}}. Добавете още {{remaining}}, за да продължите.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Моля, въведете пълното си име","new":"Нови","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Магазинът ви е готов за продукти","previewEmptyStoreBody":"Добавете първия си продукт в мениджъра на магазина, за да го видите тук.","previewEmptyStoreButton":"Добавяне на продукти","previewOnlyBadge":"Само за преглед","noShippingMethods":"Няма налични опции за доставка","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Изчерпан","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Моля, въведете телефонния си номер","placeOrder":"Place Order","pleaseAcceptTerms":"Моля, приемете общите условия","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Към плащане","productDetails":"Детайли за продукта","productNotFound":"Product not found","products":"Продукти","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Свързани продукти","remove":"Премахни","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Намаление","saveAddressForNextTime":"Запази този адрес за следващия път","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Моля, изберете метод за доставка","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Спецификации","startingAt":"От","stateProvince":"Област / Провинция","stateRequired":"Моля, изберете област / провинция","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Допълнителна информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Моля, въведете адреса си","style":"Стил","subtotal":"Междинна сума","termsAndConditions":"Общите условия","thankYouOrder":"Thank you for your order","total":"Общо","totalToPay":"Общо за плащане","transactionDate":"Transaction Date","upsellFree":"Безплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включително ДДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Виж детайли","viewOrder":"View Order","weight":"Тегло","work":"Work","yourCart":"Вашата количка","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Пощенски код","coursesAlreadyOwned":"Вече притежавате този курс.","coursesAlreadyOwnedCheckout":"Вече сте записани за курс в количката.","coursesEnrollmentCheckFailed":"Не можа да се провери собствеността на курса. Моля, опитайте отново.","coursesAlreadyEnrolledPrompt":"Вече записани?","coursesLoginLink":"Влезте","processing":"Обработва се...","checkoutFailed":"Плащането не бе успешно. Моля, опитайте отново."},"de":{"loading":"Wird geladen…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} Artikel in den Warenkorb","addToCart":"In den Warenkorb","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Ich akzeptiere die","all":"Alle","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Wohnung, Etage, Gebäudecode, Hinweise usw.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Paketrabatt","bundleTotal":"Bundle-Gesamtsumme","callNow":"Call Now","cancel":"Cancel","capacity":"Kapazität","cart":"Cart","category":"Category","checkout":"Zur Kasse","city":"Stadt","cityRequired":"Bitte geben Sie Ihre Stadt ein","color":"Farbe","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Weiter einkaufen","continueToHomePage":"Continue to Home Page","countryRegion":"Land / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Noch keine Kurse verfügbar.","coursesCatalogError":"Kurse konnten nicht geladen werden.","coursesCatalogSubtitle":"Durchsuchen Sie unsere vollständige Kursbibliothek.","coursesCatalogTitle":"Kurse","coursesCertificateLoading":"Überprüfung läuft…","coursesCertificateTitle":"Zertifikat-Verifizierung","coursesDetailEnroll":"In den Warenkorb","coursesDetailResume":"Lernen fortsetzen","coursesDigitalDelivery":"Digitaler Online-Zugang","coursesLessonCompleted":"Abgeschlossen","coursesLessonLoading":"Lektion wird geladen…","coursesLessonMarkComplete":"Als abgeschlossen markieren","coursesLessonNext":"Weiter","coursesLessonPrev":"Zurück","coursesMyLearningEmpty":"Sie haben sich noch für keinen Kurs eingeschrieben.","coursesMyLearningLoading":"Ihre Kurse werden geladen…","coursesMyLearningSubtitle":"Setzen Sie dort fort, wo Sie aufgehört haben.","coursesMyLearningTitle":"Mein Lernen","coursesCertCourse":"Kurs","coursesCertDownload":"Herunterladen","coursesCertError":"Verifizierung fehlgeschlagen.","coursesCertInvalid":"Dieses Zertifikat konnte nicht verifiziert werden.","coursesCertIssued":"Ausgestellt","coursesCertStudent":"Student","coursesCertValid":"Verifiziert","coursesCertIssuer":"Ausgestellt von","coursesCertCode":"Prüfcode","coursesViewCertificate":"Zertifikat ansehen","coursesCertEarnedTitle":"Kurs abgeschlossen!","coursesCertEarnedBody":"Ihr Zertifikat ist bereit.","coursesCurriculumEmpty":"Lehrplan folgt in Kürze.","coursesFree":"Kostenlos","coursesJoinLive":"Live beitreten","coursesLessonGate":"Melden Sie sich für diesen Kurs an, um auf diese Lektion zuzugreifen.","coursesLessonLocked":"Lektion gesperrt","coursesLessonLoadError":"Lektion konnte nicht geladen werden.","coursesEnrollCta":"Kurs ansehen & einschreiben","coursesEnrollmentRevoked":"Ihre Einschreibung ist nicht mehr aktiv.","coursesDripLocked":"Diese Lektion wird nach einem Zeitplan freigeschaltet.","coursesVideoProcessing":"Video wird noch verarbeitet. Schauen Sie bald wieder vorbei.","coursesVideoFailed":"Videoverarbeitung fehlgeschlagen. Bitte laden Sie das Lektionsvideo erneut aus dem Course Studio hoch.","coursesDetailLoading":"Lädt…","coursesDetailInstructor":"Dozent","coursesDetailCurriculum":"Lehrplan","coursesLevelBeginner":"Anfänger","coursesLevelIntermediate":"Fortgeschritten","coursesLevelAdvanced":"Experte","coursesLessonUnsupported":"Dieser Lektionstyp wird noch nicht unterstützt.","coursesLiveScheduled":"Live-Session geplant","coursesPreview":"Vorschau","coursesQuizError":"Quiz konnte nicht geladen werden.","coursesQuizLoading":"Quiz wird geladen…","coursesQuizNone":"Kein Quiz in dieser Lektion.","coursesQuizPassed":"Sie haben bestanden!","coursesQuizRetry":"Erneut versuchen.","coursesQuizSubmit":"Absenden","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"Tage","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Rabatt","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Bitte geben Sie eine gültige E-Mail-Adresse ein","emailRequired":"Bitte geben Sie Ihre E-Mail-Adresse ein","emptyCart":"Ihr Warenkorb ist leer","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Fehler beim Laden der Optionen","featured":"Empfohlen","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"KOSTENLOS","freeAbove":"Kostenlos ab","frequentlyBoughtTogether":"Oft zusammen gekauft","frequentlyBoughtTogetherSubtitle":"Sparen Sie Zeit und holen Sie sich alles, was Sie brauchen","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Startseite","inStock":"Auf Lager","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Länge","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Mindestbestellwert: {{amount}}. Fügen Sie noch {{remaining}} hinzu, um fortzufahren.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Bitte geben Sie Ihren vollständigen Namen ein","new":"Neu","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Dein Shop ist bereit für Produkte","previewEmptyStoreBody":"Füge dein erstes Produkt im Store Manager hinzu, damit es hier erscheint.","previewEmptyStoreButton":"Produkte hinzufügen","previewOnlyBadge":"Nur Vorschau","noShippingMethods":"Keine Versandoptionen verfügbar","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Nicht verfügbar","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Bitte geben Sie Ihre Telefonnummer ein","placeOrder":"Place Order","pleaseAcceptTerms":"Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Zur Kasse gehen","productDetails":"Produktdetails","productNotFound":"Product not found","products":"Produkte","profileUpdated":"Profile updated successfully","quantity":"Menge","relatedProducts":"Ähnliche Produkte","remove":"Entfernen","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Diese Adresse für das nächste Mal speichern","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Versand","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Bitte wählen Sie eine Versandart","signInHere":"Sign in here","size":"Größe","sku":"Art.-Nr.","specifications":"Spezifikationen","startingAt":"Ab","stateProvince":"Bundesland / Provinz","stateRequired":"Bitte wählen Sie ein Bundesland / Provinz","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Zusätzliche Informationen","street":"Street Address","streetAndNumber":"Straße und Hausnummer","streetRequired":"Bitte geben Sie Ihre Straßenadresse ein","style":"Stil","subtotal":"Zwischensumme","termsAndConditions":"Allgemeinen Geschäftsbedingungen","thankYouOrder":"Thank you for your order","total":"Gesamt","totalToPay":"Gesamtbetrag","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Inkl. MwSt.","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Details ansehen","viewOrder":"View Order","weight":"Gewicht","work":"Work","yourCart":"Ihr Warenkorb","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Postleitzahl","coursesAlreadyOwned":"Sie besitzen diesen Kurs bereits.","coursesAlreadyOwnedCheckout":"Sie sind bereits in einem Kurs in Ihrem Warenkorb eingeschrieben.","coursesEnrollmentCheckFailed":"Kursberechtigung konnte nicht überprüft werden. Bitte versuchen Sie es erneut.","coursesAlreadyEnrolledPrompt":"Bereits eingeschrieben?","coursesLoginLink":"Anmelden","processing":"Wird verarbeitet...","checkoutFailed":"Bezahlung fehlgeschlagen. Bitte versuchen Sie es erneut."},"el":{"loading":"Φόρτωση…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Προσθήκη {count} προϊόντων στο καλάθι","addToCart":"Προσθήκη στο καλάθι","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Συμφωνώ με τους","all":"Όλα","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Διαμέρισμα, όροφος, κωδικός κτιρίου, σημειώσεις κτλ.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Έκπτωση πακέτου","bundleTotal":"Σύνολο πακέτου","callNow":"Call Now","cancel":"Cancel","capacity":"Χωρητικότητα","cart":"Cart","category":"Category","checkout":"Ταμείο","city":"Πόλη","cityRequired":"Παρακαλώ εισάγετε την πόλη σας","color":"Χρώμα","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Συνέχεια αγορών","continueToHomePage":"Continue to Home Page","countryRegion":"Χώρα / Περιοχή","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Δεν υπάρχουν ακόμη διαθέσιμα μαθήματα.","coursesCatalogError":"Αποτυχία φόρτωσης μαθημάτων.","coursesCatalogSubtitle":"Περιηγηθείτε στην πλήρη βιβλιοθήκη μαθημάτων μας.","coursesCatalogTitle":"Μαθήματα","coursesCertificateLoading":"Επαλήθευση…","coursesCertificateTitle":"Επαλήθευση Πιστοποιητικού","coursesDetailEnroll":"Προσθήκη στο καλάθι","coursesDetailResume":"Συνέχεια μάθησης","coursesDigitalDelivery":"Ψηφιακή διαδικτυακή πρόσβαση","coursesLessonCompleted":"Ολοκληρώθηκε","coursesLessonLoading":"Φόρτωση μαθήματος…","coursesLessonMarkComplete":"Σήμανση ως ολοκληρωμένο","coursesLessonNext":"Επόμενο","coursesLessonPrev":"Προηγούμενο","coursesMyLearningEmpty":"Δεν έχετε εγγραφεί σε κανένα μάθημα ακόμα.","coursesMyLearningLoading":"Φόρτωση των μαθημάτων σας…","coursesMyLearningSubtitle":"Συνεχίστε από εκεί που σταματήσατε.","coursesMyLearningTitle":"Η Μάθησή Μου","coursesCertCourse":"Μάθημα","coursesCertDownload":"Λήψη","coursesCertError":"Η επαλήθευση απέτυχε.","coursesCertInvalid":"Αυτό το πιστοποιητικό δεν μπόρεσε να επαληθευτεί.","coursesCertIssued":"Εκδόθηκε","coursesCertStudent":"Μαθητής","coursesCertValid":"Επαληθευμένο","coursesCertIssuer":"Εκδόθηκε από","coursesCertCode":"Κωδικός επαλήθευσης","coursesViewCertificate":"Προβολή πιστοποιητικού","coursesCertEarnedTitle":"Το μάθημα ολοκληρώθηκε!","coursesCertEarnedBody":"Το πιστοποιητικό σας είναι έτοιμο.","coursesCurriculumEmpty":"Το πρόγραμμα σπουδών έρχεται σύντομα.","coursesFree":"Δωρεάν","coursesJoinLive":"Συμμετοχή ζωντανά","coursesLessonGate":"Εγγραφείτε σε αυτό το μάθημα για να αποκτήσετε πρόσβαση σε αυτό το μάθημα.","coursesLessonLocked":"Μάθημα κλειδωμένο","coursesLessonLoadError":"Αποτυχία φόρτωσης μαθήματος.","coursesEnrollCta":"Δείτε το μάθημα και εγγραφείτε","coursesEnrollmentRevoked":"Η εγγραφή σας δεν είναι πλέον ενεργή.","coursesDripLocked":"Αυτό το μάθημα ξεκλειδώνει σύμφωνα με το πρόγραμμα.","coursesVideoProcessing":"Το βίντεο εξακολουθεί να επεξεργάζεται. Ελέγξτε ξανά σύντομα.","coursesVideoFailed":"Η επεξεργασία του βίντεο απέτυχε. Παρακαλώ ανεβάστε ξανά το βίντεο του μαθήματος από το Course Studio.","coursesDetailLoading":"Φόρτωση…","coursesDetailInstructor":"Εκπαιδευτής","coursesDetailCurriculum":"Πρόγραμμα Σπουδών","coursesLevelBeginner":"Αρχάριος","coursesLevelIntermediate":"Μεσαίο Επίπεδο","coursesLevelAdvanced":"Προχωρημένο","coursesLessonUnsupported":"Αυτός ο τύπος μαθήματος δεν υποστηρίζεται ακόμη.","coursesLiveScheduled":"Προγραμματισμένη ζωντανή συνεδρία","coursesPreview":"Προεπισκόπηση","coursesQuizError":"Αποτυχία φόρτωσης κουίζ.","coursesQuizLoading":"Φόρτωση κουίζ…","coursesQuizNone":"Δεν υπάρχει κουίζ σε αυτό το μάθημα.","coursesQuizPassed":"Περάσατε!","coursesQuizRetry":"Δοκιμάστε ξανά.","coursesQuizSubmit":"Υποβολή","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"ημέρες","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Έκπτωση","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email","emailRequired":"Παρακαλώ εισάγετε τη διεύθυνση email σας","emptyCart":"Το καλάθι σας είναι άδειο","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Σφάλμα φόρτωσης επιλογών","featured":"Επιλεγμένα","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ΔΩΡΕΑΝ","freeAbove":"Δωρεάν άνω των","frequentlyBoughtTogether":"Συχνά αγοράζονται μαζί","frequentlyBoughtTogetherSubtitle":"Εξοικονομήστε χρόνο και αποκτήστε ό,τι χρειάζεστε","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Αρχική","inStock":"Διαθέσιμο","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Μήκος","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Υλικό","minimumOrderNotMet":"Ελάχιστο ποσό παραγγελίας: {{amount}}. Προσθέστε {{remaining}} ακόμη για να συνεχίσετε.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Παρακαλώ εισάγετε το πλήρες όνομά σας","new":"Νέα","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Το κατάστημά σας είναι έτοιμο για προϊόντα","previewEmptyStoreBody":"Προσθέστε το πρώτο προϊόν στον διαχειριστή καταστήματος για να εμφανιστεί εδώ.","previewEmptyStoreButton":"Προσθήκη προϊόντων","previewOnlyBadge":"Μόνο προεπισκόπηση","noShippingMethods":"Δεν υπάρχουν διαθέσιμες επιλογές αποστολής","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Εξαντλημένο","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Παρακαλώ εισάγετε τον αριθμό τηλεφώνου σας","placeOrder":"Place Order","pleaseAcceptTerms":"Παρακαλώ αποδεχθείτε τους όρους και τις προϋποθέσεις","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Συνέχεια στο ταμείο","productDetails":"Λεπτομέρειες προϊόντος","productNotFound":"Product not found","products":"Προϊόντα","profileUpdated":"Profile updated successfully","quantity":"Ποσότητα","relatedProducts":"Σχετικά προϊόντα","remove":"Αφαίρεση","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Προσφορές","saveAddressForNextTime":"Αποθήκευση αυτής της διεύθυνσης για την επόμενη φορά","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Αποστολή","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Παρακαλώ επιλέξτε μέθοδο αποστολής","signInHere":"Sign in here","size":"Μέγεθος","sku":"Κωδικός","specifications":"Προδιαγραφές","startingAt":"Από","stateProvince":"Νομός / Περιφέρεια","stateRequired":"Παρακαλώ επιλέξτε νομό / περιφέρεια","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Πρόσθετες πληροφορίες","street":"Street Address","streetAndNumber":"Οδός και αριθμός","streetRequired":"Παρακαλώ εισάγετε τη διεύθυνσή σας","style":"Στυλ","subtotal":"Υποσύνολο","termsAndConditions":"Όρους και Προϋποθέσεις","thankYouOrder":"Thank you for your order","total":"Σύνολο","totalToPay":"Σύνολο προς Πληρωμή","transactionDate":"Transaction Date","upsellFree":"Δωρεάν","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Συμπεριλαμβανομένου ΦΠΑ","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Λεπτομέρειες","viewOrder":"View Order","weight":"Βάρος","work":"Work","yourCart":"Το καλάθι σας","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Ταχυδρομικός κώδικας","coursesAlreadyOwned":"Έχετε ήδη πρόσβαση σε αυτό το μάθημα.","coursesAlreadyOwnedCheckout":"Είστε ήδη εγγεγραμμένοι σε μάθημα στο καλάθι σας.","coursesEnrollmentCheckFailed":"Δεν ήταν δυνατή η επαλήθευση της κυριότητας του μαθήματος. Παρακαλώ δοκιμάστε ξανά.","coursesAlreadyEnrolledPrompt":"Ήδη εγγεγραμμένοι;","coursesLoginLink":"Σύνδεση","processing":"Επεξεργασία...","checkoutFailed":"Η πληρωμή απέτυχε. Παρακαλώ δοκιμάστε ξανά."},"en":{"loading":"Loading…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Add {count} items to cart","addToCart":"Add to Cart","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"I agree to the","all":"All","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt, Floor, Building Code, Notes, Etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Bundle Discount","bundleTotal":"Bundle total","callNow":"Call Now","cancel":"Cancel","capacity":"Capacity","cart":"Cart","category":"Category","checkout":"Checkout","city":"City","cityRequired":"Please enter your city","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continue Shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Country / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"No courses available yet.","coursesCatalogError":"Failed to load courses.","coursesCatalogSubtitle":"Browse our full course library.","coursesCatalogTitle":"Courses","coursesCertificateLoading":"Verifying…","coursesCertificateTitle":"Certificate Verification","coursesDetailEnroll":"Add to Cart","coursesDetailResume":"Resume learning","coursesDigitalDelivery":"Digital online access","coursesLessonCompleted":"Completed","coursesLessonLoading":"Loading lesson…","coursesLessonMarkComplete":"Mark complete","coursesLessonNext":"Next","coursesLessonPrev":"Previous","coursesMyLearningEmpty":"You haven't enrolled in any courses yet.","coursesMyLearningLoading":"Loading your courses…","coursesMyLearningSubtitle":"Continue where you left off.","coursesMyLearningTitle":"My Learning","coursesCertCourse":"Course","coursesCertDownload":"Download","coursesCertError":"Verification failed.","coursesCertInvalid":"This certificate could not be verified.","coursesCertIssued":"Issued","coursesCertStudent":"Student","coursesCertValid":"Verified","coursesCertIssuer":"Issued by","coursesCertCode":"Verification code","coursesViewCertificate":"View certificate","coursesCertEarnedTitle":"Course complete!","coursesCertEarnedBody":"Your certificate is ready.","coursesCurriculumEmpty":"Curriculum coming soon.","coursesFree":"Free","coursesJoinLive":"Join live","coursesLessonGate":"Enroll in this course to access this lesson.","coursesLessonLocked":"Lesson locked","coursesLessonLoadError":"Failed to load lesson.","coursesEnrollCta":"View course & enroll","coursesEnrollmentRevoked":"Your enrollment is no longer active.","coursesDripLocked":"This lesson unlocks on a schedule.","coursesVideoProcessing":"Video is still processing. Check back soon.","coursesVideoFailed":"Video processing failed. Please re-upload the lesson video from Course Studio.","coursesDetailLoading":"Loading…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Curriculum","coursesLevelBeginner":"Beginner","coursesLevelIntermediate":"Intermediate","coursesLevelAdvanced":"Advanced","coursesLessonUnsupported":"This lesson type is not yet supported.","coursesLiveScheduled":"Live session scheduled","coursesPreview":"Preview","coursesQuizError":"Failed to load quiz.","coursesQuizLoading":"Loading quiz…","coursesQuizNone":"No quiz on this lesson.","coursesQuizPassed":"You passed!","coursesQuizRetry":"Try again.","coursesQuizSubmit":"Submit","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"days","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Discount","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Please enter a valid email address","emailRequired":"Please enter your email address","emptyCart":"Your cart is empty","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error loading options","featured":"Featured","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"FREE","freeAbove":"Free above","frequentlyBoughtTogether":"Frequently bought together","frequentlyBoughtTogetherSubtitle":"Save time and get everything you need","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"In Stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Length","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Minimum order amount: {{amount}}. Add {{remaining}} more to proceed.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Please enter your full name","new":"New","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Your store is ready for products","previewEmptyStoreBody":"Add your first product in Store Manager to see it appear here.","previewEmptyStoreButton":"Add products","previewOnlyBadge":"Preview only","noShippingMethods":"No shipping options available","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Out of Stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Please enter your phone number","placeOrder":"Place Order","pleaseAcceptTerms":"Please accept the terms and conditions","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceed to Checkout","productDetails":"Product Details","productNotFound":"Product not found","products":"Products","profileUpdated":"Profile updated successfully","quantity":"Quantity","relatedProducts":"Related Products","remove":"Remove","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Save this address for next time","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Shipping","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Please select a shipping method","signInHere":"Sign in here","size":"Size","sku":"SKU","specifications":"Specifications","startingAt":"Starting at","stateProvince":"State / Province","stateRequired":"Please select a state / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Additional Information","street":"Street Address","streetAndNumber":"Street and Number","streetRequired":"Please enter your street address","style":"Style","subtotal":"Subtotal","termsAndConditions":"Terms and Conditions","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total to Pay","transactionDate":"Transaction Date","upsellFree":"Free","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Including VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"View Details","viewOrder":"View Order","weight":"Weight","work":"Work","yourCart":"Your Cart","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Zip / Postal Code","coursesAlreadyOwned":"You already own this course.","coursesAlreadyOwnedCheckout":"You are already enrolled in a course in your cart.","coursesEnrollmentCheckFailed":"Could not verify course ownership. Please try again.","coursesAlreadyEnrolledPrompt":"Already enrolled?","coursesLoginLink":"Log in","processing":"Processing...","checkoutFailed":"Checkout failed. Please try again."},"es":{"loading":"Cargando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Añadir {count} artículos al carrito","addToCart":"Añadir al carrito","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Acepto los","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., piso, código de edificio, notas, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Descuento por paquete","bundleTotal":"Total del paquete","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidad","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Ciudad","cityRequired":"Por favor, introduzca su ciudad","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Seguir comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Región","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aún no hay cursos disponibles.","coursesCatalogError":"Error al cargar los cursos.","coursesCatalogSubtitle":"Explora nuestra biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificación de Certificado","coursesDetailEnroll":"Añadir al carrito","coursesDetailResume":"Continuar aprendiendo","coursesDigitalDelivery":"Acceso digital en línea","coursesLessonCompleted":"Completado","coursesLessonLoading":"Cargando lección…","coursesLessonMarkComplete":"Marcar como completado","coursesLessonNext":"Siguiente","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Aún no te has inscrito en ningún curso.","coursesMyLearningLoading":"Cargando tus cursos…","coursesMyLearningSubtitle":"Continúa donde lo dejaste.","coursesMyLearningTitle":"Mi Aprendizaje","coursesCertCourse":"Curso","coursesCertDownload":"Descargar","coursesCertError":"Error en la verificación.","coursesCertInvalid":"Este certificado no pudo ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudiante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificación","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"¡Curso completado!","coursesCertEarnedBody":"Tu certificado está listo.","coursesCurriculumEmpty":"Plan de estudios próximamente.","coursesFree":"Gratis","coursesJoinLive":"Unirse en vivo","coursesLessonGate":"Inscríbete en este curso para acceder a esta lección.","coursesLessonLocked":"Lección bloqueada","coursesLessonLoadError":"Error al cargar la lección.","coursesEnrollCta":"Ver curso e inscribirse","coursesEnrollmentRevoked":"Tu inscripción ya no está activa.","coursesDripLocked":"Esta lección se desbloquea según un cronograma.","coursesVideoProcessing":"El video aún se está procesando. Vuelve pronto.","coursesVideoFailed":"El procesamiento del video falló. Por favor, vuelve a subir el video de la lección desde Course Studio.","coursesDetailLoading":"Cargando…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Currículum","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzado","coursesLessonUnsupported":"Este tipo de lección aún no es compatible.","coursesLiveScheduled":"Sesión en vivo programada","coursesPreview":"Vista previa","coursesQuizError":"Error al cargar el cuestionario.","coursesQuizLoading":"Cargando cuestionario…","coursesQuizNone":"No hay cuestionario en esta lección.","coursesQuizPassed":"¡Aprobaste!","coursesQuizRetry":"Intentar de nuevo.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"días","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Descuento","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, introduzca un correo electrónico válido","emailRequired":"Por favor, introduzca su correo electrónico","emptyCart":"Tu carrito está vacío","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error al cargar opciones","featured":"Destacados","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATIS","freeAbove":"Gratis a partir de","frequentlyBoughtTogether":"Comprados juntos habitualmente","frequentlyBoughtTogetherSubtitle":"Ahorra tiempo y consigue todo lo que necesitas","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Inicio","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longitud","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Monto mínimo de pedido: {{amount}}. Agregue {{remaining}} más para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, introduzca su nombre completo","new":"Nuevos","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Tu tienda está lista para productos","previewEmptyStoreBody":"Añade tu primer producto en el administrador de la tienda para verlo aparecer aquí.","previewEmptyStoreButton":"Añadir productos","previewOnlyBadge":"Solo vista previa","noShippingMethods":"No hay opciones de envío disponibles","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Agotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, introduzca su número de teléfono","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, acepte los términos y condiciones","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceder al pago","productDetails":"Detalles del producto","productNotFound":"Product not found","products":"Productos","profileUpdated":"Profile updated successfully","quantity":"Cantidad","relatedProducts":"Productos relacionados","remove":"Eliminar","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Ofertas","saveAddressForNextTime":"Guardar esta dirección para la próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envío","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, seleccione un método de envío","signInHere":"Sign in here","size":"Talla","sku":"SKU","specifications":"Especificaciones","startingAt":"Desde","stateProvince":"Estado / Provincia","stateRequired":"Por favor, seleccione un estado / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Información adicional","street":"Street Address","streetAndNumber":"Calle y número","streetRequired":"Por favor, introduzca su dirección","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Términos y Condiciones","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluido","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalles","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Tu carrito","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Código postal","coursesAlreadyOwned":"Ya tienes acceso a este curso.","coursesAlreadyOwnedCheckout":"Ya estás inscrito en un curso de tu carrito.","coursesEnrollmentCheckFailed":"No se pudo verificar la propiedad del curso. Por favor, inténtalo de nuevo.","coursesAlreadyEnrolledPrompt":"¿Ya estás inscrito?","coursesLoginLink":"Iniciar sesión","processing":"Procesando...","checkoutFailed":"El pago falló. Por favor, inténtalo de nuevo."},"fr":{"loading":"Chargement…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Ajouter {count} articles au panier","addToCart":"Ajouter au panier","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"J'accepte les","all":"Tout","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., étage, code bâtiment, notes, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Remise lot","bundleTotal":"Total du lot","callNow":"Call Now","cancel":"Cancel","capacity":"Capacité","cart":"Cart","category":"Category","checkout":"Paiement","city":"Ville","cityRequired":"Veuillez entrer votre ville","color":"Couleur","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuer vos achats","continueToHomePage":"Continue to Home Page","countryRegion":"Pays / Région","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aucun cours disponible pour le moment.","coursesCatalogError":"Échec du chargement des cours.","coursesCatalogSubtitle":"Parcourez notre bibliothèque complète de cours.","coursesCatalogTitle":"Cours","coursesCertificateLoading":"Vérification en cours…","coursesCertificateTitle":"Vérification de certificat","coursesDetailEnroll":"Ajouter au panier","coursesDetailResume":"Reprendre l'apprentissage","coursesDigitalDelivery":"Accès numérique en ligne","coursesLessonCompleted":"Terminé","coursesLessonLoading":"Chargement de la leçon…","coursesLessonMarkComplete":"Marquer comme terminé","coursesLessonNext":"Suivant","coursesLessonPrev":"Précédent","coursesMyLearningEmpty":"Vous ne vous êtes encore inscrit à aucun cours.","coursesMyLearningLoading":"Chargement de vos cours…","coursesMyLearningSubtitle":"Continuez là où vous vous êtes arrêté.","coursesMyLearningTitle":"Mon apprentissage","coursesCertCourse":"Cours","coursesCertDownload":"Télécharger","coursesCertError":"Échec de la vérification.","coursesCertInvalid":"Ce certificat n'a pas pu être vérifié.","coursesCertIssued":"Délivré","coursesCertStudent":"Étudiant","coursesCertValid":"Vérifié","coursesCertIssuer":"Délivré par","coursesCertCode":"Code de vérification","coursesViewCertificate":"Voir le certificat","coursesCertEarnedTitle":"Cours terminé !","coursesCertEarnedBody":"Votre certificat est prêt.","coursesCurriculumEmpty":"Programme à venir.","coursesFree":"Gratuit","coursesJoinLive":"Rejoindre en direct","coursesLessonGate":"Inscrivez-vous à ce cours pour accéder à cette leçon.","coursesLessonLocked":"Leçon verrouillée","coursesLessonLoadError":"Échec du chargement de la leçon.","coursesEnrollCta":"Voir le cours et s'inscrire","coursesEnrollmentRevoked":"Votre inscription n'est plus active.","coursesDripLocked":"Cette leçon se débloque selon un calendrier.","coursesVideoProcessing":"La vidéo est encore en cours de traitement. Revenez bientôt.","coursesVideoFailed":"Le traitement de la vidéo a échoué. Veuillez télécharger à nouveau la vidéo de la leçon depuis Course Studio.","coursesDetailLoading":"Chargement…","coursesDetailInstructor":"Instructeur","coursesDetailCurriculum":"Programme","coursesLevelBeginner":"Débutant","coursesLevelIntermediate":"Intermédiaire","coursesLevelAdvanced":"Avancé","coursesLessonUnsupported":"Ce type de leçon n'est pas encore pris en charge.","coursesLiveScheduled":"Session en direct programmée","coursesPreview":"Aperçu","coursesQuizError":"Échec du chargement du quiz.","coursesQuizLoading":"Chargement du quiz…","coursesQuizNone":"Aucun quiz pour cette leçon.","coursesQuizPassed":"Vous avez réussi !","coursesQuizRetry":"Réessayer.","coursesQuizSubmit":"Soumettre","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"jours","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Remise","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Veuillez entrer une adresse e-mail valide","emailRequired":"Veuillez entrer votre adresse e-mail","emptyCart":"Votre panier est vide","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erreur lors du chargement des options","featured":"En vedette","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUIT","freeAbove":"Gratuit à partir de","frequentlyBoughtTogether":"Souvent achetés ensemble","frequentlyBoughtTogetherSubtitle":"Gagnez du temps et obtenez tout ce dont vous avez besoin","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Accueil","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longueur","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Matériau","minimumOrderNotMet":"Montant minimum de commande : {{amount}}. Ajoutez {{remaining}} pour continuer.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Veuillez entrer votre nom complet","new":"Nouveau","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Votre boutique est prête pour les produits","previewEmptyStoreBody":"Ajoutez votre premier produit dans le gestionnaire de boutique pour le voir apparaître ici.","previewEmptyStoreButton":"Ajouter des produits","previewOnlyBadge":"Aperçu uniquement","noShippingMethods":"Aucune option de livraison disponible","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Rupture de stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Veuillez entrer votre numéro de téléphone","placeOrder":"Place Order","pleaseAcceptTerms":"Veuillez accepter les conditions générales","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procéder au paiement","productDetails":"Détails du produit","productNotFound":"Product not found","products":"Produits","profileUpdated":"Profile updated successfully","quantity":"Quantité","relatedProducts":"Produits similaires","remove":"Supprimer","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Soldes","saveAddressForNextTime":"Enregistrer cette adresse pour la prochaine fois","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Livraison","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Veuillez sélectionner un mode de livraison","signInHere":"Sign in here","size":"Taille","sku":"Référence","specifications":"Spécifications","startingAt":"À partir de","stateProvince":"État / Province","stateRequired":"Veuillez sélectionner un état / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informations supplémentaires","street":"Street Address","streetAndNumber":"Rue et numéro","streetRequired":"Veuillez entrer votre adresse","style":"Style","subtotal":"Sous-total","termsAndConditions":"Conditions Générales","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total à payer","transactionDate":"Transaction Date","upsellFree":"Gratuit","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"TVA incluse","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Voir les détails","viewOrder":"View Order","weight":"Poids","work":"Work","yourCart":"Votre panier","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Code postal","coursesAlreadyOwned":"Vous possédez déjà ce cours.","coursesAlreadyOwnedCheckout":"Vous êtes déjà inscrit à un cours dans votre panier.","coursesEnrollmentCheckFailed":"Impossible de vérifier la propriété du cours. Veuillez réessayer.","coursesAlreadyEnrolledPrompt":"Déjà inscrit ?","coursesLoginLink":"Se connecter","processing":"Traitement en cours...","checkoutFailed":"Le paiement a échoué. Veuillez réessayer."},"he":{"loading":"טוען…","accountWelcome":"ברוך הבא","addAddress":"הוסף כתובת","addBundleToCart":"הוספת {count} מוצרים לעגלה","addToCart":"הוסף לעגלה","addedToCart":"המוצר נוסף לעגלה!","addedToFavorites":"נוסף למועדפים","addressDeleted":"הכתובת נמחקה","addressLabel":"שם הכתובת","addressSaved":"הכתובת נשמרה בהצלחה","addresses":"כתובות","agreeToTerms":"אני מסכים/ה ל","all":"הכל","alreadyHaveAccount":"כבר יש לך חשבון?","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","applyCoupon":"החל","backToProducts":"חזרה למוצרים","browseFavorites":"גלו את כל המוצרים שלנו","bundleDiscount":"הנחת חבילה","bundleTotal":"סה\"כ לעגלה","callNow":"התקשר עכשיו","cancel":"ביטול","capacity":"קיבולת","cart":"עגלת קניות","category":"קטגוריה","checkout":"תשלום","city":"עיר","cityRequired":"נא להזין עיר","color":"צבע","confirmDelete":"האם אתה בטוח שברצונך למחוק?","contactInformation":"פרטי התקשרות","continueShopping":"להמשך קניות","continueToHomePage":"המשך לדף הבית","countryRegion":"מדינה / אזור","couponApplied":"הקופון הוחל בהצלחה!","couponCode":"קוד קופון","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","coursesCatalogEmpty":"אין קורסים זמינים עדיין.","coursesCatalogError":"נכשל בטעינת הקורסים.","coursesCatalogSubtitle":"עיינו בספריית הקורסים המלאה שלנו.","coursesCatalogTitle":"קורסים","coursesCertificateLoading":"מאמת…","coursesCertificateTitle":"אימות תעודה","coursesDetailEnroll":"הוסף לעגלה","coursesDetailResume":"המשך ללמוד","coursesDigitalDelivery":"גישה דיגיטלית מקוונת","coursesLessonCompleted":"הושלם","coursesLessonLoading":"טוען שיעור…","coursesLessonMarkComplete":"סימון כהושלם","coursesLessonNext":"הבא","coursesLessonPrev":"הקודם","coursesMyLearningEmpty":"עדיין לא נרשמתם לקורסים.","coursesMyLearningLoading":"טוען את הקורסים שלך…","coursesMyLearningSubtitle":"המשיכו מהמקום שבו עצרתם.","coursesMyLearningTitle":"הלמידה שלי","coursesCertCourse":"קורס","coursesCertDownload":"הורדה","coursesCertError":"האימות נכשל.","coursesCertInvalid":"לא ניתן לאמת את התעודה הזו.","coursesCertIssued":"הונפק","coursesCertStudent":"תלמיד","coursesCertValid":"מאומת","coursesCertIssuer":"הונפק על ידי","coursesCertCode":"קוד אימות","coursesViewCertificate":"צפייה בתעודה","coursesCertEarnedTitle":"הקורס הושלם!","coursesCertEarnedBody":"התעודה שלך מוכנה.","coursesCurriculumEmpty":"תכנית הלימודים תגיע בקרוב.","coursesFree":"חינם","coursesJoinLive":"הצטרף בשידור חי","coursesLessonGate":"הירשם לקורס זה כדי לגשת לשיעור זה.","coursesLessonLocked":"השיעור נעול","coursesLessonLoadError":"טעינת השיעור נכשלה.","coursesEnrollCta":"צפה בקורס והירשם","coursesEnrollmentRevoked":"ההרשמה שלך לקורס אינה פעילה יותר.","coursesDripLocked":"שיעור זה ייפתח לפי לוח זמנים.","coursesVideoProcessing":"הסרטון עדיין בעיבוד. נסה שוב בקרוב.","coursesVideoFailed":"עיבוד הסרטון נכשל. העלה מחדש את סרטון השיעור מ-Course Studio.","coursesDetailLoading":"טוען…","coursesDetailInstructor":"מדריך","coursesDetailCurriculum":"תכנית לימודים","coursesLevelBeginner":"מתחיל","coursesLevelIntermediate":"בינוני","coursesLevelAdvanced":"מתקדם","coursesLessonUnsupported":"סוג השיעור הזה עדיין לא נתמך.","coursesLiveScheduled":"מפגש חי מתוזמן","coursesPreview":"תצוגה מקדימה","coursesQuizError":"נכשל בטעינת החידון.","coursesQuizLoading":"טוען חידון...","coursesQuizNone":"אין חידון בשיעור זה.","coursesQuizPassed":"עברת בהצלחה!","coursesQuizRetry":"נסה שוב.","coursesQuizSubmit":"שלח","allCourses":"כל הקורסים","backToCourses":"חזרה לקורסים","coursesNav":"קורסים","featuredCourses":"קורסים מומלצים","loadingCourses":"טוען קורסים...","noFeaturedCourses":"עוד לא נבחרו קורסים מומלצים. צפו בכל הקורסים שלנו!","searchCourses":"חיפוש קורסים","customerInfo":"פרטי לקוח","customerLogin":"התחברות לקוחות","days":"ימים","defaultAddress":"כתובת ברירת מחדל","deleteAddress":"מחק כתובת","discount":"הנחה","editAddress":"ערוך כתובת","editProfile":"עריכת פרופיל","email":"אימייל","emailAddress":"כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","emailRequired":"נא להזין כתובת אימייל","emptyCart":"העגלה ריקה","enterCode":"הזן את הקוד שנשלח לאימייל שלך","enterCouponCode":"הזן קוד קופון","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","errorLoading":"שגיאה בטעינת האפשרויות","featured":"מומלצים","featuredCategories":"קנו לפי קטגוריה","featuredProducts":"מוצרים מומלצים","free":"חינם","freeAbove":"חינם מעל","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","fullName":"שם מלא","haveCouponCode":"יש לי קוד קופון","home":"דף הבית","inStock":"במלאי","inquiryAbout":"פנייה בנושא","invalidCoupon":"קוד קופון לא תקין","items":"פריטים","length":"אורך","linkCopied":"הקישור הועתק!","loadingOrder":"טוען פרטי הזמנה...","loadingPayment":"טוען אפשרויות תשלום...","loadingProducts":"טוען מוצרים...","loadingShipping":"טוען שיטות משלוח...","loggedInAs":"מחובר כ:","login":"התחברות","loginHere":"התחבר כאן","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","logout":"התנתק","material":"חומר","minimumOrderNotMet":"סכום מינימום להזמנה: {{amount}}. יש להוסיף עוד {{remaining}} כדי להמשיך.","mobileNumber":"מספר טלפון","myAccount":"החשבון שלי","myFavorites":"המועדפים שלי","name":"שם","nameRequired":"נא להזין שם מלא","new":"חדשים","next":"הבא","noAddresses":"אין כתובות שמורות","noFavorites":"אין עדיין מוצרים מועדפים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","noOrders":"אין עדיין הזמנות","noProducts":"אין מוצרים להצגה כרגע","previewEmptyStoreTitle":"החנות שלך מוכנה למוצרים","previewEmptyStoreBody":"הוסף את המוצר הראשון במנהל החנות כדי לראות אותו מופיע כאן.","previewEmptyStoreButton":"הוסף מוצרים","previewOnlyBadge":"תצוגה מקדימה בלבד","noShippingMethods":"אין אפשרויות משלוח זמינות","notLoggedIn":"לא מחובר","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderDate":"תאריך","orderDetails":"פרטי ההזמנה","orderItems":"פריטים בהזמנה","orderNotFound":"לא נמצאה הזמנה","orderNumber":"מספר הזמנה","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","orderStatus":"סטטוס","orderSuccess":"ההזמנה התקבלה!","orderSummary":"סיכום הזמנה","orderTotal":"סה\"כ","other":"אחר","ourProducts":"המוצרים שלנו","outOfStock":"אזל מהמלאי","paidAmount":"סכום ששולם","payment":"תשלום","paymentMethod":"אמצעי תשלום","paymentNotConfigured":"תשלום מקוון לא מוגדר","personalDetails":"פרטים אישיים","phone":"טלפון","phoneRequired":"נא להזין מספר טלפון","placeOrder":"בצע הזמנה","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","pleaseSelect":"נא לבחור","proceedToCheckout":"המשך לתשלום","productDetails":"פרטי המוצר","productNotFound":"המוצר לא נמצא","products":"מוצרים","profileUpdated":"הפרופיל עודכן בהצלחה","quantity":"כמות","relatedProducts":"מוצרים דומים","remove":"הסר","removeCoupon":"הסר","removeFromFavorites":"הסר ממועדפים","removedFromFavorites":"הוסר מהמועדפים","returnPolicy":"מדיניות החזרות","sale":"מבצעים","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","saveChanges":"שמור שינויים","saveToFavorites":"שמור למועדפים","saving":"שומר...","searchProducts":"חיפוש מוצרים","selectVariant":"בחר אפשרות","sendCode":"שלח קוד","sendInquiry":"שלח פנייה","setAsDefault":"הגדר כברירת מחדל","shareProduct":"שתף מוצר","shipping":"משלוח","shippingAddress":"כתובת למשלוח","shippingMethod":"שיטת משלוח","shippingRequired":"נא לבחור שיטת משלוח","signInHere":"התחבר כאן","size":"גודל","sku":"מק\"ט","specifications":"מפרט טכני","startingAt":"החל מ","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","statusCancelled":"בוטל","statusDelivered":"נמסר","statusPaid":"שולם","statusPending":"ממתין לתשלום","statusProcessing":"בטיפול","statusShipped":"נשלח","storeNote":"מידע נוסף","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","streetRequired":"נא להזין רחוב ומספר","style":"סגנון","subtotal":"סכום ביניים","termsAndConditions":"תנאי השימוש","thankYouOrder":"תודה על ההזמנה","total":"סה\"כ","totalToPay":"סה\"כ לתשלום","transactionDate":"תאריך עסקה","upsellFree":"חינם","variantUnavailable":"לא זמין","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","verificationCode":"קוד אימות","verify":"אמת","viewAllResults":"הצג את כל התוצאות","viewDetails":"לפרטים נוספים","viewOrder":"צפה בהזמנה","weight":"משקל","work":"עבודה","yourCart":"העגלה שלך","yourOrders":"ההזמנות שלך","zip":"מיקוד","zipPostal":"מיקוד","coursesAlreadyOwned":"כבר יש לך גישה לקורס זה.","coursesAlreadyOwnedCheckout":"כבר נרשמת לקורס שבעגלת הקניות.","coursesEnrollmentCheckFailed":"לא ניתן לאמת בעלות על הקורס. אנא נסה שוב.","coursesAlreadyEnrolledPrompt":"כבר נרשמת?","coursesLoginLink":"לכניסה","processing":"מעבד...","checkoutFailed":"שגיאה בתהליך התשלום. נסו שוב."},"it":{"loading":"Caricamento…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Aggiungi {count} articoli al carrello","addToCart":"Aggiungi al carrello","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Accetto i","all":"Tutti","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Appt., piano, codice edificio, note, ecc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Sconto pacchetto","bundleTotal":"Totale bundle","callNow":"Call Now","cancel":"Cancel","capacity":"Capacità","cart":"Cart","category":"Category","checkout":"Cassa","city":"Città","cityRequired":"Inserisci la tua città","color":"Colore","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continua lo shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Paese / Regione","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Nessun corso ancora disponibile.","coursesCatalogError":"Impossibile caricare i corsi.","coursesCatalogSubtitle":"Sfoglia la nostra libreria completa di corsi.","coursesCatalogTitle":"Corsi","coursesCertificateLoading":"Verifica in corso…","coursesCertificateTitle":"Verifica Certificato","coursesDetailEnroll":"Aggiungi al carrello","coursesDetailResume":"Riprendi l'apprendimento","coursesDigitalDelivery":"Accesso digitale online","coursesLessonCompleted":"Completato","coursesLessonLoading":"Caricamento lezione…","coursesLessonMarkComplete":"Segna come completato","coursesLessonNext":"Successivo","coursesLessonPrev":"Precedente","coursesMyLearningEmpty":"Non ti sei ancora iscritto a nessun corso.","coursesMyLearningLoading":"Caricamento dei tuoi corsi…","coursesMyLearningSubtitle":"Continua da dove avevi lasciato.","coursesMyLearningTitle":"Il Mio Apprendimento","coursesCertCourse":"Corso","coursesCertDownload":"Scarica","coursesCertError":"Verifica fallita.","coursesCertInvalid":"Questo certificato non può essere verificato.","coursesCertIssued":"Rilasciato","coursesCertStudent":"Studente","coursesCertValid":"Verificato","coursesCertIssuer":"Rilasciato da","coursesCertCode":"Codice di verifica","coursesViewCertificate":"Visualizza certificato","coursesCertEarnedTitle":"Corso completato!","coursesCertEarnedBody":"Il tuo certificato è pronto.","coursesCurriculumEmpty":"Programma in arrivo.","coursesFree":"Gratuito","coursesJoinLive":"Partecipa dal vivo","coursesLessonGate":"Iscriviti a questo corso per accedere a questa lezione.","coursesLessonLocked":"Lezione bloccata","coursesLessonLoadError":"Impossibile caricare la lezione.","coursesEnrollCta":"Visualizza corso e iscriviti","coursesEnrollmentRevoked":"La tua iscrizione non è più attiva.","coursesDripLocked":"Questa lezione si sblocca secondo un programma.","coursesVideoProcessing":"Il video è ancora in elaborazione. Ricontrolla presto.","coursesVideoFailed":"Elaborazione video fallita. Si prega di ricaricare il video della lezione da Course Studio.","coursesDetailLoading":"Caricamento…","coursesDetailInstructor":"Istruttore","coursesDetailCurriculum":"Programma","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzato","coursesLessonUnsupported":"Questo tipo di lezione non è ancora supportato.","coursesLiveScheduled":"Sessione dal vivo programmata","coursesPreview":"Anteprima","coursesQuizError":"Impossibile caricare il quiz.","coursesQuizLoading":"Caricamento quiz…","coursesQuizNone":"Nessun quiz per questa lezione.","coursesQuizPassed":"Hai superato!","coursesQuizRetry":"Riprova.","coursesQuizSubmit":"Invia","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"giorni","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Sconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Inserisci un indirizzo email valido","emailRequired":"Inserisci il tuo indirizzo email","emptyCart":"Il tuo carrello è vuoto","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Errore nel caricamento delle opzioni","featured":"In evidenza","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUITA","freeAbove":"Gratuita sopra","frequentlyBoughtTogether":"Spesso acquistati insieme","frequentlyBoughtTogetherSubtitle":"Risparmia tempo e prendi tutto ciò che ti serve","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"Disponibile","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Lunghezza","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Materiale","minimumOrderNotMet":"Importo minimo dell'ordine: {{amount}}. Aggiungi altri {{remaining}} per procedere.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Inserisci il tuo nome completo","new":"Novità","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Il tuo negozio è pronto per i prodotti","previewEmptyStoreBody":"Aggiungi il tuo primo prodotto nel Gestore negozio per vederlo apparire qui.","previewEmptyStoreButton":"Aggiungi prodotti","previewOnlyBadge":"Solo anteprima","noShippingMethods":"Nessuna opzione di spedizione disponibile","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esaurito","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Inserisci il tuo numero di telefono","placeOrder":"Place Order","pleaseAcceptTerms":"Si prega di accettare i termini e le condizioni","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procedi al pagamento","productDetails":"Dettagli prodotto","productNotFound":"Product not found","products":"Prodotti","profileUpdated":"Profile updated successfully","quantity":"Quantità","relatedProducts":"Prodotti correlati","remove":"Rimuovi","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Saldi","saveAddressForNextTime":"Salva questo indirizzo per la prossima volta","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Spedizione","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Seleziona un metodo di spedizione","signInHere":"Sign in here","size":"Taglia","sku":"Codice","specifications":"Specifiche","startingAt":"A partire da","stateProvince":"Stato / Provincia","stateRequired":"Seleziona uno stato / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informazioni aggiuntive","street":"Street Address","streetAndNumber":"Via e numero","streetRequired":"Inserisci il tuo indirizzo","style":"Stile","subtotal":"Subtotale","termsAndConditions":"Termini e Condizioni","thankYouOrder":"Thank you for your order","total":"Totale","totalToPay":"Totale da Pagare","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA inclusa","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Vedi dettagli","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Il tuo carrello","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CAP","coursesAlreadyOwned":"Possiedi già questo corso.","coursesAlreadyOwnedCheckout":"Sei già iscritto a un corso nel carrello.","coursesEnrollmentCheckFailed":"Impossibile verificare la proprietà del corso. Riprova.","coursesAlreadyEnrolledPrompt":"Già iscritto?","coursesLoginLink":"Accedi","processing":"Elaborazione...","checkoutFailed":"Il pagamento non è riuscito. Riprova."},"ja":{"loading":"読み込み中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} 点をカートに追加","addToCart":"カートに追加","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"私は同意します","all":"すべて","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"部屋番号、階、建物コード、備考など","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"バンドル割引","bundleTotal":"セット合計","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"お会計","city":"市区町村","cityRequired":"市区町村を入力してください","color":"色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"買い物を続ける","continueToHomePage":"Continue to Home Page","countryRegion":"国 / 地域","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"まだコースがありません。","coursesCatalogError":"コースの読み込みに失敗しました。","coursesCatalogSubtitle":"全コースライブラリをご覧ください。","coursesCatalogTitle":"コース","coursesCertificateLoading":"確認中…","coursesCertificateTitle":"証明書の確認","coursesDetailEnroll":"カートに追加","coursesDetailResume":"学習を再開する","coursesDigitalDelivery":"デジタルオンラインアクセス","coursesLessonCompleted":"完了","coursesLessonLoading":"レッスンを読み込み中…","coursesLessonMarkComplete":"完了にする","coursesLessonNext":"次へ","coursesLessonPrev":"前へ","coursesMyLearningEmpty":"まだコースに登録していません。","coursesMyLearningLoading":"コースを読み込み中…","coursesMyLearningSubtitle":"中断したところから続けましょう。","coursesMyLearningTitle":"マイラーニング","coursesCertCourse":"コース","coursesCertDownload":"ダウンロード","coursesCertError":"認証に失敗しました。","coursesCertInvalid":"この証明書は認証できませんでした。","coursesCertIssued":"発行日","coursesCertStudent":"受講者","coursesCertValid":"認証済み","coursesCertIssuer":"発行者","coursesCertCode":"確認コード","coursesViewCertificate":"証明書を表示","coursesCertEarnedTitle":"コース修了！","coursesCertEarnedBody":"証明書の準備ができました。","coursesCurriculumEmpty":"カリキュラムは近日公開予定です。","coursesFree":"無料","coursesJoinLive":"ライブに参加","coursesLessonGate":"このレッスンにアクセスするには、このコースに登録してください。","coursesLessonLocked":"レッスンはロックされています","coursesLessonLoadError":"レッスンの読み込みに失敗しました。","coursesEnrollCta":"コースを見る・申し込む","coursesEnrollmentRevoked":"あなたの登録は無効になりました。","coursesDripLocked":"このレッスンはスケジュールに従って解除されます。","coursesVideoProcessing":"動画はまだ処理中です。しばらくしてからもう一度確認してください。","coursesVideoFailed":"動画の処理に失敗しました。Course Studioからレッスン動画を再アップロードしてください。","coursesDetailLoading":"読み込み中…","coursesDetailInstructor":"講師","coursesDetailCurriculum":"カリキュラム","coursesLevelBeginner":"初級","coursesLevelIntermediate":"中級","coursesLevelAdvanced":"上級","coursesLessonUnsupported":"このレッスンタイプはまだサポートされていません。","coursesLiveScheduled":"ライブセッション予定","coursesPreview":"プレビュー","coursesQuizError":"クイズの読み込みに失敗しました。","coursesQuizLoading":"クイズを読み込み中…","coursesQuizNone":"このレッスンにはクイズがありません。","coursesQuizPassed":"合格しました！","coursesQuizRetry":"もう一度挑戦する。","coursesQuizSubmit":"提出","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"日","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"割引","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"有効なメールアドレスを入力してください","emailRequired":"メールアドレスを入力してください","emptyCart":"カートは空です","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"オプションの読み込みエラー","featured":"おすすめ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"無料","freeAbove":"以上で送料無料","frequentlyBoughtTogether":"よく一緒に購入されています","frequentlyBoughtTogetherSubtitle":"必要なものをまとめて手早く揃えましょう","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"ホーム","inStock":"在庫あり","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"長さ","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"素材","minimumOrderNotMet":"最低注文金額: {{amount}}。あと{{remaining}}追加してください。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"フルネームを入力してください","new":"新着","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ストアに商品を追加できます","previewEmptyStoreBody":"ストアマネージャーで最初の商品を追加すると、ここに表示されます。","previewEmptyStoreButton":"商品を追加","previewOnlyBadge":"プレビューのみ","noShippingMethods":"配送オプションがありません","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"在庫切れ","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"電話番号を入力してください","placeOrder":"Place Order","pleaseAcceptTerms":"利用規約に同意してください","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"お会計に進む","productDetails":"商品詳細","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"関連商品","remove":"削除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"セール","saveAddressForNextTime":"この住所を次回のために保存","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"送料","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"配送方法を選択してください","signInHere":"Sign in here","size":"サイズ","sku":"商品コード","specifications":"仕様","startingAt":"〜から","stateProvince":"都道府県","stateRequired":"都道府県を選択してください","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"追加情報","street":"Street Address","streetAndNumber":"番地","streetRequired":"住所を入力してください","style":"スタイル","subtotal":"小計","termsAndConditions":"利用規約","thankYouOrder":"Thank you for your order","total":"合計","totalToPay":"お支払い合計","transactionDate":"Transaction Date","upsellFree":"無料","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"税込み","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"詳細を見る","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"カート","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"郵便番号","coursesAlreadyOwned":"このコースはすでに所有しています。","coursesAlreadyOwnedCheckout":"カート内のコースにはすでに登録済みです。","coursesEnrollmentCheckFailed":"コース所有権を確認できませんでした。もう一度お試しください。","coursesAlreadyEnrolledPrompt":"すでに受講済みですか？","coursesLoginLink":"ログイン","processing":"処理中...","checkoutFailed":"お支払いに失敗しました。もう一度お試しください。"},"lt":{"loading":"Įkeliama…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Pridėti {count} prekių į krepšelį","addToCart":"Į krepšelį","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Sutinku su","all":"Visi","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Butas, aukštas, pastato kodas, pastabos ir kt.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Paketo nuolaida","bundleTotal":"Rinkinio iš viso","callNow":"Call Now","cancel":"Cancel","capacity":"Talpa","cart":"Cart","category":"Category","checkout":"Apmokėti","city":"Miestas","cityRequired":"Prašome įvesti miestą","color":"Spalva","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Tęsti apsipirkimą","continueToHomePage":"Continue to Home Page","countryRegion":"Šalis / regionas","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Kursų dar nėra.","coursesCatalogError":"Nepavyko įkelti kursų.","coursesCatalogSubtitle":"Naršykite visą mūsų kursų biblioteką.","coursesCatalogTitle":"Kursai","coursesCertificateLoading":"Tikrinama…","coursesCertificateTitle":"Sertifikato patvirtinimas","coursesDetailEnroll":"Į krepšelį","coursesDetailResume":"Tęsti mokymąsi","coursesDigitalDelivery":"Skaitmeninis prieigos internetu","coursesLessonCompleted":"Užbaigta","coursesLessonLoading":"Kraunama pamoka…","coursesLessonMarkComplete":"Pažymėti kaip baigtą","coursesLessonNext":"Kitas","coursesLessonPrev":"Ankstesnis","coursesMyLearningEmpty":"Dar nesate užsiregistravę į jokius kursus.","coursesMyLearningLoading":"Kraunami jūsų kursai…","coursesMyLearningSubtitle":"Tęskite ten, kur sustojote.","coursesMyLearningTitle":"Mano mokymasis","coursesCertCourse":"Kursas","coursesCertDownload":"Atsisiųsti","coursesCertError":"Patikrinimas nepavyko.","coursesCertInvalid":"Šio sertifikato nepavyko patikrinti.","coursesCertIssued":"Išduotas","coursesCertStudent":"Studentas","coursesCertValid":"Patikrintas","coursesCertIssuer":"Išdavė","coursesCertCode":"Patvirtinimo kodas","coursesViewCertificate":"Peržiūrėti sertifikatą","coursesCertEarnedTitle":"Kursas baigtas!","coursesCertEarnedBody":"Jūsų sertifikatas paruoštas.","coursesCurriculumEmpty":"Programa bus pateikta netrukus.","coursesFree":"Nemokamas","coursesJoinLive":"Prisijungti prie tiesioginės transliacijos","coursesLessonGate":"Užsiregistruokite į šį kursą, kad galėtumėte pasiekti šią pamoką.","coursesLessonLocked":"Pamoka užrakinta","coursesLessonLoadError":"Nepavyko įkelti pamokos.","coursesEnrollCta":"Peržiūrėti kursą ir registruotis","coursesEnrollmentRevoked":"Jūsų registracija nebegalioja.","coursesDripLocked":"Ši pamoka atsirakins pagal grafiką.","coursesVideoProcessing":"Vaizdo įrašas vis dar apdorojamas. Grįžkite vėliau.","coursesVideoFailed":"Vaizdo įrašo apdorojimas nepavyko. Prašome iš naujo įkelti pamokos vaizdo įrašą iš Course Studio.","coursesDetailLoading":"Kraunama…","coursesDetailInstructor":"Instruktorius","coursesDetailCurriculum":"Programa","coursesLevelBeginner":"Pradedantysis","coursesLevelIntermediate":"Vidutinis","coursesLevelAdvanced":"Pažengęs","coursesLessonUnsupported":"Šis pamokos tipas dar nepalaikomas.","coursesLiveScheduled":"Suplanuotas tiesioginis seansas","coursesPreview":"Peržiūra","coursesQuizError":"Nepavyko įkelti testo.","coursesQuizLoading":"Įkeliamas testas…","coursesQuizNone":"Šioje pamokoje nėra testo.","coursesQuizPassed":"Jūs išlaikėte!","coursesQuizRetry":"Bandyti dar kartą.","coursesQuizSubmit":"Pateikti","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dienos","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Nuolaida","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Prašome įvesti teisingą el. pašto adresą","emailRequired":"Prašome įvesti el. paštą","emptyCart":"Jūsų krepšelis tuščias","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Klaida įkeliant parinktis","featured":"Rekomenduojami","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"NEMOKAMAS","freeAbove":"Nemokamas nuo","frequentlyBoughtTogether":"Dažnai perkama kartu","frequentlyBoughtTogetherSubtitle":"Sutaupykite laiko ir gaukite viską, ko reikia","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Pagrindinis","inStock":"Yra sandėlyje","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Ilgis","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Medžiaga","minimumOrderNotMet":"Minimali užsakymo suma: {{amount}}. Pridėkite dar {{remaining}}, kad galėtumėte tęsti.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Prašome įvesti vardą ir pavardę","new":"Naujiena","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Jūsų parduotuvė paruošta produktams","previewEmptyStoreBody":"Pridėkite pirmąjį produktą parduotuvės tvarkyklėje, kad jis atsirastų čia.","previewEmptyStoreButton":"Pridėti produktų","previewOnlyBadge":"Tik peržiūrai","noShippingMethods":"Pristatymo būdų nėra","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Išparduota","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Prašome įvesti telefono numerį","placeOrder":"Place Order","pleaseAcceptTerms":"Prašome sutikti su taisyklėmis ir sąlygomis","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Pereiti prie apmokėjimo","productDetails":"Prekės detalės","productNotFound":"Product not found","products":"Prekės","profileUpdated":"Profile updated successfully","quantity":"Kiekis","relatedProducts":"Susijusios prekės","remove":"Pašalinti","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Išpardavimas","saveAddressForNextTime":"Išsaugoti šį adresą kitam kartui","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Pristatymas","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Prašome pasirinkti pristatymo būdą","signInHere":"Sign in here","size":"Dydis","sku":"Kodas","specifications":"Specifikacijos","startingAt":"Nuo","stateProvince":"Apskritis / rajonas","stateRequired":"Prašome pasirinkti apskritį / rajoną","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Papildoma informacija","street":"Street Address","streetAndNumber":"Gatvė ir namo numeris","streetRequired":"Prašome įvesti adresą","style":"Stilius","subtotal":"Tarpinė suma","termsAndConditions":"taisyklėmis ir sąlygomis","thankYouOrder":"Thank you for your order","total":"Iš viso","totalToPay":"Iš viso mokėti","transactionDate":"Transaction Date","upsellFree":"Nemokama","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Įskaitant PVM","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Peržiūrėti","viewOrder":"View Order","weight":"Svoris","work":"Work","yourCart":"Jūsų krepšelis","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Pašto kodas","coursesAlreadyOwned":"Jau turite prieigą prie šio kurso.","coursesAlreadyOwnedCheckout":"Jau esate užsiregistravę į kursą krepšelyje.","coursesEnrollmentCheckFailed":"Nepavyko patikrinti kurso nuosavybės. Bandykite dar kartą.","coursesAlreadyEnrolledPrompt":"Jau užsiregistravote?","coursesLoginLink":"Prisijunkite","processing":"Apdorojama...","checkoutFailed":"Mokėjimas nepavyko. Bandykite dar kartą."},"pt":{"loading":"Carregando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Adicionar {count} itens ao carrinho","addToCart":"Adicionar ao carrinho","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Eu concordo com os","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apto, andar, código do edifício, observações, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Desconto de pacote","bundleTotal":"Total do pacote","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidade","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Cidade","cityRequired":"Por favor, insira sua cidade","color":"Cor","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuar comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Região","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Ainda não há cursos disponíveis.","coursesCatalogError":"Falha ao carregar cursos.","coursesCatalogSubtitle":"Navegue por nossa biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificação de Certificado","coursesDetailEnroll":"Adicionar ao carrinho","coursesDetailResume":"Continuar aprendendo","coursesDigitalDelivery":"Acesso digital online","coursesLessonCompleted":"Concluído","coursesLessonLoading":"Carregando lição…","coursesLessonMarkComplete":"Marcar como concluído","coursesLessonNext":"Próximo","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Você ainda não se inscreveu em nenhum curso.","coursesMyLearningLoading":"Carregando seus cursos…","coursesMyLearningSubtitle":"Continue de onde parou.","coursesMyLearningTitle":"Meu Aprendizado","coursesCertCourse":"Curso","coursesCertDownload":"Baixar","coursesCertError":"Verificação falhou.","coursesCertInvalid":"Este certificado não pôde ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificação","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"Curso concluído!","coursesCertEarnedBody":"Seu certificado está pronto.","coursesCurriculumEmpty":"Currículo em breve.","coursesFree":"Grátis","coursesJoinLive":"Participar ao vivo","coursesLessonGate":"Inscreva-se neste curso para acessar esta aula.","coursesLessonLocked":"Lição bloqueada","coursesLessonLoadError":"Falha ao carregar a lição.","coursesEnrollCta":"Ver curso e inscrever-se","coursesEnrollmentRevoked":"Sua inscrição não está mais ativa.","coursesDripLocked":"Esta lição será desbloqueada conforme cronograma.","coursesVideoProcessing":"Vídeo ainda está sendo processado. Volte em breve.","coursesVideoFailed":"Falha no processamento do vídeo. Por favor, faça o upload novamente do vídeo da aula no Course Studio.","coursesDetailLoading":"Carregando…","coursesDetailInstructor":"Instrutor","coursesDetailCurriculum":"Currículo","coursesLevelBeginner":"Iniciante","coursesLevelIntermediate":"Intermediário","coursesLevelAdvanced":"Avançado","coursesLessonUnsupported":"Este tipo de aula ainda não é suportado.","coursesLiveScheduled":"Sessão ao vivo agendada","coursesPreview":"Visualizar","coursesQuizError":"Falha ao carregar quiz.","coursesQuizLoading":"Carregando quiz…","coursesQuizNone":"Nenhum quiz nesta aula.","coursesQuizPassed":"Você passou!","coursesQuizRetry":"Tente novamente.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dias","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Desconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, insira um e-mail válido","emailRequired":"Por favor, insira seu e-mail","emptyCart":"Seu carrinho está vazio","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erro ao carregar opções","featured":"Destaques","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRÁTIS","freeAbove":"Grátis acima de","frequentlyBoughtTogether":"Frequentemente comprados juntos","frequentlyBoughtTogetherSubtitle":"Economize tempo e leve tudo o que precisa","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Início","inStock":"Em estoque","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Comprimento","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Valor mínimo do pedido: {{amount}}. Adicione mais {{remaining}} para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, insira seu nome completo","new":"Novidades","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Sua loja está pronta para produtos","previewEmptyStoreBody":"Adicione seu primeiro produto no Gerenciador da loja para vê-lo aparecer aqui.","previewEmptyStoreButton":"Adicionar produtos","previewOnlyBadge":"Somente pré-visualização","noShippingMethods":"Nenhuma opção de envio disponível","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esgotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, insira seu telefone","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, aceite os termos e condições","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ir para o pagamento","productDetails":"Detalhes do produto","productNotFound":"Product not found","products":"Produtos","profileUpdated":"Profile updated successfully","quantity":"Quantidade","relatedProducts":"Produtos relacionados","remove":"Remover","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Promoção","saveAddressForNextTime":"Salvar este endereço para a próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envio","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, selecione um método de envio","signInHere":"Sign in here","size":"Tamanho","sku":"Código","specifications":"Especificações","startingAt":"A partir de","stateProvince":"Estado / Província","stateRequired":"Por favor, selecione um estado / província","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informações adicionais","street":"Street Address","streetAndNumber":"Rua e número","streetRequired":"Por favor, insira seu endereço","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Termos e Condições","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Grátis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluído","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalhes","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Seu carrinho","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CEP / Código Postal","coursesAlreadyOwned":"Você já possui este curso.","coursesAlreadyOwnedCheckout":"Você já está inscrito em um curso no carrinho.","coursesEnrollmentCheckFailed":"Não foi possível verificar a propriedade do curso. Tente novamente.","coursesAlreadyEnrolledPrompt":"Já está inscrito?","coursesLoginLink":"Entrar","processing":"Processando...","checkoutFailed":"Falha no pagamento. Tente novamente."},"ru":{"loading":"Загрузка…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добавить {count} товаров в корзину","addToCart":"В корзину","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Я соглашаюсь с","all":"Все","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Кв., этаж, код дома, заметки и т.д.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Скидка за набор","bundleTotal":"Итого набор","callNow":"Call Now","cancel":"Cancel","capacity":"Объем","cart":"Cart","category":"Category","checkout":"Оформить заказ","city":"Город","cityRequired":"Пожалуйста, введите город","color":"Цвет","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продолжить покупки","continueToHomePage":"Continue to Home Page","countryRegion":"Страна / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Курсы пока недоступны.","coursesCatalogError":"Не удалось загрузить курсы.","coursesCatalogSubtitle":"Просмотрите нашу полную библиотеку курсов.","coursesCatalogTitle":"Курсы","coursesCertificateLoading":"Проверка…","coursesCertificateTitle":"Проверка сертификата","coursesDetailEnroll":"В корзину","coursesDetailResume":"Продолжить обучение","coursesDigitalDelivery":"Цифровой онлайн-доступ","coursesLessonCompleted":"Завершено","coursesLessonLoading":"Загрузка урока…","coursesLessonMarkComplete":"Отметить как завершенный","coursesLessonNext":"Далее","coursesLessonPrev":"Назад","coursesMyLearningEmpty":"Вы еще не записались ни на один курс.","coursesMyLearningLoading":"Загрузка ваших курсов…","coursesMyLearningSubtitle":"Продолжите с того места, где остановились.","coursesMyLearningTitle":"Мое обучение","coursesCertCourse":"Курс","coursesCertDownload":"Скачать","coursesCertError":"Проверка не удалась.","coursesCertInvalid":"Этот сертификат не удалось проверить.","coursesCertIssued":"Выдан","coursesCertStudent":"Студент","coursesCertValid":"Проверен","coursesCertIssuer":"Выдано","coursesCertCode":"Код проверки","coursesViewCertificate":"Посмотреть сертификат","coursesCertEarnedTitle":"Курс завершён!","coursesCertEarnedBody":"Ваш сертификат готов.","coursesCurriculumEmpty":"Программа курса скоро появится.","coursesFree":"Бесплатно","coursesJoinLive":"Присоединиться к прямому эфиру","coursesLessonGate":"Запишитесь на этот курс, чтобы получить доступ к этому уроку.","coursesLessonLocked":"Урок заблокирован","coursesLessonLoadError":"Не удалось загрузить урок.","coursesEnrollCta":"Посмотреть курс и записаться","coursesEnrollmentRevoked":"Ваша регистрация больше не активна.","coursesDripLocked":"Этот урок откроется по расписанию.","coursesVideoProcessing":"Видео все еще обрабатывается. Проверьте позже.","coursesVideoFailed":"Обработка видео не удалась. Пожалуйста, повторно загрузите видео урока из Course Studio.","coursesDetailLoading":"Загрузка…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебная программа","coursesLevelBeginner":"Начинающий","coursesLevelIntermediate":"Средний","coursesLevelAdvanced":"Продвинутый","coursesLessonUnsupported":"Этот тип урока пока не поддерживается.","coursesLiveScheduled":"Запланирована прямая трансляция","coursesPreview":"Предварительный просмотр","coursesQuizError":"Не удалось загрузить тест.","coursesQuizLoading":"Загрузка теста…","coursesQuizNone":"В этом уроке нет теста.","coursesQuizPassed":"Вы прошли тест!","coursesQuizRetry":"Попробовать снова.","coursesQuizSubmit":"Отправить","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дней","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Скидка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Пожалуйста, введите корректный email","emailRequired":"Пожалуйста, введите ваш email","emptyCart":"Корзина пуста","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Ошибка загрузки вариантов","featured":"Рекомендуемые","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕСПЛАТНО","freeAbove":"Бесплатно от","frequentlyBoughtTogether":"Часто покупают вместе","frequentlyBoughtTogetherSubtitle":"Экономьте время и получите все необходимое","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Главная","inStock":"В наличии","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Длина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимальная сумма заказа: {{amount}}. Добавьте ещё {{remaining}} для продолжения.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Пожалуйста, введите ваше полное имя","new":"Новинки","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Ваш магазин готов к товарам","previewEmptyStoreBody":"Добавьте первый товар в менеджере магазина, чтобы увидеть его здесь.","previewEmptyStoreButton":"Добавить товары","previewOnlyBadge":"Только в предпросмотре","noShippingMethods":"Варианты доставки недоступны","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Нет в наличии","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Пожалуйста, введите номер телефона","placeOrder":"Place Order","pleaseAcceptTerms":"Пожалуйста, примите условия использования","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Перейти к оплате","productDetails":"Описание товара","productNotFound":"Product not found","products":"Товары","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Похожие товары","remove":"Удалить","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Распродажа","saveAddressForNextTime":"Сохранить этот адрес на будущее","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Пожалуйста, выберите способ доставки","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Характеристики","startingAt":"От","stateProvince":"Штат / Область","stateRequired":"Пожалуйста, выберите штат / область","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Дополнительная информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Пожалуйста, введите адрес","style":"Стиль","subtotal":"Подытог","termsAndConditions":"Условиями использования","thankYouOrder":"Thank you for your order","total":"Итого","totalToPay":"Итого к оплате","transactionDate":"Transaction Date","upsellFree":"Бесплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включая НДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Подробнее","viewOrder":"View Order","weight":"Вес","work":"Work","yourCart":"Ваша корзина","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Почтовый индекс","coursesAlreadyOwned":"У вас уже есть доступ к этому курсу.","coursesAlreadyOwnedCheckout":"Вы уже записаны на курс из корзины.","coursesEnrollmentCheckFailed":"Не удалось подтвердить владение курсом. Пожалуйста, попробуйте снова.","coursesAlreadyEnrolledPrompt":"Уже записаны?","coursesLoginLink":"Войти","processing":"Обработка...","checkoutFailed":"Ошибка оплаты. Пожалуйста, попробуйте снова."},"th":{"loading":"กำลังโหลด…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"เพิ่ม {count} รายการลงตะกร้า","addToCart":"เพิ่มลงตะกร้า","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"ฉันยอมรับ","all":"ทั้งหมด","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"ห้อง, ชั้น, รหัสอาคาร, หมายเหตุ ฯลฯ","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"ส่วนลดชุด","bundleTotal":"ยอดรวมแพ็กเกจ","callNow":"Call Now","cancel":"Cancel","capacity":"ความจุ","cart":"Cart","category":"Category","checkout":"ชำระเงิน","city":"จังหวัด","cityRequired":"กรุณากรอกจังหวัด","color":"สี","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"เลือกซื้อสินค้าต่อ","continueToHomePage":"Continue to Home Page","countryRegion":"ประเทศ / ภูมิภาค","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"ยังไม่มีคอร์สเรียนที่พร้อมใช้งาน","coursesCatalogError":"โหลดคอร์สเรียนไม่สำเร็จ","coursesCatalogSubtitle":"เรียนดูคอร์สเรียนทั้งหมดของเรา","coursesCatalogTitle":"คอร์สเรียน","coursesCertificateLoading":"กำลังตรวจสอบ…","coursesCertificateTitle":"การตรวจสอบใบประกาศนียบัตร","coursesDetailEnroll":"เพิ่มลงตะกร้า","coursesDetailResume":"เรียนต่อ","coursesDigitalDelivery":"การเข้าถึงออนไลน์แบบดิจิทัล","coursesLessonCompleted":"เสร็จสมบูรณ์","coursesLessonLoading":"กำลังโหลดบทเรียน…","coursesLessonMarkComplete":"ทำเครื่องหมายว่าเสร็จสิ้น","coursesLessonNext":"ถัดไป","coursesLessonPrev":"ก่อนหน้า","coursesMyLearningEmpty":"คุณยังไม่ได้ลงทะเบียนเรียนคอร์สใดๆ","coursesMyLearningLoading":"กำลังโหลดคอร์สของคุณ…","coursesMyLearningSubtitle":"เรียนต่อจากจุดที่คุณหยุดไว้","coursesMyLearningTitle":"การเรียนของฉัน","coursesCertCourse":"คอร์สเรียน","coursesCertDownload":"ดาวน์โหลด","coursesCertError":"การตรวจสอบไม่สำเร็จ","coursesCertInvalid":"ไม่สามารถตรวจสอบใบประกาศนียบัตรนี้ได้","coursesCertIssued":"ออกให้เมื่อ","coursesCertStudent":"นักเรียน","coursesCertValid":"ตรวจสอบแล้ว","coursesCertIssuer":"ออกโดย","coursesCertCode":"รหัสยืนยัน","coursesViewCertificate":"ดูใบรับรอง","coursesCertEarnedTitle":"เรียนจบหลักสูตรแล้ว!","coursesCertEarnedBody":"ใบรับรองของคุณพร้อมแล้ว","coursesCurriculumEmpty":"หลักสูตรจะเปิดให้เร็วๆ นี้","coursesFree":"ฟรี","coursesJoinLive":"เข้าร่วมสด","coursesLessonGate":"ลงทะเบียนเรียนคอร์สนี้เพื่อเข้าถึงบทเรียนนี้","coursesLessonLocked":"บทเรียนถูกล็อค","coursesLessonLoadError":"ไม่สามารถโหลดบทเรียนได้","coursesEnrollCta":"ดูคอร์สและลงทะเบียน","coursesEnrollmentRevoked":"การลงทะเบียนของคุณไม่ได้ใช้งานอีกต่อไป","coursesDripLocked":"บทเรียนนี้จะปลดล็อคตามกำหนดการ","coursesVideoProcessing":"วิดีโอยังอยู่ระหว่างการประมวลผล กรุณาตรวจสอบอีกครั้งในภายหลัง","coursesVideoFailed":"การประมวลผลวิดีโอล้มเหลว กรุณาอัปโหลดวิดีโอบทเรียนใหม่จาก Course Studio","coursesDetailLoading":"กำลังโหลด…","coursesDetailInstructor":"ผู้สอน","coursesDetailCurriculum":"หลักสูตร","coursesLevelBeginner":"ผู้เริ่มต้น","coursesLevelIntermediate":"ระดับกลาง","coursesLevelAdvanced":"ระดับสูง","coursesLessonUnsupported":"ประเภทบทเรียนนี้ยังไม่รองรับ","coursesLiveScheduled":"กำหนดการเรียนสดแล้ว","coursesPreview":"ดูตัวอย่าง","coursesQuizError":"โหลดแบบทดสอบไม่สำเร็จ","coursesQuizLoading":"กำลังโหลดแบบทดสอบ…","coursesQuizNone":"ไม่มีแบบทดสอบในบทเรียนนี้","coursesQuizPassed":"คุณผ่านแล้ว!","coursesQuizRetry":"ลองใหม่อีกครั้ง","coursesQuizSubmit":"ส่งคำตอบ","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"วัน","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"ส่วนลด","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"กรุณากรอกอีเมลที่ถูกต้อง","emailRequired":"กรุณากรอกอีเมล","emptyCart":"ตะกร้าของคุณว่างเปล่า","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"เกิดข้อผิดพลาดในการโหลดตัวเลือก","featured":"แนะนำ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ฟรี","freeAbove":"ฟรีเมื่อซื้อครบ","frequentlyBoughtTogether":"มักซื้อด้วยกัน","frequentlyBoughtTogetherSubtitle":"ประหยัดเวลาและได้ทุกอย่างที่คุณต้องการ","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"หน้าแรก","inStock":"มีสินค้า","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"ความยาว","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"วัสดุ","minimumOrderNotMet":"ยอดสั่งซื้อขั้นต่ำ: {{amount}} กรุณาเพิ่มอีก {{remaining}} เพื่อดำเนินการต่อ","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"กรุณากรอกชื่อ-นามสกุล","new":"ใหม่","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ร้านค้าของคุณพร้อมสำหรับสินค้าแล้ว","previewEmptyStoreBody":"เพิ่มสินค้าชิ้นแรกในตัวจัดการร้านค้าเพื่อดูว่าสินค้าจะแสดงที่นี่","previewEmptyStoreButton":"เพิ่มสินค้า","previewOnlyBadge":"เฉพาะตัวอย่าง","noShippingMethods":"ไม่มีตัวเลือกการจัดส่ง","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"สินค้าหมด","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"กรุณากรอกเบอร์โทรศัพท์","placeOrder":"Place Order","pleaseAcceptTerms":"กรุณายอมรับข้อกำหนดและเงื่อนไข","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"ดำเนินการชำระเงิน","productDetails":"รายละเอียดสินค้า","productNotFound":"Product not found","products":"สินค้า","profileUpdated":"Profile updated successfully","quantity":"จำนวน","relatedProducts":"สินค้าที่เกี่ยวข้อง","remove":"ลบ","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"ลดราคา","saveAddressForNextTime":"บันทึกที่อยู่นี้สำหรับครั้งหน้า","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"การจัดส่ง","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"กรุณาเลือกวิธีการจัดส่ง","signInHere":"Sign in here","size":"ขนาด","sku":"รหัสสินค้า","specifications":"ข้อมูลจำเพาะ","startingAt":"เริ่มต้นที่","stateProvince":"จังหวัด / รัฐ","stateRequired":"กรุณาเลือกจังหวัด / รัฐ","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"ข้อมูลเพิ่มเติม","street":"Street Address","streetAndNumber":"ถนนและเลขที่","streetRequired":"กรุณากรอกที่อยู่","style":"สไตล์","subtotal":"ยอดรวมย่อย","termsAndConditions":"ข้อกำหนดและเงื่อนไข","thankYouOrder":"Thank you for your order","total":"รวม","totalToPay":"ยอดรวมที่ต้องชำระ","transactionDate":"Transaction Date","upsellFree":"ฟรี","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"รวม VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"ดูรายละเอียด","viewOrder":"View Order","weight":"น้ำหนัก","work":"Work","yourCart":"ตะกร้าของคุณ","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"รหัสไปรษณีย์","coursesAlreadyOwned":"คุณมีคอร์สนี้อยู่แล้ว","coursesAlreadyOwnedCheckout":"คุณลงทะเบียนคอร์สในตะกร้าแล้ว","coursesEnrollmentCheckFailed":"ไม่สามารถตรวจสอบความเป็นเจ้าของคอร์สได้ กรุณาลองใหม่อีกครั้ง","coursesAlreadyEnrolledPrompt":"ลงทะเบียนแล้ว?","coursesLoginLink":"เข้าสู่ระบบ","processing":"กำลังดำเนินการ...","checkoutFailed":"การชำระเงินล้มเหลว กรุณาลองใหม่อีกครั้ง"},"tr":{"loading":"Yükleniyor…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} ürünü sepete ekle","addToCart":"Sepete Ekle","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Kabul ediyorum","all":"Tümü","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Daire, kat, bina kodu, notlar vb.","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"Paket İndirimi","bundleTotal":"Paket toplamı","callNow":"Call Now","cancel":"Cancel","capacity":"Kapasite","cart":"Cart","category":"Category","checkout":"Ödeme","city":"Şehir","cityRequired":"Lütfen şehrinizi girin","color":"Renk","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Alışverişe Devam Et","continueToHomePage":"Continue to Home Page","countryRegion":"Ülke / Bölge","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Henüz mevcut kurs yok.","coursesCatalogError":"Kurslar yüklenemedi.","coursesCatalogSubtitle":"Tüm kurs kütüphanemizi inceleyin.","coursesCatalogTitle":"Kurslar","coursesCertificateLoading":"Doğrulanıyor…","coursesCertificateTitle":"Sertifika Doğrulama","coursesDetailEnroll":"Sepete Ekle","coursesDetailResume":"Öğrenmeye devam et","coursesDigitalDelivery":"Dijital çevrimiçi erişim","coursesLessonCompleted":"Tamamlandı","coursesLessonLoading":"Ders yükleniyor…","coursesLessonMarkComplete":"Tamamlandı olarak işaretle","coursesLessonNext":"Sonraki","coursesLessonPrev":"Önceki","coursesMyLearningEmpty":"Henüz hiçbir kursa kayıt olmadınız.","coursesMyLearningLoading":"Kurslarınız yükleniyor…","coursesMyLearningSubtitle":"Kaldığınız yerden devam edin.","coursesMyLearningTitle":"Öğrenimim","coursesCertCourse":"Kurs","coursesCertDownload":"İndir","coursesCertError":"Doğrulama başarısız.","coursesCertInvalid":"Bu sertifika doğrulanamadı.","coursesCertIssued":"Verildi","coursesCertStudent":"Öğrenci","coursesCertValid":"Doğrulandı","coursesCertIssuer":"Veren","coursesCertCode":"Doğrulama kodu","coursesViewCertificate":"Sertifikayı görüntüle","coursesCertEarnedTitle":"Kurs tamamlandı!","coursesCertEarnedBody":"Sertifikanız hazır.","coursesCurriculumEmpty":"Müfredat yakında gelecek.","coursesFree":"Ücretsiz","coursesJoinLive":"Canlı katıl","coursesLessonGate":"Bu derse erişmek için kursa kaydolun.","coursesLessonLocked":"Ders kilitli","coursesLessonLoadError":"Ders yüklenemedi.","coursesEnrollCta":"Kursu görüntüle ve kaydol","coursesEnrollmentRevoked":"Kaydınız artık aktif değil.","coursesDripLocked":"Bu ders programlı olarak açılacak.","coursesVideoProcessing":"Video hala işleniyor. Kısa süre sonra tekrar kontrol edin.","coursesVideoFailed":"Video işleme başarısız oldu. Lütfen ders videosunu Course Studio'dan yeniden yükleyin.","coursesDetailLoading":"Yükleniyor…","coursesDetailInstructor":"Eğitmen","coursesDetailCurriculum":"Müfredat","coursesLevelBeginner":"Başlangıç","coursesLevelIntermediate":"Orta","coursesLevelAdvanced":"İleri","coursesLessonUnsupported":"Bu ders türü henüz desteklenmiyor.","coursesLiveScheduled":"Canlı oturum planlandı","coursesPreview":"Önizleme","coursesQuizError":"Quiz yüklenemedi.","coursesQuizLoading":"Quiz yükleniyor…","coursesQuizNone":"Bu derste quiz yok.","coursesQuizPassed":"Başardınız!","coursesQuizRetry":"Tekrar dene.","coursesQuizSubmit":"Gönder","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"gün","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"İndirim","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Lütfen geçerli bir e-posta adresi girin","emailRequired":"Lütfen e-posta adresinizi girin","emptyCart":"Sepetiniz boş","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Seçenekler yüklenirken hata oluştu","featured":"Öne Çıkanlar","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ÜCRETSİZ","freeAbove":"Ücretsiz kargo","frequentlyBoughtTogether":"Sıkça birlikte alınanlar","frequentlyBoughtTogetherSubtitle":"Zamandan kazanın ve ihtiyacınız olan her şeyi alın","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Ana Sayfa","inStock":"Stokta","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Uzunluk","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Malzeme","minimumOrderNotMet":"Minimum sipariş tutarı: {{amount}}. Devam etmek için {{remaining}} daha ekleyin.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Lütfen tam adınızı girin","new":"Yeni","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Mağazanız ürünler için hazır","previewEmptyStoreBody":"Burada görünmesi için Mağaza Yöneticisi'nde ilk ürününüzü ekleyin.","previewEmptyStoreButton":"Ürün ekle","previewOnlyBadge":"Yalnızca önizleme","noShippingMethods":"Kargo seçeneği bulunmuyor","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Stokta Yok","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Lütfen telefon numaranızı girin","placeOrder":"Place Order","pleaseAcceptTerms":"Lütfen şartları ve koşulları kabul edin","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ödemeye Geç","productDetails":"Ürün Detayları","productNotFound":"Product not found","products":"Ürünler","profileUpdated":"Profile updated successfully","quantity":"Adet","relatedProducts":"İlgili Ürünler","remove":"Kaldır","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"İndirim","saveAddressForNextTime":"Bu adresi bir sonraki sefer için kaydet","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Kargo","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Lütfen bir kargo yöntemi seçin","signInHere":"Sign in here","size":"Beden","sku":"Stok Kodu","specifications":"Teknik Özellikler","startingAt":"Başlayan fiyat","stateProvince":"Eyalet / İl","stateRequired":"Lütfen bir eyalet / il seçin","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Ek Bilgiler","street":"Street Address","streetAndNumber":"Sokak ve numara","streetRequired":"Lütfen adresinizi girin","style":"Stil","subtotal":"Ara Toplam","termsAndConditions":"Şartlar ve Koşullar","thankYouOrder":"Thank you for your order","total":"Toplam","totalToPay":"Ödenecek Toplam","transactionDate":"Transaction Date","upsellFree":"Ücretsiz","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"KDV Dahil","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Detayları Gör","viewOrder":"View Order","weight":"Ağırlık","work":"Work","yourCart":"Sepetiniz","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Posta Kodu","coursesAlreadyOwned":"Bu kursa zaten sahipsiniz.","coursesAlreadyOwnedCheckout":"Sepetinizdeki bir kursa zaten kayıtlısınız.","coursesEnrollmentCheckFailed":"Kurs sahipliği doğrulanamadı. Lütfen tekrar deneyin.","coursesAlreadyEnrolledPrompt":"Zaten kayıtlı mısınız?","coursesLoginLink":"Giriş yapın","processing":"İşleniyor...","checkoutFailed":"Ödeme başarısız oldu. Lütfen tekrar deneyin."},"zh":{"loading":"加载中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"将 {count} 件商品加入购物车","addToCart":"加入购物车","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"我同意","all":"全部","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"公寓、楼层、建筑代码、备注等。","applyCoupon":"Apply","backToProducts":"Back to Products","browseFavorites":"Discover all our products","bundleDiscount":"套装折扣","bundleTotal":"组合总计","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"结账","city":"城市","cityRequired":"请输入您的城市","color":"颜色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"继续购物","continueToHomePage":"Continue to Home Page","countryRegion":"国家 / 地区","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"暂无可用课程。","coursesCatalogError":"加载课程失败。","coursesCatalogSubtitle":"浏览我们完整的课程库。","coursesCatalogTitle":"课程","coursesCertificateLoading":"验证中…","coursesCertificateTitle":"证书验证","coursesDetailEnroll":"加入购物车","coursesDetailResume":"继续学习","coursesDigitalDelivery":"数字在线访问","coursesLessonCompleted":"已完成","coursesLessonLoading":"加载课程中…","coursesLessonMarkComplete":"标记完成","coursesLessonNext":"下一个","coursesLessonPrev":"上一个","coursesMyLearningEmpty":"您还没有报名任何课程。","coursesMyLearningLoading":"加载您的课程中…","coursesMyLearningSubtitle":"从上次停下的地方继续。","coursesMyLearningTitle":"我的学习","coursesCertCourse":"课程","coursesCertDownload":"下载","coursesCertError":"验证失败。","coursesCertInvalid":"此证书无法验证。","coursesCertIssued":"颁发时间","coursesCertStudent":"学员","coursesCertValid":"已验证","coursesCertIssuer":"颁发者","coursesCertCode":"验证码","coursesViewCertificate":"查看证书","coursesCertEarnedTitle":"课程完成！","coursesCertEarnedBody":"您的证书已就绪。","coursesCurriculumEmpty":"课程大纲即将推出。","coursesFree":"免费","coursesJoinLive":"加入直播","coursesLessonGate":"请注册此课程以访问本课时。","coursesLessonLocked":"课程已锁定","coursesLessonLoadError":"加载课程失败。","coursesEnrollCta":"查看课程并报名","coursesEnrollmentRevoked":"您的注册已失效。","coursesDripLocked":"此课程将按计划解锁。","coursesVideoProcessing":"视频仍在处理中。请稍后再试。","coursesVideoFailed":"视频处理失败。请从课程工作室重新上传课程视频。","coursesDetailLoading":"加载中…","coursesDetailInstructor":"讲师","coursesDetailCurriculum":"课程大纲","coursesLevelBeginner":"初级","coursesLevelIntermediate":"中级","coursesLevelAdvanced":"高级","coursesLessonUnsupported":"暂不支持此课时类型。","coursesLiveScheduled":"直播课程已安排","coursesPreview":"预览","coursesQuizError":"加载测验失败。","coursesQuizLoading":"正在加载测验…","coursesQuizNone":"本课时无测验。","coursesQuizPassed":"您通过了！","coursesQuizRetry":"重新尝试。","coursesQuizSubmit":"提交","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"天","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"折扣","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"请输入有效的电子邮件地址","emailRequired":"请输入您的电子邮件地址","emptyCart":"您的购物车是空的","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"加载选项时出错","featured":"精选","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"免费","freeAbove":"满额免运费","frequentlyBoughtTogether":"经常一起购买","frequentlyBoughtTogetherSubtitle":"节省时间，一次买齐所需","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"首页","inStock":"有货","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"长度","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"材质","minimumOrderNotMet":"最低订单金额：{{amount}}。还需添加 {{remaining}} 才能结账。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"请输入您的全名","new":"新品","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"您的商店已准备好添加商品","previewEmptyStoreBody":"在商店管理器中添加第一个商品，即可在这里看到它。","previewEmptyStoreButton":"添加商品","previewOnlyBadge":"仅预览","noShippingMethods":"暂无配送方式","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"缺货","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"请输入您的电话号码","placeOrder":"Place Order","pleaseAcceptTerms":"请接受条款和条件","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"继续结账","productDetails":"商品详情","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"相关商品","remove":"移除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"促销","saveAddressForNextTime":"保存此地址以备下次使用","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"配送","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"请选择运输方式","signInHere":"Sign in here","size":"尺寸","sku":"货号","specifications":"规格参数","startingAt":"起价","stateProvince":"州 / 省","stateRequired":"请选择州 / 省","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"附加信息","street":"Street Address","streetAndNumber":"街道和门牌号","streetRequired":"请输入您的街道地址","style":"款式","subtotal":"小计","termsAndConditions":"条款和条件","thankYouOrder":"Thank you for your order","total":"总计","totalToPay":"应付总额","transactionDate":"Transaction Date","upsellFree":"免费","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"含税","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"查看详情","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"您的购物车","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"邮政编码","coursesAlreadyOwned":"您已拥有此课程。","coursesAlreadyOwnedCheckout":"您已注册了购物车中的课程。","coursesEnrollmentCheckFailed":"无法验证课程所有权。请重试。","coursesAlreadyEnrolledPrompt":"已注册？","coursesLoginLink":"登录","processing":"处理中...","checkoutFailed":"支付失败。请重试。"}};
+var ECOM_RUNTIME_TEXT = {"ar":{"loading":"جارٍ التحميل…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"أضف {count} منتجات إلى السلة","addToCart":"أضف إلى السلة","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"أوافق على","all":"الكل","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"شقة، طابق، رمز المبنى، ملاحظات، إلخ.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"احجز الآن","bookingChooseDate":"اختر تاريخًا","bookingChooseTime":"اختر وقتًا","bookingDate":"التاريخ","bookingLoading":"جارٍ تحميل التوفر…","bookingNoDates":"لا توجد تواريخ متاحة حاليًا","bookingNoSlots":"لا توجد أوقات متاحة حاليًا","bookingRemaining":"بقي {count}","bookingSelectOption":"اختر","bookingSelectTime":"اختر وقتًا","bookingSelectDateFirst":"يرجى اختيار التاريخ أولًا","bookingSelectTimeFirst":"يرجى اختيار التاريخ والوقت أولًا","bookingTime":"الوقت","browseFavorites":"Discover all our products","bundleDiscount":"خصم الحزمة","seasonalDiscount":"خصم موسمي","customerDiscount":"خصم العميل","bundleTotal":"إجمالي الحزمة","callNow":"Call Now","cancel":"Cancel","capacity":"السعة","cart":"Cart","category":"Category","checkout":"الدفع","city":"المدينة","cityRequired":"يرجى إدخال المدينة","color":"اللون","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"متابعة التسوق","continueToHomePage":"Continue to Home Page","countryRegion":"البلد / المنطقة","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"لا توجد دورات متاحة بعد.","coursesCatalogError":"فشل في تحميل الدورات.","coursesCatalogSubtitle":"تصفح مكتبة الدورات الكاملة لدينا.","coursesCatalogTitle":"الدورات","coursesCertificateLoading":"جاري التحقق…","coursesCertificateTitle":"التحقق من الشهادة","coursesDetailEnroll":"أضف إلى السلة","coursesDetailResume":"متابعة التعلم","coursesDigitalDelivery":"الوصول الرقمي عبر الإنترنت","coursesLessonCompleted":"مكتمل","coursesLessonLoading":"جاري تحميل الدرس…","coursesLessonMarkComplete":"تحديد كمكتمل","coursesLessonNext":"التالي","coursesLessonPrev":"السابق","coursesMyLearningEmpty":"لم تسجل في أي دورات بعد.","coursesMyLearningLoading":"جاري تحميل دوراتك…","coursesMyLearningSubtitle":"تابع من حيث توقفت.","coursesMyLearningTitle":"تعلمي","coursesCertCourse":"الدورة","coursesCertDownload":"تحميل","coursesCertError":"فشل في التحقق.","coursesCertInvalid":"لا يمكن التحقق من هذه الشهادة.","coursesCertIssued":"تاريخ الإصدار","coursesCertStudent":"الطالب","coursesCertValid":"تم التحقق","coursesCertIssuer":"صادر عن","coursesCertCode":"رمز التحقق","coursesViewCertificate":"عرض الشهادة","coursesCertEarnedTitle":"اكتملت الدورة!","coursesCertEarnedBody":"شهادتك جاهزة.","coursesCurriculumEmpty":"المنهج قادم قريباً.","coursesFree":"مجاني","coursesJoinLive":"انضم مباشرة","coursesLessonGate":"سجل في هذه الدورة للوصول إلى هذا الدرس.","coursesLessonLocked":"الدرس مقفل","coursesLessonLoadError":"فشل في تحميل الدرس.","coursesEnrollCta":"عرض الدورة والتسجيل","coursesEnrollmentRevoked":"تسجيلك لم يعد نشطاً.","coursesDripLocked":"هذا الدرس سيتم فتحه وفقاً لجدول زمني.","coursesVideoProcessing":"الفيديو لا يزال قيد المعالجة. تحقق مرة أخرى قريباً.","coursesVideoFailed":"فشل في معالجة الفيديو. يرجى إعادة تحميل فيديو الدرس من Course Studio.","coursesDetailLoading":"جاري التحميل…","coursesDetailInstructor":"المدرب","coursesDetailCurriculum":"المنهج الدراسي","coursesLevelBeginner":"مبتدئ","coursesLevelIntermediate":"متوسط","coursesLevelAdvanced":"متقدم","coursesLessonUnsupported":"نوع الدرس هذا غير مدعوم بعد.","coursesLiveScheduled":"تم جدولة الجلسة المباشرة","coursesPreview":"معاينة","coursesQuizError":"فشل في تحميل الاختبار.","coursesQuizLoading":"جاري تحميل الاختبار…","coursesQuizNone":"لا يوجد اختبار في هذا الدرس.","coursesQuizPassed":"لقد نجحت!","coursesQuizRetry":"حاول مرة أخرى.","coursesQuizSubmit":"إرسال","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"أيام","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"الخصم","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"يرجى إدخال بريد إلكتروني صالح","emailRequired":"يرجى إدخال عنوان البريد الإلكتروني","emptyCart":"السلة فارغة","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"خطأ في تحميل الخيارات","featured":"مميز","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"مجاني","freeAbove":"مجاني فوق","frequentlyBoughtTogether":"يُشترى معًا بشكل متكرر","frequentlyBoughtTogetherSubtitle":"وفّر وقتك واحصل على كل ما تحتاجه","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"الرئيسية","inStock":"متوفر","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"الطول","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"المادة","minimumOrderNotMet":"الحد الأدنى لمبلغ الطلب: {{amount}}. أضف {{remaining}} للمتابعة.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"يرجى إدخال الاسم الكامل","new":"جديد","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"متجرك جاهز للمنتجات","previewEmptyStoreBody":"أضف أول منتج في مدير المتجر ليراه يظهر هنا.","previewEmptyStoreButton":"أضف منتجات","previewOnlyBadge":"للمعاينة فقط","noShippingMethods":"لا توجد خيارات شحن متاحة","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"غير متوفر","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"يرجى إدخال رقم الهاتف","placeOrder":"Place Order","pleaseAcceptTerms":"يرجى الموافقة على الشروط والأحكام","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"متابعة الدفع","productDetails":"تفاصيل المنتج","productNotFound":"Product not found","products":"المنتجات","profileUpdated":"Profile updated successfully","quantity":"الكمية","relatedProducts":"منتجات ذات صلة","remove":"إزالة","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"تخفيضات","saveAddressForNextTime":"احفظ هذا العنوان للمرة القادمة","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"نتائج البحث","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"الشحن","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"يرجى اختيار طريقة الشحن","signInHere":"Sign in here","size":"الحجم","sku":"رمز المنتج","specifications":"المواصفات","startingAt":"ابتداءً من","stateProvince":"الولاية / المحافظة","stateRequired":"يرجى اختيار الولاية / المحافظة","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"معلومات إضافية","street":"Street Address","streetAndNumber":"الشارع والرقم","streetRequired":"يرجى إدخال عنوان الشارع","style":"الطراز","subtotal":"المجموع الفرعي","termsAndConditions":"الشروط والأحكام","thankYouOrder":"Thank you for your order","total":"المجموع","totalToPay":"المبلغ الإجمالي المستحق","transactionDate":"Transaction Date","upsellFree":"مجاناً","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"شامل ضريبة القيمة المضافة","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"عرض التفاصيل","viewOrder":"View Order","weight":"الوزن","work":"Work","yourCart":"سلتك","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"الرمز البريدي","coursesAlreadyOwned":"أنت مسجل بالفعل في هذه الدورة.","coursesAlreadyOwnedCheckout":"أنت مسجل بالفعل في دورة في سلة التسوق.","coursesEnrollmentCheckFailed":"لا يمكن التحقق من ملكية الدورة. يرجى المحاولة مرة أخرى.","coursesAlreadyEnrolledPrompt":"مسجل بالفعل؟","coursesLoginLink":"تسجيل الدخول","yourCourse":"دورتك","courseAccessMethod":"وصول إلكتروني إلى الدورة","processing":"جارٍ المعالجة...","checkoutFailed":"فشل الدفع. يرجى المحاولة مرة أخرى."},"bg":{"loading":"Зареждане…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добави {count} продукта в количката","addToCart":"Добави в количката","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Съгласен съм с","all":"Всички","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Апартамент, етаж, код на сграда, бележки и др.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Резервирайте сега","bookingChooseDate":"Изберете дата","bookingChooseTime":"Изберете час","bookingDate":"Дата","bookingLoading":"Зареждане на наличността…","bookingNoDates":"В момента няма свободни дати","bookingNoSlots":"В момента няма свободни часове","bookingRemaining":"Остават {count}","bookingSelectOption":"Изберете","bookingSelectTime":"Изберете час","bookingSelectDateFirst":"Моля, първо изберете дата","bookingSelectTimeFirst":"Моля, първо изберете дата и час","bookingTime":"Час","browseFavorites":"Discover all our products","bundleDiscount":"Отстъпка за пакет","seasonalDiscount":"Сезонна отстъпка","customerDiscount":"Клиентска отстъпка","bundleTotal":"Общо за комплекта","callNow":"Call Now","cancel":"Cancel","capacity":"Капацитет","cart":"Cart","category":"Category","checkout":"Поръчка","city":"Град","cityRequired":"Моля, въведете града си","color":"Цвят","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продължи пазаруването","continueToHomePage":"Continue to Home Page","countryRegion":"Държава / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Все още няма налични курсове.","coursesCatalogError":"Неуспешно зареждане на курсовете.","coursesCatalogSubtitle":"Разгледайте пълната ни библиотека от курсове.","coursesCatalogTitle":"Курсове","coursesCertificateLoading":"Проверява се…","coursesCertificateTitle":"Проверка на сертификат","coursesDetailEnroll":"Добави в количката","coursesDetailResume":"Продължи обучението","coursesDigitalDelivery":"Цифров онлайн достъп","coursesLessonCompleted":"Завършено","coursesLessonLoading":"Зарежда се урок…","coursesLessonMarkComplete":"Маркирай като завършен","coursesLessonNext":"Следващ","coursesLessonPrev":"Предишен","coursesMyLearningEmpty":"Все още не сте записани в никакви курсове.","coursesMyLearningLoading":"Зареждат се вашите курсове…","coursesMyLearningSubtitle":"Продължете от там, където спряхте.","coursesMyLearningTitle":"Моето обучение","coursesCertCourse":"Курс","coursesCertDownload":"Изтегли","coursesCertError":"Верификацията неуспешна.","coursesCertInvalid":"Този сертификат не може да бъде верифициран.","coursesCertIssued":"Издаден","coursesCertStudent":"Студент","coursesCertValid":"Верифициран","coursesCertIssuer":"Издадено от","coursesCertCode":"Код за проверка","coursesViewCertificate":"Виж сертификата","coursesCertEarnedTitle":"Курсът е завършен!","coursesCertEarnedBody":"Вашият сертификат е готов.","coursesCurriculumEmpty":"Учебната програма идва скоро.","coursesFree":"Безплатно","coursesJoinLive":"Присъедини се на живо","coursesLessonGate":"Запишете се в този курс, за да получите достъп до този урок.","coursesLessonLocked":"Урокът е заключен","coursesLessonLoadError":"Неуспешно зареждане на урока.","coursesEnrollCta":"Вижте курса и се запишете","coursesEnrollmentRevoked":"Вашата регистрация вече не е активна.","coursesDripLocked":"Този урок се отключва по график.","coursesVideoProcessing":"Видеото все още се обработва. Проверете отново скоро.","coursesVideoFailed":"Обработката на видеото неуспешна. Моля, качете отново видеото на урока от Course Studio.","coursesDetailLoading":"Зарежда се…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебна програма","coursesLevelBeginner":"Начинаещ","coursesLevelIntermediate":"Средно ниво","coursesLevelAdvanced":"Напреднал","coursesLessonUnsupported":"Този тип урок все още не се поддържа.","coursesLiveScheduled":"Планирана е сесия на живо","coursesPreview":"Преглед","coursesQuizError":"Неуспешно зареждане на теста.","coursesQuizLoading":"Зарежда се тест…","coursesQuizNone":"Няма тест за този урок.","coursesQuizPassed":"Успяхте!","coursesQuizRetry":"Опитайте отново.","coursesQuizSubmit":"Изпрати","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дни","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Отстъпка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Моля, въведете валиден имейл адрес","emailRequired":"Моля, въведете имейл адреса си","emptyCart":"Количката ви е празна","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Грешка при зареждане на опциите","featured":"Препоръчани","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕЗПЛАТНО","freeAbove":"Безплатно над","frequentlyBoughtTogether":"Често купувани заедно","frequentlyBoughtTogetherSubtitle":"Спестете време и вземете всичко необходимо","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Начало","inStock":"В наличност","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Дължина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимална сума на поръчката: {{amount}}. Добавете още {{remaining}}, за да продължите.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Моля, въведете пълното си име","new":"Нови","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Магазинът ви е готов за продукти","previewEmptyStoreBody":"Добавете първия си продукт в мениджъра на магазина, за да го видите тук.","previewEmptyStoreButton":"Добавяне на продукти","previewOnlyBadge":"Само за преглед","noShippingMethods":"Няма налични опции за доставка","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Изчерпан","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Моля, въведете телефонния си номер","placeOrder":"Place Order","pleaseAcceptTerms":"Моля, приемете общите условия","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Към плащане","productDetails":"Детайли за продукта","productNotFound":"Product not found","products":"Продукти","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Свързани продукти","remove":"Премахни","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Намаление","saveAddressForNextTime":"Запази този адрес за следващия път","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Резултати от търсенето","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Моля, изберете метод за доставка","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Спецификации","startingAt":"От","stateProvince":"Област / Провинция","stateRequired":"Моля, изберете област / провинция","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Допълнителна информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Моля, въведете адреса си","style":"Стил","subtotal":"Междинна сума","termsAndConditions":"Общите условия","thankYouOrder":"Thank you for your order","total":"Общо","totalToPay":"Общо за плащане","transactionDate":"Transaction Date","upsellFree":"Безплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включително ДДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Виж детайли","viewOrder":"View Order","weight":"Тегло","work":"Work","yourCart":"Вашата количка","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Пощенски код","coursesAlreadyOwned":"Вече притежавате този курс.","coursesAlreadyOwnedCheckout":"Вече сте записани за курс в количката.","coursesEnrollmentCheckFailed":"Не можа да се провери собствеността на курса. Моля, опитайте отново.","coursesAlreadyEnrolledPrompt":"Вече записани?","coursesLoginLink":"Влезте","yourCourse":"вашият курс","courseAccessMethod":"Онлайн достъп до курса","processing":"Обработва се...","checkoutFailed":"Плащането не бе успешно. Моля, опитайте отново."},"de":{"loading":"Wird geladen…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} Artikel in den Warenkorb","addToCart":"In den Warenkorb","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Ich akzeptiere die","all":"Alle","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Wohnung, Etage, Gebäudecode, Hinweise usw.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Jetzt buchen","bookingChooseDate":"Datum wählen","bookingChooseTime":"Uhrzeit wählen","bookingDate":"Datum","bookingLoading":"Verfügbarkeit wird geladen…","bookingNoDates":"Derzeit keine verfügbaren Daten","bookingNoSlots":"Derzeit keine verfügbaren Zeiten","bookingRemaining":"Noch {count}","bookingSelectOption":"Auswählen","bookingSelectTime":"Uhrzeit auswählen","bookingSelectDateFirst":"Bitte zuerst ein Datum wählen","bookingSelectTimeFirst":"Bitte zuerst Datum und Uhrzeit wählen","bookingTime":"Uhrzeit","browseFavorites":"Discover all our products","bundleDiscount":"Paketrabatt","seasonalDiscount":"Saisonaler Rabatt","customerDiscount":"Kundenrabatt","bundleTotal":"Bundle-Gesamtsumme","callNow":"Call Now","cancel":"Cancel","capacity":"Kapazität","cart":"Cart","category":"Category","checkout":"Zur Kasse","city":"Stadt","cityRequired":"Bitte geben Sie Ihre Stadt ein","color":"Farbe","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Weiter einkaufen","continueToHomePage":"Continue to Home Page","countryRegion":"Land / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Noch keine Kurse verfügbar.","coursesCatalogError":"Kurse konnten nicht geladen werden.","coursesCatalogSubtitle":"Durchsuchen Sie unsere vollständige Kursbibliothek.","coursesCatalogTitle":"Kurse","coursesCertificateLoading":"Überprüfung läuft…","coursesCertificateTitle":"Zertifikat-Verifizierung","coursesDetailEnroll":"In den Warenkorb","coursesDetailResume":"Lernen fortsetzen","coursesDigitalDelivery":"Digitaler Online-Zugang","coursesLessonCompleted":"Abgeschlossen","coursesLessonLoading":"Lektion wird geladen…","coursesLessonMarkComplete":"Als abgeschlossen markieren","coursesLessonNext":"Weiter","coursesLessonPrev":"Zurück","coursesMyLearningEmpty":"Sie haben sich noch für keinen Kurs eingeschrieben.","coursesMyLearningLoading":"Ihre Kurse werden geladen…","coursesMyLearningSubtitle":"Setzen Sie dort fort, wo Sie aufgehört haben.","coursesMyLearningTitle":"Mein Lernen","coursesCertCourse":"Kurs","coursesCertDownload":"Herunterladen","coursesCertError":"Verifizierung fehlgeschlagen.","coursesCertInvalid":"Dieses Zertifikat konnte nicht verifiziert werden.","coursesCertIssued":"Ausgestellt","coursesCertStudent":"Student","coursesCertValid":"Verifiziert","coursesCertIssuer":"Ausgestellt von","coursesCertCode":"Prüfcode","coursesViewCertificate":"Zertifikat ansehen","coursesCertEarnedTitle":"Kurs abgeschlossen!","coursesCertEarnedBody":"Ihr Zertifikat ist bereit.","coursesCurriculumEmpty":"Lehrplan folgt in Kürze.","coursesFree":"Kostenlos","coursesJoinLive":"Live beitreten","coursesLessonGate":"Melden Sie sich für diesen Kurs an, um auf diese Lektion zuzugreifen.","coursesLessonLocked":"Lektion gesperrt","coursesLessonLoadError":"Lektion konnte nicht geladen werden.","coursesEnrollCta":"Kurs ansehen & einschreiben","coursesEnrollmentRevoked":"Ihre Einschreibung ist nicht mehr aktiv.","coursesDripLocked":"Diese Lektion wird nach einem Zeitplan freigeschaltet.","coursesVideoProcessing":"Video wird noch verarbeitet. Schauen Sie bald wieder vorbei.","coursesVideoFailed":"Videoverarbeitung fehlgeschlagen. Bitte laden Sie das Lektionsvideo erneut aus dem Course Studio hoch.","coursesDetailLoading":"Lädt…","coursesDetailInstructor":"Dozent","coursesDetailCurriculum":"Lehrplan","coursesLevelBeginner":"Anfänger","coursesLevelIntermediate":"Fortgeschritten","coursesLevelAdvanced":"Experte","coursesLessonUnsupported":"Dieser Lektionstyp wird noch nicht unterstützt.","coursesLiveScheduled":"Live-Session geplant","coursesPreview":"Vorschau","coursesQuizError":"Quiz konnte nicht geladen werden.","coursesQuizLoading":"Quiz wird geladen…","coursesQuizNone":"Kein Quiz in dieser Lektion.","coursesQuizPassed":"Sie haben bestanden!","coursesQuizRetry":"Erneut versuchen.","coursesQuizSubmit":"Absenden","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"Tage","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Rabatt","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Bitte geben Sie eine gültige E-Mail-Adresse ein","emailRequired":"Bitte geben Sie Ihre E-Mail-Adresse ein","emptyCart":"Ihr Warenkorb ist leer","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Fehler beim Laden der Optionen","featured":"Empfohlen","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"KOSTENLOS","freeAbove":"Kostenlos ab","frequentlyBoughtTogether":"Oft zusammen gekauft","frequentlyBoughtTogetherSubtitle":"Sparen Sie Zeit und holen Sie sich alles, was Sie brauchen","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Startseite","inStock":"Auf Lager","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Länge","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Mindestbestellwert: {{amount}}. Fügen Sie noch {{remaining}} hinzu, um fortzufahren.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Bitte geben Sie Ihren vollständigen Namen ein","new":"Neu","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Dein Shop ist bereit für Produkte","previewEmptyStoreBody":"Füge dein erstes Produkt im Store Manager hinzu, damit es hier erscheint.","previewEmptyStoreButton":"Produkte hinzufügen","previewOnlyBadge":"Nur Vorschau","noShippingMethods":"Keine Versandoptionen verfügbar","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Nicht verfügbar","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Bitte geben Sie Ihre Telefonnummer ein","placeOrder":"Place Order","pleaseAcceptTerms":"Bitte akzeptieren Sie die Allgemeinen Geschäftsbedingungen","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Zur Kasse gehen","productDetails":"Produktdetails","productNotFound":"Product not found","products":"Produkte","profileUpdated":"Profile updated successfully","quantity":"Menge","relatedProducts":"Ähnliche Produkte","remove":"Entfernen","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Diese Adresse für das nächste Mal speichern","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Suchergebnisse","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Versand","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Bitte wählen Sie eine Versandart","signInHere":"Sign in here","size":"Größe","sku":"Art.-Nr.","specifications":"Spezifikationen","startingAt":"Ab","stateProvince":"Bundesland / Provinz","stateRequired":"Bitte wählen Sie ein Bundesland / Provinz","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Zusätzliche Informationen","street":"Street Address","streetAndNumber":"Straße und Hausnummer","streetRequired":"Bitte geben Sie Ihre Straßenadresse ein","style":"Stil","subtotal":"Zwischensumme","termsAndConditions":"Allgemeinen Geschäftsbedingungen","thankYouOrder":"Thank you for your order","total":"Gesamt","totalToPay":"Gesamtbetrag","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Inkl. MwSt.","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Details ansehen","viewOrder":"View Order","weight":"Gewicht","work":"Work","yourCart":"Ihr Warenkorb","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Postleitzahl","coursesAlreadyOwned":"Sie besitzen diesen Kurs bereits.","coursesAlreadyOwnedCheckout":"Sie sind bereits in einem Kurs in Ihrem Warenkorb eingeschrieben.","coursesEnrollmentCheckFailed":"Kursberechtigung konnte nicht überprüft werden. Bitte versuchen Sie es erneut.","coursesAlreadyEnrolledPrompt":"Bereits eingeschrieben?","coursesLoginLink":"Anmelden","yourCourse":"dein Kurs","courseAccessMethod":"Online-Kurszugang","processing":"Wird verarbeitet...","checkoutFailed":"Bezahlung fehlgeschlagen. Bitte versuchen Sie es erneut."},"el":{"loading":"Φόρτωση…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Προσθήκη {count} προϊόντων στο καλάθι","addToCart":"Προσθήκη στο καλάθι","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Συμφωνώ με τους","all":"Όλα","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Διαμέρισμα, όροφος, κωδικός κτιρίου, σημειώσεις κτλ.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Κράτηση τώρα","bookingChooseDate":"Επιλέξτε ημερομηνία","bookingChooseTime":"Επιλέξτε ώρα","bookingDate":"Ημερομηνία","bookingLoading":"Φόρτωση διαθεσιμότητας…","bookingNoDates":"Δεν υπάρχουν διαθέσιμες ημερομηνίες αυτή τη στιγμή","bookingNoSlots":"Δεν υπάρχουν διαθέσιμες ώρες αυτή τη στιγμή","bookingRemaining":"Απομένουν {count}","bookingSelectOption":"Επιλογή","bookingSelectTime":"Επιλέξτε ώρα","bookingSelectDateFirst":"Παρακαλώ επιλέξτε πρώτα ημερομηνία","bookingSelectTimeFirst":"Παρακαλώ επιλέξτε πρώτα ημερομηνία και ώρα","bookingTime":"Ώρα","browseFavorites":"Discover all our products","bundleDiscount":"Έκπτωση πακέτου","seasonalDiscount":"Εποχική έκπτωση","customerDiscount":"Έκπτωση πελάτη","bundleTotal":"Σύνολο πακέτου","callNow":"Call Now","cancel":"Cancel","capacity":"Χωρητικότητα","cart":"Cart","category":"Category","checkout":"Ταμείο","city":"Πόλη","cityRequired":"Παρακαλώ εισάγετε την πόλη σας","color":"Χρώμα","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Συνέχεια αγορών","continueToHomePage":"Continue to Home Page","countryRegion":"Χώρα / Περιοχή","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Δεν υπάρχουν ακόμη διαθέσιμα μαθήματα.","coursesCatalogError":"Αποτυχία φόρτωσης μαθημάτων.","coursesCatalogSubtitle":"Περιηγηθείτε στην πλήρη βιβλιοθήκη μαθημάτων μας.","coursesCatalogTitle":"Μαθήματα","coursesCertificateLoading":"Επαλήθευση…","coursesCertificateTitle":"Επαλήθευση Πιστοποιητικού","coursesDetailEnroll":"Προσθήκη στο καλάθι","coursesDetailResume":"Συνέχεια μάθησης","coursesDigitalDelivery":"Ψηφιακή διαδικτυακή πρόσβαση","coursesLessonCompleted":"Ολοκληρώθηκε","coursesLessonLoading":"Φόρτωση μαθήματος…","coursesLessonMarkComplete":"Σήμανση ως ολοκληρωμένο","coursesLessonNext":"Επόμενο","coursesLessonPrev":"Προηγούμενο","coursesMyLearningEmpty":"Δεν έχετε εγγραφεί σε κανένα μάθημα ακόμα.","coursesMyLearningLoading":"Φόρτωση των μαθημάτων σας…","coursesMyLearningSubtitle":"Συνεχίστε από εκεί που σταματήσατε.","coursesMyLearningTitle":"Η Μάθησή Μου","coursesCertCourse":"Μάθημα","coursesCertDownload":"Λήψη","coursesCertError":"Η επαλήθευση απέτυχε.","coursesCertInvalid":"Αυτό το πιστοποιητικό δεν μπόρεσε να επαληθευτεί.","coursesCertIssued":"Εκδόθηκε","coursesCertStudent":"Μαθητής","coursesCertValid":"Επαληθευμένο","coursesCertIssuer":"Εκδόθηκε από","coursesCertCode":"Κωδικός επαλήθευσης","coursesViewCertificate":"Προβολή πιστοποιητικού","coursesCertEarnedTitle":"Το μάθημα ολοκληρώθηκε!","coursesCertEarnedBody":"Το πιστοποιητικό σας είναι έτοιμο.","coursesCurriculumEmpty":"Το πρόγραμμα σπουδών έρχεται σύντομα.","coursesFree":"Δωρεάν","coursesJoinLive":"Συμμετοχή ζωντανά","coursesLessonGate":"Εγγραφείτε σε αυτό το μάθημα για να αποκτήσετε πρόσβαση σε αυτό το μάθημα.","coursesLessonLocked":"Μάθημα κλειδωμένο","coursesLessonLoadError":"Αποτυχία φόρτωσης μαθήματος.","coursesEnrollCta":"Δείτε το μάθημα και εγγραφείτε","coursesEnrollmentRevoked":"Η εγγραφή σας δεν είναι πλέον ενεργή.","coursesDripLocked":"Αυτό το μάθημα ξεκλειδώνει σύμφωνα με το πρόγραμμα.","coursesVideoProcessing":"Το βίντεο εξακολουθεί να επεξεργάζεται. Ελέγξτε ξανά σύντομα.","coursesVideoFailed":"Η επεξεργασία του βίντεο απέτυχε. Παρακαλώ ανεβάστε ξανά το βίντεο του μαθήματος από το Course Studio.","coursesDetailLoading":"Φόρτωση…","coursesDetailInstructor":"Εκπαιδευτής","coursesDetailCurriculum":"Πρόγραμμα Σπουδών","coursesLevelBeginner":"Αρχάριος","coursesLevelIntermediate":"Μεσαίο Επίπεδο","coursesLevelAdvanced":"Προχωρημένο","coursesLessonUnsupported":"Αυτός ο τύπος μαθήματος δεν υποστηρίζεται ακόμη.","coursesLiveScheduled":"Προγραμματισμένη ζωντανή συνεδρία","coursesPreview":"Προεπισκόπηση","coursesQuizError":"Αποτυχία φόρτωσης κουίζ.","coursesQuizLoading":"Φόρτωση κουίζ…","coursesQuizNone":"Δεν υπάρχει κουίζ σε αυτό το μάθημα.","coursesQuizPassed":"Περάσατε!","coursesQuizRetry":"Δοκιμάστε ξανά.","coursesQuizSubmit":"Υποβολή","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"ημέρες","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Έκπτωση","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email","emailRequired":"Παρακαλώ εισάγετε τη διεύθυνση email σας","emptyCart":"Το καλάθι σας είναι άδειο","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Σφάλμα φόρτωσης επιλογών","featured":"Επιλεγμένα","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ΔΩΡΕΑΝ","freeAbove":"Δωρεάν άνω των","frequentlyBoughtTogether":"Συχνά αγοράζονται μαζί","frequentlyBoughtTogetherSubtitle":"Εξοικονομήστε χρόνο και αποκτήστε ό,τι χρειάζεστε","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Αρχική","inStock":"Διαθέσιμο","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Μήκος","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Υλικό","minimumOrderNotMet":"Ελάχιστο ποσό παραγγελίας: {{amount}}. Προσθέστε {{remaining}} ακόμη για να συνεχίσετε.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Παρακαλώ εισάγετε το πλήρες όνομά σας","new":"Νέα","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Το κατάστημά σας είναι έτοιμο για προϊόντα","previewEmptyStoreBody":"Προσθέστε το πρώτο προϊόν στον διαχειριστή καταστήματος για να εμφανιστεί εδώ.","previewEmptyStoreButton":"Προσθήκη προϊόντων","previewOnlyBadge":"Μόνο προεπισκόπηση","noShippingMethods":"Δεν υπάρχουν διαθέσιμες επιλογές αποστολής","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Εξαντλημένο","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Παρακαλώ εισάγετε τον αριθμό τηλεφώνου σας","placeOrder":"Place Order","pleaseAcceptTerms":"Παρακαλώ αποδεχθείτε τους όρους και τις προϋποθέσεις","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Συνέχεια στο ταμείο","productDetails":"Λεπτομέρειες προϊόντος","productNotFound":"Product not found","products":"Προϊόντα","profileUpdated":"Profile updated successfully","quantity":"Ποσότητα","relatedProducts":"Σχετικά προϊόντα","remove":"Αφαίρεση","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Προσφορές","saveAddressForNextTime":"Αποθήκευση αυτής της διεύθυνσης για την επόμενη φορά","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Αποτελέσματα αναζήτησης","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Αποστολή","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Παρακαλώ επιλέξτε μέθοδο αποστολής","signInHere":"Sign in here","size":"Μέγεθος","sku":"Κωδικός","specifications":"Προδιαγραφές","startingAt":"Από","stateProvince":"Νομός / Περιφέρεια","stateRequired":"Παρακαλώ επιλέξτε νομό / περιφέρεια","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Πρόσθετες πληροφορίες","street":"Street Address","streetAndNumber":"Οδός και αριθμός","streetRequired":"Παρακαλώ εισάγετε τη διεύθυνσή σας","style":"Στυλ","subtotal":"Υποσύνολο","termsAndConditions":"Όρους και Προϋποθέσεις","thankYouOrder":"Thank you for your order","total":"Σύνολο","totalToPay":"Σύνολο προς Πληρωμή","transactionDate":"Transaction Date","upsellFree":"Δωρεάν","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Συμπεριλαμβανομένου ΦΠΑ","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Λεπτομέρειες","viewOrder":"View Order","weight":"Βάρος","work":"Work","yourCart":"Το καλάθι σας","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Ταχυδρομικός κώδικας","coursesAlreadyOwned":"Έχετε ήδη πρόσβαση σε αυτό το μάθημα.","coursesAlreadyOwnedCheckout":"Είστε ήδη εγγεγραμμένοι σε μάθημα στο καλάθι σας.","coursesEnrollmentCheckFailed":"Δεν ήταν δυνατή η επαλήθευση της κυριότητας του μαθήματος. Παρακαλώ δοκιμάστε ξανά.","coursesAlreadyEnrolledPrompt":"Ήδη εγγεγραμμένοι;","coursesLoginLink":"Σύνδεση","yourCourse":"το μάθημά σας","courseAccessMethod":"Διαδικτυακή πρόσβαση στο μάθημα","processing":"Επεξεργασία...","checkoutFailed":"Η πληρωμή απέτυχε. Παρακαλώ δοκιμάστε ξανά."},"en":{"loading":"Loading…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Add {count} items to cart","addToCart":"Add to Cart","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"I agree to the","all":"All","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt, Floor, Building Code, Notes, Etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Book now","bookingChooseDate":"Choose a date","bookingChooseTime":"Choose a time","bookingDate":"Date","bookingLoading":"Loading availability…","bookingNoDates":"No available dates right now","bookingNoSlots":"No available times right now","bookingRemaining":"{count} left","bookingSelectOption":"Select","bookingSelectTime":"Select a time","bookingSelectDateFirst":"Please choose a date first","bookingSelectTimeFirst":"Please choose a date and time first","bookingTime":"Time","browseFavorites":"Discover all our products","bundleDiscount":"Bundle Discount","seasonalDiscount":"Seasonal Discount","customerDiscount":"Customer Discount","bundleTotal":"Bundle total","callNow":"Call Now","cancel":"Cancel","capacity":"Capacity","cart":"Cart","category":"Category","checkout":"Checkout","city":"City","cityRequired":"Please enter your city","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continue Shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Country / Region","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"No courses available yet.","coursesCatalogError":"Failed to load courses.","coursesCatalogSubtitle":"Browse our full course library.","coursesCatalogTitle":"Courses","coursesCertificateLoading":"Verifying…","coursesCertificateTitle":"Certificate Verification","coursesDetailEnroll":"Add to Cart","coursesDetailResume":"Resume learning","coursesDigitalDelivery":"Digital online access","coursesLessonCompleted":"Completed","coursesLessonLoading":"Loading lesson…","coursesLessonMarkComplete":"Mark complete","coursesLessonNext":"Next","coursesLessonPrev":"Previous","coursesMyLearningEmpty":"You haven't enrolled in any courses yet.","coursesMyLearningLoading":"Loading your courses…","coursesMyLearningSubtitle":"Continue where you left off.","coursesMyLearningTitle":"My Learning","coursesCertCourse":"Course","coursesCertDownload":"Download","coursesCertError":"Verification failed.","coursesCertInvalid":"This certificate could not be verified.","coursesCertIssued":"Issued","coursesCertStudent":"Student","coursesCertValid":"Verified","coursesCertIssuer":"Issued by","coursesCertCode":"Verification code","coursesViewCertificate":"View certificate","coursesCertEarnedTitle":"Course complete!","coursesCertEarnedBody":"Your certificate is ready.","coursesCurriculumEmpty":"Curriculum coming soon.","coursesFree":"Free","coursesJoinLive":"Join live","coursesLessonGate":"Enroll in this course to access this lesson.","coursesLessonLocked":"Lesson locked","coursesLessonLoadError":"Failed to load lesson.","coursesEnrollCta":"View course & enroll","coursesEnrollmentRevoked":"Your enrollment is no longer active.","coursesDripLocked":"This lesson unlocks on a schedule.","coursesVideoProcessing":"Video is still processing. Check back soon.","coursesVideoFailed":"Video processing failed. Please re-upload the lesson video from Course Studio.","coursesDetailLoading":"Loading…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Curriculum","coursesLevelBeginner":"Beginner","coursesLevelIntermediate":"Intermediate","coursesLevelAdvanced":"Advanced","coursesLessonUnsupported":"This lesson type is not yet supported.","coursesLiveScheduled":"Live session scheduled","coursesPreview":"Preview","coursesQuizError":"Failed to load quiz.","coursesQuizLoading":"Loading quiz…","coursesQuizNone":"No quiz on this lesson.","coursesQuizPassed":"You passed!","coursesQuizRetry":"Try again.","coursesQuizSubmit":"Submit","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"days","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Discount","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Please enter a valid email address","emailRequired":"Please enter your email address","emptyCart":"Your cart is empty","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error loading options","featured":"Featured","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"FREE","freeAbove":"Free above","frequentlyBoughtTogether":"Frequently bought together","frequentlyBoughtTogetherSubtitle":"Save time and get everything you need","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"In Stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Length","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Minimum order amount: {{amount}}. Add {{remaining}} more to proceed.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Please enter your full name","new":"New","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Your store is ready for products","previewEmptyStoreBody":"Add your first product in Store Manager to see it appear here.","previewEmptyStoreButton":"Add products","previewOnlyBadge":"Preview only","noShippingMethods":"No shipping options available","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Out of Stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Please enter your phone number","placeOrder":"Place Order","pleaseAcceptTerms":"Please accept the terms and conditions","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceed to Checkout","productDetails":"Product Details","productNotFound":"Product not found","products":"Products","profileUpdated":"Profile updated successfully","quantity":"Quantity","relatedProducts":"Related Products","remove":"Remove","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Sale","saveAddressForNextTime":"Save this address for next time","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Search results","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Shipping","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Please select a shipping method","signInHere":"Sign in here","size":"Size","sku":"SKU","specifications":"Specifications","startingAt":"Starting at","stateProvince":"State / Province","stateRequired":"Please select a state / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Additional Information","street":"Street Address","streetAndNumber":"Street and Number","streetRequired":"Please enter your street address","style":"Style","subtotal":"Subtotal","termsAndConditions":"Terms and Conditions","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total to Pay","transactionDate":"Transaction Date","upsellFree":"Free","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Including VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"View Details","viewOrder":"View Order","weight":"Weight","work":"Work","yourCart":"Your Cart","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Zip / Postal Code","coursesAlreadyOwned":"You already own this course.","coursesAlreadyOwnedCheckout":"You are already enrolled in a course in your cart.","coursesEnrollmentCheckFailed":"Could not verify course ownership. Please try again.","coursesAlreadyEnrolledPrompt":"Already enrolled?","coursesLoginLink":"Log in","yourCourse":"your course","courseAccessMethod":"Online course access","processing":"Processing...","checkoutFailed":"Checkout failed. Please try again."},"es":{"loading":"Cargando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Añadir {count} artículos al carrito","addToCart":"Añadir al carrito","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Acepto los","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., piso, código de edificio, notas, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Reservar ahora","bookingChooseDate":"Elige una fecha","bookingChooseTime":"Elige una hora","bookingDate":"Fecha","bookingLoading":"Cargando disponibilidad…","bookingNoDates":"No hay fechas disponibles ahora","bookingNoSlots":"No hay horarios disponibles ahora","bookingRemaining":"Quedan {count}","bookingSelectOption":"Seleccionar","bookingSelectTime":"Selecciona una hora","bookingSelectDateFirst":"Elige primero una fecha","bookingSelectTimeFirst":"Elige primero una fecha y una hora","bookingTime":"Hora","browseFavorites":"Discover all our products","bundleDiscount":"Descuento por paquete","seasonalDiscount":"Descuento estacional","customerDiscount":"Descuento de cliente","bundleTotal":"Total del paquete","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidad","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Ciudad","cityRequired":"Por favor, introduzca su ciudad","color":"Color","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Seguir comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Región","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aún no hay cursos disponibles.","coursesCatalogError":"Error al cargar los cursos.","coursesCatalogSubtitle":"Explora nuestra biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificación de Certificado","coursesDetailEnroll":"Añadir al carrito","coursesDetailResume":"Continuar aprendiendo","coursesDigitalDelivery":"Acceso digital en línea","coursesLessonCompleted":"Completado","coursesLessonLoading":"Cargando lección…","coursesLessonMarkComplete":"Marcar como completado","coursesLessonNext":"Siguiente","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Aún no te has inscrito en ningún curso.","coursesMyLearningLoading":"Cargando tus cursos…","coursesMyLearningSubtitle":"Continúa donde lo dejaste.","coursesMyLearningTitle":"Mi Aprendizaje","coursesCertCourse":"Curso","coursesCertDownload":"Descargar","coursesCertError":"Error en la verificación.","coursesCertInvalid":"Este certificado no pudo ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudiante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificación","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"¡Curso completado!","coursesCertEarnedBody":"Tu certificado está listo.","coursesCurriculumEmpty":"Plan de estudios próximamente.","coursesFree":"Gratis","coursesJoinLive":"Unirse en vivo","coursesLessonGate":"Inscríbete en este curso para acceder a esta lección.","coursesLessonLocked":"Lección bloqueada","coursesLessonLoadError":"Error al cargar la lección.","coursesEnrollCta":"Ver curso e inscribirse","coursesEnrollmentRevoked":"Tu inscripción ya no está activa.","coursesDripLocked":"Esta lección se desbloquea según un cronograma.","coursesVideoProcessing":"El video aún se está procesando. Vuelve pronto.","coursesVideoFailed":"El procesamiento del video falló. Por favor, vuelve a subir el video de la lección desde Course Studio.","coursesDetailLoading":"Cargando…","coursesDetailInstructor":"Instructor","coursesDetailCurriculum":"Currículum","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzado","coursesLessonUnsupported":"Este tipo de lección aún no es compatible.","coursesLiveScheduled":"Sesión en vivo programada","coursesPreview":"Vista previa","coursesQuizError":"Error al cargar el cuestionario.","coursesQuizLoading":"Cargando cuestionario…","coursesQuizNone":"No hay cuestionario en esta lección.","coursesQuizPassed":"¡Aprobaste!","coursesQuizRetry":"Intentar de nuevo.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"días","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Descuento","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, introduzca un correo electrónico válido","emailRequired":"Por favor, introduzca su correo electrónico","emptyCart":"Tu carrito está vacío","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Error al cargar opciones","featured":"Destacados","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATIS","freeAbove":"Gratis a partir de","frequentlyBoughtTogether":"Comprados juntos habitualmente","frequentlyBoughtTogetherSubtitle":"Ahorra tiempo y consigue todo lo que necesitas","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Inicio","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longitud","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Monto mínimo de pedido: {{amount}}. Agregue {{remaining}} más para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, introduzca su nombre completo","new":"Nuevos","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Tu tienda está lista para productos","previewEmptyStoreBody":"Añade tu primer producto en el administrador de la tienda para verlo aparecer aquí.","previewEmptyStoreButton":"Añadir productos","previewOnlyBadge":"Solo vista previa","noShippingMethods":"No hay opciones de envío disponibles","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Agotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, introduzca su número de teléfono","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, acepte los términos y condiciones","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Proceder al pago","productDetails":"Detalles del producto","productNotFound":"Product not found","products":"Productos","profileUpdated":"Profile updated successfully","quantity":"Cantidad","relatedProducts":"Productos relacionados","remove":"Eliminar","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Ofertas","saveAddressForNextTime":"Guardar esta dirección para la próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Resultados de búsqueda","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envío","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, seleccione un método de envío","signInHere":"Sign in here","size":"Talla","sku":"SKU","specifications":"Especificaciones","startingAt":"Desde","stateProvince":"Estado / Provincia","stateRequired":"Por favor, seleccione un estado / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Información adicional","street":"Street Address","streetAndNumber":"Calle y número","streetRequired":"Por favor, introduzca su dirección","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Términos y Condiciones","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluido","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalles","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Tu carrito","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Código postal","coursesAlreadyOwned":"Ya tienes acceso a este curso.","coursesAlreadyOwnedCheckout":"Ya estás inscrito en un curso de tu carrito.","coursesEnrollmentCheckFailed":"No se pudo verificar la propiedad del curso. Por favor, inténtalo de nuevo.","coursesAlreadyEnrolledPrompt":"¿Ya estás inscrito?","coursesLoginLink":"Iniciar sesión","yourCourse":"tu curso","courseAccessMethod":"Acceso online al curso","processing":"Procesando...","checkoutFailed":"El pago falló. Por favor, inténtalo de nuevo."},"fr":{"loading":"Chargement…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Ajouter {count} articles au panier","addToCart":"Ajouter au panier","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"J'accepte les","all":"Tout","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apt., étage, code bâtiment, notes, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Réserver","bookingChooseDate":"Choisir une date","bookingChooseTime":"Choisir un horaire","bookingDate":"Date","bookingLoading":"Chargement des disponibilités…","bookingNoDates":"Aucune date disponible pour le moment","bookingNoSlots":"Aucun horaire disponible pour le moment","bookingRemaining":"Il reste {count}","bookingSelectOption":"Sélectionner","bookingSelectTime":"Sélectionnez un horaire","bookingSelectDateFirst":"Veuillez d'abord choisir une date","bookingSelectTimeFirst":"Veuillez d'abord choisir une date et une heure","bookingTime":"Heure","browseFavorites":"Discover all our products","bundleDiscount":"Remise lot","seasonalDiscount":"Remise saisonnière","customerDiscount":"Remise client","bundleTotal":"Total du lot","callNow":"Call Now","cancel":"Cancel","capacity":"Capacité","cart":"Cart","category":"Category","checkout":"Paiement","city":"Ville","cityRequired":"Veuillez entrer votre ville","color":"Couleur","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuer vos achats","continueToHomePage":"Continue to Home Page","countryRegion":"Pays / Région","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Aucun cours disponible pour le moment.","coursesCatalogError":"Échec du chargement des cours.","coursesCatalogSubtitle":"Parcourez notre bibliothèque complète de cours.","coursesCatalogTitle":"Cours","coursesCertificateLoading":"Vérification en cours…","coursesCertificateTitle":"Vérification de certificat","coursesDetailEnroll":"Ajouter au panier","coursesDetailResume":"Reprendre l'apprentissage","coursesDigitalDelivery":"Accès numérique en ligne","coursesLessonCompleted":"Terminé","coursesLessonLoading":"Chargement de la leçon…","coursesLessonMarkComplete":"Marquer comme terminé","coursesLessonNext":"Suivant","coursesLessonPrev":"Précédent","coursesMyLearningEmpty":"Vous ne vous êtes encore inscrit à aucun cours.","coursesMyLearningLoading":"Chargement de vos cours…","coursesMyLearningSubtitle":"Continuez là où vous vous êtes arrêté.","coursesMyLearningTitle":"Mon apprentissage","coursesCertCourse":"Cours","coursesCertDownload":"Télécharger","coursesCertError":"Échec de la vérification.","coursesCertInvalid":"Ce certificat n'a pas pu être vérifié.","coursesCertIssued":"Délivré","coursesCertStudent":"Étudiant","coursesCertValid":"Vérifié","coursesCertIssuer":"Délivré par","coursesCertCode":"Code de vérification","coursesViewCertificate":"Voir le certificat","coursesCertEarnedTitle":"Cours terminé !","coursesCertEarnedBody":"Votre certificat est prêt.","coursesCurriculumEmpty":"Programme à venir.","coursesFree":"Gratuit","coursesJoinLive":"Rejoindre en direct","coursesLessonGate":"Inscrivez-vous à ce cours pour accéder à cette leçon.","coursesLessonLocked":"Leçon verrouillée","coursesLessonLoadError":"Échec du chargement de la leçon.","coursesEnrollCta":"Voir le cours et s'inscrire","coursesEnrollmentRevoked":"Votre inscription n'est plus active.","coursesDripLocked":"Cette leçon se débloque selon un calendrier.","coursesVideoProcessing":"La vidéo est encore en cours de traitement. Revenez bientôt.","coursesVideoFailed":"Le traitement de la vidéo a échoué. Veuillez télécharger à nouveau la vidéo de la leçon depuis Course Studio.","coursesDetailLoading":"Chargement…","coursesDetailInstructor":"Instructeur","coursesDetailCurriculum":"Programme","coursesLevelBeginner":"Débutant","coursesLevelIntermediate":"Intermédiaire","coursesLevelAdvanced":"Avancé","coursesLessonUnsupported":"Ce type de leçon n'est pas encore pris en charge.","coursesLiveScheduled":"Session en direct programmée","coursesPreview":"Aperçu","coursesQuizError":"Échec du chargement du quiz.","coursesQuizLoading":"Chargement du quiz…","coursesQuizNone":"Aucun quiz pour cette leçon.","coursesQuizPassed":"Vous avez réussi !","coursesQuizRetry":"Réessayer.","coursesQuizSubmit":"Soumettre","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"jours","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Remise","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Veuillez entrer une adresse e-mail valide","emailRequired":"Veuillez entrer votre adresse e-mail","emptyCart":"Votre panier est vide","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erreur lors du chargement des options","featured":"En vedette","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUIT","freeAbove":"Gratuit à partir de","frequentlyBoughtTogether":"Souvent achetés ensemble","frequentlyBoughtTogetherSubtitle":"Gagnez du temps et obtenez tout ce dont vous avez besoin","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Accueil","inStock":"En stock","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Longueur","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Matériau","minimumOrderNotMet":"Montant minimum de commande : {{amount}}. Ajoutez {{remaining}} pour continuer.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Veuillez entrer votre nom complet","new":"Nouveau","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Votre boutique est prête pour les produits","previewEmptyStoreBody":"Ajoutez votre premier produit dans le gestionnaire de boutique pour le voir apparaître ici.","previewEmptyStoreButton":"Ajouter des produits","previewOnlyBadge":"Aperçu uniquement","noShippingMethods":"Aucune option de livraison disponible","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Rupture de stock","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Veuillez entrer votre numéro de téléphone","placeOrder":"Place Order","pleaseAcceptTerms":"Veuillez accepter les conditions générales","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procéder au paiement","productDetails":"Détails du produit","productNotFound":"Product not found","products":"Produits","profileUpdated":"Profile updated successfully","quantity":"Quantité","relatedProducts":"Produits similaires","remove":"Supprimer","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Soldes","saveAddressForNextTime":"Enregistrer cette adresse pour la prochaine fois","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Résultats de recherche","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Livraison","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Veuillez sélectionner un mode de livraison","signInHere":"Sign in here","size":"Taille","sku":"Référence","specifications":"Spécifications","startingAt":"À partir de","stateProvince":"État / Province","stateRequired":"Veuillez sélectionner un état / province","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informations supplémentaires","street":"Street Address","streetAndNumber":"Rue et numéro","streetRequired":"Veuillez entrer votre adresse","style":"Style","subtotal":"Sous-total","termsAndConditions":"Conditions Générales","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total à payer","transactionDate":"Transaction Date","upsellFree":"Gratuit","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"TVA incluse","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Voir les détails","viewOrder":"View Order","weight":"Poids","work":"Work","yourCart":"Votre panier","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Code postal","coursesAlreadyOwned":"Vous possédez déjà ce cours.","coursesAlreadyOwnedCheckout":"Vous êtes déjà inscrit à un cours dans votre panier.","coursesEnrollmentCheckFailed":"Impossible de vérifier la propriété du cours. Veuillez réessayer.","coursesAlreadyEnrolledPrompt":"Déjà inscrit ?","coursesLoginLink":"Se connecter","yourCourse":"votre cours","courseAccessMethod":"Accès en ligne au cours","processing":"Traitement en cours...","checkoutFailed":"Le paiement a échoué. Veuillez réessayer."},"he":{"loading":"טוען…","accountWelcome":"ברוך הבא","addAddress":"הוסף כתובת","addBundleToCart":"הוספת {count} מוצרים לעגלה","addToCart":"הוסף לעגלה","addedToCart":"המוצר נוסף לעגלה!","addedToFavorites":"נוסף למועדפים","addressDeleted":"הכתובת נמחקה","addressLabel":"שם הכתובת","addressSaved":"הכתובת נשמרה בהצלחה","addresses":"כתובות","agreeToTerms":"אני מסכים/ה ל","all":"הכל","alreadyHaveAccount":"כבר יש לך חשבון?","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","applyCoupon":"החל","backToProducts":"חזרה למוצרים","bookNow":"הזמינו עכשיו","bookingChooseDate":"בחרו תאריך","bookingChooseTime":"בחרו שעה","bookingDate":"תאריך","bookingLoading":"טוען זמינות…","bookingNoDates":"אין תאריכים פנויים כרגע","bookingNoSlots":"אין זמנים פנויים כרגע","bookingRemaining":"נותרו {count}","bookingSelectOption":"בחירה","bookingSelectTime":"בחרו שעה","bookingSelectDateFirst":"אנא בחרו תאריך תחילה","bookingSelectTimeFirst":"אנא בחרו תאריך ושעה תחילה","bookingTime":"שעה","browseFavorites":"גלו את כל המוצרים שלנו","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","bundleTotal":"סה\"כ לעגלה","callNow":"התקשר עכשיו","cancel":"ביטול","capacity":"קיבולת","cart":"עגלת קניות","category":"קטגוריה","checkout":"תשלום","city":"עיר","cityRequired":"נא להזין עיר","color":"צבע","confirmDelete":"האם אתה בטוח שברצונך למחוק?","contactInformation":"פרטי התקשרות","continueShopping":"להמשך קניות","continueToHomePage":"המשך לדף הבית","countryRegion":"מדינה / אזור","couponApplied":"הקופון הוחל בהצלחה!","couponCode":"קוד קופון","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","coursesCatalogEmpty":"אין קורסים זמינים עדיין.","coursesCatalogError":"נכשל בטעינת הקורסים.","coursesCatalogSubtitle":"עיינו בספריית הקורסים המלאה שלנו.","coursesCatalogTitle":"קורסים","coursesCertificateLoading":"מאמת…","coursesCertificateTitle":"אימות תעודה","coursesDetailEnroll":"הוסף לעגלה","coursesDetailResume":"המשך ללמוד","coursesDigitalDelivery":"גישה דיגיטלית מקוונת","coursesLessonCompleted":"הושלם","coursesLessonLoading":"טוען שיעור…","coursesLessonMarkComplete":"סימון כהושלם","coursesLessonNext":"הבא","coursesLessonPrev":"הקודם","coursesMyLearningEmpty":"עדיין לא נרשמתם לקורסים.","coursesMyLearningLoading":"טוען את הקורסים שלך…","coursesMyLearningSubtitle":"המשיכו מהמקום שבו עצרתם.","coursesMyLearningTitle":"הלמידה שלי","coursesCertCourse":"קורס","coursesCertDownload":"הורדה","coursesCertError":"האימות נכשל.","coursesCertInvalid":"לא ניתן לאמת את התעודה הזו.","coursesCertIssued":"הונפק","coursesCertStudent":"תלמיד","coursesCertValid":"מאומת","coursesCertIssuer":"הונפק על ידי","coursesCertCode":"קוד אימות","coursesViewCertificate":"צפייה בתעודה","coursesCertEarnedTitle":"הקורס הושלם!","coursesCertEarnedBody":"התעודה שלך מוכנה.","coursesCurriculumEmpty":"תכנית הלימודים תגיע בקרוב.","coursesFree":"חינם","coursesJoinLive":"הצטרף בשידור חי","coursesLessonGate":"הירשם לקורס זה כדי לגשת לשיעור זה.","coursesLessonLocked":"השיעור נעול","coursesLessonLoadError":"טעינת השיעור נכשלה.","coursesEnrollCta":"צפה בקורס והירשם","coursesEnrollmentRevoked":"ההרשמה שלך לקורס אינה פעילה יותר.","coursesDripLocked":"שיעור זה ייפתח לפי לוח זמנים.","coursesVideoProcessing":"הסרטון עדיין בעיבוד. נסה שוב בקרוב.","coursesVideoFailed":"עיבוד הסרטון נכשל. העלה מחדש את סרטון השיעור מ-Course Studio.","coursesDetailLoading":"טוען…","coursesDetailInstructor":"מדריך","coursesDetailCurriculum":"תכנית לימודים","coursesLevelBeginner":"מתחיל","coursesLevelIntermediate":"בינוני","coursesLevelAdvanced":"מתקדם","coursesLessonUnsupported":"סוג השיעור הזה עדיין לא נתמך.","coursesLiveScheduled":"מפגש חי מתוזמן","coursesPreview":"תצוגה מקדימה","coursesQuizError":"נכשל בטעינת החידון.","coursesQuizLoading":"טוען חידון...","coursesQuizNone":"אין חידון בשיעור זה.","coursesQuizPassed":"עברת בהצלחה!","coursesQuizRetry":"נסה שוב.","coursesQuizSubmit":"שלח","allCourses":"כל הקורסים","backToCourses":"חזרה לקורסים","coursesNav":"קורסים","featuredCourses":"קורסים מומלצים","loadingCourses":"טוען קורסים...","noFeaturedCourses":"עוד לא נבחרו קורסים מומלצים. צפו בכל הקורסים שלנו!","searchCourses":"חיפוש קורסים","customerInfo":"פרטי לקוח","customerLogin":"התחברות לקוחות","days":"ימים","defaultAddress":"כתובת ברירת מחדל","deleteAddress":"מחק כתובת","discount":"הנחה","editAddress":"ערוך כתובת","editProfile":"עריכת פרופיל","email":"אימייל","emailAddress":"כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","emailRequired":"נא להזין כתובת אימייל","emptyCart":"העגלה ריקה","enterCode":"הזן את הקוד שנשלח לאימייל שלך","enterCouponCode":"הזן קוד קופון","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","errorLoading":"שגיאה בטעינת האפשרויות","featured":"מומלצים","featuredCategories":"קנו לפי קטגוריה","featuredProducts":"מוצרים מומלצים","free":"חינם","freeAbove":"חינם מעל","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","fullName":"שם מלא","haveCouponCode":"יש לי קוד קופון","home":"דף הבית","inStock":"במלאי","inquiryAbout":"פנייה בנושא","invalidCoupon":"קוד קופון לא תקין","items":"פריטים","length":"אורך","linkCopied":"הקישור הועתק!","loadingOrder":"טוען פרטי הזמנה...","loadingPayment":"טוען אפשרויות תשלום...","loadingProducts":"טוען מוצרים...","loadingShipping":"טוען שיטות משלוח...","loggedInAs":"מחובר כ:","login":"התחברות","loginHere":"התחבר כאן","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","logout":"התנתק","material":"חומר","minimumOrderNotMet":"סכום מינימום להזמנה: {{amount}}. יש להוסיף עוד {{remaining}} כדי להמשיך.","mobileNumber":"מספר טלפון","myAccount":"החשבון שלי","myFavorites":"המועדפים שלי","name":"שם","nameRequired":"נא להזין שם מלא","new":"חדשים","next":"הבא","noAddresses":"אין כתובות שמורות","noFavorites":"אין עדיין מוצרים מועדפים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","noOrders":"אין עדיין הזמנות","noProducts":"אין מוצרים להצגה כרגע","previewEmptyStoreTitle":"החנות שלך מוכנה למוצרים","previewEmptyStoreBody":"הוסף את המוצר הראשון במנהל החנות כדי לראות אותו מופיע כאן.","previewEmptyStoreButton":"הוסף מוצרים","previewOnlyBadge":"תצוגה מקדימה בלבד","noShippingMethods":"אין אפשרויות משלוח זמינות","notLoggedIn":"לא מחובר","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderDate":"תאריך","orderDetails":"פרטי ההזמנה","orderItems":"פריטים בהזמנה","orderNotFound":"לא נמצאה הזמנה","orderNumber":"מספר הזמנה","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","orderStatus":"סטטוס","orderSuccess":"ההזמנה התקבלה!","orderSummary":"סיכום הזמנה","orderTotal":"סה\"כ","other":"אחר","ourProducts":"המוצרים שלנו","outOfStock":"אזל מהמלאי","paidAmount":"סכום ששולם","payment":"תשלום","paymentMethod":"אמצעי תשלום","paymentNotConfigured":"תשלום מקוון לא מוגדר","personalDetails":"פרטים אישיים","phone":"טלפון","phoneRequired":"נא להזין מספר טלפון","placeOrder":"בצע הזמנה","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","pleaseSelect":"נא לבחור","proceedToCheckout":"המשך לתשלום","productDetails":"פרטי המוצר","productNotFound":"המוצר לא נמצא","products":"מוצרים","profileUpdated":"הפרופיל עודכן בהצלחה","quantity":"כמות","relatedProducts":"מוצרים דומים","remove":"הסר","removeCoupon":"הסר","removeFromFavorites":"הסר ממועדפים","removedFromFavorites":"הוסר מהמועדפים","returnPolicy":"מדיניות החזרות","sale":"מבצעים","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","saveChanges":"שמור שינויים","saveToFavorites":"שמור למועדפים","saving":"שומר...","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","selectVariant":"בחר אפשרות","sendCode":"שלח קוד","sendInquiry":"שלח פנייה","setAsDefault":"הגדר כברירת מחדל","shareProduct":"שתף מוצר","shipping":"משלוח","shippingAddress":"כתובת למשלוח","shippingMethod":"שיטת משלוח","shippingRequired":"נא לבחור שיטת משלוח","signInHere":"התחבר כאן","size":"גודל","sku":"מק\"ט","specifications":"מפרט טכני","startingAt":"החל מ","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","statusCancelled":"בוטל","statusDelivered":"נמסר","statusPaid":"שולם","statusPending":"ממתין לתשלום","statusProcessing":"בטיפול","statusShipped":"נשלח","storeNote":"מידע נוסף","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","streetRequired":"נא להזין רחוב ומספר","style":"סגנון","subtotal":"סכום ביניים","termsAndConditions":"תנאי השימוש","thankYouOrder":"תודה על ההזמנה","total":"סה\"כ","totalToPay":"סה\"כ לתשלום","transactionDate":"תאריך עסקה","upsellFree":"חינם","variantUnavailable":"לא זמין","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","verificationCode":"קוד אימות","verify":"אמת","viewAllResults":"הצג את כל התוצאות","viewDetails":"לפרטים נוספים","viewOrder":"צפה בהזמנה","weight":"משקל","work":"עבודה","yourCart":"העגלה שלך","yourOrders":"ההזמנות שלך","zip":"מיקוד","zipPostal":"מיקוד","coursesAlreadyOwned":"כבר יש לך גישה לקורס זה.","coursesAlreadyOwnedCheckout":"כבר נרשמת לקורס שבעגלת הקניות.","coursesEnrollmentCheckFailed":"לא ניתן לאמת בעלות על הקורס. אנא נסה שוב.","coursesAlreadyEnrolledPrompt":"כבר נרשמת?","coursesLoginLink":"לכניסה","yourCourse":"הקורס שלך","courseAccessMethod":"גישה דיגיטלית מקוונת","processing":"מעבד...","checkoutFailed":"שגיאה בתהליך התשלום. נסו שוב."},"it":{"loading":"Caricamento…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Aggiungi {count} articoli al carrello","addToCart":"Aggiungi al carrello","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Accetto i","all":"Tutti","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Appt., piano, codice edificio, note, ecc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Prenota ora","bookingChooseDate":"Scegli una data","bookingChooseTime":"Scegli un orario","bookingDate":"Data","bookingLoading":"Caricamento disponibilità…","bookingNoDates":"Nessuna data disponibile al momento","bookingNoSlots":"Nessun orario disponibile al momento","bookingRemaining":"{count} rimasti","bookingSelectOption":"Seleziona","bookingSelectTime":"Seleziona un orario","bookingSelectDateFirst":"Scegli prima una data","bookingSelectTimeFirst":"Scegli prima una data e un orario","bookingTime":"Ora","browseFavorites":"Discover all our products","bundleDiscount":"Sconto pacchetto","seasonalDiscount":"Sconto stagionale","customerDiscount":"Sconto cliente","bundleTotal":"Totale bundle","callNow":"Call Now","cancel":"Cancel","capacity":"Capacità","cart":"Cart","category":"Category","checkout":"Cassa","city":"Città","cityRequired":"Inserisci la tua città","color":"Colore","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continua lo shopping","continueToHomePage":"Continue to Home Page","countryRegion":"Paese / Regione","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Nessun corso ancora disponibile.","coursesCatalogError":"Impossibile caricare i corsi.","coursesCatalogSubtitle":"Sfoglia la nostra libreria completa di corsi.","coursesCatalogTitle":"Corsi","coursesCertificateLoading":"Verifica in corso…","coursesCertificateTitle":"Verifica Certificato","coursesDetailEnroll":"Aggiungi al carrello","coursesDetailResume":"Riprendi l'apprendimento","coursesDigitalDelivery":"Accesso digitale online","coursesLessonCompleted":"Completato","coursesLessonLoading":"Caricamento lezione…","coursesLessonMarkComplete":"Segna come completato","coursesLessonNext":"Successivo","coursesLessonPrev":"Precedente","coursesMyLearningEmpty":"Non ti sei ancora iscritto a nessun corso.","coursesMyLearningLoading":"Caricamento dei tuoi corsi…","coursesMyLearningSubtitle":"Continua da dove avevi lasciato.","coursesMyLearningTitle":"Il Mio Apprendimento","coursesCertCourse":"Corso","coursesCertDownload":"Scarica","coursesCertError":"Verifica fallita.","coursesCertInvalid":"Questo certificato non può essere verificato.","coursesCertIssued":"Rilasciato","coursesCertStudent":"Studente","coursesCertValid":"Verificato","coursesCertIssuer":"Rilasciato da","coursesCertCode":"Codice di verifica","coursesViewCertificate":"Visualizza certificato","coursesCertEarnedTitle":"Corso completato!","coursesCertEarnedBody":"Il tuo certificato è pronto.","coursesCurriculumEmpty":"Programma in arrivo.","coursesFree":"Gratuito","coursesJoinLive":"Partecipa dal vivo","coursesLessonGate":"Iscriviti a questo corso per accedere a questa lezione.","coursesLessonLocked":"Lezione bloccata","coursesLessonLoadError":"Impossibile caricare la lezione.","coursesEnrollCta":"Visualizza corso e iscriviti","coursesEnrollmentRevoked":"La tua iscrizione non è più attiva.","coursesDripLocked":"Questa lezione si sblocca secondo un programma.","coursesVideoProcessing":"Il video è ancora in elaborazione. Ricontrolla presto.","coursesVideoFailed":"Elaborazione video fallita. Si prega di ricaricare il video della lezione da Course Studio.","coursesDetailLoading":"Caricamento…","coursesDetailInstructor":"Istruttore","coursesDetailCurriculum":"Programma","coursesLevelBeginner":"Principiante","coursesLevelIntermediate":"Intermedio","coursesLevelAdvanced":"Avanzato","coursesLessonUnsupported":"Questo tipo di lezione non è ancora supportato.","coursesLiveScheduled":"Sessione dal vivo programmata","coursesPreview":"Anteprima","coursesQuizError":"Impossibile caricare il quiz.","coursesQuizLoading":"Caricamento quiz…","coursesQuizNone":"Nessun quiz per questa lezione.","coursesQuizPassed":"Hai superato!","coursesQuizRetry":"Riprova.","coursesQuizSubmit":"Invia","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"giorni","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Sconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Inserisci un indirizzo email valido","emailRequired":"Inserisci il tuo indirizzo email","emptyCart":"Il tuo carrello è vuoto","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Errore nel caricamento delle opzioni","featured":"In evidenza","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRATUITA","freeAbove":"Gratuita sopra","frequentlyBoughtTogether":"Spesso acquistati insieme","frequentlyBoughtTogetherSubtitle":"Risparmia tempo e prendi tutto ciò che ti serve","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Home","inStock":"Disponibile","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Lunghezza","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Materiale","minimumOrderNotMet":"Importo minimo dell'ordine: {{amount}}. Aggiungi altri {{remaining}} per procedere.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Inserisci il tuo nome completo","new":"Novità","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Il tuo negozio è pronto per i prodotti","previewEmptyStoreBody":"Aggiungi il tuo primo prodotto nel Gestore negozio per vederlo apparire qui.","previewEmptyStoreButton":"Aggiungi prodotti","previewOnlyBadge":"Solo anteprima","noShippingMethods":"Nessuna opzione di spedizione disponibile","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esaurito","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Inserisci il tuo numero di telefono","placeOrder":"Place Order","pleaseAcceptTerms":"Si prega di accettare i termini e le condizioni","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Procedi al pagamento","productDetails":"Dettagli prodotto","productNotFound":"Product not found","products":"Prodotti","profileUpdated":"Profile updated successfully","quantity":"Quantità","relatedProducts":"Prodotti correlati","remove":"Rimuovi","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Saldi","saveAddressForNextTime":"Salva questo indirizzo per la prossima volta","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Risultati della ricerca","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Spedizione","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Seleziona un metodo di spedizione","signInHere":"Sign in here","size":"Taglia","sku":"Codice","specifications":"Specifiche","startingAt":"A partire da","stateProvince":"Stato / Provincia","stateRequired":"Seleziona uno stato / provincia","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informazioni aggiuntive","street":"Street Address","streetAndNumber":"Via e numero","streetRequired":"Inserisci il tuo indirizzo","style":"Stile","subtotal":"Subtotale","termsAndConditions":"Termini e Condizioni","thankYouOrder":"Thank you for your order","total":"Totale","totalToPay":"Totale da Pagare","transactionDate":"Transaction Date","upsellFree":"Gratis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA inclusa","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Vedi dettagli","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Il tuo carrello","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CAP","coursesAlreadyOwned":"Possiedi già questo corso.","coursesAlreadyOwnedCheckout":"Sei già iscritto a un corso nel carrello.","coursesEnrollmentCheckFailed":"Impossibile verificare la proprietà del corso. Riprova.","coursesAlreadyEnrolledPrompt":"Già iscritto?","coursesLoginLink":"Accedi","yourCourse":"il tuo corso","courseAccessMethod":"Accesso online al corso","processing":"Elaborazione...","checkoutFailed":"Il pagamento non è riuscito. Riprova."},"ja":{"loading":"読み込み中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} 点をカートに追加","addToCart":"カートに追加","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"私は同意します","all":"すべて","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"部屋番号、階、建物コード、備考など","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"今すぐ予約","bookingChooseDate":"日付を選択","bookingChooseTime":"時間を選択","bookingDate":"日付","bookingLoading":"空き状況を読み込み中…","bookingNoDates":"現在利用可能な日付はありません","bookingNoSlots":"現在予約可能な時間がありません","bookingRemaining":"残り{count}","bookingSelectOption":"選択","bookingSelectTime":"時間を選択","bookingSelectDateFirst":"先に日付を選択してください","bookingSelectTimeFirst":"先に日付と時間を選択してください","bookingTime":"時間","browseFavorites":"Discover all our products","bundleDiscount":"バンドル割引","seasonalDiscount":"季節割引","customerDiscount":"顧客割引","bundleTotal":"セット合計","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"お会計","city":"市区町村","cityRequired":"市区町村を入力してください","color":"色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"買い物を続ける","continueToHomePage":"Continue to Home Page","countryRegion":"国 / 地域","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"まだコースがありません。","coursesCatalogError":"コースの読み込みに失敗しました。","coursesCatalogSubtitle":"全コースライブラリをご覧ください。","coursesCatalogTitle":"コース","coursesCertificateLoading":"確認中…","coursesCertificateTitle":"証明書の確認","coursesDetailEnroll":"カートに追加","coursesDetailResume":"学習を再開する","coursesDigitalDelivery":"デジタルオンラインアクセス","coursesLessonCompleted":"完了","coursesLessonLoading":"レッスンを読み込み中…","coursesLessonMarkComplete":"完了にする","coursesLessonNext":"次へ","coursesLessonPrev":"前へ","coursesMyLearningEmpty":"まだコースに登録していません。","coursesMyLearningLoading":"コースを読み込み中…","coursesMyLearningSubtitle":"中断したところから続けましょう。","coursesMyLearningTitle":"マイラーニング","coursesCertCourse":"コース","coursesCertDownload":"ダウンロード","coursesCertError":"認証に失敗しました。","coursesCertInvalid":"この証明書は認証できませんでした。","coursesCertIssued":"発行日","coursesCertStudent":"受講者","coursesCertValid":"認証済み","coursesCertIssuer":"発行者","coursesCertCode":"確認コード","coursesViewCertificate":"証明書を表示","coursesCertEarnedTitle":"コース修了！","coursesCertEarnedBody":"証明書の準備ができました。","coursesCurriculumEmpty":"カリキュラムは近日公開予定です。","coursesFree":"無料","coursesJoinLive":"ライブに参加","coursesLessonGate":"このレッスンにアクセスするには、このコースに登録してください。","coursesLessonLocked":"レッスンはロックされています","coursesLessonLoadError":"レッスンの読み込みに失敗しました。","coursesEnrollCta":"コースを見る・申し込む","coursesEnrollmentRevoked":"あなたの登録は無効になりました。","coursesDripLocked":"このレッスンはスケジュールに従って解除されます。","coursesVideoProcessing":"動画はまだ処理中です。しばらくしてからもう一度確認してください。","coursesVideoFailed":"動画の処理に失敗しました。Course Studioからレッスン動画を再アップロードしてください。","coursesDetailLoading":"読み込み中…","coursesDetailInstructor":"講師","coursesDetailCurriculum":"カリキュラム","coursesLevelBeginner":"初級","coursesLevelIntermediate":"中級","coursesLevelAdvanced":"上級","coursesLessonUnsupported":"このレッスンタイプはまだサポートされていません。","coursesLiveScheduled":"ライブセッション予定","coursesPreview":"プレビュー","coursesQuizError":"クイズの読み込みに失敗しました。","coursesQuizLoading":"クイズを読み込み中…","coursesQuizNone":"このレッスンにはクイズがありません。","coursesQuizPassed":"合格しました！","coursesQuizRetry":"もう一度挑戦する。","coursesQuizSubmit":"提出","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"日","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"割引","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"有効なメールアドレスを入力してください","emailRequired":"メールアドレスを入力してください","emptyCart":"カートは空です","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"オプションの読み込みエラー","featured":"おすすめ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"無料","freeAbove":"以上で送料無料","frequentlyBoughtTogether":"よく一緒に購入されています","frequentlyBoughtTogetherSubtitle":"必要なものをまとめて手早く揃えましょう","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"ホーム","inStock":"在庫あり","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"長さ","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"素材","minimumOrderNotMet":"最低注文金額: {{amount}}。あと{{remaining}}追加してください。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"フルネームを入力してください","new":"新着","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ストアに商品を追加できます","previewEmptyStoreBody":"ストアマネージャーで最初の商品を追加すると、ここに表示されます。","previewEmptyStoreButton":"商品を追加","previewOnlyBadge":"プレビューのみ","noShippingMethods":"配送オプションがありません","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"在庫切れ","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"電話番号を入力してください","placeOrder":"Place Order","pleaseAcceptTerms":"利用規約に同意してください","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"お会計に進む","productDetails":"商品詳細","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"関連商品","remove":"削除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"セール","saveAddressForNextTime":"この住所を次回のために保存","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"検索結果","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"送料","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"配送方法を選択してください","signInHere":"Sign in here","size":"サイズ","sku":"商品コード","specifications":"仕様","startingAt":"〜から","stateProvince":"都道府県","stateRequired":"都道府県を選択してください","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"追加情報","street":"Street Address","streetAndNumber":"番地","streetRequired":"住所を入力してください","style":"スタイル","subtotal":"小計","termsAndConditions":"利用規約","thankYouOrder":"Thank you for your order","total":"合計","totalToPay":"お支払い合計","transactionDate":"Transaction Date","upsellFree":"無料","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"税込み","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"詳細を見る","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"カート","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"郵便番号","coursesAlreadyOwned":"このコースはすでに所有しています。","coursesAlreadyOwnedCheckout":"カート内のコースにはすでに登録済みです。","coursesEnrollmentCheckFailed":"コース所有権を確認できませんでした。もう一度お試しください。","coursesAlreadyEnrolledPrompt":"すでに受講済みですか？","coursesLoginLink":"ログイン","yourCourse":"あなたのコース","courseAccessMethod":"オンラインコースアクセス","processing":"処理中...","checkoutFailed":"お支払いに失敗しました。もう一度お試しください。"},"lt":{"loading":"Įkeliama…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Pridėti {count} prekių į krepšelį","addToCart":"Į krepšelį","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Sutinku su","all":"Visi","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Butas, aukštas, pastato kodas, pastabos ir kt.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Rezervuoti dabar","bookingChooseDate":"Pasirinkite datą","bookingChooseTime":"Pasirinkite laiką","bookingDate":"Data","bookingLoading":"Įkeliamas pasiekiamumas…","bookingNoDates":"Šiuo metu nėra galimų datų","bookingNoSlots":"Šiuo metu nėra laisvų laikų","bookingRemaining":"Liko {count}","bookingSelectOption":"Pasirinkti","bookingSelectTime":"Pasirinkite laiką","bookingSelectDateFirst":"Pirmiausia pasirinkite datą","bookingSelectTimeFirst":"Pirmiausia pasirinkite datą ir laiką","bookingTime":"Laikas","browseFavorites":"Discover all our products","bundleDiscount":"Paketo nuolaida","seasonalDiscount":"Sezoninė nuolaida","customerDiscount":"Kliento nuolaida","bundleTotal":"Rinkinio iš viso","callNow":"Call Now","cancel":"Cancel","capacity":"Talpa","cart":"Cart","category":"Category","checkout":"Apmokėti","city":"Miestas","cityRequired":"Prašome įvesti miestą","color":"Spalva","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Tęsti apsipirkimą","continueToHomePage":"Continue to Home Page","countryRegion":"Šalis / regionas","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Kursų dar nėra.","coursesCatalogError":"Nepavyko įkelti kursų.","coursesCatalogSubtitle":"Naršykite visą mūsų kursų biblioteką.","coursesCatalogTitle":"Kursai","coursesCertificateLoading":"Tikrinama…","coursesCertificateTitle":"Sertifikato patvirtinimas","coursesDetailEnroll":"Į krepšelį","coursesDetailResume":"Tęsti mokymąsi","coursesDigitalDelivery":"Skaitmeninis prieigos internetu","coursesLessonCompleted":"Užbaigta","coursesLessonLoading":"Kraunama pamoka…","coursesLessonMarkComplete":"Pažymėti kaip baigtą","coursesLessonNext":"Kitas","coursesLessonPrev":"Ankstesnis","coursesMyLearningEmpty":"Dar nesate užsiregistravę į jokius kursus.","coursesMyLearningLoading":"Kraunami jūsų kursai…","coursesMyLearningSubtitle":"Tęskite ten, kur sustojote.","coursesMyLearningTitle":"Mano mokymasis","coursesCertCourse":"Kursas","coursesCertDownload":"Atsisiųsti","coursesCertError":"Patikrinimas nepavyko.","coursesCertInvalid":"Šio sertifikato nepavyko patikrinti.","coursesCertIssued":"Išduotas","coursesCertStudent":"Studentas","coursesCertValid":"Patikrintas","coursesCertIssuer":"Išdavė","coursesCertCode":"Patvirtinimo kodas","coursesViewCertificate":"Peržiūrėti sertifikatą","coursesCertEarnedTitle":"Kursas baigtas!","coursesCertEarnedBody":"Jūsų sertifikatas paruoštas.","coursesCurriculumEmpty":"Programa bus pateikta netrukus.","coursesFree":"Nemokamas","coursesJoinLive":"Prisijungti prie tiesioginės transliacijos","coursesLessonGate":"Užsiregistruokite į šį kursą, kad galėtumėte pasiekti šią pamoką.","coursesLessonLocked":"Pamoka užrakinta","coursesLessonLoadError":"Nepavyko įkelti pamokos.","coursesEnrollCta":"Peržiūrėti kursą ir registruotis","coursesEnrollmentRevoked":"Jūsų registracija nebegalioja.","coursesDripLocked":"Ši pamoka atsirakins pagal grafiką.","coursesVideoProcessing":"Vaizdo įrašas vis dar apdorojamas. Grįžkite vėliau.","coursesVideoFailed":"Vaizdo įrašo apdorojimas nepavyko. Prašome iš naujo įkelti pamokos vaizdo įrašą iš Course Studio.","coursesDetailLoading":"Kraunama…","coursesDetailInstructor":"Instruktorius","coursesDetailCurriculum":"Programa","coursesLevelBeginner":"Pradedantysis","coursesLevelIntermediate":"Vidutinis","coursesLevelAdvanced":"Pažengęs","coursesLessonUnsupported":"Šis pamokos tipas dar nepalaikomas.","coursesLiveScheduled":"Suplanuotas tiesioginis seansas","coursesPreview":"Peržiūra","coursesQuizError":"Nepavyko įkelti testo.","coursesQuizLoading":"Įkeliamas testas…","coursesQuizNone":"Šioje pamokoje nėra testo.","coursesQuizPassed":"Jūs išlaikėte!","coursesQuizRetry":"Bandyti dar kartą.","coursesQuizSubmit":"Pateikti","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dienos","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Nuolaida","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Prašome įvesti teisingą el. pašto adresą","emailRequired":"Prašome įvesti el. paštą","emptyCart":"Jūsų krepšelis tuščias","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Klaida įkeliant parinktis","featured":"Rekomenduojami","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"NEMOKAMAS","freeAbove":"Nemokamas nuo","frequentlyBoughtTogether":"Dažnai perkama kartu","frequentlyBoughtTogetherSubtitle":"Sutaupykite laiko ir gaukite viską, ko reikia","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Pagrindinis","inStock":"Yra sandėlyje","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Ilgis","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Medžiaga","minimumOrderNotMet":"Minimali užsakymo suma: {{amount}}. Pridėkite dar {{remaining}}, kad galėtumėte tęsti.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Prašome įvesti vardą ir pavardę","new":"Naujiena","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Jūsų parduotuvė paruošta produktams","previewEmptyStoreBody":"Pridėkite pirmąjį produktą parduotuvės tvarkyklėje, kad jis atsirastų čia.","previewEmptyStoreButton":"Pridėti produktų","previewOnlyBadge":"Tik peržiūrai","noShippingMethods":"Pristatymo būdų nėra","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Išparduota","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Prašome įvesti telefono numerį","placeOrder":"Place Order","pleaseAcceptTerms":"Prašome sutikti su taisyklėmis ir sąlygomis","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Pereiti prie apmokėjimo","productDetails":"Prekės detalės","productNotFound":"Product not found","products":"Prekės","profileUpdated":"Profile updated successfully","quantity":"Kiekis","relatedProducts":"Susijusios prekės","remove":"Pašalinti","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Išpardavimas","saveAddressForNextTime":"Išsaugoti šį adresą kitam kartui","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Paieškos rezultatai","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Pristatymas","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Prašome pasirinkti pristatymo būdą","signInHere":"Sign in here","size":"Dydis","sku":"Kodas","specifications":"Specifikacijos","startingAt":"Nuo","stateProvince":"Apskritis / rajonas","stateRequired":"Prašome pasirinkti apskritį / rajoną","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Papildoma informacija","street":"Street Address","streetAndNumber":"Gatvė ir namo numeris","streetRequired":"Prašome įvesti adresą","style":"Stilius","subtotal":"Tarpinė suma","termsAndConditions":"taisyklėmis ir sąlygomis","thankYouOrder":"Thank you for your order","total":"Iš viso","totalToPay":"Iš viso mokėti","transactionDate":"Transaction Date","upsellFree":"Nemokama","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Įskaitant PVM","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Peržiūrėti","viewOrder":"View Order","weight":"Svoris","work":"Work","yourCart":"Jūsų krepšelis","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Pašto kodas","coursesAlreadyOwned":"Jau turite prieigą prie šio kurso.","coursesAlreadyOwnedCheckout":"Jau esate užsiregistravę į kursą krepšelyje.","coursesEnrollmentCheckFailed":"Nepavyko patikrinti kurso nuosavybės. Bandykite dar kartą.","coursesAlreadyEnrolledPrompt":"Jau užsiregistravote?","coursesLoginLink":"Prisijunkite","yourCourse":"jūsų kursas","courseAccessMethod":"Internetinė prieiga prie kurso","processing":"Apdorojama...","checkoutFailed":"Mokėjimas nepavyko. Bandykite dar kartą."},"pt":{"loading":"Carregando…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Adicionar {count} itens ao carrinho","addToCart":"Adicionar ao carrinho","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Eu concordo com os","all":"Todos","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Apto, andar, código do edifício, observações, etc.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Reservar agora","bookingChooseDate":"Escolha uma data","bookingChooseTime":"Escolha um horário","bookingDate":"Data","bookingLoading":"Carregando disponibilidade…","bookingNoDates":"Não há datas disponíveis no momento","bookingNoSlots":"Nenhum horário disponível no momento","bookingRemaining":"{count} restantes","bookingSelectOption":"Selecionar","bookingSelectTime":"Selecione um horário","bookingSelectDateFirst":"Escolha primeiro uma data","bookingSelectTimeFirst":"Escolha primeiro uma data e um horário","bookingTime":"Hora","browseFavorites":"Discover all our products","bundleDiscount":"Desconto de pacote","seasonalDiscount":"Desconto sazonal","customerDiscount":"Desconto do cliente","bundleTotal":"Total do pacote","callNow":"Call Now","cancel":"Cancel","capacity":"Capacidade","cart":"Cart","category":"Category","checkout":"Finalizar compra","city":"Cidade","cityRequired":"Por favor, insira sua cidade","color":"Cor","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Continuar comprando","continueToHomePage":"Continue to Home Page","countryRegion":"País / Região","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Ainda não há cursos disponíveis.","coursesCatalogError":"Falha ao carregar cursos.","coursesCatalogSubtitle":"Navegue por nossa biblioteca completa de cursos.","coursesCatalogTitle":"Cursos","coursesCertificateLoading":"Verificando…","coursesCertificateTitle":"Verificação de Certificado","coursesDetailEnroll":"Adicionar ao carrinho","coursesDetailResume":"Continuar aprendendo","coursesDigitalDelivery":"Acesso digital online","coursesLessonCompleted":"Concluído","coursesLessonLoading":"Carregando lição…","coursesLessonMarkComplete":"Marcar como concluído","coursesLessonNext":"Próximo","coursesLessonPrev":"Anterior","coursesMyLearningEmpty":"Você ainda não se inscreveu em nenhum curso.","coursesMyLearningLoading":"Carregando seus cursos…","coursesMyLearningSubtitle":"Continue de onde parou.","coursesMyLearningTitle":"Meu Aprendizado","coursesCertCourse":"Curso","coursesCertDownload":"Baixar","coursesCertError":"Verificação falhou.","coursesCertInvalid":"Este certificado não pôde ser verificado.","coursesCertIssued":"Emitido","coursesCertStudent":"Estudante","coursesCertValid":"Verificado","coursesCertIssuer":"Emitido por","coursesCertCode":"Código de verificação","coursesViewCertificate":"Ver certificado","coursesCertEarnedTitle":"Curso concluído!","coursesCertEarnedBody":"Seu certificado está pronto.","coursesCurriculumEmpty":"Currículo em breve.","coursesFree":"Grátis","coursesJoinLive":"Participar ao vivo","coursesLessonGate":"Inscreva-se neste curso para acessar esta aula.","coursesLessonLocked":"Lição bloqueada","coursesLessonLoadError":"Falha ao carregar a lição.","coursesEnrollCta":"Ver curso e inscrever-se","coursesEnrollmentRevoked":"Sua inscrição não está mais ativa.","coursesDripLocked":"Esta lição será desbloqueada conforme cronograma.","coursesVideoProcessing":"Vídeo ainda está sendo processado. Volte em breve.","coursesVideoFailed":"Falha no processamento do vídeo. Por favor, faça o upload novamente do vídeo da aula no Course Studio.","coursesDetailLoading":"Carregando…","coursesDetailInstructor":"Instrutor","coursesDetailCurriculum":"Currículo","coursesLevelBeginner":"Iniciante","coursesLevelIntermediate":"Intermediário","coursesLevelAdvanced":"Avançado","coursesLessonUnsupported":"Este tipo de aula ainda não é suportado.","coursesLiveScheduled":"Sessão ao vivo agendada","coursesPreview":"Visualizar","coursesQuizError":"Falha ao carregar quiz.","coursesQuizLoading":"Carregando quiz…","coursesQuizNone":"Nenhum quiz nesta aula.","coursesQuizPassed":"Você passou!","coursesQuizRetry":"Tente novamente.","coursesQuizSubmit":"Enviar","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"dias","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Desconto","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Por favor, insira um e-mail válido","emailRequired":"Por favor, insira seu e-mail","emptyCart":"Seu carrinho está vazio","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Erro ao carregar opções","featured":"Destaques","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"GRÁTIS","freeAbove":"Grátis acima de","frequentlyBoughtTogether":"Frequentemente comprados juntos","frequentlyBoughtTogetherSubtitle":"Economize tempo e leve tudo o que precisa","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Início","inStock":"Em estoque","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Comprimento","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Material","minimumOrderNotMet":"Valor mínimo do pedido: {{amount}}. Adicione mais {{remaining}} para continuar.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Por favor, insira seu nome completo","new":"Novidades","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Sua loja está pronta para produtos","previewEmptyStoreBody":"Adicione seu primeiro produto no Gerenciador da loja para vê-lo aparecer aqui.","previewEmptyStoreButton":"Adicionar produtos","previewOnlyBadge":"Somente pré-visualização","noShippingMethods":"Nenhuma opção de envio disponível","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Esgotado","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Por favor, insira seu telefone","placeOrder":"Place Order","pleaseAcceptTerms":"Por favor, aceite os termos e condições","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ir para o pagamento","productDetails":"Detalhes do produto","productNotFound":"Product not found","products":"Produtos","profileUpdated":"Profile updated successfully","quantity":"Quantidade","relatedProducts":"Produtos relacionados","remove":"Remover","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Promoção","saveAddressForNextTime":"Salvar este endereço para a próxima vez","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Resultados da pesquisa","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Envio","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Por favor, selecione um método de envio","signInHere":"Sign in here","size":"Tamanho","sku":"Código","specifications":"Especificações","startingAt":"A partir de","stateProvince":"Estado / Província","stateRequired":"Por favor, selecione um estado / província","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Informações adicionais","street":"Street Address","streetAndNumber":"Rua e número","streetRequired":"Por favor, insira seu endereço","style":"Estilo","subtotal":"Subtotal","termsAndConditions":"Termos e Condições","thankYouOrder":"Thank you for your order","total":"Total","totalToPay":"Total a Pagar","transactionDate":"Transaction Date","upsellFree":"Grátis","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"IVA incluído","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Ver detalhes","viewOrder":"View Order","weight":"Peso","work":"Work","yourCart":"Seu carrinho","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"CEP / Código Postal","coursesAlreadyOwned":"Você já possui este curso.","coursesAlreadyOwnedCheckout":"Você já está inscrito em um curso no carrinho.","coursesEnrollmentCheckFailed":"Não foi possível verificar a propriedade do curso. Tente novamente.","coursesAlreadyEnrolledPrompt":"Já está inscrito?","coursesLoginLink":"Entrar","yourCourse":"seu curso","courseAccessMethod":"Acesso online ao curso","processing":"Processando...","checkoutFailed":"Falha no pagamento. Tente novamente."},"ru":{"loading":"Загрузка…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"Добавить {count} товаров в корзину","addToCart":"В корзину","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Я соглашаюсь с","all":"Все","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Кв., этаж, код дома, заметки и т.д.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Забронировать","bookingChooseDate":"Выберите дату","bookingChooseTime":"Выберите время","bookingDate":"Дата","bookingLoading":"Загрузка доступности…","bookingNoDates":"Сейчас нет доступных дат","bookingNoSlots":"Сейчас нет свободного времени","bookingRemaining":"Осталось {count}","bookingSelectOption":"Выбрать","bookingSelectTime":"Выберите время","bookingSelectDateFirst":"Сначала выберите дату","bookingSelectTimeFirst":"Сначала выберите дату и время","bookingTime":"Время","browseFavorites":"Discover all our products","bundleDiscount":"Скидка за набор","seasonalDiscount":"Сезонная скидка","customerDiscount":"Скидка клиента","bundleTotal":"Итого набор","callNow":"Call Now","cancel":"Cancel","capacity":"Объем","cart":"Cart","category":"Category","checkout":"Оформить заказ","city":"Город","cityRequired":"Пожалуйста, введите город","color":"Цвет","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Продолжить покупки","continueToHomePage":"Continue to Home Page","countryRegion":"Страна / Регион","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Курсы пока недоступны.","coursesCatalogError":"Не удалось загрузить курсы.","coursesCatalogSubtitle":"Просмотрите нашу полную библиотеку курсов.","coursesCatalogTitle":"Курсы","coursesCertificateLoading":"Проверка…","coursesCertificateTitle":"Проверка сертификата","coursesDetailEnroll":"В корзину","coursesDetailResume":"Продолжить обучение","coursesDigitalDelivery":"Цифровой онлайн-доступ","coursesLessonCompleted":"Завершено","coursesLessonLoading":"Загрузка урока…","coursesLessonMarkComplete":"Отметить как завершенный","coursesLessonNext":"Далее","coursesLessonPrev":"Назад","coursesMyLearningEmpty":"Вы еще не записались ни на один курс.","coursesMyLearningLoading":"Загрузка ваших курсов…","coursesMyLearningSubtitle":"Продолжите с того места, где остановились.","coursesMyLearningTitle":"Мое обучение","coursesCertCourse":"Курс","coursesCertDownload":"Скачать","coursesCertError":"Проверка не удалась.","coursesCertInvalid":"Этот сертификат не удалось проверить.","coursesCertIssued":"Выдан","coursesCertStudent":"Студент","coursesCertValid":"Проверен","coursesCertIssuer":"Выдано","coursesCertCode":"Код проверки","coursesViewCertificate":"Посмотреть сертификат","coursesCertEarnedTitle":"Курс завершён!","coursesCertEarnedBody":"Ваш сертификат готов.","coursesCurriculumEmpty":"Программа курса скоро появится.","coursesFree":"Бесплатно","coursesJoinLive":"Присоединиться к прямому эфиру","coursesLessonGate":"Запишитесь на этот курс, чтобы получить доступ к этому уроку.","coursesLessonLocked":"Урок заблокирован","coursesLessonLoadError":"Не удалось загрузить урок.","coursesEnrollCta":"Посмотреть курс и записаться","coursesEnrollmentRevoked":"Ваша регистрация больше не активна.","coursesDripLocked":"Этот урок откроется по расписанию.","coursesVideoProcessing":"Видео все еще обрабатывается. Проверьте позже.","coursesVideoFailed":"Обработка видео не удалась. Пожалуйста, повторно загрузите видео урока из Course Studio.","coursesDetailLoading":"Загрузка…","coursesDetailInstructor":"Инструктор","coursesDetailCurriculum":"Учебная программа","coursesLevelBeginner":"Начинающий","coursesLevelIntermediate":"Средний","coursesLevelAdvanced":"Продвинутый","coursesLessonUnsupported":"Этот тип урока пока не поддерживается.","coursesLiveScheduled":"Запланирована прямая трансляция","coursesPreview":"Предварительный просмотр","coursesQuizError":"Не удалось загрузить тест.","coursesQuizLoading":"Загрузка теста…","coursesQuizNone":"В этом уроке нет теста.","coursesQuizPassed":"Вы прошли тест!","coursesQuizRetry":"Попробовать снова.","coursesQuizSubmit":"Отправить","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"дней","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"Скидка","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Пожалуйста, введите корректный email","emailRequired":"Пожалуйста, введите ваш email","emptyCart":"Корзина пуста","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Ошибка загрузки вариантов","featured":"Рекомендуемые","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"БЕСПЛАТНО","freeAbove":"Бесплатно от","frequentlyBoughtTogether":"Часто покупают вместе","frequentlyBoughtTogetherSubtitle":"Экономьте время и получите все необходимое","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Главная","inStock":"В наличии","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Длина","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Материал","minimumOrderNotMet":"Минимальная сумма заказа: {{amount}}. Добавьте ещё {{remaining}} для продолжения.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Пожалуйста, введите ваше полное имя","new":"Новинки","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Ваш магазин готов к товарам","previewEmptyStoreBody":"Добавьте первый товар в менеджере магазина, чтобы увидеть его здесь.","previewEmptyStoreButton":"Добавить товары","previewOnlyBadge":"Только в предпросмотре","noShippingMethods":"Варианты доставки недоступны","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Нет в наличии","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Пожалуйста, введите номер телефона","placeOrder":"Place Order","pleaseAcceptTerms":"Пожалуйста, примите условия использования","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Перейти к оплате","productDetails":"Описание товара","productNotFound":"Product not found","products":"Товары","profileUpdated":"Profile updated successfully","quantity":"Количество","relatedProducts":"Похожие товары","remove":"Удалить","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"Распродажа","saveAddressForNextTime":"Сохранить этот адрес на будущее","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Результаты поиска","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Доставка","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Пожалуйста, выберите способ доставки","signInHere":"Sign in here","size":"Размер","sku":"Артикул","specifications":"Характеристики","startingAt":"От","stateProvince":"Штат / Область","stateRequired":"Пожалуйста, выберите штат / область","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Дополнительная информация","street":"Street Address","streetAndNumber":"Улица и номер","streetRequired":"Пожалуйста, введите адрес","style":"Стиль","subtotal":"Подытог","termsAndConditions":"Условиями использования","thankYouOrder":"Thank you for your order","total":"Итого","totalToPay":"Итого к оплате","transactionDate":"Transaction Date","upsellFree":"Бесплатно","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"Включая НДС","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Подробнее","viewOrder":"View Order","weight":"Вес","work":"Work","yourCart":"Ваша корзина","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Почтовый индекс","coursesAlreadyOwned":"У вас уже есть доступ к этому курсу.","coursesAlreadyOwnedCheckout":"Вы уже записаны на курс из корзины.","coursesEnrollmentCheckFailed":"Не удалось подтвердить владение курсом. Пожалуйста, попробуйте снова.","coursesAlreadyEnrolledPrompt":"Уже записаны?","coursesLoginLink":"Войти","yourCourse":"ваш курс","courseAccessMethod":"Онлайн-доступ к курсу","processing":"Обработка...","checkoutFailed":"Ошибка оплаты. Пожалуйста, попробуйте снова."},"th":{"loading":"กำลังโหลด…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"เพิ่ม {count} รายการลงตะกร้า","addToCart":"เพิ่มลงตะกร้า","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"ฉันยอมรับ","all":"ทั้งหมด","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"ห้อง, ชั้น, รหัสอาคาร, หมายเหตุ ฯลฯ","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"จองเลย","bookingChooseDate":"เลือกวันที่","bookingChooseTime":"เลือกเวลา","bookingDate":"วันที่","bookingLoading":"กำลังโหลดเวลาที่ว่าง…","bookingNoDates":"ยังไม่มีวันที่ว่างในขณะนี้","bookingNoSlots":"ขณะนี้ไม่มีเวลาที่ว่าง","bookingRemaining":"เหลือ {count}","bookingSelectOption":"เลือก","bookingSelectTime":"เลือกเวลา","bookingSelectDateFirst":"โปรดเลือกวันที่ก่อน","bookingSelectTimeFirst":"โปรดเลือกวันที่และเวลาก่อน","bookingTime":"เวลา","browseFavorites":"Discover all our products","bundleDiscount":"ส่วนลดชุด","seasonalDiscount":"ส่วนลดตามฤดูกาล","customerDiscount":"ส่วนลดลูกค้า","bundleTotal":"ยอดรวมแพ็กเกจ","callNow":"Call Now","cancel":"Cancel","capacity":"ความจุ","cart":"Cart","category":"Category","checkout":"ชำระเงิน","city":"จังหวัด","cityRequired":"กรุณากรอกจังหวัด","color":"สี","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"เลือกซื้อสินค้าต่อ","continueToHomePage":"Continue to Home Page","countryRegion":"ประเทศ / ภูมิภาค","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"ยังไม่มีคอร์สเรียนที่พร้อมใช้งาน","coursesCatalogError":"โหลดคอร์สเรียนไม่สำเร็จ","coursesCatalogSubtitle":"เรียนดูคอร์สเรียนทั้งหมดของเรา","coursesCatalogTitle":"คอร์สเรียน","coursesCertificateLoading":"กำลังตรวจสอบ…","coursesCertificateTitle":"การตรวจสอบใบประกาศนียบัตร","coursesDetailEnroll":"เพิ่มลงตะกร้า","coursesDetailResume":"เรียนต่อ","coursesDigitalDelivery":"การเข้าถึงออนไลน์แบบดิจิทัล","coursesLessonCompleted":"เสร็จสมบูรณ์","coursesLessonLoading":"กำลังโหลดบทเรียน…","coursesLessonMarkComplete":"ทำเครื่องหมายว่าเสร็จสิ้น","coursesLessonNext":"ถัดไป","coursesLessonPrev":"ก่อนหน้า","coursesMyLearningEmpty":"คุณยังไม่ได้ลงทะเบียนเรียนคอร์สใดๆ","coursesMyLearningLoading":"กำลังโหลดคอร์สของคุณ…","coursesMyLearningSubtitle":"เรียนต่อจากจุดที่คุณหยุดไว้","coursesMyLearningTitle":"การเรียนของฉัน","coursesCertCourse":"คอร์สเรียน","coursesCertDownload":"ดาวน์โหลด","coursesCertError":"การตรวจสอบไม่สำเร็จ","coursesCertInvalid":"ไม่สามารถตรวจสอบใบประกาศนียบัตรนี้ได้","coursesCertIssued":"ออกให้เมื่อ","coursesCertStudent":"นักเรียน","coursesCertValid":"ตรวจสอบแล้ว","coursesCertIssuer":"ออกโดย","coursesCertCode":"รหัสยืนยัน","coursesViewCertificate":"ดูใบรับรอง","coursesCertEarnedTitle":"เรียนจบหลักสูตรแล้ว!","coursesCertEarnedBody":"ใบรับรองของคุณพร้อมแล้ว","coursesCurriculumEmpty":"หลักสูตรจะเปิดให้เร็วๆ นี้","coursesFree":"ฟรี","coursesJoinLive":"เข้าร่วมสด","coursesLessonGate":"ลงทะเบียนเรียนคอร์สนี้เพื่อเข้าถึงบทเรียนนี้","coursesLessonLocked":"บทเรียนถูกล็อค","coursesLessonLoadError":"ไม่สามารถโหลดบทเรียนได้","coursesEnrollCta":"ดูคอร์สและลงทะเบียน","coursesEnrollmentRevoked":"การลงทะเบียนของคุณไม่ได้ใช้งานอีกต่อไป","coursesDripLocked":"บทเรียนนี้จะปลดล็อคตามกำหนดการ","coursesVideoProcessing":"วิดีโอยังอยู่ระหว่างการประมวลผล กรุณาตรวจสอบอีกครั้งในภายหลัง","coursesVideoFailed":"การประมวลผลวิดีโอล้มเหลว กรุณาอัปโหลดวิดีโอบทเรียนใหม่จาก Course Studio","coursesDetailLoading":"กำลังโหลด…","coursesDetailInstructor":"ผู้สอน","coursesDetailCurriculum":"หลักสูตร","coursesLevelBeginner":"ผู้เริ่มต้น","coursesLevelIntermediate":"ระดับกลาง","coursesLevelAdvanced":"ระดับสูง","coursesLessonUnsupported":"ประเภทบทเรียนนี้ยังไม่รองรับ","coursesLiveScheduled":"กำหนดการเรียนสดแล้ว","coursesPreview":"ดูตัวอย่าง","coursesQuizError":"โหลดแบบทดสอบไม่สำเร็จ","coursesQuizLoading":"กำลังโหลดแบบทดสอบ…","coursesQuizNone":"ไม่มีแบบทดสอบในบทเรียนนี้","coursesQuizPassed":"คุณผ่านแล้ว!","coursesQuizRetry":"ลองใหม่อีกครั้ง","coursesQuizSubmit":"ส่งคำตอบ","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"วัน","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"ส่วนลด","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"กรุณากรอกอีเมลที่ถูกต้อง","emailRequired":"กรุณากรอกอีเมล","emptyCart":"ตะกร้าของคุณว่างเปล่า","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"เกิดข้อผิดพลาดในการโหลดตัวเลือก","featured":"แนะนำ","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ฟรี","freeAbove":"ฟรีเมื่อซื้อครบ","frequentlyBoughtTogether":"มักซื้อด้วยกัน","frequentlyBoughtTogetherSubtitle":"ประหยัดเวลาและได้ทุกอย่างที่คุณต้องการ","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"หน้าแรก","inStock":"มีสินค้า","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"ความยาว","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"วัสดุ","minimumOrderNotMet":"ยอดสั่งซื้อขั้นต่ำ: {{amount}} กรุณาเพิ่มอีก {{remaining}} เพื่อดำเนินการต่อ","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"กรุณากรอกชื่อ-นามสกุล","new":"ใหม่","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"ร้านค้าของคุณพร้อมสำหรับสินค้าแล้ว","previewEmptyStoreBody":"เพิ่มสินค้าชิ้นแรกในตัวจัดการร้านค้าเพื่อดูว่าสินค้าจะแสดงที่นี่","previewEmptyStoreButton":"เพิ่มสินค้า","previewOnlyBadge":"เฉพาะตัวอย่าง","noShippingMethods":"ไม่มีตัวเลือกการจัดส่ง","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"สินค้าหมด","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"กรุณากรอกเบอร์โทรศัพท์","placeOrder":"Place Order","pleaseAcceptTerms":"กรุณายอมรับข้อกำหนดและเงื่อนไข","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"ดำเนินการชำระเงิน","productDetails":"รายละเอียดสินค้า","productNotFound":"Product not found","products":"สินค้า","profileUpdated":"Profile updated successfully","quantity":"จำนวน","relatedProducts":"สินค้าที่เกี่ยวข้อง","remove":"ลบ","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"ลดราคา","saveAddressForNextTime":"บันทึกที่อยู่นี้สำหรับครั้งหน้า","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"ผลการค้นหา","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"การจัดส่ง","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"กรุณาเลือกวิธีการจัดส่ง","signInHere":"Sign in here","size":"ขนาด","sku":"รหัสสินค้า","specifications":"ข้อมูลจำเพาะ","startingAt":"เริ่มต้นที่","stateProvince":"จังหวัด / รัฐ","stateRequired":"กรุณาเลือกจังหวัด / รัฐ","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"ข้อมูลเพิ่มเติม","street":"Street Address","streetAndNumber":"ถนนและเลขที่","streetRequired":"กรุณากรอกที่อยู่","style":"สไตล์","subtotal":"ยอดรวมย่อย","termsAndConditions":"ข้อกำหนดและเงื่อนไข","thankYouOrder":"Thank you for your order","total":"รวม","totalToPay":"ยอดรวมที่ต้องชำระ","transactionDate":"Transaction Date","upsellFree":"ฟรี","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"รวม VAT","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"ดูรายละเอียด","viewOrder":"View Order","weight":"น้ำหนัก","work":"Work","yourCart":"ตะกร้าของคุณ","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"รหัสไปรษณีย์","coursesAlreadyOwned":"คุณมีคอร์สนี้อยู่แล้ว","coursesAlreadyOwnedCheckout":"คุณลงทะเบียนคอร์สในตะกร้าแล้ว","coursesEnrollmentCheckFailed":"ไม่สามารถตรวจสอบความเป็นเจ้าของคอร์สได้ กรุณาลองใหม่อีกครั้ง","coursesAlreadyEnrolledPrompt":"ลงทะเบียนแล้ว?","coursesLoginLink":"เข้าสู่ระบบ","yourCourse":"คอร์สของคุณ","courseAccessMethod":"การเข้าถึงคอร์สออนไลน์","processing":"กำลังดำเนินการ...","checkoutFailed":"การชำระเงินล้มเหลว กรุณาลองใหม่อีกครั้ง"},"tr":{"loading":"Yükleniyor…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"{count} ürünü sepete ekle","addToCart":"Sepete Ekle","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"Kabul ediyorum","all":"Tümü","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"Daire, kat, bina kodu, notlar vb.","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"Şimdi rezervasyon yap","bookingChooseDate":"Bir tarih seçin","bookingChooseTime":"Bir saat seçin","bookingDate":"Tarih","bookingLoading":"Uygunluk yükleniyor…","bookingNoDates":"Şu anda uygun tarih yok","bookingNoSlots":"Şu anda uygun saat yok","bookingRemaining":"{count} kaldı","bookingSelectOption":"Seçin","bookingSelectTime":"Bir saat seçin","bookingSelectDateFirst":"Lütfen önce bir tarih seçin","bookingSelectTimeFirst":"Lütfen önce bir tarih ve saat seçin","bookingTime":"Saat","browseFavorites":"Discover all our products","bundleDiscount":"Paket İndirimi","seasonalDiscount":"Sezon indirimi","customerDiscount":"Müşteri indirimi","bundleTotal":"Paket toplamı","callNow":"Call Now","cancel":"Cancel","capacity":"Kapasite","cart":"Cart","category":"Category","checkout":"Ödeme","city":"Şehir","cityRequired":"Lütfen şehrinizi girin","color":"Renk","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"Alışverişe Devam Et","continueToHomePage":"Continue to Home Page","countryRegion":"Ülke / Bölge","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"Henüz mevcut kurs yok.","coursesCatalogError":"Kurslar yüklenemedi.","coursesCatalogSubtitle":"Tüm kurs kütüphanemizi inceleyin.","coursesCatalogTitle":"Kurslar","coursesCertificateLoading":"Doğrulanıyor…","coursesCertificateTitle":"Sertifika Doğrulama","coursesDetailEnroll":"Sepete Ekle","coursesDetailResume":"Öğrenmeye devam et","coursesDigitalDelivery":"Dijital çevrimiçi erişim","coursesLessonCompleted":"Tamamlandı","coursesLessonLoading":"Ders yükleniyor…","coursesLessonMarkComplete":"Tamamlandı olarak işaretle","coursesLessonNext":"Sonraki","coursesLessonPrev":"Önceki","coursesMyLearningEmpty":"Henüz hiçbir kursa kayıt olmadınız.","coursesMyLearningLoading":"Kurslarınız yükleniyor…","coursesMyLearningSubtitle":"Kaldığınız yerden devam edin.","coursesMyLearningTitle":"Öğrenimim","coursesCertCourse":"Kurs","coursesCertDownload":"İndir","coursesCertError":"Doğrulama başarısız.","coursesCertInvalid":"Bu sertifika doğrulanamadı.","coursesCertIssued":"Verildi","coursesCertStudent":"Öğrenci","coursesCertValid":"Doğrulandı","coursesCertIssuer":"Veren","coursesCertCode":"Doğrulama kodu","coursesViewCertificate":"Sertifikayı görüntüle","coursesCertEarnedTitle":"Kurs tamamlandı!","coursesCertEarnedBody":"Sertifikanız hazır.","coursesCurriculumEmpty":"Müfredat yakında gelecek.","coursesFree":"Ücretsiz","coursesJoinLive":"Canlı katıl","coursesLessonGate":"Bu derse erişmek için kursa kaydolun.","coursesLessonLocked":"Ders kilitli","coursesLessonLoadError":"Ders yüklenemedi.","coursesEnrollCta":"Kursu görüntüle ve kaydol","coursesEnrollmentRevoked":"Kaydınız artık aktif değil.","coursesDripLocked":"Bu ders programlı olarak açılacak.","coursesVideoProcessing":"Video hala işleniyor. Kısa süre sonra tekrar kontrol edin.","coursesVideoFailed":"Video işleme başarısız oldu. Lütfen ders videosunu Course Studio'dan yeniden yükleyin.","coursesDetailLoading":"Yükleniyor…","coursesDetailInstructor":"Eğitmen","coursesDetailCurriculum":"Müfredat","coursesLevelBeginner":"Başlangıç","coursesLevelIntermediate":"Orta","coursesLevelAdvanced":"İleri","coursesLessonUnsupported":"Bu ders türü henüz desteklenmiyor.","coursesLiveScheduled":"Canlı oturum planlandı","coursesPreview":"Önizleme","coursesQuizError":"Quiz yüklenemedi.","coursesQuizLoading":"Quiz yükleniyor…","coursesQuizNone":"Bu derste quiz yok.","coursesQuizPassed":"Başardınız!","coursesQuizRetry":"Tekrar dene.","coursesQuizSubmit":"Gönder","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"gün","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"İndirim","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"Lütfen geçerli bir e-posta adresi girin","emailRequired":"Lütfen e-posta adresinizi girin","emptyCart":"Sepetiniz boş","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"Seçenekler yüklenirken hata oluştu","featured":"Öne Çıkanlar","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"ÜCRETSİZ","freeAbove":"Ücretsiz kargo","frequentlyBoughtTogether":"Sıkça birlikte alınanlar","frequentlyBoughtTogetherSubtitle":"Zamandan kazanın ve ihtiyacınız olan her şeyi alın","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"Ana Sayfa","inStock":"Stokta","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"Uzunluk","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"Malzeme","minimumOrderNotMet":"Minimum sipariş tutarı: {{amount}}. Devam etmek için {{remaining}} daha ekleyin.","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"Lütfen tam adınızı girin","new":"Yeni","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"Mağazanız ürünler için hazır","previewEmptyStoreBody":"Burada görünmesi için Mağaza Yöneticisi'nde ilk ürününüzü ekleyin.","previewEmptyStoreButton":"Ürün ekle","previewOnlyBadge":"Yalnızca önizleme","noShippingMethods":"Kargo seçeneği bulunmuyor","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"Stokta Yok","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"Lütfen telefon numaranızı girin","placeOrder":"Place Order","pleaseAcceptTerms":"Lütfen şartları ve koşulları kabul edin","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"Ödemeye Geç","productDetails":"Ürün Detayları","productNotFound":"Product not found","products":"Ürünler","profileUpdated":"Profile updated successfully","quantity":"Adet","relatedProducts":"İlgili Ürünler","remove":"Kaldır","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"İndirim","saveAddressForNextTime":"Bu adresi bir sonraki sefer için kaydet","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"Arama sonuçları","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"Kargo","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"Lütfen bir kargo yöntemi seçin","signInHere":"Sign in here","size":"Beden","sku":"Stok Kodu","specifications":"Teknik Özellikler","startingAt":"Başlayan fiyat","stateProvince":"Eyalet / İl","stateRequired":"Lütfen bir eyalet / il seçin","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"Ek Bilgiler","street":"Street Address","streetAndNumber":"Sokak ve numara","streetRequired":"Lütfen adresinizi girin","style":"Stil","subtotal":"Ara Toplam","termsAndConditions":"Şartlar ve Koşullar","thankYouOrder":"Thank you for your order","total":"Toplam","totalToPay":"Ödenecek Toplam","transactionDate":"Transaction Date","upsellFree":"Ücretsiz","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"KDV Dahil","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"Detayları Gör","viewOrder":"View Order","weight":"Ağırlık","work":"Work","yourCart":"Sepetiniz","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"Posta Kodu","coursesAlreadyOwned":"Bu kursa zaten sahipsiniz.","coursesAlreadyOwnedCheckout":"Sepetinizdeki bir kursa zaten kayıtlısınız.","coursesEnrollmentCheckFailed":"Kurs sahipliği doğrulanamadı. Lütfen tekrar deneyin.","coursesAlreadyEnrolledPrompt":"Zaten kayıtlı mısınız?","coursesLoginLink":"Giriş yapın","yourCourse":"kursunuz","courseAccessMethod":"Çevrimiçi kurs erişimi","processing":"İşleniyor...","checkoutFailed":"Ödeme başarısız oldu. Lütfen tekrar deneyin."},"zh":{"loading":"加载中…","accountWelcome":"Welcome","addAddress":"Add Address","addBundleToCart":"将 {count} 件商品加入购物车","addToCart":"加入购物车","addedToCart":"Product added to cart!","addedToFavorites":"Added to favorites","addressDeleted":"Address deleted","addressLabel":"Address Label","addressSaved":"Address saved successfully","addresses":"Addresses","agreeToTerms":"我同意","all":"全部","alreadyHaveAccount":"Already have an account?","apartment":"Apt, Floor, Unit","apartmentExt":"公寓、楼层、建筑代码、备注等。","applyCoupon":"Apply","backToProducts":"Back to Products","bookNow":"立即预订","bookingChooseDate":"选择日期","bookingChooseTime":"选择时间","bookingDate":"日期","bookingLoading":"正在加载可用时段…","bookingNoDates":"目前没有可预约日期","bookingNoSlots":"目前没有可预约的时间","bookingRemaining":"剩余 {count}","bookingSelectOption":"选择","bookingSelectTime":"选择时间","bookingSelectDateFirst":"请先选择日期","bookingSelectTimeFirst":"请先选择日期和时间","bookingTime":"时间","browseFavorites":"Discover all our products","bundleDiscount":"套装折扣","seasonalDiscount":"季节折扣","customerDiscount":"客户折扣","bundleTotal":"组合总计","callNow":"Call Now","cancel":"Cancel","capacity":"容量","cart":"Cart","category":"Category","checkout":"结账","city":"城市","cityRequired":"请输入您的城市","color":"颜色","confirmDelete":"Are you sure you want to delete?","contactInformation":"Contact Information","continueShopping":"继续购物","continueToHomePage":"Continue to Home Page","countryRegion":"国家 / 地区","couponApplied":"Coupon applied successfully!","couponCode":"Coupon Code","couponExpired":"Coupon has expired","couponMinOrder":"Minimum order amount","coursesCatalogEmpty":"暂无可用课程。","coursesCatalogError":"加载课程失败。","coursesCatalogSubtitle":"浏览我们完整的课程库。","coursesCatalogTitle":"课程","coursesCertificateLoading":"验证中…","coursesCertificateTitle":"证书验证","coursesDetailEnroll":"加入购物车","coursesDetailResume":"继续学习","coursesDigitalDelivery":"数字在线访问","coursesLessonCompleted":"已完成","coursesLessonLoading":"加载课程中…","coursesLessonMarkComplete":"标记完成","coursesLessonNext":"下一个","coursesLessonPrev":"上一个","coursesMyLearningEmpty":"您还没有报名任何课程。","coursesMyLearningLoading":"加载您的课程中…","coursesMyLearningSubtitle":"从上次停下的地方继续。","coursesMyLearningTitle":"我的学习","coursesCertCourse":"课程","coursesCertDownload":"下载","coursesCertError":"验证失败。","coursesCertInvalid":"此证书无法验证。","coursesCertIssued":"颁发时间","coursesCertStudent":"学员","coursesCertValid":"已验证","coursesCertIssuer":"颁发者","coursesCertCode":"验证码","coursesViewCertificate":"查看证书","coursesCertEarnedTitle":"课程完成！","coursesCertEarnedBody":"您的证书已就绪。","coursesCurriculumEmpty":"课程大纲即将推出。","coursesFree":"免费","coursesJoinLive":"加入直播","coursesLessonGate":"请注册此课程以访问本课时。","coursesLessonLocked":"课程已锁定","coursesLessonLoadError":"加载课程失败。","coursesEnrollCta":"查看课程并报名","coursesEnrollmentRevoked":"您的注册已失效。","coursesDripLocked":"此课程将按计划解锁。","coursesVideoProcessing":"视频仍在处理中。请稍后再试。","coursesVideoFailed":"视频处理失败。请从课程工作室重新上传课程视频。","coursesDetailLoading":"加载中…","coursesDetailInstructor":"讲师","coursesDetailCurriculum":"课程大纲","coursesLevelBeginner":"初级","coursesLevelIntermediate":"中级","coursesLevelAdvanced":"高级","coursesLessonUnsupported":"暂不支持此课时类型。","coursesLiveScheduled":"直播课程已安排","coursesPreview":"预览","coursesQuizError":"加载测验失败。","coursesQuizLoading":"正在加载测验…","coursesQuizNone":"本课时无测验。","coursesQuizPassed":"您通过了！","coursesQuizRetry":"重新尝试。","coursesQuizSubmit":"提交","allCourses":"All Courses","backToCourses":"Back to courses","coursesNav":"Courses","featuredCourses":"Featured Courses","loadingCourses":"Loading courses...","noFeaturedCourses":"No featured courses yet. Browse our full course library!","searchCourses":"Search courses","customerInfo":"Customer Info","customerLogin":"Customer Login","days":"天","defaultAddress":"Default Address","deleteAddress":"Delete Address","discount":"折扣","editAddress":"Edit Address","editProfile":"Edit Profile","email":"Email","emailAddress":"Email Address","emailInvalid":"请输入有效的电子邮件地址","emailRequired":"请输入您的电子邮件地址","emptyCart":"您的购物车是空的","enterCode":"Enter the code sent to your email","enterCouponCode":"Enter coupon code","enterEmail":"Enter your email and we'll send you a login code","errorLoading":"加载选项时出错","featured":"精选","featuredCategories":"Shop by Category","featuredProducts":"Featured Products","free":"免费","freeAbove":"满额免运费","frequentlyBoughtTogether":"经常一起购买","frequentlyBoughtTogetherSubtitle":"节省时间，一次买齐所需","fullName":"Full Name","haveCouponCode":"I have a coupon code","home":"首页","inStock":"有货","inquiryAbout":"Inquiry about","invalidCoupon":"Invalid coupon code","items":"Items","length":"长度","linkCopied":"Link copied!","loadingOrder":"Loading order details...","loadingPayment":"Loading payment options...","loadingProducts":"Loading products...","loadingShipping":"Loading shipping methods...","loggedInAs":"Logged in as:","login":"Login","loginHere":"Login here","loginToFavorite":"Log in to save favorites","logout":"Logout","material":"材质","minimumOrderNotMet":"最低订单金额：{{amount}}。还需添加 {{remaining}} 才能结账。","mobileNumber":"Mobile Number","myAccount":"My Account","myFavorites":"My Favorites","name":"Name","nameRequired":"请输入您的全名","new":"新品","next":"Next","noAddresses":"No saved addresses","noFavorites":"No favorites yet","noFeaturedProducts":"No featured products yet. Check out all our products!","noOrders":"No orders yet","noProducts":"No products to display","previewEmptyStoreTitle":"您的商店已准备好添加商品","previewEmptyStoreBody":"在商店管理器中添加第一个商品，即可在这里看到它。","previewEmptyStoreButton":"添加商品","previewOnlyBadge":"仅预览","noShippingMethods":"暂无配送方式","notLoggedIn":"Not Logged In","orderConfirmation":"A confirmation email has been sent to you","orderDate":"Date","orderDetails":"Order Details","orderItems":"Order Items","orderNotFound":"Order not found","orderNumber":"Order Number","orderProcessing":"Your order is being processed. We'll notify you when it ships.","orderStatus":"Status","orderSuccess":"Order Received!","orderSummary":"Order Summary","orderTotal":"Total","other":"Other","ourProducts":"Our Products","outOfStock":"缺货","paidAmount":"Amount Paid","payment":"Payment","paymentMethod":"Payment Method","paymentNotConfigured":"Online payment not configured","personalDetails":"Personal Details","phone":"Phone","phoneRequired":"请输入您的电话号码","placeOrder":"Place Order","pleaseAcceptTerms":"请接受条款和条件","pleaseLogin":"Please login to view your account","pleaseSelect":"Please select","proceedToCheckout":"继续结账","productDetails":"商品详情","productNotFound":"Product not found","products":"商品","profileUpdated":"Profile updated successfully","quantity":"数量","relatedProducts":"相关商品","remove":"移除","removeCoupon":"Remove","removeFromFavorites":"Remove from Favorites","removedFromFavorites":"Removed from favorites","returnPolicy":"Return Policy","sale":"促销","saveAddressForNextTime":"保存此地址以备下次使用","saveChanges":"Save Changes","saveToFavorites":"Save to Favorites","saving":"Saving...","searchProducts":"Search products","searchResults":"搜索结果","selectVariant":"Select option","sendCode":"Send Code","sendInquiry":"Send Inquiry","setAsDefault":"Set as Default","shareProduct":"Share Product","shipping":"配送","shippingAddress":"Shipping Address","shippingMethod":"Shipping Method","shippingRequired":"请选择运输方式","signInHere":"Sign in here","size":"尺寸","sku":"货号","specifications":"规格参数","startingAt":"起价","stateProvince":"州 / 省","stateRequired":"请选择州 / 省","statusCancelled":"Cancelled","statusDelivered":"Delivered","statusPaid":"Paid","statusPending":"Pending Payment","statusProcessing":"Processing","statusShipped":"Shipped","storeNote":"附加信息","street":"Street Address","streetAndNumber":"街道和门牌号","streetRequired":"请输入您的街道地址","style":"款式","subtotal":"小计","termsAndConditions":"条款和条件","thankYouOrder":"Thank you for your order","total":"总计","totalToPay":"应付总额","transactionDate":"Transaction Date","upsellFree":"免费","variantUnavailable":"Unavailable","vat":"VAT","vatIncluded":"含税","verificationCode":"Verification Code","verify":"Verify","viewAllResults":"View all results","viewDetails":"查看详情","viewOrder":"View Order","weight":"重量","work":"Work","yourCart":"您的购物车","yourOrders":"Your Orders","zip":"ZIP Code","zipPostal":"邮政编码","coursesAlreadyOwned":"您已拥有此课程。","coursesAlreadyOwnedCheckout":"您已注册了购物车中的课程。","coursesEnrollmentCheckFailed":"无法验证课程所有权。请重试。","coursesAlreadyEnrolledPrompt":"已注册？","coursesLoginLink":"登录","yourCourse":"您的课程","courseAccessMethod":"在线课程访问","processing":"处理中...","checkoutFailed":"支付失败。请重试。"}};
 function getEcomText(key, fallback) {
   var lang = '';
   if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.getCurrentLanguage === 'function') {
@@ -10329,7 +11648,7 @@ async function loadProductDetailPage() {
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
   
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"barakn123@gmail.com"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"streetstock@gmail.com"};
   
   // Get slug from URL - check both pathname and query parameter (preview mode)
   let pagePath = window.location.pathname;
@@ -10361,6 +11680,9 @@ async function loadProductDetailPage() {
     
     const product = data.data;
     renderProductDetail(detailSection, product, t);
+    // Mount the inline service booking widget (FEATURE_ECOMMERCE_SERVICES) once
+    // the PDP markup exists — it fetches availability and gates Add to Cart.
+    if (window.zappyPdpBookingInit) window.zappyPdpBookingInit(product);
     if (typeof window.zappyTrackEcomAnalytics === 'function') {
       window.zappyTrackEcomAnalytics('view_product', {
         productId: product.id,
@@ -10391,7 +11713,7 @@ async function loadCategoryPage() {
   const websiteId = window.ZAPPY_WEBSITE_ID;
   if (!websiteId) return;
   
-  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"barakn123@gmail.com"};
+  const t = {"products":"מוצרים","ourProducts":"המוצרים שלנו","featuredProducts":"מוצרים מומלצים","noFeaturedProducts":"עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!","featuredCategories":"קנו לפי קטגוריה","all":"הכל","featured":"מומלצים","new":"חדשים","sale":"מבצעים","loadingProducts":"טוען מוצרים...","cart":"עגלת קניות","yourCart":"עגלת הקניות שלך","emptyCart":"העגלה ריקה","total":"סה\"כ","proceedToCheckout":"המשך לתשלום","checkout":"תשלום","customerInfo":"פרטי לקוח","fullName":"שם מלא","email":"אימייל","phone":"טלפון","shippingAddress":"כתובת למשלוח","street":"רחוב ומספר","streetAndNumber":"רחוב ומספר","apartment":"דירה, קומה, כניסה","apartmentExt":"דירה, קומה, קוד בניין, הערות וכו'","city":"עיר","zip":"מיקוד","zipPostal":"מיקוד","countryRegion":"מדינה / אזור","stateProvince":"מדינה / מחוז","stateRequired":"נא לבחור מדינה / מחוז","saveAddressForNextTime":"שמור את הכתובת לפעם הבאה","shippingMethod":"שיטת משלוח","loadingShipping":"טוען שיטות משלוח...","payment":"תשלום","loadingPayment":"טוען אפשרויות תשלום...","orderSummary":"סיכום הזמנה","subtotal":"סכום ביניים","vat":"מע\"מ","vatIncluded":"כולל מע\"מ","shipping":"משלוח","discount":"הנחה","bundleDiscount":"הנחת חבילה","seasonalDiscount":"הנחה עונתית","customerDiscount":"הנחת לקוח","totalToPay":"סה\"כ לתשלום","placeOrder":"בצע הזמנה","login":"התחברות","customerLogin":"התחברות לקוחות","enterEmail":"הזן את כתובת האימייל שלך ונשלח לך קוד התחברות","emailAddress":"כתובת אימייל","sendCode":"שלח קוד","enterCode":"הזן את הקוד שנשלח לאימייל שלך","verificationCode":"קוד אימות","verify":"אמת","returnPolicy":"מדיניות החזרות","addToCart":"הוסף לעגלה","startingAt":"החל מ","addedToCart":"המוצר נוסף לעגלה!","remove":"הסר","noProducts":"אין מוצרים להצגה כרגע","errorLoading":"שגיאה בטעינה","days":"ימים","currency":"₪","free":"חינם","freeAbove":"משלוח חינם מעל","noShippingMethods":"אין אפשרויות משלוח זמינות","viewAllResults":"הצג את כל התוצאות","searchProducts":"חיפוש מוצרים","searchResults":"תוצאות חיפוש","productDetails":"פרטי המוצר","viewDetails":"לפרטים נוספים","inStock":"במלאי","outOfStock":"אזל מהמלאי","pleaseSelect":"נא לבחור","sku":"מק\"ט","category":"קטגוריה","relatedProducts":"מוצרים דומים","frequentlyBoughtTogether":"לרכוש יחד","frequentlyBoughtTogetherSubtitle":"הוספת מוצרים נלווים לעגלה","bundleTotal":"סה\"כ לעגלה","addBundleToCart":"הוספת {count} מוצרים לעגלה","upsellFree":"חינם","productNotFound":"המוצר לא נמצא","backToProducts":"חזרה למוצרים","home":"בית","quantity":"כמות","unitLabels":{"piece":"יח'","kg":"ק\"ג","gram":"גרם","liter":"ליטר","ml":"מ\"ל"},"perUnit":"/","couponCode":"קוד קופון","enterCouponCode":"הזן קוד קופון","applyCoupon":"החל","removeCoupon":"הסר","couponApplied":"הקופון הוחל בהצלחה!","invalidCoupon":"קוד קופון לא תקין","couponExpired":"הקופון פג תוקף","couponMinOrder":"סכום הזמנה מינימלי","alreadyHaveAccount":"כבר יש לך חשבון?","loginHere":"התחבר כאן","signInHere":"התחבר כאן","mobileNumber":"מספר טלפון","loggedInAs":"מחובר כ:","logout":"התנתק","haveCouponCode":"יש לי קוד קופון","agreeToTerms":"אני מסכים/ה ל","termsAndConditions":"תנאי השימוש","pleaseAcceptTerms":"נא לאשר את תנאי השימוש","nameRequired":"נא להזין שם מלא","emailRequired":"נא להזין כתובת אימייל","emailInvalid":"כתובת אימייל לא תקינה","phoneRequired":"נא להזין מספר טלפון","shippingRequired":"נא לבחור שיטת משלוח","streetRequired":"נא להזין רחוב ומספר","cityRequired":"נא להזין עיר","paymentNotConfigured":"תשלום מקוון לא מוגדר","orderSuccess":"ההזמנה התקבלה!","thankYouOrder":"תודה על ההזמנה","orderNumber":"מספר הזמנה","orderConfirmation":"אישור הזמנה נשלח לאימייל שלך","orderProcessing":"ההזמנה שלך בטיפול. נעדכן אותך כשהמשלוח יצא לדרך.","continueShopping":"להמשך קניות","next":"הבא","contactInformation":"פרטי התקשרות","items":"פריטים","continueToHomePage":"המשך לדף הבית","transactionDate":"תאריך עסקה","paymentMethod":"אמצעי תשלום","orderDetails":"פרטי ההזמנה","loadingOrder":"טוען פרטי הזמנה...","orderNotFound":"לא נמצאה הזמנה","paymentNotCompleted":"התשלום לא הושלם","paymentNotCompletedDesc":"התשלום לא הושלם ולכן לא נוצרה הזמנה. לא בוצע חיוב בכרטיס שלך. ניתן לנסות שוב.","backToCheckout":"חזרה לתשלום","orderItems":"פריטים בהזמנה","paidAmount":"סכום ששולם","myAccount":"החשבון שלי","accountWelcome":"ברוך הבא","yourOrders":"ההזמנות שלך","noOrders":"אין עדיין הזמנות","orderDate":"תאריך","orderStatus":"סטטוס","orderTotal":"סה\"כ","viewOrder":"צפה בהזמנה","statusPending":"ממתין לתשלום","statusPaid":"שולם","statusProcessing":"בטיפול","statusShipped":"נשלח","statusDelivered":"נמסר","statusCancelled":"בוטל","notLoggedIn":"לא מחובר","pleaseLogin":"יש להתחבר כדי לצפות בחשבון","personalDetails":"פרטים אישיים","editProfile":"עריכת פרופיל","name":"שם","saveChanges":"שמור שינויים","cancel":"ביטול","addresses":"כתובות","addAddress":"הוסף כתובת","editAddress":"ערוך כתובת","deleteAddress":"מחק כתובת","setAsDefault":"הגדר כברירת מחדל","defaultAddress":"כתובת ברירת מחדל","addressLabel":"שם הכתובת","work":"עבודה","other":"אחר","noAddresses":"אין כתובות שמורות","confirmDelete":"האם אתה בטוח שברצונך למחוק?","profileUpdated":"הפרופיל עודכן בהצלחה","addressSaved":"הכתובת נשמרה בהצלחה","addressDeleted":"הכתובת נמחקה","saving":"שומר...","saveToFavorites":"שמור למועדפים","removeFromFavorites":"הסר ממועדפים","shareProduct":"שתף מוצר","linkCopied":"הקישור הועתק!","myFavorites":"המועדפים שלי","noFavorites":"אין עדיין מוצרים מועדפים","addedToFavorites":"נוסף למועדפים","removedFromFavorites":"הוסר מהמועדפים","loginToFavorite":"יש להתחבר כדי לשמור מועדפים","browseFavorites":"גלו את כל המוצרים שלנו","selectVariant":"בחר אפשרות","variantUnavailable":"לא זמין","color":"צבע","size":"מידה","material":"חומר","style":"סגנון","weight":"משקל","capacity":"קיבולת","length":"אורך","inquiryAbout":"פנייה בנושא","sendInquiry":"שלח פנייה","callNow":"התקשר עכשיו","specifications":"מפרט טכני","storeNote":"מידע נוסף","businessPhone":"054-5286728","businessEmail":"streetstock@gmail.com"};
   
   // Get slug from URL - check both pathname and query parameter (preview mode)
   let pagePath = window.location.pathname;
@@ -10901,9 +12223,36 @@ function renderProductDetail(container, product, t) {
   const showPrice = product.custom_fields?.showPrice !== false;
   
   // Check if product has variants
-  const variants = product.variants || [];
+  const rawVariants = product.variants || [];
+  const cardMatrix = product.card_variants && Array.isArray(product.card_variants.matrix)
+    ? product.card_variants.matrix
+    : [];
+  const variantById = {};
+  rawVariants.forEach(function(variant) {
+    if (!variant || !variant.id) return;
+    variantById[String(variant.id)] = variant;
+  });
+  cardMatrix.forEach(function(row) {
+    if (!row || !row.id) return;
+    var existing = variantById[String(row.id)] || {};
+    variantById[String(row.id)] = Object.assign({}, existing, {
+      id: row.id,
+      attributes: row.attributes || existing.attributes || {},
+      price: row.price != null ? row.price : existing.price,
+      image: row.image || existing.image,
+      sku: row.sku || existing.sku,
+      custom_fields: existing.custom_fields || existing.customFields || row.custom_fields || row.customFields || {},
+      available: typeof row.available === 'boolean' ? row.available : existing.available,
+      is_active: existing.is_active !== false
+    });
+  });
+  const variants = Object.values(variantById);
   const hasVariants = variants.length > 0;
   const activeVariants = variants.filter(variant => variant.is_active !== false);
+  const initialSpecifications = getEffectiveProductSpecifications(null, product);
+  const hasAnySpecifications =
+    initialSpecifications.length > 0 ||
+    activeVariants.some(variant => getVariantSpecifications(variant).length > 0);
   const variantPrices = activeVariants
     .map(variant => {
       if (variant.price !== null && variant.price !== undefined) {
@@ -10920,29 +12269,49 @@ function renderProductDetail(container, product, t) {
   // Build variant selector HTML if product has variants
   let variantSelectorHtml = '';
   if (hasVariants) {
-    // Group variants by attribute type to create selection options
+    // Prefer the normalized card_variants option payload when available. It is
+    // already ordered by the merchant's variant_config and carries custom
+    // split/image swatch metadata. Falling back to raw variants is kept for
+    // older/detail-only payloads that do not include card_variants.
+    const normalizedVariantOptions = product.card_variants && Array.isArray(product.card_variants.options)
+      ? product.card_variants.options
+      : [];
     const attributeGroups = {};
     const attributeDisplayMap = {};
-    variants.forEach(variant => {
-      if (variant.attributes && variant.is_active !== false) {
-        Object.entries(variant.attributes).forEach(([key, value]) => {
-          if (!attributeGroups[key]) {
-            attributeGroups[key] = new Set();
-          }
-          attributeGroups[key].add(value);
-          if (!attributeDisplayMap[key]) {
-            attributeDisplayMap[key] = {};
-          }
-          const displayValue =
-            variant.attributes_display && Object.prototype.hasOwnProperty.call(variant.attributes_display, key)
-              ? variant.attributes_display[key]
-              : value;
-          if (!attributeDisplayMap[key][value]) {
-            attributeDisplayMap[key][value] = displayValue;
-          }
+    if (normalizedVariantOptions.length) {
+      normalizedVariantOptions.forEach(option => {
+        if (!option || !option.key) return;
+        if (!attributeGroups[option.key]) attributeGroups[option.key] = new Set();
+        if (!attributeDisplayMap[option.key]) attributeDisplayMap[option.key] = {};
+        (option.values || []).forEach(valueEntry => {
+          const rawValue = valueEntry && typeof valueEntry === 'object' ? valueEntry.value : valueEntry;
+          if (rawValue == null || rawValue === '') return;
+          attributeGroups[option.key].add(rawValue);
+          attributeDisplayMap[option.key][rawValue] = (valueEntry && valueEntry.label) || rawValue;
         });
-      }
-    });
+      });
+    } else {
+      variants.forEach(variant => {
+        if (variant.attributes && variant.is_active !== false) {
+          Object.entries(variant.attributes).forEach(([key, value]) => {
+            if (!attributeGroups[key]) {
+              attributeGroups[key] = new Set();
+            }
+            attributeGroups[key].add(value);
+            if (!attributeDisplayMap[key]) {
+              attributeDisplayMap[key] = {};
+            }
+            const displayValue =
+              variant.attributes_display && Object.prototype.hasOwnProperty.call(variant.attributes_display, key)
+                ? variant.attributes_display[key]
+                : value;
+            if (!attributeDisplayMap[key][value]) {
+              attributeDisplayMap[key][value] = displayValue;
+            }
+          });
+        }
+      });
+    }
     
     // Attribute label translations, including saved labels for custom options.
     const attrLabels = window.getVariantAttributeLabels
@@ -10958,6 +12327,7 @@ function renderProductDetail(container, product, t) {
     // Build variant groups HTML
     const groupsHtml = hasAttributeGroups
       ? Object.entries(attributeGroups).map(([attrKey, values]) => {
+        const normalizedOption = normalizedVariantOptions.find(option => option && option.key === attrKey) || null;
         const label = getAttrLabel(attrKey);
         const sizeOrder = {'xxxs':0,'xxs':1,'xs':2,'s':3,'m':4,'l':5,'xl':6,'xxl':7,'2xl':7,'xxxl':8,'3xl':8,'4xl':9,'5xl':10};
         const valuesArray = Array.from(values).sort((a, b) => {
@@ -10976,10 +12346,29 @@ function renderProductDetail(container, product, t) {
         const optionsHtml = valuesArray.map(value => {
           const displayValue =
             (attributeDisplayMap[attrKey] && attributeDisplayMap[attrKey][value]) || value;
+          const normalizedValue = normalizedOption && Array.isArray(normalizedOption.values)
+            ? normalizedOption.values.find(entry => entry && entry.value === value)
+            : null;
           // For color attribute, prefer configured hex and fall back for older sites.
           if (isColorAttr) {
-            var bgColor = window.getConfiguredColorSwatchHex(product, attrKey, value);
-            return '<button type="button" class="variant-option color-swatch" data-attr="' + _eA(attrKey) + '" data-value="' + _eA(value) + '" data-display-value="' + _eA(displayValue) + '" data-color-hex="' + _eA(bgColor) + '" style="background-color: ' + _eA(bgColor) + ';" title="' + _eA(displayValue) + '"></button>';
+            var swatchMeta = window.getConfiguredColorSwatchMeta(product, attrKey, value) || {};
+            if (normalizedValue && typeof normalizedValue === 'object') {
+              swatchMeta = Object.assign({}, swatchMeta, {
+                hex: normalizedValue.hex || swatchMeta.hex,
+                hex2: normalizedValue.hex2 || swatchMeta.hex2,
+                swatchImage: normalizedValue.swatchImage || normalizedValue.image || swatchMeta.swatchImage,
+                imagePosition: normalizedValue.imagePosition || swatchMeta.imagePosition,
+                imageSize: normalizedValue.imageSize || swatchMeta.imageSize
+              });
+            }
+            var bgColor = swatchMeta.hex || window.getLegacyColorSwatchHex(value);
+            var swatchTitle = typeof zappyCardSwatchLabel === 'function'
+              ? (zappyCardSwatchLabel({ value: value, label: displayValue, hex: bgColor, hex2: swatchMeta.hex2, swatchImage: swatchMeta.swatchImage, imagePosition: swatchMeta.imagePosition, imageSize: swatchMeta.imageSize }, attrKey, product) || displayValue)
+              : displayValue;
+            var swatchStyle = typeof zappyCardSwatchStyle === 'function'
+              ? zappyCardSwatchStyle({ value: value, label: displayValue, hex: bgColor, hex2: swatchMeta.hex2, swatchImage: swatchMeta.swatchImage, imagePosition: swatchMeta.imagePosition, imageSize: swatchMeta.imageSize })
+              : 'background-color: ' + _eA(bgColor) + ';';
+            return '<button type="button" class="variant-option color-swatch" data-attr="' + _eA(attrKey) + '" data-value="' + _eA(value) + '" data-display-value="' + _eA(displayValue) + '" data-color-hex="' + _eA(bgColor) + '" style="' + _eA(swatchStyle) + '" title="' + _eA(swatchTitle) + '"></button>';
           }
           return '<button type="button" class="variant-option" data-attr="' + _eA(attrKey) + '" data-value="' + _eA(value) + '" data-display-value="' + _eA(displayValue) + '">' + _eA(displayValue) + '</button>';
         }).join('');
@@ -11017,6 +12406,23 @@ function renderProductDetail(container, product, t) {
   breadcrumbHtml += '<span class="breadcrumb-separator">›</span>';
   breadcrumbHtml += '<span class="breadcrumb-current">' + product.name + '</span>';
   breadcrumbHtml += '</nav>';
+
+  const inquiryHref = window.zappyBuildInquiryHref
+    ? window.zappyBuildInquiryHref(product)
+    : (t.businessEmail
+      ? 'mailto:' + encodeURIComponent(t.businessEmail) + '?subject=' + encodeURIComponent(t.inquiryAbout + ' ' + product.name)
+      : buildStorefrontPath('/contact'));
+  const inquiryLabel = getEcomText('sendInquiry', t.sendInquiry || 'Send Inquiry');
+  const inquiryActionHtml = '<a href="' + _eA(inquiryHref) + '" class="btn btn-primary inquiry-btn">'
+    + '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>'
+    + inquiryLabel
+    + '</a>';
+  const callActionHtml = t.businessPhone
+    ? '<a href="tel:' + _eA(t.businessPhone.replace(/[\s\-()]/g, '')) + '" class="btn btn-secondary call-btn">'
+      + '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>'
+      + t.callNow
+      + '</a>'
+    : '';
   
   // Build video thumbnails HTML
   var videoThumbsHtml = videos.map(function(v, i) {
@@ -11220,6 +12626,9 @@ function renderProductDetail(container, product, t) {
             '</div>' +
           '</div>';
         })()}
+        ${(window.zappyIsServiceProduct && window.zappyIsServiceProduct(product) && !isCatalogMode && showPrice)
+          ? '<div id="zappy-pdp-booking" class="zappy-qv-booking"></div>'
+          : ''}
         <div class="product-add-row">
           ${(() => {
           // Hide the quantity selector for catalog sites AND for contact-for-price
@@ -11238,18 +12647,9 @@ function renderProductDetail(container, product, t) {
           '</div>';
         })()}
           <div class="product-actions ${(isCatalogMode || !showPrice) ? 'catalog-mode' : ''}">
-            ${(isCatalogMode || !showPrice) ? `
-              ${t.businessEmail ? `<a href="mailto:${encodeURIComponent(t.businessEmail)}?subject=${encodeURIComponent(t.inquiryAbout + ' ' + product.name)}" class="btn btn-primary inquiry-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                ${t.sendInquiry}
-              </a>` : ''}
-              ${t.businessPhone ? `<a href="tel:${t.businessPhone.replace(/[\s\-()]/g, '')}" class="btn btn-secondary call-btn">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                ${t.callNow}
-              </a>` : ''}
-            ` : `
+            ${(isCatalogMode || !showPrice) ? inquiryActionHtml + callActionHtml : `
             <button class="add-to-cart" id="add-to-cart-btn" onclick="addProductToCart()" ${!baseInStock ? 'disabled style="opacity:0.5;cursor:not-allowed;"' : ''}>
-              ${getEcomText('addToCart', t.addToCart || 'Add to Cart')}
+              ${(window.zappyIsServiceProduct && window.zappyIsServiceProduct(product)) ? getEcomText('bookNow', t.bookNow || 'Book now') : getEcomText('addToCart', t.addToCart || 'Add to Cart')}
             </button>
             `}
           </div>
@@ -11266,24 +12666,15 @@ function renderProductDetail(container, product, t) {
           </div>
         </div>
         ` : ''}
-        ${(product.custom_fields?.specifications?.length > 0) ? `
-        <div class="product-details-accordion collapsed">
+        ${hasAnySpecifications ? `
+        <div id="product-specifications-accordion" class="product-details-accordion collapsed" ${initialSpecifications.length > 0 ? '' : 'style="display:none;"'}>
           <div class="product-details-divider"></div>
           <button type="button" class="product-details-header" onclick="toggleProductDetails(this)">
             <span>${product.custom_fields?.specificationsTitle || additionalJsSpecificationsSectionTitle || getEcomText('specifications', t.specifications || 'Specifications')}</span>
             <span class="product-details-toggle">+</span>
           </button>
-          <div class="product-details-body">
-            <div class="product-specifications">
-              <table class="specs-table">
-                ${product.custom_fields.specifications.map(spec => `
-                  <tr>
-                    <th dir="auto">${spec.key}</th>
-                    <td dir="auto">${(spec.value || '').replace(/\\,/g, ',')}</td>
-                  </tr>
-                `).join('')}
-              </table>
-            </div>
+          <div class="product-details-body" id="product-specifications-body">
+            ${renderProductSpecificationsHtml(initialSpecifications)}
           </div>
         </div>
         ` : ''}
@@ -11435,7 +12826,7 @@ function toggleFavorite(productId) {
   }
 
   var isActive = btn.classList.contains('active');
-  var apiBase = window.ZAPPY_API_BASE || '';
+  var apiBase = (typeof getApiBase === 'function') ? getApiBase() : (window.ZAPPY_API_BASE || '');
 
   if (isActive) {
     btn.classList.remove('active');
@@ -11480,7 +12871,7 @@ function toggleCardFavorite(btn, productId) {
   }
 
   var isActive = btn.classList.contains('active');
-  var apiBase = window.ZAPPY_API_BASE || '';
+  var apiBase = (typeof getApiBase === 'function') ? getApiBase() : (window.ZAPPY_API_BASE || '');
 
   if (isActive) {
     btn.classList.remove('active');
@@ -11525,7 +12916,7 @@ function _syncCardFavorites() {
   var tokenKey = 'zappy_customer_token_' + wId;
   var token = localStorage.getItem(tokenKey);
   if (!token) return;
-  var apiBase = window.ZAPPY_API_BASE || '';
+  var apiBase = (typeof getApiBase === 'function') ? getApiBase() : (window.ZAPPY_API_BASE || '');
   fetch(apiBase + '/api/ecommerce/customers/me/favorites?websiteId=' + wId, {
     headers: { 'Authorization': 'Bearer ' + token }
   }).then(function(r) { return r.json(); })
@@ -11570,7 +12961,7 @@ function checkFavoriteStatus(productId) {
   var btn = document.getElementById('favorite-btn');
   if (!btn) return;
 
-  var apiBase = window.ZAPPY_API_BASE || '';
+  var apiBase = (typeof getApiBase === 'function') ? getApiBase() : (window.ZAPPY_API_BASE || '');
   fetch(apiBase + '/api/ecommerce/customers/me/favorites/' + productId + '?websiteId=' + wId, {
     headers: { 'Authorization': 'Bearer ' + token }
   }).then(function(r) { return r.json(); })
@@ -11602,6 +12993,80 @@ function toggleProductDetails(header) {
   if (toggle) {
     toggle.textContent = accordion.classList.contains('collapsed') ? '+' : '−';
   }
+}
+
+function productSpecsEscapeHtml(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function normalizeProductSpecifications(specifications) {
+  if (!Array.isArray(specifications)) return [];
+  return specifications
+    .map(function(spec) {
+      return {
+        key: String((spec && spec.key) || '').trim(),
+        value: String((spec && spec.value) || '').trim()
+      };
+    })
+    .filter(function(spec) { return spec.key && spec.value; });
+}
+
+function getVariantCustomFields(variant) {
+  if (!variant) return {};
+  var customFields = variant.custom_fields || variant.customFields || {};
+  if (typeof customFields === 'string') {
+    try {
+      customFields = JSON.parse(customFields);
+    } catch (e) {
+      customFields = {};
+    }
+  }
+  return customFields && typeof customFields === 'object' && !Array.isArray(customFields) ? customFields : {};
+}
+
+function getVariantSpecifications(variant) {
+  return normalizeProductSpecifications(getVariantCustomFields(variant).specifications);
+}
+
+function getProductSpecifications(product) {
+  return normalizeProductSpecifications(product && product.custom_fields && product.custom_fields.specifications);
+}
+
+function getEffectiveProductSpecifications(variant, product) {
+  var variantSpecs = getVariantSpecifications(variant);
+  if (variantSpecs.length > 0) return variantSpecs;
+  return getProductSpecifications(product);
+}
+
+function renderProductSpecificationsHtml(specifications) {
+  var specs = normalizeProductSpecifications(specifications);
+  if (specs.length === 0) return '';
+  return '<div class="product-specifications"><table class="specs-table">' +
+    specs.map(function(spec) {
+      return '<tr><th dir="auto">' + productSpecsEscapeHtml(spec.key) + '</th><td dir="auto">' +
+        productSpecsEscapeHtml(String(spec.value || '').replace(/\\,/g, ',')) +
+        '</td></tr>';
+    }).join('') +
+    '</table></div>';
+}
+
+function updateProductSpecificationsForVariant(variant, product) {
+  var accordion = document.getElementById('product-specifications-accordion');
+  var body = document.getElementById('product-specifications-body');
+  if (!accordion || !body) return;
+  var specs = getEffectiveProductSpecifications(variant, product);
+  if (specs.length === 0) {
+    accordion.style.display = 'none';
+    body.innerHTML = '';
+    return;
+  }
+  accordion.style.display = '';
+  body.innerHTML = renderProductSpecificationsHtml(specs);
 }
 
 /** True when variant cannot be purchased (explicit OOS, finite qty ≤ 0, inactive, or legacy stock_quantity).
@@ -11697,10 +13162,11 @@ function initVariantSelection(product, t) {
         var val = btn.getAttribute('data-value');
         var exists = variantExistsWith(groupKey, val, otherSelections);
         var unavailable = exists && isVariantOutOfStock(groupKey, val, otherSelections);
+        var existsWithoutOtherSelections = variantExistsWith(groupKey, val, {});
 
         if (!exists) {
           btn.classList.add('disabled');
-          btn.disabled = true;
+          btn.disabled = !existsWithoutOtherSelections;
           btn.classList.remove('selected', 'out-of-stock');
         } else if (unavailable) {
           btn.classList.add('disabled', 'out-of-stock');
@@ -11715,11 +13181,10 @@ function initVariantSelection(product, t) {
   
   variantButtons.forEach(btn => {
     btn.addEventListener('click', function() {
-      if (this.disabled || this.classList.contains('disabled')) return;
-
       const variantId = this.getAttribute('data-variant-id');
       const attrKey = this.getAttribute('data-attr');
       const attrValue = this.getAttribute('data-value');
+      if (this.disabled || (this.classList.contains('disabled') && !variantExistsWith(attrKey, attrValue, {}))) return;
       
       if (variantId) {
         // Simple variant selection (no attributes)
@@ -11865,6 +13330,7 @@ function updateVariantUI(variant, product, t, selectedAttributes) {
   const hasVariantPriceRange = window.productHasVariantPriceRange;
   const variantMinPrice = window.productVariantMinPrice;
   const startingAtLabel = getEcomText('startingAt', t.startingAt || 'Starting at');
+  updateProductSpecificationsForVariant(variant, product);
   
   // Store original main image on first call
   if (mainImage && !window._originalMainImageSrc) {
@@ -12065,11 +13531,309 @@ function updateVariantUI(variant, product, t, selectedAttributes) {
 
 window.__zappyUpdateVariantUI = updateVariantUI;
 
+// ── PDP service booking widget (FEATURE_ECOMMERCE_SERVICES) ────────────────
+// The Product Detail Page mounts an inline date + time + custom-form picker for
+// service/event products. It mirrors the Quick View widget but lives in the
+// top-level PDP scope (the QV widget is enclosed in the storefront IIFE), so it
+// is a small self-contained module. It reuses the .zappy-qv-booking CSS classes
+// for a consistent look. State lives on window.__zappyPdpBooking for the life of
+// the loaded product page.
+window.__zappyPdpBooking = null;
+
+function zappyPdpBookEsc(v) {
+  return String(v == null ? '' : v)
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+}
+function zappyPdpBookSlotKey(s) { return s && (s.slotId ? 's' + s.slotId : 't' + s.startsAt); }
+function zappyPdpBookLocalDateKey(iso, tz) {
+  try {
+    var parts = new Intl.DateTimeFormat('en-CA', { timeZone: tz || undefined, year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date(iso));
+    var y = '', m = '', d = ''; parts.forEach(function(p) { if (p.type === 'year') y = p.value; if (p.type === 'month') m = p.value; if (p.type === 'day') d = p.value; });
+    return y + '-' + m + '-' + d;
+  } catch (e) { return String(iso).slice(0, 10); }
+}
+function zappyPdpBookDateLabel(dateKey) {
+  try { return new Intl.DateTimeFormat(undefined, { timeZone: 'UTC', weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' }).format(new Date(dateKey + 'T12:00:00Z')); }
+  catch (e) { return dateKey; }
+}
+function zappyPdpBookMonthKey(dateKey) {
+  return String(dateKey || '').slice(0, 7);
+}
+function zappyPdpBookMonthLabel(monthKey) {
+  try { return new Intl.DateTimeFormat(undefined, { timeZone: 'UTC', month: 'long', year: 'numeric' }).format(new Date(monthKey + '-01T12:00:00Z')); }
+  catch (e) { return monthKey; }
+}
+function zappyPdpBookAddMonths(monthKey, delta) {
+  var p = String(monthKey || '').split('-');
+  var dt = new Date(Date.UTC(parseInt(p[0], 10) || 1970, (parseInt(p[1], 10) || 1) - 1 + delta, 1));
+  return dt.getUTCFullYear() + '-' + String(dt.getUTCMonth() + 1).padStart(2, '0');
+}
+function zappyPdpBookWeekdayLabels() {
+  var out = [];
+  for (var i = 0; i < 7; i++) {
+    try { out.push(new Intl.DateTimeFormat(undefined, { timeZone: 'UTC', weekday: 'narrow' }).format(new Date(Date.UTC(2026, 1, 1 + i)))); }
+    catch (e) { out.push(['S','M','T','W','T','F','S'][i]); }
+  }
+  return out;
+}
+function zappyPdpBookRenderCalendar(grp, booking) {
+  var available = {};
+  var months = [];
+  grp.order.forEach(function(k) {
+    available[k] = true;
+    var mk = zappyPdpBookMonthKey(k);
+    if (months.indexOf(mk) === -1) months.push(mk);
+  });
+  booking.month = months.indexOf(booking.month) !== -1 ? booking.month : zappyPdpBookMonthKey(booking.date || grp.order[0]);
+  if (months.indexOf(booking.month) === -1) booking.month = months[0];
+  var currentIdx = months.indexOf(booking.month);
+  var p = String(booking.month || '').split('-');
+  var y = parseInt(p[0], 10) || 1970;
+  var m = (parseInt(p[1], 10) || 1) - 1;
+  var firstDay = new Date(Date.UTC(y, m, 1)).getUTCDay();
+  var daysInMonth = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+  var weekdays = zappyPdpBookWeekdayLabels().map(function(d) { return '<div class="zappy-qv-book-cal-weekday">' + zappyPdpBookEsc(d) + '</div>'; }).join('');
+  var cells = '';
+  for (var blank = 0; blank < firstDay; blank++) cells += '<span class="zappy-qv-book-cal-day" aria-hidden="true"></span>';
+  for (var day = 1; day <= daysInMonth; day++) {
+    var dk = booking.month + '-' + String(day).padStart(2, '0');
+    var isAvailable = !!available[dk];
+    var cls = 'zappy-qv-book-cal-day' + (isAvailable ? ' is-available' : '') + (dk === booking.date ? ' is-selected' : '');
+    var attrs = isAvailable
+      ? ' type="button" data-qv-book-date="' + zappyPdpBookEsc(dk) + '" aria-label="' + zappyPdpBookEsc(zappyPdpBookDateLabel(dk)) + '"'
+      : ' type="button" disabled aria-hidden="true"';
+    cells += '<button class="' + cls + '"' + attrs + '>' + day + '</button>';
+  }
+  return '<div class="zappy-qv-book-calendar" data-qv-book-calendar="date">'
+    + '<div class="zappy-qv-book-cal-head">'
+    + '<button type="button" class="zappy-qv-book-cal-nav" data-qv-book-month="' + zappyPdpBookEsc(months[currentIdx - 1] || zappyPdpBookAddMonths(booking.month, -1)) + '"' + (currentIdx <= 0 ? ' disabled' : '') + '>‹</button>'
+    + '<div class="zappy-qv-book-cal-title">' + zappyPdpBookEsc(zappyPdpBookMonthLabel(booking.month)) + '</div>'
+    + '<button type="button" class="zappy-qv-book-cal-nav" data-qv-book-month="' + zappyPdpBookEsc(months[currentIdx + 1] || zappyPdpBookAddMonths(booking.month, 1)) + '"' + (currentIdx >= months.length - 1 ? ' disabled' : '') + '>›</button>'
+    + '</div>'
+    + '<div class="zappy-qv-book-cal-weekdays">' + weekdays + '</div>'
+    + '<div class="zappy-qv-book-cal-grid">' + cells + '</div>'
+    + '</div>';
+}
+function zappyPdpBookTimeLabel(iso, tz) {
+  try { return new Intl.DateTimeFormat(undefined, { timeZone: tz || undefined, hour: '2-digit', minute: '2-digit' }).format(new Date(iso)); }
+  catch (e) { return String(iso); }
+}
+function zappyPdpBookGroupByDate(st) {
+  var av = (st && st.availability) || {}; var tz = av.timezone; var out = {}; var order = [];
+  (av.slots || []).forEach(function(s) {
+    if (s.remaining != null && s.remaining <= 0) return;
+    var k = zappyPdpBookLocalDateKey(s.startsAt, tz);
+    if (!out[k]) { out[k] = []; order.push(k); }
+    out[k].push(s);
+  });
+  return { map: out, order: order };
+}
+function zappyPdpBookSelectFirstDateSlot(b, grp, st) {
+  var av = (st && st.availability) || {};
+  if (!av.dateOnly || !b || !b.date) return;
+  var daySlots = (grp && grp.map && grp.map[b.date]) || [];
+  var slot = daySlots[0] || null;
+  if (!slot) { b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; return; }
+  b.slotKey = zappyPdpBookSlotKey(slot);
+  b.slotId = slot.slotId || null;
+  b.startsAt = slot.startsAt;
+  b.endsAt = slot.endsAt || null;
+}
+function zappyPdpBookRenderForm(schema, answers) {
+  schema = Array.isArray(schema) ? schema : []; if (!schema.length) return '';
+  answers = answers || {}; var html = '';
+  for (var i = 0; i < schema.length; i++) {
+    var f = schema[i]; if (!f || !f.key) continue;
+    var val = answers[f.key] != null ? answers[f.key] : '';
+    var reqStar = f.required ? ' <span class="zappy-qv-book-req">*</span>' : '';
+    var lbl = '<label class="zappy-qv-book-label">' + zappyPdpBookEsc(f.label || f.key) + reqStar + '</label>';
+    var attr = 'data-qv-book-field="' + zappyPdpBookEsc(f.key) + '"';
+    var input = '';
+    if (f.type === 'textarea') { input = '<textarea class="zappy-qv-book-input" ' + attr + ' rows="2">' + zappyPdpBookEsc(String(val)) + '</textarea>'; }
+    else if (f.type === 'select') {
+      var opts = '<option value="">' + getEcomText('bookingSelectOption', 'Select') + '</option>';
+      (f.options || []).forEach(function(o) { opts += '<option value="' + zappyPdpBookEsc(o) + '"' + (String(val) === String(o) ? ' selected' : '') + '>' + zappyPdpBookEsc(o) + '</option>'; });
+      input = '<select class="zappy-qv-book-select" ' + attr + '>' + opts + '</select>';
+    }
+    else if (f.type === 'checkbox') { input = '<input type="checkbox" class="zappy-qv-book-check" ' + attr + (val ? ' checked' : '') + '>'; }
+    else {
+      var itype = (f.type === 'number' ? 'number' : f.type === 'email' ? 'email' : f.type === 'phone' ? 'tel' : f.type === 'date' ? 'date' : 'text');
+      input = '<input type="' + itype + '" class="zappy-qv-book-input" ' + attr + ' value="' + zappyPdpBookEsc(String(val)) + '">';
+    }
+    html += '<div class="zappy-qv-book-row' + (f.type === 'checkbox' ? ' is-check' : '') + '">' + lbl + input + '</div>';
+  }
+  return html;
+}
+function zappyPdpBookRenderBlock(st) {
+  if (typeof window.zappyEnsureBookingWidgetStyles === 'function') window.zappyEnsureBookingWidgetStyles();
+  if (!st) return '';
+  if (st.availLoading || !st.availability) {
+    return '<div class="zappy-qv-book-loading">' + getEcomText('bookingLoading', 'Loading availability…') + '</div>';
+  }
+  var av = st.availability;
+  var b = st.booking || (st.booking = { formAnswers: {} });
+  var grp = zappyPdpBookGroupByDate(st);
+  var tz = av.timezone;
+  var dateOnly = !!av.dateOnly;
+  var formHtml = zappyPdpBookRenderForm(av.formSchema, b.formAnswers);
+  if (!grp.order.length) {
+    return '<div class="zappy-qv-book-empty">' + (dateOnly ? getEcomText('bookingNoDates', 'No available dates right now') : getEcomText('bookingNoSlots', 'No available times right now')) + '</div>' + formHtml;
+  }
+  if (!b.date || grp.order.indexOf(b.date) === -1) { b.date = grp.order[0]; b.slotKey = null; b.slotId = null; b.startsAt = null; }
+  var calendarHtml = zappyPdpBookRenderCalendar(grp, b);
+  var daySlots = grp.map[b.date] || [];
+  var stillThere = daySlots.some(function(s) { return zappyPdpBookSlotKey(s) === b.slotKey; });
+  if (!stillThere) { b.slotKey = null; b.slotId = null; b.startsAt = null; }
+  if (dateOnly && !b.startsAt) zappyPdpBookSelectFirstDateSlot(b, grp, st);
+  if (dateOnly) {
+    return '<div class="zappy-qv-book-row"><label class="zappy-qv-book-label">' + getEcomText('bookingDate', 'Date') + '</label>'
+      +   calendarHtml + '</div>'
+      + formHtml;
+  }
+  var timeOpts = '<option value="">' + getEcomText('bookingSelectTime', 'Select a time') + '</option>';
+  daySlots.forEach(function(s) {
+    var key = zappyPdpBookSlotKey(s);
+    var lbl = s.label ? s.label : zappyPdpBookTimeLabel(s.startsAt, tz);
+    if (s.remaining != null && s.remaining <= 5) lbl += ' · ' + String(getEcomText('bookingRemaining', '{count} left')).replace(/\{count\}/g, String(s.remaining));
+    timeOpts += '<option value="' + zappyPdpBookEsc(key) + '"' + (key === b.slotKey ? ' selected' : '') + '>' + zappyPdpBookEsc(lbl) + '</option>';
+  });
+  return '<div class="zappy-qv-book-row"><label class="zappy-qv-book-label">' + getEcomText('bookingDate', 'Date') + '</label>'
+    +   calendarHtml + '</div>'
+    + '<div class="zappy-qv-book-row"><label class="zappy-qv-book-label">' + getEcomText('bookingTime', 'Time') + '</label>'
+    +   '<select class="zappy-qv-book-select" data-qv-book="time">' + timeOpts + '</select></div>'
+    + formHtml;
+}
+function zappyPdpBookPaint() {
+  var wrap = document.getElementById('zappy-pdp-booking'); if (!wrap) return;
+  wrap.innerHTML = zappyPdpBookRenderBlock(window.__zappyPdpBooking);
+}
+function zappyPdpBookSelectTime(key) {
+  var st = window.__zappyPdpBooking; if (!st) return;
+  var b = st.booking || (st.booking = { formAnswers: {} });
+  var grp = zappyPdpBookGroupByDate(st); var day = grp.map[b.date] || []; var slot = null;
+  for (var i = 0; i < day.length; i++) { if (zappyPdpBookSlotKey(day[i]) === key) { slot = day[i]; break; } }
+  if (!slot) { b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; }
+  else { b.slotKey = key; b.slotId = slot.slotId || null; b.startsAt = slot.startsAt; b.endsAt = slot.endsAt; }
+  zappyPdpBookSyncButton();
+}
+function zappyPdpBookSyncButton() {
+  var btn = document.getElementById('add-to-cart-btn'); if (!btn) return;
+  var st = window.__zappyPdpBooking;
+  if (!st) return;
+  var ready = window.zappyPdpBookingReady();
+  btn.disabled = !ready;
+  btn.style.opacity = ready ? '' : '0.5';
+  btn.style.cursor = ready ? '' : 'not-allowed';
+}
+window.zappyPdpBookingReady = function() {
+  var st = window.__zappyPdpBooking;
+  if (!st) return true;
+  var av = st.availability; var b = st.booking;
+  if (!av || !b || !b.startsAt) return false;
+  var schema = Array.isArray(av.formSchema) ? av.formSchema : [];
+  for (var i = 0; i < schema.length; i++) {
+    var f = schema[i]; if (!f || !f.required) continue;
+    var v = b.formAnswers ? b.formAnswers[f.key] : null;
+    if (f.type === 'checkbox') { if (!v) return false; }
+    else if (v == null || String(v).trim() === '') return false;
+  }
+  return true;
+};
+window.zappyPdpBookingData = function() {
+  var st = window.__zappyPdpBooking;
+  if (!st || !st.booking || !st.booking.startsAt) return null;
+  var av = st.availability || {}; var b = st.booking;
+  return {
+    slotId: b.slotId || null,
+    startsAt: b.startsAt,
+    endsAt: b.endsAt || null,
+    timezone: av.timezone || null,
+    bookingMode: av.bookingMode || null,
+    durationMinutes: av.durationMinutes != null ? av.durationMinutes : null,
+    dateOnly: !!av.dateOnly,
+    requiresShipping: !!av.requiresShipping,
+    formAnswers: b.formAnswers && Object.keys(b.formAnswers).length ? b.formAnswers : null
+  };
+};
+window.zappyPdpBookingInit = function(product) {
+  var wrap = document.getElementById('zappy-pdp-booking');
+  if (!wrap || !window.zappyIsServiceProduct || !window.zappyIsServiceProduct(product)) return;
+  var st = window.__zappyPdpBooking = { product: product, availability: null, availLoading: true, booking: { formAnswers: {} } };
+  zappyPdpBookPaint();
+  zappyPdpBookSyncButton();
+  var wid = window.ZAPPY_WEBSITE_ID;
+  fetch(buildApiUrlWithLang('/api/ecommerce/storefront/service-availability?websiteId=' + wid + '&productId=' + encodeURIComponent(product.id)))
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+      st.availLoading = false;
+      st.availability = (data && data.success && data.data) ? data.data : { slots: [], formSchema: [] };
+    })
+    .catch(function() { st.availLoading = false; st.availability = { slots: [], formSchema: [] }; })
+    .then(function() { zappyPdpBookPaint(); zappyPdpBookSyncButton(); });
+  if (!window.__zappyPdpBookingBound) {
+    window.__zappyPdpBookingBound = true;
+    document.addEventListener('click', zappyPdpBookHandleEvent, true);
+    document.addEventListener('change', zappyPdpBookHandleEvent, true);
+    document.addEventListener('input', zappyPdpBookHandleEvent, true);
+  }
+};
+function zappyPdpBookHandleEvent(e) {
+  var node = e.target; if (!node) return;
+  var wrap = document.getElementById('zappy-pdp-booking');
+  if (!wrap || !wrap.contains(node)) return;
+  var st = window.__zappyPdpBooking; if (!st) return;
+  var b = st.booking || (st.booking = { formAnswers: {} });
+  var clickedDate = node.closest && node.closest('[data-qv-book-date]');
+  if (clickedDate && wrap.contains(clickedDate)) {
+    if (e.type === 'click') e.preventDefault();
+    b.date = clickedDate.getAttribute('data-qv-book-date');
+    b.month = zappyPdpBookMonthKey(b.date);
+    b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null;
+    zappyPdpBookSelectFirstDateSlot(b, zappyPdpBookGroupByDate(st), st);
+    zappyPdpBookPaint(); zappyPdpBookSyncButton();
+    return;
+  }
+  var clickedMonth = node.closest && node.closest('[data-qv-book-month]');
+  if (clickedMonth && wrap.contains(clickedMonth)) {
+    if (e.type === 'click') e.preventDefault();
+    b.month = clickedMonth.getAttribute('data-qv-book-month');
+    zappyPdpBookPaint(); zappyPdpBookSyncButton();
+    return;
+  }
+  var bk = node.getAttribute && node.getAttribute('data-qv-book');
+  if (bk === 'date') { b.date = node.value; b.slotKey = null; b.slotId = null; b.startsAt = null; b.endsAt = null; zappyPdpBookSelectFirstDateSlot(b, zappyPdpBookGroupByDate(st), st); zappyPdpBookPaint(); zappyPdpBookSyncButton(); return; }
+  if (bk === 'time') { zappyPdpBookSelectTime(node.value); return; }
+  var fk = node.getAttribute && node.getAttribute('data-qv-book-field');
+  if (fk) {
+    b.formAnswers = b.formAnswers || {};
+    b.formAnswers[fk] = (node.type === 'checkbox') ? !!node.checked : node.value;
+    zappyPdpBookSyncButton();
+  }
+}
+
 function addProductToCart() {
   const product = window.currentProduct;
   if (!product) return;
   // Contact-for-price products (showPrice === false) are inquiry-only.
   if (window.zappyProductPriceHidden && window.zappyProductPriceHidden(product)) return;
+
+  // Service/event products (FEATURE_ECOMMERCE_SERVICES) require a chosen slot +
+  // any required custom-form answers before they can be added to the cart.
+  if (window.zappyIsServiceProduct && window.zappyIsServiceProduct(product)) {
+    if (!window.zappyPdpBookingReady || !window.zappyPdpBookingReady()) {
+      const tt = window.productTranslations || {};
+      const bookingState = window.__zappyPdpBooking || {};
+      const bookingAvailability = bookingState.availability || {};
+      alert(
+        bookingAvailability.dateOnly
+          ? getEcomText('bookingSelectDateFirst', tt.bookingSelectDateFirst || 'Please choose a date first')
+          : getEcomText('bookingSelectTimeFirst', tt.bookingSelectTimeFirst || 'Please choose a date and time first')
+      );
+      zappyPdpBookSyncButton();
+      return;
+    }
+  }
   
   const qtyInput = document.getElementById('product-quantity');
   const quantity = parseFloat(qtyInput?.value || 1);
@@ -12132,6 +13896,13 @@ function addProductToCart() {
     }
   }
   
+  // Attach the chosen booking (slot + form answers) for service/event products
+  // so it flows through the cart, checkout reservation, and order line item.
+  if (window.zappyIsServiceProduct && window.zappyIsServiceProduct(product) && window.zappyPdpBookingData) {
+    const bookingData = window.zappyPdpBookingData();
+    if (bookingData) cartItem.booking = bookingData;
+  }
+
   // Add to cart (addToCart handles merging with existing items)
   window.zappyAddToCart(cartItem);
 
@@ -12309,127 +14080,45 @@ async function loadRelatedProducts(currentProduct, t) {
   const section = document.getElementById('related-products-section');
   const grid = document.getElementById('related-products-grid');
   if (!section || !grid) return;
-  
+
   const websiteId = window.ZAPPY_WEBSITE_ID;
-  try {
-    // Fetch products from same category or random products, with language support
-    let url = buildApiUrlWithLang('/api/ecommerce/storefront/products?websiteId=' + websiteId + '&limit=4');
-    if (currentProduct.category_id) {
-      url += '&categoryId=' + currentProduct.category_id;
+  if (!websiteId) return;
+  if (_zappyRelatedProductsInflight) return _zappyRelatedProductsInflight;
+
+  _zappyRelatedProductsInflight = (async function() {
+    try {
+      // Fetch products from same category or random products, with language support
+      let url = buildApiUrlWithLang('/api/ecommerce/storefront/products?websiteId=' + websiteId + '&limit=4');
+      const categoryId = resolveProductCategoryId(currentProduct);
+      if (categoryId) {
+        url += '&categoryId=' + encodeURIComponent(categoryId);
+      }
+
+      const res = await fetch(url);
+      if (!res.ok) return;
+      const data = await res.json();
+
+      if (!data.success || !data.data?.length) return;
+
+      // Filter out current product and limit to 4
+      const related = data.data.filter(p => p.id !== currentProduct.id).slice(0, 4);
+      if (related.length === 0) return;
+
+      renderProductGrid(grid, related, t);
+      section.style.display = 'block';
+      _zappyRelatedProductsLastLoadedAt = Date.now();
+    } catch (e) {
+      if (!isPreviewFetchAbortError(e)) {
+        console.error('Failed to load related products', e);
+      }
+    } finally {
+      _zappyRelatedProductsInflight = null;
     }
-    
-    const res = await fetch(url);
-    const data = await res.json();
-    
-    if (!data.success || !data.data?.length) return;
-    
-    // Filter out current product and limit to 4
-    const related = data.data.filter(p => p.id !== currentProduct.id).slice(0, 4);
-    if (related.length === 0) return;
-    
-    renderProductGrid(grid, related, t);
-    section.style.display = 'block';
-  } catch (e) {
-    console.error('Failed to load related products', e);
-  }
+  })();
+
+  return _zappyRelatedProductsInflight;
 }
 /* ==ZAPPY E-COMMERCE JS END== */
-
-/* ZAPPY_CUSTOM_JS_START:d1d84de352b8 */
-(function () {
-  function __zappyCustomInit() {
-    try {
-(function() {
-  var carousel = document.querySelector('.home-hero-section .zappy-hero-carousel');
-  if (!carousel) return;
-  
-  var slides = carousel.querySelectorAll('.zappy-hero-carousel-slide');
-  if (slides.length <= 1) return;
-  
-  var interval = 3000;
-  var current = 0;
-  
-  // Reset: make only the first slide active
-  for (var i = 0; i < slides.length; i++) {
-    if (i === 0) {
-      slides[i].classList.add('is-active');
-      slides[i].style.opacity = '1';
-    } else {
-      slides[i].classList.remove('is-active');
-      slides[i].style.opacity = '0';
-    }
-  }
-  
-  setInterval(function() {
-    slides[current].classList.remove('is-active');
-    slides[current].style.opacity = '0';
-    current = (current + 1) % slides.length;
-    slides[current].classList.add('is-active');
-    slides[current].style.opacity = '1';
-  }, interval);
-})();
-    } catch (e) {
-      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
-  } else {
-    __zappyCustomInit();
-  }
-})();
-/* ZAPPY_CUSTOM_JS_END:d1d84de352b8 */
-
-/* ZAPPY_CUSTOM_JS_START:3407033defd7 */
-(function () {
-  function __zappyCustomInit() {
-    try {
-(function() {
-  const carousel = document.querySelector('.mobile-carousel-section .zappy-img-carousel');
-  if (!carousel) return;
-  
-  const slides = carousel.querySelectorAll('.zappy-img-carousel-slide');
-  if (slides.length <= 1) return;
-  
-  let currentIndex = 0;
-  const interval = parseInt(carousel.getAttribute('data-interval')) || 3000;
-  
-  function showSlide(index) {
-    slides.forEach(function(slide, i) {
-      if (i === index) {
-        slide.classList.add('is-active');
-        slide.style.opacity = '1';
-        slide.style.position = 'relative';
-        slide.style.zIndex = '1';
-      } else {
-        slide.classList.remove('is-active');
-        slide.style.opacity = '0';
-        slide.style.position = 'absolute';
-        slide.style.zIndex = '0';
-      }
-    });
-  }
-  
-  // Initialize
-  showSlide(0);
-  
-  // Auto-rotate
-  setInterval(function() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }, interval);
-})();
-    } catch (e) {
-      if (typeof console !== 'undefined' && console.warn) { console.warn('[zappy-custom-js]', e); }
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', __zappyCustomInit);
-  } else {
-    __zappyCustomInit();
-  }
-})();
-/* ZAPPY_CUSTOM_JS_END:3407033defd7 */
 
 
 /* ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
@@ -12615,11 +14304,11 @@ async function loadRelatedProducts(currentProduct, t) {
 /* END ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 
 
-/* ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME_V2 */
+/* ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME_V3 */
 (function(){
   try {
-    if (window.__zappyPublishedZoomInitV2) return;
-    window.__zappyPublishedZoomInitV2 = true;
+    if (window.__zappyPublishedZoomInitV3) return;
+    window.__zappyPublishedZoomInitV3 = true;
 
     function isHeroBgWrapper(wrapper) {
       var img = wrapper.querySelector('img');
@@ -12651,6 +14340,27 @@ async function loadRelatedProducts(currentProduct, t) {
       return { w: 100, h: (contA / imgA) * 100 };
     }
 
+    var IMAGE_SLOT_CLASS_TOKENS = ['image-wrap', 'image-tile', 'image-slot', 'card-image', 'card-media', 'media-wrap', 'portrait-wrap'];
+    function classNameHasImageSlotMarker(className) {
+      var raw = (className || '').toString().toLowerCase();
+      if (!raw.trim()) return false;
+      var classes = raw.split(/\s+/);
+      for (var c = 0; c < classes.length; c++) {
+        var segments = classes[c].split(/[^a-z0-9]+/).filter(function(s) { return !!s; });
+        for (var t = 0; t < IMAGE_SLOT_CLASS_TOKENS.length; t++) {
+          var tokenParts = IMAGE_SLOT_CLASS_TOKENS[t].split('-');
+          for (var i = 0; i <= segments.length - tokenParts.length; i++) {
+            var match = true;
+            for (var j = 0; j < tokenParts.length; j++) {
+              if (segments[i + j] !== tokenParts[j]) { match = false; break; }
+            }
+            if (match) return true;
+          }
+        }
+      }
+      return false;
+    }
+
     function normalizeInsertedZoomParent(wrapper) {
       try {
         var parent = wrapper && wrapper.parentElement;
@@ -12665,6 +14375,46 @@ async function loadRelatedProducts(currentProduct, t) {
         parent.style.setProperty('max-height', 'none', 'important');
         parent.setAttribute('data-zappy-inserted-zoom-parent-normalized', '1');
       } catch (_e) {}
+    }
+
+    function findImageSlotContainerForZoomWrapper(wrapper, maxWalk) {
+      try {
+        if (!wrapper || !wrapper.parentElement) return null;
+        var node = wrapper.parentElement;
+        for (var walk = 0; walk < (maxWalk || 4) && node && node !== document.body; walk++) {
+          var nodeClass = (node.className || '').toString();
+          if (classNameHasImageSlotMarker(nodeClass)) return node;
+
+          var nodeCS = window.getComputedStyle(node);
+          var rawClass = (node.className || '').toString();
+          var isThinAnchor = node.tagName === 'A' && nodeCS && nodeCS.display === 'contents';
+          var isUnclassedDiv = node.tagName === 'DIV' && !rawClass.trim();
+          var isInsertedEl = / zappy-inserted-element |^zappy-inserted-element | zappy-inserted-element$|^zappy-inserted-element$/.test(' ' + rawClass + ' ');
+          if (!(isThinAnchor || isUnclassedDiv || isInsertedEl)) break;
+          node = node.parentElement;
+        }
+      } catch (_e) {}
+      return null;
+    }
+
+    function hasSyncedDecorativeImageFrame(wrapper) {
+      try {
+        if (!wrapper) return false;
+        var node = wrapper.parentElement;
+        for (var walk = 0; walk < 4 && node && node !== document.body; walk++) {
+          if (node.getAttribute && node.getAttribute('data-zappy-image-frame-synced') === 'true') {
+            return true;
+          }
+          var nodeCS = window.getComputedStyle(node);
+          var rawClass = (node.className || '').toString();
+          var isThinAnchor = node.tagName === 'A' && nodeCS && nodeCS.display === 'contents';
+          var isUnclassedDiv = node.tagName === 'DIV' && !rawClass.trim();
+          var isInsertedEl = / zappy-inserted-element |^zappy-inserted-element | zappy-inserted-element$|^zappy-inserted-element$/.test(' ' + rawClass + ' ');
+          if (!(isThinAnchor || isUnclassedDiv || isInsertedEl)) break;
+          node = node.parentElement;
+        }
+      } catch (_e) {}
+      return false;
     }
 
     // FULL-BLEED FIRST-CHILD MEDIA: when the wrapper's parent (the image-wrap)
@@ -12686,8 +14436,8 @@ async function loadRelatedProducts(currentProduct, t) {
         var slotForBleed = null;
         var slotNode = wrapper.parentElement;
         for (var slotWalk = 0; slotWalk < 4 && slotNode && slotNode !== document.body; slotWalk++) {
-          var slotNodeClass = (slotNode.className || '').toString().toLowerCase();
-          if (/(image-wrap|image-tile|image-slot|card-image|card-media|media-wrap|portrait-wrap)/.test(slotNodeClass)) {
+          var slotNodeClass = (slotNode.className || '').toString();
+          if (classNameHasImageSlotMarker(slotNodeClass)) {
             slotForBleed = slotNode;
             break;
           }
@@ -12765,6 +14515,8 @@ async function loadRelatedProducts(currentProduct, t) {
         if (!wrapper || isHeroBgWrapper(wrapper)) return;
         var widthMode = wrapper.getAttribute('data-zappy-zoom-wrapper-width-mode');
         if (widthMode === 'full') return;
+        var forceCardSlotFill = widthMode === 'card-slot' || wrapper.getAttribute('data-zappy-card-slot-fill') === '1';
+        if (hasSyncedDecorativeImageFrame(wrapper)) return;
         // Walk UP through editor-injected / "thin" wrappers to find the real
         // visual image-slot container. We tolerate at most 3 levels of:
         //   - <a style="display:contents">           (editor link wrap)
@@ -12773,8 +14525,8 @@ async function loadRelatedProducts(currentProduct, t) {
         var node = wrapper.parentElement;
         var slotEl = null;
         for (var walk = 0; walk < 3 && node && node !== document.body; walk++) {
-          var nodeClass = (node.className || '').toString().toLowerCase();
-          if (/(image-wrap|image-tile|image-slot|card-image|card-media|media-wrap|portrait-wrap)/.test(nodeClass)) {
+          var nodeClass = (node.className || '').toString();
+          if (classNameHasImageSlotMarker(nodeClass)) {
             slotEl = node;
             break;
           }
@@ -12787,6 +14539,18 @@ async function loadRelatedProducts(currentProduct, t) {
           node = node.parentElement;
         }
         if (!slotEl) {
+          if (forceCardSlotFill) {
+            var forcedSW = parseFloat(wrapper.getAttribute('data-zappy-zoom-wrapper-width')) || 0;
+            var forcedSH = parseFloat(wrapper.getAttribute('data-zappy-zoom-wrapper-height')) || 0;
+            wrapper.style.setProperty('width', '100%', 'important');
+            wrapper.style.setProperty('max-width', '100%', 'important');
+            wrapper.style.setProperty('padding-bottom', '0', 'important');
+            if (forcedSW > 0 && forcedSH > 0) {
+              wrapper.style.setProperty('aspect-ratio', forcedSW + '/' + forcedSH, 'important');
+              wrapper.style.setProperty('height', 'auto', 'important');
+            }
+            wrapper.setAttribute('data-zappy-card-slot-fill', '1');
+          }
           // No image-slot found. Check if the walk stopped at a card-like
           // container and the saved width fills most of the card — this handles
           // user-replaced images where the original image-wrap is empty and the
@@ -12844,7 +14608,6 @@ async function loadRelatedProducts(currentProduct, t) {
         var slotCS = window.getComputedStyle(slotEl);
         var slotWidthGap = slotRect.width - wrapRect.width;
         var slotHeightGap = wrapRect.height - slotRect.height;
-        var forceCardSlotFill = widthMode === 'card-slot' || wrapper.getAttribute('data-zappy-card-slot-fill') === '1';
         if (!forceCardSlotFill && slotWidthGap <= 4 && !(slotHeightGap > 4 && slotRect.height > 0 && slotCS.overflow !== 'visible')) return;
         var swStr = wrapper.getAttribute('data-zappy-zoom-wrapper-width');
         var shStr = wrapper.getAttribute('data-zappy-zoom-wrapper-height');
@@ -13130,6 +14893,19 @@ async function loadRelatedProducts(currentProduct, t) {
       var widthMode = wrapper.getAttribute('data-zappy-zoom-wrapper-width-mode') || 'px';
       if (widthMode === 'full' || widthMode === 'grid-responsive') return;
       if (isHeroBgWrapper(wrapper)) return;
+
+      if ((widthMode === 'card-slot' || wrapper.getAttribute('data-zappy-card-slot-fill') === '1') &&
+          !findImageSlotContainerForZoomWrapper(wrapper, 4) &&
+          hasSyncedDecorativeImageFrame(wrapper)) {
+        // Older published runtimes used substring matching and could persist
+        // card-slot fill on decorative frames like "showcase-image-wrapper".
+        // Clear that stale marker so saved pixel crop dimensions win again.
+        wrapper.removeAttribute('data-zappy-card-slot-fill');
+        if (widthMode === 'card-slot') {
+          wrapper.setAttribute('data-zappy-zoom-wrapper-width-mode', 'px');
+          widthMode = 'px';
+        }
+      }
 
       var storedW = wrapper.getAttribute('data-zappy-zoom-wrapper-width');
       var storedH = wrapper.getAttribute('data-zappy-zoom-wrapper-height');
@@ -13762,6 +15538,66 @@ function ancestorHasExplicitColor(el){
   return false;
 }
 
+// Respect deliberate author-level `color: ... !important` rules. The runtime
+// fixer runs late and writes inline `!important`, so without this check it can
+// override an explicit user/AI styling request (e.g. white FAQ text on a brand
+// orange card) simply because black has a slightly higher WCAG ratio. We still
+// fix ordinary generated CSS, but an author `!important` colour is intentional.
+function elementMatchesColorRule(el, importantOnly){
+  if(!el||!el.matches)return false;
+  function ruleApplies(rule){
+    if(!rule)return false;
+    if(rule.type===1){
+      try{
+        if(rule.style&&rule.style.getPropertyValue('color')&&
+          (!importantOnly||rule.style.getPropertyPriority('color')==='important')&&
+          el.matches(rule.selectorText)){
+          return true;
+        }
+      }catch(e){return false;}
+    }
+    if(rule.cssRules){
+      try{
+        for(var ri=0;ri<rule.cssRules.length;ri++){
+          if(ruleApplies(rule.cssRules[ri]))return true;
+        }
+      }catch(e2){return false;}
+    }
+    return false;
+  }
+  for(var si=0;si<document.styleSheets.length;si++){
+    var rules=null;
+    try{rules=document.styleSheets[si].cssRules;}catch(e3){continue;}
+    if(!rules)continue;
+    for(var i=0;i<rules.length;i++){
+      if(ruleApplies(rules[i]))return true;
+    }
+  }
+  return false;
+}
+function elementMatchesImportantColorRule(el){
+  return elementMatchesColorRule(el,true);
+}
+function elementMatchesAuthorColorRule(el){
+  return elementMatchesColorRule(el,false);
+}
+function selfOrAncestorHasImportantAuthorColor(el){
+  var n=el;
+  while(n&&n!==document.body){
+    if(elementMatchesImportantColorRule(n))return true;
+    n=n.parentElement;
+  }
+  return false;
+}
+function selfOrAncestorHasAuthorColor(el){
+  var n=el;
+  while(n&&n!==document.body){
+    if(elementMatchesAuthorColorRule(n))return true;
+    n=n.parentElement;
+  }
+  return false;
+}
+
 function isDecorativeAccentText(el){
   if(!el||!el.matches)return false;
   if(el.matches('.font-accent,.hero-logotype,.hero-logotype-line,[class*="script"],[class*="accent-line"],[class*="subheadline"]'))return true;
@@ -13833,6 +15669,7 @@ function fixContrast(){
     var inlineStyle=el.getAttribute('style')||'';
     if(/(?:^|;\s*)color\s*:/i.test(inlineStyle))continue;
     if(ancestorHasExplicitColor(el))continue;
+    if(selfOrAncestorHasImportantAuthorColor(el))continue;
     if(el.tagName==='FONT'&&el.hasAttribute('color'))continue;
     var txt=el.textContent?el.textContent.trim():'';
     if(!txt)continue;
@@ -13845,6 +15682,7 @@ function fixContrast(){
     if(!cRGB||!bRGB)continue;
     var ratio=contrastRatio(cRGB,bRGB);
     if(ratio<4.5){
+      if(ratio>=3&&selfOrAncestorHasAuthorColor(el))continue;
       var darkC=contrastRatio(darkRGB,bRGB);
       var lightC=contrastRatio(lightRGB,bRGB);
       var best=darkC>=lightC?dark:light;
@@ -14340,7 +16178,7 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_VARIANT_SELECTION_FIX_V2 */
+/* ZAPPY_VARIANT_SELECTION_FIX_V10 */
 (function(){
   try {
     if (window.__zappyVariantFixInit) return;
@@ -14354,6 +16192,14 @@ function fixContrast(){
       document.head.appendChild(s);
     }
 
+    function _safeSwatchCssUrl(x){return String(x==null?'':x).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n|\r/g,'')}
+    function _safeSwatchCssColor(v){var s=String(v==null?'':v).trim();if(/^#[0-9A-Fa-f]{3,8}$/.test(s))return s;if(/^rgb/i.test(s)||/^hsl/i.test(s))return s;if(/^[a-zA-Z ]+$/.test(s))return s.toLowerCase();return '#94a3b8'}
+    window.zappyCardSwatchStyle=function(val){var img=val&&(val.swatchImage||val.image);if(img){var r=window.resolveProductImageUrl||function(x){return x};return "background-image:url('"+_safeSwatchCssUrl(r(img))+"');background-size:"+(val.imageSize||'cover')+';background-position:'+(val.imagePosition||'50% 50%')+';'}if(val&&val.hex2)return 'background:linear-gradient(90deg,'+_safeSwatchCssColor(val.hex||val.value)+' 0 50%,'+_safeSwatchCssColor(val.hex2)+' 50% 100%);';return 'background:'+_safeSwatchCssColor((val&&(val.hex||val.value))||'')+';'};
+    window.zappyCardSwatchLabel=function(val,attr,p){var label=String((val&&val.label)||'').trim(),src=val&&val.value;if(p&&attr&&src!=null)label=_trVal(p,attr,src,label||src);if(val&&val.swatchImage)return label||'Image swatch';if(val&&val.hex2)return label;return label};
+    function _restyleCardSwatches(){if(typeof window.zappyCardSwatchStyle!=='function')return;document.querySelectorAll('.product-card[data-product-id]').forEach(function(card){var pid=card.getAttribute('data-product-id'),p=typeof window.zappyGetCardProduct==='function'?window.zappyGetCardProduct(pid):null,cv=p&&p.card_variants;if(!cv||!Array.isArray(cv.options))return;var colorOpt=cv.options.find(function(o){return o&&(o.type==='color'||String(o.key||'').toLowerCase().indexOf('color')!==-1)});if(!colorOpt||!Array.isArray(colorOpt.values))return;card.querySelectorAll('[data-card-swatches] [data-color]').forEach(function(btn){var value=btn.getAttribute('data-color'),meta=colorOpt.values.find(function(v){return v&&String(v.value)===String(value)}),dot=btn.querySelector('.zc-swatch-dot');if(meta&&dot)dot.style.cssText=window.zappyCardSwatchStyle(meta);if(meta){var lbl=_trVal(p,colorOpt.key,meta.value,String(meta.label||meta.value));btn.setAttribute('title',lbl);btn.setAttribute('aria-label',lbl)}})})}
+    var _oldAfterCards=window.zappyAfterCardsRendered;if(typeof _oldAfterCards==='function'){window.zappyAfterCardsRendered=function(){var r=_oldAfterCards.apply(this,arguments);try{_restyleCardSwatches()}catch(e){}return r}}
+    setTimeout(_restyleCardSwatches,0);setTimeout(_restyleCardSwatches,500);setTimeout(_restyleCardSwatches,1500);
+
     var selectedAttributes = {};
     var _vProduct = null;
     var _vT = {};
@@ -14365,10 +16211,30 @@ function fixContrast(){
     // _autoSelectSingles. Re-trigger fixVariantSelection from inside the wrapper
     // so the runtime fix runs once data finally arrives. Deferred via setTimeout
     // so the page's own renderProductDetail finishes mutating the DOM first.
-    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&p.variants&&p.variants.length>0){_vProduct=p;var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
+    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&p.variants&&p.variants.length>0){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
     _oivs();
 
-    function _gv() { return _vProduct ? (_vProduct.variants||[]).filter(function(v){return v.is_active!==false}) : []; }
+    function _augmentProductFromCardVariants(p){
+      if(!p||!p.card_variants||!Array.isArray(p.card_variants.matrix))return p;
+      var byId={},rows=p.card_variants.matrix,existing=Array.isArray(p.variants)?p.variants:[];
+      existing.forEach(function(v){if(v&&v.id!=null)byId[String(v.id)]=v});
+      rows.forEach(function(r){if(!r||r.id==null)return;var prev=byId[String(r.id)]||{};byId[String(r.id)]=Object.assign({},prev,{id:r.id,attributes:r.attributes||prev.attributes||{},price:r.price!=null?r.price:prev.price,image:r.image||prev.image,sku:r.sku||prev.sku,custom_fields:prev.custom_fields||prev.customFields||r.custom_fields||r.customFields||{},available:typeof r.available==='boolean'?r.available:prev.available,is_active:prev.is_active!==false})});
+      p.variants=Object.keys(byId).map(function(k){return byId[k]});
+      return p;
+    }
+    if(!window.__zappyVariantRenderAugmented&&typeof window.renderProductDetail==='function'){
+      window.__zappyVariantRenderAugmented=true;
+      var _origRenderProductDetail=window.renderProductDetail;
+      window.renderProductDetail=function(container,product,t){
+        return _origRenderProductDetail.call(this,container,_augmentProductFromCardVariants(product),t);
+      };
+    }
+    function _vCssUrl(x){return String(x==null?'':x).replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/\n|\r/g,'')}
+    function _cvStyle(e){if(typeof window.zappyCardSwatchStyle==='function')return window.zappyCardSwatchStyle(e);if(e&&(e.swatchImage||e.image)){var r=window.resolveProductImageUrl||function(s){return s};return "background-image:url('"+_vCssUrl(r(e.swatchImage||e.image))+"');background-size:"+(e.imageSize||'cover')+';background-position:'+(e.imagePosition||'50% 50%')+';'}if(e&&e.hex2)return 'background:linear-gradient(90deg,'+(e.hex||'#94a3b8')+' 0 50%,'+e.hex2+' 50% 100%);';return 'background:'+((e&&(e.hex||e.value))||'#94a3b8')+';'}
+    function _trVal(p,k,v,f){if(typeof window.zappyTranslateVariantValue==='function')return window.zappyTranslateVariantValue(p,k,v,f);var lang='';try{lang=String((typeof getCurrentEcomLanguage==='function'?getCurrentEcomLanguage():(document.documentElement.lang||''))||'').split('-')[0].toLowerCase()}catch(e){}function kc(x){if(lang!=='he')return'';if(String(k||'').toLowerCase().indexOf('color')===-1&&String(k||'').toLowerCase()!=='colour')return'';var raw=String(x==null?'':x).trim();if(!raw||/[\u0590-\u05FF]/.test(raw))return'';var map={black:'שחור',white:'לבן',gray:'אפור',grey:'אפור',red:'אדום',green:'ירוק',blue:'כחול',navy:'כחול כהה',pink:'ורוד',purple:'סגול',yellow:'צהוב',orange:'כתום',brown:'חום',beige:'בז׳',gold:'זהב',silver:'כסף',teal:'טורקיז',mint:'מנטה',cream:'קרם',ivory:'שנהב'},direct=map[raw.toLowerCase().replace(/\s+/g,' ')];if(direct)return direct;var parts=raw.split(/\s*-\s*/).filter(Boolean),tr=parts.map(function(part){return map[String(part).toLowerCase().replace(/\s+/g,' ')]});return parts.length>1&&tr.every(Boolean)?tr.join('-'):''}var vs=p&&Array.isArray(p.variants)?p.variants:[],w=String(v);for(var i=0;i<vs.length;i++){var x=vs[i]||{},a=x.attributes_source||x.attributes||{};if(!a||String(a[k])!==w)continue;var tr=x.attributes_translations&&lang&&x.attributes_translations[lang];if(tr&&tr[k])return kc(tr[k])||String(tr[k]);var d=x.attributes_display||{};if(d&&d[k])return kc(d[k])||String(d[k])}var m=p&&p.card_variants&&Array.isArray(p.card_variants.matrix)?p.card_variants.matrix:[];for(var j=0;j<m.length;j++){var r=m[j]||{},ra=r.attributes||{};if(ra&&String(ra[k])===w&&r.attributes_display&&r.attributes_display[k])return kc(r.attributes_display[k])||String(r.attributes_display[k])}return kc(f)||f}
+    function _ensureCvBtns(){var p=_vProduct||window.currentProduct,cv=p&&p.card_variants;if(!cv||!Array.isArray(cv.options))return;cv.options.forEach(function(o){if(!o||!o.key||!Array.isArray(o.values))return;var g=null;document.querySelectorAll('.variant-group').forEach(function(c){if(c.getAttribute('data-group')===o.key)g=c});var ct=g&&g.querySelector('.variant-options');if(!ct)return;var isC=o.type==='color'||String(o.key).toLowerCase().indexOf('color')!==-1;o.values.forEach(function(e){if(!e||e.value==null)return;var dl=_trVal(p,o.key,e.value,String(e.label||e.value));var eb=null;ct.querySelectorAll('.variant-option').forEach(function(b){if(b.getAttribute('data-value')===String(e.value))eb=b});if(eb){eb.setAttribute('data-display-value',dl);eb.title=dl;if(isC)eb.style.cssText=_cvStyle(e);else eb.textContent=dl;return}var b=document.createElement('button');b.type='button';b.className='variant-option'+(isC?' color-swatch':'');b.setAttribute('data-attr',o.key);b.setAttribute('data-value',String(e.value));b.setAttribute('data-display-value',dl);b.title=dl;if(isC)b.style.cssText=_cvStyle(e);else b.textContent=dl;ct.appendChild(b)})})}
+
+    function _gv() { if(!_vProduct)return []; return (_vProduct.variants||[]).filter(function(v){return v.is_active!==false}); }
     function _gak() { var k=[],s={}; document.querySelectorAll('.variant-option').forEach(function(b){var a=b.getAttribute('data-attr');if(a&&!s[a]){s[a]=true;k.push(a)}}); return k; }
     // Wildcard match: a variant that doesn't define an attribute matches any value.
     // Prefers the shared window.zappyVariantMatrix (same script.js) so the PDP,
@@ -14392,11 +16258,14 @@ function fixContrast(){
       document.querySelectorAll('.variant-option').forEach(function(btn){
         var ak=btn.getAttribute('data-attr'),av=btn.getAttribute('data-value');
         var t={};for(var k in selectedAttributes){if(selectedAttributes.hasOwnProperty(k)&&k!==ak)t[k]=selectedAttributes[k]}t[ak]=av;
-        var m=_fm(t);btn.classList.remove('disabled','out-of-stock');btn.disabled=false;
-        if(m.length===0){btn.classList.add('disabled');btn.disabled=true}
+        var m=_fm(t),gm=_fm((function(){var any={};any[ak]=av;return any})());btn.classList.remove('disabled','out-of-stock');btn.disabled=false;
+        if(m.length===0){btn.classList.add('disabled');btn.disabled=gm.length===0}
         else if(m.every(function(v){return _oos(v)})){btn.classList.add('disabled');btn.classList.add('out-of-stock');btn.disabled=true}
       });
     }
+    function _hac(sel){return _fm(sel).filter(function(r){return !_oos(r)}).length>0}
+    function _syncSel(){document.querySelectorAll('.variant-option').forEach(function(b){var k=b.getAttribute('data-attr'),v=b.getAttribute('data-value');b.classList.toggle('selected',!!k&&selectedAttributes[k]===v)})}
+    function _rec(changedKey){var keys=_gak(),next={};if(changedKey&&selectedAttributes[changedKey]){var c={};c[changedKey]=selectedAttributes[changedKey];if(_hac(c))next[changedKey]=selectedAttributes[changedKey]}keys.forEach(function(k){if(k===changedKey||!selectedAttributes.hasOwnProperty(k))return;var cand=Object.assign({},next);cand[k]=selectedAttributes[k];if(_hac(cand))next[k]=selectedAttributes[k]});selectedAttributes=next;var guard=0,changed=true;while(changed&&guard++<keys.length+2){changed=false;keys.forEach(function(k){if(selectedAttributes.hasOwnProperty(k))return;var viable=[];document.querySelectorAll('.variant-option[data-attr="'+k+'"]').forEach(function(b){var v=b.getAttribute('data-value');if(!v)return;var cand=Object.assign({},selectedAttributes);cand[k]=v;if(_hac(cand))viable.push(b)});if(viable.length===1){selectedAttributes[k]=viable[0].getAttribute('data-value');changed=true}})}_syncSel()}
 
     function _updImg(v) {
       var mi=document.getElementById('product-main-image');if(!mi)return;
@@ -14416,7 +16285,7 @@ function fixContrast(){
           else{if(sd){sd.className='product-stock in-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>'+(t.inStock||'In Stock')}if(ab){ab.disabled=false;ab.style.opacity='';ab.style.cursor=''}}
           var skd=document.getElementById('product-sku-display');if(skd){var skL=(typeof getEcomText==='function')?getEcomText('sku',t.sku||'SKU'):(t.sku||'SKU');if(v.sku){skd.textContent=skL+': '+v.sku}else if(product.sku){skd.textContent=skL+': '+product.sku}}
           var pd=document.getElementById('product-price-display');if(pd){var c=product.currency||t.currency||String.fromCharCode(8362),bP=window.productBasePrice||parseFloat(product.price)||0,oP=window.productOriginalPrice||parseFloat(product.compare_at_price||product.original_price||0),hS=window.productHasSalePrice,fP=(v.price!=null)?parseFloat(v.price):bP;var _cdApplied=false,_cdOrig=fP;if(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id){var _cdRes=window.__zappyApplyCustomerPercentToPrice(fP,product.id);if(_cdRes&&_cdRes.applied){_cdApplied=true;_cdOrig=fP;fP=_cdRes.price}}var h=c+fP.toFixed(2);if(_cdApplied){h+=' <span class="original-price">'+c+_cdOrig.toFixed(2)+'</span>'}else if(v.price!=null){if(oP&&oP>fP)h+=' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else if(hS&&oP>fP){h+=' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}pd.innerHTML=h}if(typeof updatePricePerUnitDisplay==='function'){var eP=(v.price!=null)?parseFloat(v.price):(window.productBasePrice||parseFloat(product.price)||0);if(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id){var _cdRes2=window.__zappyApplyCustomerPercentToPrice(eP,product.id);if(_cdRes2&&_cdRes2.applied)eP=_cdRes2.price}updatePricePerUnitDisplay(eP,product,t)}
-          _updImg(v);
+          _updImg(v);if(typeof updateProductSpecificationsForVariant==='function')updateProductSpecificationsForVariant(v,product);
         }
       } else {
         window.selectedVariant=null;
@@ -14425,7 +16294,7 @@ function fixContrast(){
         var skd2=document.getElementById('product-sku-display');if(skd2&&product.sku){var skL2=(typeof getEcomText==='function')?getEcomText('sku',t.sku||'SKU'):(t.sku||'SKU');skd2.textContent=skL2+': '+product.sku}
         var pd=document.getElementById('product-price-display');if(pd){var c=product.currency||t.currency||String.fromCharCode(8362),bP=window.productBasePrice||parseFloat(product.price)||0,oP=window.productOriginalPrice||parseFloat(product.compare_at_price||product.original_price||0),hS=window.productHasSalePrice,hR=window.productHasVariantPriceRange,mP=window.productVariantMinPrice;var _cdFn=(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id)?window.__zappyApplyCustomerPercentToPrice:null;if(hR&&mP!=null&&isFinite(mP)){var sL=(typeof getEcomText==='function')?getEcomText('startingAt',t.startingAt||'Starting at'):(t.startingAt||'Starting at');if(_cdFn){var _r=_cdFn(mP,product.id);if(_r&&_r.applied){pd.innerHTML=sL+' '+c+_r.price.toFixed(2)+' <span class="original-price">'+c+mP.toFixed(2)+'</span>'}else{pd.textContent=sL+' '+c+mP.toFixed(2)}}else{pd.textContent=sL+' '+c+mP.toFixed(2)}}else if(_cdFn){var _r2=_cdFn(bP,product.id);if(_r2&&_r2.applied){pd.innerHTML=c+_r2.price.toFixed(2)+' <span class="original-price">'+c+bP.toFixed(2)+'</span>'}else if(hS&&oP>bP){pd.innerHTML=c+bP.toFixed(2)+' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else{pd.textContent=c+bP.toFixed(2)}}else if(hS&&oP>bP){pd.innerHTML=c+bP.toFixed(2)+' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else{pd.textContent=c+bP.toFixed(2)}}
         if(typeof updatePricePerUnitDisplay==='function'){var hR2=window.productHasVariantPriceRange,mP2=window.productVariantMinPrice,bP2=window.productBasePrice||parseFloat(product.price)||0,rP=(hR2&&mP2!=null&&isFinite(mP2))?mP2:bP2;if(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id){var _cdRp=window.__zappyApplyCustomerPercentToPrice(rP,product.id);if(_cdRp&&_cdRp.applied)rP=_cdRp.price}updatePricePerUnitDisplay(rP,product,t)}
-        _updImg(null);
+        _updImg(null);if(typeof updateProductSpecificationsForVariant==='function')updateProductSpecificationsForVariant(null,product);
       }
     }
 
@@ -14435,10 +16304,10 @@ function fixContrast(){
       if(!_vProduct||_gv().length===0)return;
       e.preventDefault();e.stopImmediatePropagation();
       var ak=btn.getAttribute('data-attr'),av=btn.getAttribute('data-value');if(!ak||!av)return;
-      if(btn.disabled)return;
+      if(btn.disabled||(btn.classList.contains('disabled')&&_fm((function(){var any={};any[ak]=av;return any})()).length===0))return;
       if(selectedAttributes[ak]===av)return;
       document.querySelectorAll('.variant-option[data-attr="'+ak+'"]').forEach(function(b){b.classList.remove('selected')});selectedAttributes[ak]=av;btn.classList.add('selected');
-      if(Object.keys(selectedAttributes).length>1){if(!_ce(selectedAttributes)){document.querySelectorAll('.variant-option').forEach(function(b){b.classList.remove('selected')});selectedAttributes={};selectedAttributes[ak]=av;btn.classList.add('selected')}}
+      _rec(ak);
       _uv();_upd();
     },true);
 
@@ -14510,9 +16379,10 @@ function fixContrast(){
       if(!product||!product.variants||product.variants.length===0)return;
       if(document.querySelectorAll('.variant-option').length===0)return;
       if(window._zappyVariantFixed)return;window._zappyVariantFixed=true;
-      _vProduct=product;if(!t.pleaseSelect){var isRTL=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';t.pleaseSelect=isRTL?'נא לבחור':'Please select'}_vT=t;
+      _vProduct=_augmentProductFromCardVariants(product);if(!t.pleaseSelect){var isRTL=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';t.pleaseSelect=isRTL?'נא לבחור':'Please select'}_vT=t;
       var old=document.getElementById('zappy-variant-state-css');if(old)old.remove();
       document.querySelectorAll('.variant-option').forEach(function(b){b.style.display='';b.disabled=false});
+      _ensureCvBtns();
       _repBtns();
       var _so={'xxxs':0,'xxs':1,'xs':2,'s':3,'m':4,'l':5,'xl':6,'xxl':7,'2xl':7,'xxxl':8,'3xl':8,'4xl':9,'5xl':10};
       document.querySelectorAll('.variant-options').forEach(function(c){var b=Array.from(c.querySelectorAll('.variant-option'));if(b.length<2)return;b.sort(function(a,b){var va=a.getAttribute('data-value')||'',vb=b.getAttribute('data-value')||'';var sa=_so[va.toLowerCase()],sb=_so[vb.toLowerCase()];var na=sa===undefined?parseFloat(va):NaN,nb=sb===undefined?parseFloat(vb):NaN;if(!isNaN(na)&&!isNaN(nb))return na-nb;if(sa!==undefined&&sb!==undefined)return sa-sb;var ca=!isNaN(na)?0:sa!==undefined?1:2,cb=!isNaN(nb)?0:sb!==undefined?1:2;if(ca!==cb)return ca-cb;return va.localeCompare(vb)});b.forEach(function(x){c.appendChild(x)})});
@@ -14711,7 +16581,7 @@ function fixContrast(){
   setTimeout(fix, 3000);
 })();
 
-/* ZAPPY_CART_ITEM_NAME_I18N_V1 */
+/* ZAPPY_CART_ITEM_NAME_I18N_V2 */
 (function(){
   function getWebsiteId() {
     return window.ZAPPY_WEBSITE_ID || document.body.getAttribute('data-website-id') || document.documentElement.getAttribute('data-website-id') || '';
@@ -14764,8 +16634,8 @@ function fixContrast(){
     var lang = getLang();
     if (!websiteId || !lang) return;
     var key = 'zappy_cart_' + websiteId;
-    var cart = readCart(key);
-    var courseItems = cart.filter(function(item) { return item && (item.isCourse === true || item.custom_fields); });
+    var requestCart = readCart(key);
+    var courseItems = requestCart.filter(function(item) { return item && (item.isCourse === true || item.custom_fields); });
     if (!courseItems.length) return;
     var apiBase = (window.ZAPPY_API_BASE || window.zappyApiBase || '').replace(/\/$/, '');
     var url = apiBase + '/api/ecommerce/storefront/products?websiteId=' + encodeURIComponent(websiteId) + '&lang=' + encodeURIComponent(lang);
@@ -14776,8 +16646,9 @@ function fixContrast(){
         if (!Array.isArray(products) || !products.length) return;
         var byId = {};
         products.forEach(function(product) { if (product && product.id) byId[String(product.id)] = product; });
+        var latestCart = readCart(key);
         var changed = false;
-        cart.forEach(function(item) {
+        latestCart.forEach(function(item) {
           if (!item || !(item.isCourse === true || item.custom_fields)) return;
           var product = byId[String(item.id)];
           if (!product) return;
@@ -14790,8 +16661,8 @@ function fixContrast(){
             changed = true;
           }
         });
-        if (changed) writeCart(key, cart);
-        applyTranslatedNamesToDom(cart);
+        if (changed) writeCart(key, latestCart);
+        applyTranslatedNamesToDom(latestCart);
       })
       .catch(function(){});
   }
@@ -14850,6 +16721,187 @@ function fixContrast(){
   else{markEmpty();}
 })();
 /* END ZAPPY_EMPTY_SUBMENU_HIDDEN */
+
+
+/* ZAPPY_ECOM_SEARCH_DROPDOWN_UX */
+(function(){
+  var LIMIT = 5;
+  function injectStyle() {
+    if (document.getElementById('zappy-ecom-search-dropdown-ux-style')) return;
+    var style = document.createElement('style');
+    style.id = 'zappy-ecom-search-dropdown-ux-style';
+    style.textContent = [
+      '.nav-search-results,.navbar #nav-search-results,.navbar .nav-search-results{width:min(360px,92vw)!important;min-width:280px!important;max-width:360px!important;inset-inline-end:auto!important;max-height:none!important;overflow:hidden!important;padding:6px!important;color:var(--text-color,var(--text,#1f2937))!important;border:1px solid var(--border-color,rgba(15,23,42,.08))!important;box-shadow:0 14px 36px rgba(15,23,42,.18)!important;}',
+      '.search-result-item,.navbar .nav-search-results .search-result-item,.nav-search-box .nav-search-results .search-result-item{display:flex!important;flex-direction:row!important;align-items:center!important;gap:8px!important;min-height:48px!important;padding:6px 8px!important;color:var(--text-color,var(--text,#1f2937))!important;text-decoration:none!important;}',
+      '.search-result-img,.navbar .nav-search-results .search-result-img,.nav-search-box .nav-search-results .search-result-img,.navbar .nav-search-results .search-result-item img,.nav-search-box .nav-search-results .search-result-item img{width:36px!important;height:36px!important;min-width:36px!important;max-width:36px!important;flex:0 0 36px!important;object-fit:cover!important;border-radius:7px!important;background:var(--surface-color,var(--surface,#f3f4f6))!important;}',
+      '.search-result-info{flex:1 1 auto!important;min-width:0!important;}',
+      '.search-result-name{display:-webkit-box!important;-webkit-line-clamp:2!important;-webkit-box-orient:vertical!important;overflow:hidden!important;white-space:normal!important;color:var(--text-color,var(--text,#1f2937))!important;font-size:13px!important;font-weight:600!important;line-height:1.3!important;}',
+      '.search-result-price{color:var(--primary-color,var(--accent,var(--primary,#ff0083)))!important;font-weight:600!important;}',
+      '.search-view-all,.navbar .nav-search-results button.search-view-all,.nav-search-box .nav-search-results button.search-view-all{display:block!important;width:100%!important;margin:6px 0 0!important;padding:10px 12px!important;text-align:center!important;background:var(--primary-color,var(--accent,var(--primary,#ff0083)))!important;color:var(--text-light,#fff)!important;font-size:13px!important;font-weight:700!important;line-height:1.2!important;text-decoration:none!important;border:0!important;border-radius:10px!important;cursor:pointer!important;box-shadow:none!important;appearance:none!important;}'
+    ].join('\n');
+    document.head.appendChild(style);
+  }
+  function routeFromHref(value) {
+    if (!value) return '';
+    try {
+      var url = new URL(value, window.location.origin);
+      return url.pathname || '';
+    } catch (e) {
+      return String(value || '').split('?')[0].split('#')[0];
+    }
+  }
+  function listingPath() {
+    var raw = window.ZAPPY_PRODUCTS_LISTING_PATH || '/products';
+    var path = routeFromHref(raw) || '/products';
+    if (path.charAt(0) !== '/') path = '/' + path;
+    return path.replace(/\/$/, '') || '/products';
+  }
+  function withLanguagePrefix(path) {
+    if (/^\/[a-z]{2}(?=\/|$)/i.test(path)) return path;
+    var current = window.location.pathname.match(/^\/[a-z]{2}(?=\/|$)/i);
+    if (!current || /^\/api\//i.test(window.location.pathname)) return path;
+    return current[0] + path;
+  }
+  function buildResultsUrl(query) {
+    var preview = window.location.pathname.indexOf('preview-fullscreen') !== -1 ||
+      window.location.pathname.indexOf('/api/website/preview') !== -1 ||
+      window.location.href.indexOf('preview-fullscreen') !== -1;
+    if (preview) {
+      var url = new URL(window.location.href);
+      url.searchParams.set('page', listingPath());
+      url.searchParams.set('search', query);
+      return url.toString();
+    }
+    return withLanguagePrefix(listingPath()) + '?search=' + encodeURIComponent(query);
+  }
+  function queryFor(container) {
+    var input = container && container.id === 'mobile-search-results'
+      ? document.getElementById('mobile-search-input')
+      : document.getElementById('nav-search-input');
+    return input && input.value ? input.value.trim() : '';
+  }
+  function labelText(fallbackText) {
+    try {
+      if (typeof getEcomText === 'function') {
+        return getEcomText('viewAllResults', 'View all results');
+      }
+    } catch (e) {}
+    return fallbackText || 'View all results';
+  }
+  function searchTitleText() {
+    try {
+      if (typeof getEcomText === 'function') {
+        return getEcomText('searchResults', 'Search results');
+      }
+    } catch (e) {}
+    var html = document.documentElement;
+    var lang = ((html && html.getAttribute('lang')) || '').toLowerCase();
+    return lang.indexOf('he') === 0 ? 'תוצאות חיפוש' : 'Search results';
+  }
+  function activeSearchQuery() {
+    var params;
+    try { params = new URLSearchParams(window.location.search); } catch (e) { return ''; }
+    var direct = (params.get('search') || '').trim();
+    if (direct) return direct;
+    var page = params.get('page') || '';
+    if (!page) return '';
+    try {
+      return (new URL(page, window.location.origin).searchParams.get('search') || '').trim();
+    } catch (e) {
+      return '';
+    }
+  }
+  function updateSearchTitle() {
+    var query = activeSearchQuery();
+    if (!query) return;
+    var title = document.getElementById('products-page-title');
+    if (title) {
+      var label = searchTitleText();
+      if ((title.textContent || '').trim() !== label) {
+        title.textContent = label;
+      }
+      if (title.getAttribute('data-search-title-active') !== 'true') {
+        title.setAttribute('data-search-title-active', 'true');
+      }
+    }
+  }
+  function watchSearchTitle() {
+    var title = document.getElementById('products-page-title');
+    if (!title || title.__zappySearchTitleObserver || !activeSearchQuery()) return;
+    title.__zappySearchTitleObserver = new MutationObserver(function() {
+      if ((title.textContent || '').trim() !== searchTitleText()) {
+        updateSearchTitle();
+      }
+    });
+    title.__zappySearchTitleObserver.observe(title, { childList: true });
+  }
+  function makeViewAllButton(link, query, priorText) {
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'search-view-all';
+    button.textContent = labelText(priorText);
+    button.setAttribute('data-search-url', buildResultsUrl(query));
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href = button.getAttribute('data-search-url') || buildResultsUrl(query);
+    });
+    return button;
+  }
+  function capContainer(container) {
+    if (!container) return;
+    var query = queryFor(container);
+    var items = Array.prototype.slice.call(container.querySelectorAll('a.search-result-item'));
+    items.forEach(function(item, index) {
+      item.style.display = index < LIMIT ? '' : 'none';
+    });
+    var existing = Array.prototype.slice.call(container.querySelectorAll('a.search-view-all,button.search-view-all'));
+    var link = existing.shift();
+    var priorText = link ? (link.textContent || '').replace(/\s*\u2192\s*$/, '').trim() : '';
+    existing.forEach(function(el) { el.remove(); });
+    if (!query || query.length < 2) {
+      if (link) link.remove();
+      return;
+    }
+    if (!link || link.tagName !== 'BUTTON') {
+      var nextButton = makeViewAllButton(link, query, priorText);
+      if (link && link.parentNode) {
+        link.parentNode.replaceChild(nextButton, link);
+      } else {
+        container.appendChild(nextButton);
+      }
+      return;
+    }
+    link.onclick = function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      window.location.href = buildResultsUrl(query);
+    };
+    var nextUrl = buildResultsUrl(query);
+    if (link.getAttribute('data-search-url') !== nextUrl) {
+      link.setAttribute('data-search-url', nextUrl);
+    }
+    var nextLabel = labelText(priorText);
+    if ((link.textContent || '').trim() !== nextLabel) {
+      link.textContent = nextLabel;
+    }
+  }
+  function init() {
+    injectStyle();
+    updateSearchTitle();
+    watchSearchTitle();
+    var containers = Array.prototype.slice.call(document.querySelectorAll('#nav-search-results,#mobile-search-results,.nav-search-results,.mobile-search-panel .search-results'));
+    containers.forEach(function(container) {
+      capContainer(container);
+      if (container.__zappyEcomSearchUxObserver) return;
+      container.__zappyEcomSearchUxObserver = new MutationObserver(function(){ capContainer(container); });
+      container.__zappyEcomSearchUxObserver.observe(container, { childList: true });
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+/* END ZAPPY_ECOM_SEARCH_DROPDOWN_UX */
 
 
 /* ZAPPY_INTERNAL_LINKS_NO_NEW_TAB */
@@ -15033,7 +17085,7 @@ function fixContrast(){
       window.initVariantSelection = function(product, t) {
         // Store product data for our fix
         if (product && product.variants && product.variants.length > 0) {
-          _variantProduct = product;
+          _variantProduct = _augmentProductFromCardVariants(product);
           var trans = t || {};
           // Ensure pleaseSelect is available (for sites generated before this key was added)
           if (!trans.pleaseSelect) {
@@ -15066,6 +17118,131 @@ function fixContrast(){
     function _getVariants() {
       if (!_variantProduct) return [];
       return (_variantProduct.variants || []).filter(function(v) { return v.is_active !== false; });
+    }
+
+    function _augmentProductFromCardVariants(product) {
+      if (!product || !product.card_variants || !Array.isArray(product.card_variants.matrix)) return product;
+      var byId = {};
+      (Array.isArray(product.variants) ? product.variants : []).forEach(function(v) {
+        if (v && v.id != null) byId[String(v.id)] = v;
+      });
+      product.card_variants.matrix.forEach(function(row) {
+        if (!row || row.id == null) return;
+        var existing = byId[String(row.id)] || {};
+        byId[String(row.id)] = Object.assign({}, existing, {
+          id: row.id,
+          attributes: row.attributes || existing.attributes || {},
+          price: row.price != null ? row.price : existing.price,
+          image: row.image || existing.image,
+          sku: row.sku || existing.sku,
+          custom_fields: existing.custom_fields || existing.customFields || row.custom_fields || row.customFields || {},
+          available: typeof row.available === 'boolean' ? row.available : existing.available,
+          is_active: existing.is_active !== false
+        });
+      });
+      product.variants = Object.keys(byId).map(function(id) { return byId[id]; });
+      return product;
+    }
+
+    function _variantCssUrl(value) {
+      return String(value == null ? '' : value).replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/\n|\r/g, '');
+    }
+
+    function _cardVariantSwatchStyle(value) {
+      if (typeof window.zappyCardSwatchStyle === 'function') return window.zappyCardSwatchStyle(value);
+      if (value && (value.swatchImage || value.image)) {
+        var resolver = window.resolveProductImageUrl || function(src) { return src; };
+        return "background-image:url('" + _variantCssUrl(resolver(value.swatchImage || value.image)) + "');background-size:" + (value.imageSize || 'cover') + ';background-position:' + (value.imagePosition || '50% 50%') + ';';
+      }
+      if (value && value.hex2) return 'background:linear-gradient(90deg,' + (value.hex || '#94a3b8') + ' 0 50%,' + value.hex2 + ' 50% 100%);';
+      return 'background:' + ((value && (value.hex || value.value)) || '#94a3b8') + ';';
+    }
+
+    function _translateVariantOptionLabel(product, key, value, fallback) {
+      if (typeof window.zappyTranslateVariantValue === 'function') {
+        return window.zappyTranslateVariantValue(product, key, value, fallback);
+      }
+      var lang = '';
+      try {
+        lang = String((typeof getCurrentEcomLanguage === 'function' ? getCurrentEcomLanguage() : (document.documentElement.lang || '')) || '').split('-')[0].toLowerCase();
+      } catch (e) {}
+      function translateKnownColor(rawValue) {
+        if (lang !== 'he') return '';
+        if (String(key || '').toLowerCase().indexOf('color') === -1 && String(key || '').toLowerCase() !== 'colour') return '';
+        var raw = String(rawValue == null ? '' : rawValue).trim();
+        if (!raw || /[\u0590-\u05FF]/.test(raw)) return '';
+        var map = { black:'שחור', white:'לבן', gray:'אפור', grey:'אפור', red:'אדום', green:'ירוק', blue:'כחול', navy:'כחול כהה', pink:'ורוד', purple:'סגול', yellow:'צהוב', orange:'כתום', brown:'חום', beige:'בז׳', gold:'זהב', silver:'כסף', teal:'טורקיז', mint:'מנטה', cream:'קרם', ivory:'שנהב' };
+        var direct = map[raw.toLowerCase().replace(/\s+/g, ' ')];
+        if (direct) return direct;
+        var parts = raw.split(/\s*-\s*/).filter(Boolean);
+        if (parts.length > 1) {
+          var translated = parts.map(function(part) { return map[String(part).toLowerCase().replace(/\s+/g, ' ')]; });
+          if (translated.every(Boolean)) return translated.join('-');
+        }
+        return '';
+      }
+      var wanted = String(value);
+      var variants = product && Array.isArray(product.variants) ? product.variants : [];
+      for (var i = 0; i < variants.length; i++) {
+        var variant = variants[i] || {};
+        var attrs = variant.attributes_source || variant.attributes || {};
+        if (!attrs || String(attrs[key]) !== wanted) continue;
+        var translatedAttrs = variant.attributes_translations && lang && variant.attributes_translations[lang];
+        if (translatedAttrs && translatedAttrs[key]) return translateKnownColor(translatedAttrs[key]) || String(translatedAttrs[key]);
+        var displayAttrs = variant.attributes_display || {};
+        if (displayAttrs && displayAttrs[key]) return translateKnownColor(displayAttrs[key]) || String(displayAttrs[key]);
+      }
+      var matrix = product && product.card_variants && Array.isArray(product.card_variants.matrix) ? product.card_variants.matrix : [];
+      for (var j = 0; j < matrix.length; j++) {
+        var row = matrix[j] || {};
+        var rowAttrs = row.attributes || {};
+        if (rowAttrs && String(rowAttrs[key]) === wanted && row.attributes_display && row.attributes_display[key]) {
+          return translateKnownColor(row.attributes_display[key]) || String(row.attributes_display[key]);
+        }
+      }
+      return translateKnownColor(fallback) || fallback;
+    }
+
+    function _ensureCardVariantOptionButtons() {
+      var product = _variantProduct || window.currentProduct;
+      var cv = product && product.card_variants;
+      if (!cv || !Array.isArray(cv.options)) return;
+      cv.options.forEach(function(option) {
+        if (!option || !option.key || !Array.isArray(option.values)) return;
+        var group = null;
+        document.querySelectorAll('.variant-group').forEach(function(candidate) {
+          if (candidate.getAttribute('data-group') === option.key) group = candidate;
+        });
+        var container = group && group.querySelector('.variant-options');
+        if (!container) return;
+        var isColor = option.type === 'color' || String(option.key).toLowerCase().indexOf('color') !== -1;
+        option.values.forEach(function(entry) {
+          if (!entry || entry.value == null) return;
+          var displayLabel = String(entry.label || entry.value);
+          displayLabel = _translateVariantOptionLabel(product, option.key, entry.value, displayLabel);
+          var existingButton = null;
+          container.querySelectorAll('.variant-option').forEach(function(btn) {
+            if (btn.getAttribute('data-value') === String(entry.value)) existingButton = btn;
+          });
+          if (existingButton) {
+            existingButton.setAttribute('data-display-value', displayLabel);
+            existingButton.title = displayLabel;
+            if (isColor) existingButton.style.cssText = _cardVariantSwatchStyle(entry);
+            else existingButton.textContent = displayLabel;
+            return;
+          }
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'variant-option' + (isColor ? ' color-swatch' : '');
+          btn.setAttribute('data-attr', option.key);
+          btn.setAttribute('data-value', String(entry.value));
+          btn.setAttribute('data-display-value', displayLabel);
+          btn.title = displayLabel;
+          if (isColor) btn.style.cssText = _cardVariantSwatchStyle(entry);
+          else btn.textContent = displayLabel;
+          container.appendChild(btn);
+        });
+      });
     }
     
     function _getAttributeKeys() {
@@ -15128,17 +17305,68 @@ function fixContrast(){
         }
         test[ak] = av;
         var matching = _findMatching(test);
+        var globalMatching = _findMatching((function() { var any = {}; any[ak] = av; return any; })());
         btn.classList.remove('disabled', 'out-of-stock');
         btn.disabled = false;
         if (matching.length === 0) {
           btn.classList.add('disabled');
-          btn.disabled = true;
+          btn.disabled = globalMatching.length === 0;
         } else if (matching.every(function(v) { return _isOOS(v); })) {
           btn.classList.add('disabled');
           btn.classList.add('out-of-stock');
           btn.disabled = true;
         }
       });
+    }
+
+    function _hasAvailableCombination(selections) {
+      return _findMatching(selections).filter(function(v) { return !_isOOS(v); }).length > 0;
+    }
+
+    function _syncSelectedDom() {
+      document.querySelectorAll('.variant-option').forEach(function(btn) {
+        var key = btn.getAttribute('data-attr');
+        var value = btn.getAttribute('data-value');
+        btn.classList.toggle('selected', !!key && selectedAttributes[key] === value);
+      });
+    }
+
+    function _reconcileSelectedAttributes(changedKey) {
+      var keys = _getAttributeKeys();
+      var next = {};
+      if (changedKey && selectedAttributes[changedKey]) {
+        var changedOnly = {};
+        changedOnly[changedKey] = selectedAttributes[changedKey];
+        if (_hasAvailableCombination(changedOnly)) next[changedKey] = selectedAttributes[changedKey];
+      }
+      keys.forEach(function(key) {
+        if (key === changedKey || !selectedAttributes.hasOwnProperty(key)) return;
+        var candidate = Object.assign({}, next);
+        candidate[key] = selectedAttributes[key];
+        if (_hasAvailableCombination(candidate)) next[key] = selectedAttributes[key];
+      });
+      selectedAttributes = next;
+      var guard = 0;
+      var changed = true;
+      while (changed && guard++ < keys.length + 2) {
+        changed = false;
+        keys.forEach(function(key) {
+          if (selectedAttributes.hasOwnProperty(key)) return;
+          var viable = [];
+          document.querySelectorAll('.variant-option[data-attr="' + key + '"]').forEach(function(candidateBtn) {
+            var val = candidateBtn.getAttribute('data-value');
+            if (!val) return;
+            var candidate = Object.assign({}, selectedAttributes);
+            candidate[key] = val;
+            if (_hasAvailableCombination(candidate)) viable.push(candidateBtn);
+          });
+          if (viable.length === 1) {
+            selectedAttributes[key] = viable[0].getAttribute('data-value');
+            changed = true;
+          }
+        });
+      }
+      _syncSelectedDom();
     }
     
     function _updateProductDisplay() {
@@ -15260,6 +17488,9 @@ function fixContrast(){
           } else if (mainImage && window._originalMainImageSrc) {
             mainImage.src = window._originalMainImageSrc;
           }
+          if (typeof updateProductSpecificationsForVariant === 'function') {
+            updateProductSpecificationsForVariant(v, product);
+          }
         }
       } else {
         window.selectedVariant = null;
@@ -15335,6 +17566,9 @@ function fixContrast(){
         if (mainImage && window._originalMainImageSrc) {
           mainImage.src = window._originalMainImageSrc;
         }
+        if (typeof updateProductSpecificationsForVariant === 'function') {
+          updateProductSpecificationsForVariant(null, product);
+        }
       }
     }
     
@@ -15350,7 +17584,7 @@ function fixContrast(){
       var ak = btn.getAttribute('data-attr');
       var av = btn.getAttribute('data-value');
       if (!ak || !av) return;
-      if (btn.disabled || btn.classList.contains('disabled')) return;
+      if (btn.disabled || (btn.classList.contains('disabled') && _findMatching((function() { var any = {}; any[ak] = av; return any; })()).length === 0)) return;
       
       // If already selected, do nothing (no manual deselect)
       if (selectedAttributes[ak] === av) {
@@ -15360,15 +17594,7 @@ function fixContrast(){
       document.querySelectorAll('.variant-option[data-attr="' + ak + '"]').forEach(function(b) { b.classList.remove('selected'); });
       selectedAttributes[ak] = av;
       btn.classList.add('selected');
-      // Non-existent combo check: if the new selection creates an impossible combo, clear all others
-      if (Object.keys(selectedAttributes).length > 1) {
-        if (!_comboExists(selectedAttributes)) {
-          document.querySelectorAll('.variant-option').forEach(function(b) { b.classList.remove('selected'); });
-          selectedAttributes = {};
-          selectedAttributes[ak] = av;
-          btn.classList.add('selected');
-        }
-      }
+      _reconcileSelectedAttributes(ak);
       
       _updateVisuals();
       _updateProductDisplay();
@@ -15431,7 +17657,7 @@ function fixContrast(){
       if (window._zappyVariantFixed) return;
       window._zappyVariantFixed = true;
       
-      _variantProduct = product;
+      _variantProduct = _augmentProductFromCardVariants(product);
       // Ensure pleaseSelect translation exists (for sites generated before this key was added)
       if (!t.pleaseSelect) {
         var isRTL = document.documentElement.getAttribute('dir') === 'rtl' || document.body.getAttribute('dir') === 'rtl';
@@ -15498,6 +17724,7 @@ function fixContrast(){
           });
         });
       }
+      _ensureCardVariantOptionButtons();
       _repairVariantButtons();
 
       // Sort variant options (numeric, then known sizes, then alphabetical)
@@ -15743,7 +17970,7 @@ function fixContrast(){
       var n = parseFloat(amount);
       if (!isFinite(n)) n = 0;
       var sym = (window.ZAPPY_CURRENCY_SYMBOL || '').trim() || '₪';
-      var rate = 1;
+      var rate = getCartDisplayExchangeRate();
       try {
         if (window.ZAPPY_MULTI_CURRENCY && window.ZAPPY_MULTI_CURRENCY.enabled) {
           var lang = '';
@@ -15756,14 +17983,42 @@ function fixContrast(){
           var langs = window.ZAPPY_MULTI_CURRENCY.languages || {};
           if (lang && langs[lang]) {
             if (langs[lang].symbol) sym = langs[lang].symbol;
-            var r = parseFloat(langs[lang].exchangeRate);
-            if (isFinite(r) && r > 0) rate = r;
           } else if (window.ZAPPY_MULTI_CURRENCY.base && window.ZAPPY_MULTI_CURRENCY.base.symbol) {
             sym = window.ZAPPY_MULTI_CURRENCY.base.symbol;
           }
         }
       } catch (e) {}
       return sym + convertDisplayAmount(n, rate).toFixed(2);
+    }
+
+    function getCartDisplayExchangeRate() {
+      var rate = 1;
+      try {
+        if (window.ZAPPY_MULTI_CURRENCY && window.ZAPPY_MULTI_CURRENCY.enabled) {
+          var lang = '';
+          try { lang = new URLSearchParams(window.location.search).get('lang') || ''; } catch (e) {}
+          if (!lang && window.zappyI18n && typeof window.zappyI18n.getCurrentLanguage === 'function') {
+            lang = window.zappyI18n.getCurrentLanguage();
+          }
+          if (!lang) lang = document.documentElement.getAttribute('lang') || '';
+          lang = String(lang).split('-')[0].toLowerCase();
+          var langs = window.ZAPPY_MULTI_CURRENCY.languages || {};
+          if (lang && langs[lang]) {
+            var r = parseFloat(langs[lang].exchangeRate);
+            if (isFinite(r) && r > 0) rate = r;
+          }
+        }
+      } catch (e) {}
+      return rate;
+    }
+
+    function parseDisplayedCartAmount(text) {
+      var match = String(text || '').match(/-?[\d,.]+/);
+      if (!match) return NaN;
+      var parsed = parseFloat(match[0].replace(/,/g, ''));
+      if (!isFinite(parsed)) return NaN;
+      var rate = getCartDisplayExchangeRate();
+      return rate > 0 ? Math.abs(parsed) / rate : Math.abs(parsed);
     }
 
     function getCartTotalTarget(drawer) {
@@ -15778,6 +18033,42 @@ function fixContrast(){
       if (!label || label === 'ecom_total') label = existingText.indexOf('סה') !== -1 ? 'סה"כ' : 'Total';
       legacyTotal.innerHTML = '<span>' + label + ':</span><span id="cart-drawer-total">' + formatCartDisplayAmount(0) + '</span>';
       return document.getElementById('cart-drawer-total');
+    }
+
+    /** Auto discounts already rendered by updateCartDrawerSummary (bundle, seasonal, customer, etc.). */
+    function readDrawerAutoDiscount(totalEl) {
+      if (totalEl) {
+        var attrDiscount = parseFloat(totalEl.getAttribute('data-zappy-auto-discount'));
+        if (isFinite(attrDiscount) && attrDiscount > 0.005) return attrDiscount;
+      }
+
+      var subtotalEl = document.getElementById('cart-drawer-subtotal');
+      if (subtotalEl && totalEl) {
+        var subtotal = parseDisplayedCartAmount(subtotalEl.textContent);
+        var renderedTotal = parseDisplayedCartAmount(totalEl.textContent);
+        if (isFinite(subtotal) && isFinite(renderedTotal) && subtotal >= renderedTotal) {
+          var renderedDiscount = subtotal - renderedTotal;
+          if (renderedDiscount > 0.005) return renderedDiscount;
+        }
+      }
+
+      var discount = 0;
+      var discountRows = document.querySelectorAll('#cart-drawer .zappy-cart-discount-row');
+      for (var i = 0; i < discountRows.length; i++) {
+        var row = discountRows[i];
+        if (!row || row.style.display === 'none') continue;
+        var valueEl = row.querySelector('span:last-child') || row;
+        var amount = parseDisplayedCartAmount(valueEl.textContent);
+        if (isFinite(amount)) discount += amount;
+      }
+      if (discount > 0.005) return discount;
+
+      var bundleRow = document.querySelector('.cart-drawer-bundle-discount');
+      if (!bundleRow || bundleRow.style.display === 'none') return 0;
+      var bundleEl = document.getElementById('cart-drawer-bundle-discount');
+      if (!bundleEl) return 0;
+      var bundleAmount = parseDisplayedCartAmount(bundleEl.textContent);
+      return isFinite(bundleAmount) ? bundleAmount : 0;
     }
 
     function patchCartTotals() {
@@ -15799,7 +18090,9 @@ function fixContrast(){
         }
       });
       if (totalEl) {
-        var nextTotal = formatCartDisplayAmount(total);
+        var autoDiscount = readDrawerAutoDiscount(totalEl);
+        var displayTotal = Math.max(0, total - autoDiscount);
+        var nextTotal = formatCartDisplayAmount(displayTotal);
         if (totalEl.textContent !== nextTotal) totalEl.textContent = nextTotal;
       }
     }
@@ -15884,16 +18177,31 @@ function fixContrast(){
       var product = window.currentProduct;
       var variants = product && Array.isArray(product.variants) ? product.variants : [];
       var lang = getLang();
+      function translateKnownColor(rawValue) {
+        if (lang !== 'he') return '';
+        if (String(attr || '').toLowerCase().indexOf('color') === -1 && String(attr || '').toLowerCase() !== 'colour') return '';
+        var raw = String(rawValue == null ? '' : rawValue).trim();
+        if (!raw || /[\u0590-\u05FF]/.test(raw)) return '';
+        var map = { black:'שחור', white:'לבן', gray:'אפור', grey:'אפור', red:'אדום', green:'ירוק', blue:'כחול', navy:'כחול כהה', pink:'ורוד', purple:'סגול', yellow:'צהוב', orange:'כתום', brown:'חום', beige:'בז׳', gold:'זהב', silver:'כסף', teal:'טורקיז', mint:'מנטה', cream:'קרם', ivory:'שנהב' };
+        var direct = map[raw.toLowerCase().replace(/\s+/g, ' ')];
+        if (direct) return direct;
+        var parts = raw.split(/\s*-\s*/).filter(Boolean);
+        if (parts.length > 1) {
+          var translated = parts.map(function(part) { return map[String(part).toLowerCase().replace(/\s+/g, ' ')]; });
+          if (translated.every(Boolean)) return translated.join('-');
+        }
+        return '';
+      }
       for (var i = 0; i < variants.length; i++) {
         var variant = variants[i];
         var attrs = variant && (variant.attributes_source || variant.attributes || {});
         if (String(attrs[attr]) !== String(sourceValue)) continue;
         var translatedAttrs = variant.attributes_translations && variant.attributes_translations[lang];
-        if (translatedAttrs && translatedAttrs[attr]) return translatedAttrs[attr];
+        if (translatedAttrs && translatedAttrs[attr]) return translateKnownColor(translatedAttrs[attr]) || translatedAttrs[attr];
         var displayAttrs = variant.attributes_display || {};
-        if (displayAttrs[attr]) return displayAttrs[attr];
+        if (displayAttrs[attr]) return translateKnownColor(displayAttrs[attr]) || displayAttrs[attr];
       }
-      return sourceValue;
+      return translateKnownColor(sourceValue) || sourceValue;
     }
 
     function patchProductDetailI18n() {
@@ -15909,11 +18217,21 @@ function fixContrast(){
         window.getVariantAttributeLabels.__zappyRuntimeI18nWrapped = true;
       }
 
+      function getVariantGroupLabel(attr) {
+        var product = window.currentProduct;
+        var t = window.productTranslations || {};
+        if (typeof window.getVariantAttributeLabels === 'function' && product) {
+          var attrLabels = window.getVariantAttributeLabels(product, t) || {};
+          var resolved = attrLabels[attr] || attrLabels[String(attr).toLowerCase()];
+          if (resolved) return resolved;
+        }
+        return getText(String(attr).toLowerCase());
+      }
+
       document.querySelectorAll('.variant-group').forEach(function(group) {
         var attr = group.getAttribute('data-group');
         if (!attr) return;
-        var key = String(attr).toLowerCase();
-        var labelText = getText(key);
+        var labelText = getVariantGroupLabel(attr);
         var label = group.querySelector('.variant-group-label');
         if (label) {
           var selected = label.querySelector('.variant-selected-value');
@@ -16269,10 +18587,10 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V20 */
+/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V21 */
 (function() {
-  if (window.__zappyEcomLanguageRoutingRuntime >= 20) return;
-  window.__zappyEcomLanguageRoutingRuntime = 20;
+  if (window.__zappyEcomLanguageRoutingRuntime >= 21) return;
+  window.__zappyEcomLanguageRoutingRuntime = 21;
 
   // Routing strategy: use path-based language URLs for ALL storefront pages
   // (including dynamic /product/:slug and /category/:slug). The publish
@@ -16685,12 +19003,12 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '25') return;
+    if (existing && existing.getAttribute('data-v') === '26') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '25');
+    style.setAttribute('data-v', '26');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
@@ -16710,6 +19028,11 @@ function fixContrast(){
         'html[dir="ltr"] .zappy-catalog-menu .catalog-menu-categories{display:flex!important;align-items:flex-start!important;align-content:flex-start!important;row-gap:4px!important;column-gap:2px!important}' +
         'html[dir="ltr"] .zappy-catalog-menu .catalog-menu-item{padding-inline:10px!important}' +
         'html[dir="ltr"] .zappy-catalog-menu .catalog-menu-all{margin-top:0!important;align-self:flex-start!important}' +
+        '.navbar .nav-menu>li:has(>.sub-menu),nav.navbar .nav-menu>li:has(>.sub-menu),#navMenu>li:has(>.sub-menu){position:relative!important}' +
+        '.navbar .nav-menu>li>.sub-menu,nav.navbar .nav-menu>li>.sub-menu,#navMenu>li>.sub-menu{display:block!important;position:absolute!important;top:100%!important;inset-inline-start:0!important;inset-inline-end:auto!important;min-width:200px!important;max-width:min(280px,calc(100vw - 32px))!important;width:max-content!important;max-height:calc(100vh - 150px)!important;overflow-y:auto!important;background:var(--background-color,var(--background,#fff))!important;border-radius:12px!important;box-shadow:0 8px 30px rgba(0,0,0,.15),0 2px 8px rgba(0,0,0,.06)!important;padding:8px!important;margin:0!important;list-style:none!important;opacity:0!important;visibility:hidden!important;pointer-events:none!important;transform:translateY(6px)!important;z-index:100001!important}' +
+        '.navbar .nav-menu>li:hover>.sub-menu,.navbar .nav-menu>li:focus-within>.sub-menu,nav.navbar .nav-menu>li:hover>.sub-menu,nav.navbar .nav-menu>li:focus-within>.sub-menu,#navMenu>li:hover>.sub-menu,#navMenu>li:focus-within>.sub-menu{opacity:1!important;visibility:visible!important;pointer-events:auto!important;transform:translateY(0)!important}' +
+        '.navbar .nav-menu>li>.sub-menu>li,nav.navbar .nav-menu>li>.sub-menu>li,#navMenu>li>.sub-menu>li{display:block!important;width:100%!important;list-style:none!important;margin:0!important;padding:0!important}' +
+        '.navbar .nav-menu>li>.sub-menu a,nav.navbar .nav-menu>li>.sub-menu a,#navMenu>li>.sub-menu a{display:block!important;white-space:nowrap!important;padding:10px 16px!important;border-radius:8px!important;text-decoration:none!important}' +
         '.nav-menu .zappy-products-dropdown>.sub-menu,#navMenu .zappy-products-dropdown>.sub-menu{left:50%!important;right:auto!important;transform:translateX(-50%) translateY(8px)!important}' +
         '.nav-menu .zappy-products-dropdown:hover>.sub-menu,#navMenu .zappy-products-dropdown:hover>.sub-menu,.nav-menu .zappy-products-dropdown:focus-within>.sub-menu,#navMenu .zappy-products-dropdown:focus-within>.sub-menu{transform:translateX(-50%) translateY(0)!important}' +
         '.nav-menu.zappy-desktop-wrap,#navMenu.zappy-desktop-wrap{flex-wrap:wrap!important;max-height:44px!important;align-content:flex-start!important;row-gap:4px!important}' +
@@ -16821,6 +19144,8 @@ function fixContrast(){
   setTimeout(patch, 1500);
 })();
 /* ZAPPY_COURSE_ORDER_SUCCESS_RECEIPT_V1 */
+
+/* ZAPPY_COURSE_ORDER_SUCCESS_TERMINOLOGY_V1 */
 
 /* ZAPPY_CHECKOUT_FOCUS_UX_V2 */
 (function(){
@@ -16959,13 +19284,145 @@ function fixContrast(){
   } catch (e) {}
 })();
 
+/* ZAPPY_ANNOUNCEMENT_HEADER_SYNC_V1 */
+(function(){
+  if (window.__zappyAnnouncementHeaderSyncV1) return;
+  window.__zappyAnnouncementHeaderSyncV1 = true;
+
+  function primaryHeader() {
+    var selectors = [
+      'nav#navbar',
+      'nav.navbar',
+      '.navbar:not(.zappy-catalog-menu)',
+      'nav[class*="nav"]',
+      'header.navbar',
+      'header:not([class*="gallery"]):not([class*="hero"]):not([class*="section"])'
+    ];
+    for (var i = 0; i < selectors.length; i++) {
+      var el = document.querySelector(selectors[i]);
+      if (!el) continue;
+      if (el.classList && el.classList.contains('zappy-catalog-menu')) continue;
+      if (el.id === 'zappy-catalog-menu') continue;
+      if (el.classList && el.classList.contains('mobile-search-panel')) continue;
+      if (el.tagName === 'HEADER' && el.closest('section')) continue;
+      if (el.classList && (
+        el.classList.contains('lookbook-gallery-header') ||
+        el.classList.contains('hero-header') ||
+        el.classList.contains('section-header') ||
+        el.classList.contains('page-header')
+      )) continue;
+      return el;
+    }
+    return null;
+  }
+
+  function visibleHeight(el) {
+    if (!el) return 0;
+    var cs;
+    try { cs = window.getComputedStyle(el); } catch (e) {}
+    if (cs && (cs.display === 'none' || cs.visibility === 'hidden')) return 0;
+    var r = el.getBoundingClientRect ? el.getBoundingClientRect() : null;
+    return Math.ceil((r && r.height) || el.offsetHeight || 0);
+  }
+
+  function sync() {
+    var header = primaryHeader();
+    var bar = document.querySelector('.zappy-announcement-bar');
+    var catalog = document.querySelector('.zappy-catalog-menu');
+    var barHeight = visibleHeight(bar);
+    if (!header) {
+      if (barHeight > 0) document.body.style.setProperty('padding-top', barHeight + 'px', 'important');
+      return;
+    }
+
+    header.style.setProperty('position', 'fixed', 'important');
+    header.style.setProperty('top', barHeight + 'px', 'important');
+    header.style.setProperty('left', '0', 'important');
+    header.style.setProperty('right', '0', 'important');
+    header.style.setProperty('z-index', '100000', 'important');
+    header.style.marginBottom = '0';
+
+    var headerHeight = visibleHeight(header);
+    var totalHeight = barHeight + headerHeight;
+    if (catalog && visibleHeight(catalog) > 0) {
+      catalog.style.marginTop = '0';
+      catalog.style.setProperty('top', totalHeight + 'px', 'important');
+      totalHeight += visibleHeight(catalog);
+    }
+
+    document.documentElement.style.setProperty('--header-height', headerHeight + 'px');
+    document.documentElement.style.setProperty('--total-header-height', totalHeight + 'px');
+    document.documentElement.style.setProperty('--zappy-mobile-menu-top', (barHeight + headerHeight) + 'px');
+    document.body.style.setProperty('padding-top', totalHeight + 'px', 'important');
+  }
+
+  var timer = null;
+  function schedule(delay) {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(sync, delay || 0);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function(){ schedule(0); });
+  } else {
+    schedule(0);
+  }
+  window.addEventListener('load', function(){ schedule(0); });
+  window.addEventListener('resize', function(){ schedule(50); }, { passive: true });
+  window.addEventListener('zappy:languageChanged', function(){ schedule(50); });
+  window.addEventListener('languageChanged', function(){ schedule(50); });
+  [50, 150, 350, 750, 1500, 3000].forEach(function(ms){ setTimeout(sync, ms); });
+
+  try {
+    new MutationObserver(function(mutations) {
+      for (var i = 0; i < mutations.length; i++) {
+        var mutation = mutations[i];
+        var t = mutation.target;
+        var classes = t && t.classList;
+        if (mutation.type === 'childList') {
+          for (var j = 0; j < mutation.addedNodes.length; j++) {
+            var node = mutation.addedNodes[j];
+            var nodeClasses = node && node.classList;
+            if (nodeClasses && (
+              nodeClasses.contains('zappy-announcement-bar') ||
+              nodeClasses.contains('zappy-catalog-menu') ||
+              nodeClasses.contains('navbar')
+            )) {
+              schedule(0);
+              return;
+            }
+          }
+        }
+        if (
+          (t === document.body && mutation.attributeName === 'class') ||
+          (classes && (
+          classes.contains('zappy-announcement-bar') ||
+          classes.contains('zappy-catalog-menu')
+        ))
+        ) {
+          schedule(0);
+          return;
+        }
+      }
+    }).observe(document.body || document.documentElement, {
+      childList: true,
+      subtree: true,
+      attributes: true,
+      attributeFilter: ['class', 'style']
+    });
+  } catch (e) {}
+})();
+
 /* ZAPPY_CUSTOMER_DISCOUNT_CONFIG_FALLBACK_V3 */
 
 /* ZAPPY_CUSTOMER_DISCOUNT_PRODUCT_DETAIL_RACE_V1 */
 
 /* ZAPPY_CUSTOMER_DISCOUNT_DELAYED_REFRESH_V1 */
 
-/* ZAPPY_CHECKOUT_SHIPPING_THRESHOLD_PAYLOAD_V1 */
+/* ZAPPY_CART_BUNDLE_DISCOUNT_V3 — non-stacking quantity bundle tiers */
+/* ZAPPY_CART_BUNDLE_SUMMARY_COLOR_V3 */
+;(function(){var id='zappy-cart-bundle-summary-color-css';var css='.cart-drawer-footer .zappy-cart-summary-row{display:flex;justify-content:space-between;align-items:center;font-size:.95rem;margin-bottom:8px}.cart-drawer-footer .cart-drawer-subtotal,.cart-drawer-footer .cart-drawer-subtotal span{color:var(--zappy-cart-drawer-total-color,var(--text-light,#f9fafb))}.cart-drawer-footer .zappy-cart-discount-row{color:var(--primary-color,var(--accent,var(--primary,#059669)));font-weight:500}';var el=document.getElementById(id);if(el){el.textContent=css;}else{var s=document.createElement('style');s.id=id;s.textContent=css;(document.head||document.documentElement).appendChild(s);}function sync(){var f=document.querySelector('.cart-drawer-footer');var total=document.querySelector('.cart-drawer-footer .cart-drawer-total');if(!f||!total)return;try{var c=getComputedStyle(total).color;if(c)f.style.setProperty('--zappy-cart-drawer-total-color',c);}catch(e){}}sync();document.addEventListener('DOMContentLoaded',sync);window.addEventListener('load',sync);setTimeout(sync,50);setTimeout(sync,500);})();
+
 
 /* ZAPPY_CHECKOUT_BUTTON_CONTRAST_RUNTIME_V1 */
 ;(function() {
