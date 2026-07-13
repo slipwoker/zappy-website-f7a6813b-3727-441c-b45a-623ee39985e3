@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="he" dir="rtl">
-<head>
+<!DOCTYPE html><html data-zappy-site-type="ecommerce" lang="he" dir="rtl"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow">
@@ -236,7 +234,6 @@
   
   
   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
     .skip-link:focus { transform: none; outline: 2px solid var(--ring, #fff); outline-offset: 2px; }
@@ -255,9 +252,9 @@
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
     <!-- Cookie Consent -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+    
     <!-- Mickidum Accessibility Toolbar -->
-    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+    
 
 
     
@@ -298,14 +295,20 @@
       opacity: 1 !important;
     }
     </style>
-    <link rel="stylesheet" href="/styles.css">
+    <style id="zappy-critical-above-fold-css">
+html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{box-sizing:inherit}body{margin:0;min-width:320px;overflow-x:clip}img,svg,video{max-width:100%;height:auto}main{display:block}.container{width:min(100% - 32px,1200px);margin-inline:auto}.navbar,nav.navbar,header .navbar,header[role="banner"]{position:relative;z-index:1000;width:100%}.nav-container,.navbar .container{display:flex;align-items:center;justify-content:space-between;min-height:64px}.logo,.logo-link img{display:block;width:35px;height:35px;object-fit:contain}.nav-menu,#navMenu{list-style:none}.fa,.fas,.far,.fab,.fa-solid,.fa-regular,.fa-brands{display:inline-block;min-width:1em;text-align:center}html:not(#zappy-noop)[data-zappy-site-type="ecommerce"] .phone-header-btn,html:not(#zappy-noop) .navbar:has(.nav-ecommerce-icons)>.phone-header-btn{display:none!important;visibility:hidden!important;width:0!important;height:0!important;pointer-events:none!important}.hero-section,.index-hero-section,section[class*="hero"]{position:relative;overflow:hidden;min-height:560px}.hero-bg-wrapper,.hero-bg-image,section[class*="hero"] [class*="hero-bg"]{position:absolute;inset:0;width:100%;height:100%}.hero-bg-wrapper img,.hero-bg-image img,section[class*="hero"] [data-hero-bg],section[class*="hero"] img[data-hero-background="true"]{width:100%!important;height:100%!important;object-fit:cover!important;display:block}.hero-content,section[class*="hero"] .container{position:relative;z-index:2}@media(max-width:768px){:root{--header-height:72px;--total-header-height:72px;--zappy-mobile-menu-top:72px}html[data-zappy-site-type="ecommerce"] body{padding-top:var(--total-header-height,72px)}html[data-zappy-site-type="ecommerce"] body>nav.navbar,html[data-zappy-site-type="ecommerce"] body>.navbar:not(.zappy-catalog-menu){position:fixed!important;top:0;left:0;right:0;z-index:100000;width:100%;margin-bottom:0}.zappy-catalog-menu{position:fixed;top:var(--header-height,72px);left:0;right:0;z-index:99999}.nav-container,.navbar .container{min-height:60px}.nav-menu,#navMenu{max-width:100vw;overflow-x:hidden}.hero-section,.index-hero-section,section[class*="hero"]{min-height:100svh}.hero-bg-wrapper,.hero-bg-image,.hero-scrim{min-height:100svh}}
+</style>
+    <link rel="preload" href="/styles.css" as="style">
+    <link rel="stylesheet" href="/styles.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/styles.css"></noscript>
+    
 
     <style id="zappy-dropdown-submenu-styles">
       /* ========== DESKTOP DROPDOWN SUBMENU STYLES ========== */
       /* Base styles for dropdown submenus - parent must be positioned */
       .nav-menu li:has(.sub-menu), nav li:has(.sub-menu), .navbar li:has(.sub-menu), #navMenu li:has(.sub-menu) { position: relative; }
       /* Submenu base - hidden by default */
-      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; background: white; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
+      .nav-menu .sub-menu, nav .sub-menu, .navbar .sub-menu, #navMenu .sub-menu { display: block !important; position: absolute !important; top: 100%; left: 0; min-width: 220px; border-radius: 8px; box-shadow: 0 8px 25px rgba(0,0,0,0.15); padding: 8px 0; opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; z-index: 1000; list-style: none; pointer-events: none; }
       /* CRITICAL: Desktop hover styles to show dropdown */
       .nav-menu li:hover > .sub-menu, nav li:hover > .sub-menu, .navbar li:hover > .sub-menu, #navMenu li:hover > .sub-menu { opacity: 1 !important; visibility: visible !important; transform: translateY(0) !important; pointer-events: auto !important; }
       /* Submenu item styling */
@@ -390,7 +393,7 @@
 <body>
 
 <div class="zappy-announcement-bar">
-      <span class="zappy-announcement-message active">סט מצעים 2 ב 399.90 ש&quot;ח </span>
+      <span class="zappy-announcement-message active">סט מצעים 2 ב 399.90 ש"ח </span>
     </div>
 <script>window.ZAPPY_PRODUCTS_LISTING_PATH = "/products";</script>
 
@@ -407,13 +410,13 @@
       <div class="search-results" id="mobile-search-results"></div>
     </div>
   
-<script>window.ZAPPY_WEBSITE_ID = "f7a6813b-3727-441c-b45a-623ee39985e3";window.ZAPPY_API_BASE = "https://api.zappy5.com";</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
+<script>window.ZAPPY_WEBSITE_ID = "f7a6813b-3727-441c-b45a-623ee39985e3";window.ZAPPY_API_BASE = "https://api.zappy5.com"</script><a class="skip-link" href="#main">דלג לתוכן הראשי</a>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg style="display:block !important" class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display:none !important">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
@@ -426,7 +429,7 @@
 
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
-      <a href="/" class="logo-link"><img class="logo" src="/assets/site-home-image-1.webp" alt="Street Stock"></a>
+      <a href="/" class="logo-link"><img class="logo" src="/assets/site-home-image-1.webp" alt="Street Stock" decoding="async" width="35" height="35"></a>
     </div><ul class="nav-menu" id="navMenu">
 
     <li class="menu-item-has-children zappy-products-dropdown">
@@ -507,13 +510,13 @@
   
 
     
-  <li><a href="/">Home</a></li><li><a href="/about">אודות Street Stock</a></li><li><a href="/contact-us">צרו קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg><span class="cart-count">0</span></a><div class="nav-search-box">
+  <li><a href="/">Home</a></li><li><a href="/about">אודות Street Stock</a></li><li><a href="/contact-us">צרו קשר</a></li></ul><div class="nav-ecommerce-icons nav-icons-left"><a href="/login" class="login-link nav-login" title="התחברות"><svg class="login-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a><a href="#cart" class="cart-link nav-cart" id="cart-drawer-toggle" title="עגלת קניות"><svg class="cart-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg><span class="cart-count">0</span></a><div class="nav-search-box">
     <input type="text" class="nav-search-input" id="nav-search-input" placeholder="חיפוש מוצרים..." autocomplete="off">
     <button class="nav-search-btn" id="nav-search-btn" title="חיפוש">
-      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+      <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg>
     </button>
     <div class="nav-search-results" id="nav-search-results"></div>
-  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg></button></div></div>
+  </div></div><div class="nav-ecommerce-icons nav-icons-right"><button class="nav-search-toggle" id="mobile-search-toggle" title="חיפוש"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><path d="M21 21l-4.35-4.35"></path></svg></button></div></div>
 
     
 
@@ -1030,7 +1033,7 @@
     <!-- Image Column (END = LEFT in RTL) -->
     <figure class="story-image-col">
       <div class="story-image-frame">
-        <img loading="eager" fetchpriority="high" data-placeholder="about-street-stock-story-image-1" data-context="A well-organized, modern Israeli household goods store interior in Ashkelon. Shelves stocked with colorful home products, kitchen tools, and everyday essentials. Warm lighting, clean display, portrait orientation. The store feels vibrant, value-driven, and welcoming — like a premium stock/discount store. Urban, editorial photography style." width="560" height="700" src="/assets/site-about-street-stock-story-image-1.webp" alt="חנות Street Stock — מבחר מוצרי בית, ריהוט וכלי מטבח במחירי סטוק">
+        <img loading="lazy" fetchpriority="low" data-placeholder="about-street-stock-story-image-1" data-context="A well-organized, modern Israeli household goods store interior in Ashkelon. Shelves stocked with colorful home products, kitchen tools, and everyday essentials. Warm lighting, clean display, portrait orientation. The store feels vibrant, value-driven, and welcoming — like a premium stock/discount store. Urban, editorial photography style." width="560" height="700" src="/assets/site-about-street-stock-story-image-1.webp" alt="חנות Street Stock — מבחר מוצרי בית, ריהוט וכלי מטבח במחירי סטוק" decoding="async">
         <!-- Decorative olive accent bar -->
         <div class="image-accent-bar" aria-hidden="true"></div>
         <!-- Decorative label badge -->
@@ -1056,7 +1059,7 @@
     <div class="philosophy-intro">
       <p><span class="philosophy-eyebrow">הפילוסופיה שלנו</span>
       </p><h2 class="philosophy-heading">למה Street Stock<br><em class="philosophy-accent">שונה</em></h2>
-      <p class="philosophy-subtext" >אנחנו לא מוכרים טרנדים - אנחנו מוכרים מה שבאמת עובד בבית. מוצרים אמיתיים, מחירי סטוק, בלי פשרות על איכות.</p>
+      <p class="philosophy-subtext">אנחנו לא מוכרים טרנדים - אנחנו מוכרים מה שבאמת עובד בבית. מוצרים אמיתיים, מחירי סטוק, בלי פשרות על איכות.</p>
     </div>
 
     <!-- Philosophy Cards -->
@@ -1102,8 +1105,8 @@
 
     <!-- Right: Strong H2 block -->
     <div class="location-text-block">
-      <div class="location-eyebrow" >
-        <span class="location-badge" >
+      <div class="location-eyebrow">
+        <span class="location-badge">
           <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="cursor: pointer;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
           אשקלון
         </span>אלי כהן 43, אשקלון, דרום, Israel</div>
@@ -1112,7 +1115,7 @@
         <span class="location-heading-main">אנחנו כאן,<br>בשבילכם</span>
       </h2>
 
-      <p class="location-lead" >Street Stock היא חנות הסטוק המקוונת שלכם — מבוססת אשקלון, נגישה לכל הארץ. אנחנו מאמינים שמוצרי בית איכותיים צריכים להיות זמינים לכולם, במחירים שפויים.</p>
+      <p class="location-lead">Street Stock היא חנות הסטוק המקוונת שלכם — מבוססת אשקלון, נגישה לכל הארץ. אנחנו מאמינים שמוצרי בית איכותיים צריכים להיות זמינים לכולם, במחירים שפויים.</p>
 
       <div class="location-rule" aria-hidden="true"></div>
 
@@ -1164,7 +1167,7 @@
     <!-- Left: Image tile -->
     <div class="location-image-block">
       <div class="location-image-frame">
-        <img loading="lazy" decoding="async" data-placeholder="about-street-stock-location-image-1" data-context="Urban street atmosphere in Ashkelon Israel at golden hour — a wide commercial street with storefronts, palm trees lining the sidewalk, warm Mediterranean light casting long shadows. The mood is grounded and local, with a mix of modern and everyday urban textures. Slightly desaturated warm tones with a confident street-level perspective. Suitable for a discount household goods brand with urban identity." width="600" height="400" src="/assets/site-about-street-stock-location-image-1.webp" alt="רחוב עירוני באשקלון — אווירה מקומית ועירונית של Street Stock" class="location-img" data-element-type="image" data-element-id="img-1782385491301-q5n6ygq14" >
+        <img loading="lazy" decoding="async" data-placeholder="about-street-stock-location-image-1" data-context="Urban street atmosphere in Ashkelon Israel at golden hour — a wide commercial street with storefronts, palm trees lining the sidewalk, warm Mediterranean light casting long shadows. The mood is grounded and local, with a mix of modern and everyday urban textures. Slightly desaturated warm tones with a confident street-level perspective. Suitable for a discount household goods brand with urban identity." width="600" height="400" src="/assets/site-about-street-stock-location-image-1.webp" alt="רחוב עירוני באשקלון — אווירה מקומית ועירונית של Street Stock" class="location-img" data-element-type="image" data-element-id="img-1782385491301-q5n6ygq14" fetchpriority="low">
         <!-- Lime accent bar -->
         <div class="location-img-accent-bar" aria-hidden="true"></div>
         <!-- Corner tag decoration -->
@@ -1182,8 +1185,8 @@
           <span class="location-stat-label">לקוחות מרוצים</span>
         </div>
         <div class="location-stat-chip" data-grid-item-index="1">
-          <p ><span class="location-stat-number" >1500+</span>
-          <br><span class="location-stat-label" >מוצרים במלאי</span>
+          <p><span class="location-stat-number">1500+</span>
+          <br><span class="location-stat-label">מוצרים במלאי</span>
         </p></div>
         <div class="location-stat-chip" data-grid-item-index="2">
           <span class="location-stat-number">100%</span>
@@ -1204,7 +1207,7 @@
         <!-- Column 1: Company Info -->
         <div class="footer-col footer-col--brand">
           <div class="footer-logo-wrap">
-            <img src="/assets/street-stock-logo.webp" alt="Street Stock" class="logo" data-element-type="image" data-element-id="img-1781003202161-bo7mpfjtt" data-zappy-footer-image="true" >
+            <img src="/assets/street-stock-logo.webp" alt="Street Stock" class="logo" data-element-type="image" data-element-id="img-1781003202161-bo7mpfjtt" data-zappy-footer-image="true" decoding="async" width="35" height="35">
           </div>
           <p class="footer-tagline">המקום שלך למוצרי בית במחירים שלא תאמין. איכות אמיתית, ערך אמיתי.</p>
           <div class="footer-social"><a href="https://instagram.com/street.stock1" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" data-element-type="icon" data-element-id="icon-1782647003037-7cs4jlymq" data-icon-type="fontawesome"></i></a><a href="https://wa.me/972545286728" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="fab fa-whatsapp" data-element-type="icon" data-element-id="icon-1782647003037-bo0po6rny" data-icon-type="fontawesome"></i></a></div>
@@ -1256,7 +1259,7 @@
     <div class="footer-container">
       <div class="footer-bottom-inner">
         <p class="footer-copyright">© 2026 Street Stock. כל הזכויות שמורות.</p>
-        <div class="footer-legal" >
+        <div class="footer-legal">
           <a href="/privacy">מדיניות פרטיות</a>
           <span class="footer-divider">|</span>
           <a href="/terms">תנאי שימוש</a><span class="separator" style="color: rgb(245, 245, 242) !important;">|</span>
@@ -1268,9 +1271,9 @@
           <span class="footer-divider">|</span>
           <a href="/accessibility">נגישות</a>
           <span class="footer-divider">|</span>
-          <a href="https://zappy5.com" target="_blank" class="zappy-attribution" >נוצר באמצעות NEMO-DS</a>
+          <a href="https://zappy5.com" target="_blank" class="zappy-attribution">נוצר באמצעות NEMO-DS</a>
         <span class="separator" style="color: rgb(245, 245, 242) !important;">|</span>
-            <a href="/shipping-policy" aria-label="מדיניות משלוחים" ><br><br></a></div>
+            <a href="/shipping-policy" aria-label="מדיניות משלוחים"><br><br></a></div>
       </div>
     </div>
   </div>
@@ -1296,6 +1299,10 @@
 
 
     <script src="/script.js"></script>
+
+    <script id="zappy-font-awesome-loader">
+(function(){if(window.__zappyFontAwesomeLoader)return;window.__zappyFontAwesomeLoader=true;var href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css';function load(){if(document.querySelector('link[href*="font-awesome"][href*="all.min.css"]'))return;var l=document.createElement('link');l.rel='stylesheet';l.href=href;l.crossOrigin='anonymous';l.referrerPolicy='no-referrer';document.head.appendChild(l);}function schedule(){if('requestIdleCallback'in window){requestIdleCallback(load,{timeout:5000});}else{setTimeout(load,3500);}}['pointerdown','keydown','touchstart','mouseover'].forEach(function(evt){window.addEventListener(evt,load,{once:true,passive:true});});schedule();})();
+</script>
 
     <script id="zappy-mobile-submenu-script">
     (function() {
@@ -1347,5 +1354,4 @@
       }, 500);
     })();
     </script>
-</body>
-</html>
+</body></html>

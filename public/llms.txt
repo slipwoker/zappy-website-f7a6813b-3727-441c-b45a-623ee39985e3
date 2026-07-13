@@ -68,7 +68,12 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 471** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 472** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### בדיקה
+https://streetstock.co.il/product/bdykh-syoivq
+- Price: 0.99 ILS
+- Availability: In stock
 
 ### זוג מחלק מגירות
 https://streetstock.co.il/product/zvg-mchlk-mgyrvt-m48trm
@@ -1639,14 +1644,6 @@ https://streetstock.co.il/product/st-3-kvpsavt-plstyk-dgm-mysv-1p7dof
 - Category: כלי בית
 - Description: 380 מ"ל : 14X10X5 ס"מ 850 מ"ל : 18X13X7 ס"מ 1600 מ"ל : 23X16X8 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837734346-hrn9tl.webp
-
-### מעמד 3 מגירות דגם במבוק
-https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbvk-4qmn9w
-- Price: 199.90 ILS
-- Availability: In stock
-- Category: מעמדים דקורטיבים 
-- Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
-- Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
 
 ---
 
