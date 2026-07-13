@@ -1,19 +1,9 @@
-/* ZAPPY_STOREFRONT_RUNTIME_BOOTSTRAP_V1 */
+/* ZAPPY_STOREFRONT_RUNTIME_BOOTSTRAP_V2 */
 (function() {
   'use strict';
   var runtimeLoaded = false;
   var runtimePromise = null;
   var runtimeSrc = '/storefront-runtime.js';
-  var immediatePath = /\/(?:products?|product|category|cart|checkout|account|order-success|courses?|lesson|my-learning|certificate)(?:\/|$|[?#])/i;
-  function hasCriticalCommerceDom() {
-    return !!document.querySelector('#zappy-product-grid,#zappy-product-detail,#cart-items,#checkout-form,.checkout-page,.cart-page,.order-success-page,[data-product-id],.product-detail-page');
-  }
-  function getHomepageDynamicCommerceTargets() {
-    return Array.prototype.slice.call(document.querySelectorAll('#zappy-featured-products,#zappy-featured-categories'));
-  }
-  function shouldLoadImmediately() {
-    return immediatePath.test(window.location.pathname || '/') || hasCriticalCommerceDom();
-  }
   function loadRuntime() {
     if (runtimeLoaded) return Promise.resolve();
     if (runtimePromise) return runtimePromise;
@@ -92,75 +82,14 @@
       }
     };
   }
-  function scheduleHomepageDynamicRuntimeLoad() {
-    if (runtimeLoaded || runtimePromise) return false;
-    var targets = getHomepageDynamicCommerceTargets();
-    if (!targets.length) return false;
-    var triggered = false;
-    var observer = null;
-    var trigger = function() {
-      if (triggered || runtimeLoaded || runtimePromise) return;
-      triggered = true;
-      if (observer) observer.disconnect();
-      targets.forEach(function(target) {
-        ['pointerenter', 'focusin', 'touchstart', 'pointerdown'].forEach(function(eventName) {
-          target.removeEventListener(eventName, trigger);
-        });
-      });
-      loadRuntime();
-    };
-    if ('IntersectionObserver' in window) {
-      observer = new IntersectionObserver(function(entries) {
-        if (entries.some(function(entry) { return entry.isIntersecting; })) trigger();
-      }, { rootMargin: '300px 0px' });
-      targets.forEach(function(target) { observer.observe(target); });
-    } else {
-      setTimeout(trigger, 1200);
-    }
-    targets.forEach(function(target) {
-      ['pointerenter', 'focusin', 'touchstart', 'pointerdown'].forEach(function(eventName) {
-        target.addEventListener(eventName, trigger, { once: true, passive: true });
-      });
-    });
-    return true;
-  }
-  function replayAfterLoad(event) {
-    var target = event.target;
-    if (!target || runtimeLoaded || runtimePromise) return;
-    var interactive = target.closest && target.closest('button,a,[role="button"],input,select,textarea,.mobile-toggle,.hamburger,.cart-link,.login-link,.nav-search-toggle,.zappy-products-dropdown');
-    if (!interactive) return;
-    loadRuntime().then(function() {
-      if (typeof target.click === 'function' && event.type === 'click') {
-        setTimeout(function() { try { target.click(); } catch (_) {} }, 0);
-      }
-    });
-  }
   window.__zappyLoadStorefrontRuntime = loadRuntime;
   function onReady() {
-    if (shouldLoadImmediately()) {
-      loadRuntime();
-    } else {
-      scheduleHomepageDynamicRuntimeLoad();
-    }
+    loadRuntime();
   }
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', onReady, { once: true });
   } else {
     onReady();
-  }
-  ['click', 'focusin', 'pointerdown', 'touchstart', 'keydown'].forEach(function(eventName) {
-    document.addEventListener(eventName, replayAfterLoad, { capture: true, passive: eventName !== 'click' && eventName !== 'keydown' });
-  });
-  if (!shouldLoadImmediately()) {
-    var lateLoad = function() { loadRuntime(); };
-    setTimeout(function() {
-      if (runtimeLoaded || runtimePromise) return;
-      if (typeof window.requestIdleCallback === 'function') {
-        window.requestIdleCallback(lateLoad, { timeout: 2000 });
-      } else {
-        lateLoad();
-      }
-    }, 12000);
   }
 })();
 /* zappy-announcement-bar setupFixedHeaders */
