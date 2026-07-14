@@ -9818,15 +9818,6 @@ SKU: 7290121564373
 
 ---
 
-### מחבת יציקת אלומיניום 20 ס"מ צבע שחור LUSSO
-
-URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-shchvr-lusso-ss4ae8
-Price: 39.90 ILS
-Availability: In stock
-SKU: 7290121564137
-
----
-
 ### סט תה , קפה וסוכר שחור מתכת אל חלד
 צבע לבןדגם BREVIA
 
@@ -9837,15 +9828,6 @@ Availability: In stock
 SKU: 7290121563383
 
 סט תה קפה סוכר
-
----
-
-### מחבת יציקת אלומיניום 24 ס"מ צבע שחור LUSSO
-
-URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-shchvr-lusso-ipo0ks
-Price: 49.90 ILS
-Availability: In stock
-SKU: 7290121564120
 
 ---
 
@@ -9881,15 +9863,6 @@ Availability: In stock
 SKU: 7290121564991
 
 סט תה קפה סוכר
-
----
-
-### מחבת יציקת אלומיניום 28 ס"מ צבע שחור LUSSO
-
-URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-shchvr-lusso-saz1l5
-Price: 59.90 ILS
-Availability: In stock
-SKU: 7290121564113
 
 ---
 

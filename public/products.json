@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T07:57:09.304Z",
+  "generated_at": "2026-07-14T07:58:33.572Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 468,
+  "count": 465,
   "products": [
     {
       "id": "0b797821-944a-466b-a29b-bd99df4269db",
@@ -10586,30 +10586,6 @@
       "updated_at": "2026-06-15T08:27:26.830Z"
     },
     {
-      "id": "32fb532c-c4d2-4354-8386-eb114ee607fb",
-      "slug": "mchbt-ytsykt-alvmynyvm-20-sm-tsba-shchvr-lusso-ss4ae8",
-      "name": "מחבת יציקת אלומיניום 20 ס\"מ צבע שחור LUSSO\r\n",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מחבת יציקת אלומיניום סדרת LUSSO \r\nבעל ציפוי NON STICK",
-      "sku": "7290121564137",
-      "brand": null,
-      "price": 39.9,
-      "base_price": 39.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837639196-l2yzp.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-shchvr-lusso-ss4ae8",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
       "id": "c6e3d82c-0579-4c21-89c6-b7fab27019cc",
       "slug": "st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-lbndgm-brevia-2r45wu",
       "name": "סט תה , קפה וסוכר שחור מתכת אל חלד\r\nצבע לבןדגם BREVIA\r\n\r\n",
@@ -10630,30 +10606,6 @@
       "url": "https://streetstock.co.il/product/st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-lbndgm-brevia-2r45wu",
       "categories": [
         "כלי בית"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "427552b0-970b-45aa-9c40-501942f21afe",
-      "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-shchvr-lusso-ipo0ks",
-      "name": "מחבת יציקת אלומיניום 24 ס\"מ צבע שחור LUSSO\r\n",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מחבת יציקת אלומיניום סדרת LUSSO \r\nבעל ציפוי NON STICK",
-      "sku": "7290121564120",
-      "brand": null,
-      "price": 49.9,
-      "base_price": 49.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638598-ae5g.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-shchvr-lusso-ipo0ks",
-      "categories": [
-        "סירים ומחבתות"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
@@ -10726,30 +10678,6 @@
       "url": "https://streetstock.co.il/product/st-th-kph-svkr-zkvkyt-dgm-opal-b0m8i4",
       "categories": [
         "כלי בית"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "db93b036-a6ac-4c9e-b71b-39c6acf472ed",
-      "slug": "mchbt-ytsykt-alvmynyvm-28-sm-tsba-shchvr-lusso-saz1l5",
-      "name": "מחבת יציקת אלומיניום 28 ס\"מ צבע שחור LUSSO\r\n",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מחבת יציקת אלומיניום סדרת LUSSO \r\nבעל ציפוי NON STICK",
-      "sku": "7290121564113",
-      "brand": null,
-      "price": 59.9,
-      "base_price": 59.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638598-kx19nd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-shchvr-lusso-saz1l5",
-      "categories": [
-        "סירים ומחבתות"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
