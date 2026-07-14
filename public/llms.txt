@@ -68,7 +68,17 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 464** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 466** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### בדיקה 2
+https://streetstock.co.il/product/bdykh-2-dg9o9o
+- Price: 121.00 ILS
+- Availability: In stock
+
+### בדיקה
+https://streetstock.co.il/product/bdykh-vhy8ra
+- Price: 111.00 ILS
+- Availability: In stock
 
 ### זוג מחלק מגירות
 https://streetstock.co.il/product/zvg-mchlk-mgyrvt-m48trm
@@ -1633,22 +1643,6 @@ https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbvk-4qmn9w
 - Category: מעמדים דקורטיבים 
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
-
-### קרש שבת שלום בשילוב שיש דגם RUSTIC
-https://streetstock.co.il/product/krsh-shbt-shlvm-bshylvb-shysh-dgm-rustic-cvtwru
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: כלי בית
-- Description: קרש הגשה שבת שלום בשילוב שיש ועץ בטקסטורת פישבונס. עשויים מעץ אקשיה איכותי.
-- Image: https://streetstock.co.il/assets/product-1780837734209-jowbn.webp
-
-### סט 3 קופסאות שקופות מכסה צבעוני דגם רוזה
-https://streetstock.co.il/product/st-3-kvpsavt-shkvpvt-mksh-tsbavny-dgm-rvzh-vwgvce
-- Price: 19.90 ILS
-- Availability: In stock
-- Category: כלי בית
-- Description: 550 מ"ל : 17X12X6 ס"מ 1150 מ"ל : 19X15X8 ס"מ 1900 מ"ל : 22X17X10 ס"מ
-- Image: https://streetstock.co.il/assets/product-1780837734038-zgtsit.webp
 
 ---
 

@@ -4,7 +4,29 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 14 Jul 2026 08:50:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 09:09:39 GMT</lastBuildDate>
+    <item>
+      <g:id>24cd2872-cad8-468a-8b0d-34fb414a8554</g:id>
+      <g:title>בדיקה 2</g:title>
+      <g:description>בדיקה 2</g:description>
+      <g:link>https://streetstock.co.il/product/bdykh-2-dg9o9o</g:link>
+      <g:availability>in_stock</g:availability>
+      <g:price>121.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
+    <item>
+      <g:id>431aaa6a-8321-4b46-ab9f-d3d6a54c8179</g:id>
+      <g:title>בדיקה</g:title>
+      <g:description>בדיקה</g:description>
+      <g:link>https://streetstock.co.il/product/bdykh-vhy8ra</g:link>
+      <g:availability>in_stock</g:availability>
+      <g:price>111.00 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+    </item>
     <item>
       <g:id>803c1f59-b3d4-4783-b64a-30ff29dd4def</g:id>
       <g:title>זוג מחלק מגירות</g:title>
