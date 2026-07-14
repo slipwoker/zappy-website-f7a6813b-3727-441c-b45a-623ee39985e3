@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 14 Jul 2026 07:47:08 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 07:49:26 GMT</lastBuildDate>
     <item>
       <g:id>0b797821-944a-466b-a29b-bd99df4269db</g:id>
       <g:title>בדיקה</g:title>
@@ -392,19 +392,6 @@
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>שמיכות חורף</g:product_type>
-    </item>
-    <item>
-      <g:id>6e14c0e5-cc8a-4b2d-b51e-65a9592b4714</g:id>
-      <g:title>סט פח + מברשת צבע לבן דגם CLEVO </g:title>
-      <g:description>סט פח + מברשת צבע לבן דגם CLEVO</g:description>
-      <g:link>https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-j9w5wi</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>79.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>פחי שירותים</g:product_type>
     </item>
     <item>
       <g:id>89f19a72-a4bb-467d-b5a2-f4df0a5eb798</g:id>

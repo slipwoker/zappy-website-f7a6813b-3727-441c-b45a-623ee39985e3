@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T07:47:08.877Z",
+  "generated_at": "2026-07-14T07:49:26.406Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 472,
+  "count": 471,
   "products": [
     {
       "id": "0b797821-944a-466b-a29b-bd99df4269db",
@@ -720,31 +720,6 @@
         "שמיכות חורף"
       ],
       "updated_at": "2026-06-21T08:12:31.183Z"
-    },
-    {
-      "id": "6e14c0e5-cc8a-4b2d-b51e-65a9592b4714",
-      "slug": "st-pch-mbrsht-tsba-lbn-dgm-clevo-j9w5wi",
-      "name": "סט פח + מברשת צבע לבן דגם CLEVO ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-j9w5wi",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-06-21T07:30:28.001Z"
     },
     {
       "id": "89f19a72-a4bb-467d-b5a2-f4df0a5eb798",
