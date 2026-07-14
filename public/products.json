@@ -1,30 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T08:44:28.644Z",
+  "generated_at": "2026-07-14T08:46:13.665Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 465,
+  "count": 464,
   "products": [
-    {
-      "id": "0b797821-944a-466b-a29b-bd99df4269db",
-      "slug": "bdykh-syoivq",
-      "name": "בדיקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 0.99,
-      "base_price": 0.99,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bdykh-syoivq",
-      "categories": [],
-      "updated_at": "2026-07-13T05:47:42.642Z"
-    },
     {
       "id": "803c1f59-b3d4-4783-b64a-30ff29dd4def",
       "slug": "zvg-mchlk-mgyrvt-m48trm",
