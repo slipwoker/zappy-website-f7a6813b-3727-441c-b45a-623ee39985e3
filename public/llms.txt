@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 471** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 470** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### בדיקה
 https://streetstock.co.il/product/bdykh-syoivq
@@ -1183,13 +1183,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-esfk3v
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837750953-7fpro.webp
 
-### כיסוי מיטה מהודר + זוג ציפיות לכרית צבע מוקה
-https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-2bstmx
-- Price: 99.90 ILS
-- Availability: In stock
-- Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
-- Image: https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp
-
 ### סט מצעים כותנה הום סטייל דגם אפריל
 https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54
 - Price: 149.90 ILS
@@ -1645,6 +1638,14 @@ https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbvk-4qmn9w
 - Category: מעמדים דקורטיבים 
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
+
+### קרש שבת שלום בשילוב שיש דגם RUSTIC
+https://streetstock.co.il/product/krsh-shbt-shlvm-bshylvb-shysh-dgm-rustic-cvtwru
+- Price: 99.90 ILS
+- Availability: In stock
+- Category: כלי בית
+- Description: קרש הגשה שבת שלום בשילוב שיש ועץ בטקסטורת פישבונס. עשויים מעץ אקשיה איכותי.
+- Image: https://streetstock.co.il/assets/product-1780837734209-jowbn.webp
 
 ---
 

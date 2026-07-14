@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T07:54:07.961Z",
+  "generated_at": "2026-07-14T07:55:17.135Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 471,
+  "count": 470,
   "products": [
     {
       "id": "0b797821-944a-466b-a29b-bd99df4269db",
@@ -3409,28 +3409,6 @@
         "סט מצעים 100% כותנה"
       ],
       "updated_at": "2026-06-16T08:09:51.062Z"
-    },
-    {
-      "id": "b6109cec-42fe-4c77-8e7f-37b44de537db",
-      "slug": "kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-2bstmx",
-      "name": "כיסוי מיטה מהודר + זוג ציפיות לכרית צבע מוקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי\r\nמידות : כיסוי מיטה 220X240 ס\"מ\r\nזוג ציפיות לכרית : 50X70 ס\"מ ",
-      "sku": null,
-      "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-2bstmx",
-      "categories": [],
-      "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
       "id": "129534c6-7114-4b10-80ee-b2aa8c88ba21",
