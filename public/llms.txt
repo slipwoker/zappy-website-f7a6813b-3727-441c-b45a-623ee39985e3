@@ -68,7 +68,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 465** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 466** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### סיר יציקת אלומיניום 20 ס"מ צבע אפור סדרת LUSSO
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-uivmkn
+- Price: 100.00 ILS
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 20 ס"מ | 2.3 ליטר סדרת LUSSO
 
 ### בדיקה
 https://streetstock.co.il/product/bdykh-syoivq
@@ -1638,14 +1645,6 @@ https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbvk-4qmn9w
 - Category: מעמדים דקורטיבים 
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
-
-### קרש שבת שלום בשילוב שיש דגם RUSTIC
-https://streetstock.co.il/product/krsh-shbt-shlvm-bshylvb-shysh-dgm-rustic-cvtwru
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: כלי בית
-- Description: קרש הגשה שבת שלום בשילוב שיש ועץ בטקסטורת פישבונס. עשויים מעץ אקשיה איכותי.
-- Image: https://streetstock.co.il/assets/product-1780837734209-jowbn.webp
 
 ---
 
