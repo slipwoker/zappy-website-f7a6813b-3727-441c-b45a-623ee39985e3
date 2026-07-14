@@ -1,29 +1,29 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T11:09:25.209Z",
+  "generated_at": "2026-07-14T11:10:02.385Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 465,
   "products": [
     {
       "id": "431aaa6a-8321-4b46-ab9f-d3d6a54c8179",
-      "slug": "bdykh-vhy8ra",
+      "slug": "bdykh-c4yxxw",
       "name": "בדיקה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 111,
-      "base_price": 111,
+      "price": 1,
+      "base_price": 1,
       "sale_price": null,
       "currency": "ILS",
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bdykh-vhy8ra",
+      "url": "https://streetstock.co.il/product/bdykh-c4yxxw",
       "categories": [],
-      "updated_at": "2026-07-14T09:09:06.951Z"
+      "updated_at": "2026-07-14T11:09:29.627Z"
     },
     {
       "id": "803c1f59-b3d4-4783-b64a-30ff29dd4def",
