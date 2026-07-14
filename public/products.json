@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T07:55:17.135Z",
+  "generated_at": "2026-07-14T07:56:36.240Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 470,
+  "count": 469,
   "products": [
     {
       "id": "0b797821-944a-466b-a29b-bd99df4269db",
@@ -6343,30 +6343,6 @@
         "צנצנות אקריל"
       ],
       "updated_at": "2026-06-15T08:21:47.681Z"
-    },
-    {
-      "id": "ddbe9651-1dbb-4be1-b94c-130572e1caa0",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-shchvr-80-sm-ej2s0t",
-      "name": "מראה עגולה מסגרת אלומיניום שחור\r\n 80 ס\"מ\r\n ",
-      "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
-      "short_description": null,
-      "sku": "7290121567350",
-      "brand": null,
-      "price": 159.9,
-      "base_price": 159.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703879-hc18wq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-80-sm-ej2s0t",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-06-16T10:10:43.235Z"
     },
     {
       "id": "da307361-12b4-44e5-9033-5c6c4b0b4921",
