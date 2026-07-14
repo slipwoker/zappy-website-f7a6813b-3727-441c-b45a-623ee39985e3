@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T07:56:36.240Z",
+  "generated_at": "2026-07-14T07:57:09.304Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 469,
+  "count": 468,
   "products": [
     {
       "id": "0b797821-944a-466b-a29b-bd99df4269db",
@@ -6537,30 +6537,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "2b8ed829-86af-41f5-b5ff-3e5c0d2d203f",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-shchvr-40-sm-kkc7zu",
-      "name": "מראה עגולה מסגרת אלומיניום שחור\r\n 40 ס\"מ \r\n ",
-      "name_translations": {},
-      "description": "<p>מראות ומסגרות תמונה</p>",
-      "short_description": null,
-      "sku": "7290121567374",
-      "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837700683-rtv25y.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-40-sm-kkc7zu",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-06-16T10:11:08.407Z"
     },
     {
       "id": "121e2bd2-9c8d-4d9f-b8ce-5da17d690842",
