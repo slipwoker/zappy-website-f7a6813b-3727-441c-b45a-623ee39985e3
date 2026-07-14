@@ -71,7 +71,7 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 465** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### בדיקה
-https://streetstock.co.il/product/bdykh-c4yxxw
+https://streetstock.co.il/product/bdykh-86otv3
 - Price: 1.00 ILS
 - Availability: In stock
 
