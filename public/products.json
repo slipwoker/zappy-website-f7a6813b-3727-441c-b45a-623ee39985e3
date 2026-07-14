@@ -1,30 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-14T11:08:16.694Z",
+  "generated_at": "2026-07-14T11:09:25.209Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 466,
+  "count": 465,
   "products": [
-    {
-      "id": "24cd2872-cad8-468a-8b0d-34fb414a8554",
-      "slug": "bdykh-2-dg9o9o",
-      "name": "בדיקה 2",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 121,
-      "base_price": 121,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bdykh-2-dg9o9o",
-      "categories": [],
-      "updated_at": "2026-07-14T09:09:23.748Z"
-    },
     {
       "id": "431aaa6a-8321-4b46-ab9f-d3d6a54c8179",
       "slug": "bdykh-vhy8ra",

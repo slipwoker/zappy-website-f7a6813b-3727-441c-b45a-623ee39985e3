@@ -68,12 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 466** (showing first 200; full catalog at https://streetstock.co.il/products.json)
-
-### בדיקה 2
-https://streetstock.co.il/product/bdykh-2-dg9o9o
-- Price: 121.00 ILS
-- Availability: In stock
+**Total active products: 465** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### בדיקה
 https://streetstock.co.il/product/bdykh-vhy8ra
@@ -1643,6 +1638,14 @@ https://streetstock.co.il/product/mamd-3-mgyrvt-dgm-bmbvk-4qmn9w
 - Category: מעמדים דקורטיבים 
 - Description: 34 ליטר : 35X33X110 ס"מ מעמד 3 מגירות במבוק
 - Image: https://streetstock.co.il/assets/product-1780837734318-cuyh3m.webp
+
+### קרש שבת שלום בשילוב שיש דגם RUSTIC
+https://streetstock.co.il/product/krsh-shbt-shlvm-bshylvb-shysh-dgm-rustic-cvtwru
+- Price: 99.90 ILS
+- Availability: In stock
+- Category: כלי בית
+- Description: קרש הגשה שבת שלום בשילוב שיש ועץ בטקסטורת פישבונס. עשויים מעץ אקשיה איכותי.
+- Image: https://streetstock.co.il/assets/product-1780837734209-jowbn.webp
 
 ---
 
