@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:03:38.909Z",
+  "generated_at": "2026-07-15T07:04:39.401Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -217,8 +217,8 @@
     },
     {
       "id": "b1bef982-603d-41ee-999b-63c40253f30e",
-      "slug": "kvs-lmbrsht-shynyym-tsba-lbn-dgm-nivora-id863-12-2b58z5",
-      "name": "כוס למברשת שיניים צבע לבן דגם NIVORA\nID863 (12)",
+      "slug": "kvs-lmbrsht-shynyym-tsba-lbn-dgm-nivora-id863-tw9sx6",
+      "name": "כוס למברשת שיניים צבע לבן דגם NIVORA ID863 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -228,15 +228,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099006747-9uc0d9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-lbn-dgm-nivora-id863-12-2b58z5",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-lbn-dgm-nivora-id863-tw9sx6",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.329Z"
+      "updated_at": "2026-07-15T07:04:06.734Z"
     },
     {
       "id": "1480874c-7697-42ce-819f-f925e79f2be1",
