@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:38:13.015Z",
+  "generated_at": "2026-07-15T06:38:52.967Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 495,
@@ -773,7 +773,7 @@
     },
     {
       "id": "66fc1fd3-af1b-4208-a8d6-eb907626c217",
-      "slug": "syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-mvkh-sdrt-lusso-ikzmno",
+      "slug": "syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-mvkh-sdrt-lusso-dit7r8",
       "name": "סיר סוטאז' יציקת אלומיניום 32 ס\"מ צבע מוקה סדרת LUSSO",
       "name_translations": {},
       "description": "",
@@ -784,18 +784,20 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784097489117-yb7lz.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-mvkh-sdrt-lusso-ikzmno",
+      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-mvkh-sdrt-lusso-dit7r8",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:30:07.526Z"
+      "updated_at": "2026-07-15T06:38:19.438Z"
     },
     {
       "id": "b63e6441-6ee0-4b47-a313-1c4cc11a9678",
-      "slug": "syr-ytsykt-alvmynyvm-28-sm-tsba-apvr-sdrt-lusso-j9pqnb",
+      "slug": "syr-ytsykt-alvmynyvm-28-sm-tsba-apvr-sdrt-lusso-bad2g4",
       "name": "סיר יציקת אלומיניום 28 ס\"מ צבע אפור סדרת LUSSO",
       "name_translations": {},
       "description": "",
@@ -806,14 +808,16 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784097518314-6ukwyk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-apvr-sdrt-lusso-j9pqnb",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-apvr-sdrt-lusso-bad2g4",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:30:07.502Z"
+      "updated_at": "2026-07-15T06:38:50.142Z"
     },
     {
       "id": "a41dbbfc-313f-40b6-a710-21d25fdaa25a",
