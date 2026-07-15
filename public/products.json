@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:44:11.199Z",
+  "generated_at": "2026-07-15T05:45:21.496Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 461,
+  "count": 460,
   "products": [
     {
       "id": "0126193b-0a09-4500-baf6-bd6847362e84",
@@ -8084,7 +8084,7 @@
     },
     {
       "id": "2b1cf5e5-a327-4aa3-82b3-e22cdd7cb9bf",
-      "slug": "mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-dol4gf",
+      "slug": "mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-rspv0d",
       "name": "משטח חיתוך מקצועי מעץ במבוק 28X20 ס\"מ\r\n ",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -8096,15 +8096,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837672666-hmbc0b.webp"
+        "https://streetstock.co.il/assets/product-1784094252977-sjkea7.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-dol4gf",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-rspv0d",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-14T09:10:06.100Z"
+      "updated_at": "2026-07-15T05:44:23.874Z"
     },
     {
       "id": "a9bece82-1382-47c1-9607-c813c024d8c8",
@@ -8836,30 +8836,6 @@
         "מעמדים דקורטיבים "
       ],
       "updated_at": "2026-06-15T07:41:45.731Z"
-    },
-    {
-      "id": "432d0297-71d8-4a42-a0ca-9c375400cb56",
-      "slug": "mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-g0src2",
-      "name": "מעמד 5 קומות רחב צבע עץ\r\n דגם SILO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561471",
-      "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164989-mahcah.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-g0src2",
-      "categories": [
-        "מעמדים דקורטיבים "
-      ],
-      "updated_at": "2026-06-15T07:41:46.119Z"
     },
     {
       "id": "74509957-05db-4e97-a211-3d6da4f1ba19",

@@ -8784,7 +8784,7 @@ SKU: 7290121563376
 
 ### משטח חיתוך מקצועי מעץ במבוק 28X20 ס"מ
  
-URL: https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-dol4gf
+URL: https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-rspv0d
 Price: 29.90 ILS
 Availability: In stock
 SKU: 7290121562379
@@ -9087,16 +9087,6 @@ URL: https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-cw1jzr
 Price: 99.90 ILS
 Availability: In stock
 SKU: 7290121561419
-
----
-
-### מעמד 5 קומות רחב צבע עץ
- דגם SILO
-
-URL: https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-g0src2
-Price: 149.90 ILS
-Availability: In stock
-SKU: 7290121561471
 
 ---
 
