@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:51:56.038Z",
+  "generated_at": "2026-07-15T06:57:18.156Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -95,7 +95,7 @@
     },
     {
       "id": "0bc65783-4309-47a5-b727-f127c5ff320f",
-      "slug": "mshtch-chytvk-nyrvsth-zhb-34x23-sm-id852-24-cdszml",
+      "slug": "mshtch-chytvk-nyrvsth-zhb-34x23-sm-id852-24-ti87yi",
       "name": "משטח חיתוך נירוסטה זהב\n34X23 ס\"מ ID852 (24)",
       "name_translations": {},
       "description": "",
@@ -106,14 +106,16 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098299611-nyjdwp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-34x23-sm-id852-24-cdszml",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-34x23-sm-id852-24-ti87yi",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:13.095Z"
+      "updated_at": "2026-07-15T06:56:42.259Z"
     },
     {
       "id": "62c3c9b8-166c-4481-91ef-990d698559a6",
