@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T10:52:01.299Z",
+  "generated_at": "2026-07-15T11:00:33.762Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 493,
+  "count": 492,
   "products": [
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
@@ -7515,30 +7515,6 @@
         "מזוודות "
       ],
       "updated_at": "2026-06-14T11:57:57.228Z"
-    },
-    {
-      "id": "e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-nyyby-abgt30",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע נייבי ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562782",
-      "brand": null,
-      "price": 340,
-      "base_price": 340,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698910-u09tk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-abgt30",
-      "categories": [
-        "מזוודות "
-      ],
-      "updated_at": "2026-06-14T11:57:57.712Z"
     },
     {
       "id": "811542f0-2c9d-4ebc-95e6-5b70b0112710",
