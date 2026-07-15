@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T09:37:47.805Z",
+  "generated_at": "2026-07-15T10:46:40.224Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 494,
@@ -8460,10 +8460,10 @@
     },
     {
       "id": "28bd4fc6-edea-4985-87f6-bbea1d8bdadf",
-      "slug": "msnnt-nyrvsth-20-sm-i841nc",
+      "slug": "msnnt-nyrvsth-20-sm-otwaer",
       "name": "מסננת נירוסטה 20 ס\"מ\r\n",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121562683",
       "brand": null,
@@ -8472,15 +8472,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837684191-xsunh.webp"
+        "https://streetstock.co.il/assets/product-1784112354678-o7b81.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-20-sm-i841nc",
+      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-20-sm-otwaer",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-15T10:46:07.447Z"
     },
     {
       "id": "194b224b-10bd-4192-8825-2fad4fb546fd",
