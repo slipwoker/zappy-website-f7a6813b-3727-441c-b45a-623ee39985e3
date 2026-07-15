@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:42:35.896Z",
+  "generated_at": "2026-07-15T06:43:28.532Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 495,
@@ -11292,10 +11292,10 @@
     },
     {
       "id": "a97f13fd-176b-4126-9cd6-7fdc76088422",
-      "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-mvkh-lusso-qzloxa",
+      "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-mvkh-lusso-mg628z",
       "name": "מחבת יציקת אלומיניום 24 ס\"מ צבע מוקה LUSSO\r\n",
       "name_translations": {},
-      "description": "סירים ומחבתות",
+      "description": "<p>סירים ומחבתות</p>",
       "short_description": null,
       "sku": "7290121564830",
       "brand": null,
@@ -11304,15 +11304,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837638588-vnogtb.webp"
+        "https://streetstock.co.il/assets/product-1784097763262-le8z8l.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-mvkh-lusso-qzloxa",
+      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-mvkh-lusso-mg628z",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-15T06:42:54.801Z"
     },
     {
       "id": "f53b2cac-eb74-4f55-97e4-0ce8d9e10120",
