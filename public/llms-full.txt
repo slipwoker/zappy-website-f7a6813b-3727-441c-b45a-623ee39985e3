@@ -7961,17 +7961,6 @@ SKU: 7290121565158
 
 ---
 
-### מארז 10 יחידות קולבי פלסטיק
- 
-URL: https://streetstock.co.il/product/marz-10-ychydvt-kvlby-plstyk-mzgyn2
-Price: 1.90 ILS
-Availability: In stock
-SKU: 7290121563314
-
-כללי
-
----
-
 ### מארז 5 יחידות קולבי אקריל 
 URL: https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-xwerhi
 Price: 14.90 ILS

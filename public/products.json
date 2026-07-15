@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:32:55.054Z",
+  "generated_at": "2026-07-15T05:35:42.422Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 465,
+  "count": 464,
   "products": [
     {
       "id": "0126193b-0a09-4500-baf6-bd6847362e84",
@@ -6199,30 +6199,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-06-14T09:07:34.170Z"
-    },
-    {
-      "id": "b13215b7-3e6c-4451-8fb4-2795409f08bd",
-      "slug": "marz-10-ychydvt-kvlby-plstyk-mzgyn2",
-      "name": "מארז 10 יחידות קולבי פלסטיק\r\n ",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "7290121563314",
-      "brand": null,
-      "price": 1.9,
-      "base_price": 1.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837707856-26sirk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-ychydvt-kvlby-plstyk-mzgyn2",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
       "id": "c89e1921-f104-4c08-916d-6e0ae6976647",
