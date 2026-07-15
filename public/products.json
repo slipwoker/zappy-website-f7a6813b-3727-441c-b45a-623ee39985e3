@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:38:52.967Z",
+  "generated_at": "2026-07-15T06:40:21.248Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 495,
@@ -707,7 +707,7 @@
     },
     {
       "id": "0a3dc9ec-450e-4d80-8f9a-623c35db2070",
-      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-eo4uj7",
+      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-mjesm3",
       "name": "סיר יציקת אלומיניום 20 ס\"מ צבע אפור סדרת LUSSO",
       "name_translations": {},
       "description": "",
@@ -718,14 +718,16 @@
       "base_price": 100,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784097577014-qz4pb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-eo4uj7",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-mjesm3",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:30:07.550Z"
+      "updated_at": "2026-07-15T06:39:47.733Z"
     },
     {
       "id": "a3f36d70-fed8-434e-8601-71df2a6ffd4a",
@@ -751,7 +753,7 @@
     },
     {
       "id": "43df9dec-01a2-478c-acf0-9dcf4cbe4500",
-      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-gok1h2",
+      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-ub28g6",
       "name": "סיר יציקת אלומיניום 24 ס\"מ צבע אפור סדרת LUSSO",
       "name_translations": {},
       "description": "",
@@ -762,14 +764,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784097549360-k5whn8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-gok1h2",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-ub28g6",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:30:07.540Z"
+      "updated_at": "2026-07-15T06:39:18.452Z"
     },
     {
       "id": "66fc1fd3-af1b-4208-a8d6-eb907626c217",

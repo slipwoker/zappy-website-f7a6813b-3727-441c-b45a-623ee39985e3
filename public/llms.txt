@@ -280,11 +280,12 @@ https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdr
 - Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 28 ס"מ | 3.5 ליטר סדרת LUSSO
 
 ### סיר יציקת אלומיניום 20 ס"מ צבע אפור סדרת LUSSO
-https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-eo4uj7
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-apvr-sdrt-lusso-mjesm3
 - Price: 100.00 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 20 ס"מ | 2.3 ליטר סדרת LUSSO
+- Image: https://streetstock.co.il/assets/product-1784097577014-qz4pb.webp
 
 ### סיר סוטאז' יציקת אלומיניום 32 ס"מ צבע אפור סדרת LUSSO
 https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-apvr-sdrt-lusso-ncgyem
@@ -294,11 +295,12 @@ https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-apvr-sdr
 - Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 32 ס"מ | 5 ליטר סדרת LUSSO
 
 ### סיר יציקת אלומיניום 24 ס"מ צבע אפור סדרת LUSSO
-https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-gok1h2
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-ub28g6
 - Price: 119.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סיר יציקת אלומיניום בעל ציפוי NON STICK 24 ס"מ | 3.6 ליטר סדרת LUSSO
+- Image: https://streetstock.co.il/assets/product-1784097549360-k5whn8.webp
 
 ### סיר סוטאז' יציקת אלומיניום 32 ס"מ צבע מוקה סדרת LUSSO
 https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-mvkh-sdrt-lusso-dit7r8
