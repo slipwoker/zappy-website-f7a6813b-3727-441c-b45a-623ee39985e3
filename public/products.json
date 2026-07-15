@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:07:54.188Z",
+  "generated_at": "2026-07-15T07:09:21.436Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -317,8 +317,8 @@
     },
     {
       "id": "98e8a04d-1823-4718-bcf4-e85cc832d944",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-12-3x1eap",
-      "name": "דיספנסר לסבון + מעמד לסקוץ צבע בז' דגם VELMORA\nID868 (12)",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-a9vye5",
+      "name": "דיספנסר לסבון + מעמד לסקוץ צבע בז' דגם VELMORA ID868 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -328,20 +328,22 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099297283-k0ds9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-12-3x1eap",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-a9vye5",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.193Z"
+      "updated_at": "2026-07-15T07:08:28.319Z"
     },
     {
       "id": "e5152427-1230-4cd9-b70d-7e8471e07c0f",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-12-xtb6ua",
-      "name": "דיספנסר לסבון + מעמד לסקוץ צבע שחור דגם VELMORA\nID867 (12)",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-turfz7",
+      "name": "דיספנסר לסבון + מעמד לסקוץ צבע שחור דגם VELMORA ID867",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -351,15 +353,17 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099324313-gfwiog.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-12-xtb6ua",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-turfz7",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.193Z"
+      "updated_at": "2026-07-15T07:08:54.499Z"
     },
     {
       "id": "f36ed816-105c-4d33-953c-85d3abcbc616",
@@ -611,7 +615,7 @@
     },
     {
       "id": "cacded33-9b97-48cf-bf35-ee83b068d68e",
-      "slug": "marz-10-kvlby-ktyph-krm-adodsz",
+      "slug": "marz-10-kvlby-ktyph-krm-k85fr4",
       "name": "מארז 10 קולבי קטיפה קרם",
       "name_translations": {},
       "description": "",
@@ -622,14 +626,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099271543-ubkpnn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-ktyph-krm-adodsz",
+      "url": "https://streetstock.co.il/product/marz-10-kvlby-ktyph-krm-k85fr4",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-07-15T06:30:09.259Z"
+      "updated_at": "2026-07-15T07:07:59.570Z"
     },
     {
       "id": "6b2f6ffa-b102-46d6-80c1-23ea3d75c737",
