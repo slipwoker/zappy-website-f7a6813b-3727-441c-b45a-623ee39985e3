@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:04:39.401Z",
+  "generated_at": "2026-07-15T07:05:47.547Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -242,8 +242,8 @@
     },
     {
       "id": "1480874c-7697-42ce-819f-f925e79f2be1",
-      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-12-21n3v3",
-      "name": "דיספנסר לסבון צבע בז' דגם NIVORA\nID864 (12)",
+      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-r90l0m",
+      "name": "דיספנסר לסבון צבע בז' דגם NIVORA ID864 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -253,20 +253,22 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099062761-qkm9dh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-12-21n3v3",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-r90l0m",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.328Z"
+      "updated_at": "2026-07-15T07:04:41.386Z"
     },
     {
       "id": "023059ff-a4bd-4639-9a39-dc85a934522f",
-      "slug": "dyspnsr-lsbvn-tsba-shchvr-dgm-nivora-id860-12-8ek0ab",
-      "name": "דיספנסר לסבון צבע שחור דגם NIVORA\nID860 (12)",
+      "slug": "dyspnsr-lsbvn-tsba-shchvr-dgm-nivora-id860-rry9of",
+      "name": "דיספנסר לסבון צבע שחור דגם NIVORA ID860 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -276,15 +278,17 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099099041-iz1w8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-nivora-id860-12-8ek0ab",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-nivora-id860-rry9of",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.327Z"
+      "updated_at": "2026-07-15T07:05:12.318Z"
     },
     {
       "id": "af77fd37-5c59-4d82-a402-1ec80fe94751",

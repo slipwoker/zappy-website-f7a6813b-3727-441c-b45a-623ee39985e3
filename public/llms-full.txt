@@ -370,7 +370,7 @@ CTRL+F2
 
 
 
-
+לחץ כאן
 
 
 
@@ -6176,17 +6176,15 @@ Availability: In stock
 
 ---
 
-### דיספנסר לסבון צבע בז' דגם NIVORA
-ID864 (12)
-URL: https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-12-21n3v3
+### דיספנסר לסבון צבע בז' דגם NIVORA ID864 
+URL: https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-r90l0m
 Price: 29.90 ILS
 Availability: In stock
 
 ---
 
-### דיספנסר לסבון צבע שחור דגם NIVORA
-ID860 (12)
-URL: https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-nivora-id860-12-8ek0ab
+### דיספנסר לסבון צבע שחור דגם NIVORA ID860 
+URL: https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-nivora-id860-rry9of
 Price: 29.90 ILS
 Availability: In stock
 
