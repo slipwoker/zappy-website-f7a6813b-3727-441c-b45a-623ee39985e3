@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:29:32.277Z",
+  "generated_at": "2026-07-15T08:20:17.169Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 497,
+  "count": 496,
   "products": [
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
@@ -7223,30 +7223,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-06-15T08:19:05.417Z"
-    },
-    {
-      "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",
-      "slug": "zvg-mchlky-mdpym-akryl-449got",
-      "name": "זוג מחלקי מדפים אקריל\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121564526",
-      "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703571-fakf6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-449got",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-06-26T07:10:22.744Z"
     },
     {
       "id": "32699074-a01b-4a62-8037-4a04e8ca2cbf",
