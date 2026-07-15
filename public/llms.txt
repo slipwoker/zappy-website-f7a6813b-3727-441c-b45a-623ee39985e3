@@ -68,199 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 548** (showing first 200; full catalog at https://streetstock.co.il/products.json)
-
-### שטיח דגם TAVO מידות : 60X90 ס"מ
-צבע אפור כהה ID892 
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-17bygn
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X90 ס"מ
-צבע בז' ID891
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-32xbid
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X90 ס"מ
-צבע אפור בהיר ID893 
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-i99723
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X180 ס"מ
-צבע אפור כהה ID898
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-apvr-khh-id898-99z20n
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X180 ס"מ
-צבע אפור בהיר ID899 
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-apvr-bhyr-id899-31it5d
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X180 ס"מ
-צבע בז' ID897 
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-ea9epr
-- Price: 99.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X130 ס"מ
-צבע בז' ID894 
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-gq0vkd
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X130 ס"מ
-צבע אפור כהה ID895 
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-apvr-khh-id895-5xh1zr
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם TAVO מידות : 60X130 ס"מ
-צבע אפור בהיר ID896
-https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-apvr-bhyr-id896-ipft50
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X80 ס"מ
-צבע מוקה ID901 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-mvkh-id901-f8y7pt
-- Price: 39.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X150 ס"מ
-צבע מוקה ID907 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-sq7l85
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X80 ס"מ
-צבע בז' ID900 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-kn7r3c
-- Price: 39.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X120 ס"מ
-צבע מוקה ID904
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-puqj34
-- Price: 59.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X80 ס"מ
-צבע אפור ID902 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-apvr-id902-61jmo2
-- Price: 39.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X150 ס"מ
-צבע אפור ID908 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-apvr-id908-douiij
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X150 ס"מ
-צבע בז' ID906 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-bz-id906-5yy4lc
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X120 ס"מ
-צבע בז' ID903 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-bz-id903-beimoz
-- Price: 59.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם NEXO מידות : 60X120 ס"מ
-צבע בז' ID912 
-https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-bz-id912-khfsen
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם ROVI מידות : 50X120 ס"מ
-צבע אפור ID905 
-https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-apvr-id905-w3334e
-- Price: 59.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם NEXO מידות : 60X120 ס"מ
-צבע אפור כהה ID914 
-https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-khh-id914-ygxmay
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם NEXO מידות : 60X120 ס"מ
-צבע אפור בהיר ID913 
-https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-ebjycd
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם NEXO מידות : 50X80 ס"מ
-צבע אפור כהה ID911
-https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-apvr-khh-id911-05ckfn
-- Price: 29.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם NEXO מידות : 50X80 ס"מ
-צבע אפור בהיר ID910 (12)
-https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-apvr-bhyr-id910-12-fwdhqq
-- Price: 29.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
-
-### שטיח דגם NEXO מידות : 50X80 ס"מ
-צבע בז' ID909 
-https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-tpcpmq
-- Price: 29.90 ILS
-- Availability: In stock
-- Category: שטיחי אמבטיה
-- Description: שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.
+**Total active products: 524** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מארז 56 מדבקות שקופות + כתוביות שחור
 https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ktvbyvt-shchvr-e69r62
@@ -1565,6 +1373,199 @@ https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5
 - Category: טירולר
 - Description: מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה ראש וסיבים עשויים מיציקה אחת של 100% סיליקון מיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך! מוט פלדה פנימי לחיזוק הידית מקסימום ניקיון במינימום מאמץ
 - Image: https://streetstock.co.il/assets/product-1780837760302-xohd17.webp
+
+### סט 2 מטליות החלפה למבריקן
+https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmbrykn-3q9tnu
+- Price: 39.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: מטלית המיקרופייבר לניקוי רצפות מתאימה למבריקן סיליקון- 2 יחידות בערכה. יש להצמיד את הצד הלבן של המטלית לסקוצים המחוברים לראש סיליקון. המטלית מיקרופייבר מנקה היטב משטחים יבשים ורטובים כאחד. מטלית המיקרופייבר מקרצפת ומנקה ביעילות את הלכלוך. מטלית הניקוי מעוצבת בעיצוב ייחודי המשלב את טכניקות הניקוי הטובות ביותר.
+- Image: https://streetstock.co.il/assets/product-1780837760495-0e62vxf.webp
+
+### מטלית מיקרופייבר מקצועית לניקוי והברקה
+https://streetstock.co.il/product/mtlyt-mykrvpyybr-mktsvayt-lnykvy-vhbrkh-l86geh
+- Price: 24.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: המטלית עשויה מבד המיקורפייבר האיכותי ביותר שקיים תוצאות הברקה מושלמות ניתן לשטוף ולכבס את המטלית פעמים רבות תוך שמירה על האיכות
+- Image: https://streetstock.co.il/assets/product-1780837760494-mmfhrh.webp
+
+### מטלית החלפה למנקה חלונות
+https://streetstock.co.il/product/mtlyt-hchlph-lmnkh-chlvnvt-h103mh
+- Price: 15.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: 100% בד מיקרופייבר מובחר רחיץ ניתן לשימוש חוזר ולכביסה (עדינה). מטלית מיקרופייבר איכותית ביותר לניקוי יבש ורטוב צפיפות גבוהה ביותר של 0.2 דנייר.
+- Image: https://streetstock.co.il/assets/product-1780837760495-sb0zk8.webp
+
+### מאסטר סכין סנטוקו 14 סמ ARCOSTEEL
+https://streetstock.co.il/product/mastr-skyn-sntvkv-14-sm-arcosteel-h1rpsf
+- Price: 79.90 ILS
+- Availability: In stock
+- Category: סכיני מטבח
+- Description: קצוות הלהב הושחזו ולוטשו בקפדנות ליצירת חדות יוצאת דופן הלהב עשוי מפלדה בעלת עמידות לאורך שנים אל- חלד גרמנית 1416 הידית מרוחקת מהלהב לשמירה על האצבעות ולבטיחות מירבית ידית ארגונומית- לאחיזה נוחה ובטוחה לשון הפלדה מגיעה עד קצה הידית- מאפשר הפעלת כוח יעילה יותר בעת החיתוך, איזון ויציבות משופרים
+- Image: https://streetstock.co.il/assets/product-1780837760349-cewcfr.webp
+
+### סט 2 מטליות החלפה למיני מבריקן
+https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmyny-mbrykn-kx0nou
+- Price: 39.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: צפיפות גבוהה ביותר של 0.2 דנייר 100% בד מיקרופייבר מובחר מטלית קרצוף שמתאימה למיני מבריקן מטלית הברקה שמתאימה למיני מבריקן
+- Image: https://streetstock.co.il/assets/product-1780837760494-d82d7v.webp
+
+### מגב שיש 100% סיליקון
+https://streetstock.co.il/product/mgb-shysh-100-sylykvn-0nk9bd
+- Price: 49.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: מגב ידני קטן- מושלם לניקוי השיש במטבח או מקלחונים ידית ארגונומית שומרת על מפרק כף היד ולא מחליקה מהיד מיוצר מיציקה אחת של 100% סיליקון איכותי לא מתבלה גם בעבודה אינטנסיבית משדרג את הניקיון הביתי לרמה מקצועית
+- Image: https://streetstock.co.il/assets/product-1780837760494-4ririe.webp
+
+### סכין לחם מהודרת מאיר אדוני 22 סמ ARCOSTEEL
+https://streetstock.co.il/product/skyn-lchm-mhvdrt-mayr-advny-22-sm-arcosteel-s22kad
+- Price: 99.90 ILS
+- Availability: In stock
+- Category: סכיני מטבח
+- Description: סכין מסדרת מאיר אדוני העשויוה מפלדת אל חלד גרמנית. להב הסכין במבנה קריסטלי מיוחד עם אחוז גבוה של פחמן וכרום. סדרת הסכינים איכותיות ומקצועית ביותר המיוצרת בטכנולוגיות המתקדמות בעולם לייצור סכיני שף.
+- Image: https://streetstock.co.il/assets/product-1780837760289-q4z03l.webp
+
+### גליידר סיליקון - מנקה חלונות מגנטי R4
+https://streetstock.co.il/product/glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-nkk96h
+- Price: 319.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: עשוי ביציקה אחת של 100% סיליקון, עמיד במיוחד מנקה בצורה מושלמת ולא שורט את החלון מגנטים עוצמתיים במיוחד, מגנט-על ממתכת נדירה מנגנון כיוונון עוצמת המגנט לעובי הזכוכית (מ-6 מ”מ עד 38 מ"מ) גריפה חלקה עם 4 מגבי סיליקון
+- Image: https://streetstock.co.il/assets/product-1780837757475-elq59.webp
+
+### גליידר פלסטיק - מנקה חלונות מגנטי D2
+https://streetstock.co.il/product/glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-0vyw6j
+- Price: 219.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: מנקה דו-צדדי לחלונות ללא גישה נוחה לצידם החיצוני מגנטים עוצמתיים במיוחד, מגנט-על ממתכת נדירה מנגנון כיוונון עוצמת המגנט בהתאם לעובי הזכוכית (מ-2 מ”מ עד 18 מ”מ) מבצע שתי פעולות: גם מנקה וגם מבריק 4 מגבים עשויים 100% גומי מגיע עם 2 מטליות מיקרופייבר להברקה מושלמת
+- Image: https://streetstock.co.il/assets/product-1780837757475-ec8q7h.webp
+
+### מטאטא יפני - 30 סמ קטן במיוחד
+https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-olqv2l
+- Price: 64.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב מג מטאטא יפני – מטאטא קסם, קטן במיוחד וקל משקל עם נוחות ממכרת קטן במיוחד ברוחב 30 ס"מ מתאים במיוחד לניקוי של פרווה ושיער גם משטיחים ומחצלות כולל מערכת לכידת אבק פטנטית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837757476-pcydpp.webp
+
+### מגב מפרקי סיליקון מתכוונן - 30 סמ
+https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-ipltx7
+- Price: 64.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מגב 30 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים מפרק מתכוונן לזווית גישה נוחה במיוחד מיוצר מיציקה אחת של 100% סיליקון איכותי מפרק גמיש המוגן בפטנט לזווית גריפה מושלמת משדרג את הניקיון בבית לרמה מקצועית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837757084-ozhy8e.webp
+
+### מטאטא קל משקל - 45 סמ רב מגב 2
+https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-m9e9la
+- Price: 64.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מג גומי חדשני ועוצמתי קל משקל במיוחד מצוין לניקוי של פרווה, שיער ועוד סיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך מיוצר מיציקה אחת של 100% גומי טבעי עם 6 שורות סיבים צפופים מצוייד בסיבים אלכסוניים לניקוי לאורך קירות שומר על הרהיטים, לא שורט את הרצפה מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837757084-vwhhik.webp
+
+### מנקה חלונות גבוהים - דור 2
+https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-fc7ahx
+- Price: 99.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: מנקה חלונות גבוהים במיוחד ראש גמיש בעל הפעולה הכפולה מאפשר גריפה וקרצוף מגיע עם מטלית מיקרופייבר איכותית מקל טלסקופי שמסוגל להגיע לגובה 177 ס”מ ידית קצרה נשלפת המאפשרת לנקות שמשות ברכב או משטחים נמוכים עשוי יציקה אחת 100% סיליקון מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837757084-im2ihd.webp
+
+### מגב מפרקי סיליקון מתכוונן - 45 סמ
+https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-5cca4y
+- Price: 74.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מגב 45 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים מפרק מתכוונן לזווית גישה נוחה במיוחד מיוצר מיציקה אחת של 100% סיליקון איכותי מפרק גמיש המוגן בפטנט לזווית גריפה מושלמת משדרג את הניקיון בבית לרמה מקצועית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837756932-mjr3z.webp
+
+### מגב קלאסי - מתאים לכל בית 60 סמ
+https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-x2cbdf
+- Price: 74.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מגב 60 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים מפרק גמיש המוגן בפטנט לזווית גריפה מושלמת מיוצר מיציקה אחת של 100% גומי איכותי לא מתבלה גם בעבודה אינטנסיבית משדרג את הניקיון בבית לרמה מקצועית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837756872-24ffd.webp
+
+### מטאטא סיליקון מפרקי - 45 סמ
+https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-4ne73f
+- Price: 74.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: מתאים לניקוי כל סוגי המשטחים רטובים או יבשים 2 ב-1 גם מטאטא וגם מגב כולל מערכת לכידת אבק פטנטית מצוייד בסיבים אלכסוניים לניקוי לאורך קירות מיוצר מיציקה אחת של 100% סיליקון איכותי עם 8 שורות סיבים צפופים מפרק מתכוונן לזווית גישה נוחה במיוחד מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837756877-ex7v5.webp
+
+### מטאטא מאסיבי - 45 סמ רב מגב 1
+https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-7cmrbw
+- Price: 64.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מג גומי בעל הפעולה הכפולה: גם מטאטא וגם מגב מצוין לניקוי של פרווה, שיער ועוד סיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך מיוצר מיציקה אחת של 100% גומי טבעי עם 9 שורות סיבים צפופים שומר על הרהיטים, לא שורט את הרצפה מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837756804-h8x35g.webp
+
+### מיני מבריקן - הפתרון האולטימטיבי לניקיון
+https://streetstock.co.il/product/myny-mbrykn-hptrvn-havltymtyby-lnykyvn-wjuu6b
+- Price: 99.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: הפתרון האולטימטיבי לניקיון – מבריק בקלות כל משטח. ניקיון בחצי מהזמן וללא מאמץ. מתאים לכל משטח – זכוכיות, דלתות, ארונות, משטחי נירוסטה ושיש בבית ובחוץ. 100% סיליקון – לא משאיר שום שריטה. 2 מטליות ניקוי אחת לקרצוף שניה להברקה. מגב סיליקון בילד אין – לתוצאות ניקוי מושלמות.
+- Image: https://streetstock.co.il/assets/product-1780837754407-r8ty0l.webp
+
+### מופי שמופי - מולטי מבריקן
+https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-3sh7ty
+- Price: 119.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: 2 ב 1 גם מבריקן וגם מגב במוצר אחד מתאים גם לגריפת מים וגם להברקה עם מטלית תוצאות גריפה מעולות גם בדחיפה וגם במשיכה של מים מבריק בקלות כל משטח 100% סיליקון לא משאיר שריטות מגיע עם 2 מטליות מיקרופייבר איכותיות מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837754310-g5r4e.webp
+
+### מבריקן - סיליקון
+https://streetstock.co.il/product/mbrykn-sylykvn-slfery
+- Price: 119.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: המופ הפטנטי מתגמש ומתכופף כדי שאתם לא תצטרכו מפרק ראש מסתובב 360° גוף עשוי יציקה אחת של 100% סיליקון מגיע עם 2 מטליות מיקרופייבר איכותיות במיוחד מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837754042-2n5bj0e.webp
+
+### מגב קלאסי סיליקון - מתאים לכל בית 60 סמ
+https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-dr423k
+- Price: 99.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מגב 60 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים מפרק גמיש המוגן בפטנט לזווית גריפה מושלמת מיוצר מיציקה אחת של 100% סיליקון איכותי לא מתבלה גם בעבודה אינטנסיבית משדרג את הניקיון בבית לרמה מקצועית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837754071-trbyks.webp
+
+### מגב קלאסי סיליקון - מתאים לכל בית 45 סמ
+https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-iiq3om
+- Price: 74.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים מפרק גמיש המוגן בפטנט לזווית גריפה מושלמת מיוצר מיציקה אחת של 100% סיליקון איכותי לא מתבלה גם בעבודה אינטנסיבית משדרג את הניקיון בבית לרמה מקצועית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837753963-ozbmyp.webp
+
+### מגב קלאסי - מתאים לכל בית 45 סמ
+https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-0x36z0
+- Price: 64.90 ILS
+- Availability: In stock
+- Category: טירולר
+- Description: רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים מפרק גמיש המוגן בפטנט לזווית גריפה מושלמת מיוצר מיציקה אחת של 100% גומי איכותי לא מתבלה גם בעבודה אינטנסיבית משדרג את הניקיון בבית לרמה מקצועית מגיע עם מקל של חברת טירולר
+- Image: https://streetstock.co.il/assets/product-1780837753954-kyr9u8.webp
+
+### סט 3 מזוודות בד דגם TOKYO
+חברת GIPRO צבע טורקיז
+https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-kbgw4e
+- Price: 499.90 ILS
+- Availability: In stock
+- Category: מזוודות 
+- Description: עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות רוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים ידית טלסקופית מתכווננת(מנגנון טרולי) ידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה שני כיסים חיצונים מקדמת המזוודה 8 גלגלים עשויים מגומי קשיח לנסיעה רכה מנעול קומבינציה 3 ספרות ארוז אחת בתוך השניה לחיסכון במקום גלגלים כפולים בכל הגדלים
+- Image: https://streetstock.co.il/assets/product-1781504304062-3u9pffj.webp
 
 ---
 
