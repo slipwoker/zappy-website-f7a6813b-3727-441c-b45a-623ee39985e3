@@ -1,10 +1,76 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:25:32.325Z",
+  "generated_at": "2026-07-15T06:22:37.249Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 458,
+  "count": 461,
   "products": [
+    {
+      "id": "ab6507ba-8b0e-4bf9-84fd-fb8cddfea887",
+      "slug": "bdykh-copy-copy-0fcq0x",
+      "name": "בדיקה (Copy) (Copy)",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 1,
+      "base_price": 1,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-enhanced-1784027981751-zgd4le.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/bdykh-copy-copy-0fcq0x",
+      "categories": [],
+      "updated_at": "2026-07-15T06:22:26.758Z"
+    },
+    {
+      "id": "0126193b-0a09-4500-baf6-bd6847362e84",
+      "slug": "bdykh-copy-a37pof",
+      "name": "בדיקה (Copy)",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 1,
+      "base_price": 1,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-enhanced-1784027981751-zgd4le.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/bdykh-copy-a37pof",
+      "categories": [],
+      "updated_at": "2026-07-14T13:31:32.846Z"
+    },
+    {
+      "id": "431aaa6a-8321-4b46-ab9f-d3d6a54c8179",
+      "slug": "bdykh-e96wlo",
+      "name": "בדיקה",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 1,
+      "base_price": 1,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-enhanced-1784027981751-zgd4le.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/bdykh-e96wlo",
+      "categories": [],
+      "updated_at": "2026-07-14T11:22:42.279Z"
+    },
     {
       "id": "803c1f59-b3d4-4783-b64a-30ff29dd4def",
       "slug": "zvg-mchlk-mgyrvt-m48trm",
