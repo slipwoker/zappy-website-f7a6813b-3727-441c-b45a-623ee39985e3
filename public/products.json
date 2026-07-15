@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:45:21.496Z",
+  "generated_at": "2026-07-15T06:22:34.502Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 460,
+  "count": 461,
   "products": [
+    {
+      "id": "ab6507ba-8b0e-4bf9-84fd-fb8cddfea887",
+      "slug": "bdykh-copy-copy-0fcq0x",
+      "name": "בדיקה (Copy) (Copy)",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 1,
+      "base_price": 1,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-enhanced-1784027981751-zgd4le.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/bdykh-copy-copy-0fcq0x",
+      "categories": [],
+      "updated_at": "2026-07-15T06:22:26.706Z"
+    },
     {
       "id": "0126193b-0a09-4500-baf6-bd6847362e84",
       "slug": "bdykh-copy-a37pof",
