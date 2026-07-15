@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:43:28.532Z",
+  "generated_at": "2026-07-15T06:44:33.795Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 495,
@@ -663,25 +663,27 @@
     },
     {
       "id": "1fe7ca3d-585b-434c-a14f-8aa28030012b",
-      "slug": "mchbt-ytsykt-alvmynyvm-20-sm-tsba-mvkh-lusso-y3govc",
-      "name": "מחבת יציקת אלומיניום 20 ס\"מ צבע מוקה LUSSO",
+      "slug": "mchbt-ytsykt-alvmynyvm-28-sm-tsba-mvkh-lusso-nea3di",
+      "name": "מחבת יציקת אלומיניום 28 ס\"מ צבע מוקה LUSSO",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 39.9,
-      "base_price": 39.9,
+      "price": 59.9,
+      "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784097823981-el4gxi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-mvkh-lusso-y3govc",
+      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-mvkh-lusso-nea3di",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:30:07.554Z"
+      "updated_at": "2026-07-15T06:43:53.975Z"
     },
     {
       "id": "5a994741-1509-42a5-84c8-df953917b16c",

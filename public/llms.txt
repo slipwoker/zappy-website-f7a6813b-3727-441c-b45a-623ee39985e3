@@ -266,11 +266,12 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-apvr-lusso-x
 - Availability: In stock
 - Category: סירים ומחבתות
 
-### מחבת יציקת אלומיניום 20 ס"מ צבע מוקה LUSSO
-https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-mvkh-lusso-y3govc
-- Price: 39.90 ILS
+### מחבת יציקת אלומיניום 28 ס"מ צבע מוקה LUSSO
+https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-mvkh-lusso-nea3di
+- Price: 59.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
+- Image: https://streetstock.co.il/assets/product-1784097823981-el4gxi.webp
 
 ### סיר סוטאז' יציקת אלומיניום 28 ס"מ צבע מוקה סדרת LUSSO
 https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-hy1nze
