@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:38:48.027Z",
+  "generated_at": "2026-07-15T05:39:20.587Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 463,
+  "count": 461,
   "products": [
     {
       "id": "0126193b-0a09-4500-baf6-bd6847362e84",
@@ -5912,30 +5912,6 @@
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
-      "id": "59af7873-1680-4a88-ac12-e4a1d7b5065d",
-      "slug": "skvmvn-agvl-shchvr-l-lmbec9",
-      "name": "סכומון עגול שחור L",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7290121561778",
-      "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837712054-zi55z.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-agvl-shchvr-l-lmbec9",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
       "id": "3113db7c-297b-4ebc-a514-f6f7bf48cadf",
       "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-jrvfus",
       "name": "מתלה כביסה טלסקופי דגם DANNY צבע שחור",
@@ -5958,30 +5934,6 @@
         "מתקני כביסה"
       ],
       "updated_at": "2026-06-15T08:40:42.619Z"
-    },
-    {
-      "id": "5ce84e01-aac0-49c3-9ee4-0903057a37fb",
-      "slug": "skvmvn-mlbn-mchvlk-lshtyym-gsszs9",
-      "name": "סכומון מלבן מחולק לשתיים",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7290121561785",
-      "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837712216-mkfm2h.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-gsszs9",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
       "id": "20d30670-fbda-4c28-b017-7d68d6b305c8",

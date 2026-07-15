@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 15 Jul 2026 05:38:48 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 05:39:20 GMT</lastBuildDate>
     <item>
       <g:id>0126193b-0a09-4500-baf6-bd6847362e84</g:id>
       <g:title>בדיקה (Copy)</g:title>
@@ -4084,19 +4084,6 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>59af7873-1680-4a88-ac12-e4a1d7b5065d</g:id>
-      <g:title>סכומון עגול שחור L</g:title>
-      <g:description>כלי בית</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-agvl-shchvr-l-lmbec9</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837712054-zi55z.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561778</g:mpn>
-      <g:product_type>כלי בית</g:product_type>
-    </item>
-    <item>
       <g:id>3113db7c-297b-4ebc-a514-f6f7bf48cadf</g:id>
       <g:title>מתלה כביסה טלסקופי דגם DANNY צבע שחור</g:title>
       <g:description>מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר. המתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים. העיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר. מתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד. פתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.</g:description>
@@ -4108,19 +4095,6 @@
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561006</g:mpn>
       <g:product_type>מתקני כביסה</g:product_type>
-    </item>
-    <item>
-      <g:id>5ce84e01-aac0-49c3-9ee4-0903057a37fb</g:id>
-      <g:title>סכומון מלבן מחולק לשתיים</g:title>
-      <g:description>כלי בית</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-gsszs9</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837712216-mkfm2h.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>24.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561785</g:mpn>
-      <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
       <g:id>20d30670-fbda-4c28-b017-7d68d6b305c8</g:id>

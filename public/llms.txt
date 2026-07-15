@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 463** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 461** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### בדיקה (Copy)
 https://streetstock.co.il/product/bdykh-copy-a37pof
