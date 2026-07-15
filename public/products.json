@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:51:07.603Z",
+  "generated_at": "2026-07-15T06:51:56.038Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -117,7 +117,7 @@
     },
     {
       "id": "62c3c9b8-166c-4481-91ef-990d698559a6",
-      "slug": "mshtch-chytvk-nyrvsth-zhb-39x28-sm-id853-24-rk31sl",
+      "slug": "mshtch-chytvk-nyrvsth-zhb-39x28-sm-id853-24-h0be7p",
       "name": "משטח חיתוך נירוסטה זהב\n39X28 ס\"מ ID853 (24)",
       "name_translations": {},
       "description": "",
@@ -128,14 +128,16 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098268400-k1oc1f.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-39x28-sm-id853-24-rk31sl",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-39x28-sm-id853-24-h0be7p",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:13.081Z"
+      "updated_at": "2026-07-15T06:51:22.687Z"
     },
     {
       "id": "807b97c2-8683-4ab7-811d-a0f060a37b89",
