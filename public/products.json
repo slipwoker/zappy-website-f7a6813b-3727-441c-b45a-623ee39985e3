@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:00:22.498Z",
+  "generated_at": "2026-07-15T07:02:05.019Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -397,8 +397,8 @@
     },
     {
       "id": "b6a76ad1-6a8a-4804-a237-54564c6c9537",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-aromelle-id855-12-53kyb2",
-      "name": "דיספנסר לסבון + מעמד לסקוץ צבע בז' דגם AROMELLE\nID855 (12)",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-aromelle-id855-1cv113",
+      "name": "דיספנסר לסבון + מעמד לסקוץ צבע בז' דגם AROMELLE ID855 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -413,17 +413,17 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-aromelle-id855-12-53kyb2",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-aromelle-id855-1cv113",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:59:49.691Z"
+      "updated_at": "2026-07-15T07:00:59.019Z"
     },
     {
       "id": "12840ece-be5d-401f-87e0-ba12342a06bb",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-aromelle-id855-12-kloog8",
-      "name": "דיספנסר לסבון + מעמד לסקוץ צבע שחור דגם AROMELLE\nID855 (12)",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-aromelle-id855-fa7eg6",
+      "name": "דיספנסר לסבון + מעמד לסקוץ צבע שחור דגם AROMELLE ID855",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -433,20 +433,22 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098808895-g6v234.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-aromelle-id855-12-kloog8",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-aromelle-id855-fa7eg6",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:09.340Z"
+      "updated_at": "2026-07-15T07:01:12.186Z"
     },
     {
       "id": "69e63a0f-f19f-4efe-b50b-019c7c029cea",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-12-2x3vat",
-      "name": "דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם AROMELLE\nID854 (12)",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-y2ov5v",
+      "name": "דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם AROMELLE ID854 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -456,15 +458,17 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098905300-fbghjn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-12-2x3vat",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-y2ov5v",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:09.335Z"
+      "updated_at": "2026-07-15T07:02:03.209Z"
     },
     {
       "id": "0179d155-06be-47c5-9126-c9900ae55768",
