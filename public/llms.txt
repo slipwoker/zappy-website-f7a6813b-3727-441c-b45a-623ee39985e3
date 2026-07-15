@@ -122,19 +122,19 @@ https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-20x30-sm-id851-24-m0
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1784098230315-2z2ya.webp
 
-### כוס למברשת שיניים צבע בז' דגם NIVORA
-ID865 (12)
-https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-12-6963cy
+### כוס למברשת שיניים צבע בז' דגם NIVORA ID865 
+https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-yat7nq
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: דיספנסרים
+- Image: https://streetstock.co.il/assets/product-1784098943562-05btte.webp
 
-### כוס למברשת שיניים צבע שחור דגם NIVORA
-ID861 (12)
-https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-shchvr-dgm-nivora-id861-12-zc3tgb
+### כוס למברשת שיניים צבע שחור דגם NIVORA ID861 
+https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-shchvr-dgm-nivora-id861-f4mazp
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: דיספנסרים
+- Image: https://streetstock.co.il/assets/product-1784098977214-aerigo.webp
 
 ### כוס למברשת שיניים צבע לבן דגם NIVORA
 ID863 (12)

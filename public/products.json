@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:02:36.019Z",
+  "generated_at": "2026-07-15T07:03:38.909Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -167,8 +167,8 @@
     },
     {
       "id": "c95ac36e-56e5-481f-aa65-4a5cc3955dae",
-      "slug": "kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-12-6963cy",
-      "name": "כוס למברשת שיניים צבע בז' דגם NIVORA\nID865 (12)",
+      "slug": "kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-yat7nq",
+      "name": "כוס למברשת שיניים צבע בז' דגם NIVORA ID865 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -178,20 +178,22 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098943562-05btte.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-12-6963cy",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-yat7nq",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.341Z"
+      "updated_at": "2026-07-15T07:02:36.584Z"
     },
     {
       "id": "c7d6d6c4-2a40-4efd-9994-924cfb6ecefc",
-      "slug": "kvs-lmbrsht-shynyym-tsba-shchvr-dgm-nivora-id861-12-zc3tgb",
-      "name": "כוס למברשת שיניים צבע שחור דגם NIVORA\nID861 (12)",
+      "slug": "kvs-lmbrsht-shynyym-tsba-shchvr-dgm-nivora-id861-f4mazp",
+      "name": "כוס למברשת שיניים צבע שחור דגם NIVORA ID861 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -201,15 +203,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098977214-aerigo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-shchvr-dgm-nivora-id861-12-zc3tgb",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-shchvr-dgm-nivora-id861-f4mazp",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.329Z"
+      "updated_at": "2026-07-15T07:03:05.969Z"
     },
     {
       "id": "b1bef982-603d-41ee-999b-63c40253f30e",
