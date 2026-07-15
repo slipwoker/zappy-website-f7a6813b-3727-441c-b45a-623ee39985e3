@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:50:29.370Z",
+  "generated_at": "2026-07-15T06:51:16.806Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -139,7 +139,7 @@
     },
     {
       "id": "807b97c2-8683-4ab7-811d-a0f060a37b89",
-      "slug": "mshtch-chytvk-nyrvsth-zhb-20x30-sm-id851-24-kh7dv7",
+      "slug": "mshtch-chytvk-nyrvsth-zhb-20x30-sm-id851-24-m0vs6c",
       "name": "משטח חיתוך נירוסטה זהב\n20X30 ס\"מ ID851 (24)",
       "name_translations": {},
       "description": "",
@@ -150,14 +150,16 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784098230315-2z2ya.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-20x30-sm-id851-24-kh7dv7",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-zhb-20x30-sm-id851-24-m0vs6c",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:13.075Z"
+      "updated_at": "2026-07-15T06:50:44.183Z"
     },
     {
       "id": "c95ac36e-56e5-481f-aa65-4a5cc3955dae",
