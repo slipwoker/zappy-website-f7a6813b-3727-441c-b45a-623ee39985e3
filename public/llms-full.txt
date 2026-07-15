@@ -6,14 +6,12 @@ Source: https://streetstock.co.il
 
 ---
 
-## wall street stocks — Street Stock
+## Street Stock - סטריט סטוק
 
 URL: https://streetstock.co.il
-Description: Street Stock is an online stock store based in Ashkelon, Israel, offering a wide variety of discounted household products including home goods, furniture, pharm
+Description: Street Stock היא חנות הסטוק האונליין שלך לכל צרכי הבית — פועלים מאשקלון ומגיעים לכל הארץ. אנחנו מאמינים שכל בית ראוי לקבל מוצרים איכותיים במחיר שהגיוני, בלי פשרות ובלי סיבוכים.
 
-wall street stocks — Street Stock
-
-
+Street Stock - סטריט סטוק
 
 
 
@@ -43,6 +41,14 @@ wall street stocks — Street Stock
 
 
 
+
+
+
+
+
+
+
+סט מצעים 2 ב 399.90 ש"ח
 
 
 
@@ -473,14 +479,12 @@ CTRL+F2
 
 ---
 
-## אודות Street Stock — Street Stock
+## אודות Street Stock
 
 URL: https://streetstock.co.il/about
-Description: אודות Street Stock | Street Stock. wall street stocks
+Description: אודות street stocks
 
-אודות Street Stock — Street Stock
-
-
+אודות Street Stock
 
 
 
@@ -510,6 +514,14 @@ Description: אודות Street Stock | Street Stock. wall street stocks
 
 
 
+
+
+
+
+
+
+
+סט מצעים 2 ב 399.90 ש"ח
 
 
 
