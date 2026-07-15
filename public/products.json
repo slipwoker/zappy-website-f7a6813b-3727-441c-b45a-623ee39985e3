@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:06:15.654Z",
+  "generated_at": "2026-07-15T07:07:04.350Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -386,8 +386,8 @@
     },
     {
       "id": "5d1d92b3-0942-4b28-85b4-88552272df0a",
-      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-12-w9w1nc",
-      "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA\nID870 (12)",
+      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-yzxc0p",
+      "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -397,15 +397,17 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099174524-b03xdg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-12-w9w1nc",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-yzxc0p",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:11.118Z"
+      "updated_at": "2026-07-15T07:06:31.177Z"
     },
     {
       "id": "b6a76ad1-6a8a-4804-a237-54564c6c9537",
@@ -509,8 +511,8 @@
     },
     {
       "id": "3ac224c7-8fca-4a80-af1b-04b781339761",
-      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-12-ygsve3",
-      "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA\nID869 (12)",
+      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-hyjiuc",
+      "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -520,15 +522,17 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099206669-0c4fcl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-12-ygsve3",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-hyjiuc",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:09.327Z"
+      "updated_at": "2026-07-15T07:06:55.444Z"
     },
     {
       "id": "26d6a582-6ad2-4b85-91ac-4e8066311b41",
