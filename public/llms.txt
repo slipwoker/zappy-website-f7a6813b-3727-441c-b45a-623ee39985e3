@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 492** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 491** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### משטח חיתוך פלסטיק מקצועי
 24.5X40.5 ס"מ
@@ -666,14 +666,6 @@ https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-bw6e0g
 - Category: ארגוניות אקריל
 - Description: ארגונית מגירה אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.
 - Image: https://streetstock.co.il/assets/product-1781614175177-yo72.webp
-
-### סט 3 ארגוניות מגירה דגם "CARMEL" מידה XL
-https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-xl-m287hs
-- Price: 119.90 ILS
-- Availability: In stock
-- Category: ארגוניות אקריל
-- Description: ארגונית מגירה אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.
-- Image: https://streetstock.co.il/assets/product-1781614240109-z02djb.webp
 
 ### ארגונית אקרילית דגם "ANAT"
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-anat-zzujpi
@@ -1622,6 +1614,14 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-26grc0
 - Category: סט מצעים 100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745493-r4rsl.webp
+
+### סט מצעים כותנה דגם איזבל צבע מוקה
+https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-f552wn
+- Price: 249.90 ILS
+- Availability: In stock
+- Category: סט מצעים 100% כותנה
+- Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
+- Image: https://streetstock.co.il/assets/product-1780837745450-eq1lg8.webp
 
 ---
 
