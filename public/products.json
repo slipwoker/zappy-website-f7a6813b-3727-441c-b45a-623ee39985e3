@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T07:07:04.350Z",
+  "generated_at": "2026-07-15T07:07:28.129Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 497,
@@ -536,8 +536,8 @@
     },
     {
       "id": "26d6a582-6ad2-4b85-91ac-4e8066311b41",
-      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-bz-dgm-kitchyra-id871-12-rg9q0q",
-      "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע בז' דגם KITCHYRA\nID871 (12)",
+      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-bz-dgm-kitchyra-id871-j97i4x",
+      "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע בז' דגם KITCHYRA ID871",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -547,15 +547,17 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784099229898-ngyryk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-bz-dgm-kitchyra-id871-12-rg9q0q",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-bz-dgm-kitchyra-id871-j97i4x",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T06:30:09.327Z"
+      "updated_at": "2026-07-15T07:07:20.278Z"
     },
     {
       "id": "a4bc5b61-64aa-494f-80a4-755e7c779a49",
