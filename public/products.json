@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:43:31.131Z",
+  "generated_at": "2026-07-15T05:44:11.199Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 461,
@@ -6905,10 +6905,10 @@
     },
     {
       "id": "4b3ff3bd-5c2a-4d42-983a-660d0fd86df9",
-      "slug": "marz-6-klypsym-lsgyrh-vaytvm-tgv6p6",
+      "slug": "marz-6-klypsym-lsgyrh-vaytvm-d7ahv8",
       "name": "מארז 6 קליפסים לסגירה ואיטום \r\n",
       "name_translations": {},
-      "description": "כללי",
+      "description": "<p>כללי</p>",
       "short_description": null,
       "sku": "7290121562348",
       "brand": null,
@@ -6917,15 +6917,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837694985-wf0nah.webp"
+        "https://streetstock.co.il/assets/product-1784094204476-yarz7l.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-6-klypsym-lsgyrh-vaytvm-tgv6p6",
+      "url": "https://streetstock.co.il/product/marz-6-klypsym-lsgyrh-vaytvm-d7ahv8",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-15T05:43:38.319Z"
     },
     {
       "id": "cfa768c8-d626-4b5d-9012-9c765a03013f",
