@@ -1,54 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:24:58.787Z",
+  "generated_at": "2026-07-15T06:25:32.325Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 460,
+  "count": 458,
   "products": [
-    {
-      "id": "0126193b-0a09-4500-baf6-bd6847362e84",
-      "slug": "bdykh-copy-a37pof",
-      "name": "בדיקה (Copy)",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 1,
-      "base_price": 1,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-enhanced-1784027981751-zgd4le.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bdykh-copy-a37pof",
-      "categories": [],
-      "updated_at": "2026-07-14T13:31:32.846Z"
-    },
-    {
-      "id": "431aaa6a-8321-4b46-ab9f-d3d6a54c8179",
-      "slug": "bdykh-e96wlo",
-      "name": "בדיקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 1,
-      "base_price": 1,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-enhanced-1784027981751-zgd4le.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bdykh-e96wlo",
-      "categories": [],
-      "updated_at": "2026-07-14T11:22:42.279Z"
-    },
     {
       "id": "803c1f59-b3d4-4783-b64a-30ff29dd4def",
       "slug": "zvg-mchlk-mgyrvt-m48trm",
