@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:40:54.737Z",
+  "generated_at": "2026-07-15T06:41:52.212Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 495,
@@ -685,7 +685,7 @@
     },
     {
       "id": "5a994741-1509-42a5-84c8-df953917b16c",
-      "slug": "syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-ugrdzf",
+      "slug": "syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-hy1nze",
       "name": "סיר סוטאז' יציקת אלומיניום 28 ס\"מ צבע מוקה סדרת LUSSO",
       "name_translations": {},
       "description": "",
@@ -696,14 +696,16 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784097670137-bkc9uq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-ugrdzf",
+      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-hy1nze",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:30:07.550Z"
+      "updated_at": "2026-07-15T06:41:19.551Z"
     },
     {
       "id": "0a3dc9ec-450e-4d80-8f9a-623c35db2070",
