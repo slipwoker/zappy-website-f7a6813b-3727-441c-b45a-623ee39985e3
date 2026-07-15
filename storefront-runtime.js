@@ -12677,11 +12677,12 @@ async function loadRelatedProducts(currentProduct, t) {
 /* END ZAPPY_PUBLISHED_LIGHTBOX_RUNTIME */
 
 
-/* ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME_V3 */
+/* ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME_V4 */
 (function(){
   try {
-    if (window.__zappyPublishedZoomInitV3) return;
-    window.__zappyPublishedZoomInitV3 = true;
+    if (window.__zappyPublishedZoomInitV4) return;
+    window.__zappyPublishedZoomInitV4 = true;
+    window.__zappyPublishedZoomInitV3 = true; // legacy guard — keep stale V3 copies inert
 
     function isHeroBgWrapper(wrapper) {
       var img = wrapper.querySelector('img');
@@ -12695,14 +12696,25 @@ async function loadRelatedProducts(currentProduct, t) {
 
     // SYNC: These helpers must match sharedZoomCropMath.js
     function parseObjPos(op) {
-      var x = 50, y = 50;
+      var x = null, y = null;
       try {
-        if (typeof op === 'string') {
-          var m = op.match(/(-?\d+(?:\.\d+)?)%\s+(-?\d+(?:\.\d+)?)%/);
-          if (m) { x = parseFloat(m[1]); y = parseFloat(m[2]); }
+        if (typeof op === 'string' && op.trim()) {
+          var tokens = op.trim().toLowerCase().split(/\s+/).slice(0, 2);
+          for (var i = 0; i < tokens.length; i++) {
+            var tok = tokens[i];
+            var val;
+            if (tok === 'left') { x = 0; continue; }
+            if (tok === 'right') { x = 100; continue; }
+            if (tok === 'top') { y = 0; continue; }
+            if (tok === 'bottom') { y = 100; continue; }
+            if (tok === 'center') val = 50;
+            else if (/^-?\d*\.?\d+%$/.test(tok)) val = parseFloat(tok);
+            else val = 50;
+            if (x === null) x = val; else if (y === null) y = val;
+          }
         }
       } catch (e) {}
-      if (!isFinite(x)) x = 50; if (!isFinite(y)) y = 50;
+      if (x === null || !isFinite(x)) x = 50; if (y === null || !isFinite(y)) y = 50;
       return { x: Math.max(0, Math.min(100, x)), y: Math.max(0, Math.min(100, y)) };
     }
 
@@ -13251,6 +13263,9 @@ async function loadRelatedProducts(currentProduct, t) {
       for (var j = 0; j < zoomImgs.length; j++) {
         var img = zoomImgs[j];
         if (img.closest && img.closest('[data-zappy-zoom-wrapper="true"]')) continue;
+        // Carousel slide imgs are absolute cover-fill inside their slide —
+        // forcing position:relative + max-height here would collapse the slide.
+        if (img.closest && img.closest('.zappy-carousel-slide')) continue;
         img.style.setProperty('position', 'relative', 'important');
         img.style.setProperty('width', '100%', 'important');
         img.style.setProperty('height', 'auto', 'important');
@@ -13331,8 +13346,32 @@ async function loadRelatedProducts(currentProduct, t) {
           if (mSrc) img.src = mSrc;
           if (mPos) img.style.setProperty('object-position', mPos, 'important');
           if (mZoom > 1) {
-            img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
-            img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+            // Match the editor's wrapper-crop geometry (percentage pan window)
+            // instead of transform:scale — the scale path zooms around the
+            // focal point of the already-cropped view, which visibly diverges
+            // from what the user framed in the editor's Mobile Only tab.
+            var applyHeroMobileCrop = function() {
+              var rect = wrapper.getBoundingClientRect();
+              var nW = img.naturalWidth || 0, nH = img.naturalHeight || 0;
+              if (!rect || !rect.width || !rect.height || !(nW > 0 && nH > 0)) {
+                img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
+                img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+                return;
+              }
+              var cover = coverPercents(nW / nH, rect.width / rect.height);
+              var wP = cover.w * mZoom, hP = cover.h * mZoom;
+              var p = parseObjPos(mPos || img.getAttribute('data-zappy-object-position') || '50% 50%');
+              img.style.setProperty('position', 'absolute', 'important');
+              img.style.setProperty('left', ((100 - wP) * (p.x / 100)) + '%', 'important');
+              img.style.setProperty('top', ((100 - hP) * (p.y / 100)) + '%', 'important');
+              img.style.setProperty('width', wP + '%', 'important');
+              img.style.setProperty('height', hP + '%', 'important');
+              img.style.setProperty('object-fit', 'cover', 'important');
+              img.style.removeProperty('transform');
+              img.style.removeProperty('transform-origin');
+            };
+            if (img.complete && img.naturalWidth > 0) applyHeroMobileCrop();
+            else img.addEventListener('load', applyHeroMobileCrop, { once: true });
           }
         }
       }
@@ -13370,14 +13409,85 @@ async function loadRelatedProducts(currentProduct, t) {
 /* END ZAPPY_PUBLISHED_ZOOM_WRAPPER_RUNTIME */
 
 
-/* ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V2 */
+/* ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V3 */
 (function(){
   try {
-    if (window.__zappyMobileImageSwapInitV2) return;
-    window.__zappyMobileImageSwapInitV2 = true;
+    if (window.__zappyMobileImageSwapInitV3) return;
+    window.__zappyMobileImageSwapInitV3 = true;
+    window.__zappyMobileImageSwapInitV2 = true; // keep stale V2 copies inert
     var SEL = 'img[data-zappy-mobile-src],img[data-zappy-mobile-object-position],img[data-zappy-mobile-zoom]';
     var applied = false;
     function standalone(img){ return img && !img.closest('[data-zappy-zoom-wrapper="true"]'); }
+    // SYNC: must match sharedZoomCropMath.js
+    function parseOp(op){
+      var x=null,y=null;
+      try{
+        if(typeof op==='string'&&op.trim()){
+          var toks=op.trim().toLowerCase().split(/\s+/).slice(0,2);
+          for(var i=0;i<toks.length;i++){
+            var tk=toks[i],v;
+            if(tk==='left'){x=0;continue;} if(tk==='right'){x=100;continue;}
+            if(tk==='top'){y=0;continue;} if(tk==='bottom'){y=100;continue;}
+            if(tk==='center')v=50; else if(/^-?\d*\.?\d+%$/.test(tk))v=parseFloat(tk); else v=50;
+            if(x===null)x=v; else if(y===null)y=v;
+          }
+        }
+      }catch(e){}
+      if(x===null||!isFinite(x))x=50; if(y===null||!isFinite(y))y=50;
+      return {x:Math.max(0,Math.min(100,x)),y:Math.max(0,Math.min(100,y))};
+    }
+    // Editor-parity mobile zoom: reproduce the zoom-wrapper crop geometry
+    // using the img's PARENT as the crop box (the editor builds a transient
+    // wrapper in preview, but cleanSectionHtmlForSave removes it when desktop
+    // needs no zoom — so a mobile-only zoom ships as a standalone img).
+    // Falls back to the legacy transform:scale approximation whenever the
+    // geometry can't be measured, so something always applies.
+    function applyStandaloneMobileZoom(img, mZoom, mPos){
+      try {
+        var p = img.parentElement;
+        if (!p) return;
+        if (!p._zappyDesktop) p._zappyDesktop = { style: p.getAttribute('style') };
+        p.style.setProperty('overflow', 'hidden', 'important');
+        function legacyScale(){
+          img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
+          img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
+        }
+        function run(){
+          try {
+            var rect = p.getBoundingClientRect ? p.getBoundingClientRect() : null;
+            var nW = img.naturalWidth || 0, nH = img.naturalHeight || 0;
+            if (!rect || !(rect.width > 0) || !(rect.height > 0) || !(nW > 0 && nH > 0)) { legacyScale(); return; }
+            // Lock the parent's current box BEFORE pulling the img out of flow,
+            // otherwise the parent collapses when the img was its height source.
+            try {
+              var pcs = window.getComputedStyle(p);
+              if (pcs && pcs.position === 'static') p.style.setProperty('position', 'relative', 'important');
+              p.style.setProperty('aspect-ratio', String(Math.round((rect.width / rect.height) * 10000) / 10000), 'important');
+            } catch(e0) {}
+            var imgA = nW / nH, contA = rect.width / rect.height;
+            var cw = 100, ch = 100;
+            if (imgA >= contA) { cw = (imgA / contA) * 100; } else { ch = (contA / imgA) * 100; }
+            var wP = cw * mZoom, hP = ch * mZoom;
+            var pos = parseOp(mPos || img.getAttribute('data-zappy-object-position') || '50% 50%');
+            img.style.setProperty('position', 'absolute', 'important');
+            img.style.setProperty('left', ((100 - wP) * (pos.x / 100)) + '%', 'important');
+            img.style.setProperty('top', ((100 - hP) * (pos.y / 100)) + '%', 'important');
+            img.style.setProperty('width', wP + '%', 'important');
+            img.style.setProperty('height', hP + '%', 'important');
+            img.style.setProperty('max-width', 'none', 'important');
+            img.style.setProperty('max-height', 'none', 'important');
+            img.style.setProperty('object-fit', 'cover', 'important');
+            img.style.setProperty('margin', '0', 'important');
+            if (img.style.removeProperty) { img.style.removeProperty('transform'); img.style.removeProperty('transform-origin'); }
+          } catch(e1) { try { legacyScale(); } catch(e2) {} }
+        }
+        if (img.complete && img.naturalWidth > 0) run();
+        else if (typeof img.addEventListener === 'function') {
+          legacyScale(); // immediate approximation, refined once dimensions load
+          img.addEventListener('load', run, { once: true });
+        } else legacyScale();
+      } catch(eZ) {}
+    }
     function applyMobile(){
       if (applied) return; applied = true;
       document.querySelectorAll(SEL).forEach(function(img){
@@ -13389,13 +13499,7 @@ async function loadRelatedProducts(currentProduct, t) {
         if (mSrc) img.src = mSrc;
         if (mPos) img.style.setProperty('object-position', mPos, 'important');
         if (isFinite(mZoom) && mZoom > 1) {
-          img.style.setProperty('transform', 'scale(' + mZoom + ')', 'important');
-          img.style.setProperty('transform-origin', mPos || '50% 50%', 'important');
-          var p = img.parentElement;
-          if (p) {
-            if (!p._zappyDesktop) p._zappyDesktop = { style: p.getAttribute('style') };
-            p.style.setProperty('overflow', 'hidden', 'important');
-          }
+          applyStandaloneMobileZoom(img, mZoom, mPos);
         }
       });
     }
@@ -13428,7 +13532,7 @@ async function loadRelatedProducts(currentProduct, t) {
     else init();
   } catch (eOuter) {}
 })();
-/* END ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V2 */
+/* END ZAPPY_PUBLISHED_MOBILE_IMAGE_SWAP_V3 */
 
 
 /* ZAPPY_MOBILE_MENU_TOGGLE_V3 */
