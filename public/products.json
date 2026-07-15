@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:39:44.898Z",
+  "generated_at": "2026-07-15T05:41:04.425Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 461,
@@ -7172,10 +7172,10 @@
     },
     {
       "id": "83db2145-84d5-440d-a267-5bcf0a1dcf5b",
-      "slug": "skvmyt-mgyrh-ats-mtkvvnnt-d1xvf3",
+      "slug": "skvmyt-mgyrh-ats-mtkvvnnt-3uf67j",
       "name": "סכומית מגירה עץ מתכווננת \r\n",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121562300",
       "brand": null,
@@ -7184,15 +7184,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837690032-tz1q0c.webp"
+        "https://streetstock.co.il/assets/product-1784094015348-xf297e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-ats-mtkvvnnt-d1xvf3",
+      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-ats-mtkvvnnt-3uf67j",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-15T05:40:30.670Z"
     },
     {
       "id": "26d35378-de45-4339-a255-ca7cb1f28ae3",
