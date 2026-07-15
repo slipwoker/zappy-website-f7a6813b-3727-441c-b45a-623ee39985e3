@@ -9271,24 +9271,6 @@ SKU: 7290121560269
 
 ---
 
-### עגלת שירות 3 קומות שחור דגם CALIRFONIA
-URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6
-Price: 129.90 ILS
-Availability: In stock
-SKU: 7290121565110
-
----
-
-### עגלת שירות 3 קומות לבן דגם CALIRFONIA
-URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-lbn-dgm-calirfonia-2xeheg
-Price: 129.90 ILS
-Availability: In stock
-SKU: 7290121565103
-
-עגלות שירות
-
----
-
 ### עגלת שירות 4 קומות שחור דגם ARIZONA
 URL: https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-q1n5sp
 Price: 179.90 ILS
