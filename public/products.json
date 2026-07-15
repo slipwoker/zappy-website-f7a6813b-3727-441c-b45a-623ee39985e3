@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T05:41:04.425Z",
+  "generated_at": "2026-07-15T05:41:54.353Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 461,
@@ -7124,10 +7124,10 @@
     },
     {
       "id": "3d527cd9-a30d-4c55-9811-cc05ff920662",
-      "slug": "tchtyt-ats-bmbvk-mrvbat-tgzjrn",
+      "slug": "tchtyt-ats-bmbvk-mrvbat-x99ecg",
       "name": "תחתית עץ במבוק מרובעת\r\n",
       "name_translations": {},
-      "description": "כלי בית",
+      "description": "<p>כלי בית</p>",
       "short_description": null,
       "sku": "7290121562393",
       "brand": null,
@@ -7136,15 +7136,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837690028-rhfls.webp"
+        "https://streetstock.co.il/assets/product-1784094061036-gxrf8k.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tchtyt-ats-bmbvk-mrvbat-tgzjrn",
+      "url": "https://streetstock.co.il/product/tchtyt-ats-bmbvk-mrvbat-x99ecg",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-15T05:41:21.170Z"
     },
     {
       "id": "e00cd086-2e3a-4668-923f-ce031a97c414",
