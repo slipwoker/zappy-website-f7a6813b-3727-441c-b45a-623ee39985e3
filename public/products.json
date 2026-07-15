@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-15T06:45:09.311Z",
+  "generated_at": "2026-07-15T06:44:56.703Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 495,
@@ -619,7 +619,7 @@
     },
     {
       "id": "31538814-a65e-4401-ac19-2f237fa24abf",
-      "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-1g60u0",
+      "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-mz6684",
       "name": "מחבת יציקת אלומיניום 24 ס\"מ צבע אפור LUSSO",
       "name_translations": {},
       "description": "",
@@ -630,16 +630,14 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784097888295-5dqnml.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-1g60u0",
+      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-mz6684",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:45:08.412Z"
+      "updated_at": "2026-07-15T06:30:07.592Z"
     },
     {
       "id": "c96d1e93-54ac-44ed-a020-6b6eabd3b2d2",
