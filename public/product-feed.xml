@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 15 Jul 2026 06:44:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 06:46:35 GMT</lastBuildDate>
     <item>
       <g:id>92a2612d-3794-43a1-8847-b12f096f392b</g:id>
       <g:title>משטח חיתוך פלסטיק מקצועי
@@ -343,7 +343,8 @@ ID871 (12)</g:title>
       <g:id>6b2f6ffa-b102-46d6-80c1-23ea3d75c737</g:id>
       <g:title>מחבת יציקת אלומיניום 28 ס&quot;מ צבע אפור LUSSO</g:title>
       <g:description>מחבת יציקת אלומיניום 28 ס&quot;מ צבע אפור LUSSO</g:description>
-      <g:link>https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-apvr-lusso-s38wl7</g:link>
+      <g:link>https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-apvr-lusso-6iwaot</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1784097925621-r4ijr.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>59.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -355,7 +356,8 @@ ID871 (12)</g:title>
       <g:id>31538814-a65e-4401-ac19-2f237fa24abf</g:id>
       <g:title>מחבת יציקת אלומיניום 24 ס&quot;מ צבע אפור LUSSO</g:title>
       <g:description>מחבת יציקת אלומיניום 24 ס&quot;מ צבע אפור LUSSO</g:description>
-      <g:link>https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-mz6684</g:link>
+      <g:link>https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-1g60u0</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1784097888295-5dqnml.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>49.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -4533,6 +4535,34 @@ ID871 (12)</g:title>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562263</g:mpn>
       <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>1b215d23-1302-48fc-881c-5b7f7a95dff6</g:id>
+      <g:title>סט פח + מברשת אסלה דגם LUNARIA
+ צבע לבן</g:title>
+      <g:description>פחי שירותים, פחי אמבטיה</g:description>
+      <g:link>https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-x1x2pe</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781504519609-aim2pk.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>79.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561945</g:mpn>
+      <g:product_type>פחי שירותים</g:product_type>
+    </item>
+    <item>
+      <g:id>7816aa98-d733-4305-b5d8-cbd50970461b</g:id>
+      <g:title>סט פח + מברשת אסלה דגם LUNARIA
+ צבע שחור</g:title>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-wru7za</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781439801376-duodoo.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>79.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121561938</g:mpn>
+      <g:product_type>פחי שירותים</g:product_type>
     </item>
     <item>
       <g:id>3113db7c-297b-4ebc-a514-f6f7bf48cadf</g:id>

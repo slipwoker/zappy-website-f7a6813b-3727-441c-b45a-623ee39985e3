@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 495** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 497** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### משטח חיתוך פלסטיק מקצועי
 24.5X40.5 ס"מ
@@ -249,16 +249,18 @@ https://streetstock.co.il/product/marz-10-kvlby-ktyph-krm-adodsz
 - Category: כללי
 
 ### מחבת יציקת אלומיניום 28 ס"מ צבע אפור LUSSO
-https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-apvr-lusso-s38wl7
+https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-apvr-lusso-6iwaot
 - Price: 59.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
+- Image: https://streetstock.co.il/assets/product-1784097925621-r4ijr.webp
 
 ### מחבת יציקת אלומיניום 24 ס"מ צבע אפור LUSSO
-https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-mz6684
+https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-apvr-lusso-1g60u0
 - Price: 49.90 ILS
 - Availability: In stock
 - Category: סירים ומחבתות
+- Image: https://streetstock.co.il/assets/product-1784097888295-5dqnml.webp
 
 ### מחבת יציקת אלומיניום 20 ס"מ צבע אפור LUSSO
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-apvr-lusso-z98vai
