@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 15 Jul 2026 05:35:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 05:38:48 GMT</lastBuildDate>
     <item>
       <g:id>0126193b-0a09-4500-baf6-bd6847362e84</g:id>
       <g:title>בדיקה (Copy)</g:title>
@@ -4084,19 +4084,6 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>0f093b8c-eab2-49fe-a7ec-59c844deecc3</g:id>
-      <g:title>סכומון עגול שחור M</g:title>
-      <g:description>כלי בית</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-nl4k7j</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837712265-i5skq8.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561761</g:mpn>
-      <g:product_type>כלי בית</g:product_type>
-    </item>
-    <item>
       <g:id>59af7873-1680-4a88-ac12-e4a1d7b5065d</g:id>
       <g:title>סכומון עגול שחור L</g:title>
       <g:description>כלי בית</g:description>
@@ -4152,8 +4139,8 @@
       <g:id>77f3e19f-8b21-4562-8d1f-8482b852213e</g:id>
       <g:title>סכומית מגירה עץ </g:title>
       <g:description>כלי בית</g:description>
-      <g:link>https://streetstock.co.il/product/skvmyt-mgyrh-ats-8843ry</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837683614-yaado8.webp</g:image_link>
+      <g:link>https://streetstock.co.il/product/skvmyt-mgyrh-ats-8u49n4</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1784093881138-2z6x4.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>39.90 ILS</g:price>
       <g:condition>new</g:condition>
