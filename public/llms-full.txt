@@ -365,7 +365,7 @@ CTRL+F2
 
 
 
-לחץ כאן
+
 
 
 
@@ -6206,9 +6206,8 @@ Availability: In stock
 
 ---
 
-### דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA
-ID866 (12)
-URL: https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-12-9ohk64
+### דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866
+URL: https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-q1qlgk
 Price: 34.90 ILS
 Availability: In stock
 
