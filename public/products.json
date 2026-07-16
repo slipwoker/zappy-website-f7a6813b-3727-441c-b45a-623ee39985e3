@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T10:47:31.013Z",
+  "generated_at": "2026-07-16T10:48:48.895Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 485,
+  "count": 484,
   "products": [
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
@@ -5466,30 +5466,6 @@
         "קיץ"
       ],
       "updated_at": "2026-06-16T08:43:50.323Z"
-    },
-    {
-      "id": "8bcf3e3d-52b5-4f0b-9da6-36942e05992e",
-      "slug": "tsydnyt-bd-9-sm-psym-r02uf6",
-      "name": "צידנית בד 9 ס\"מ פסים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צידניות בד + ידית נשיאה ",
-      "sku": null,
-      "brand": null,
-      "price": 35,
-      "base_price": 35,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781511596949-67dnni.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-r02uf6",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-06-16T08:44:38.796Z"
     },
     {
       "id": "cd65521e-f6e5-4969-ace0-756479a0162c",
