@@ -9212,14 +9212,6 @@ SKU: 7290121565127
 
 ---
 
-### הדום אחסון וישיבה קטיפה דגם VENICE
-URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-ktyph-dgm-venice-7dvb6i
-Price: 99.90 ILS
-Availability: In stock
-SKU: 7290121560078
-
----
-
 ### עגלת שירות 4 קומות לבן דגם CALIRFONIA
 URL: https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-jirgqt
 Price: 179.90 ILS
