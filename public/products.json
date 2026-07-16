@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T08:03:54.952Z",
+  "generated_at": "2026-07-16T08:23:28.556Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 487,
+  "count": 486,
   "products": [
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
@@ -10788,30 +10788,6 @@
         "צנצנות אקריל"
       ],
       "updated_at": "2026-06-26T06:52:15.144Z"
-    },
-    {
-      "id": "4b8b58ef-9521-4a11-9154-6c8f3b53847b",
-      "slug": "st-10-kvpsavt-achsvn-akrylyt-300-ml-dgm-anbr-rmcp86",
-      "name": "סט 10 קופסאות אחסון אקרילית 300 מ\"ל דגם \"ענבר\" ",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121564748",
-      "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837644717-ggy741.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-10-kvpsavt-achsvn-akrylyt-300-ml-dgm-anbr-rmcp86",
-      "categories": [
-        "צנצנות אקריל"
-      ],
-      "updated_at": "2026-06-21T07:32:07.724Z"
     },
     {
       "id": "5f35269a-5704-4c01-91f3-c0390fe83fbf",
