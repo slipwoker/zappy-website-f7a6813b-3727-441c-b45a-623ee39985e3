@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 488** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 487** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### משטח חיתוך פלסטיק מקצועי
 24.5X40.5 ס"מ
