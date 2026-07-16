@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T06:58:36.697Z",
+  "generated_at": "2026-07-16T07:22:31.378Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 489,
+  "count": 488,
   "products": [
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
@@ -3154,30 +3154,6 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-vrvd-85-sm-nsv3m6",
-      "categories": [
-        "סכיני מטבח"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "36e91c40-c9e4-4c2d-a848-4ab5f51b301b",
-      "slug": "st-skvm-24-chlkym-tsba-zhb-mt-dgm-ryv-8telsl",
-      "name": "סט סכום 24 חלקים צבע זהב מט דגם ריו",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מערכת סכום איכותית\r\nמגיע בסט : 6 מזלגות\r\n6 כפות\r\n6 סכינים\r\n6 כפיטת\r\nמתאים למדיח כלים\r\nמומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה\r\nיש להמנע משימוש בחומרים / מוצרים שוחקים.",
-      "sku": null,
-      "brand": null,
-      "price": 49.9,
-      "base_price": 49.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837767023-untuw.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-tsba-zhb-mt-dgm-ryv-8telsl",
       "categories": [
         "סכיני מטבח"
       ],

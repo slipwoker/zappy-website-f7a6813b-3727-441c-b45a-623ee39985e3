@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 489** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 488** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### משטח חיתוך פלסטיק מקצועי
 24.5X40.5 ס"מ
@@ -1075,14 +1075,6 @@ https://streetstock.co.il/product/skyn-svlyngn-tsba-vrvd-85-sm-nsv3m6
 - Category: סכיני מטבח
 - Image: https://streetstock.co.il/assets/product-enhanced-1780838570875-2h93p.webp
 
-### סט סכום 24 חלקים צבע זהב מט דגם ריו
-https://streetstock.co.il/product/st-skvm-24-chlkym-tsba-zhb-mt-dgm-ryv-8telsl
-- Price: 49.90 ILS
-- Availability: In stock
-- Category: סכיני מטבח
-- Description: מערכת סכום איכותית מגיע בסט : 6 מזלגות 6 כפות 6 סכינים 6 כפיטת מתאים למדיח כלים מומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה יש להמנע משימוש בחומרים / מוצרים שוחקים.
-- Image: https://streetstock.co.il/assets/product-1780837767023-untuw.webp
-
 ### סכין סולינגן צבע ירוק 8.5 סמ
 https://streetstock.co.il/product/skyn-svlyngn-tsba-yrvk-85-sm-heu5v3
 - Price: 7.90 ILS
@@ -1622,6 +1614,14 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-f552wn
 - Category: סט מצעים 100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837745450-eq1lg8.webp
+
+### סט מצעים כותנה דגם אלינה צבע לבן
+https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0n7otm
+- Price: 249.90 ILS
+- Availability: In stock
+- Category: סט מצעים 100% כותנה
+- Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
+- Image: https://streetstock.co.il/assets/product-1780837745449-hka0o.webp
 
 ---
 
