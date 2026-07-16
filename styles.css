@@ -18154,6 +18154,15 @@ main,
 }
 /* /Zappy custom logo size */
 
+
+@media (max-width: 768px) {
+.navbar .logo {
+  max-height: 70px !important;
+  max-width: 260px !important;
+  width: auto !important;
+  height: auto !important;
+}
+}
 /* mobile-submenu-overflow-fix */
 @media (max-width: 768px) {
   .navbar .sub-menu.mobile-expanded,
