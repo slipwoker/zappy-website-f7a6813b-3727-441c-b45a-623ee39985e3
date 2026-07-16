@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T10:48:48.895Z",
+  "generated_at": "2026-07-16T12:33:08.656Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 484,
+  "count": 483,
   "products": [
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
@@ -6766,30 +6766,6 @@
         "מתקני כביסה"
       ],
       "updated_at": "2026-06-15T08:40:42.619Z"
-    },
-    {
-      "id": "20d30670-fbda-4c28-b017-7d68d6b305c8",
-      "slug": "msnnt-kyvr-nyrvsth-x8ns24",
-      "name": "מסננת כיור נירוסטה",
-      "name_translations": {},
-      "description": "<p>כללי</p>",
-      "short_description": null,
-      "sku": "7290121562270",
-      "brand": null,
-      "price": 9.9,
-      "base_price": 9.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781513088165-62trkb.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-x8ns24",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-06-15T08:45:00.035Z"
     },
     {
       "id": "77f3e19f-8b21-4562-8d1f-8482b852213e",
