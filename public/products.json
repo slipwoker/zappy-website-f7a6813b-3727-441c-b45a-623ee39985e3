@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-16T08:29:19.770Z",
+  "generated_at": "2026-07-16T10:47:31.013Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 485,
@@ -3497,8 +3497,8 @@
     },
     {
       "id": "0bdef036-9898-4393-9783-285d68277d60",
-      "slug": "st-2-mtlyvt-hchlph-lmbrykn-3q9tnu",
-      "name": "סט 2 מטליות החלפה למבריקן",
+      "slug": "mtlyt-hchlph-lmbrykn-w50aoi",
+      "name": "מטלית החלפה למבריקן",
       "name_translations": {},
       "description": "",
       "short_description": "מטלית המיקרופייבר לניקוי רצפות מתאימה למבריקן סיליקון- 2 יחידות בערכה.\r\nיש להצמיד את הצד הלבן של המטלית לסקוצים המחוברים לראש סיליקון.\r\nהמטלית מיקרופייבר מנקה היטב משטחים יבשים ורטובים כאחד.\r\nמטלית המיקרופייבר מקרצפת ומנקה ביעילות את הלכלוך.\r\nמטלית הניקוי מעוצבת בעיצוב ייחודי המשלב את טכניקות הניקוי הטובות ביותר.",
@@ -3513,11 +3513,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmbrykn-3q9tnu",
+      "url": "https://streetstock.co.il/product/mtlyt-hchlph-lmbrykn-w50aoi",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-16T10:46:58.619Z"
     },
     {
       "id": "8a5f0d69-a6bd-4b29-85cc-3fa5182e0040",
