@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-17T04:58:36.910Z",
+  "generated_at": "2026-07-17T14:56:41.746Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 509,
+  "count": 508,
   "products": [
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
@@ -3852,30 +3852,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-06-15T06:13:36.692Z"
-    },
-    {
-      "id": "e4e6dcad-0510-4a1d-995f-53ae6adbc5ba",
-      "slug": "skyn-yldym-dgm-tnyn-arcosteel-4g6bro",
-      "name": "סכין ילדים דגם תנין ARCOSTEEL",
-      "name_translations": {},
-      "description": "",
-      "short_description": "עיצוב תנין צבעוני מדליק והומוריסטי שהילדים אוהבים.\r\nידית ארגונומית נעימה למגע\r\nלהב בטיחותי לילדים\r\nמגביר צריכת ירקות ופירות אצל ילדים",
-      "sku": null,
-      "brand": null,
-      "price": 29.9,
-      "base_price": 29.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837764195-8okj8a.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-yldym-dgm-tnyn-arcosteel-4g6bro",
-      "categories": [
-        "סכיני מטבח"
-      ],
-      "updated_at": "2026-06-15T06:15:39.620Z"
     },
     {
       "id": "cb7f0d3c-c33e-4042-9f50-dcef94f97ffe",
