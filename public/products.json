@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-17T04:29:48.709Z",
+  "generated_at": "2026-07-17T04:58:36.910Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 509,
@@ -535,7 +535,7 @@
     },
     {
       "id": "0cc5954e-fe27-41d6-b0d5-30d9ec852804",
-      "slug": "tsntsnt-achsvn-240-ml-dgm-nvah-id886-1zxc8q",
+      "slug": "tsntsnt-achsvn-240-ml-dgm-nvah-id886-i37ek4",
       "name": "צנצנת אחסון 240 מ\"ל דגם \"נועה\"\nID886 ",
       "name_translations": {},
       "description": "",
@@ -546,14 +546,16 @@
       "base_price": 5.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784264276224-f8llog.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-240-ml-dgm-nvah-id886-1zxc8q",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-240-ml-dgm-nvah-id886-i37ek4",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-17T04:58:04.319Z"
     },
     {
       "id": "03c4761a-bba4-4e86-a129-511a5166c1f0",
