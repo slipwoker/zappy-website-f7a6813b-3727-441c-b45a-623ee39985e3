@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:53:50.107Z",
+  "generated_at": "2026-07-20T05:54:34.491Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 508,
+  "count": 509,
   "products": [
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
@@ -7622,8 +7622,8 @@
     },
     {
       "id": "06aa0f5c-2bd0-4d69-9999-24a5bdb062ed",
-      "slug": "marz-56-mdbkvt-ltblynym-ktvbyvt-tsba-shchvr-n5tt9z",
-      "name": "מארז 56 מדבקות לתבלינים  כתוביות צבע שחור",
+      "slug": "marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-shchvr-lyj39i",
+      "name": "מארז 56 מדבקות שקופות לתבלינים  כתוביות צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
@@ -7638,11 +7638,35 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-56-mdbkvt-ltblynym-ktvbyvt-tsba-shchvr-n5tt9z",
+      "url": "https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-shchvr-lyj39i",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-07-15T10:51:04.885Z"
+      "updated_at": "2026-07-20T05:54:22.223Z"
+    },
+    {
+      "id": "da307361-12b4-44e5-9033-5c6c4b0b4921",
+      "slug": "marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-zhb-xjlha4",
+      "name": "מארז 56 מדבקות שקופות לתבלינים \r\n כתוביות צבע זהב",
+      "name_translations": {},
+      "description": "<p><br></p>",
+      "short_description": null,
+      "sku": "7290121562928",
+      "brand": null,
+      "price": 9.9,
+      "base_price": 9.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837703879-bl0sz9.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-zhb-xjlha4",
+      "categories": [
+        "צנצנות אקריל"
+      ],
+      "updated_at": "2026-07-20T05:54:30.290Z"
     },
     {
       "id": "4265b328-0b48-43b9-9172-83573ac1149e",

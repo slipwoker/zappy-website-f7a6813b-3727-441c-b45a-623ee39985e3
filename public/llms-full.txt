@@ -8425,8 +8425,17 @@ SKU: 7290121564397
 
 ---
 
-### מארז 56 מדבקות לתבלינים  כתוביות צבע שחור
-URL: https://streetstock.co.il/product/marz-56-mdbkvt-ltblynym-ktvbyvt-tsba-shchvr-n5tt9z
+### מארז 56 מדבקות שקופות לתבלינים  כתוביות צבע שחור
+URL: https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-shchvr-lyj39i
+Price: 9.90 ILS
+Availability: In stock
+SKU: 7290121562928
+
+---
+
+### מארז 56 מדבקות שקופות לתבלינים 
+ כתוביות צבע זהב
+URL: https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-zhb-xjlha4
 Price: 9.90 ILS
 Availability: In stock
 SKU: 7290121562928

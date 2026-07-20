@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 20 Jul 2026 05:53:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:54:34 GMT</lastBuildDate>
     <item>
       <g:id>861787ab-d617-4b77-9398-dc4ef271e5ba</g:id>
       <g:title>כוס זכוכית + קש | 500 מ&quot;ל
@@ -5056,10 +5056,24 @@ ID890</g:title>
     </item>
     <item>
       <g:id>06aa0f5c-2bd0-4d69-9999-24a5bdb062ed</g:id>
-      <g:title>מארז 56 מדבקות לתבלינים  כתוביות צבע שחור</g:title>
+      <g:title>מארז 56 מדבקות שקופות לתבלינים  כתוביות צבע שחור</g:title>
       <g:description></g:description>
-      <g:link>https://streetstock.co.il/product/marz-56-mdbkvt-ltblynym-ktvbyvt-tsba-shchvr-n5tt9z</g:link>
+      <g:link>https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-shchvr-lyj39i</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837703879-hzawk8.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121562928</g:mpn>
+      <g:product_type>צנצנות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>da307361-12b4-44e5-9033-5c6c4b0b4921</g:id>
+      <g:title>מארז 56 מדבקות שקופות לתבלינים 
+ כתוביות צבע זהב</g:title>
+      <g:description></g:description>
+      <g:link>https://streetstock.co.il/product/marz-56-mdbkvt-shkvpvt-ltblynym-ktvbyvt-tsba-zhb-xjlha4</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837703879-bl0sz9.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>9.90 ILS</g:price>
       <g:condition>new</g:condition>
