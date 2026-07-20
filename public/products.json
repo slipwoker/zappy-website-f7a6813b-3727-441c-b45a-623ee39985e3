@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:25:02.969Z",
+  "generated_at": "2026-07-20T06:26:59.628Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -99,8 +99,8 @@
     },
     {
       "id": "8fcdff8e-e595-48b0-a45c-0088721034a4",
-      "slug": "tsntsnt-achsvn-450-ml-i-dgm-avpk-id488-36-0ogk35",
-      "name": "צנצנת אחסון 450 מ\"ל I דגם \"אופק\"\nID488 (36)",
+      "slug": "tsntsnt-achsvn-450-ml-i-dgm-avpk-id488-5bv89p",
+      "name": "צנצנת אחסון 450 מ\"ל I דגם \"אופק\" ID488",
       "name_translations": {},
       "description": "",
       "short_description": null,
@@ -110,14 +110,18 @@
       "base_price": 10.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784528722544-m16ag.webp",
+        "https://streetstock.co.il/assets/product-1784528729867-21anim.webp",
+        "https://streetstock.co.il/assets/product-1784528738633-th0htq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-450-ml-i-dgm-avpk-id488-36-0ogk35",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-450-ml-i-dgm-avpk-id488-5bv89p",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T06:26:33.634Z"
     },
     {
       "id": "ba5435c5-6bc1-486b-b4d0-3ef04348cb04",
