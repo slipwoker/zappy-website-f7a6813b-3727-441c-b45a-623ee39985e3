@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:27:06.902Z",
+  "generated_at": "2026-07-20T06:30:38.346Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -77,7 +77,7 @@
     },
     {
       "id": "b956e03d-5636-46be-98ac-33eac4dcffe1",
-      "slug": "tsntsnt-achsvn-850-ml-i-dgm-avpk-id489-02v27r",
+      "slug": "tsntsnt-achsvn-850-ml-i-dgm-avpk-id489-77nynb",
       "name": "צנצנת אחסון 850 מ\"ל I דגם \"אופק\"\nID489",
       "name_translations": {},
       "description": "",
@@ -88,14 +88,18 @@
       "base_price": 13.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784528941852-gfgobl.webp",
+        "https://streetstock.co.il/assets/product-1784528948763-4h98jc.webp",
+        "https://streetstock.co.il/assets/product-1784528933339-y4r0x.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-i-dgm-avpk-id489-02v27r",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-i-dgm-avpk-id489-77nynb",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T06:30:05.428Z"
     },
     {
       "id": "8fcdff8e-e595-48b0-a45c-0088721034a4",
