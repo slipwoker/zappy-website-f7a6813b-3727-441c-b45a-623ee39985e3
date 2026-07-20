@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 19 Jul 2026 11:51:42 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:46:55 GMT</lastBuildDate>
     <item>
       <g:id>861787ab-d617-4b77-9398-dc4ef271e5ba</g:id>
       <g:title>כוס זכוכית + קש | 500 מ&quot;ל
@@ -231,11 +231,28 @@ ID885 </g:title>
       <g:product_type>צנצנות זכוכית</g:product_type>
     </item>
     <item>
-      <g:id>24e1da99-d6b3-43ed-9c16-9d56c9380d5c</g:id>
+      <g:id>5ebe898c-b72d-44b5-9e13-9e9ab73d06e9</g:id>
       <g:title>משטח חיתוך מקצועי זכוכית מידה XL
-מידות 26X38 ס&quot;מ ID882</g:title>
+מידות 26X38 ס&quot;מ ID882 - Beige</g:title>
       <g:description>משטח חיתוך מקצועי זכוכית מידה XL מידות 26X38 ס&quot;מ ID882</g:description>
-      <g:link>https://streetstock.co.il/product/mshtch-chytvk-mktsvay-zkvkyt-mydh-xl-mydvt-26x38-sm-id882-gbbvl3</g:link>
+      <g:link>https://streetstock.co.il/product/mshtch-chytvk-mktsvay-zkvkyt-mydh-xl-mydvt-26x38-sm-id882-tipehj</g:link>
+      <g:item_group_id>24e1da99-d6b3-43ed-9c16-9d56c9380d5c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1784526365628-d5mw.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>d3d81471-b2df-402c-8193-844f75da9b65</g:id>
+      <g:title>משטח חיתוך מקצועי זכוכית מידה XL
+מידות 26X38 ס&quot;מ ID882 - Black</g:title>
+      <g:description>משטח חיתוך מקצועי זכוכית מידה XL מידות 26X38 ס&quot;מ ID882</g:description>
+      <g:link>https://streetstock.co.il/product/mshtch-chytvk-mktsvay-zkvkyt-mydh-xl-mydvt-26x38-sm-id882-tipehj</g:link>
+      <g:item_group_id>24e1da99-d6b3-43ed-9c16-9d56c9380d5c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1784526365628-d5mw.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
       <g:condition>new</g:condition>
