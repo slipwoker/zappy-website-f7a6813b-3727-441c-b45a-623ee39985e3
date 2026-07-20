@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:58:47.258Z",
+  "generated_at": "2026-07-20T05:59:21.369Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 509,
@@ -483,7 +483,7 @@
     },
     {
       "id": "9a1df92c-90d1-48a9-b763-6ab5c793e467",
-      "slug": "tsntsnt-achsvn-850-ml-dgm-nvah-id889-1yv2hi",
+      "slug": "tsntsnt-achsvn-850-ml-dgm-nvah-id889-ganwew",
       "name": "צנצנת אחסון 850 מ\"ל דגם \"נועה\"\nID889",
       "name_translations": {},
       "description": "",
@@ -494,14 +494,16 @@
       "base_price": 12.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784527112304-toe39v.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-dgm-nvah-id889-1yv2hi",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-850-ml-dgm-nvah-id889-ganwew",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:58:54.477Z"
     },
     {
       "id": "e779526f-57de-40d0-97f3-29a815c52847",
