@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 20 Jul 2026 05:51:03 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:52:15 GMT</lastBuildDate>
     <item>
       <g:id>861787ab-d617-4b77-9398-dc4ef271e5ba</g:id>
       <g:title>כוס זכוכית + קש | 500 מ&quot;ל
@@ -325,11 +325,26 @@ ID885  - Black</g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>4561c697-7359-4627-afbb-c8eaf2c68de1</g:id>
+      <g:id>0253725d-9bbd-4b3d-9261-7243c1150bdb</g:id>
       <g:title>צנצנת אחסון 800 מ&quot;ל דגם &quot;ליאן&quot;
-ID884 </g:title>
+ID884  - Beige</g:title>
       <g:description>צנצנת אחסון 800 מ&quot;ל דגם &quot;ליאן&quot; ID884</g:description>
       <g:link>https://streetstock.co.il/product/tsntsnt-achsvn-800-ml-dgm-lyan-id884-f5348a</g:link>
+      <g:item_group_id>4561c697-7359-4627-afbb-c8eaf2c68de1</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>14.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>צנצנות זכוכית</g:product_type>
+    </item>
+    <item>
+      <g:id>6df6c741-9e59-448d-be34-433507062f50</g:id>
+      <g:title>צנצנת אחסון 800 מ&quot;ל דגם &quot;ליאן&quot;
+ID884  - Black</g:title>
+      <g:description>צנצנת אחסון 800 מ&quot;ל דגם &quot;ליאן&quot; ID884</g:description>
+      <g:link>https://streetstock.co.il/product/tsntsnt-achsvn-800-ml-dgm-lyan-id884-f5348a</g:link>
+      <g:item_group_id>4561c697-7359-4627-afbb-c8eaf2c68de1</g:item_group_id>
       <g:availability>in_stock</g:availability>
       <g:price>14.90 ILS</g:price>
       <g:condition>new</g:condition>
