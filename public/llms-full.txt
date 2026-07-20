@@ -6280,7 +6280,7 @@ Availability: In stock
 
 ### צנצנת אחסון 600 מ"ל דגם "נועה"
 ID888
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-600-ml-dgm-nvah-id888-i8fetp
+URL: https://streetstock.co.il/product/tsntsnt-achsvn-600-ml-dgm-nvah-id888-efygj3
 Price: 9.90 ILS
 Availability: In stock
 
@@ -6288,7 +6288,7 @@ Availability: In stock
 
 ### צנצנת אחסון 300 מ"ל דגם "נועה"
 ID887
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-dgm-nvah-id887-198dfw
+URL: https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-dgm-nvah-id887-7fp8ju
 Price: 6.90 ILS
 Availability: In stock
 

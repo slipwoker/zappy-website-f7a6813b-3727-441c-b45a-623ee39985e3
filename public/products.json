@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:56:56.172Z",
+  "generated_at": "2026-07-20T05:58:06.044Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 509,
@@ -505,7 +505,7 @@
     },
     {
       "id": "e779526f-57de-40d0-97f3-29a815c52847",
-      "slug": "tsntsnt-achsvn-600-ml-dgm-nvah-id888-i8fetp",
+      "slug": "tsntsnt-achsvn-600-ml-dgm-nvah-id888-efygj3",
       "name": "צנצנת אחסון 600 מ\"ל דגם \"נועה\"\nID888",
       "name_translations": {},
       "description": "",
@@ -516,18 +516,20 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784527058039-vqxfbe.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-600-ml-dgm-nvah-id888-i8fetp",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-600-ml-dgm-nvah-id888-efygj3",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:57:58.068Z"
     },
     {
       "id": "41ce5d38-ccea-4698-9d73-1d16ce2c626a",
-      "slug": "tsntsnt-achsvn-300-ml-dgm-nvah-id887-198dfw",
+      "slug": "tsntsnt-achsvn-300-ml-dgm-nvah-id887-7fp8ju",
       "name": "צנצנת אחסון 300 מ\"ל דגם \"נועה\"\nID887",
       "name_translations": {},
       "description": "",
@@ -538,14 +540,16 @@
       "base_price": 6.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784526998046-tti2cr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-dgm-nvah-id887-198dfw",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-dgm-nvah-id887-7fp8ju",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:57:26.253Z"
     },
     {
       "id": "0cc5954e-fe27-41d6-b0d5-30d9ec852804",
