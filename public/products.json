@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:49:16.197Z",
+  "generated_at": "2026-07-20T05:50:21.556Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -383,7 +383,7 @@
     },
     {
       "id": "de7b0a75-619b-4199-97c1-1535beca5e2d",
-      "slug": "tsntsnt-achsvn-1300-ml-dgm-lyan-id885-zocn27",
+      "slug": "tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819",
       "name": "צנצנת אחסון 1300 מ\"ל דגם \"ליאן\"\nID885 ",
       "name_translations": {},
       "description": "",
@@ -394,14 +394,16 @@
       "base_price": 17.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784526535737-dq28sw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-zocn27",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:50:16.617Z"
     },
     {
       "id": "24e1da99-d6b3-43ed-9c16-9d56c9380d5c",

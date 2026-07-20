@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 20 Jul 2026 05:49:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 05:50:21 GMT</lastBuildDate>
     <item>
       <g:id>861787ab-d617-4b77-9398-dc4ef271e5ba</g:id>
       <g:title>כוס זכוכית + קש | 500 מ&quot;ל
@@ -235,11 +235,28 @@ ID883 - Black</g:title>
       <g:product_type>צנצנות זכוכית</g:product_type>
     </item>
     <item>
-      <g:id>de7b0a75-619b-4199-97c1-1535beca5e2d</g:id>
+      <g:id>d9c5aa94-ea20-49ab-96f4-5dcac43aaeed</g:id>
       <g:title>צנצנת אחסון 1300 מ&quot;ל דגם &quot;ליאן&quot;
-ID885 </g:title>
+ID885  - Beige</g:title>
       <g:description>צנצנת אחסון 1300 מ&quot;ל דגם &quot;ליאן&quot; ID885</g:description>
-      <g:link>https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-zocn27</g:link>
+      <g:link>https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819</g:link>
+      <g:item_group_id>de7b0a75-619b-4199-97c1-1535beca5e2d</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1784526535737-dq28sw.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>17.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>צנצנות זכוכית</g:product_type>
+    </item>
+    <item>
+      <g:id>ee198694-ffd3-463d-88ae-2262ea6f8648</g:id>
+      <g:title>צנצנת אחסון 1300 מ&quot;ל דגם &quot;ליאן&quot;
+ID885  - Black</g:title>
+      <g:description>צנצנת אחסון 1300 מ&quot;ל דגם &quot;ליאן&quot; ID885</g:description>
+      <g:link>https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819</g:link>
+      <g:item_group_id>de7b0a75-619b-4199-97c1-1535beca5e2d</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1784526535737-dq28sw.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>17.90 ILS</g:price>
       <g:condition>new</g:condition>
