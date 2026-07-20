@@ -1,30 +1,10 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T12:09:54.710Z",
+  "generated_at": "2026-07-20T13:52:11.976Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 509,
+  "count": 508,
   "products": [
-    {
-      "id": "7af85e3c-f03d-4933-80a8-83ec5a956584",
-      "slug": "bdykh-jjhv8d",
-      "name": "בדיקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 10,
-      "base_price": 10,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bdykh-jjhv8d",
-      "categories": [],
-      "updated_at": "2026-07-20T12:08:28.611Z"
-    },
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
       "slug": "kvs-zkvkyt-ksh-500-ml-id819-rd2nd5",
