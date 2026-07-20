@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:46:55.418Z",
+  "generated_at": "2026-07-20T05:47:11.494Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -427,7 +427,7 @@
     },
     {
       "id": "b89da9fc-840c-43f7-9d37-9f69717a3fbf",
-      "slug": "mshtch-chytvk-mktsvay-zkvkyt-mydh-l-mydvt-20x30-sm-id881-uje3fz",
+      "slug": "mshtch-chytvk-mktsvay-zkvkyt-mydh-l-mydvt-20x30-sm-id881-fwt2s6",
       "name": "משטח חיתוך מקצועי זכוכית מידה L\nמידות 20X30 ס\"מ ID881 ",
       "name_translations": {},
       "description": "",
@@ -438,14 +438,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784526410269-2ctqxi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-zkvkyt-mydh-l-mydvt-20x30-sm-id881-uje3fz",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-zkvkyt-mydh-l-mydvt-20x30-sm-id881-fwt2s6",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:47:10.273Z"
     },
     {
       "id": "4561c697-7359-4627-afbb-c8eaf2c68de1",
