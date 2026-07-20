@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:17:33.048Z",
+  "generated_at": "2026-07-20T06:18:22.368Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -1173,7 +1173,7 @@
     },
     {
       "id": "6ec300a4-a367-4c32-b2a8-2353f4554d08",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-jy3g16",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-q33yhq",
       "name": "סט פח + מברשת אסלה דגם LUNARIA צבע נירוסטה",
       "name_translations": {},
       "description": "",
@@ -1185,16 +1185,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1784097987642-kotap.webp"
+        "https://streetstock.co.il/assets/product-1784097987642-kotap.webp",
+        "https://streetstock.co.il/assets/product-1784528257343-stwlet.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-jy3g16",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-q33yhq",
       "categories": [
         "פחי אמבטיה",
         "פחי שירותים"
       ],
-      "updated_at": "2026-07-15T06:46:37.189Z"
+      "updated_at": "2026-07-20T06:17:48.608Z"
     },
     {
       "id": "cacded33-9b97-48cf-bf35-ee83b068d68e",
