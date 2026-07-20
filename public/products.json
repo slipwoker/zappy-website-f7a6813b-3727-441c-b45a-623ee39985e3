@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:05:45.920Z",
+  "generated_at": "2026-07-20T06:06:57.451Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -165,7 +165,7 @@
     },
     {
       "id": "916bacc5-2496-41e6-b6dc-3bac76add6a3",
-      "slug": "tsntsnt-achsvn-700-ml-i-dgm-gpn-7ffxkr",
+      "slug": "tsntsnt-achsvn-700-ml-i-dgm-gpn-jukv7u",
       "name": "צנצנת אחסון 700 מ\"ל I דגם \"גפן\"",
       "name_translations": {},
       "description": "",
@@ -176,14 +176,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784527569383-nztro9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-700-ml-i-dgm-gpn-7ffxkr",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-700-ml-i-dgm-gpn-jukv7u",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T06:06:24.163Z"
     },
     {
       "id": "a93e9d45-89fb-4250-a27d-c18a66dbc549",
