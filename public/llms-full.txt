@@ -6174,13 +6174,6 @@ Availability: In stock
 
 ---
 
-### צנצנת אחסון 450 מ"ל I דגם "גפן"
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-450-ml-i-dgm-gpn-26343e
-Price: 9.90 ILS
-Availability: In stock
-
----
-
 ### צנצנת אחסון 300 מ"ל I דגם "גפן"
 URL: https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-i-dgm-gpn-0sgw0s
 Price: 6.90 ILS
