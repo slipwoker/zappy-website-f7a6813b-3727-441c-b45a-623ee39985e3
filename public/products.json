@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:19:29.742Z",
+  "generated_at": "2026-07-20T06:24:11.766Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -143,7 +143,7 @@
     },
     {
       "id": "0db00317-ce69-4a3a-9c65-76815498da92",
-      "slug": "tsntsnt-achsvn-250-ml-i-dgm-avpk-id491-js4pa8",
+      "slug": "tsntsnt-achsvn-250-ml-i-dgm-avpk-id491-59ztgm",
       "name": "צנצנת אחסון 250 מ\"ל I דגם \"אופק\"\nID491",
       "name_translations": {},
       "description": "",
@@ -154,14 +154,18 @@
       "base_price": 7.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784528551758-4q606.webp",
+        "https://streetstock.co.il/assets/product-1784528560462-u6dkrn.webp",
+        "https://streetstock.co.il/assets/product-1784528569750-9tbrb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-250-ml-i-dgm-avpk-id491-js4pa8",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-250-ml-i-dgm-avpk-id491-59ztgm",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T06:23:38.851Z"
     },
     {
       "id": "916bacc5-2496-41e6-b6dc-3bac76add6a3",
