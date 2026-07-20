@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:53:30.257Z",
+  "generated_at": "2026-07-20T05:53:50.107Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -53,7 +53,7 @@
     },
     {
       "id": "b9913708-e64b-454c-9067-5b610b7cd65f",
-      "slug": "kvs-zkvkyt-ksh-500-ml-id820-6hodgr",
+      "slug": "kvs-zkvkyt-ksh-500-ml-id820-qsnnf2",
       "name": "כוס זכוכית + קש | 500 מ\"ל\nID820",
       "name_translations": {},
       "description": "",
@@ -64,14 +64,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784526814010-a9e095.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id820-6hodgr",
+      "url": "https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id820-qsnnf2",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:53:41.853Z"
     },
     {
       "id": "b956e03d-5636-46be-98ac-33eac4dcffe1",
