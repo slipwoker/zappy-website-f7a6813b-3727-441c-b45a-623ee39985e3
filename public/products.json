@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:59:21.369Z",
+  "generated_at": "2026-07-20T05:59:28.645Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 509,
@@ -579,7 +579,7 @@
     },
     {
       "id": "03c4761a-bba4-4e86-a129-511a5166c1f0",
-      "slug": "tsntsnt-achsvn-1100-ml-dgm-nvah-id890-lf4ync",
+      "slug": "tsntsnt-achsvn-1100-ml-dgm-nvah-id890-lf5vh0",
       "name": "צנצנת אחסון 1100 מ\"ל דגם \"נועה\"\nID890",
       "name_translations": {},
       "description": "",
@@ -590,14 +590,16 @@
       "base_price": 13.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784527150231-sp6sk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-dgm-nvah-id890-lf4ync",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1100-ml-dgm-nvah-id890-lf5vh0",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:59:27.478Z"
     },
     {
       "id": "92a2612d-3794-43a1-8847-b12f096f392b",
