@@ -6240,7 +6240,7 @@ Availability: In stock
 
 ### צנצנת אחסון 1300 מ"ל דגם "ליאן"
 ID885 
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819
+URL: https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-03c78x
 Price: 17.90 ILS
 Availability: In stock
 
@@ -6264,7 +6264,7 @@ Availability: In stock
 
 ### צנצנת אחסון 800 מ"ל דגם "ליאן"
 ID884 
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-800-ml-dgm-lyan-id884-f5348a
+URL: https://streetstock.co.il/product/tsntsnt-achsvn-800-ml-dgm-lyan-id884-0bburv
 Price: 14.90 ILS
 Availability: In stock
 

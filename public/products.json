@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:52:15.624Z",
+  "generated_at": "2026-07-20T05:53:05.104Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -383,7 +383,7 @@
     },
     {
       "id": "de7b0a75-619b-4199-97c1-1535beca5e2d",
-      "slug": "tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819",
+      "slug": "tsntsnt-achsvn-1300-ml-dgm-lyan-id885-03c78x",
       "name": "צנצנת אחסון 1300 מ\"ל דגם \"ליאן\"\nID885 ",
       "name_translations": {},
       "description": "",
@@ -395,15 +395,15 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1784526535737-dq28sw.webp"
+        "https://streetstock.co.il/assets/product-1784526769743-8uqfm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-xk7819",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-dgm-lyan-id885-03c78x",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-20T05:50:16.617Z"
+      "updated_at": "2026-07-20T05:52:57.243Z"
     },
     {
       "id": "24e1da99-d6b3-43ed-9c16-9d56c9380d5c",
@@ -455,7 +455,7 @@
     },
     {
       "id": "4561c697-7359-4627-afbb-c8eaf2c68de1",
-      "slug": "tsntsnt-achsvn-800-ml-dgm-lyan-id884-f5348a",
+      "slug": "tsntsnt-achsvn-800-ml-dgm-lyan-id884-0bburv",
       "name": "צנצנת אחסון 800 מ\"ל דגם \"ליאן\"\nID884 ",
       "name_translations": {},
       "description": "",
@@ -466,14 +466,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784526718701-wgeyp6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-800-ml-dgm-lyan-id884-f5348a",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-800-ml-dgm-lyan-id884-0bburv",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-20T05:51:48.252Z"
+      "updated_at": "2026-07-20T05:52:32.405Z"
     },
     {
       "id": "9a1df92c-90d1-48a9-b763-6ab5c793e467",
