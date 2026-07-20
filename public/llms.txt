@@ -72,10 +72,11 @@ Information about WCAG compliance and accessibility features.
 
 ### כוס זכוכית + קש | 500 מ"ל
 ID819
-https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id819-gwfs7x
+https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id819-rd2nd5
 - Price: 11.90 ILS
 - Availability: In stock
 - Category: צנצנות זכוכית
+- Image: https://streetstock.co.il/assets/product-1784526789249-st8tv.webp
 
 ### צנצנת אחסון 1200 מ"ל I דגם "אופק"
 ID492
