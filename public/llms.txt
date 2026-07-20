@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 508** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 507** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### כוס זכוכית + קש | 500 מ"ל
 ID819
@@ -80,10 +80,11 @@ https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id819-rd2nd5
 
 ### צנצנת אחסון 1200 מ"ל I דגם "אופק"
 ID492
-https://streetstock.co.il/product/tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-a0ifu9
+https://streetstock.co.il/product/tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-qqyz4j
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: צנצנות זכוכית
+- Image: https://streetstock.co.il/assets/product-1784529134233-x57jo.webp
 
 ### כוס זכוכית + קש | 500 מ"ל
 ID820

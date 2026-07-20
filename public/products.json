@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:32:08.164Z",
+  "generated_at": "2026-07-20T06:33:28.546Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 508,
+  "count": 507,
   "products": [
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
@@ -31,7 +31,7 @@
     },
     {
       "id": "5f5d7726-bc01-4184-9b95-84e7085298ee",
-      "slug": "tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-a0ifu9",
+      "slug": "tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-qqyz4j",
       "name": "צנצנת אחסון 1200 מ\"ל I דגם \"אופק\"\nID492",
       "name_translations": {},
       "description": "",
@@ -42,14 +42,18 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784529134233-x57jo.webp",
+        "https://streetstock.co.il/assets/product-1784529141501-c6lnac.webp",
+        "https://streetstock.co.il/assets/product-1784529126506-0sl1lg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-a0ifu9",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-qqyz4j",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T06:32:51.188Z"
     },
     {
       "id": "b9913708-e64b-454c-9067-5b610b7cd65f",
@@ -11202,28 +11206,6 @@
         "צנצנות זכוכית"
       ],
       "updated_at": "2026-06-14T14:35:46.727Z"
-    },
-    {
-      "id": "bba09e66-0548-4ed3-b3b5-c105d4b92a1e",
-      "slug": "tsntsnt-achsvn-2800-ml-i-dgm-avpk-3ms5mz",
-      "name": "צנצנת אחסון 2800 מ\"ל I דגם \"אופק\"\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561563",
-      "brand": null,
-      "price": 49.9,
-      "base_price": 49.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-2800-ml-i-dgm-avpk-3ms5mz",
-      "categories": [
-        "צנצנות זכוכית"
-      ],
-      "updated_at": "2026-06-14T14:33:15.052Z"
     },
     {
       "id": "e3b79f1f-4e55-4871-9f4a-f131105fc661",
