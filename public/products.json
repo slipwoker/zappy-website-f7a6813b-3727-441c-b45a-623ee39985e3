@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:18:22.368Z",
+  "generated_at": "2026-07-20T06:19:10.150Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -7253,7 +7253,7 @@
     },
     {
       "id": "1b215d23-1302-48fc-881c-5b7f7a95dff6",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-x1x2pe",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-dc9acr",
       "name": "סט פח + מברשת אסלה דגם LUNARIA\r\n צבע לבן",
       "name_translations": {},
       "description": "<p>פחי שירותים, פחי אמבטיה</p>",
@@ -7265,20 +7265,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1781504519609-aim2pk.webp"
+        "https://streetstock.co.il/assets/product-1781504519609-aim2pk.webp",
+        "https://streetstock.co.il/assets/product-1784528281852-fqrh3q.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-x1x2pe",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-dc9acr",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-07-15T06:46:00.876Z"
+      "updated_at": "2026-07-20T06:18:16.841Z"
     },
     {
       "id": "7816aa98-d733-4305-b5d8-cbd50970461b",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-wru7za",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-skavnm",
       "name": "סט פח + מברשת אסלה דגם LUNARIA\r\n צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -7290,16 +7291,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1781439801376-duodoo.webp"
+        "https://streetstock.co.il/assets/product-1781439801376-duodoo.webp",
+        "https://streetstock.co.il/assets/product-1784528306681-zwycgn.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-wru7za",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-skavnm",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-07-15T06:46:11.871Z"
+      "updated_at": "2026-07-20T06:18:56.731Z"
     },
     {
       "id": "3113db7c-297b-4ebc-a514-f6f7bf48cadf",

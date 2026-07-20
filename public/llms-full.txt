@@ -8274,7 +8274,7 @@ SKU: 7290121562263
 
 ### סט פח + מברשת אסלה דגם LUNARIA
  צבע לבן
-URL: https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-x1x2pe
+URL: https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-dc9acr
 Price: 79.90 ILS
 Availability: In stock
 SKU: 7290121561945
@@ -8285,7 +8285,7 @@ SKU: 7290121561945
 
 ### סט פח + מברשת אסלה דגם LUNARIA
  צבע שחור
-URL: https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-wru7za
+URL: https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-skavnm
 Price: 79.90 ILS
 Availability: In stock
 SKU: 7290121561938
