@@ -68,7 +68,12 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 508** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 509** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### בדיקה
+https://streetstock.co.il/product/bdykh-jjhv8d
+- Price: 10.00 ILS
+- Availability: In stock
 
 ### כוס זכוכית + קש | 500 מ"ל
 ID819
@@ -1605,14 +1610,6 @@ https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k
 - Category: סט מצעים 100% כותנה
 - Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
 - Image: https://streetstock.co.il/assets/product-1780837751201-uflzl.webp
-
-### סט מצעים כותנה הום סטייל דגם אגם
-https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-esfk3v
-- Price: 149.90 ILS
-- Availability: In stock
-- Category: סט מצעים 100% כותנה
-- Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
-- Image: https://streetstock.co.il/assets/product-1780837750953-7fpro.webp
 
 ---
 
