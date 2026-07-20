@@ -6160,7 +6160,7 @@ Availability: In stock
 
 ### צנצנת אחסון 250 מ"ל I דגם "אופק"
 ID491
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-250-ml-i-dgm-avpk-id491-59ztgm
+URL: https://streetstock.co.il/product/tsntsnt-achsvn-250-ml-i-dgm-avpk-id491-xe05dv
 Price: 7.90 ILS
 Availability: In stock
 
@@ -9933,7 +9933,7 @@ SKU: 7290121561662
 
 ### צנצנת אחסון 3100 מ"ל דגם אופק
 
-URL: https://streetstock.co.il/product/tsntsnt-achsvn-3100-ml-dgm-avpk-2bfrwj
+URL: https://streetstock.co.il/product/tsntsnt-achsvn-3100-ml-dgm-avpk-ce0kcb
 Price: 44.90 ILS
 Availability: In stock
 SKU: 7290121560597
