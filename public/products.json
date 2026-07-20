@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T05:47:37.685Z",
+  "generated_at": "2026-07-20T05:49:02.720Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -359,7 +359,7 @@
     },
     {
       "id": "186347c5-bff3-43e7-803e-6945759f3d96",
-      "slug": "tsntsnt-achsvn-500-ml-dgm-lyan-id883-a1kqin",
+      "slug": "tsntsnt-achsvn-500-ml-dgm-lyan-id883-51jxw3",
       "name": "צנצנת אחסון 500 מ\"ל דגם \"ליאן\"\nID883",
       "name_translations": {},
       "description": "",
@@ -370,14 +370,16 @@
       "base_price": 13.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784526466457-u31fei.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-500-ml-dgm-lyan-id883-a1kqin",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-500-ml-dgm-lyan-id883-51jxw3",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T05:48:42.748Z"
     },
     {
       "id": "de7b0a75-619b-4199-97c1-1535beca5e2d",
