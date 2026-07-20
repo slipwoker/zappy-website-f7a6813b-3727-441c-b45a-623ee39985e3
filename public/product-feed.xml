@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 20 Jul 2026 06:42:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 09:53:01 GMT</lastBuildDate>
     <item>
       <g:id>861787ab-d617-4b77-9398-dc4ef271e5ba</g:id>
       <g:title>כוס זכוכית + קש | 500 מ&quot;ל
@@ -2802,6 +2802,18 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
+    </item>
+    <item>
+      <g:id>b6109cec-42fe-4c77-8e7f-37b44de537db</g:id>
+      <g:title>כיסוי מיטה מהודר + זוג ציפיות לכרית צבע מוקה</g:title>
+      <g:description>סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס&quot;מ זוג ציפיות לכרית : 50X70 ס&quot;מ</g:description>
+      <g:link>https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-v8luh3</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>99.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
     </item>
     <item>
       <g:id>4db56ceb-7381-41f8-a91f-2254774f1984</g:id>

@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 507** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 508** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### כוס זכוכית + קש | 500 מ"ל
 ID819
