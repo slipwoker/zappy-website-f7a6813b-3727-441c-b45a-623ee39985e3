@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T06:05:04.687Z",
+  "generated_at": "2026-07-20T06:05:45.920Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 508,
@@ -187,7 +187,7 @@
     },
     {
       "id": "a93e9d45-89fb-4250-a27d-c18a66dbc549",
-      "slug": "tsntsnt-achsvn-300-ml-i-dgm-gpn-0sgw0s",
+      "slug": "tsntsnt-achsvn-300-ml-i-dgm-gpn-5qmh09",
       "name": "צנצנת אחסון 300 מ\"ל I דגם \"גפן\"",
       "name_translations": {},
       "description": "",
@@ -198,14 +198,16 @@
       "base_price": 6.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1784527495364-1bnx3p.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-i-dgm-gpn-0sgw0s",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-300-ml-i-dgm-gpn-5qmh09",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-07-17T04:29:12.080Z"
+      "updated_at": "2026-07-20T06:05:12.557Z"
     },
     {
       "id": "77555328-7c38-48b2-b6c3-7bd1fa52a7bd",
