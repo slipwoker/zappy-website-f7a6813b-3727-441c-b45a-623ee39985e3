@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-20T14:05:01.811Z",
+  "generated_at": "2026-07-21T05:25:11.824Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 508,
+  "count": 506,
   "products": [
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
@@ -11786,30 +11786,6 @@
       "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
-      "id": "230ee081-c7cc-4478-868f-4dab2c0354fa",
-      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-shchvr-sdrt-lusso-ab9sfg",
-      "name": "סיר יציקת אלומיניום 24 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n24 ס\"מ | 3.6 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564052",
-      "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837636981-3tt41.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-shchvr-sdrt-lusso-ab9sfg",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
       "id": "3dbd8b96-abb5-4eca-9d8e-03ada27011b7",
       "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h",
       "name": "סיר יציקת אלומיניום 20 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
@@ -11924,30 +11900,6 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-3qqapj",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
-    },
-    {
-      "id": "ef03c3f1-9f52-4c57-a5e8-d22c0cb535fd",
-      "slug": "syr-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-q1u1rn",
-      "name": "סיר יציקת אלומיניום 28 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n28 ס\"מ | 6.2 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564144",
-      "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837635160-3qe2um.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-q1u1rn",
       "categories": [
         "סירים ומחבתות"
       ],

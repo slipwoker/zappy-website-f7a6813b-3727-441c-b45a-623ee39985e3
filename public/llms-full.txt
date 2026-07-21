@@ -10172,17 +10172,6 @@ SKU: 7290121563390
 
 ---
 
-### סיר יציקת אלומיניום 24 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-shchvr-sdrt-lusso-ab9sfg
-Price: 119.90 ILS
-Availability: In stock
-SKU: 7290121564052
-
----
-
 ### סיר יציקת אלומיניום 20 ס"מ צבע שחור
 סדרת LUSSO
 
@@ -10233,17 +10222,6 @@ URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt
 Price: 100.00 ILS
 Availability: In stock
 SKU: 7290121564779
-
----
-
-### סיר יציקת אלומיניום 28 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-q1u1rn
-Price: 149.90 ILS
-Availability: In stock
-SKU: 7290121564144
 
 ---
 
