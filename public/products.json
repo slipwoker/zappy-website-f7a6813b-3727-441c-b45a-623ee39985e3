@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-21T05:40:24.056Z",
+  "generated_at": "2026-07-21T06:09:58.563Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 506,
+  "count": 504,
   "products": [
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
@@ -10124,54 +10124,6 @@
         "מעמדים דקורטיבים "
       ],
       "updated_at": "2026-06-11T11:06:30.031Z"
-    },
-    {
-      "id": "0910f4d0-180b-4a45-92a0-b5ec40e86adf",
-      "slug": "shvlchn-ats-sbyvn-shchvr-c0f0bq",
-      "name": "שולחן עץ סביון שחור\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561266",
-      "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837663446-45urio.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq",
-      "categories": [
-        "מעמדים דקורטיבים "
-      ],
-      "updated_at": "2026-06-15T07:41:46.363Z"
-    },
-    {
-      "id": "e351a10c-e5f9-4396-b90c-2e64572e26a8",
-      "slug": "shvlchn-ats-sbyvn-lbn-pk78vl",
-      "name": "שולחן עץ סביון לבן\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561273",
-      "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837663457-k4si7.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl",
-      "categories": [
-        "מעמדים דקורטיבים "
-      ],
-      "updated_at": "2026-06-15T07:41:45.870Z"
     },
     {
       "id": "417635b9-1205-42e3-9e65-282b53f0ac94",

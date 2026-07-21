@@ -9487,24 +9487,6 @@ SKU: 7290121561433
 
 ---
 
-### שולחן עץ סביון שחור
-
-URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq
-Price: 79.90 ILS
-Availability: In stock
-SKU: 7290121561266
-
----
-
-### שולחן עץ סביון לבן
-
-URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl
-Price: 79.90 ILS
-Availability: In stock
-SKU: 7290121561273
-
----
-
 ### שולחן נשכן אידיאל
 
 URL: https://streetstock.co.il/product/shvlchn-nshkn-aydyal-of12rs
