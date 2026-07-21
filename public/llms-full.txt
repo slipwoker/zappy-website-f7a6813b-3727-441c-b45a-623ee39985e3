@@ -10286,24 +10286,24 @@ SKU: 7290121563079
 ---
 
 ### פח 53 ליטר מוקה PURE TOUCH
-URL: https://streetstock.co.il/product/pch-53-lytr-mvkh-pure-touch-9qgvw0
-Price: 249.90 ILS
+URL: https://streetstock.co.il/product/pch-53-lytr-mvkh-pure-touch-ale8ar
+Price: 299.90 ILS
 Availability: In stock
 SKU: 7290121560092
 
 ---
 
 ### פח 53 ליטר שחור PURE TOUCH
-URL: https://streetstock.co.il/product/pch-53-lytr-shchvr-pure-touch-ab5m27
-Price: 249.90 ILS
+URL: https://streetstock.co.il/product/pch-53-lytr-shchvr-pure-touch-a7897y
+Price: 299.90 ILS
 Availability: In stock
 SKU: 7290121560016
 
 ---
 
 ### פח 53 ליטר לבן PURE TOUCH
-URL: https://streetstock.co.il/product/pch-53-lytr-lbn-pure-touch-lfzai9
-Price: 249.90 ILS
+URL: https://streetstock.co.il/product/pch-53-lytr-lbn-pure-touch-2vmpyc
+Price: 299.90 ILS
 Availability: In stock
 SKU: 7290121560009
 
