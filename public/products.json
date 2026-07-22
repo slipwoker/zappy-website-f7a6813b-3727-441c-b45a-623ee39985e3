@@ -1,10 +1,32 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-22T05:32:11.779Z",
+  "generated_at": "2026-07-22T05:53:56.297Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 507,
+  "count": 508,
   "products": [
+    {
+      "id": "38a26279-45b5-4a10-bc33-e5da182598d3",
+      "slug": "kryt-shynh-tpe-yu3093",
+      "name": "כרית שינה TPE",
+      "name_translations": {},
+      "description": "",
+      "short_description": "PreviousNext\n\nעמוד הבית / טקסטיל לבית / כריות / כרית שינה U-102 TPEכרית שינה U-102 TPE\n\nמס' דגם: U-102\n\n \n\nמידת הכרית: 40X60X13\n\nקטגוריות: טקסטיל לבית, כריות\n\nתיאור\n\nכרית ויסקו TPE איכותית עשויה מיציקת ויסקו בריאותית בתוספת שכבת TPE.\nהכרית מתאימה את עצמה למבנה הראש והצוואר לשינה רכה ונעימה יותר.\n\n",
+      "sku": null,
+      "brand": null,
+      "price": 119.9,
+      "base_price": 119.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1784699533515-x636ng.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/kryt-shynh-tpe-yu3093",
+      "categories": [],
+      "updated_at": "2026-07-22T05:53:22.622Z"
+    },
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
       "slug": "kvs-zkvkyt-ksh-500-ml-id819-rd2nd5",
