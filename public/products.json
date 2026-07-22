@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-22T07:04:32.470Z",
+  "generated_at": "2026-07-22T11:04:14.393Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 510,
@@ -28,7 +28,7 @@
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-07-22T06:04:54.036Z"
+      "updated_at": "2026-07-22T11:03:41.998Z"
     },
     {
       "id": "849f41dd-e993-40d9-b52e-a879087bfea5",
@@ -53,7 +53,7 @@
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-07-22T06:04:54.184Z"
+      "updated_at": "2026-07-22T11:03:41.998Z"
     },
     {
       "id": "38a26279-45b5-4a10-bc33-e5da182598d3",
@@ -75,7 +75,7 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kryt-shynh-tpe-9x1vma",
       "categories": [],
-      "updated_at": "2026-07-22T07:04:18.364Z"
+      "updated_at": "2026-07-22T11:03:41.998Z"
     },
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
