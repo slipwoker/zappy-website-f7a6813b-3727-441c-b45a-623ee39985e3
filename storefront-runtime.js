@@ -8756,24 +8756,30 @@ function buildApiUrl(path) {
 
   // Get current language for API calls (uses the generated zappyI18n runtime, falls back to stored/html language)
 function getCurrentLanguage() {
+  /* ZAPPY_LANG_DETECTION_FIX */
+  /* ZAPPY_ADDITIONALJS_LANG_DETECTION_FIX */
   try {
     var queryLang = new URLSearchParams(window.location.search).get('lang');
-    if (queryLang) return queryLang;
+    if (queryLang) return String(queryLang).split('-')[0].toLowerCase();
   } catch (e) {}
+  try {
+    var pathMatch = (window.location.pathname || '').match(/^\/([a-z]{2})(?=\/|$)/i);
+    if (pathMatch) return pathMatch[1].toLowerCase();
+  } catch (e2) {}
   if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.getCurrentLanguage === 'function') {
-    return zappyI18n.getCurrentLanguage();
+    var i18nLang = zappyI18n.getCurrentLanguage();
+    if (i18nLang) return String(i18nLang).split('-')[0].toLowerCase();
   }
   if (typeof zappyI18n !== 'undefined' && zappyI18n.language) {
-    return zappyI18n.language;
+    return String(zappyI18n.language).split('-')[0].toLowerCase();
+  }
+  var htmlLang = document.documentElement.getAttribute('lang');
+  if (htmlLang) {
+    return String(htmlLang).split('-')[0].toLowerCase();
   }
   var stored = localStorage.getItem('zappy_lang') || localStorage.getItem('zappy-language') || localStorage.getItem('selectedLanguage') || localStorage.getItem('language');
   if (stored) {
-    return stored;
-  }
-  // Fall back to HTML lang attribute
-  var htmlLang = document.documentElement.getAttribute('lang');
-  if (htmlLang) {
-    return htmlLang;
+    return String(stored).split('-')[0].toLowerCase();
   }
   return null;
 }
@@ -14711,17 +14717,18 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_VARIANT_SELECTION_FIX_V10 */
+/* ZAPPY_VARIANT_SELECTION_FIX_V14 */
 (function(){
   try {
     if (window.__zappyVariantFixInit) return;
     window.__zappyVariantFixInit = true;
+    function _isMultiQty(p){return !!(p&&p.card_variants&&p.card_variants.multiQuantity)||!!(typeof window.isProductMultiQuantity==='function'&&window.isProductMultiQuantity(p))||!!document.querySelector('[data-multi-quantity="true"]');}
 
     // Inject CSS for disabled/OOS variant styling
     if (!document.getElementById('zappy-variant-fix-css')) {
       var s = document.createElement('style');
       s.id = 'zappy-variant-fix-css';
-      s.textContent = '.variant-option.disabled{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.disabled::after,.variant-option.disabled::before{content:none!important}.variant-option.color-swatch.disabled{text-decoration:none!important}.variant-option.out-of-stock{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.out-of-stock::after,.variant-option.out-of-stock::before{content:none!important}.variant-option.color-swatch.out-of-stock{text-decoration:none!important}';
+      s.textContent = '.variant-option.disabled{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.disabled::after,.variant-option.disabled::before{content:none!important}.variant-option.color-swatch.disabled{text-decoration:none!important}.variant-option.out-of-stock{opacity:0.4!important;cursor:pointer!important;text-decoration:line-through!important}.variant-option.out-of-stock::after,.variant-option.out-of-stock::before{content:none!important}.variant-option.color-swatch.out-of-stock{text-decoration:none!important}.product-info .product-stock.select-required{color:#d97706!important}';
       document.head.appendChild(s);
     }
 
@@ -14744,7 +14751,8 @@ function fixContrast(){
     // _autoSelectSingles. Re-trigger fixVariantSelection from inside the wrapper
     // so the runtime fix runs once data finally arrives. Deferred via setTimeout
     // so the page's own renderProductDetail finishes mutating the DOM first.
-    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection==='function')_initOvr=true;window.initVariantSelection=function(p,t){if(p&&p.variants&&p.variants.length>0){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
+    function _hasMatrix(p){return !!(p&&p.card_variants&&Array.isArray(p.card_variants.matrix)&&p.card_variants.matrix.length>0)}
+    function _oivs(){if(_initOvr)return;if(typeof window.initVariantSelection!=='function')return;_initOvr=true;var _origInit=window.initVariantSelection;window.initVariantSelection=function(p,t){if(_isMultiQty(p)){return _origInit.call(this,p,t);}if(p&&((p.variants&&p.variants.length>0)||_hasMatrix(p))){_vProduct=_augmentProductFromCardVariants(p);var tr=t||{};if(!tr.pleaseSelect){var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';tr.pleaseSelect=rtl?'נא לבחור':'Please select'}_vT=tr;setTimeout(function(){try{fixVariantSelection()}catch(e){}},0)}}}
     _oivs();
 
     function _augmentProductFromCardVariants(p){
@@ -14767,7 +14775,15 @@ function fixContrast(){
     function _trVal(p,k,v,f){if(typeof window.zappyTranslateVariantValue==='function')return window.zappyTranslateVariantValue(p,k,v,f);var lang='';try{lang=String((typeof getCurrentEcomLanguage==='function'?getCurrentEcomLanguage():(document.documentElement.lang||''))||'').split('-')[0].toLowerCase()}catch(e){}function kc(x){if(lang!=='he')return'';if(String(k||'').toLowerCase().indexOf('color')===-1&&String(k||'').toLowerCase()!=='colour')return'';var raw=String(x==null?'':x).trim();if(!raw||/[\u0590-\u05FF]/.test(raw))return'';var map={black:'שחור',white:'לבן',gray:'אפור',grey:'אפור',red:'אדום',green:'ירוק',blue:'כחול',navy:'כחול כהה',pink:'ורוד',purple:'סגול',yellow:'צהוב',orange:'כתום',brown:'חום',beige:'בז׳',gold:'זהב',silver:'כסף',teal:'טורקיז',mint:'מנטה',cream:'קרם',ivory:'שנהב'},direct=map[raw.toLowerCase().replace(/\s+/g,' ')];if(direct)return direct;var parts=raw.split(/\s*-\s*/).filter(Boolean),tr=parts.map(function(part){return map[String(part).toLowerCase().replace(/\s+/g,' ')]});return parts.length>1&&tr.every(Boolean)?tr.join('-'):''}var vs=p&&Array.isArray(p.variants)?p.variants:[],w=String(v);for(var i=0;i<vs.length;i++){var x=vs[i]||{},a=x.attributes_source||x.attributes||{};if(!a||String(a[k])!==w)continue;var tr=x.attributes_translations&&lang&&x.attributes_translations[lang];if(tr&&tr[k])return kc(tr[k])||String(tr[k]);var d=x.attributes_display||{};if(d&&d[k])return kc(d[k])||String(d[k])}var m=p&&p.card_variants&&Array.isArray(p.card_variants.matrix)?p.card_variants.matrix:[];for(var j=0;j<m.length;j++){var r=m[j]||{},ra=r.attributes||{};if(ra&&String(ra[k])===w&&r.attributes_display&&r.attributes_display[k])return kc(r.attributes_display[k])||String(r.attributes_display[k])}return kc(f)||f}
     function _ensureCvBtns(){var p=_vProduct||window.currentProduct,cv=p&&p.card_variants;if(!cv||!Array.isArray(cv.options))return;cv.options.forEach(function(o){if(!o||!o.key||!Array.isArray(o.values))return;var g=null;document.querySelectorAll('.variant-group').forEach(function(c){if(c.getAttribute('data-group')===o.key)g=c});var ct=g&&g.querySelector('.variant-options');if(!ct)return;var isC=o.type==='color'||String(o.key).toLowerCase().indexOf('color')!==-1;o.values.forEach(function(e){if(!e||e.value==null)return;var dl=_trVal(p,o.key,e.value,String(e.label||e.value));var eb=null;ct.querySelectorAll('.variant-option').forEach(function(b){if(b.getAttribute('data-value')===String(e.value))eb=b});if(eb){eb.setAttribute('data-display-value',dl);eb.title=dl;if(isC)eb.style.cssText=_cvStyle(e);else eb.textContent=dl;return}var b=document.createElement('button');b.type='button';b.className='variant-option'+(isC?' color-swatch':'');b.setAttribute('data-attr',o.key);b.setAttribute('data-value',String(e.value));b.setAttribute('data-display-value',dl);b.title=dl;if(isC)b.style.cssText=_cvStyle(e);else b.textContent=dl;ct.appendChild(b)})})}
 
-    function _gv() { if(!_vProduct)return []; return (_vProduct.variants||[]).filter(function(v){return v.is_active!==false}); }
+    function _gv() {
+      if(!_vProduct)return [];
+      var rows=(_vProduct.variants||[]).filter(function(v){return v&&v.is_active!==false});
+      if(rows.length)return rows;
+      // Matrix-only / incomplete variants payload: treat card_variants.matrix as
+      // the purchasable row set (same as updateVariantUI / renderProductDetail).
+      var m=_vProduct.card_variants&&Array.isArray(_vProduct.card_variants.matrix)?_vProduct.card_variants.matrix:[];
+      return m.filter(function(r){return r&&r.is_active!==false});
+    }
     function _gak() { var k=[],s={}; document.querySelectorAll('.variant-option').forEach(function(b){var a=b.getAttribute('data-attr');if(a&&!s[a]){s[a]=true;k.push(a)}}); return k; }
     // Wildcard match: a variant that doesn't define an attribute matches any value.
     // Prefers the shared window.zappyVariantMatrix (same script.js) so the PDP,
@@ -14778,6 +14794,10 @@ function fixContrast(){
     function _oos(v) {
       if(window.zappyVariantMatrix)return window.zappyVariantMatrix.isUnavailable(v);
       if(!v)return true;
+      // Mirror zappyVariantMatrix.isUnavailable — matrix rows often only set
+      // available (no stock_status / inventory fields).
+      if(typeof v.available==='boolean')return !v.available;
+      if(v.is_active===false)return true;
       if(v.stock_status==='out_of_stock')return true;
       var i=v.inventory_quantity!=null?v.inventory_quantity:v.inventoryQuantity;
       if(i!=null&&i!==''){var n=parseFloat(i);if(isFinite(n))return n<=0}
@@ -14807,9 +14827,24 @@ function fixContrast(){
       else if(window._originalMainImageSrc){mi.src=window._originalMainImageSrc}
     }
 
+    // Mirror updateVariantUI's incomplete-selection availability: prefer active
+    // variant rows, then fall back to card_variants.matrix when variants are
+    // empty/incomplete/all-OOS. V11 only consulted _gv()→variants and flashed
+    // "Out of Stock" on matrix-heavy products that initially showed "Select option".
+    function _anyAvail(){
+      var rows=_gv();
+      if(rows.some(function(v){return !_oos(v)}))return true;
+      var p=_vProduct||window.currentProduct;
+      var m=p&&p.card_variants&&Array.isArray(p.card_variants.matrix)?p.card_variants.matrix:[];
+      if(m.length)return m.some(function(r){return r&&r.available!==false&&r.is_active!==false});
+      return false;
+    }
+    function _selMsg(){var t=_vT||{};if(typeof getEcomText==='function')return getEcomText('selectVariant',t.selectVariant||'Select option');var rtl=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';return t.selectVariant||(rtl?'\u05D1\u05D7\u05E8 \u05D0\u05E4\u05E9\u05E8\u05D5\u05EA':'Select option')}
     function _upd() {
       var t=_vT,product=_vProduct;if(!product)return;
-      var keys=_gak(),allSel=keys.every(function(k){return selectedAttributes.hasOwnProperty(k)});
+      // keys.length===0 must NOT vacuous-true allSel — that used to resolve the
+      // first (often OOS) variant and flash "Out of Stock" before a pick.
+      var keys=_gak(),allSel=keys.length>0&&keys.every(function(k){return selectedAttributes.hasOwnProperty(k)});
       var sd=document.getElementById('product-stock-display'),ab=document.getElementById('add-to-cart-btn');
       keys.forEach(function(k){var sp=document.querySelector('.variant-group[data-group="'+k+'"] .variant-selected-value');if(sp){var sb=document.querySelector('.variant-option[data-attr="'+k+'"].selected');sp.textContent=(sb&&sb.getAttribute('data-display-value'))||selectedAttributes[k]||''}});
       if(allSel){
@@ -14822,8 +14857,15 @@ function fixContrast(){
         }
       } else {
         window.selectedVariant=null;
-        if(sd){sd.className='product-stock in-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>'+(t.inStock||'In Stock')}
-        if(ab){ab.disabled=false;ab.style.opacity='';ab.style.cursor=''}
+        // Incomplete selection: prompt to pick an option when any variant is still
+        // purchasable. Never echo parent stock_status as "Out of Stock" here —
+        // that was the limousine-type PDP bug (אזל מהמלאי before choosing).
+        var avail=_anyAvail();
+        if(sd){
+          if(avail){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+_selMsg()}
+          else{sd.className='product-stock out-of-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'+(t.outOfStock||'Out of Stock')}
+        }
+        if(ab){if(avail){ab.disabled=false;ab.style.opacity='';ab.style.cursor=''}else{ab.disabled=true;ab.style.opacity='0.5';ab.style.cursor='not-allowed'}}
         var skd2=document.getElementById('product-sku-display');if(skd2&&product.sku){var skL2=(typeof getEcomText==='function')?getEcomText('sku',t.sku||'SKU'):(t.sku||'SKU');skd2.textContent=skL2+': '+product.sku}
         var pd=document.getElementById('product-price-display');if(pd){var c=product.currency||t.currency||String.fromCharCode(8362),bP=window.productBasePrice||parseFloat(product.price)||0,oP=window.productOriginalPrice||parseFloat(product.compare_at_price||product.original_price||0),hS=window.productHasSalePrice,hR=window.productHasVariantPriceRange,mP=window.productVariantMinPrice;var _cdFn=(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id)?window.__zappyApplyCustomerPercentToPrice:null;if(hR&&mP!=null&&isFinite(mP)){var sL=(typeof getEcomText==='function')?getEcomText('startingAt',t.startingAt||'Starting at'):(t.startingAt||'Starting at');if(_cdFn){var _r=_cdFn(mP,product.id);if(_r&&_r.applied){pd.innerHTML=sL+' '+c+_r.price.toFixed(2)+' <span class="original-price">'+c+mP.toFixed(2)+'</span>'}else{pd.textContent=sL+' '+c+mP.toFixed(2)}}else{pd.textContent=sL+' '+c+mP.toFixed(2)}}else if(_cdFn){var _r2=_cdFn(bP,product.id);if(_r2&&_r2.applied){pd.innerHTML=c+_r2.price.toFixed(2)+' <span class="original-price">'+c+bP.toFixed(2)+'</span>'}else if(hS&&oP>bP){pd.innerHTML=c+bP.toFixed(2)+' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else{pd.textContent=c+bP.toFixed(2)}}else if(hS&&oP>bP){pd.innerHTML=c+bP.toFixed(2)+' <span class="original-price">'+c+oP.toFixed(2)+'</span>'}else{pd.textContent=c+bP.toFixed(2)}}
         if(typeof updatePricePerUnitDisplay==='function'){var hR2=window.productHasVariantPriceRange,mP2=window.productVariantMinPrice,bP2=window.productBasePrice||parseFloat(product.price)||0,rP=(hR2&&mP2!=null&&isFinite(mP2))?mP2:bP2;if(typeof window.__zappyApplyCustomerPercentToPrice==='function'&&product&&product.id){var _cdRp=window.__zappyApplyCustomerPercentToPrice(rP,product.id);if(_cdRp&&_cdRp.applied)rP=_cdRp.price}updatePricePerUnitDisplay(rP,product,t)}
@@ -14833,6 +14875,7 @@ function fixContrast(){
 
     // Document-level capture handler
     document.addEventListener('click',function(e){
+      if(_isMultiQty(_vProduct||window.currentProduct))return;
       var btn=e.target.closest?e.target.closest('.variant-option'):null;if(!btn)return;
       if(!_vProduct||_gv().length===0)return;
       e.preventDefault();e.stopImmediatePropagation();
@@ -14846,13 +14889,14 @@ function fixContrast(){
 
     // Document-level add-to-cart interceptor (capture phase) to prevent original alert()
     document.addEventListener('click',function(e){
+      if(_isMultiQty(_vProduct||window.currentProduct))return;
       var ab=e.target.closest?e.target.closest('.add-to-cart-btn,.add-to-cart,#add-to-cart-btn,[onclick*="addProductToCart"]'):null;if(!ab)return;
       if(!_vProduct||_gv().length===0)return;
       var t=_vT||{},keys=_gak();
       for(var i=0;i<keys.length;i++){if(!selectedAttributes.hasOwnProperty(keys[i])){
         e.preventDefault();e.stopImmediatePropagation();
         var grp=document.querySelector('.variant-group[data-group="'+keys[i]+'"]'),lbl=grp?grp.querySelector('.variant-group-label'):null,name=lbl?lbl.textContent.replace(/[:\s]+$/,'').trim():keys[i];
-        var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock out-of-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
+        var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
         if(grp){grp.style.transition='background 0.3s';grp.style.background='rgba(255,0,0,0.05)';grp.style.borderRadius='8px';setTimeout(function(){grp.style.background=''},2000)}return}}
       var m=_fm(selectedAttributes);if(m.length>0&&m.every(function(v){return _oos(v)})){e.preventDefault();e.stopImmediatePropagation();return}
     },true);
@@ -14909,7 +14953,9 @@ function fixContrast(){
     function fixVariantSelection() {
       _oivs();
       var product=_vProduct||window.currentProduct,t=_vT||window.productTranslations||{};
-      if(!product||!product.variants||product.variants.length===0)return;
+      if(!product)return;
+      if(_isMultiQty(product))return;
+      if((!product.variants||product.variants.length===0)&&!_hasMatrix(product))return;
       if(document.querySelectorAll('.variant-option').length===0)return;
       if(window._zappyVariantFixed)return;window._zappyVariantFixed=true;
       _vProduct=_augmentProductFromCardVariants(product);if(!t.pleaseSelect){var isRTL=document.documentElement.getAttribute('dir')==='rtl'||document.body.getAttribute('dir')==='rtl';t.pleaseSelect=isRTL?'נא לבחור':'Please select'}_vT=t;
@@ -14921,9 +14967,10 @@ function fixContrast(){
       document.querySelectorAll('.variant-options').forEach(function(c){var b=Array.from(c.querySelectorAll('.variant-option'));if(b.length<2)return;b.sort(function(a,b){var va=a.getAttribute('data-value')||'',vb=b.getAttribute('data-value')||'';var sa=_so[va.toLowerCase()],sb=_so[vb.toLowerCase()];var na=sa===undefined?parseFloat(va):NaN,nb=sb===undefined?parseFloat(vb):NaN;if(!isNaN(na)&&!isNaN(nb))return na-nb;if(sa!==undefined&&sb!==undefined)return sa-sb;var ca=!isNaN(na)?0:sa!==undefined?1:2,cb=!isNaN(nb)?0:sb!==undefined?1:2;if(ca!==cb)return ca-cb;return va.localeCompare(vb)});b.forEach(function(x){c.appendChild(x)})});
       var origATC=window.addProductToCart;
       window.addProductToCart=function(){
+        var pNow=window.currentProduct;if(_isMultiQty(pNow)){if(origATC)return origATC.apply(this,arguments);return;}
         var keys=_gak();for(var i=0;i<keys.length;i++){if(!selectedAttributes.hasOwnProperty(keys[i])){
           var grp=document.querySelector('.variant-group[data-group="'+keys[i]+'"]'),lbl=grp?grp.querySelector('.variant-group-label'):null,name=lbl?lbl.textContent.replace(/[:\s]+$/,'').trim():keys[i];
-          var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock out-of-stock';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
+          var sd=document.getElementById('product-stock-display');if(sd){sd.className='product-stock select-required';sd.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>'+(t.pleaseSelect||'Please select')+' '+name}
           if(grp){grp.style.transition='background 0.3s';grp.style.background='rgba(255,0,0,0.05)';grp.style.borderRadius='8px';setTimeout(function(){grp.style.background=''},2000)}return}}
         var m=_fm(selectedAttributes);if(m.length>0&&m.every(function(v){return _oos(v)}))return;
         if(origATC)origATC.apply(this,arguments);
@@ -15709,22 +15756,57 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD */
+/* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD_V2 */
 (function(){
   var RTL_RE = /[\u0590-\u05FF\u0600-\u06FF]/;
   function isRTLPage() {
     if (document.documentElement.getAttribute('dir') === 'rtl') return true;
     var lang = (typeof getCurrentLanguage === 'function' ? getCurrentLanguage() : null) || document.documentElement.lang || '';
-    return ['he','iw','ar','fa','ur'].indexOf(lang.split('-')[0].toLowerCase()) !== -1;
+    return ['he','iw','ar','fa','ur'].indexOf(String(lang).split('-')[0].toLowerCase()) !== -1;
   }
-
+  function scriptMatchesPage(text, wantRtl) {
+    if (!text) return false;
+    var hasRtl = RTL_RE.test(text);
+    return wantRtl ? hasRtl : !hasRtl;
+  }
+  function pickFallback(wantRtl) {
+    var li = document.querySelector('.zappy-products-dropdown');
+    if (!li) return '';
+    var link = li.querySelector(':scope > a');
+    var fallback = '';
+    var i18nKey = (link && link.getAttribute('data-i18n')) || '';
+    if (i18nKey && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
+      var t = window.zappyI18n.t(i18nKey);
+      if (t && t !== i18nKey && scriptMatchesPage(t, wantRtl)) fallback = t;
+    }
+    if (!fallback && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
+      var keys = wantRtl
+        ? ['ecom_products', 'nav_products', 'products', 'catalog']
+        : ['nav_products', 'products', 'catalog', 'ecom_products'];
+      for (var ki = 0; ki < keys.length; ki++) {
+        var kv = window.zappyI18n.t(keys[ki]);
+        if (kv && kv !== keys[ki] && scriptMatchesPage(kv, wantRtl)) { fallback = kv; break; }
+      }
+    }
+    if (!fallback) {
+      var subLink = li.querySelector('.sub-menu a[data-i18n]');
+      if (subLink) {
+        var st = subLink.textContent.trim();
+        if (scriptMatchesPage(st, wantRtl)) fallback = st;
+      }
+    }
+    if (!fallback) fallback = wantRtl ? 'מוצרים' : 'Products';
+    return fallback;
+  }
+  function applyLabel(link, label) {
+    if (!link || !label) return;
+    var svg = link.querySelector('svg');
+    link.textContent = '';
+    link.appendChild(document.createTextNode(label + ' '));
+    if (svg) link.appendChild(svg);
+  }
   function fix() {
     try {
-      if (isRTLPage()) {
-        var rtlLi = document.querySelector('.zappy-products-dropdown');
-        if (rtlLi) rtlLi.style.removeProperty('display');
-        return;
-      }
       var li = document.querySelector('.zappy-products-dropdown');
       if (!li) return;
       var link = li.querySelector(':scope > a');
@@ -15732,38 +15814,24 @@ function fixContrast(){
       var textNode = link.firstChild;
       if (!textNode || textNode.nodeType !== 3) return;
       var label = textNode.textContent.trim();
-      if (!label || !RTL_RE.test(label)) { li.style.removeProperty('display'); return; }
-      var fallback = '';
-      var i18nKey = link.getAttribute('data-i18n') || '';
-      if (i18nKey && window.zappyI18n && typeof window.zappyI18n.t === 'function') {
-        var t = window.zappyI18n.t(i18nKey);
-        if (t && t !== i18nKey && !RTL_RE.test(t)) fallback = t;
-      }
-      if (!fallback) {
-        var subLink = li.querySelector('.sub-menu a[data-i18n]');
-        if (subLink) { var st = subLink.textContent.trim(); if (st && !RTL_RE.test(st)) fallback = st; }
-      }
-      if (fallback) {
-        var svg = link.querySelector('svg');
-        link.textContent = '';
-        link.appendChild(document.createTextNode(fallback + ' '));
-        if (svg) link.appendChild(svg);
+      var wantRtl = isRTLPage();
+      // Wrong-script label for the page direction → replace with a matching fallback.
+      // Covers Hebrew-on-English (legacy) AND English-on-Hebrew (re-add English bug).
+      if (!label || scriptMatchesPage(label, wantRtl)) {
         li.style.removeProperty('display');
-      } else {
+        return;
+      }
+      var fallback = pickFallback(wantRtl);
+      if (fallback) {
+        applyLabel(link, fallback);
+        li.style.removeProperty('display');
+      } else if (!wantRtl) {
         li.style.setProperty('display', 'none', 'important');
+      } else {
+        li.style.removeProperty('display');
       }
     } catch(e) {}
   }
-  try {
-    var li = document.querySelector('.zappy-products-dropdown');
-    if (li) {
-      var link = li.querySelector(':scope > a');
-      var tn = link && link.firstChild;
-      if (tn && tn.nodeType === 3 && RTL_RE.test(tn.textContent) && !isRTLPage()) {
-        li.style.setProperty('display', 'none', 'important');
-      }
-    }
-  } catch(e) {}
   fix();
   setTimeout(fix, 2000);
   setTimeout(fix, 5000);
@@ -16285,7 +16353,7 @@ function fixContrast(){
       var s = document.createElement('style');
       s.id = 'zappy-variant-visual-css';
       s.textContent =
-        /* Text variant options: gray + text strikethrough */
+        /* False variant options: gray + text strikethrough */
         '.variant-option.disabled { opacity: 0.4 !important; cursor: pointer !important; text-decoration: line-through !important; }' +
         '.variant-option.disabled::after, .variant-option.disabled::before { content: none !important; }' +
         /* Color swatches: only opacity, no strikethrough */
@@ -16293,22 +16361,39 @@ function fixContrast(){
         /* Out-of-stock: same treatment */
         '.variant-option.out-of-stock { opacity: 0.4 !important; cursor: pointer !important; text-decoration: line-through !important; }' +
         '.variant-option.out-of-stock::after, .variant-option.out-of-stock::before { content: none !important; }' +
-        '.variant-option.color-swatch.out-of-stock { text-decoration: none !important; }';
+        '.variant-option.color-swatch.out-of-stock { text-decoration: none !important; }' +
+        /* Incomplete selection prompt (must not look like hard OOS) */
+        '.product-info .product-stock.select-required { color: #d97706 !important; }';
       document.head.appendChild(s);
     }
 
     // 2) Override initVariantSelection early to prevent the page's default selection behavior.
     // The page's initVariantSelection calls .click() on first options, auto-selecting defaults.
     // We replace it with a version that only does setup (CSS, sorting, handlers) but skips auto-select.
+    // Ticket-style multi-qty products keep the baked initMultiQuantitySelection path.
     var _initOverridden = false;
+    var _origInitVariantSelection = null;
+    function _isMultiQtyProduct(p) {
+      return !!(p && p.card_variants && p.card_variants.multiQuantity)
+        || !!(typeof window.isProductMultiQuantity === 'function' && window.isProductMultiQuantity(p))
+        || !!document.querySelector('[data-multi-quantity="true"]');
+    }
     function _overrideInitVariantSelection() {
       if (_initOverridden) return;
-      if (typeof window.initVariantSelection === 'function') {
-        _initOverridden = true;
-      }
+      // Wait until the page defines initVariantSelection so we can keep a real
+      // original for multi-qty products (ticket-style per-value steppers).
+      if (typeof window.initVariantSelection !== 'function') return;
+      _initOverridden = true;
+      _origInitVariantSelection = window.initVariantSelection;
       window.initVariantSelection = function(product, t) {
-        // Store product data for our fix
-        if (product && product.variants && product.variants.length > 0) {
+        if (_isMultiQtyProduct(product)) {
+          if (typeof _origInitVariantSelection === 'function') {
+            return _origInitVariantSelection.call(this, product, t);
+          }
+          return;
+        }
+        // Store product data for our fix (variants[] OR card_variants.matrix)
+        if (product && ((product.variants && product.variants.length > 0) || _hasMatrix(product))) {
           _variantProduct = _augmentProductFromCardVariants(product);
           var trans = t || {};
           // Ensure pleaseSelect is available (for sites generated before this key was added)
@@ -16341,7 +16426,33 @@ function fixContrast(){
     
     function _getVariants() {
       if (!_variantProduct) return [];
-      return (_variantProduct.variants || []).filter(function(v) { return v.is_active !== false; });
+      var rows = (_variantProduct.variants || []).filter(function(v) { return v && v.is_active !== false; });
+      if (rows.length) return rows;
+      // Matrix-only / incomplete variants[] — same fallback as updateVariantUI / V12 overlay.
+      var m = _variantProduct.card_variants && Array.isArray(_variantProduct.card_variants.matrix)
+        ? _variantProduct.card_variants.matrix : [];
+      return m.filter(function(r) { return r && r.is_active !== false; });
+    }
+
+    function _hasMatrix(p) {
+      return !!(p && p.card_variants && Array.isArray(p.card_variants.matrix) && p.card_variants.matrix.length > 0);
+    }
+
+    /** True when any purchasable variant/matrix row remains (incomplete-selection gate). */
+    function _anyVariantAvailable() {
+      var rows = _getVariants();
+      if (rows.some(function(v) { return !_isOOS(v); })) return true;
+      var p = _variantProduct || window.currentProduct;
+      var m = p && p.card_variants && Array.isArray(p.card_variants.matrix) ? p.card_variants.matrix : [];
+      if (m.length) return m.some(function(r) { return r && r.available !== false && r.is_active !== false; });
+      return false;
+    }
+
+    function _selectVariantMessage() {
+      var t = _variantTranslations || {};
+      if (typeof getEcomText === 'function') return getEcomText('selectVariant', t.selectVariant || 'Select option');
+      var rtl = document.documentElement.getAttribute('dir') === 'rtl' || document.body.getAttribute('dir') === 'rtl';
+      return t.selectVariant || (rtl ? 'בחר אפשרות' : 'Select option');
     }
 
     function _augmentProductFromCardVariants(product) {
@@ -16503,6 +16614,9 @@ function fixContrast(){
     function _isOOS(v) {
       if (window.zappyVariantMatrix) return window.zappyVariantMatrix.isUnavailable(v);
       if (!v) return true;
+      // Matrix rows often only set `available` (no stock_status / inventory).
+      if (typeof v.available === 'boolean') return !v.available;
+      if (v.is_active === false) return true;
       if (v.stock_status === 'out_of_stock') return true;
       var i = v.inventory_quantity != null ? v.inventory_quantity : v.inventoryQuantity;
       if (i != null && i !== '') {
@@ -16598,7 +16712,9 @@ function fixContrast(){
       var product = _variantProduct;
       if (!product) return;
       var keys = _getAttributeKeys();
-      var allSelected = keys.every(function(k) { return selectedAttributes.hasOwnProperty(k); });
+      // keys.length===0 must NOT vacuous-true allSelected — that used to resolve
+      // the first (often OOS) variant and flash "Out of Stock" before a pick.
+      var allSelected = keys.length > 0 && keys.every(function(k) { return selectedAttributes.hasOwnProperty(k); });
       var stockDisplay = document.getElementById('product-stock-display');
       var priceDisplay = document.getElementById('product-price-display');
       var addBtn = document.getElementById('add-to-cart-btn');
@@ -16724,11 +16840,23 @@ function fixContrast(){
           var skuLabel2 = (typeof getEcomText === 'function') ? getEcomText('sku', t.sku || 'SKU') : (t.sku || 'SKU');
           skuDisplay2.textContent = skuLabel2 + ': ' + product.sku;
         }
+        // Incomplete selection: prompt to pick an option when any variant is still
+        // purchasable. Never echo parent stock_status / blanket "In Stock" here —
+        // that flashed OOS or In Stock before the shopper chose (preview path).
+        var avail = _anyVariantAvailable();
         if (stockDisplay) {
-          stockDisplay.className = 'product-stock in-stock';
-          stockDisplay.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>' + (t.inStock || 'In Stock');
+          if (avail) {
+            stockDisplay.className = 'product-stock select-required';
+            stockDisplay.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>' + _selectVariantMessage();
+          } else {
+            stockDisplay.className = 'product-stock out-of-stock';
+            stockDisplay.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>' + (t.outOfStock || 'Out of Stock');
+          }
         }
-        if (addBtn) { addBtn.disabled = false; addBtn.style.opacity = ''; addBtn.style.cursor = ''; }
+        if (addBtn) {
+          if (avail) { addBtn.disabled = false; addBtn.style.opacity = ''; addBtn.style.cursor = ''; }
+          else { addBtn.disabled = true; addBtn.style.opacity = '0.5'; addBtn.style.cursor = 'not-allowed'; }
+        }
         // Reset price to initial state (Starting at / base price). Same
         // customer-discount path as the variant-matched branch above; without
         // this, partially-selecting a variant and then deselecting another
@@ -16798,6 +16926,7 @@ function fixContrast(){
     
     // Document-level capture handler - fires BEFORE any element-level handlers
     document.addEventListener('click', function(e) {
+      if (_isMultiQtyProduct(_variantProduct || window.currentProduct)) return;
       var btn = e.target.closest ? e.target.closest('.variant-option') : null;
       if (!btn) return;
       if (!_variantProduct || _getVariants().length === 0) return;
@@ -16828,6 +16957,7 @@ function fixContrast(){
     // This fires before any element-level onclick or inline onclick handlers,
     // preventing the page's original alert()-based validation.
     document.addEventListener('click', function(e) {
+      if (_isMultiQtyProduct(_variantProduct || window.currentProduct)) return;
       var addBtn = e.target.closest ? e.target.closest('.add-to-cart-btn, .add-to-cart, #add-to-cart-btn, [onclick*="addProductToCart"]') : null;
       if (!addBtn) return;
       if (!_variantProduct || _getVariants().length === 0) return;
@@ -16845,8 +16975,10 @@ function fixContrast(){
           var name = lbl ? lbl.textContent.replace(/[:\s]+$/, '').trim() : keys[i];
           var sd = document.getElementById('product-stock-display');
           if (sd) {
-            sd.className = 'product-stock out-of-stock';
-            sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>' +
+            // select-required (not out-of-stock): i18n patch must not rewrite
+            // "Please select Material" → "Out of Stock".
+            sd.className = 'product-stock select-required';
+            sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>' +
               (t.pleaseSelect || 'Please select') + ' ' + name;
           }
           if (grp) {
@@ -16876,7 +17008,9 @@ function fixContrast(){
       
       var product = _variantProduct || window.currentProduct;
       var t = _variantTranslations || window.productTranslations || {};
-      if (!product || !product.variants || product.variants.length === 0) return;
+      if (!product) return;
+      if (_isMultiQtyProduct(product)) return;
+      if ((!product.variants || product.variants.length === 0) && !_hasMatrix(product)) return;
       if (document.querySelectorAll('.variant-option').length === 0) return;
       if (window._zappyVariantFixed) return;
       window._zappyVariantFixed = true;
@@ -16974,6 +17108,10 @@ function fixContrast(){
       // Also override addProductToCart as a safety net
       var origAddToCart = window.addProductToCart;
       window.addProductToCart = function() {
+        if (_isMultiQtyProduct(window.currentProduct)) {
+          if (origAddToCart) return origAddToCart.apply(this, arguments);
+          return;
+        }
         var keys = _getAttributeKeys();
         for (var i = 0; i < keys.length; i++) {
           if (!selectedAttributes.hasOwnProperty(keys[i])) {
@@ -16982,8 +17120,8 @@ function fixContrast(){
             var name = lbl ? lbl.textContent.replace(/[:\s]+$/, '').trim() : keys[i];
             var sd = document.getElementById('product-stock-display');
             if (sd) {
-              sd.className = 'product-stock out-of-stock';
-              sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>' +
+              sd.className = 'product-stock select-required';
+              sd.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>' +
                 (t.pleaseSelect || 'Please select') + ' ' + name;
             }
             if (grp) {
@@ -17352,6 +17490,8 @@ function fixContrast(){
       en: {
         inStock: 'In Stock',
         outOfStock: 'Out of Stock',
+        selectVariant: 'Select option',
+        pleaseSelect: 'Please select',
         color: 'Color',
         size: 'Size',
         material: 'Material',
@@ -17363,6 +17503,8 @@ function fixContrast(){
       he: {
         inStock: 'במלאי',
         outOfStock: 'אזל מהמלאי',
+        selectVariant: 'בחר אפשרות',
+        pleaseSelect: 'נא לבחור',
         color: 'צבע',
         size: 'מידה',
         material: 'חומר',
@@ -17476,10 +17618,31 @@ function fixContrast(){
 
       var stock = document.getElementById('product-stock-display');
       if (stock) {
-        var inStock = stock.classList.contains('in-stock') && !stock.classList.contains('out-of-stock');
+        // Three-state: in-stock / out-of-stock / select-required.
+        // Also preserve "Please select <Attr>" prompts (ATC validation) — those
+        // used to ship with class out-of-stock, and this rewriter then replaced
+        // them with "Out of Stock" ~100ms later via MutationObserver.
         var svg = stock.querySelector('svg');
-        var nextText = inStock ? getText('inStock') : getText('outOfStock');
-        if ((stock.textContent || '').trim() !== nextText) {
+        var current = (stock.textContent || '').trim();
+        var please = getText('pleaseSelect');
+        var isPleasePrompt = !!(current && (
+          current.indexOf(please) === 0
+          || /^please select\b/i.test(current)
+          || current.indexOf('נא לבחור') === 0
+        ));
+        var nextText;
+        if (isPleasePrompt) {
+          nextText = current;
+        } else if (stock.classList.contains('select-required')) {
+          nextText = (typeof getEcomText === 'function')
+            ? getEcomText('selectVariant', getText('selectVariant'))
+            : getText('selectVariant');
+        } else if (stock.classList.contains('in-stock') && !stock.classList.contains('out-of-stock')) {
+          nextText = getText('inStock');
+        } else {
+          nextText = getText('outOfStock');
+        }
+        if (current !== nextText) {
           stock.textContent = '';
           if (svg) stock.appendChild(svg);
           stock.appendChild(document.createTextNode(nextText));
@@ -17840,10 +18003,10 @@ function fixContrast(){
 })();
 
 
-/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V24 */
+/* ZAPPY_ECOM_LANGUAGE_ROUTING_RUNTIME_V25 */
 (function() {
-  if (window.__zappyEcomLanguageRoutingRuntime >= 24) return;
-  window.__zappyEcomLanguageRoutingRuntime = 24;
+  if (window.__zappyEcomLanguageRoutingRuntime >= 25) return;
+  window.__zappyEcomLanguageRoutingRuntime = 25;
 
   // Routing strategy: use path-based language URLs for ALL storefront pages
   // (including dynamic /product/:slug and /category/:slug). The publish
@@ -18117,7 +18280,11 @@ function fixContrast(){
       setImportant(li, 'overflow', 'visible');
       setImportant(li, 'box-sizing', 'border-box');
 
-      setImportant(trigger, 'display', 'block');
+      // Match ensureMobileNavMenuItemPadding (12px 16px / 44px tap target).
+      // Legacy padding-inline:8px + CSS padding:0 on .menu-group-title
+      // squashed group labels (סיום והעברות / בלוג) vs sibling <a> rows.
+      setImportant(trigger, 'display', 'flex');
+      setImportant(trigger, 'align-items', 'center');
       setImportant(trigger, 'direction', isRtl ? 'rtl' : 'ltr');
       setImportant(trigger, 'flex', '1 1 0');
       setImportant(trigger, 'min-width', '0');
@@ -18126,9 +18293,30 @@ function fixContrast(){
       setImportant(trigger, 'box-sizing', 'border-box');
       setImportant(trigger, 'white-space', 'normal');
       setImportant(trigger, 'overflow-wrap', 'anywhere');
-      setImportant(trigger, 'padding-inline', '8px');
+      setImportant(trigger, 'padding', '12px 16px');
+      setImportant(trigger, 'min-height', '44px');
+      setImportant(trigger, 'line-height', '1.4');
+      setImportant(trigger, 'font-weight', '600');
       setImportant(trigger, 'text-align', isRtl ? 'right' : 'left');
       setImportant(trigger, 'order', isRtl ? '2' : '1');
+
+      // Open mobile drawer: paint .menu-group-title like sibling links.
+      // Scrolled-nav CSS often sets titles to --frosted-text (near-black),
+      // which is invisible on the dark full-bleed panel (Dubai Plus 2026-07).
+      var menuRoot = li.closest('.nav-menu, #navMenu');
+      if (menuRoot && (menuRoot.classList.contains('active') || menuRoot.classList.contains('open'))) {
+        var sampleLink = menuRoot.querySelector(':scope > li > a');
+        var linkColor = '';
+        try { linkColor = sampleLink ? (window.getComputedStyle(sampleLink).color || '') : ''; } catch (e) {}
+        if (!linkColor || linkColor === 'rgba(0, 0, 0, 0)') {
+          try {
+            linkColor = (window.getComputedStyle(menuRoot).getPropertyValue('--nav-text') || '').trim()
+              || (window.getComputedStyle(document.documentElement).getPropertyValue('--nav-text') || '').trim()
+              || '#fff7ed';
+          } catch (e2) { linkColor = '#fff7ed'; }
+        }
+        setImportant(trigger, 'color', linkColor);
+      }
 
       setImportant(btn, 'display', 'flex');
       setImportant(btn, 'position', 'static');
@@ -18256,12 +18444,12 @@ function fixContrast(){
   // declaration merging that was eating the standalone CSS injection.
   function ensureRuntimeCssInjected() {
     var existing = document.getElementById('zappy-ecom-routing-runtime-css');
-    if (existing && existing.getAttribute('data-v') === '29') return;
+    if (existing && existing.getAttribute('data-v') === '30') return;
     if (existing) existing.remove();
     var style = document.createElement('style');
     style.id = 'zappy-ecom-routing-runtime-css';
     style.setAttribute('data-zappy-runtime', 'ecom-routing');
-    style.setAttribute('data-v', '29');
+    style.setAttribute('data-v', '30');
     style.textContent =
       '@media (min-width: 769px){' +
         'html[dir="ltr"] .nav-container > .nav-brand,body[dir="ltr"] .nav-container > .nav-brand,html[dir="ltr"] .nav-right-group > .nav-brand,body[dir="ltr"] .nav-right-group > .nav-brand{order:-1!important}' +
@@ -18297,7 +18485,10 @@ function fixContrast(){
         // Beat any ".nav-menu.active > li { display:block }" (preview/generated)
         // so non-products dropdowns keep the chevron beside the label.
         '.navbar .nav-menu.active>li:has(>.sub-menu),nav.navbar .nav-menu.active>li:has(>.sub-menu),#navMenu.active>li:has(>.sub-menu),.nav-menu.open>li:has(>.sub-menu),.navbar .nav-menu.active>li.menu-item-has-children,nav.navbar .nav-menu.active>li.menu-item-has-children,#navMenu.active>li.menu-item-has-children,.nav-menu.open>li.menu-item-has-children{display:flex!important;flex-wrap:wrap!important;align-items:center!important;position:relative!important}' +
-        '.nav-menu li:has(.sub-menu)>a,.navbar li:has(.sub-menu)>a,nav li:has(.sub-menu)>a,li:has(.sub-menu)>.menu-group-title{display:block!important;flex:1 1 0!important;order:1!important;width:auto!important;min-width:0!important;max-width:calc(100% - 48px)!important;padding-inline:8px!important;box-sizing:border-box!important;white-space:normal!important;overflow-wrap:anywhere!important;line-height:1.35!important;text-align:left!important;direction:ltr!important}' +
+        '.nav-menu li:has(.sub-menu)>a,.navbar li:has(.sub-menu)>a,nav li:has(.sub-menu)>a,li:has(.sub-menu)>.menu-group-title{display:flex!important;align-items:center!important;flex:1 1 0!important;order:1!important;width:auto!important;min-width:0!important;max-width:calc(100% - 48px)!important;padding:12px 16px!important;min-height:44px!important;box-sizing:border-box!important;white-space:normal!important;overflow-wrap:anywhere!important;line-height:1.4!important;font-weight:600!important;text-align:left!important;direction:ltr!important}' +
+        /* Open drawer: beat .navbar.scrolled frosted-text on .menu-group-title
+           (dark-on-dark missing labels on non-home pages). */
+        '.navbar .nav-menu.active>li>.menu-group-title,.navbar #navMenu.active>li>.menu-group-title,.nav-menu.open>li>.menu-group-title,html body .navbar.scrolled .nav-menu.active>li>.menu-group-title,html body .navbar.scrolled #navMenu.active>li>.menu-group-title{color:var(--nav-text,var(--text-light,#fff7ed))!important}' +
         'html[dir="rtl"] .nav-menu li:has(.sub-menu)>a,body[dir="rtl"] .nav-menu li:has(.sub-menu)>a,html[dir="rtl"] .navbar li:has(.sub-menu)>a,body[dir="rtl"] .navbar li:has(.sub-menu)>a,html[dir="rtl"] nav li:has(.sub-menu)>a,body[dir="rtl"] nav li:has(.sub-menu)>a,html[dir="rtl"] li:has(.sub-menu)>.menu-group-title,body[dir="rtl"] li:has(.sub-menu)>.menu-group-title{direction:rtl!important;text-align:right!important;order:2!important}' +
         '.nav-menu li:has(.sub-menu)>.mobile-submenu-toggle,.navbar li:has(.sub-menu)>.mobile-submenu-toggle,nav li:has(.sub-menu)>.mobile-submenu-toggle{display:flex!important;position:static!important;flex:0 0 48px!important;order:2!important;width:48px!important;height:44px!important;min-height:44px!important;align-items:center!important;justify-content:center!important;z-index:5!important;pointer-events:auto!important;margin:0!important;padding:0!important;background:transparent!important;border:none!important}' +
         'html[dir="rtl"] .nav-menu li:has(.sub-menu)>.mobile-submenu-toggle,body[dir="rtl"] .nav-menu li:has(.sub-menu)>.mobile-submenu-toggle,html[dir="rtl"] .navbar li:has(.sub-menu)>.mobile-submenu-toggle,body[dir="rtl"] .navbar li:has(.sub-menu)>.mobile-submenu-toggle,html[dir="rtl"] nav li:has(.sub-menu)>.mobile-submenu-toggle,body[dir="rtl"] nav li:has(.sub-menu)>.mobile-submenu-toggle{order:1!important}' +
@@ -18694,7 +18885,7 @@ if (document.readyState === 'complete') {
       if (document.getElementById('zappy-mobile-nav-icon-alignment-fix')) return;
       var style = document.createElement('style');
       style.id = 'zappy-mobile-nav-icon-alignment-fix';
-      style.textContent = "\n\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX */\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX_V3 */\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX_V4 */\n/* The mobile hamburger / phone buttons are absolutely positioned. Keep the\n   navbar itself as a non-collapsing containing block so auto-margin centering\n   stays aligned even when generated mobile CSS moves every nav child out of flow. */\n@media (max-width: 768px) {\n  .navbar,\n  nav.navbar {\n    min-height: 70px !important;\n  }\n\n  /* E-commerce mobile navbar icon-group alignment.\n     The icon couples (search after the hamburger; login+cart at the end edge)\n     are absolutely positioned with inset-inline offsets — inset-inline-start:52px\n     to clear the 36px hamburger that sits at left:12px on the .navbar, and\n     inset-inline-end:12px to hug the end edge. Those offsets are authored in the\n     NAVBAR's full-width coordinate space (the hamburger uses the same one). But\n     the offsets are resolved against the nearest positioned ancestor, and the\n     generated CSS makes .nav-container position:relative. When .nav-container is\n     ALSO inset by the navbar's horizontal padding (max-width / padding from the\n     LLM-authored navbar), the groups resolve to that inset box instead of the\n     full-width navbar: the search drifts ~20px away from the hamburger and the\n     cart leaves a fat asymmetric gap before the screen edge. Dropping\n     .nav-container out of the containing-block chain on mobile makes both couples\n     resolve to .navbar (always full-bleed) so they line up tightly with the\n     hamburger and sit symmetrically against both edges regardless of any\n     navbar/container padding. Scoped via :has() to navbars that actually carry\n     the e-commerce icon couples so non-ecommerce navs are untouched. */\n  .navbar:has(.nav-ecommerce-icons) .nav-container,\n  nav.navbar:has(.nav-ecommerce-icons) .nav-container,\n  header:has(.nav-ecommerce-icons) .nav-container {\n    position: static !important;\n  }\n\n  /* Some generated RTL nav CSS sets both left:50% and right:50% on the\n     absolute .nav-brand. That collapses it to 0px wide, so the logo flows\n     left from the center instead of being centered on it. */\n  .navbar .nav-brand,\n  nav.navbar .nav-brand,\n  html[dir=\"rtl\"] .navbar .nav-brand,\n  html[dir=\"rtl\"] nav.navbar .nav-brand,\n  html[lang=\"he\"] .navbar .nav-brand,\n  html[lang=\"he\"] nav.navbar .nav-brand,\n  html[lang=\"ar\"] .navbar .nav-brand,\n  html[lang=\"ar\"] nav.navbar .nav-brand {\n    position: absolute !important;\n    left: 50% !important;\n    right: auto !important;\n    top: 50% !important;\n    width: auto !important;\n    min-width: max-content !important;\n    max-width: calc(100% - 168px) !important;\n    transform: translate(-50%, -50%) !important;\n    margin: 0 !important;\n    text-align: center !important;\n    justify-content: center !important;\n  }\n\n  .navbar .nav-brand .logo-link,\n  nav.navbar .nav-brand .logo-link,\n  .navbar .nav-brand a,\n  nav.navbar .nav-brand a {\n    display: inline-flex !important;\n    justify-content: center !important;\n    align-items: center !important;\n    margin-left: auto !important;\n    margin-right: auto !important;\n  }\n\n  .navbar > .mobile-toggle,\n  nav.navbar > .mobile-toggle,\n  .navbar .mobile-toggle,\n  nav.navbar .mobile-toggle,\n  #mobileToggle,\n  .navbar > .phone-header-btn,\n  nav.navbar > .phone-header-btn,\n  .navbar .phone-header-btn,\n  nav.navbar .phone-header-btn {\n    position: absolute !important;\n    top: 0 !important;\n    bottom: 0 !important;\n    transform: none !important;\n    margin-top: auto !important;\n    margin-bottom: auto !important;\n    align-self: center !important;\n    align-items: center !important;\n    justify-content: center !important;\n    line-height: 0 !important;\n  }\n\n  .navbar > .mobile-toggle,\n  nav.navbar > .mobile-toggle,\n  .navbar .mobile-toggle,\n  nav.navbar .mobile-toggle,\n  #mobileToggle {\n    display: flex !important;\n  }\n\n  html:not([data-zappy-site-type=\"ecommerce\"]) .navbar > .phone-header-btn,\n  html:not([data-zappy-site-type=\"ecommerce\"]) nav.navbar > .phone-header-btn,\n  html:not([data-zappy-site-type=\"ecommerce\"]) .navbar .phone-header-btn,\n  html:not([data-zappy-site-type=\"ecommerce\"]) nav.navbar .phone-header-btn {\n    display: flex !important;\n  }\n\n  html[data-zappy-site-type=\"ecommerce\"] .phone-header-btn,\n  body[data-zappy-site-type=\"ecommerce\"] .phone-header-btn,\n  html[data-zappy-site-type=\"ecommerce\"] header .phone-header-btn,\n  html[data-zappy-site-type=\"ecommerce\"] nav .phone-header-btn {\n    display: none !important;\n    visibility: hidden !important;\n    width: 0 !important;\n    height: 0 !important;\n    min-width: 0 !important;\n    overflow: hidden !important;\n  }\n}\n";
+      style.textContent = "\n\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX */\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX_V3 */\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX_V4 */\n/* ZAPPY_MOBILE_NAV_ICON_ALIGNMENT_FIX_V5 */\n/* The mobile hamburger / phone buttons are absolutely positioned. Keep the\n   navbar itself as a non-collapsing containing block so auto-margin centering\n   stays aligned even when generated mobile CSS moves every nav child out of flow. */\n@media (max-width: 768px) {\n  .navbar,\n  nav.navbar {\n    min-height: 70px !important;\n  }\n\n  /* V5: Desktop .nav-search-box must stay hidden on mobile. AI/customization CSS\n     often force-shows it with higher specificity than the generator's plain\n     .nav-search-box { display:none } (e.g. .navbar .nav-ecommerce-icons.nav-icons-left\n     .nav-search-box { display:flex; background: cream }), which paints an empty\n     cream/white square left of the cart on RTL ecommerce navs. Beat that chain. */\n  html body .navbar .nav-search-box,\n  html body nav.navbar .nav-search-box,\n  html body .navbar .nav-ecommerce-icons .nav-search-box,\n  html body .navbar .nav-ecommerce-icons.nav-icons-left .nav-search-box,\n  html body .navbar .nav-container .nav-ecommerce-icons.nav-icons-left .nav-search-box {\n    display: none !important;\n    visibility: hidden !important;\n    width: 0 !important;\n    height: 0 !important;\n    min-width: 0 !important;\n    max-width: 0 !important;\n    overflow: hidden !important;\n    padding: 0 !important;\n    margin: 0 !important;\n    border: none !important;\n    background: transparent !important;\n    pointer-events: none !important;\n  }\n\n  /* V5: Search-toggle SVG is frequently recolored to --nav-text (cream/white) by\n     AI customization at .navbar .nav-container .nav-ecommerce-icons.nav-icons-right\n     .nav-search-toggle svg, while the pill button itself keeps the correct\n     contrasting color from the luminance-aware pill rules. Inherit that color\n     with a selector that out-ranks the nav-text stroke paint so the icon stays\n     legible on light AND dark pills (no hardcoded text-dark). */\n  html body .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg,\n  html body .navbar .nav-container .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg *,\n  html body .navbar .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg,\n  html body .navbar .nav-ecommerce-icons.nav-icons-right .nav-search-toggle svg * {\n    color: inherit !important;\n    stroke: currentColor !important;\n    fill: none !important;\n  }\n\n  /* V5: Keep the three mobile icon couples on one baseline — absolute groups +\n     hamburger all center against the same navbar box. */\n  html body .navbar .nav-ecommerce-icons.nav-icons-left,\n  html body .navbar .nav-ecommerce-icons.nav-icons-right,\n  html body .navbar .nav-icons-left,\n  html body .navbar .nav-icons-right {\n    top: 50% !important;\n    bottom: auto !important;\n    transform: translateY(-50%) !important;\n    align-items: center !important;\n  }\n  html body .navbar .nav-ecommerce-icons.nav-icons-right .nav-search-toggle,\n  html body .navbar .nav-search-toggle {\n    width: 36px !important;\n    height: 36px !important;\n    min-width: 36px !important;\n    padding: 0 !important;\n    margin: 0 !important;\n    border-radius: 9999px !important;\n    align-self: center !important;\n  }\n\n  /* E-commerce mobile navbar icon-group alignment.\n     The icon couples (search after the hamburger; login+cart at the end edge)\n     are absolutely positioned with inset-inline offsets — inset-inline-start:52px\n     to clear the 36px hamburger that sits at left:12px on the .navbar, and\n     inset-inline-end:12px to hug the end edge. Those offsets are authored in the\n     NAVBAR's full-width coordinate space (the hamburger uses the same one). But\n     the offsets are resolved against the nearest positioned ancestor, and the\n     generated CSS makes .nav-container position:relative. When .nav-container is\n     ALSO inset by the navbar's horizontal padding (max-width / padding from the\n     LLM-authored navbar), the groups resolve to that inset box instead of the\n     full-width navbar: the search drifts ~20px away from the hamburger and the\n     cart leaves a fat asymmetric gap before the screen edge. Dropping\n     .nav-container out of the containing-block chain on mobile makes both couples\n     resolve to .navbar (always full-bleed) so they line up tightly with the\n     hamburger and sit symmetrically against both edges regardless of any\n     navbar/container padding. Scoped via :has() to navbars that actually carry\n     the e-commerce icon couples so non-ecommerce navs are untouched. */\n  .navbar:has(.nav-ecommerce-icons) .nav-container,\n  nav.navbar:has(.nav-ecommerce-icons) .nav-container,\n  header:has(.nav-ecommerce-icons) .nav-container {\n    position: static !important;\n  }\n\n  /* Some generated RTL nav CSS sets both left:50% and right:50% on the\n     absolute .nav-brand. That collapses it to 0px wide, so the logo flows\n     left from the center instead of being centered on it. */\n  .navbar .nav-brand,\n  nav.navbar .nav-brand,\n  html[dir=\"rtl\"] .navbar .nav-brand,\n  html[dir=\"rtl\"] nav.navbar .nav-brand,\n  html[lang=\"he\"] .navbar .nav-brand,\n  html[lang=\"he\"] nav.navbar .nav-brand,\n  html[lang=\"ar\"] .navbar .nav-brand,\n  html[lang=\"ar\"] nav.navbar .nav-brand {\n    position: absolute !important;\n    left: 50% !important;\n    right: auto !important;\n    top: 50% !important;\n    width: auto !important;\n    min-width: max-content !important;\n    max-width: calc(100% - 168px) !important;\n    transform: translate(-50%, -50%) !important;\n    margin: 0 !important;\n    text-align: center !important;\n    justify-content: center !important;\n  }\n\n  .navbar .nav-brand .logo-link,\n  nav.navbar .nav-brand .logo-link,\n  .navbar .nav-brand a,\n  nav.navbar .nav-brand a {\n    display: inline-flex !important;\n    justify-content: center !important;\n    align-items: center !important;\n    margin-left: auto !important;\n    margin-right: auto !important;\n  }\n\n  .navbar > .mobile-toggle,\n  nav.navbar > .mobile-toggle,\n  .navbar .mobile-toggle,\n  nav.navbar .mobile-toggle,\n  #mobileToggle,\n  .navbar > .phone-header-btn,\n  nav.navbar > .phone-header-btn,\n  .navbar .phone-header-btn,\n  nav.navbar .phone-header-btn {\n    position: absolute !important;\n    top: 0 !important;\n    bottom: 0 !important;\n    transform: none !important;\n    margin-top: auto !important;\n    margin-bottom: auto !important;\n    align-self: center !important;\n    align-items: center !important;\n    justify-content: center !important;\n    line-height: 0 !important;\n  }\n\n  .navbar > .mobile-toggle,\n  nav.navbar > .mobile-toggle,\n  .navbar .mobile-toggle,\n  nav.navbar .mobile-toggle,\n  #mobileToggle {\n    display: flex !important;\n  }\n\n  html:not([data-zappy-site-type=\"ecommerce\"]) .navbar > .phone-header-btn,\n  html:not([data-zappy-site-type=\"ecommerce\"]) nav.navbar > .phone-header-btn,\n  html:not([data-zappy-site-type=\"ecommerce\"]) .navbar .phone-header-btn,\n  html:not([data-zappy-site-type=\"ecommerce\"]) nav.navbar .phone-header-btn {\n    display: flex !important;\n  }\n\n  html[data-zappy-site-type=\"ecommerce\"] .phone-header-btn,\n  body[data-zappy-site-type=\"ecommerce\"] .phone-header-btn,\n  html[data-zappy-site-type=\"ecommerce\"] header .phone-header-btn,\n  html[data-zappy-site-type=\"ecommerce\"] nav .phone-header-btn {\n    display: none !important;\n    visibility: hidden !important;\n    width: 0 !important;\n    height: 0 !important;\n    min-width: 0 !important;\n    overflow: hidden !important;\n  }\n}\n";
       document.head.appendChild(style);
     }
 
@@ -20345,4 +20536,110 @@ if (document.readyState === 'complete') {
       observeButtons();
     }
   }
+})();
+
+
+/* ZAPPY_MULTI_QTY_BUNDLE_TOTAL */
+;(function(){
+  try {
+    if (window.__zappyMultiQtyBundleTotalInit) return;
+    window.__zappyMultiQtyBundleTotalInit = true;
+
+    function zappyMultiQtyMainContribution(product) {
+      var total = 0;
+      var mainLineCount = 0;
+      var variants = (product && Array.isArray(product.variants)) ? product.variants : [];
+      var matrix = (product && product.card_variants && Array.isArray(product.card_variants.matrix))
+        ? product.card_variants.matrix : [];
+      var inputs = document.querySelectorAll('.multi-qty-input[data-variant-id]');
+      for (var i = 0; i < inputs.length; i++) {
+        var input = inputs[i];
+        if (input.disabled) continue;
+        var qty = parseFloat(input.value) || 0;
+        if (qty <= 0) continue;
+        var vid = input.getAttribute('data-variant-id');
+        var variant = null;
+        for (var vi = 0; vi < variants.length; vi++) {
+          if (String(variants[vi].id) === String(vid)) { variant = variants[vi]; break; }
+        }
+        if (!variant) {
+          for (var mi = 0; mi < matrix.length; mi++) {
+            if (String(matrix[mi].id) === String(vid)) { variant = matrix[mi]; break; }
+          }
+        }
+        var unitPrice = window.productBasePrice || 0;
+        if (variant && variant.price !== null && variant.price !== undefined && variant.price !== '') {
+          var vp = parseFloat(variant.price);
+          if (Number.isFinite(vp)) unitPrice = vp;
+        }
+        total += unitPrice * qty;
+        mainLineCount += 1;
+      }
+      return { total: total, mainLineCount: mainLineCount };
+    }
+
+    function zappyIsMultiQtyProduct(product) {
+      if (window.productIsMultiQuantity) return true;
+      if (typeof window.isProductMultiQuantity === 'function' && window.isProductMultiQuantity(product)) return true;
+      return !!document.querySelector('[data-multi-quantity="true"]');
+    }
+
+    var orig = window.recomputeBundleTotal;
+    window.recomputeBundleTotal = function() {
+      var amountEl = document.getElementById('upsells-total-amount');
+      if (!amountEl) {
+        if (typeof orig === 'function') return orig.apply(this, arguments);
+        return;
+      }
+      var product = window.currentProduct;
+      if (!product || !zappyIsMultiQtyProduct(product)) {
+        if (typeof orig === 'function') return orig.apply(this, arguments);
+        return;
+      }
+      var t = window.productTranslations || {};
+      var main = zappyMultiQtyMainContribution(product);
+      var total = main.total;
+      var mainLineCount = main.mainLineCount;
+      var checkedCount = 0;
+      var checkedBoxes = document.querySelectorAll('.upsell-checkbox:checked');
+      for (var ci = 0; ci < checkedBoxes.length; ci++) {
+        var row = checkedBoxes[ci].closest('.upsell-row');
+        if (!row) continue;
+        var p = parseFloat(row.getAttribute('data-upsell-price')) || 0;
+        total += p;
+        checkedCount += 1;
+      }
+      var fmt = (typeof formatMoney === 'function')
+        ? formatMoney
+        : (typeof window.zappyFormatMoney === 'function' ? window.zappyFormatMoney : function(n){ return String(n); });
+      amountEl.textContent = fmt(total);
+      var btn = document.getElementById('add-to-cart-btn');
+      if (btn) {
+        var baseLabel = (typeof getEcomText === 'function')
+          ? getEcomText('addToCart', t.addToCart || 'Add to Cart')
+          : (t.addToCart || 'Add to Cart');
+        if (checkedCount > 0) {
+          var totalCount = mainLineCount + checkedCount;
+          var bundleLabel = (typeof getEcomText === 'function')
+            ? getEcomText('addBundleToCart', t.addBundleToCart || ('Add ' + totalCount + ' items to cart'))
+            : (t.addBundleToCart || ('Add ' + totalCount + ' items to cart'));
+          bundleLabel = String(bundleLabel).replace(/\{count\}/g, String(totalCount));
+          btn.textContent = bundleLabel;
+        } else {
+          btn.textContent = baseLabel;
+        }
+      }
+    };
+
+    document.addEventListener('input', function(e) {
+      var node = e && e.target;
+      if (!node || !node.classList || !node.classList.contains('multi-qty-input')) return;
+      if (typeof window.recomputeBundleTotal === 'function') window.recomputeBundleTotal();
+    }, true);
+    document.addEventListener('change', function(e) {
+      var node = e && e.target;
+      if (!node || !node.classList || !node.classList.contains('multi-qty-input')) return;
+      if (typeof window.recomputeBundleTotal === 'function') window.recomputeBundleTotal();
+    }, true);
+  } catch (err) {}
 })();
