@@ -4,7 +4,21 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 22 Jul 2026 06:03:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 06:05:26 GMT</lastBuildDate>
+    <item>
+      <g:id>59bd9db5-7407-45b4-addf-ba5d5a5a2ce4</g:id>
+      <g:title>מתקן כביסה ברקת דגם אידיאל</g:title>
+      <g:description>מתקן כביסה ברקת מתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה. יתרונות: מיוצר בישראל מבנה חזק ויציב מתאים לשימוש יומיומי 10 שנות אחריות</g:description>
+      <g:link>https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-zbo6ny</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1784700217809-yw9ga8.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784700224404-cq890i.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>569.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מתקני כביסה</g:product_type>
+    </item>
     <item>
       <g:id>849f41dd-e993-40d9-b52e-a879087bfea5</g:id>
       <g:title>מתקן כביסה ברקת דגם jumbo</g:title>
@@ -17,6 +31,7 @@
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>מתקני כביסה</g:product_type>
     </item>
     <item>
       <g:id>38a26279-45b5-4a10-bc33-e5da182598d3</g:id>

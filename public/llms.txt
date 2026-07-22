@@ -68,12 +68,21 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 509** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 510** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### מתקן כביסה ברקת דגם אידיאל
+https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-zbo6ny
+- Price: 569.90 ILS
+- Availability: In stock
+- Category: מתקני כביסה
+- Description: מתקן כביסה ברקת מתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה. יתרונות: מיוצר בישראל מבנה חזק ויציב מתאים לשימוש יומיומי 10 שנות אחריות
+- Image: https://streetstock.co.il/assets/product-1784700217809-yw9ga8.webp
 
 ### מתקן כביסה ברקת דגם jumbo
 https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-jumbo-jlvj9k
 - Price: 599.90 ILS
 - Availability: In stock
+- Category: מתקני כביסה
 - Description: מתקן כביסה ברקת מתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה. יתרונות: מיוצר בישראל מבנה חזק ויציב מתאים לשימוש יומיומי 10 שנות אחריות
 - Image: https://streetstock.co.il/assets/product-1784700057079-f6c0v5.webp
 
@@ -1603,14 +1612,6 @@ https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-b
 - Category: שמיכות קיץ 
 - Description: סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס"מ זוג ציפיות לכרית : 50X70 ס"מ
 - Image: https://streetstock.co.il/assets/product-1780837751201-ftfudv.webp
-
-### סט מצעים כותנה הום סטייל דגם שרון
-https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-8625j3
-- Price: 149.90 ILS
-- Availability: In stock
-- Category: סט מצעים 100% כותנה
-- Description: מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח') מידות מיטה זוגית 1.8 : סדין 180X200 ס"מ ציפה לפוך : 200X220 ס"מ ציפה לכרית : 50X70 ס"מ (2יח')
-- Image: https://streetstock.co.il/assets/product-1780837751013-pw122s.webp
 
 ---
 
