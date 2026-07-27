@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T06:15:59.645Z",
+  "generated_at": "2026-07-27T06:16:23.754Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 533,
@@ -1678,7 +1678,7 @@
     },
     {
       "id": "5d1d92b3-0942-4b28-85b4-88552272df0a",
-      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-yzxc0p",
+      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-7kwpie",
       "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870",
       "name_translations": {},
       "description": "",
@@ -1690,16 +1690,19 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1784099174524-b03xdg.webp"
+        "https://streetstock.co.il/assets/product-1785132827518-dp19u.webp",
+        "https://streetstock.co.il/assets/product-ai-fit-1785132876309-mevhmc.webp",
+        "https://streetstock.co.il/assets/product-1784099174524-b03xdg.webp",
+        "https://streetstock.co.il/assets/product-ai-fit-1785132913639-m4oxq6.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-yzxc0p",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-7kwpie",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T06:14:35.175Z"
+      "updated_at": "2026-07-27T06:16:08.640Z"
     },
     {
       "id": "b6a76ad1-6a8a-4804-a237-54564c6c9537",
