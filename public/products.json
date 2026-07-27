@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T06:10:25.682Z",
+  "generated_at": "2026-07-27T06:11:43.357Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 533,
@@ -1439,7 +1439,7 @@
     },
     {
       "id": "c95ac36e-56e5-481f-aa65-4a5cc3955dae",
-      "slug": "kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-yat7nq",
+      "slug": "kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-tbwz74",
       "name": "כוס למברשת שיניים צבע בז' דגם NIVORA ID865 ",
       "name_translations": {},
       "description": "",
@@ -1451,16 +1451,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1785132644300-nxjqd.webp",
+        "https://streetstock.co.il/assets/product-1785132652896-ekqt18.webp",
         "https://streetstock.co.il/assets/product-1784098943562-05btte.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-yat7nq",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-tbwz74",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T07:02:36.584Z"
+      "updated_at": "2026-07-27T06:11:16.592Z"
     },
     {
       "id": "c7d6d6c4-2a40-4efd-9994-924cfb6ecefc",
