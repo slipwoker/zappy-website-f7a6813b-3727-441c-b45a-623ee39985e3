@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T05:33:22.213Z",
+  "generated_at": "2026-07-27T05:33:51.909Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 509,
@@ -1485,7 +1485,7 @@
     },
     {
       "id": "43df9dec-01a2-478c-acf0-9dcf4cbe4500",
-      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-ub28g6",
+      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-cn29qg",
       "name": "סיר יציקת אלומיניום 24 ס\"מ צבע אפור סדרת LUSSO",
       "name_translations": {},
       "description": "",
@@ -1497,15 +1497,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1784097549360-k5whn8.webp"
+        "https://streetstock.co.il/assets/product-1784097549360-k5whn8.webp",
+        "https://streetstock.co.il/assets/product-1785130410764-of7q2.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-ub28g6",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-apvr-sdrt-lusso-cn29qg",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-07-15T06:39:18.452Z"
+      "updated_at": "2026-07-27T05:33:51.354Z"
     },
     {
       "id": "66fc1fd3-af1b-4208-a8d6-eb907626c217",
