@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T07:56:00.326Z",
+  "generated_at": "2026-07-27T07:57:59.705Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 574,
@@ -9386,7 +9386,7 @@
     },
     {
       "id": "5b6ec480-e9f6-4ba9-a4d3-d7dcf2186949",
-      "slug": "dyspnsr-lsbvn-dgm-avero-tsba-bz-yjrw0q",
+      "slug": "dyspnsr-lsbvn-dgm-avero-tsba-bz-brik4a",
       "name": "דיספנסר לסבון דגם AVERO צבע בז'",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -9398,16 +9398,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837701189-0om2mq.webp"
+        "https://streetstock.co.il/assets/product-1785139012235-t0ulu8.webp",
+        "https://streetstock.co.il/assets/product-1780837701189-0om2mq.webp",
+        "https://streetstock.co.il/assets/product-1785139002103-kkxn2j.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-avero-tsba-bz-yjrw0q",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-avero-tsba-bz-brik4a",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-27T07:57:23.479Z"
     },
     {
       "id": "816a6688-60bf-4f04-a4fd-097eb97266ed",
