@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 27 Jul 2026 06:15:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:15:59 GMT</lastBuildDate>
     <item>
       <g:id>59bd9db5-7407-45b4-addf-ba5d5a5a2ce4</g:id>
       <g:title>מתקן כביסה ברקת דגם אידיאל</g:title>
@@ -991,11 +991,30 @@ ID890</g:title>
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>98e8a04d-1823-4718-bcf4-e85cc832d944</g:id>
-      <g:title>דיספנסר לסבון + מעמד לסקוץ צבע בז&apos; דגם VELMORA ID868 </g:title>
+      <g:id>e0cf4402-55d4-4320-ada8-f60dd4e891a1</g:id>
+      <g:title>דיספנסר לסבון + מעמד לסקוץ צבע בז&apos; דגם VELMORA ID868  - Black</g:title>
       <g:description>דיספנסר לסבון + מעמד לסקוץ צבע בז&apos; דגם VELMORA ID868</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-a9vye5</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1784099297283-k0ds9.webp</g:image_link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-u74t1u</g:link>
+      <g:item_group_id>98e8a04d-1823-4718-bcf4-e85cc832d944</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785132859774-soczzl.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1785132845750-urhwr.webp</g:additional_image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784099297283-k0ds9.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>d39ab65c-fa7e-4569-b53d-f8325cb10f53</g:id>
+      <g:title>דיספנסר לסבון + מעמד לסקוץ צבע בז&apos; דגם VELMORA ID868  - Gold</g:title>
+      <g:description>דיספנסר לסבון + מעמד לסקוץ צבע בז&apos; דגם VELMORA ID868</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-bz-dgm-velmora-id868-u74t1u</g:link>
+      <g:item_group_id>98e8a04d-1823-4718-bcf4-e85cc832d944</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785132859774-soczzl.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1785132845750-urhwr.webp</g:additional_image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784099297283-k0ds9.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>34.90 ILS</g:price>
       <g:condition>new</g:condition>
