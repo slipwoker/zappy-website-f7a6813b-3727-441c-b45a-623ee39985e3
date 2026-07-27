@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 533** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 537** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מתקן כביסה ברקת דגם אידיאל
 https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-zbo6ny
