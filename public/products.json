@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T06:19:27.068Z",
+  "generated_at": "2026-07-27T06:19:56.232Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 533,
@@ -1574,7 +1574,7 @@
     },
     {
       "id": "af77fd37-5c59-4d82-a402-1ec80fe94751",
-      "slug": "dyspnsr-lsbvn-tsba-lbn-dgm-nivora-id862-m6qnb3",
+      "slug": "dyspnsr-lsbvn-tsba-lbn-dgm-nivora-id862-4ja96n",
       "name": "דיספנסר לסבון צבע לבן דגם NIVORA ID862",
       "name_translations": {},
       "description": "",
@@ -1586,18 +1586,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1784099133260-gcgjb.webp",
         "https://streetstock.co.il/assets/product-1785132746854-khug9t.webp",
-        "https://streetstock.co.il/assets/product-1785132755389-69z0dp.webp"
+        "https://streetstock.co.il/assets/product-1785132755389-69z0dp.webp",
+        "https://streetstock.co.il/assets/product-1784099133260-gcgjb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-lbn-dgm-nivora-id862-m6qnb3",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-lbn-dgm-nivora-id862-4ja96n",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T06:13:14.442Z"
+      "updated_at": "2026-07-27T06:19:44.602Z"
     },
     {
       "id": "98e8a04d-1823-4718-bcf4-e85cc832d944",
@@ -1760,7 +1760,7 @@
     },
     {
       "id": "69e63a0f-f19f-4efe-b50b-019c7c029cea",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-y2ov5v",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-ldg86t",
       "name": "דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם AROMELLE ID854 ",
       "name_translations": {},
       "description": "",
@@ -1772,16 +1772,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1785133148758-2qtrp.webp",
         "https://streetstock.co.il/assets/product-1784098905300-fbghjn.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-y2ov5v",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromelle-id854-ldg86t",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T06:19:24.004Z"
+      "updated_at": "2026-07-27T06:19:27.538Z"
     },
     {
       "id": "0179d155-06be-47c5-9126-c9900ae55768",
