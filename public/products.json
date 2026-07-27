@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T05:35:36.876Z",
+  "generated_at": "2026-07-27T05:36:11.600Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 509,
@@ -11890,7 +11890,7 @@
     },
     {
       "id": "b5ba33a7-b626-4a99-8ce8-ce3d629da1fd",
-      "slug": "syr-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-vuoynv",
+      "slug": "syr-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-alcxjb",
       "name": "סיר יציקת אלומיניום 28 ס\"מ צבע מוקה \r\nסדרת LUSSO\r\n\r\n ",
       "name_translations": {},
       "description": "",
@@ -11902,13 +11902,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837635224-2ark4h.webp"
+        "https://streetstock.co.il/assets/product-1780837635224-2ark4h.webp",
+        "https://streetstock.co.il/assets/product-1785130520198-lwi4a.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-vuoynv",
-      "categories": [],
-      "updated_at": "2026-06-16T07:56:07.767Z"
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-mvkh-sdrt-lusso-alcxjb",
+      "categories": [
+        "סירים ומחבתות"
+      ],
+      "updated_at": "2026-07-27T05:35:36.657Z"
     },
     {
       "id": "a84ab012-24aa-4c86-be7b-c9ebb5c7f9b3",
@@ -11936,7 +11939,7 @@
     },
     {
       "id": "4e9ea095-641a-421b-9529-b6d7f1577cd1",
-      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-mvkh-sdrt-lusso-k2qo2u",
+      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-mvkh-sdrt-lusso-6uis4f",
       "name": "סיר יציקת אלומיניום 24 ס\"מ צבע מוקה \r\nסדרת LUSSO\r\n\r\n ",
       "name_translations": {},
       "description": "",
@@ -11948,19 +11951,20 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837635182-aynzts.webp"
+        "https://streetstock.co.il/assets/product-1780837635182-aynzts.webp",
+        "https://streetstock.co.il/assets/product-1785130535247-t3y0n.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-mvkh-sdrt-lusso-k2qo2u",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-mvkh-sdrt-lusso-6uis4f",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
+      "updated_at": "2026-07-27T05:35:49.798Z"
     },
     {
       "id": "432eb862-1dbd-4b03-afbc-ed8a997cbf62",
-      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-3qqapj",
+      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-klckyk",
       "name": "סיר יציקת אלומיניום 20 ס\"מ צבע מוקה \r\nסדרת LUSSO\r\n\r\n ",
       "name_translations": {},
       "description": "",
@@ -11972,15 +11976,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837635212-ob3dw.webp"
+        "https://streetstock.co.il/assets/product-1780837635212-ob3dw.webp",
+        "https://streetstock.co.il/assets/product-1785130548703-z8ubm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-3qqapj",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt-lusso-klckyk",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-06-16T07:56:07.767Z"
+      "updated_at": "2026-07-27T05:36:03.213Z"
     },
     {
       "id": "73cb0bc6-fe34-4c55-8482-775ac0725a30",
