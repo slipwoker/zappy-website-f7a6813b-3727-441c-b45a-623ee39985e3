@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 27 Jul 2026 06:13:49 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:15:05 GMT</lastBuildDate>
     <item>
       <g:id>59bd9db5-7407-45b4-addf-ba5d5a5a2ce4</g:id>
       <g:title>מתקן כביסה ברקת דגם אידיאל</g:title>
@@ -1030,10 +1030,25 @@ ID890</g:title>
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>5d1d92b3-0942-4b28-85b4-88552272df0a</g:id>
-      <g:title>דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870</g:title>
+      <g:id>5e5df3fa-087b-4df3-b6a6-f0bb3799e69d</g:id>
+      <g:title>דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870 - Black</g:title>
       <g:description>דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870</g:description>
       <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-yzxc0p</g:link>
+      <g:item_group_id>5d1d92b3-0942-4b28-85b4-88552272df0a</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1784099174524-b03xdg.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>49.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>19316d9b-466a-495d-af06-5b4b2f1f0801</g:id>
+      <g:title>דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870 - Gold</g:title>
+      <g:description>דיספנסר לסבון כפול + מעמד לסקוץ צבע שחור דגם KITCHYRA ID870</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-shchvr-dgm-kitchyra-id870-yzxc0p</g:link>
+      <g:item_group_id>5d1d92b3-0942-4b28-85b4-88552272df0a</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1784099174524-b03xdg.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>49.90 ILS</g:price>
