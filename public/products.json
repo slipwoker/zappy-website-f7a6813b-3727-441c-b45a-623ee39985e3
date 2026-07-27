@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T06:17:01.499Z",
+  "generated_at": "2026-07-27T06:17:51.431Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 533,
@@ -1654,7 +1654,7 @@
     },
     {
       "id": "f36ed816-105c-4d33-953c-85d3abcbc616",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-q1qlgk",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-qt9e08",
       "name": "דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866",
       "name_translations": {},
       "description": "",
@@ -1666,16 +1666,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1785133014101-0w32yd.webp",
         "https://streetstock.co.il/assets/product-1784099356656-3i9mfd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-q1qlgk",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-qt9e08",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T06:16:58.767Z"
+      "updated_at": "2026-07-27T06:17:27.849Z"
     },
     {
       "id": "5d1d92b3-0942-4b28-85b4-88552272df0a",
@@ -1808,7 +1809,7 @@
     },
     {
       "id": "3ac224c7-8fca-4a80-af1b-04b781339761",
-      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-hyjiuc",
+      "slug": "dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-9kbs6n",
       "name": "דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869",
       "name_translations": {},
       "description": "",
@@ -1820,16 +1821,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1785132981326-mm02c8.webp",
         "https://streetstock.co.il/assets/product-1784099206669-0c4fcl.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-hyjiuc",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-9kbs6n",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T07:06:55.444Z"
+      "updated_at": "2026-07-27T06:17:36.045Z"
     },
     {
       "id": "26d6a582-6ad2-4b85-91ac-4e8066311b41",
@@ -1854,7 +1856,7 @@
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T07:07:20.278Z"
+      "updated_at": "2026-07-27T06:17:50.361Z"
     },
     {
       "id": "a4bc5b61-64aa-494f-80a4-755e7c779a49",

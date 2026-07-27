@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 27 Jul 2026 06:17:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 06:17:51 GMT</lastBuildDate>
     <item>
       <g:id>59bd9db5-7407-45b4-addf-ba5d5a5a2ce4</g:id>
       <g:title>מתקן כביסה ברקת דגם אידיאל</g:title>
@@ -1053,11 +1053,28 @@ ID890</g:title>
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>f36ed816-105c-4d33-953c-85d3abcbc616</g:id>
-      <g:title>דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866</g:title>
+      <g:id>aab1cc3f-bfcd-4848-9c12-f31933b0e026</g:id>
+      <g:title>דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866 - White</g:title>
       <g:description>דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-q1qlgk</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1784099356656-3i9mfd.webp</g:image_link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-qt9e08</g:link>
+      <g:item_group_id>f36ed816-105c-4d33-953c-85d3abcbc616</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785133014101-0w32yd.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784099356656-3i9mfd.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>32957e51-c29c-4fa2-900e-f872ef1b99c5</g:id>
+      <g:title>דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866 - Gold</g:title>
+      <g:description>דיספנסר לסבון + מעמד לסקוץ צבע לבן דגם VELMORA ID866</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-velmora-id866-qt9e08</g:link>
+      <g:item_group_id>f36ed816-105c-4d33-953c-85d3abcbc616</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785133014101-0w32yd.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784099356656-3i9mfd.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>34.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -1153,11 +1170,28 @@ ID890</g:title>
       <g:product_type>פחי אמבטיה</g:product_type>
     </item>
     <item>
-      <g:id>3ac224c7-8fca-4a80-af1b-04b781339761</g:id>
-      <g:title>דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869</g:title>
+      <g:id>8164df06-c9a6-447b-9f9d-e90176cf32a7</g:id>
+      <g:title>דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869 - White</g:title>
       <g:description>דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-hyjiuc</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1784099206669-0c4fcl.webp</g:image_link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-9kbs6n</g:link>
+      <g:item_group_id>3ac224c7-8fca-4a80-af1b-04b781339761</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785132981326-mm02c8.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784099206669-0c4fcl.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>49.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>4803bd3d-1186-44b4-9f27-f9b2a40506c4</g:id>
+      <g:title>דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869 - Gold</g:title>
+      <g:description>דיספנסר לסבון כפול + מעמד לסקוץ צבע לבן דגם KITCHYRA ID869</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-kpvl-mamd-lskvts-tsba-lbn-dgm-kitchyra-id869-9kbs6n</g:link>
+      <g:item_group_id>3ac224c7-8fca-4a80-af1b-04b781339761</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785132981326-mm02c8.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1784099206669-0c4fcl.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>49.90 ILS</g:price>
       <g:condition>new</g:condition>
