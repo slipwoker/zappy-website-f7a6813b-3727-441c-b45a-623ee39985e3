@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T06:16:23.754Z",
+  "generated_at": "2026-07-27T06:17:01.499Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 533,
@@ -1628,7 +1628,7 @@
     },
     {
       "id": "e5152427-1230-4cd9-b70d-7e8471e07c0f",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-turfz7",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-5n2uv3",
       "name": "דיספנסר לסבון + מעמד לסקוץ צבע שחור דגם VELMORA ID867",
       "name_translations": {},
       "description": "",
@@ -1640,16 +1640,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1785132979230-urtzgg.webp",
         "https://streetstock.co.il/assets/product-1784099324313-gfwiog.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-turfz7",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-shchvr-dgm-velmora-id867-5n2uv3",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T07:08:54.499Z"
+      "updated_at": "2026-07-27T06:16:43.515Z"
     },
     {
       "id": "f36ed816-105c-4d33-953c-85d3abcbc616",
@@ -1674,7 +1675,7 @@
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-15T07:09:54.129Z"
+      "updated_at": "2026-07-27T06:16:58.767Z"
     },
     {
       "id": "5d1d92b3-0942-4b28-85b4-88552272df0a",
