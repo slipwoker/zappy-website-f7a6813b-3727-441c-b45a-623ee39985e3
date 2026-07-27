@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T05:45:26.889Z",
+  "generated_at": "2026-07-27T05:48:02.586Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 509,
+  "count": 533,
   "products": [
     {
       "id": "59bd9db5-7407-45b4-addf-ba5d5a5a2ce4",
@@ -76,6 +76,606 @@
       "url": "https://streetstock.co.il/product/kryt-shynh-tpe-9x1vma",
       "categories": [],
       "updated_at": "2026-07-22T11:03:41.998Z"
+    },
+    {
+      "id": "29ee5ce2-4d94-4921-ba05-409765d7bda7",
+      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-a8atd4",
+      "name": "שטיח דגם TAVO מידות : 60X90 ס\"מ\nצבע אפור כהה ID892 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130601019-whuztg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-a8atd4",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "95191bd3-dc83-4c04-96c3-f0176363e508",
+      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-ubzlpt",
+      "name": "שטיח דגם TAVO מידות : 60X90 ס\"מ\nצבע בז' ID891",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130770093-939bha.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-ubzlpt",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "9b3becad-9843-4579-aadb-8c0ac7d287ba",
+      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-shjmt5",
+      "name": "שטיח דגם TAVO מידות : 60X90 ס\"מ\nצבע אפור בהיר ID893 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130663918-kyhoic.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-shjmt5",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "50e19492-8ec0-4d7e-b491-cfbec95a4a07",
+      "slug": "shtych-dgm-tavo-mydvt-60x180-sm-tsba-apvr-khh-id898-1lmnmq",
+      "name": "שטיח דגם TAVO מידות : 60X180 ס\"מ\nצבע אפור כהה ID898",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 99.9,
+      "base_price": 99.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130650403-13ljp2.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-apvr-khh-id898-1lmnmq",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "19bd1eb2-5a8f-4206-805f-19de34a62277",
+      "slug": "shtych-dgm-tavo-mydvt-60x180-sm-tsba-apvr-bhyr-id899-1sse6w",
+      "name": "שטיח דגם TAVO מידות : 60X180 ס\"מ\nצבע אפור בהיר ID899 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 99.9,
+      "base_price": 99.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130703584-o038ja.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-apvr-bhyr-id899-1sse6w",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "20c416b7-61df-416e-b607-27d0dccc6340",
+      "slug": "shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-22tldr",
+      "name": "שטיח דגם TAVO מידות : 60X180 ס\"מ\nצבע בז' ID897 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 99.9,
+      "base_price": 99.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130803133-7ta6th.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-22tldr",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "2d8f151f-9dad-4a14-912b-9b571fcb7881",
+      "slug": "shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-43lk20",
+      "name": "שטיח דגם TAVO מידות : 60X130 ס\"מ\nצבע בז' ID894 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130782876-z8o0t.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-43lk20",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "dfa3b52c-a0d5-4504-8959-a6d4c17ba346",
+      "slug": "shtych-dgm-tavo-mydvt-60x130-sm-tsba-apvr-khh-id895-1orouj",
+      "name": "שטיח דגם TAVO מידות : 60X130 ס\"מ\nצבע אפור כהה ID895 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130634076-u00vzm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-apvr-khh-id895-1orouj",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "68c0f894-4dd8-45a7-a818-6e713de89db1",
+      "slug": "shtych-dgm-tavo-mydvt-60x130-sm-tsba-apvr-bhyr-id896-u86a95",
+      "name": "שטיח דגם TAVO מידות : 60X130 ס\"מ\nצבע אפור בהיר ID896",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130675818-pg3z15.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-apvr-bhyr-id896-u86a95",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "86b0e57b-d44e-4920-804a-41567cedcd56",
+      "slug": "shtych-dgm-rovi-mydvt-50x80-sm-tsba-mvkh-id901-3vxpip",
+      "name": "שטיח דגם ROVI מידות : 50X80 ס\"מ\nצבע מוקה ID901 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 39.9,
+      "base_price": 39.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130896130-or4dpc.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-mvkh-id901-3vxpip",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "75d609a0-0dbd-49c8-aec1-b21c22443ca0",
+      "slug": "shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-j106re",
+      "name": "שטיח דגם ROVI מידות : 50X150 ס\"מ\nצבע מוקה ID907 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130925816-4gnqgx.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-j106re",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "b8ec2345-0d06-4d6f-abcf-7f941d874fac",
+      "slug": "shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-9n8h3g",
+      "name": "שטיח דגם ROVI מידות : 50X80 ס\"מ\nצבע בז' ID900 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 39.9,
+      "base_price": 39.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130846476-ik5w3m.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-9n8h3g",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "772d64ab-243f-4476-9f1f-e79b204a3332",
+      "slug": "shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-h55vdv",
+      "name": "שטיח דגם ROVI מידות : 50X120 ס\"מ\nצבע מוקה ID904",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 59.9,
+      "base_price": 59.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130920656-9i2j89.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-h55vdv",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "c408e73d-b4cb-4d1b-a943-5c9247cbc231",
+      "slug": "shtych-dgm-rovi-mydvt-50x80-sm-tsba-apvr-id902-hehpr4",
+      "name": "שטיח דגם ROVI מידות : 50X80 ס\"מ\nצבע אפור ID902 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 39.9,
+      "base_price": 39.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130962952-r55v7b.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-apvr-id902-hehpr4",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "3bb0c384-9db7-4fc1-8616-111245cc3cd3",
+      "slug": "shtych-dgm-rovi-mydvt-50x150-sm-tsba-apvr-id908-vkl309",
+      "name": "שטיח דגם ROVI מידות : 50X150 ס\"מ\nצבע אפור ID908 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130982388-npsi07.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-apvr-id908-vkl309",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "4dac83fc-a9d1-46ba-b553-a30343b0cdb8",
+      "slug": "shtych-dgm-rovi-mydvt-50x150-sm-tsba-bz-id906-4ftma8",
+      "name": "שטיח דגם ROVI מידות : 50X150 ס\"מ\nצבע בז' ID906 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 79.9,
+      "base_price": 79.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130882032-dkxjzb.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-bz-id906-4ftma8",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "e2618c60-301d-4393-91af-77be0490b80b",
+      "slug": "shtych-dgm-rovi-mydvt-50x120-sm-tsba-bz-id903-3j67vm",
+      "name": "שטיח דגם ROVI מידות : 50X120 ס\"מ\nצבע בז' ID903 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 59.9,
+      "base_price": 59.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130871246-hgyafo.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-bz-id903-3j67vm",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "c1358213-ee2f-4468-8c32-8684c60c8f64",
+      "slug": "shtych-dgm-nexo-mydvt-60x120-sm-tsba-bz-id912-zu9djp",
+      "name": "שטיח דגם NEXO מידות : 60X120 ס\"מ\nצבע בז' ID912 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785131038315-moxvn3.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-bz-id912-zu9djp",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "d9a414c3-967e-429f-8674-394b816e6ae7",
+      "slug": "shtych-dgm-rovi-mydvt-50x120-sm-tsba-apvr-id905-izhl5j",
+      "name": "שטיח דגם ROVI מידות : 50X120 ס\"מ\nצבע אפור ID905 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 59.9,
+      "base_price": 59.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785130968899-ybj8e.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-apvr-id905-izhl5j",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "2a3a501a-73ae-46c0-8f97-0c0cc0495063",
+      "slug": "shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-khh-id914-ym76vm",
+      "name": "שטיח דגם NEXO מידות : 60X120 ס\"מ\nצבע אפור כהה ID914 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785131083478-i4nlr8.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-khh-id914-ym76vm",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "aa8b942d-9fe2-4aa1-a0b7-1c615c81d3d6",
+      "slug": "shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-6dz0mj",
+      "name": "שטיח דגם NEXO מידות : 60X120 ס\"מ\nצבע אפור בהיר ID913 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785131061809-mkajk2.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-6dz0mj",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "393cdac3-834e-443c-be55-b597d3da639e",
+      "slug": "shtych-dgm-nexo-mydvt-50x80-sm-tsba-apvr-khh-id911-9km572",
+      "name": "שטיח דגם NEXO מידות : 50X80 ס\"מ\nצבע אפור כהה ID911",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 29.9,
+      "base_price": 29.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785131072345-lse15k.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-apvr-khh-id911-9km572",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "9f942884-7f34-4b67-b2c0-aed2b9d7ef00",
+      "slug": "shtych-dgm-nexo-mydvt-50x80-smtsba-apvr-bhyr-id910-v234le",
+      "name": "שטיח דגם NEXO מידות : 50X80 ס\"מצבע אפור בהיר ID910",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 29.9,
+      "base_price": 29.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785131050489-rlvlim.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-smtsba-apvr-bhyr-id910-v234le",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
+    },
+    {
+      "id": "5cb671fb-8314-4d89-861c-6341ab267830",
+      "slug": "shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-11enhc",
+      "name": "שטיח דגם NEXO מידות : 50X80 ס\"מ\nצבע בז' ID909 ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "שטיח איכותי בעיצוב מודרני, המשלב נוחות, עמידות ותחזוקה קלה, ומתאים לכל חלל בבית.",
+      "sku": null,
+      "brand": null,
+      "price": 29.9,
+      "base_price": 29.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1785131024231-9lqpc6.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-11enhc",
+      "categories": [
+        "שטיחי אמבטיה",
+        "שטיחי מטבח"
+      ],
+      "updated_at": "2026-07-27T05:47:25.266Z"
     },
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
