@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-27T08:00:59.326Z",
+  "generated_at": "2026-07-28T09:30:24.082Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 574,
@@ -726,8 +726,8 @@
     },
     {
       "id": "5afc926a-2375-47d4-85b5-dd363e40958e",
-      "slug": "st-10-kvpsat-achsvn-akrylyt-dgm-amyly-150-ml-id876-f0gcfs",
-      "name": "סט 10 קופסאת אחסון אקרילית דגם אמילי\n150 מ\"ל ID876",
+      "slug": "st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-fdhcl9",
+      "name": "סט 8 קופסאת אחסון אקרילית דגם אמילי150 מ\"ל ID876",
       "name_translations": {},
       "description": "",
       "short_description": "צנצנות אקריל פרימיום בגימור איכותי, המשלבות עיצוב מוקפד, עמידות גבוהה ונוחות שימוש יומיומית.",
@@ -740,11 +740,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-10-kvpsat-achsvn-akrylyt-dgm-amyly-150-ml-id876-f0gcfs",
+      "url": "https://streetstock.co.il/product/st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-fdhcl9",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-07-27T07:04:36.804Z"
+      "updated_at": "2026-07-28T09:29:23.119Z"
     },
     {
       "id": "6797adec-8b49-4799-9701-fb6e31b0c0f3",
@@ -792,8 +792,8 @@
     },
     {
       "id": "3b4cfa5c-e426-4626-8c35-ca3abd95a913",
-      "slug": "st-10-kvpsat-achsvn-akrylyt-dgm-amyly-300-ml-id877-cdtij1",
-      "name": "סט 10 קופסאת אחסון אקרילית דגם אמילי\n300 מ\"ל ID877",
+      "slug": "st-8-kvpsat-achsvn-akrylyt-dgm-amyly300-ml-id877-qv95bq",
+      "name": "סט 8 קופסאת אחסון אקרילית דגם אמילי300 מ\"ל ID877",
       "name_translations": {},
       "description": "",
       "short_description": "צנצנות אקריל פרימיום בגימור איכותי, המשלבות עיצוב מוקפד, עמידות גבוהה ונוחות שימוש יומיומית.",
@@ -806,11 +806,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-10-kvpsat-achsvn-akrylyt-dgm-amyly-300-ml-id877-cdtij1",
+      "url": "https://streetstock.co.il/product/st-8-kvpsat-achsvn-akrylyt-dgm-amyly300-ml-id877-qv95bq",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-07-27T07:04:36.793Z"
+      "updated_at": "2026-07-28T09:29:49.666Z"
     },
     {
       "id": "544fc1cc-9fa0-4ed5-b5ea-617a583a63a6",
