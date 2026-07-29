@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T05:16:41.714Z",
+  "generated_at": "2026-07-29T05:17:26.439Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 574,
@@ -726,7 +726,7 @@
     },
     {
       "id": "5afc926a-2375-47d4-85b5-dd363e40958e",
-      "slug": "st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-fdhcl9",
+      "slug": "st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-0ot91v",
       "name": "סט 8 קופסאת אחסון אקרילית דגם אמילי150 מ\"ל ID876",
       "name_translations": {},
       "description": "",
@@ -737,14 +737,17 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785302206726-fokgas.webp",
+        "https://streetstock.co.il/assets/product-1785302214038-yks3yh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-fdhcl9",
+      "url": "https://streetstock.co.il/product/st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-0ot91v",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-07-28T09:29:23.119Z"
+      "updated_at": "2026-07-29T05:17:19.060Z"
     },
     {
       "id": "6797adec-8b49-4799-9701-fb6e31b0c0f3",
@@ -2352,7 +2355,7 @@
     },
     {
       "id": "1480874c-7697-42ce-819f-f925e79f2be1",
-      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-767w9f",
+      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-zcnm4j",
       "name": "דיספנסר לסבון צבע בז' דגם NIVORA ID864 ",
       "name_translations": {},
       "description": "",
@@ -2366,16 +2369,17 @@
       "images": [
         "https://streetstock.co.il/assets/product-1785132707735-i9gner.webp",
         "https://streetstock.co.il/assets/product-1785132716268-nlocei.webp",
-        "https://streetstock.co.il/assets/product-1784099062761-qkm9dh.webp"
+        "https://streetstock.co.il/assets/product-1784099062761-qkm9dh.webp",
+        "https://streetstock.co.il/assets/product-1785302163502-dgqok.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-767w9f",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-zcnm4j",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T06:12:15.974Z"
+      "updated_at": "2026-07-29T05:16:48.785Z"
     },
     {
       "id": "023059ff-a4bd-4639-9a39-dc85a934522f",
