@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T05:59:28.228Z",
+  "generated_at": "2026-07-29T06:01:18.028Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -220,7 +220,7 @@
     },
     {
       "id": "cb64c54e-f261-4e12-a8b9-204cafb891f2",
-      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-v5gnsd",
+      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-84xgk9",
       "name": "כוס למברשת שיניים  דגם VELIN\n צבע בג' ID646",
       "name_translations": {},
       "description": "",
@@ -231,15 +231,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304807062-d2aa1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-v5gnsd",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-84xgk9",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:40.466Z"
+      "updated_at": "2026-07-29T06:00:44.740Z"
     },
     {
       "id": "c553e0d2-88ab-4c6b-83b6-42f1dcbfbdec",
@@ -629,7 +631,7 @@
     },
     {
       "id": "afdab467-b7ce-49f4-ab35-0b4bd5a7ef6b",
-      "slug": "dyspnsr-lsbvn-tsba-lbn-dgm-id919-aira-uo2dee",
+      "slug": "dyspnsr-lsbvn-tsba-lbn-dgm-id919-aira-9fkm11",
       "name": "דיספנסר לסבון צבע לבן \nדגם ID919 AIRA",
       "name_translations": {},
       "description": "",
@@ -640,19 +642,21 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304727211-sjblow.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-lbn-dgm-id919-aira-uo2dee",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-lbn-dgm-id919-aira-9fkm11",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:38.538Z"
+      "updated_at": "2026-07-29T06:00:33.467Z"
     },
     {
       "id": "164749ed-fa33-4bbd-a459-035a9825ba3b",
-      "slug": "kvs-mbrsht-shynyym-tsba-bz-dgm-id920-aira-r3v278",
+      "slug": "kvs-mbrsht-shynyym-tsba-bz-dgm-id920-aira-u0qu77",
       "name": "כוס מברשת שיניים צבע בז \nדגם ID920 AIRA",
       "name_translations": {},
       "description": "",
@@ -663,15 +667,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304844398-l7jm2l.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-bz-dgm-id920-aira-r3v278",
+      "url": "https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-bz-dgm-id920-aira-u0qu77",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:38.511Z"
+      "updated_at": "2026-07-29T06:01:02.229Z"
     },
     {
       "id": "6272379f-c8e4-4059-9439-276a81949417",
