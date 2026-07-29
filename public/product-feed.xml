@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 29 Jul 2026 06:03:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 06:04:33 GMT</lastBuildDate>
     <item>
       <g:id>c317dc67-d86d-4ec4-a033-7d18bec2a144</g:id>
       <g:title>אלמוגית סקוטש ברזל מצופה ID659 - Black</g:title>
@@ -89,11 +89,26 @@
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>5bcedd77-e9a6-4e95-b5d9-17446cd2f319</g:id>
+      <g:id>5cac0043-5eb2-4427-9365-fbe9bce1efc5</g:id>
       <g:title>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME 
-צבע בג&apos; ID651</g:title>
+צבע בג&apos; ID651 - Black</g:title>
       <g:description>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME צבע בג&apos; ID651</g:description>
       <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-bg-id651-u2hb31</g:link>
+      <g:item_group_id>5bcedd77-e9a6-4e95-b5d9-17446cd2f319</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>7afd7df9-1913-4f0d-ad14-cc1b8947d8a8</g:id>
+      <g:title>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME 
+צבע בג&apos; ID651 - Gold</g:title>
+      <g:description>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME צבע בג&apos; ID651</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-bg-id651-u2hb31</g:link>
+      <g:item_group_id>5bcedd77-e9a6-4e95-b5d9-17446cd2f319</g:item_group_id>
       <g:availability>in_stock</g:availability>
       <g:price>39.90 ILS</g:price>
       <g:condition>new</g:condition>
