@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T06:01:18.028Z",
+  "generated_at": "2026-07-29T06:01:52.851Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -317,7 +317,7 @@
     },
     {
       "id": "210a5efe-e0f0-4a42-a24b-42930751296e",
-      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-6jfn2h",
+      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-368jhi",
       "name": "כוס למברשת שיניים  דגם VELIN\n צבע לבן ID645",
       "name_translations": {},
       "description": "",
@@ -328,15 +328,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304857614-64e2v.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-6jfn2h",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-368jhi",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:40.373Z"
+      "updated_at": "2026-07-29T06:01:18.538Z"
     },
     {
       "id": "6046a897-af4d-48ea-812f-f535e36dbdaa",
@@ -700,7 +702,7 @@
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:36.858Z"
+      "updated_at": "2026-07-29T06:01:49.206Z"
     },
     {
       "id": "2a483eb4-9225-48ad-be8e-65e7923bb72c",

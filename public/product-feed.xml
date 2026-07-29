@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 29 Jul 2026 06:01:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 06:01:52 GMT</lastBuildDate>
     <item>
       <g:id>c317dc67-d86d-4ec4-a033-7d18bec2a144</g:id>
       <g:title>אלמוגית סקוטש ברזל מצופה ID659 - Black</g:title>
@@ -261,7 +261,8 @@ ID923</g:title>
       <g:title>כוס למברשת שיניים  דגם VELIN
  צבע לבן ID645</g:title>
       <g:description>כוס למברשת שיניים דגם VELIN צבע לבן ID645</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-6jfn2h</g:link>
+      <g:link>https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-368jhi</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304857614-64e2v.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -498,11 +499,26 @@ ID924</g:title>
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>6272379f-c8e4-4059-9439-276a81949417</g:id>
+      <g:id>86aebc72-0ca4-418a-b345-bde9e6655179</g:id>
       <g:title>דיספנסר לסבון צבע בז&apos; 
-דגם ID917 AIRA</g:title>
+דגם ID917 AIRA - Gold</g:title>
       <g:description>דיספנסר לסבון צבע בז&apos; דגם ID917 AIRA</g:description>
       <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-id917-aira-us3fzy</g:link>
+      <g:item_group_id>6272379f-c8e4-4059-9439-276a81949417</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>4254254c-b6d4-4c52-9455-9c38c0149f7b</g:id>
+      <g:title>דיספנסר לסבון צבע בז&apos; 
+דגם ID917 AIRA - Silver</g:title>
+      <g:description>דיספנסר לסבון צבע בז&apos; דגם ID917 AIRA</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-id917-aira-us3fzy</g:link>
+      <g:item_group_id>6272379f-c8e4-4059-9439-276a81949417</g:item_group_id>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
       <g:condition>new</g:condition>
