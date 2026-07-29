@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T05:56:37.682Z",
+  "generated_at": "2026-07-29T05:57:02.857Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -575,7 +575,7 @@
     },
     {
       "id": "8cb78ea2-f021-41c4-a1d6-a4379e14e89e",
-      "slug": "dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-1jj03z",
+      "slug": "dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj",
       "name": "דיספנסר לסבון צבע שחור \nדגם ID918 AIRA",
       "name_translations": {},
       "description": "",
@@ -591,12 +591,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-1jj03z",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-29T05:56:27.667Z"
+      "updated_at": "2026-07-29T05:56:54.679Z"
     },
     {
       "id": "01c5ba56-464e-4bd4-94a3-5ac4e99b4827",

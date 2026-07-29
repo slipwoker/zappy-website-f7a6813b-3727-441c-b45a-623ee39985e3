@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 29 Jul 2026 05:56:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 05:57:02 GMT</lastBuildDate>
     <item>
       <g:id>c317dc67-d86d-4ec4-a033-7d18bec2a144</g:id>
       <g:title>אלמוגית סקוטש ברזל מצופה ID659 - Black</g:title>
@@ -375,11 +375,27 @@ ID924</g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>8cb78ea2-f021-41c4-a1d6-a4379e14e89e</g:id>
+      <g:id>b1b1b06e-49fc-4d0d-ae96-1b2d7d980a4d</g:id>
       <g:title>דיספנסר לסבון צבע שחור 
-דגם ID918 AIRA</g:title>
+דגם ID918 AIRA - Black</g:title>
       <g:description>דיספנסר לסבון צבע שחור דגם ID918 AIRA</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-1jj03z</g:link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj</g:link>
+      <g:item_group_id>8cb78ea2-f021-41c4-a1d6-a4379e14e89e</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304564358-uz0ypc.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>62ee3b0a-837c-4347-954d-238d82fde75b</g:id>
+      <g:title>דיספנסר לסבון צבע שחור 
+דגם ID918 AIRA - Gold</g:title>
+      <g:description>דיספנסר לסבון צבע שחור דגם ID918 AIRA</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj</g:link>
+      <g:item_group_id>8cb78ea2-f021-41c4-a1d6-a4379e14e89e</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1785304564358-uz0ypc.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
