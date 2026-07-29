@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 29 Jul 2026 05:58:23 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 05:59:03 GMT</lastBuildDate>
     <item>
       <g:id>c317dc67-d86d-4ec4-a033-7d18bec2a144</g:id>
       <g:title>אלמוגית סקוטש ברזל מצופה ID659 - Black</g:title>
@@ -159,11 +159,28 @@
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>9079964f-f21b-4976-8af1-d1ccf71d6e66</g:id>
+      <g:id>7275763f-65c9-4c40-97c1-989d6969eb57</g:id>
       <g:title>דיספנסר לסבון  דגם VELIN
- צבע לבן ID648</g:title>
+ צבע לבן ID648 - White</g:title>
       <g:description>דיספנסר לסבון דגם VELIN צבע לבן ID648</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-x1xg43</g:link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-1c9mnb</g:link>
+      <g:item_group_id>9079964f-f21b-4976-8af1-d1ccf71d6e66</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304703053-dmicqi.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>e15ee031-b6bd-4df2-946f-ae00657eb82b</g:id>
+      <g:title>דיספנסר לסבון  דגם VELIN
+ צבע לבן ID648 - Gold</g:title>
+      <g:description>דיספנסר לסבון דגם VELIN צבע לבן ID648</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-1c9mnb</g:link>
+      <g:item_group_id>9079964f-f21b-4976-8af1-d1ccf71d6e66</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304703053-dmicqi.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -426,7 +443,8 @@ ID924</g:title>
       <g:title>כוס מברשת שיניים צבע לבן 
 דגם ID922 AIRA</g:title>
       <g:description>כוס מברשת שיניים צבע לבן דגם ID922 AIRA</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-oash8z</g:link>
+      <g:link>https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-fmtdf1</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304681911-23w7p.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
       <g:condition>new</g:condition>

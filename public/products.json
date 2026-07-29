@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T05:58:23.061Z",
+  "generated_at": "2026-07-29T05:59:03.057Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -172,7 +172,7 @@
     },
     {
       "id": "9079964f-f21b-4976-8af1-d1ccf71d6e66",
-      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-x1xg43",
+      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-1c9mnb",
       "name": "דיספנסר לסבון  דגם VELIN\n צבע לבן ID648",
       "name_translations": {},
       "description": "",
@@ -183,15 +183,17 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304703053-dmicqi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-x1xg43",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-1c9mnb",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:42.033Z"
+      "updated_at": "2026-07-29T05:58:50.953Z"
     },
     {
       "id": "924cb012-149b-4dbf-a220-c56bd5c85bf4",
@@ -602,7 +604,7 @@
     },
     {
       "id": "01c5ba56-464e-4bd4-94a3-5ac4e99b4827",
-      "slug": "kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-oash8z",
+      "slug": "kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-fmtdf1",
       "name": "כוס מברשת שיניים צבע לבן \nדגם ID922 AIRA",
       "name_translations": {},
       "description": "",
@@ -613,15 +615,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304681911-23w7p.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-oash8z",
+      "url": "https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-fmtdf1",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:38.539Z"
+      "updated_at": "2026-07-29T05:58:34.161Z"
     },
     {
       "id": "afdab467-b7ce-49f4-ab35-0b4bd5a7ef6b",
