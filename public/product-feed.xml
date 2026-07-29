@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 29 Jul 2026 05:57:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 05:58:23 GMT</lastBuildDate>
     <item>
       <g:id>c317dc67-d86d-4ec4-a033-7d18bec2a144</g:id>
       <g:title>אלמוגית סקוטש ברזל מצופה ID659 - Black</g:title>
@@ -129,11 +129,28 @@
       <g:product_type>דיספנסרים</g:product_type>
     </item>
     <item>
-      <g:id>ad8225b3-e6b6-482d-8b1e-6eba4ca8f259</g:id>
+      <g:id>0bdc143f-ac8e-4758-a8a5-9470f9d360d8</g:id>
       <g:title>דיספנסר לסבון  דגם VELIN
- צבע בג&apos; ID649</g:title>
+ צבע בג&apos; ID649 - Black</g:title>
       <g:description>דיספנסר לסבון דגם VELIN צבע בג&apos; ID649</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-k3l27i</g:link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg</g:link>
+      <g:item_group_id>ad8225b3-e6b6-482d-8b1e-6eba4ca8f259</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304580330-hh53ss.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>b3baef23-b4af-4734-bac0-9285b286c9db</g:id>
+      <g:title>דיספנסר לסבון  דגם VELIN
+ צבע בג&apos; ID649 - Gold</g:title>
+      <g:description>דיספנסר לסבון דגם VELIN צבע בג&apos; ID649</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg</g:link>
+      <g:item_group_id>ad8225b3-e6b6-482d-8b1e-6eba4ca8f259</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785304580330-hh53ss.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>29.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -379,7 +396,7 @@ ID924</g:title>
       <g:title>דיספנסר לסבון צבע שחור 
 דגם ID918 AIRA - Black</g:title>
       <g:description>דיספנסר לסבון צבע שחור דגם ID918 AIRA</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj</g:link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-7m6824</g:link>
       <g:item_group_id>8cb78ea2-f021-41c4-a1d6-a4379e14e89e</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1785304564358-uz0ypc.webp</g:image_link>
       <g:availability>in_stock</g:availability>
@@ -394,7 +411,7 @@ ID924</g:title>
       <g:title>דיספנסר לסבון צבע שחור 
 דגם ID918 AIRA - Gold</g:title>
       <g:description>דיספנסר לסבון צבע שחור דגם ID918 AIRA</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj</g:link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-7m6824</g:link>
       <g:item_group_id>8cb78ea2-f021-41c4-a1d6-a4379e14e89e</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1785304564358-uz0ypc.webp</g:image_link>
       <g:availability>in_stock</g:availability>

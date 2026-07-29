@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T05:57:27.838Z",
+  "generated_at": "2026-07-29T05:58:23.061Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -147,7 +147,7 @@
     },
     {
       "id": "ad8225b3-e6b6-482d-8b1e-6eba4ca8f259",
-      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-k3l27i",
+      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg",
       "name": "דיספנסר לסבון  דגם VELIN\n צבע בג' ID649",
       "name_translations": {},
       "description": "",
@@ -158,15 +158,17 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304580330-hh53ss.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-k3l27i",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-29T05:57:11.227Z"
+      "updated_at": "2026-07-29T05:58:07.121Z"
     },
     {
       "id": "9079964f-f21b-4976-8af1-d1ccf71d6e66",
@@ -575,7 +577,7 @@
     },
     {
       "id": "8cb78ea2-f021-41c4-a1d6-a4379e14e89e",
-      "slug": "dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj",
+      "slug": "dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-7m6824",
       "name": "דיספנסר לסבון צבע שחור \nדגם ID918 AIRA",
       "name_translations": {},
       "description": "",
@@ -591,12 +593,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-73kjkj",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-shchvr-dgm-id918-aira-7m6824",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-29T05:56:54.679Z"
+      "updated_at": "2026-07-29T05:57:47.463Z"
     },
     {
       "id": "01c5ba56-464e-4bd4-94a3-5ac4e99b4827",
