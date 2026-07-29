@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T06:04:47.960Z",
+  "generated_at": "2026-07-29T06:05:33.033Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -31,7 +31,7 @@
     },
     {
       "id": "abcf1199-1851-4a6f-999f-bd2e6a5379dc",
-      "slug": "dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-n8u2bm",
+      "slug": "dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-lvu1kk",
       "name": "דיספנסר לסבון +מעמד לסקוץ דגם 'LUME \nצבע לבן ID652",
       "name_translations": {},
       "description": "",
@@ -42,15 +42,19 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785305091654-9xnwjp.webp",
+        "https://streetstock.co.il/assets/product-1785305100474-8fruq7.webp",
+        "https://streetstock.co.il/assets/product-1785305113973-cp4j2.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-n8u2bm",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-lvu1kk",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:42.101Z"
+      "updated_at": "2026-07-29T06:05:30.567Z"
     },
     {
       "id": "e2f3c796-4dd0-48aa-ba82-da3b9d6b5dd8",

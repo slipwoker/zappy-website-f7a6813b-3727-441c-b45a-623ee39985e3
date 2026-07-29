@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 29 Jul 2026 06:04:47 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 06:05:33 GMT</lastBuildDate>
     <item>
       <g:id>c317dc67-d86d-4ec4-a033-7d18bec2a144</g:id>
       <g:title>אלמוגית סקוטש ברזל מצופה ID659 - Black</g:title>
@@ -34,11 +34,32 @@
       <g:product_type>כללי</g:product_type>
     </item>
     <item>
-      <g:id>abcf1199-1851-4a6f-999f-bd2e6a5379dc</g:id>
+      <g:id>9359a1a9-310c-448c-be6e-8eea505b2882</g:id>
       <g:title>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME 
-צבע לבן ID652</g:title>
+צבע לבן ID652 - White</g:title>
       <g:description>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME צבע לבן ID652</g:description>
-      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-n8u2bm</g:link>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-lvu1kk</g:link>
+      <g:item_group_id>abcf1199-1851-4a6f-999f-bd2e6a5379dc</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785305091654-9xnwjp.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1785305100474-8fruq7.webp</g:additional_image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1785305113973-cp4j2.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>דיספנסרים</g:product_type>
+    </item>
+    <item>
+      <g:id>a265da7c-9b80-43e3-b377-aa5b0ac4cb31</g:id>
+      <g:title>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME 
+צבע לבן ID652 - Gold</g:title>
+      <g:description>דיספנסר לסבון +מעמד לסקוץ דגם &apos;LUME צבע לבן ID652</g:description>
+      <g:link>https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-dgm-lume-tsba-lbn-id652-lvu1kk</g:link>
+      <g:item_group_id>abcf1199-1851-4a6f-999f-bd2e6a5379dc</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1785305091654-9xnwjp.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1785305100474-8fruq7.webp</g:additional_image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1785305113973-cp4j2.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>39.90 ILS</g:price>
       <g:condition>new</g:condition>
