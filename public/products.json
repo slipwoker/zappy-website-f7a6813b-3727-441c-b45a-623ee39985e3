@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T06:02:22.772Z",
+  "generated_at": "2026-07-29T06:03:17.969Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -118,7 +118,7 @@
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-27T07:04:42.097Z"
+      "updated_at": "2026-07-29T06:03:08.757Z"
     },
     {
       "id": "7961d65f-e7b2-43ee-b3da-9898ff39ece7",
@@ -683,7 +683,7 @@
     },
     {
       "id": "6272379f-c8e4-4059-9439-276a81949417",
-      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-id917-aira-us3fzy",
+      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-id917-aira-7pcxl4",
       "name": "דיספנסר לסבון צבע בז' \nדגם ID917 AIRA",
       "name_translations": {},
       "description": "",
@@ -694,15 +694,17 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785304952086-xs1pga.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-id917-aira-us3fzy",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-id917-aira-7pcxl4",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-07-29T06:01:49.206Z"
+      "updated_at": "2026-07-29T06:02:41.999Z"
     },
     {
       "id": "2a483eb4-9225-48ad-be8e-65e7923bb72c",
