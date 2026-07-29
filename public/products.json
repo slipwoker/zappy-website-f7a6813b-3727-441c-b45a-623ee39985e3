@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-29T06:06:23.106Z",
+  "generated_at": "2026-07-29T06:07:08.375Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -58,7 +58,7 @@
     },
     {
       "id": "e2f3c796-4dd0-48aa-ba82-da3b9d6b5dd8",
-      "slug": "mgsh-lkvbyvt-krch-mksh-dgm-ofir-dysplyy-id935-bvtod4",
+      "slug": "mgsh-lkvbyvt-krch-mksh-dgm-ofir-dysplyy-id935-ek7468",
       "name": "מגש לקוביות קרח + מכסה דגם OFIR \nדיספליי ID935",
       "name_translations": {},
       "description": "",
@@ -69,14 +69,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1785305175395-qjgm2e.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgsh-lkvbyvt-krch-mksh-dgm-ofir-dysplyy-id935-bvtod4",
+      "url": "https://streetstock.co.il/product/mgsh-lkvbyvt-krch-mksh-dgm-ofir-dysplyy-id935-ek7468",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-07-29T05:27:03.873Z"
+      "updated_at": "2026-07-29T06:06:32.342Z"
     },
     {
       "id": "5bcedd77-e9a6-4e95-b5d9-17446cd2f319",
