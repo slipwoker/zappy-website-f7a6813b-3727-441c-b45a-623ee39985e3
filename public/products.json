@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:15:35.406Z",
+  "generated_at": "2026-07-30T07:24:45.977Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -6620,7 +6620,7 @@
     },
     {
       "id": "3ca2f1b1-1227-4393-a45d-768965b082b6",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-nef8qi",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-u2xlkb",
       "name": "סט מצעים כותנה פרקל דגם עמנואל צבע אבן",
       "name_translations": {},
       "description": "",
@@ -6636,11 +6636,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-nef8qi",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-abn-u2xlkb",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:13:11.824Z"
+      "updated_at": "2026-07-30T07:16:01.506Z"
     },
     {
       "id": "2faff163-9ffb-40d7-9f32-a37e580c4557",
@@ -6668,7 +6668,7 @@
     },
     {
       "id": "e1793fe9-afa7-421a-a70b-c3aae524398f",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-4j30dt",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-ru2tyo",
       "name": "סט מצעים כותנה פרקל דגם קוסמוי צבע לבן+בז'",
       "name_translations": {},
       "description": "",
@@ -6684,11 +6684,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-4j30dt",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbnbz-ru2tyo",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:13:46.868Z"
+      "updated_at": "2026-07-30T07:16:28.808Z"
     },
     {
       "id": "ac1e8759-3718-4c62-9581-906d0204c510",
@@ -6716,7 +6716,7 @@
     },
     {
       "id": "3f18f066-b4cf-4a84-8cf7-a56602a72600",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-pojqys",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-taqznr",
       "name": "סט מצעים כותנה פרקל דגם פקאן צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6732,15 +6732,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-pojqys",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-pkan-tsba-lbn-taqznr",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:14:19.386Z"
+      "updated_at": "2026-07-30T07:22:48.510Z"
     },
     {
       "id": "d7ebcc42-f919-4d47-a9c5-28afa80fcc97",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-z7r5l3",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-bbgtsm",
       "name": "סט מצעים כותנה פרקל דגם קוסמוי צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6756,11 +6756,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-z7r5l3",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-kvsmvy-tsba-lbn-bbgtsm",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:14:37.576Z"
+      "updated_at": "2026-07-30T07:15:41.093Z"
     },
     {
       "id": "56d878d8-e449-4f6f-8e5b-ced4274cd4ad",
@@ -6812,7 +6812,7 @@
     },
     {
       "id": "a660e35c-3115-40aa-8e1d-af854716692c",
-      "slug": "st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-jrk9jr",
+      "slug": "st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-kcgffa",
       "name": "סט מצעים כותנה דגם רומי צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6828,15 +6828,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-jrk9jr",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-rvmy-tsba-lbn-kcgffa",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:25:02.232Z"
+      "updated_at": "2026-07-30T07:15:52.765Z"
     },
     {
       "id": "ba11b6f1-1c83-4520-a954-46b38350ea54",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-led4uz",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-gae36l",
       "name": "סט מצעים כותנה פרקל דגם עמנואל צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -6852,15 +6852,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-led4uz",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-mvkh-gae36l",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:25:24.176Z"
+      "updated_at": "2026-07-30T07:23:00.831Z"
     },
     {
       "id": "0df88da6-8fd8-494c-81a9-270686931cc6",
-      "slug": "st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-5028w0",
+      "slug": "st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-7oiy0t",
       "name": "סט מצעים כותנה דגם סנדרה צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6876,15 +6876,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-5028w0",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-sndrh-tsba-lbn-7oiy0t",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:25:39.034Z"
+      "updated_at": "2026-07-30T07:24:13.569Z"
     },
     {
       "id": "d73ee067-4cd3-4b08-a703-66ca64b30ad7",
-      "slug": "st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-espntz",
+      "slug": "st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-0hmfk9",
       "name": "סט מצעים כותנה דגם קיקה צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6900,11 +6900,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-espntz",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-kykh-tsba-lbn-0hmfk9",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:25:53.099Z"
+      "updated_at": "2026-07-30T07:24:29.198Z"
     },
     {
       "id": "6dd8d423-3bbc-41f0-b29c-dc1a6008fca4",
@@ -6932,7 +6932,7 @@
     },
     {
       "id": "7b50eac4-ace0-4ab4-b66e-1293261c2508",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-k1px2h",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-ujpgnh",
       "name": "סט מצעים כותנה פרקל דגם LOUIE צבע אפור כהה",
       "name_translations": {},
       "description": "",
@@ -6948,11 +6948,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-k1px2h",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-khh-ujpgnh",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:26:20.510Z"
+      "updated_at": "2026-07-30T07:24:41.343Z"
     },
     {
       "id": "9722c6b3-a9cb-4d96-939f-73d35ab16da0",
@@ -7028,7 +7028,7 @@
     },
     {
       "id": "348776bc-6d51-4e72-a8a4-4e6e5a762fd3",
-      "slug": "st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-f552wn",
+      "slug": "st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-itvlzi",
       "name": "סט מצעים כותנה דגם איזבל צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -7044,15 +7044,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-f552wn",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-mvkh-itvlzi",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:27:32.936Z"
+      "updated_at": "2026-07-30T07:23:12.146Z"
     },
     {
       "id": "bf990690-a9a2-4505-86be-57a57f9058c3",
-      "slug": "st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0n7otm",
+      "slug": "st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0thhyk",
       "name": "סט מצעים כותנה דגם אלינה צבע לבן",
       "name_translations": {},
       "description": "",
@@ -7068,15 +7068,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0n7otm",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-alynh-tsba-lbn-0thhyk",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:27:57.663Z"
+      "updated_at": "2026-07-30T07:23:51.382Z"
     },
     {
       "id": "a4bca12e-555d-45cf-80dd-17141c6221dc",
-      "slug": "st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-8gdjr1",
+      "slug": "st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-guwi18",
       "name": "סט מצעים כותנה דגם אמנדה צבע לבן",
       "name_translations": {},
       "description": "",
@@ -7092,15 +7092,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-8gdjr1",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-lbn-guwi18",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:28:14.267Z"
+      "updated_at": "2026-07-30T07:23:38.291Z"
     },
     {
       "id": "fac6a2a7-4ec8-4599-80e6-af58812ac785",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-95lilv",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-n1dsds",
       "name": "סט מצעים כותנה פרקל דגם LOUIE צבע אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -7116,11 +7116,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-95lilv",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-apvr-bhyr-n1dsds",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:28:42.505Z"
+      "updated_at": "2026-07-30T07:23:22.681Z"
     },
     {
       "id": "a261e71e-245b-4934-83c8-6f1de8b2cd5a",
