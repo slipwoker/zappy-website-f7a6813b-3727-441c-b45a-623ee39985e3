@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:01:44.530Z",
+  "generated_at": "2026-07-30T07:02:09.223Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -4555,15 +4555,15 @@
     },
     {
       "id": "a0b6cfe1-a7bf-4ca7-aec3-75c9159cd14c",
-      "slug": "vylvn-zbrh-glylh-dmvy-ats-80x160-sm-1sviu2",
+      "slug": "vylvn-zbrh-glylh-dmvy-ats-80x160-sm-85zkrx",
       "name": "וילון זברה גלילה - דמוי עץ 80X160 ס\"מ",
       "name_translations": {},
       "description": "",
       "short_description": "וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.",
       "sku": null,
       "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
+      "price": 119.9,
+      "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -4571,23 +4571,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-dmvy-ats-80x160-sm-1sviu2",
+      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-dmvy-ats-80x160-sm-85zkrx",
       "categories": [
         "וילונות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:01:46.048Z"
     },
     {
       "id": "29bee956-347c-4349-b6f0-c3eb6ac6e891",
-      "slug": "vylvn-zbrh-glylh-apvr-120x160-sm-cheir7",
+      "slug": "vylvn-zbrh-glylh-apvr-120x160-sm-99pwwr",
       "name": "וילון זברה גלילה - אפור 120X160 ס\"מ",
       "name_translations": {},
       "description": "",
       "short_description": "וילון גלילה ייחודי בעל שתי שכבות בד עם פסים שקופים ואטומים לסירוגין, המאפשר שליטה מדויקת בכמות האור וברמת הפרטיות. באמצעות מנגנון השרשרת ניתן לעבור בין מצב פתוח למעבר אור מרבי לבין מצב סגור להצללה מוגברת. בנוסף, ניתן להעלות או להוריד את הווילון לכל גובה רצוי, לשילוב מושלם של נוחות, פונקציונליות ועיצוב מודרני.",
       "sku": null,
       "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
+      "price": 169.9,
+      "base_price": 169.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -4595,11 +4595,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-120x160-sm-cheir7",
+      "url": "https://streetstock.co.il/product/vylvn-zbrh-glylh-apvr-120x160-sm-99pwwr",
       "categories": [
         "וילונות"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:01:59.255Z"
     },
     {
       "id": "8cea04d8-ee26-4ccf-8f7f-84910c89b1c6",
