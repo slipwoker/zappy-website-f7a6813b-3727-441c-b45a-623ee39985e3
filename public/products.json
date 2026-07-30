@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:38:48.784Z",
+  "generated_at": "2026-07-30T07:39:08.845Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -6091,15 +6091,15 @@
     },
     {
       "id": "5ec21208-cca4-4a54-86e6-4bce7ffca37a",
-      "slug": "mtata-sylykvn-mprky-45-sm-4ne73f",
+      "slug": "mtata-sylykvn-mprky-45-sm-slpvlf",
       "name": "מטאטא סיליקון מפרקי - 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "מתאים לניקוי כל סוגי המשטחים רטובים או יבשים\r\n2 ב-1 גם מטאטא וגם מגב\r\nכולל מערכת לכידת אבק פטנטית\r\nמצוייד בסיבים אלכסוניים לניקוי לאורך קירות\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי עם 8 שורות סיבים צפופים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 74.9,
-      "base_price": 74.9,
+      "price": 84.9,
+      "base_price": 84.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6107,11 +6107,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-4ne73f",
+      "url": "https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-slpvlf",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:38:50.358Z"
     },
     {
       "id": "7e131b22-54a7-420f-9916-778d95a2bec2",
