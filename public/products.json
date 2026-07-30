@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:37:03.663Z",
+  "generated_at": "2026-07-30T07:37:50.425Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -5971,15 +5971,15 @@
     },
     {
       "id": "77119a2e-8b6a-4b74-a69d-35ee4efbb5fb",
-      "slug": "mgb-mprky-sylykvn-mtkvvnn-30-sm-ipltx7",
+      "slug": "mgb-mprky-sylykvn-mtkvvnn-30-sm-vpq73e",
       "name": "מגב מפרקי סיליקון מתכוונן - 30 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 30 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 64.9,
-      "base_price": 64.9,
+      "price": 74.9,
+      "base_price": 74.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5987,23 +5987,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-ipltx7",
+      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-vpq73e",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:37:14.493Z"
     },
     {
       "id": "8f63f05a-2906-4485-b6aa-3b99e4ae5318",
-      "slug": "mtata-kl-mshkl-45-sm-rb-mgb-2-m9e9la",
+      "slug": "mtata-kl-mshkl-45-sm-rb-mgb-2-7i3ad0",
       "name": "מטאטא קל משקל - 45 סמ רב מגב 2",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מג גומי חדשני ועוצמתי קל משקל במיוחד\r\nמצוין לניקוי של פרווה, שיער ועוד\r\nסיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך\r\nמיוצר מיציקה אחת של 100% גומי טבעי עם 6 שורות סיבים צפופים\r\nמצוייד בסיבים אלכסוניים לניקוי לאורך קירות\r\nשומר על הרהיטים, לא שורט את הרצפה\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 64.9,
-      "base_price": 64.9,
+      "price": 74.9,
+      "base_price": 74.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6011,11 +6011,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-m9e9la",
+      "url": "https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-7i3ad0",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:37:27.757Z"
     },
     {
       "id": "8ad3e0fd-aa60-4f85-8509-dcc73460ab05",
