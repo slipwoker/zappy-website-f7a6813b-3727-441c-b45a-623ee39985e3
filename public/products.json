@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:41:16.750Z",
+  "generated_at": "2026-07-30T08:39:02.296Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 572,
+  "count": 570,
   "products": [
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
@@ -10529,54 +10529,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-06-15T09:00:58.542Z"
-    },
-    {
-      "id": "0eb7e95b-f54b-4a04-a44b-01bc1dda70b2",
-      "slug": "kart-nyrvsth-20-sm-dgm-bowlix-ln7l1q",
-      "name": "קערת נירוסטה 20 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7290121562584",
-      "brand": null,
-      "price": 15.9,
-      "base_price": 15.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837684780-bbebc9.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-20-sm-dgm-bowlix-ln7l1q",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "070caff9-4fff-4d93-bc13-a87b80c20cf4",
-      "slug": "kart-nyrvsth-18-sm-dgm-bowlix-5xgdov",
-      "name": "קערת נירוסטה 18 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7290121562591",
-      "brand": null,
-      "price": 13.9,
-      "base_price": 13.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514099387-ihyykd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-18-sm-dgm-bowlix-5xgdov",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-06-15T09:02:04.819Z"
     },
     {
       "id": "7266e326-1dbf-449a-93e4-9c151222bf77",

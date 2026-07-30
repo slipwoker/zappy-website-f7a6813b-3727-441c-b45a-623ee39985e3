@@ -9518,28 +9518,6 @@ SKU: 7290121562515
 
 ---
 
-### קערת נירוסטה 20 ס"מ דגם BOWLIX
-
-URL: https://streetstock.co.il/product/kart-nyrvsth-20-sm-dgm-bowlix-ln7l1q
-Price: 15.90 ILS
-Availability: In stock
-SKU: 7290121562584
-
-כלי בית
-
----
-
-### קערת נירוסטה 18 ס"מ דגם BOWLIX
-
-URL: https://streetstock.co.il/product/kart-nyrvsth-18-sm-dgm-bowlix-5xgdov
-Price: 13.90 ILS
-Availability: In stock
-SKU: 7290121562591
-
-כלי בית
-
----
-
 ### קערת נירוסטה 22 ס"מ דגם BOWLIX
 
 URL: https://streetstock.co.il/product/kart-nyrvsth-22-sm-dgm-bowlix-jdqwiv
