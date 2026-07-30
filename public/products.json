@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:39:23.724Z",
+  "generated_at": "2026-07-30T07:40:02.620Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -6187,15 +6187,15 @@
     },
     {
       "id": "1dfd3aa7-60a8-41d2-8025-51601d3a2cb7",
-      "slug": "mbrykn-sylykvn-slfery",
+      "slug": "mbrykn-sylykvn-5vwacr",
       "name": "מבריקן - סיליקון",
       "name_translations": {},
       "description": "",
       "short_description": "המופ הפטנטי מתגמש ומתכופף כדי שאתם לא תצטרכו\r\nמפרק ראש מסתובב 360°\r\nגוף עשוי יציקה אחת של 100% סיליקון\r\nמגיע עם 2 מטליות מיקרופייבר איכותיות במיוחד\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
+      "price": 134.9,
+      "base_price": 134.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6203,11 +6203,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrykn-sylykvn-slfery",
+      "url": "https://streetstock.co.il/product/mbrykn-sylykvn-5vwacr",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:39:50.895Z"
     },
     {
       "id": "c995a1be-c654-42b5-904a-13ce04c264f8",
@@ -6235,15 +6235,15 @@
     },
     {
       "id": "8f2b88fd-696a-4573-87f0-31054aca27e4",
-      "slug": "mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-iiq3om",
+      "slug": "mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-cchpce",
       "name": "מגב קלאסי סיליקון - מתאים לכל בית 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 74.9,
-      "base_price": 74.9,
+      "price": 84.9,
+      "base_price": 84.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6251,23 +6251,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-iiq3om",
+      "url": "https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-cchpce",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:39:37.497Z"
     },
     {
       "id": "951b8473-8147-46bb-9a91-caeff8e36b48",
-      "slug": "mgb-klasy-mtaym-lkl-byt-45-sm-0x36z0",
+      "slug": "mgb-klasy-mtaym-lkl-byt-45-sm-4u7hhs",
       "name": "מגב קלאסי - מתאים לכל בית 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% גומי איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 64.9,
-      "base_price": 64.9,
+      "price": 74.9,
+      "base_price": 74.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6275,11 +6275,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-0x36z0",
+      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-4u7hhs",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:39:24.936Z"
     },
     {
       "id": "e09ac29d-fd5c-4f4d-8436-2abaaaf55697",
