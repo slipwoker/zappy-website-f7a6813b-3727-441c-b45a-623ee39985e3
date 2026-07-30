@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:39:08.845Z",
+  "generated_at": "2026-07-30T07:39:23.724Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -6115,15 +6115,15 @@
     },
     {
       "id": "7e131b22-54a7-420f-9916-778d95a2bec2",
-      "slug": "mtata-masyby-45-sm-rb-mgb-1-7cmrbw",
+      "slug": "mtata-masyby-45-sm-rb-mgb-1-zekvsg",
       "name": "מטאטא מאסיבי - 45 סמ רב מגב 1",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מג גומי בעל הפעולה הכפולה: גם מטאטא וגם מגב\r\nמצוין לניקוי של פרווה, שיער ועוד\r\nסיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך\r\nמיוצר מיציקה אחת של 100% גומי טבעי עם 9 שורות סיבים צפופים\r\nשומר על הרהיטים, לא שורט את הרצפה\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 64.9,
-      "base_price": 64.9,
+      "price": 74.9,
+      "base_price": 74.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6131,11 +6131,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-7cmrbw",
+      "url": "https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-zekvsg",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:39:12.353Z"
     },
     {
       "id": "ecbe4b56-d3a3-4273-829c-90f87a614bb8",
