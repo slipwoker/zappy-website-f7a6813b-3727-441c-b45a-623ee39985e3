@@ -385,16 +385,16 @@ https://streetstock.co.il/product/st-4-kvpsat-achsvn-akrylyt-dgm-amyly-700-ml-id
 - Image: https://streetstock.co.il/assets/product-1785302360043-tmbzst.webp
 
 ### מתקן כביסה ברקת דגם אידיאל
-https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-zbo6ny
-- Price: 569.90 ILS
+https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-bw4vyc
+- Price: 579.90 ILS
 - Availability: In stock
 - Category: מתקני כביסה
 - Description: מתקן כביסה ברקת מתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה. יתרונות: מיוצר בישראל מבנה חזק ויציב מתאים לשימוש יומיומי 10 שנות אחריות
 - Image: https://streetstock.co.il/assets/product-1784700217809-yw9ga8.webp
 
 ### מתקן כביסה ברקת דגם jumbo
-https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-jumbo-jlvj9k
-- Price: 599.90 ILS
+https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-jumbo-3xfdba
+- Price: 629.90 ILS
 - Availability: In stock
 - Category: מתקני כביסה
 - Description: מתקן כביסה ברקת מתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה. יתרונות: מיוצר בישראל מבנה חזק ויציב מתאים לשימוש יומיומי 10 שנות אחריות
@@ -957,8 +957,8 @@ https://streetstock.co.il/product/dyspnsr-lsbvn-mamd-lskvts-tsba-lbn-dgm-aromell
 - Image: https://streetstock.co.il/assets/product-1785133148758-2qtrp.webp
 
 ### סט פח + מברשת אסלה דגם LUNARIA צבע סהרה
-https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shrh-by3von
-- Price: 79.90 ILS
+https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shrh-wnrklf
+- Price: 99.90 ILS
 - Availability: In stock
 - Category: פחי אמבטיה
 - Image: https://streetstock.co.il/assets/product-1784098017253-bz07d.webp
@@ -985,8 +985,8 @@ https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-bz-ovl63w
 - Image: https://streetstock.co.il/assets/product-1785138889789-20ee0c.webp
 
 ### סט פח + מברשת אסלה דגם LUNARIA צבע נירוסטה
-https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-q33yhq
-- Price: 79.90 ILS
+https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-ocsvm2
+- Price: 99.90 ILS
 - Availability: In stock
 - Category: פחי אמבטיה
 - Image: https://streetstock.co.il/assets/product-1784097987642-kotap.webp
@@ -1276,8 +1276,8 @@ https://streetstock.co.il/product/mgn-mzrn-zvgy-140-kvkltsyyt-premium-9z2zlt
 - Image: https://streetstock.co.il/assets/product-1782029469671-907au.webp
 
 ### שמיכת פוך דגם דניאלה זוגי
-https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-zvgy-kzutae
-- Price: 149.90 ILS
+https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-zvgy-h0b7a8
+- Price: 169.90 ILS
 - Availability: In stock
 - Category: שמיכות חורף
 - Description: שמיכת פוך ג'קארד במילוי 400 גרם של סיבי סיליקון איכותיים בתוספת פייפינג זהב מסביב
@@ -1292,8 +1292,8 @@ https://streetstock.co.il/product/shmykt-pvk-dgm-dvbay-ychyd-d55kur
 - Image: https://streetstock.co.il/assets/product-1782029504294-l96mlj.webp
 
 ### שמיכת פוך דגם דניאלה יחיד
-https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-ychyd-s3xf9u
-- Price: 119.90 ILS
+https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-ychyd-t2k35r
+- Price: 129.90 ILS
 - Availability: In stock
 - Category: שמיכות חורף
 - Description: שמיכת פוך ג'קארד במילוי 400 גרם של סיבי סיליקון איכותיים בתוספת פייפינג זהב מסביב

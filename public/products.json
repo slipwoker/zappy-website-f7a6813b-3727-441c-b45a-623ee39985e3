@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:24:45.977Z",
+  "generated_at": "2026-07-30T07:37:03.663Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -943,15 +943,15 @@
     },
     {
       "id": "59bd9db5-7407-45b4-addf-ba5d5a5a2ce4",
-      "slug": "mtkn-kbysh-brkt-dgm-aydyal-zbo6ny",
+      "slug": "mtkn-kbysh-brkt-dgm-aydyal-bw4vyc",
       "name": "מתקן כביסה ברקת דגם אידיאל",
       "name_translations": {},
       "description": "",
       "short_description": "מתקן כביסה ברקת\nמתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה.\nיתרונות:\nמיוצר בישראל\nמבנה חזק ויציב\nמתאים לשימוש יומיומי\n10 שנות אחריות",
       "sku": null,
       "brand": null,
-      "price": 569.9,
-      "base_price": 569.9,
+      "price": 579.9,
+      "base_price": 579.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -960,23 +960,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-zbo6ny",
+      "url": "https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-aydyal-bw4vyc",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-07-22T11:03:41.998Z"
+      "updated_at": "2026-07-30T07:34:56.280Z"
     },
     {
       "id": "849f41dd-e993-40d9-b52e-a879087bfea5",
-      "slug": "mtkn-kbysh-brkt-dgm-jumbo-jlvj9k",
+      "slug": "mtkn-kbysh-brkt-dgm-jumbo-3xfdba",
       "name": "מתקן כביסה ברקת דגם jumbo",
       "name_translations": {},
       "description": "",
       "short_description": "מתקן כביסה ברקת\nמתקן כביסה איכותי וחזק, המיוצר בישראל מחומרי גלם איכותיים, לנוחות מרבית ועמידות לאורך שנים. מתאים לשימוש יומיומי בבית ובמרפסת, עם מבנה יציב ופתרון יעיל לייבוש כביסה.\nיתרונות:\nמיוצר בישראל\nמבנה חזק ויציב\nמתאים לשימוש יומיומי\n10 שנות אחריות",
       "sku": null,
       "brand": null,
-      "price": 599.9,
-      "base_price": 599.9,
+      "price": 629.9,
+      "base_price": 629.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -985,11 +985,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-jumbo-jlvj9k",
+      "url": "https://streetstock.co.il/product/mtkn-kbysh-brkt-dgm-jumbo-3xfdba",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-07-22T11:03:41.998Z"
+      "updated_at": "2026-07-30T07:34:45.609Z"
     },
     {
       "id": "38a26279-45b5-4a10-bc33-e5da182598d3",
@@ -2735,15 +2735,15 @@
     },
     {
       "id": "0179d155-06be-47c5-9126-c9900ae55768",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shrh-by3von",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shrh-wnrklf",
       "name": "סט פח + מברשת אסלה דגם LUNARIA צבע סהרה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -2752,12 +2752,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shrh-by3von",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shrh-wnrklf",
       "categories": [
         "פחי אמבטיה",
         "פחי שירותים"
       ],
-      "updated_at": "2026-07-20T06:17:26.509Z"
+      "updated_at": "2026-07-30T07:28:02.133Z"
     },
     {
       "id": "3ac224c7-8fca-4a80-af1b-04b781339761",
@@ -2842,15 +2842,15 @@
     },
     {
       "id": "6ec300a4-a367-4c32-b2a8-2353f4554d08",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-q33yhq",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-ocsvm2",
       "name": "סט פח + מברשת אסלה דגם LUNARIA צבע נירוסטה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -2859,12 +2859,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-q33yhq",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-nyrvsth-ocsvm2",
       "categories": [
         "פחי אמבטיה",
         "פחי שירותים"
       ],
-      "updated_at": "2026-07-20T06:17:48.608Z"
+      "updated_at": "2026-07-30T07:27:51.128Z"
     },
     {
       "id": "cacded33-9b97-48cf-bf35-ee83b068d68e",
@@ -3763,15 +3763,15 @@
     },
     {
       "id": "57a524ab-d320-4b2c-b068-8c73ac9a74d9",
-      "slug": "shmykt-pvk-dgm-dnyalh-zvgy-kzutae",
+      "slug": "shmykt-pvk-dgm-dnyalh-zvgy-h0b7a8",
       "name": "שמיכת פוך דגם דניאלה זוגי",
       "name_translations": {},
       "description": "",
       "short_description": "שמיכת פוך ג'קארד במילוי 400 גרם של סיבי סיליקון איכותיים בתוספת פייפינג זהב מסביב",
       "sku": null,
       "brand": null,
-      "price": 149.9,
-      "base_price": 149.9,
+      "price": 169.9,
+      "base_price": 169.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3779,11 +3779,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-zvgy-kzutae",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-zvgy-h0b7a8",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:11:35.873Z"
+      "updated_at": "2026-07-30T07:32:29.153Z"
     },
     {
       "id": "fb274985-2438-464d-8b41-88e85a866308",
@@ -3811,15 +3811,15 @@
     },
     {
       "id": "19da7e32-718b-49c0-89bb-a529a8b1fd77",
-      "slug": "shmykt-pvk-dgm-dnyalh-ychyd-s3xf9u",
+      "slug": "shmykt-pvk-dgm-dnyalh-ychyd-t2k35r",
       "name": "שמיכת פוך דגם דניאלה יחיד",
       "name_translations": {},
       "description": "",
       "short_description": "שמיכת פוך ג'קארד במילוי 400 גרם של סיבי סיליקון איכותיים בתוספת פייפינג זהב מסביב",
       "sku": null,
       "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
+      "price": 129.9,
+      "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3827,11 +3827,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-ychyd-s3xf9u",
+      "url": "https://streetstock.co.il/product/shmykt-pvk-dgm-dnyalh-ychyd-t2k35r",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-06-21T08:12:09.120Z"
+      "updated_at": "2026-07-30T07:32:51.334Z"
     },
     {
       "id": "dd6d6630-a0b4-46f9-882e-6b3983e8c5b5",
@@ -5227,15 +5227,15 @@
     },
     {
       "id": "7fe8d670-e434-4d5e-8caf-a4f81c430dc4",
-      "slug": "skyn-svlyngn-tsba-advm-10-sm-j4aqoe",
+      "slug": "skyn-svlyngn-tsba-advm-10-sm-qbny78",
       "name": "סכין סולינגן צבע אדום 10 סמ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 14.9,
-      "base_price": 14.9,
+      "price": 19.9,
+      "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5243,23 +5243,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-j4aqoe",
+      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-qbny78",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:26:05.249Z"
     },
     {
       "id": "145a7307-d317-41e7-961e-0ee1ad7eb191",
-      "slug": "skyn-svlyngn-tsba-shchvr-10-sm-v7oqm1",
+      "slug": "skyn-svlyngn-tsba-shchvr-10-sm-fhur4j",
       "name": "סכין סולינגן צבע שחור 10 סמ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 14.9,
-      "base_price": 14.9,
+      "price": 19.9,
+      "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5267,23 +5267,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-v7oqm1",
+      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-fhur4j",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:26:16.008Z"
     },
     {
       "id": "25b4c8bd-610a-409b-8420-f0541be85afb",
-      "slug": "skyn-svlyngn-tsba-kchvl-10-sm-mv0goj",
+      "slug": "skyn-svlyngn-tsba-kchvl-10-sm-nalr76",
       "name": "סכין סולינגן צבע כחול 10 סמ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 14.9,
-      "base_price": 14.9,
+      "price": 19.9,
+      "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5291,11 +5291,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-mv0goj",
+      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-nalr76",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:26:29.774Z"
     },
     {
       "id": "436d494f-9366-48f3-a73a-efc27869b947",
@@ -5659,15 +5659,15 @@
     },
     {
       "id": "289ccdfe-f416-4acb-ae1a-afb9460f1005",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-apvr-fm8o7y",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-apvr-4n4q5l",
       "name": "מברשת אסלה 100% סיליקון צבע אפור",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 109.9,
-      "base_price": 109.9,
+      "price": 119.9,
+      "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5675,23 +5675,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-fm8o7y",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-4n4q5l",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:35:14.737Z"
     },
     {
       "id": "f9cd208c-abf6-47a9-b1b5-a2d4fc1e4475",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-lbn-1fsdvq",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-lbn-4uae9p",
       "name": "מברשת אסלה 100% סיליקון צבע לבן",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 109.9,
-      "base_price": 109.9,
+      "price": 119.9,
+      "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5699,23 +5699,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-1fsdvq",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-4uae9p",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:35:28.023Z"
     },
     {
       "id": "9b219d40-5d95-4f06-ba33-c01ef384d138",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-84c51n",
       "name": "מברשת אסלה 100% סיליקון צבע שחור",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 109.9,
-      "base_price": 109.9,
+      "price": 119.9,
+      "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5723,11 +5723,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-d6h3h5",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-84c51n",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:35:55.378Z"
     },
     {
       "id": "0bdef036-9898-4393-9783-285d68277d60",
@@ -5899,15 +5899,15 @@
     },
     {
       "id": "388a7da8-633f-4226-8ddb-f8229f20a888",
-      "slug": "glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-nkk96h",
+      "slug": "glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-q99isi",
       "name": "גליידר סיליקון - מנקה חלונות מגנטי R4",
       "name_translations": {},
       "description": "",
       "short_description": "עשוי ביציקה אחת של 100% סיליקון, עמיד במיוחד\r\nמנקה בצורה מושלמת ולא שורט את החלון\r\nמגנטים עוצמתיים במיוחד, מגנט-על ממתכת נדירה\r\nמנגנון כיוונון עוצמת המגנט לעובי הזכוכית (מ-6 מ”מ עד 38 מ\"מ)\r\nגריפה חלקה עם 4 מגבי סיליקון",
       "sku": null,
       "brand": null,
-      "price": 319.9,
-      "base_price": 319.9,
+      "price": 349.9,
+      "base_price": 349.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5915,23 +5915,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-nkk96h",
+      "url": "https://streetstock.co.il/product/glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-q99isi",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:36:33.481Z"
     },
     {
       "id": "ef438e03-bca1-40d2-80a2-87d10abb0945",
-      "slug": "glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-0vyw6j",
+      "slug": "glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-q1ywft",
       "name": "גליידר פלסטיק - מנקה חלונות מגנטי D2",
       "name_translations": {},
       "description": "",
       "short_description": "מנקה דו-צדדי לחלונות ללא גישה נוחה לצידם החיצוני\r\nמגנטים עוצמתיים במיוחד, מגנט-על ממתכת נדירה\r\nמנגנון כיוונון עוצמת המגנט בהתאם לעובי הזכוכית (מ-2 מ”מ עד 18 מ”מ)\r\nמבצע שתי פעולות: גם מנקה וגם מבריק\r\n4 מגבים עשויים 100% גומי\r\nמגיע עם 2 מטליות מיקרופייבר להברקה מושלמת",
       "sku": null,
       "brand": null,
-      "price": 219.9,
-      "base_price": 219.9,
+      "price": 239.9,
+      "base_price": 239.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5939,23 +5939,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-0vyw6j",
+      "url": "https://streetstock.co.il/product/glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-q1ywft",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:36:45.336Z"
     },
     {
       "id": "8996a790-3a07-4bf9-aaf2-6246bef10b28",
-      "slug": "mtata-ypny-30-sm-ktn-bmyvchd-olqv2l",
+      "slug": "mtata-ypny-30-sm-ktn-bmyvchd-dy7dz6",
       "name": "מטאטא יפני - 30 סמ קטן במיוחד",
       "name_translations": {},
       "description": "",
       "short_description": "רב מג מטאטא יפני – מטאטא קסם, קטן במיוחד וקל משקל עם נוחות ממכרת\r\nקטן במיוחד ברוחב 30 ס\"מ\r\nמתאים במיוחד לניקוי של פרווה ושיער גם משטיחים ומחצלות\r\nכולל מערכת לכידת אבק פטנטית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 64.9,
-      "base_price": 64.9,
+      "price": 74.9,
+      "base_price": 74.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -5963,11 +5963,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-olqv2l",
+      "url": "https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-dy7dz6",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:36:57.937Z"
     },
     {
       "id": "77119a2e-8b6a-4b74-a69d-35ee4efbb5fb",
@@ -6283,15 +6283,15 @@
     },
     {
       "id": "e09ac29d-fd5c-4f4d-8436-2abaaaf55697",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-kbgw4e",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-hfc9wf",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע טורקיז",
       "name_translations": {},
       "description": "<p>מידות הגדולה 28\" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק\"ג / נפח: 115 ליטר (130 לאחר הרחבה)</p><p>מידות הבינונית 24\" - חיצוני: 71 * 43 * 28 / משקל: 3.4 ק\"ג / נפח: 80 ליטר (91 לאחר הרחבה)</p><p>מידות הקטנה 19\" - חיצוני: 55 * 36 * 24 / משקל: 2.7 ק\"ג / נפח: 43 ליטר&nbsp;(50 לאחר הרחבה)</p>",
       "short_description": "עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות\nרוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים\nידית טלסקופית מתכווננת(מנגנון טרולי)\nידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה\nשני כיסים חיצונים מקדמת המזוודה\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\nמנעול קומבינציה 3 ספרות\nארוז אחת בתוך השניה לחיסכון במקום\nגלגלים כפולים בכל הגדלים",
       "sku": null,
       "brand": null,
-      "price": 499.9,
-      "base_price": 499.9,
+      "price": 549.9,
+      "base_price": 549.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6299,23 +6299,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-kbgw4e",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-hfc9wf",
       "categories": [
         "מזוודות "
       ],
-      "updated_at": "2026-06-15T06:18:35.046Z"
+      "updated_at": "2026-07-30T07:33:48.423Z"
     },
     {
       "id": "abb39e79-2d78-4947-b1e8-be3814974a9b",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-6n9tra",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-dpsch2",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע אפור",
       "name_translations": {},
       "description": "",
       "short_description": "עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות\r\nרוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים\r\nידית טלסקופית מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה\r\nשני כיסים חיצונים מקדמת המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק\"ג / נפח: 115 ליטר (130 לאחר הרחבה)\r\nמידות הבינונית 24\" - חיצוני: 71 * 43 * 28 / משקל: 3.4 ק\"ג / נפח: 80 ליטר (91 לאחר הרחבה)\r\nמידות הקטנה 19\" - חיצוני: 55 * 36 * 24 / משקל: 2.7 ק\"ג / נפח: 43 ליטר  (50 לאחר הרחבה)",
       "sku": null,
       "brand": null,
-      "price": 499.9,
-      "base_price": 499.9,
+      "price": 549.9,
+      "base_price": 549.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6323,23 +6323,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-6n9tra",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-dpsch2",
       "categories": [
         "מזוודות "
       ],
-      "updated_at": "2026-06-15T06:19:05.507Z"
+      "updated_at": "2026-07-30T07:34:04.271Z"
     },
     {
       "id": "986cad34-c3c1-4ea2-816b-98b95b1d797a",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-swb2a2",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-8ud35r",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע ירוק",
       "name_translations": {},
       "description": "",
       "short_description": "עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות\r\nרוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים\r\nידית טלסקופית מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה\r\nשני כיסים חיצונים מקדמת המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק\"ג / נפח: 115 ליטר (130 לאחר הרחבה)\r\nמידות הבינונית 24\" - חיצוני: 71 * 43 * 28 / משקל: 3.4 ק\"ג / נפח: 80 ליטר (91 לאחר הרחבה)\r\nמידות הקטנה 19\" - חיצוני: 55 * 36 * 24 / משקל: 2.7 ק\"ג / נפח: 43 ליטר  (50 לאחר הרחבה)",
       "sku": null,
       "brand": null,
-      "price": 499.9,
-      "base_price": 499.9,
+      "price": 549.9,
+      "base_price": 549.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6347,23 +6347,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-swb2a2",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-8ud35r",
       "categories": [
         "מזוודות "
       ],
-      "updated_at": "2026-06-15T06:19:27.589Z"
+      "updated_at": "2026-07-30T07:34:15.394Z"
     },
     {
       "id": "a1b31afc-d1e1-452f-ab3d-f654bd66465e",
-      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-e23pr6",
+      "slug": "st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-6x2aej",
       "name": "סט 3 מזוודות בד דגם TOKYO\r\nחברת GIPRO צבע שחור",
       "name_translations": {},
       "description": "",
       "short_description": "עשויות פוליאסטר דוחה מים, בצפיפות גבוהה אשר מעניק למזוודה עמידות וקלות\r\nרוכסן הרחבה להגדלת נפח המזוודה 20% מגודלה בכל הגדלים\r\nידית טלסקופית מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בשלושה צדדים להרמה קלה של המזוודה\r\nשני כיסים חיצונים מקדמת המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 80 * 48 * 32 / משקל: 3.8 ק\"ג / נפח: 115 ליטר (130 לאחר הרחבה)\r\nמידות הבינונית 24\" - חיצוני: 71 * 43 * 28 / משקל: 3.4 ק\"ג / נפח: 80 ליטר (91 לאחר הרחבה)\r\nמידות הקטנה 19\" - חיצוני: 55 * 36 * 24 / משקל: 2.7 ק\"ג / נפח: 43 ליטר  (50 לאחר הרחבה)",
       "sku": null,
       "brand": null,
-      "price": 499.9,
-      "base_price": 499.9,
+      "price": 549.9,
+      "base_price": 549.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6371,11 +6371,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-e23pr6",
+      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-6x2aej",
       "categories": [
         "מזוודות "
       ],
-      "updated_at": "2026-06-15T06:19:46.791Z"
+      "updated_at": "2026-07-30T07:34:26.166Z"
     },
     {
       "id": "74abffed-fafe-442c-9877-cb7b1af13334",
@@ -6908,7 +6908,7 @@
     },
     {
       "id": "6dd8d423-3bbc-41f0-b29c-dc1a6008fca4",
-      "slug": "st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-5bso5k",
+      "slug": "st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-0vj2p1",
       "name": "סט מצעים כותנה דגם אמנדה צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -6924,11 +6924,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-5bso5k",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-amndh-tsba-mvkh-0vj2p1",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:26:08.085Z"
+      "updated_at": "2026-07-30T07:25:11.456Z"
     },
     {
       "id": "7b50eac4-ace0-4ab4-b66e-1293261c2508",
@@ -6956,7 +6956,7 @@
     },
     {
       "id": "9722c6b3-a9cb-4d96-939f-73d35ab16da0",
-      "slug": "st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-nvanx8",
+      "slug": "st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-hvj7om",
       "name": "סט מצעים כותנה דגם סופיה צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6972,15 +6972,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-nvanx8",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-svpyh-tsba-lbn-hvj7om",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:26:34.403Z"
+      "updated_at": "2026-07-30T07:24:55.188Z"
     },
     {
       "id": "eafbdc1c-39f4-4727-b538-fe821549dd14",
-      "slug": "st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-nyo0sm",
+      "slug": "st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-brmeen",
       "name": "סט מצעים כותנה דגם מונה צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6996,11 +6996,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-nyo0sm",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-mvnh-tsba-lbn-brmeen",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:26:55.404Z"
+      "updated_at": "2026-07-30T07:25:25.398Z"
     },
     {
       "id": "ce8c8341-8f7d-4e5e-8b3c-8446088ce019",
@@ -8999,15 +8999,15 @@
     },
     {
       "id": "1b215d23-1302-48fc-881c-5b7f7a95dff6",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-dc9acr",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-5wfsae",
       "name": "סט פח + מברשת אסלה דגם LUNARIA\r\n צבע לבן",
       "name_translations": {},
       "description": "<p>פחי שירותים, פחי אמבטיה</p>",
       "short_description": null,
       "sku": "7290121561945",
       "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9016,24 +9016,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-dc9acr",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-5wfsae",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-07-20T06:18:16.841Z"
+      "updated_at": "2026-07-30T07:28:15.073Z"
     },
     {
       "id": "7816aa98-d733-4305-b5d8-cbd50970461b",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-skavnm",
-      "name": "סט פח + מברשת אסלה דגם LUNARIA\r\n צבע שחור",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-ux6tl4",
+      "name": "סט פח + מברשת אסלה דגם LUNARIA צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121561938",
       "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9042,12 +9042,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-skavnm",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-shchvr-ux6tl4",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-07-20T06:18:56.731Z"
+      "updated_at": "2026-07-30T07:27:40.470Z"
     },
     {
       "id": "3113db7c-297b-4ebc-a514-f6f7bf48cadf",
