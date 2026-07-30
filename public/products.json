@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:37:50.425Z",
+  "generated_at": "2026-07-30T07:38:48.784Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -6019,15 +6019,15 @@
     },
     {
       "id": "8ad3e0fd-aa60-4f85-8509-dcc73460ab05",
-      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-fc7ahx",
+      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-4ah3uc",
       "name": "מנקה חלונות גבוהים - דור 2",
       "name_translations": {},
       "description": "",
       "short_description": "מנקה חלונות גבוהים במיוחד\r\nראש גמיש בעל הפעולה הכפולה מאפשר גריפה וקרצוף\r\nמגיע עם מטלית מיקרופייבר איכותית\r\nמקל טלסקופי שמסוגל להגיע לגובה 177 ס”מ\r\nידית קצרה נשלפת המאפשרת לנקות שמשות ברכב או משטחים נמוכים\r\nעשוי יציקה אחת 100% סיליקון\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
+      "price": 119.9,
+      "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6035,23 +6035,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-fc7ahx",
+      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-4ah3uc",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:38:13.400Z"
     },
     {
       "id": "3dadce87-1a71-42d8-a9f5-aecf060047a7",
-      "slug": "mgb-mprky-sylykvn-mtkvvnn-45-sm-5cca4y",
+      "slug": "mgb-mprky-sylykvn-mtkvvnn-45-sm-vtx5pq",
       "name": "מגב מפרקי סיליקון מתכוונן - 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 74.9,
-      "base_price": 74.9,
+      "price": 84.9,
+      "base_price": 84.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6059,23 +6059,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-5cca4y",
+      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-vtx5pq",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:38:27.404Z"
     },
     {
       "id": "e64b014b-8945-4642-8813-b3fb395b0f52",
-      "slug": "mgb-klasy-mtaym-lkl-byt-60-sm-x2cbdf",
+      "slug": "mgb-klasy-mtaym-lkl-byt-60-sm-ae4xe9",
       "name": "מגב קלאסי - מתאים לכל בית 60 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 60 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% גומי איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 74.9,
-      "base_price": 74.9,
+      "price": 84.9,
+      "base_price": 84.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6083,11 +6083,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-x2cbdf",
+      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-ae4xe9",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:37:53.700Z"
     },
     {
       "id": "5ec21208-cca4-4a54-86e6-4bce7ffca37a",
