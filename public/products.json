@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T06:46:35.426Z",
+  "generated_at": "2026-07-30T06:47:46.775Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 575,
@@ -722,15 +722,15 @@
     },
     {
       "id": "2a483eb4-9225-48ad-be8e-65e7923bb72c",
-      "slug": "shtych-ambtyh-dgm-vero-mat-id934-lgesjc",
+      "slug": "shtych-ambtyh-dgm-vero-mat-id934-u8qv36",
       "name": "שטיח אמבטיה דגם Vero Mat\nID934",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
+      "price": 29.9,
+      "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -738,23 +738,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-vero-mat-id934-lgesjc",
+      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-vero-mat-id934-u8qv36",
       "categories": [
         "שטיחי אמבטיה"
       ],
-      "updated_at": "2026-07-29T05:22:49.194Z"
+      "updated_at": "2026-07-30T06:46:52.381Z"
     },
     {
       "id": "530080c4-4f6a-4a03-a646-6ac10dbc6068",
-      "slug": "shtych-ambtyh-dgm-auri-mat-id933-3b9cz8",
+      "slug": "shtych-ambtyh-dgm-auri-mat-id933-ks6bio",
       "name": "שטיח אמבטיה דגם Auri Mat\nID933",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
+      "price": 29.9,
+      "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -762,11 +762,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-auri-mat-id933-3b9cz8",
+      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-auri-mat-id933-ks6bio",
       "categories": [
         "שטיחי אמבטיה"
       ],
-      "updated_at": "2026-07-29T05:23:16.423Z"
+      "updated_at": "2026-07-30T06:47:06.219Z"
     },
     {
       "id": "34e085fe-b34f-415c-b101-299c9b2cd800",
