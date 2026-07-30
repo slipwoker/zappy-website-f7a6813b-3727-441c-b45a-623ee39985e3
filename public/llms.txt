@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 575** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 572** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### אלמוגית סקוטש ברזל מצופה ID659
 https://streetstock.co.il/product/almvgyt-skvtsh-brzl-mtsvph-id659-qi9oc7
@@ -1083,8 +1083,8 @@ https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-apvr-sdr
 - Image: https://streetstock.co.il/assets/product-1784097450129-fm4am.webp
 
 ### זוג מחלק מגירות
-https://streetstock.co.il/product/zvg-mchlk-mgyrvt-m48trm
-- Price: 19.90 ILS
+https://streetstock.co.il/product/zvg-mchlk-mgyrvt-04rf7n
+- Price: 24.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
 - SKU: 7290121564519
@@ -1107,8 +1107,8 @@ https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-qcn2ua
 - Image: https://streetstock.co.il/assets/product-1782458820244-5bif0h.webp
 
 ### דלי שטיפה אקריל 13 ליטר
-https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-4be37u
-- Price: 29.90 ILS
+https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-9oogk6
+- Price: 39.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
 - SKU: 7290121564380
@@ -1123,8 +1123,8 @@ https://streetstock.co.il/product/mshtch-chytvk-mktsvay-akryl-dgm-rynt-4ykjb1
 - Image: https://streetstock.co.il/assets/product-1782458877735-jsesr6.webp
 
 ### קופסא טישו שקופה
-https://streetstock.co.il/product/kvpsa-tyshv-shkvph-94ab3b
-- Price: 19.90 ILS
+https://streetstock.co.il/product/kvpsa-tyshv-shkvph-2gytm6
+- Price: 24.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
 - SKU: 7290121564359
@@ -1229,8 +1229,8 @@ https://streetstock.co.il/product/zvg-mgny-kryt-kvlktsyyt-premium-l9ga1g
 - Image: https://streetstock.co.il/assets/product-1782029330293-1xcs9w.webp
 
 ### מגן מזרן מיטה וחצי קוקלציית PREMIUM
-https://streetstock.co.il/product/mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-vijfwn
-- Price: 69.90 ILS
+https://streetstock.co.il/product/mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-9sqhqy
+- Price: 79.90 ILS
 - Availability: In stock
 - Category: מגני מזרון
 - Description: מגן מזרן ייחודי , איכותי ומפנק מסדרת פרימיום האיכותית של חברת דקורית. חלק עליון - בד במגע פליז עבה איכותי רך ונעים למגע. חלק תחתון - חומר אלסטי מיוחד שעבר תהליך ייצור קפדני לדחיית קרדית האבק ומניעת מעבר לחות ונוזלים למזרן המיטה.
@@ -1244,8 +1244,8 @@ https://streetstock.co.il/product/shmykt-pvk-dgm-kvlrdv-zvgy-4wg3ue
 - Image: https://streetstock.co.il/assets/product-1782029394418-bdcotb.webp
 
 ### מגן מזרן יחיד קוקלצית PREMIUM
-https://streetstock.co.il/product/mgn-mzrn-ychyd-kvkltsyt-premium-77ukpo
-- Price: 59.90 ILS
+https://streetstock.co.il/product/mgn-mzrn-ychyd-kvkltsyt-premium-x3rwjc
+- Price: 69.90 ILS
 - Availability: In stock
 - Category: מגני מזרון
 - Description: מגן מזרן ייחודי , איכותי ומפנק מסדרת פרימיום האיכותית של חברת דקורית. חלק עליון - בד במגע פליז עבה איכותי רך ונעים למגע. חלק תחתון - חומר אלסטי מיוחד שעבר תהליך ייצור קפדני לדחיית קרדית האבק ומניעת מעבר לחות ונוזלים למזרן המיטה.

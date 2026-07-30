@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:03:35.159Z",
+  "generated_at": "2026-07-30T07:15:35.406Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 575,
+  "count": 572,
   "products": [
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
@@ -3163,15 +3163,15 @@
     },
     {
       "id": "803c1f59-b3d4-4783-b64a-30ff29dd4def",
-      "slug": "zvg-mchlk-mgyrvt-m48trm",
+      "slug": "zvg-mchlk-mgyrvt-04rf7n",
       "name": "זוג מחלק מגירות",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": "7290121564519",
       "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
+      "price": 24.9,
+      "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3179,11 +3179,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlk-mgyrvt-m48trm",
+      "url": "https://streetstock.co.il/product/zvg-mchlk-mgyrvt-04rf7n",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:25:42.487Z"
+      "updated_at": "2026-07-30T07:07:47.122Z"
     },
     {
       "id": "4114f314-86b9-4f19-8c7f-cd40bd02b42c",
@@ -3235,15 +3235,15 @@
     },
     {
       "id": "14af5322-4730-4c8d-9e5a-76056e844806",
-      "slug": "dly-shtyph-akryl-13-lytr-4be37u",
+      "slug": "dly-shtyph-akryl-13-lytr-9oogk6",
       "name": "דלי שטיפה אקריל 13 ליטר",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": "7290121564380",
       "brand": null,
-      "price": 29.9,
-      "base_price": 29.9,
+      "price": 39.9,
+      "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3251,11 +3251,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-4be37u",
+      "url": "https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-9oogk6",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:27:42.064Z"
+      "updated_at": "2026-07-30T07:07:58.153Z"
     },
     {
       "id": "51b04499-5d6a-4ece-bac1-603f041c7079",
@@ -3283,15 +3283,15 @@
     },
     {
       "id": "6f2c6c47-22e1-4882-b042-9ebade536168",
-      "slug": "kvpsa-tyshv-shkvph-94ab3b",
+      "slug": "kvpsa-tyshv-shkvph-2gytm6",
       "name": "קופסא טישו שקופה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": "7290121564359",
       "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
+      "price": 24.9,
+      "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3299,11 +3299,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsa-tyshv-shkvph-94ab3b",
+      "url": "https://streetstock.co.il/product/kvpsa-tyshv-shkvph-2gytm6",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-26T07:28:32.694Z"
+      "updated_at": "2026-07-30T07:08:26.807Z"
     },
     {
       "id": "dd940fc8-925e-4245-8aca-6d7355de7bfc",
@@ -3619,15 +3619,15 @@
     },
     {
       "id": "784e708c-9450-492f-b069-6144c90699d2",
-      "slug": "mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-vijfwn",
+      "slug": "mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-9sqhqy",
       "name": "מגן מזרן מיטה וחצי קוקלציית PREMIUM",
       "name_translations": {},
       "description": "",
       "short_description": "מגן מזרן ייחודי , איכותי ומפנק מסדרת פרימיום האיכותית של חברת דקורית.\nחלק עליון - בד במגע פליז עבה איכותי רך ונעים למגע.\nחלק תחתון - חומר אלסטי מיוחד שעבר תהליך ייצור קפדני לדחיית קרדית האבק ומניעת מעבר לחות ונוזלים למזרן המיטה.",
       "sku": null,
       "brand": null,
-      "price": 69.9,
-      "base_price": 69.9,
+      "price": 79.9,
+      "base_price": 79.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3635,11 +3635,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-vijfwn",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-myth-vchtsy-kvkltsyyt-premium-9sqhqy",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:09:38.599Z"
+      "updated_at": "2026-07-30T07:05:28.876Z"
     },
     {
       "id": "7c7246d7-b558-4fc7-89ed-cc80932d9348",
@@ -3667,15 +3667,15 @@
     },
     {
       "id": "2cdcfc68-b7e2-4108-9fc0-b3b8a3ad7a86",
-      "slug": "mgn-mzrn-ychyd-kvkltsyt-premium-77ukpo",
+      "slug": "mgn-mzrn-ychyd-kvkltsyt-premium-x3rwjc",
       "name": "מגן מזרן יחיד קוקלצית PREMIUM",
       "name_translations": {},
       "description": "",
       "short_description": "מגן מזרן ייחודי , איכותי ומפנק מסדרת פרימיום האיכותית של חברת דקורית.\nחלק עליון - בד במגע פליז עבה איכותי רך ונעים למגע.\nחלק תחתון - חומר אלסטי מיוחד שעבר תהליך ייצור קפדני לדחיית קרדית האבק ומניעת מעבר לחות ונוזלים למזרן המיטה.",
       "sku": null,
       "brand": null,
-      "price": 59.9,
-      "base_price": 59.9,
+      "price": 69.9,
+      "base_price": 69.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -3683,11 +3683,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrn-ychyd-kvkltsyt-premium-77ukpo",
+      "url": "https://streetstock.co.il/product/mgn-mzrn-ychyd-kvkltsyt-premium-x3rwjc",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-21T08:10:17.843Z"
+      "updated_at": "2026-07-30T07:05:39.957Z"
     },
     {
       "id": "02d6b6aa-51b1-4d7c-a722-8c2114a9b250",
@@ -6404,7 +6404,7 @@
     },
     {
       "id": "2fadc3e0-20da-4b05-89e1-d91aa23e1f07",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-8625j3",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-vn7drg",
       "name": "סט מצעים כותנה הום סטייל דגם שרון",
       "name_translations": {},
       "description": "",
@@ -6420,15 +6420,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-8625j3",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-shrvn-vn7drg",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:08:15.640Z"
+      "updated_at": "2026-07-30T07:12:34.267Z"
     },
     {
       "id": "a71138f3-8b31-455a-8b8c-3f90e530f869",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-2gxgkn",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה אפור",
       "name_translations": {},
       "description": "",
@@ -6444,15 +6444,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-5zr48k",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-apvr-2gxgkn",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:08:57.025Z"
+      "updated_at": "2026-07-30T07:13:02.674Z"
     },
     {
       "id": "2897fa52-2047-4fd5-9dd4-d328b6ae378a",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-agm-esfk3v",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-agm-ni31oa",
       "name": "סט מצעים כותנה הום סטייל דגם אגם",
       "name_translations": {},
       "description": "",
@@ -6468,11 +6468,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-esfk3v",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-agm-ni31oa",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:09:51.062Z"
+      "updated_at": "2026-07-30T07:13:09.715Z"
     },
     {
       "id": "b6109cec-42fe-4c77-8e7f-37b44de537db",
@@ -6498,7 +6498,7 @@
     },
     {
       "id": "129534c6-7114-4b10-80ee-b2aa8c88ba21",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-r1srwm",
       "name": "סט מצעים כותנה הום סטייל דגם אפריל",
       "name_translations": {},
       "description": "",
@@ -6514,11 +6514,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-cc6g54",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-r1srwm",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:10:10.695Z"
+      "updated_at": "2026-07-30T07:13:19.483Z"
     },
     {
       "id": "b343cad0-74b4-419a-af03-ca0813ccab7e",
@@ -6572,7 +6572,7 @@
     },
     {
       "id": "040b04f4-60aa-44b2-b033-718ed215e4a4",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gzql",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-0t59r1",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה טורקיז",
       "name_translations": {},
       "description": "",
@@ -6588,15 +6588,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-j3gzql",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-tvrkyz-0t59r1",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:12:11.020Z"
+      "updated_at": "2026-07-30T07:13:30.852Z"
     },
     {
       "id": "5b5482b5-93f1-41c6-8338-2abfe253f1a2",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-m91wls",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-e3i6r4",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה ברק",
       "name_translations": {},
       "description": "",
@@ -6612,11 +6612,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-m91wls",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-brk-e3i6r4",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:12:39.776Z"
+      "updated_at": "2026-07-30T07:13:53.016Z"
     },
     {
       "id": "3ca2f1b1-1227-4393-a45d-768965b082b6",
@@ -6644,7 +6644,7 @@
     },
     {
       "id": "2faff163-9ffb-40d7-9f32-a37e580c4557",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-6t8b7v",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-whtzi4",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה כחול",
       "name_translations": {},
       "description": "",
@@ -6660,11 +6660,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-6t8b7v",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-kchvl-whtzi4",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:13:29.701Z"
+      "updated_at": "2026-07-30T07:15:28.559Z"
     },
     {
       "id": "e1793fe9-afa7-421a-a70b-c3aae524398f",
@@ -6692,7 +6692,7 @@
     },
     {
       "id": "ac1e8759-3718-4c62-9581-906d0204c510",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-0vewrz",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-9tfu2b",
       "name": "סט מצעים כותנה פרקל דגם עמנואל צבע אפור",
       "name_translations": {},
       "description": "",
@@ -6708,11 +6708,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-0vewrz",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-apvr-9tfu2b",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:14:01.515Z"
+      "updated_at": "2026-07-30T07:14:34.113Z"
     },
     {
       "id": "3f18f066-b4cf-4a84-8cf7-a56602a72600",
@@ -6764,7 +6764,7 @@
     },
     {
       "id": "56d878d8-e449-4f6f-8e5b-ced4274cd4ad",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-ulnqlx",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-k82scq",
       "name": "סט מצעים כותנה פרקל דגם עמנואל צבע לבן",
       "name_translations": {},
       "description": "",
@@ -6780,15 +6780,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-ulnqlx",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-k82scq",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:14:54.085Z"
+      "updated_at": "2026-07-30T07:14:26.001Z"
     },
     {
       "id": "c8c691c8-240f-4d54-ace2-ca077b393799",
-      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-xo51pi",
+      "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-72vrr1",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה ורוד",
       "name_translations": {},
       "description": "",
@@ -6804,11 +6804,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-xo51pi",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-72vrr1",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:24:41.841Z"
+      "updated_at": "2026-07-30T07:14:46.413Z"
     },
     {
       "id": "a660e35c-3115-40aa-8e1d-af854716692c",
@@ -7004,7 +7004,7 @@
     },
     {
       "id": "ce8c8341-8f7d-4e5e-8b3c-8446088ce019",
-      "slug": "st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-26grc0",
+      "slug": "st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-gjrt9w",
       "name": "סט מצעים כותנה דגם איזבל צבע לבן",
       "name_translations": {},
       "description": "",
@@ -7020,11 +7020,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-26grc0",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-dgm-ayzbl-tsba-lbn-gjrt9w",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:27:11.404Z"
+      "updated_at": "2026-07-30T07:15:19.969Z"
     },
     {
       "id": "348776bc-6d51-4e72-a8a4-4e6e5a762fd3",
@@ -7124,7 +7124,7 @@
     },
     {
       "id": "a261e71e-245b-4934-83c8-6f1de8b2cd5a",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-9qks4z",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-7e38yh",
       "name": "סט מצעים כותנה פרקל דגם LOUIE צבע לבן",
       "name_translations": {},
       "description": "",
@@ -7140,11 +7140,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-9qks4z",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-lbn-7e38yh",
       "categories": [
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-16T08:29:02.071Z"
+      "updated_at": "2026-07-30T07:14:17.291Z"
     },
     {
       "id": "0a6debbf-e719-4777-9be8-e007531b40ef",
@@ -7244,7 +7244,7 @@
     },
     {
       "id": "3a1f2d9c-d383-4f9d-94e4-3623b2623b4d",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-s7zssn",
+      "slug": "st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-qx8d58",
       "name": "סט מצעים כותנה פרקל דגם LOUIE צבע שמנת",
       "name_translations": {},
       "description": "",
@@ -7260,12 +7260,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-s7zssn",
+      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-louie-tsba-shmnt-qx8d58",
       "categories": [
         "שמיכות קיץ ",
         "סט מצעים 100% כותנה"
       ],
-      "updated_at": "2026-06-22T05:52:26.779Z"
+      "updated_at": "2026-07-30T07:14:04.948Z"
     },
     {
       "id": "da7db340-a068-4575-bdde-b32749c40e75",
@@ -8423,15 +8423,15 @@
     },
     {
       "id": "98e50817-21a0-4669-9e4e-a714ab8fc0cb",
-      "slug": "zvg-mgny-kryt-n9qnuv",
+      "slug": "zvg-mgny-kryt-2mlrb5",
       "name": "זוג מגני כרית",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
+      "price": 29.9,
+      "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -8439,23 +8439,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mgny-kryt-n9qnuv",
+      "url": "https://streetstock.co.il/product/zvg-mgny-kryt-2mlrb5",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-15T07:38:04.509Z"
+      "updated_at": "2026-07-30T07:05:57.862Z"
     },
     {
       "id": "0d7b66cd-90c8-4642-934a-1f6da080e971",
-      "slug": "mgn-mzrvn-aykvty-myth-zvgy-18-wy8fmf",
+      "slug": "mgn-mzrvn-aykvty-myth-zvgy-18-l2xy5t",
       "name": "מגן מזרון איכותי מיטה זוגי 1.8",
       "name_translations": {},
       "description": "",
       "short_description": "מידות : 180X200 ס\"מ ",
       "sku": null,
       "brand": null,
-      "price": 54.9,
-      "base_price": 54.9,
+      "price": 59.9,
+      "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -8463,11 +8463,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-18-wy8fmf",
+      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-18-l2xy5t",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-15T07:38:04.399Z"
+      "updated_at": "2026-07-30T07:06:09.779Z"
     },
     {
       "id": "2805d1dc-d2af-453f-8522-9721e2207890",
@@ -8519,15 +8519,15 @@
     },
     {
       "id": "ed1390b7-bf6f-43d6-96ab-1ea1ffd162c8",
-      "slug": "kryt-spa-eh7i10",
+      "slug": "kryt-spa-vgz6ws",
       "name": "כרית ספא",
       "name_translations": {},
       "description": "",
       "short_description": "כרית בד חיצוני 100% כותנה\nמגיע באריזת בד כותנה",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
+      "price": 99.9,
+      "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -8535,11 +8535,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kryt-spa-eh7i10",
+      "url": "https://streetstock.co.il/product/kryt-spa-vgz6ws",
       "categories": [
         "כריות שינה"
       ],
-      "updated_at": "2026-06-11T10:21:03.624Z"
+      "updated_at": "2026-07-30T07:04:49.520Z"
     },
     {
       "id": "3bd1f8af-c5c0-4c53-abde-f418bb7b9d42",
@@ -8591,59 +8591,11 @@
     },
     {
       "id": "2cc9db62-1e1a-4cbd-836a-7bab68b2cd70",
-      "slug": "mgn-mzrvn-aykvty-myth-ychyd-t1ambl",
+      "slug": "mgn-mzrvn-aykvty-myth-ychyd-4gixov",
       "name": "מגן מזרון איכותי מיטה יחיד",
       "name_translations": {},
       "description": "",
       "short_description": "מידות : 90X200 ס\"מ ",
-      "sku": null,
-      "brand": null,
-      "price": 34.9,
-      "base_price": 34.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837726221-xoodbm.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-t1ambl",
-      "categories": [
-        "מגני מזרון"
-      ],
-      "updated_at": "2026-06-14T08:52:59.194Z"
-    },
-    {
-      "id": "9e790c94-c60a-43cc-9dee-f6af90a1a462",
-      "slug": "mgn-mzrvn-aykvty-myth-zvgy-w9ovsc",
-      "name": "מגן מזרון איכותי מיטה זוגי",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מידות : 160X200 ס\"מ ",
-      "sku": null,
-      "brand": null,
-      "price": 44.9,
-      "base_price": 44.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837726185-vcpj3j.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-w9ovsc",
-      "categories": [
-        "מגני מזרון"
-      ],
-      "updated_at": "2026-06-14T08:52:59.326Z"
-    },
-    {
-      "id": "b1e5bb7a-0886-47d4-911b-a2649957cf00",
-      "slug": "mgn-mzrvn-aykvty-myth-vchtsy-w833hg",
-      "name": "מגן מזרון איכותי מיטה וחצי",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מידות : 120X200 ס\"מ ",
       "sku": null,
       "brand": null,
       "price": 39.9,
@@ -8651,15 +8603,63 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1780837726221-xoodbm.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-ychyd-4gixov",
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-07-30T07:06:20.349Z"
+    },
+    {
+      "id": "9e790c94-c60a-43cc-9dee-f6af90a1a462",
+      "slug": "mgn-mzrvn-aykvty-myth-zvgy-9l91do",
+      "name": "מגן מזרון איכותי מיטה זוגי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מידות : 160X200 ס\"מ ",
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 49.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837726185-vcpj3j.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-zvgy-9l91do",
+      "categories": [
+        "מגני מזרון"
+      ],
+      "updated_at": "2026-07-30T07:06:32.126Z"
+    },
+    {
+      "id": "b1e5bb7a-0886-47d4-911b-a2649957cf00",
+      "slug": "mgn-mzrvn-aykvty-myth-vchtsy-u2gklh",
+      "name": "מגן מזרון איכותי מיטה וחצי",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מידות : 120X200 ס\"מ ",
+      "sku": null,
+      "brand": null,
+      "price": 44.9,
+      "base_price": 44.9,
+      "sale_price": null,
+      "currency": "ILS",
+      "images": [
         "https://streetstock.co.il/assets/product-1780837726122-ane66k.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-w833hg",
+      "url": "https://streetstock.co.il/product/mgn-mzrvn-aykvty-myth-vchtsy-u2gklh",
       "categories": [
         "מגני מזרון"
       ],
-      "updated_at": "2026-06-14T08:52:59.459Z"
+      "updated_at": "2026-07-30T07:06:43.303Z"
     },
     {
       "id": "c5c24c35-7cbe-4bc7-9bf4-e2884d74d7ad",
@@ -9316,39 +9316,40 @@
     },
     {
       "id": "85837a33-f718-4a8b-9368-77e720aa5012",
-      "slug": "marz-2-kvsvt-zkvkyt-375-ml-9i87m1",
+      "slug": "marz-2-kvsvt-zkvkyt-375-ml-odm81n",
       "name": "מארז 2 כוסות זכוכית 375 מ\"ל\r\n ",
       "name_translations": {},
       "description": "<p>כוסות</p>",
       "short_description": null,
       "sku": "7290121564922",
       "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
+      "price": 24.9,
+      "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1781518388426-webt5.webp"
+        "https://streetstock.co.il/assets/product-1781518388426-webt5.webp",
+        "https://streetstock.co.il/assets/product-1785395049288-2at06i.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-9i87m1",
+      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-odm81n",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-06-15T10:13:26.169Z"
+      "updated_at": "2026-07-30T07:04:24.232Z"
     },
     {
       "id": "0333c679-cd9a-4241-9414-5f4b23bc0b5a",
-      "slug": "pamvn-avgh-yvkrty-kbrt-akryl-goew94",
+      "slug": "pamvn-avgh-yvkrty-kbrt-akryl-sg5c13",
       "name": "פעמון עוגה יוקרתי + קברט אקריל\r\n\r\n  ",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564397",
       "brand": null,
-      "price": 59.9,
-      "base_price": 59.9,
+      "price": 69.9,
+      "base_price": 69.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -9356,11 +9357,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-goew94",
+      "url": "https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-sg5c13",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-15T08:20:33.212Z"
+      "updated_at": "2026-07-30T07:08:44.623Z"
     },
     {
       "id": "06aa0f5c-2bd0-4d69-9999-24a5bdb062ed",
@@ -9924,31 +9925,6 @@
         "סלסלות אחסון"
       ],
       "updated_at": "2026-06-15T10:11:53.117Z"
-    },
-    {
-      "id": "f89569bc-c6bd-43c3-9bbe-4fa852cb7007",
-      "slug": "mtlh-al-dlt-3-vvymsylykvn-8rga8m",
-      "name": "מתלה על דלת 3 ווים+סיליקון\r\n",
-      "name_translations": {},
-      "description": "כללי, מוצרי אמבט",
-      "short_description": null,
-      "sku": "7290121561846",
-      "brand": null,
-      "price": 24.9,
-      "base_price": 24.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837693484-vcvkd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-al-dlt-3-vvymsylykvn-8rga8m",
-      "categories": [
-        "מוצרי אמבט",
-        "כללי"
-      ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
     },
     {
       "id": "696bd2fd-1e71-4972-81b8-7af355e1899c",
@@ -12124,15 +12100,15 @@
     },
     {
       "id": "3b4b565a-5ae5-4c78-b621-3b7a86638b5e",
-      "slug": "mamd-ntlh-2-kvmvt-dgm-hangy-28sjp9",
+      "slug": "mamd-ntlh-2-kvmvt-dgm-hangy-lkul4i",
       "name": "מעמד נתלה 2 קומות\r\nדגם HANGY",
       "name_translations": {},
       "description": "<p>מוצרי אמבט</p>",
       "short_description": null,
       "sku": "7290121563277",
       "brand": null,
-      "price": 59.9,
-      "base_price": 59.9,
+      "price": 69.9,
+      "base_price": 69.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -12140,11 +12116,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-ntlh-2-kvmvt-dgm-hangy-28sjp9",
+      "url": "https://streetstock.co.il/product/mamd-ntlh-2-kvmvt-dgm-hangy-lkul4i",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-11T11:28:40.956Z"
+      "updated_at": "2026-07-30T07:07:12.773Z"
     },
     {
       "id": "1ab1189c-64f1-42d9-a373-e7cc852e0c45",
@@ -12244,15 +12220,15 @@
     },
     {
       "id": "fa1bb8b8-f14c-4aee-b59c-7595a433a428",
-      "slug": "mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-ti4o9g",
+      "slug": "mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-phwgla",
       "name": "מדף משולש לאמבטיה 3 קומות\r\nדגם FORMO",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563291",
       "brand": null,
-      "price": 69.9,
-      "base_price": 69.9,
+      "price": 89.9,
+      "base_price": 89.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -12260,23 +12236,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-ti4o9g",
+      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-3-kvmvt-dgm-formo-phwgla",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-11T10:33:00.875Z"
+      "updated_at": "2026-07-30T07:07:25.392Z"
     },
     {
       "id": "0c93e8d5-8ae7-443f-9a00-34173ef58757",
-      "slug": "mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-a2vhkx",
+      "slug": "mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-yh1qic",
       "name": "מדף משולש לאמבטיה 2 קומות דגם FORMO",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563284",
       "brand": null,
-      "price": 59.9,
-      "base_price": 59.9,
+      "price": 69.9,
+      "base_price": 69.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -12284,11 +12260,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-a2vhkx",
+      "url": "https://streetstock.co.il/product/mdp-mshvlsh-lambtyh-2-kvmvt-dgm-formo-yh1qic",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-06-11T10:33:32.413Z"
+      "updated_at": "2026-07-30T07:07:35.879Z"
     },
     {
       "id": "1898c8e9-ed64-4b5a-a804-6ded11ccf5c5",
@@ -12535,27 +12511,25 @@
     },
     {
       "id": "0744e19a-36b3-47d6-89cb-fbb5ce542d43",
-      "slug": "prkvltvr-1000-ml-zd5thi",
+      "slug": "prkvltvr-1000-ml-rp5cqq",
       "name": "פרקולטור 1000 מ\"ל\r\n",
       "name_translations": {},
-      "description": "קנקני שתייה",
+      "description": "<p>קנקני שתייה</p>",
       "short_description": null,
       "sku": "7290121562294",
       "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
+      "price": 29.9,
+      "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837650048-s0bev.webp"
-      ],
+      "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/prkvltvr-1000-ml-zd5thi",
+      "url": "https://streetstock.co.il/product/prkvltvr-1000-ml-rp5cqq",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:04:12.689Z"
     },
     {
       "id": "e835f607-63da-4c0e-9e92-8dc3d5ae9a97",
@@ -13209,15 +13183,15 @@
     },
     {
       "id": "7a1b2ce9-7245-4c53-957e-c1521cbaefd6",
-      "slug": "mamd-nyyr-akryly-dgm-reef-utj909",
+      "slug": "mamd-nyyr-akryly-dgm-reef-vj2bx9",
       "name": "מעמד נייר אקרילי דגם REEF\r\n",
       "name_translations": {},
-      "description": "מוצרי אקריל",
+      "description": "<p>מוצרי אקריל</p>",
       "short_description": null,
       "sku": "7290121560351",
       "brand": null,
-      "price": 29.9,
-      "base_price": 29.9,
+      "price": 34.9,
+      "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -13225,11 +13199,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-nyyr-akryly-dgm-reef-utj909",
+      "url": "https://streetstock.co.il/product/mamd-nyyr-akryly-dgm-reef-vj2bx9",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-09T13:27:21.547Z"
+      "updated_at": "2026-07-30T07:09:22.633Z"
     },
     {
       "id": "0556228b-3b0b-43ec-ae47-8633d7a8304c",
@@ -13329,15 +13303,15 @@
     },
     {
       "id": "18ae4d3e-5fe7-4a75-a467-ca51513b1fa5",
-      "slug": "mtkn-kvsvt-akryly-dgm-yam-tmfp7s",
+      "slug": "mtkn-kvsvt-akryly-dgm-yam-9mbuoq",
       "name": "מתקן כוסות אקרילי דגם YAM\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560368",
       "brand": null,
-      "price": 29.9,
-      "base_price": 29.9,
+      "price": 34.9,
+      "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -13345,11 +13319,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtkn-kvsvt-akryly-dgm-yam-tmfp7s",
+      "url": "https://streetstock.co.il/product/mtkn-kvsvt-akryly-dgm-yam-9mbuoq",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-06-15T08:27:10.697Z"
+      "updated_at": "2026-07-30T07:09:04.380Z"
     },
     {
       "id": "afaf4e1f-f19c-4d6f-965e-d4d46350f086",
@@ -13593,30 +13567,6 @@
       "updated_at": "2026-07-27T05:35:36.657Z"
     },
     {
-      "id": "a84ab012-24aa-4c86-be7b-c9ebb5c7f9b3",
-      "slug": "myybsh-klym-alvmynyvm-romi-tsba-shchvr-b1p9d4",
-      "name": "מייבש כלים אלומיניום ROMI צבע שחור\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "עיצוב חדשני המתאים לחלל הבית\r\nכולל סכומון ומעמד לכוסות\r\nאלומיניום אל חד \r\nקל לניקוי",
-      "sku": "7290121562157",
-      "brand": null,
-      "price": 139.9,
-      "base_price": 139.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837635470-vho1e.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-alvmynyvm-romi-tsba-shchvr-b1p9d4",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-06-11T10:35:08.843Z"
-    },
-    {
       "id": "4e9ea095-641a-421b-9529-b6d7f1577cd1",
       "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-mvkh-sdrt-lusso-6uis4f",
       "name": "סיר יציקת אלומיניום 24 ס\"מ צבע מוקה \r\nסדרת LUSSO\r\n\r\n ",
@@ -13689,30 +13639,6 @@
         "מייבשי כלים"
       ],
       "updated_at": "2026-06-11T10:36:47.957Z"
-    },
-    {
-      "id": "f670eb28-801c-49af-9593-85508377822b",
-      "slug": "myybsh-klym-alvmynyvm-romi-tsba-ksp-31qf5u",
-      "name": "מייבש כלים אלומיניום ROMI צבע כסף\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "עיצוב חדשני המתאים לחלל הבית\r\nכולל סכומון ומעמד לכוסות\r\nאלומיניום אל חד \r\nקל לניקוי",
-      "sku": "7290121562249",
-      "brand": null,
-      "price": 139.9,
-      "base_price": 139.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837634981-lybitl.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-alvmynyvm-romi-tsba-ksp-31qf5u",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-06-11T10:36:03.960Z"
     },
     {
       "id": "13d171fa-46e5-4823-9f24-98b52b34a6a3",
