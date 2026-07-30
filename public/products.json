@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-07-30T07:40:02.620Z",
+  "generated_at": "2026-07-30T07:40:28.909Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 572,
@@ -6139,15 +6139,15 @@
     },
     {
       "id": "ecbe4b56-d3a3-4273-829c-90f87a614bb8",
-      "slug": "myny-mbrykn-hptrvn-havltymtyby-lnykyvn-wjuu6b",
+      "slug": "myny-mbrykn-hptrvn-havltymtyby-lnykyvn-zdodqb",
       "name": "מיני מבריקן - הפתרון האולטימטיבי לניקיון",
       "name_translations": {},
       "description": "",
       "short_description": "הפתרון האולטימטיבי לניקיון – מבריק בקלות כל משטח.\r\nניקיון בחצי מהזמן וללא מאמץ.\r\nמתאים לכל משטח – זכוכיות, דלתות, ארונות, משטחי נירוסטה ושיש בבית ובחוץ.\r\n100% סיליקון – לא משאיר שום שריטה.\r\n2 מטליות ניקוי אחת לקרצוף שניה להברקה.\r\nמגב סיליקון בילד אין – לתוצאות ניקוי מושלמות.",
       "sku": null,
       "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
+      "price": 109.9,
+      "base_price": 109.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6155,23 +6155,23 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myny-mbrykn-hptrvn-havltymtyby-lnykyvn-wjuu6b",
+      "url": "https://streetstock.co.il/product/myny-mbrykn-hptrvn-havltymtyby-lnykyvn-zdodqb",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:40:19.708Z"
     },
     {
       "id": "55765cdb-2ffa-4f0f-8f07-1554e5a80b80",
-      "slug": "mvpy-shmvpy-mvlty-mbrykn-3sh7ty",
+      "slug": "mvpy-shmvpy-mvlty-mbrykn-lb9j68",
       "name": "מופי שמופי - מולטי מבריקן",
       "name_translations": {},
       "description": "",
       "short_description": "2 ב 1 גם מבריקן וגם מגב במוצר אחד\r\nמתאים גם לגריפת מים וגם להברקה עם מטלית\r\nתוצאות גריפה מעולות גם בדחיפה וגם במשיכה של מים\r\nמבריק בקלות כל משטח\r\n100% סיליקון לא משאיר שריטות\r\nמגיע עם 2 מטליות מיקרופייבר איכותיות\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 119.9,
-      "base_price": 119.9,
+      "price": 134.9,
+      "base_price": 134.9,
       "sale_price": null,
       "currency": "ILS",
       "images": [
@@ -6179,11 +6179,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-3sh7ty",
+      "url": "https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-lb9j68",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-06-09T13:36:20.033Z"
+      "updated_at": "2026-07-30T07:40:02.332Z"
     },
     {
       "id": "1dfd3aa7-60a8-41d2-8025-51601d3a2cb7",
