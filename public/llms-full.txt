@@ -9973,14 +9973,6 @@ SKU: 7290121560276
 
 ---
 
-### ארגונית 2 קומות שחור דגם TEXAS
-URL: https://streetstock.co.il/product/argvnyt-2-kvmvt-shchvr-dgm-texas-wj9khg
-Price: 49.90 ILS
-Availability: In stock
-SKU: 7290121560863
-
----
-
 ### עגלת שרות 4 קומות לבן דגם ARIZONA
 URL: https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-arizona-icbz5k
 Price: 179.90 ILS
