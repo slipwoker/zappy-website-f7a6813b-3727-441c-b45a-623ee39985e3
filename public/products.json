@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-03T10:07:10.894Z",
+  "generated_at": "2026-08-04T05:43:40.035Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 568,
+  "count": 567,
   "products": [
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
@@ -7794,30 +7794,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-06-09T13:27:21.547Z"
-    },
-    {
-      "id": "5a41fbd8-32f2-4472-8fbf-204b2e0a61cd",
-      "slug": "st-3-kvpsavt-plstyk-dgm-mysv-1p7dof",
-      "name": "סט 3 קופסאות פלסטיק דגם מיסו",
-      "name_translations": {},
-      "description": "",
-      "short_description": "380 מ\"ל : 14X10X5 ס\"מ\r\n850 מ\"ל : 18X13X7 ס\"מ\r\n1600 מ\"ל : 23X16X8 ס\"מ",
-      "sku": null,
-      "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837734346-hrn9tl.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-kvpsavt-plstyk-dgm-mysv-1p7dof",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-06-16T08:47:29.074Z"
     },
     {
       "id": "22380883-0efb-4411-a9bb-70a5f3cb45b1",
