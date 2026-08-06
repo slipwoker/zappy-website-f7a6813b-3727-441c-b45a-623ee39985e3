@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-04T05:43:40.035Z",
+  "generated_at": "2026-08-06T09:44:38.942Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 567,
+  "count": 566,
   "products": [
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
@@ -12963,30 +12963,6 @@
         "צנצנות אקריל"
       ],
       "updated_at": "2026-07-27T06:25:01.788Z"
-    },
-    {
-      "id": "c4f1ab86-d1bc-46ab-9805-f75f3bd283a7",
-      "slug": "argvnyt-mstvbbt-dgm-karin-k8575e",
-      "name": "ארגונית מסתובבת דגם \"KARIN\"\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561082",
-      "brand": null,
-      "price": 19.9,
-      "base_price": 19.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514730721-avaqhc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mstvbbt-dgm-karin-k8575e",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-06-15T09:12:29.334Z"
     },
     {
       "id": "56d36c81-a31e-4596-9d60-35692666c65e",
