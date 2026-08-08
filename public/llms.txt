@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 566** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 564** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### אלמוגית סקוטש ברזל מצופה ID659
 https://streetstock.co.il/product/almvgyt-skvtsh-brzl-mtsvph-id659-qi9oc7

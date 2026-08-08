@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-06T09:44:38.942Z",
+  "generated_at": "2026-08-08T05:08:26.737Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 566,
+  "count": 564,
   "products": [
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
@@ -9710,30 +9710,6 @@
       "updated_at": "2026-06-14T11:57:57.095Z"
     },
     {
-      "id": "7cbdaa12-80a2-415b-af90-6d724a7db35f",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע ורוד ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562768",
-      "brand": null,
-      "price": 340,
-      "base_price": 340,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698937-5pzcz.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "categories": [
-        "מזוודות "
-      ],
-      "updated_at": "2026-06-14T11:57:57.228Z"
-    },
-    {
       "id": "811542f0-2c9d-4ebc-95e6-5b70b0112710",
       "slug": "st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
       "name": "סט 3 מזוודות דגם VELORA \r\n צבע שחור ",
@@ -9756,30 +9732,6 @@
         "מזוודות "
       ],
       "updated_at": "2026-06-14T11:57:57.350Z"
-    },
-    {
-      "id": "d0411331-3e4c-4679-acee-fe78755d59f1",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע מוקה",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562706",
-      "brand": null,
-      "price": 340,
-      "base_price": 340,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698776-6342t.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "categories": [
-        "מזוודות "
-      ],
-      "updated_at": "2026-06-14T11:57:57.592Z"
     },
     {
       "id": "b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb",
