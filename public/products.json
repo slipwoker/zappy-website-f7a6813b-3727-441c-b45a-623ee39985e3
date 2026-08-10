@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-08T05:08:26.737Z",
+  "generated_at": "2026-08-10T11:45:48.588Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 564,
+  "count": 563,
   "products": [
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
@@ -3208,30 +3208,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-06-26T07:26:44.002Z"
-    },
-    {
-      "id": "63755e16-fcaf-4ea6-afee-0c117f9d535a",
-      "slug": "argvnyt-mgyrh-4-kvmvt-dgm-shon-qcn2ua",
-      "name": "ארגונית מגירה 4 קומות  דגם SHON",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": "7290121565417",
-      "brand": null,
-      "price": 34.9,
-      "base_price": 34.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1782458820244-5bif0h.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-qcn2ua",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-06-26T07:30:08.525Z"
     },
     {
       "id": "14af5322-4730-4c8d-9e5a-76056e844806",

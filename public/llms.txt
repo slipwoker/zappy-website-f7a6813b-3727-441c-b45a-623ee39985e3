@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 564** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 563** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### אלמוגית סקוטש ברזל מצופה ID659
 https://streetstock.co.il/product/almvgyt-skvtsh-brzl-mtsvph-id659-qi9oc7
@@ -1098,14 +1098,6 @@ https://streetstock.co.il/product/marz-6-kpyvt-akryl-7132g2
 - SKU: 7290121565486
 - Image: https://streetstock.co.il/assets/product-1782458793839-7mvu1s.webp
 
-### ארגונית מגירה 4 קומות  דגם SHON
-https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-qcn2ua
-- Price: 34.90 ILS
-- Availability: In stock
-- Category: מוצרי אקריל
-- SKU: 7290121565417
-- Image: https://streetstock.co.il/assets/product-1782458820244-5bif0h.webp
-
 ### דלי שטיפה אקריל 13 ליטר
 https://streetstock.co.il/product/dly-shtyph-akryl-13-lytr-9oogk6
 - Price: 39.90 ILS
@@ -1656,6 +1648,14 @@ https://streetstock.co.il/product/st-6-tslchvt-mrk-duralex-9yz5mm
 - Category: צלחות+סכום
 - Description: סט 6 צלחות מרק חברת DURALEX קוטר צלחת 21 ס"מ צלחת איכותית עשויה מזכוכית
 - Image: https://streetstock.co.il/assets/product-1780837773092-p3jzxn.webp
+
+### סט 6 צלחות מנה ראשונה DURALEX 
+https://streetstock.co.il/product/st-6-tslchvt-mnh-rashvnh-duralex-lebd1d
+- Price: 49.90 ILS
+- Availability: In stock
+- Category: צלחות+סכום
+- Description: סט 6 צלחות מנה ראשונה חברת DURALEX קוטר צלחת 19 ס"מ צלחת איכותית עשויה מזכוכית
+- Image: https://streetstock.co.il/assets/product-1780837773091-vx6w.webp
 
 ---
 
