@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:17:01.121Z",
+  "generated_at": "2026-08-12T09:18:12.704Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -512,7 +512,7 @@
     },
     {
       "id": "5b0028be-8cf6-43b9-b4cb-4acb4467825f",
-      "slug": "marz-3-kvlby-mtkt-am-klyps-id1064-genom4",
+      "slug": "marz-3-kvlby-mtkt-am-klyps-id1064-a16u1l",
       "name": "מארז 3 קולבי מתכת עם קליפס\nID1064",
       "name_translations": {},
       "description": "",
@@ -523,15 +523,17 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526217171-dqsjys.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-3-kvlby-mtkt-am-klyps-id1064-genom4",
+      "url": "https://streetstock.co.il/product/marz-3-kvlby-mtkt-am-klyps-id1064-a16u1l",
       "categories": [
         "כללי",
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.702Z"
+      "updated_at": "2026-08-12T09:17:24.829Z"
     },
     {
       "id": "865785a4-863d-4e1e-8065-cc035c8446e1",
@@ -703,7 +705,7 @@
     },
     {
       "id": "2dd2c209-b476-487a-ba30-8a76d8318877",
-      "slug": "msnnt-kyvr-nyrvsth-id1057-1tf1fj",
+      "slug": "msnnt-kyvr-nyrvsth-id1057-70jfkd",
       "name": "מסננת כיור נירוסטה ID1057",
       "name_translations": {},
       "description": "",
@@ -714,14 +716,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526224643-1h6imk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id1057-1tf1fj",
+      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id1057-70jfkd",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:26.532Z"
+      "updated_at": "2026-08-12T09:17:17.851Z"
     },
     {
       "id": "dbfc9d17-c527-4206-807c-f0ed87238426",

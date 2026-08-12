@@ -6353,7 +6353,7 @@ Availability: In stock
 
 ### מארז 3 קולבי מתכת עם קליפס
 ID1064
-URL: https://streetstock.co.il/product/marz-3-kvlby-mtkt-am-klyps-id1064-genom4
+URL: https://streetstock.co.il/product/marz-3-kvlby-mtkt-am-klyps-id1064-a16u1l
 Price: 11.90 ILS
 Availability: In stock
 
@@ -6415,7 +6415,7 @@ Availability: In stock
 ---
 
 ### מסננת כיור נירוסטה ID1057
-URL: https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id1057-1tf1fj
+URL: https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id1057-70jfkd
 Price: 11.90 ILS
 Availability: In stock
 
