@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:14:47.422Z",
+  "generated_at": "2026-08-12T09:15:55.769Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -415,7 +415,7 @@
     },
     {
       "id": "5f2f6c5d-1c66-4605-a451-60b1fc67f230",
-      "slug": "kvpsat-achsvn-dgm-pearel-1800-ml-id1166-cpkn8d",
+      "slug": "kvpsat-achsvn-dgm-pearel-1800-ml-id1166-2fyrvt",
       "name": "קופסאת אחסון דגם PEAREL \n1800 מ\"ל ID1166",
       "name_translations": {},
       "description": "",
@@ -426,18 +426,20 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526087754-knsm9s.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1800-ml-id1166-cpkn8d",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1800-ml-id1166-2fyrvt",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.167Z"
+      "updated_at": "2026-08-12T09:15:05.409Z"
     },
     {
       "id": "6b7ec3c3-2b32-4d0b-a15a-52bcc7d6c816",
-      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-dgm-koral-id1167-maamr5",
+      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-dgm-koral-id1167-dafqdt",
       "name": "ארגונית אחסון אקרילית מחולקת אקריל דגם KORAL\nID1167",
       "name_translations": {},
       "description": "",
@@ -448,18 +450,20 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526104514-azfj5r.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-dgm-koral-id1167-maamr5",
+      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-dgm-koral-id1167-dafqdt",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.164Z"
+      "updated_at": "2026-08-12T09:15:29.063Z"
     },
     {
       "id": "a9c0dd59-655f-4399-965d-f45f81937252",
-      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1168-kesem-mvz00w",
+      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1168-kesem-8u6isp",
       "name": "ארגונית אחסון אקרילית מחולקת אקריל + מכסה \nדגם ID1168 KESEM",
       "name_translations": {},
       "description": "",
@@ -470,18 +474,20 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526081825-mdb2pd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1168-kesem-mvz00w",
+      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1168-kesem-8u6isp",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:28.710Z"
+      "updated_at": "2026-08-12T09:14:53.829Z"
     },
     {
       "id": "e1d2c540-e308-4574-a064-a7c689c4ef8e",
-      "slug": "marz-10-kvlby-plstyk-aykvtyym-id1063-u8vdq2",
+      "slug": "marz-10-kvlby-plstyk-aykvtyym-id1063-kgk1gr",
       "name": "מארז 10 קולבי פלסטיק איכותיים\nID1063",
       "name_translations": {},
       "description": "",
@@ -492,15 +498,17 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526127349-n0lb08.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-aykvtyym-id1063-u8vdq2",
+      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-aykvtyym-id1063-kgk1gr",
       "categories": [
         "כללי",
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.706Z"
+      "updated_at": "2026-08-12T09:15:48.606Z"
     },
     {
       "id": "5b0028be-8cf6-43b9-b4cb-4acb4467825f",
