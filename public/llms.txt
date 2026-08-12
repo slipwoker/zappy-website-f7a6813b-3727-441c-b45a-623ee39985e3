@@ -564,11 +564,12 @@ https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-l90fmi
 
 ### מעמד רב שימושי
 ID1024
-https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-wbsbo0
+https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-6p9xsk
 - Price: 24.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526553836-zfcqf9.webp
 
 ### סלסלת אחסון מתכת נתלת רב־שימושית 
 ID1025

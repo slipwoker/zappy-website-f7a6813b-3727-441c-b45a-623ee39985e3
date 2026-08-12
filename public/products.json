@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:22:36.270Z",
+  "generated_at": "2026-08-12T09:22:56.218Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1375,7 +1375,7 @@
     },
     {
       "id": "6f4f5fcf-5994-40c4-a3ce-ff3f34583153",
-      "slug": "mamd-rb-shymvshy-id1024-wbsbo0",
+      "slug": "mamd-rb-shymvshy-id1024-6p9xsk",
       "name": "מעמד רב שימושי\nID1024",
       "name_translations": {},
       "description": "",
@@ -1386,14 +1386,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526553836-zfcqf9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-wbsbo0",
+      "url": "https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-6p9xsk",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.176Z"
+      "updated_at": "2026-08-12T09:22:50.371Z"
     },
     {
       "id": "670ef8c5-92c6-4231-a483-2efbe3704792",
