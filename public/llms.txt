@@ -633,11 +633,12 @@ https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-mvkh-id1011
 
 ### מייבש כלים דגם BELLA
 צבע שחור ID1006 
-https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-shchvr-id1006-zjnc2i
+https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-shchvr-id1006-1sanl1
 - Price: 89.90 ILS
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
+- Image: https://streetstock.co.il/assets/product-1786524837926-3fjn7c.webp
 
 ### מייבש כלים ADI שחור
 ID557 
@@ -658,11 +659,12 @@ https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-shchvr-id10
 
 ### מייבש כלים ADI לבן 
 ID556 
-https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-pj2dm0
+https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-bm5koo
 - Price: 79.90 ILS
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
+- Image: https://streetstock.co.il/assets/product-1786524876465-u67da8.webp
 
 ### מייבש כלים דגם ADI 
 צבע מוקה ID1009

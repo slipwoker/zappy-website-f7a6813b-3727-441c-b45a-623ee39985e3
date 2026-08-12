@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:54:37.062Z",
+  "generated_at": "2026-08-12T08:55:12.156Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1621,7 +1621,7 @@
     },
     {
       "id": "78cec1cd-5117-4bd1-b549-1200b6a310ca",
-      "slug": "myybsh-klym-dgm-bella-tsba-shchvr-id1006-zjnc2i",
+      "slug": "myybsh-klym-dgm-bella-tsba-shchvr-id1006-1sanl1",
       "name": "מייבש כלים דגם BELLA\nצבע שחור ID1006 ",
       "name_translations": {},
       "description": "",
@@ -1632,14 +1632,16 @@
       "base_price": 89.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786524837926-3fjn7c.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-shchvr-id1006-zjnc2i",
+      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-shchvr-id1006-1sanl1",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-08-12T08:47:18.225Z"
+      "updated_at": "2026-08-12T08:54:37.642Z"
     },
     {
       "id": "2df6032f-771b-4d39-957e-e2129a9180f1",
@@ -1689,7 +1691,7 @@
     },
     {
       "id": "bfe06efc-6f36-46e8-b128-cea9284f43bf",
-      "slug": "myybsh-klym-adi-lbn-id556-pj2dm0",
+      "slug": "myybsh-klym-adi-lbn-id556-bm5koo",
       "name": "מייבש כלים ADI לבן \nID556 ",
       "name_translations": {},
       "description": "",
@@ -1700,14 +1702,16 @@
       "base_price": 79.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786524876465-u67da8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-pj2dm0",
+      "url": "https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-bm5koo",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-08-12T08:47:18.210Z"
+      "updated_at": "2026-08-12T08:54:58.946Z"
     },
     {
       "id": "771483b8-4208-44a3-ac84-075229129082",
