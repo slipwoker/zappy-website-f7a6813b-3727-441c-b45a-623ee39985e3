@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:07:33.246Z",
+  "generated_at": "2026-08-12T09:08:59.682Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -965,7 +965,7 @@
     },
     {
       "id": "d2fa39d8-ac02-4f79-9290-e4d320d60ac7",
-      "slug": "msnnt-nyrvsth-65-sm-sdrt-classic-id1038-uvwf63",
+      "slug": "msnnt-nyrvsth-65-sm-sdrt-classic-id1038-eafc7s",
       "name": "מסננת נירוסטה 6.5 ס\"מ סדרת CLASSIC\nID1038",
       "name_translations": {},
       "description": "",
@@ -981,15 +981,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-uvwf63",
+      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-eafc7s",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T09:06:52.918Z"
+      "updated_at": "2026-08-12T09:07:37.850Z"
     },
     {
       "id": "b349c47f-cb56-410f-b5ec-9581b4c11f62",
-      "slug": "glglt-pytsh-nyrvsth-sdrt-classic-id1040-yd9hqg",
+      "slug": "glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf",
       "name": "גלגלת פיצה נירוסטה סדרת CLASSIC\nID1040",
       "name_translations": {},
       "description": "",
@@ -1000,14 +1000,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525609188-7cqhx9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-yd9hqg",
+      "url": "https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.292Z"
+      "updated_at": "2026-08-12T09:07:40.652Z"
     },
     {
       "id": "d8700c5f-61bf-4fab-a807-cc15ac0262a9",
@@ -1253,7 +1255,7 @@
     },
     {
       "id": "bd0a1f96-6691-49ee-8905-338ca3a54413",
-      "slug": "kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-5pmskt",
+      "slug": "kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-yi24rc",
       "name": "כף טיגון מחוררת נירוסטה סדרת CLASSIC\nID1031",
       "name_translations": {},
       "description": "",
@@ -1264,18 +1266,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525708586-38anpl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-5pmskt",
+      "url": "https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-yi24rc",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.228Z"
+      "updated_at": "2026-08-12T09:08:45.542Z"
     },
     {
       "id": "2196ecda-07d9-4b24-ba48-148ea5e8c169",
-      "slug": "mtskt-nyrvsth-sdrt-classic-id1032-9b49n9",
+      "slug": "mtskt-nyrvsth-sdrt-classic-id1032-8wlwda",
       "name": "מצקת נירוסטה סדרת CLASSIC\nID1032",
       "name_translations": {},
       "description": "",
@@ -1286,14 +1290,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525694049-nrjpm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-9b49n9",
+      "url": "https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-8wlwda",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.224Z"
+      "updated_at": "2026-08-12T09:08:29.212Z"
     },
     {
       "id": "66b64348-70e1-4954-9af2-f5dba6963c17",

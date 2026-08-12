@@ -6511,7 +6511,7 @@ Availability: In stock
 
 ### מסננת נירוסטה 6.5 ס"מ סדרת CLASSIC
 ID1038
-URL: https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-uvwf63
+URL: https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-eafc7s
 Price: 11.90 ILS
 Availability: In stock
 
@@ -6519,7 +6519,7 @@ Availability: In stock
 
 ### גלגלת פיצה נירוסטה סדרת CLASSIC
 ID1040
-URL: https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-yd9hqg
+URL: https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf
 Price: 11.90 ILS
 Availability: In stock
 
@@ -6615,7 +6615,7 @@ Availability: In stock
 
 ### כף טיגון מחוררת נירוסטה סדרת CLASSIC
 ID1031
-URL: https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-5pmskt
+URL: https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-yi24rc
 Price: 14.90 ILS
 Availability: In stock
 
@@ -6623,7 +6623,7 @@ Availability: In stock
 
 ### מצקת נירוסטה סדרת CLASSIC
 ID1032
-URL: https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-9b49n9
+URL: https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-8wlwda
 Price: 14.90 ILS
 Availability: In stock
 

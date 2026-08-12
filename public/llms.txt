@@ -407,7 +407,7 @@ https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-l3vfxx
 
 ### מסננת נירוסטה 6.5 ס"מ סדרת CLASSIC
 ID1038
-https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-uvwf63
+https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-eafc7s
 - Price: 11.90 ILS
 - Availability: In stock
 - Category: כלי בית
@@ -416,11 +416,12 @@ https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-uvwf63
 
 ### גלגלת פיצה נירוסטה סדרת CLASSIC
 ID1040
-https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-yd9hqg
+https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf
 - Price: 11.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525609188-7cqhx9.webp
 
 ### קולפן מקצועי נירוסטה סדרת CLASSIC
 ID1039
@@ -512,19 +513,21 @@ https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-u3oel8
 
 ### כף טיגון מחוררת נירוסטה סדרת CLASSIC
 ID1031
-https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-5pmskt
+https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-yi24rc
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525708586-38anpl.webp
 
 ### מצקת נירוסטה סדרת CLASSIC
 ID1032
-https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-9b49n9
+https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-8wlwda
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525694049-nrjpm.webp
 
 ### מעמד צלחות / מכסים
 ID1023
