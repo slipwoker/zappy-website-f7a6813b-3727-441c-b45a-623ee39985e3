@@ -511,18 +511,21 @@ https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-i
 
 ### סכין לחם 19 ס"מ סדרת KITCHEN PRO
 ID1028
-https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-n1lkaq
+https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-phge0u
 - Price: 24.90 ILS
 - Availability: In stock
+- Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
+- Image: https://streetstock.co.il/assets/product-1786526512239-r7x78i.webp
 
 ### סכין שף 13 ס"מ סדרת KITCHEN PRO
 ID1029
-https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-ah2hii
+https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-r3q955
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
+- Image: https://streetstock.co.il/assets/product-1786526523881-9qruf.webp
 
 ### כף מחוררת נירוסטה סדרת CLASSIC 
 ID1030
@@ -569,11 +572,12 @@ https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-wbsbo0
 
 ### סלסלת אחסון מתכת נתלת רב־שימושית 
 ID1025
-https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-gigeg2
+https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609cxh
 - Price: 24.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526538228-w7v2p.webp
 
 ### סכין סנטוקו 18 ס"מ סדרת KITCHEN PRO
 ID1026

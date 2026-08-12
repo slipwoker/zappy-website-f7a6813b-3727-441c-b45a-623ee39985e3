@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:22:04.976Z",
+  "generated_at": "2026-08-12T09:22:36.270Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1233,7 +1233,7 @@
     },
     {
       "id": "2b8690c5-f35b-45a0-a135-1bb98ec74b33",
-      "slug": "skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-n1lkaq",
+      "slug": "skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-phge0u",
       "name": "סכין לחם 19 ס\"מ סדרת KITCHEN PRO\nID1028",
       "name_translations": {},
       "description": "",
@@ -1244,16 +1244,20 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526512239-r7x78i.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-n1lkaq",
-      "categories": [],
-      "updated_at": "2026-08-12T08:47:22.234Z"
+      "url": "https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-phge0u",
+      "categories": [
+        "סכיני מטבח"
+      ],
+      "updated_at": "2026-08-12T09:22:04.571Z"
     },
     {
       "id": "46e90332-9033-4d64-83f1-a54236f19cbc",
-      "slug": "skyn-shp-13-sm-sdrt-kitchen-pro-id1029-ah2hii",
+      "slug": "skyn-shp-13-sm-sdrt-kitchen-pro-id1029-r3q955",
       "name": "סכין שף 13 ס\"מ סדרת KITCHEN PRO\nID1029",
       "name_translations": {},
       "description": "",
@@ -1264,14 +1268,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526523881-9qruf.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-ah2hii",
+      "url": "https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-r3q955",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-08-12T08:47:22.229Z"
+      "updated_at": "2026-08-12T09:22:19.246Z"
     },
     {
       "id": "211e64ec-8fa7-401c-8ec5-87d77b2110ff",
@@ -1391,7 +1397,7 @@
     },
     {
       "id": "670ef8c5-92c6-4231-a483-2efbe3704792",
-      "slug": "slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-gigeg2",
+      "slug": "slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609cxh",
       "name": "סלסלת אחסון מתכת נתלת רב־שימושית \nID1025",
       "name_translations": {},
       "description": "",
@@ -1402,14 +1408,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526538228-w7v2p.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-gigeg2",
+      "url": "https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609cxh",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.175Z"
+      "updated_at": "2026-08-12T09:22:34.923Z"
     },
     {
       "id": "e5079c6f-a52f-486f-ad00-229c38247183",
