@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:00:21.631Z",
+  "generated_at": "2026-08-12T09:00:36.652Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -247,7 +247,7 @@
     },
     {
       "id": "16fc37fa-39d1-4e2c-be4d-73b4ed5ff00a",
-      "slug": "skvmyt-mgyrh-gdvl-dgm-maayan-id480-m13hx9",
+      "slug": "skvmyt-mgyrh-gdvl-dgm-maayan-id480-17wv5m",
       "name": "סכומית מגירה גדול דגם MAAYAN\nID480 ",
       "name_translations": {},
       "description": "",
@@ -258,14 +258,16 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525216888-mqask.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-gdvl-dgm-maayan-id480-m13hx9",
+      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-gdvl-dgm-maayan-id480-17wv5m",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.277Z"
+      "updated_at": "2026-08-12T09:00:33.395Z"
     },
     {
       "id": "8d09c8d8-38b8-48c1-9b6e-fc68bf6d053a",
