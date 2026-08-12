@@ -1093,6 +1093,149 @@
   } catch (e) {}
 })();
 
+/* nav-menu mobile-toggle mobileToggle */
+
+
+/* ZAPPY_MOBILE_MENU_TOGGLE_V3 */
+(function(){
+  try {
+    if (window.__zappyMobileMenuToggleInitV3) return;
+    window.__zappyMobileMenuToggleInitV3 = true;
+    window.__zappyMobileMenuToggleInit = true; // legacy guards
+
+    function menuIsOpen(menu) {
+      return !!(menu && (
+        menu.classList.contains('active') ||
+        menu.classList.contains('open') ||
+        menu.style.display === 'block'
+      ));
+    }
+
+    function closeMenu(menu) {
+      if (!menu) return;
+      menu.classList.remove('active');
+      menu.classList.remove('open');
+      menu.style.display = '';
+    }
+
+    function setClosedIcons(toggle) {
+      if (!toggle) return;
+      toggle.classList.remove('active');
+      var hamburgerIcon = toggle.querySelector('.hamburger-icon');
+      var closeIcon = toggle.querySelector('.close-icon');
+      if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+      if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+    }
+
+    function setOpenIcons(toggle) {
+      if (!toggle) return;
+      toggle.classList.add('active');
+      var hamburgerIcon = toggle.querySelector('.hamburger-icon');
+      var closeIcon = toggle.querySelector('.close-icon');
+      if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'none', 'important');
+      if (closeIcon) closeIcon.style.setProperty('display', 'block', 'important');
+    }
+
+    function initMobileToggle() {
+      var toggle = document.querySelector('.mobile-toggle, #mobileToggle');
+      var navMenu = document.querySelector('#navMenu, .nav-menu, .navbar-menu');
+      if (!toggle || !navMenu) return;
+
+      // Skip if this toggle already has a click handler from the site's own JS
+      if (toggle.__zappyMobileToggleBound) return;
+      toggle.__zappyMobileToggleBound = true;
+
+      // Repair baked open-icon styles when the menu is actually closed.
+      if (!menuIsOpen(navMenu)) setClosedIcons(toggle);
+
+      toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (menuIsOpen(navMenu)) {
+          closeMenu(navMenu);
+          setClosedIcons(toggle);
+          document.body.style.overflow = '';
+        } else {
+          navMenu.classList.add('active');
+          navMenu.classList.remove('open');
+          navMenu.style.display = 'block';
+          setOpenIcons(toggle);
+          document.body.style.overflow = 'hidden';
+        }
+      }, true);
+
+      // Close on clicking outside
+      document.addEventListener('click', function(e) {
+        if (!menuIsOpen(navMenu)) return;
+        if (toggle.contains(e.target) || navMenu.contains(e.target)) return;
+        closeMenu(navMenu);
+        setClosedIcons(toggle);
+        document.body.style.overflow = '';
+      });
+
+      // Close on Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && menuIsOpen(navMenu)) {
+          closeMenu(navMenu);
+          setClosedIcons(toggle);
+          document.body.style.overflow = '';
+        }
+      });
+
+      // Close when clicking a nav link (navigating)
+      navMenu.querySelectorAll('a').forEach(function(link) {
+        link.addEventListener('click', function() {
+          closeMenu(navMenu);
+          setClosedIcons(toggle);
+          document.body.style.overflow = '';
+        });
+      });
+    }
+
+    function initPhoneButton() {
+      var phoneBtn = document.querySelector('.phone-header-btn');
+      if (!phoneBtn || phoneBtn.__zappyPhoneBound) return;
+      phoneBtn.__zappyPhoneBound = true;
+
+      phoneBtn.addEventListener('click', function() {
+        var phoneNumber = phoneBtn.getAttribute('data-phone') || null;
+
+        if (!phoneNumber) {
+          var telLinks = document.querySelectorAll('a[href^="tel:"]');
+          if (telLinks.length > 0) {
+            phoneNumber = telLinks[0].getAttribute('href').replace('tel:', '');
+          }
+        }
+
+        if (!phoneNumber) {
+          var allLinks = document.querySelectorAll('a[href]');
+          for (var i = 0; i < allLinks.length; i++) {
+            var h = allLinks[i].getAttribute('href') || '';
+            var cleaned = h.replace(/[-\s()]/g, '');
+            if (/^(\+?\d{9,15}|0\d{8,9})$/.test(cleaned)) {
+              phoneNumber = cleaned;
+              break;
+            }
+          }
+        }
+
+        if (phoneNumber && phoneNumber.indexOf('[') === -1) {
+          window.location.href = 'tel:' + phoneNumber;
+        }
+      });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', function() { initMobileToggle(); initPhoneButton(); }, { once: true });
+    } else {
+      initMobileToggle();
+      initPhoneButton();
+    }
+  } catch (e) {}
+})();
+/* END ZAPPY_MOBILE_MENU_TOGGLE */
+
 /* data-zappy-content-align */
 
 
