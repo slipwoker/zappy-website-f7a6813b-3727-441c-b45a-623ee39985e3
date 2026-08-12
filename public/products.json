@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:20:11.868Z",
+  "generated_at": "2026-08-12T09:20:40.035Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1547,7 +1547,7 @@
     },
     {
       "id": "fa62ea86-9baf-4e6e-9be7-114c3737c9c1",
-      "slug": "bkbvk-rtbym-lchyts-800-ml-id1013-ft5t6d",
+      "slug": "bkbvk-rtbym-lchyts-800-ml-id1013-elz78w",
       "name": "בקבוק רטבים לחיץ 800 מ\"ל\nID1013",
       "name_translations": {},
       "description": "",
@@ -1558,18 +1558,20 @@
       "base_price": 13.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526416570-iagmj6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-800-ml-id1013-ft5t6d",
+      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-800-ml-id1013-elz78w",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-08-12T08:47:19.982Z"
+      "updated_at": "2026-08-12T09:20:29.233Z"
     },
     {
       "id": "8c79a1f9-0f5b-4960-8b88-698552a38761",
-      "slug": "bkbvk-rtbym-lchyts-650-ml-id1014-2buup7",
+      "slug": "bkbvk-rtbym-lchyts-650-ml-id1014-qwgpud",
       "name": "בקבוק רטבים לחיץ 650 מ\"ל\nID1014",
       "name_translations": {},
       "description": "",
@@ -1580,18 +1582,20 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526403874-0eu83j.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-650-ml-id1014-2buup7",
+      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-650-ml-id1014-qwgpud",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-08-12T08:47:19.977Z"
+      "updated_at": "2026-08-12T09:20:16.984Z"
     },
     {
       "id": "2ed2f4db-b5ba-489c-8909-7dfc9c1ed00e",
-      "slug": "bkbvk-rtbym-lchyts-450-ml-id1015-gnhkqc",
+      "slug": "bkbvk-rtbym-lchyts-450-ml-id1015-ph942e",
       "name": "בקבוק רטבים לחיץ 450 מ\"ל\nID1015",
       "name_translations": {},
       "description": "",
@@ -1602,14 +1606,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526392465-e01cb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-450-ml-id1015-gnhkqc",
+      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-450-ml-id1015-ph942e",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-08-12T08:47:19.976Z"
+      "updated_at": "2026-08-12T09:20:05.278Z"
     },
     {
       "id": "49817baf-7d93-4339-b2d2-656f03460219",
