@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:59:42.031Z",
+  "generated_at": "2026-08-12T09:00:21.631Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -199,7 +199,7 @@
     },
     {
       "id": "b6c0f855-44a2-4bc1-924d-e2a4514c451e",
-      "slug": "argvnyt-akrylyt-dgm-gaia-id406-ki27q6",
+      "slug": "argvnyt-akrylyt-dgm-gaia-id406-hy8mwp",
       "name": "ארגונית אקרילית דגם \"GAIA\"\nID406 ",
       "name_translations": {},
       "description": "",
@@ -210,18 +210,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525174423-b521yv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gaia-id406-ki27q6",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gaia-id406-hy8mwp",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:33.534Z"
+      "updated_at": "2026-08-12T08:59:51.256Z"
     },
     {
       "id": "48c126c9-4041-47f7-9ef7-c9e1949e2eb7",
-      "slug": "argvnyt-akrylyt-dgm-or-id405-jl1d3g",
+      "slug": "argvnyt-akrylyt-dgm-or-id405-bqd9xs",
       "name": "ארגונית אקרילית דגם \"OR\"\nID405 ",
       "name_translations": {},
       "description": "",
@@ -232,14 +234,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525189279-32dq99.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-or-id405-jl1d3g",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-or-id405-bqd9xs",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.325Z"
+      "updated_at": "2026-08-12T09:00:16.435Z"
     },
     {
       "id": "16fc37fa-39d1-4e2c-be4d-73b4ed5ff00a",
