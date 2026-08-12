@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:57:43.753Z",
+  "generated_at": "2026-08-12T08:58:26.500Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
   "products": [
     {
       "id": "05759545-76da-48c4-8c2f-2b1984301623",
-      "slug": "marz-4-kpvt-ats-id1018-ftmrcv",
+      "slug": "marz-4-kpvt-ats-id1018-ffice4",
       "name": "מארז 4 כפות עץ\nID1018 ",
       "name_translations": {},
       "description": "",
@@ -18,14 +18,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525034985-7aj0q.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ftmrcv",
+      "url": "https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ffice4",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:33.649Z"
+      "updated_at": "2026-08-12T08:58:08.153Z"
     },
     {
       "id": "2157e0aa-ad92-428a-b3d9-d2765218f5bc",
@@ -53,7 +55,7 @@
     },
     {
       "id": "97629411-c92a-4f48-8227-28c7613a1f9f",
-      "slug": "skvmvn-mlbn-mchvlk-lshtyym-id512-nprvyv",
+      "slug": "skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l",
       "name": "סכומון מלבן מחולק לשתיים\nID512 ",
       "name_translations": {},
       "description": "",
@@ -64,14 +66,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-nprvyv",
+      "url": "https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:57:32.040Z"
+      "updated_at": "2026-08-12T08:58:22.602Z"
     },
     {
       "id": "d75ac5bb-5f4a-4909-85af-0dfa90528a9e",

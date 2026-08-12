@@ -4,13 +4,14 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 12 Aug 2026 08:57:43 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 08:58:26 GMT</lastBuildDate>
     <item>
       <g:id>05759545-76da-48c4-8c2f-2b1984301623</g:id>
       <g:title>מארז 4 כפות עץ
 ID1018 </g:title>
       <g:description>סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.</g:description>
-      <g:link>https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ftmrcv</g:link>
+      <g:link>https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ffice4</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1786525034985-7aj0q.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -33,11 +34,28 @@ ID615 </g:title>
       <g:product_type>מוצרי אקריל</g:product_type>
     </item>
     <item>
-      <g:id>97629411-c92a-4f48-8227-28c7613a1f9f</g:id>
+      <g:id>b096476e-eb13-4aec-98b7-639555091b9e</g:id>
       <g:title>סכומון מלבן מחולק לשתיים
-ID512 </g:title>
+ID512  - Black</g:title>
       <g:description>סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-nprvyv</g:link>
+      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l</g:link>
+      <g:item_group_id>97629411-c92a-4f48-8227-28c7613a1f9f</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>24.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>74a4bdca-880a-474a-bb07-07f252a39bd7</g:id>
+      <g:title>סכומון מלבן מחולק לשתיים
+ID512  - White</g:title>
+      <g:description>סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.</g:description>
+      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l</g:link>
+      <g:item_group_id>97629411-c92a-4f48-8227-28c7613a1f9f</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>24.90 ILS</g:price>
       <g:condition>new</g:condition>

@@ -72,11 +72,12 @@ Information about WCAG compliance and accessibility features.
 
 ### מארז 4 כפות עץ
 ID1018 
-https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ftmrcv
+https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ffice4
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525034985-7aj0q.webp
 
 ### סל כביסה אקריל דגם LUNA
 ID615 
@@ -89,11 +90,12 @@ https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms
 
 ### סכומון מלבן מחולק לשתיים
 ID512 
-https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-nprvyv
+https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l
 - Price: 24.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp
 
 ### ארגונית אקרילית דגם "CHEN"
 ID409 
