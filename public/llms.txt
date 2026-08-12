@@ -251,11 +251,12 @@ https://streetstock.co.il/product/marz-3-kvlby-mtkt-am-klyps-id1064-genom4
 - Category: כללי
 
 ### סט 4 מחזיקי מפות ID1058
-https://streetstock.co.il/product/st-4-mchzyky-mpvt-id1058-ti2w6m
+https://streetstock.co.il/product/st-4-mchzyky-mpvt-id1058-oc7w46
 - Price: 9.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526164068-h1y74q.webp
 
 ### מועך תפוח אדמה נירוסטה סדרת CLASSIC
 ID1059

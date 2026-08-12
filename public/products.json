@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:16:05.373Z",
+  "generated_at": "2026-08-12T09:16:26.128Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -535,7 +535,7 @@
     },
     {
       "id": "865785a4-863d-4e1e-8065-cc035c8446e1",
-      "slug": "st-4-mchzyky-mpvt-id1058-ti2w6m",
+      "slug": "st-4-mchzyky-mpvt-id1058-oc7w46",
       "name": "סט 4 מחזיקי מפות ID1058",
       "name_translations": {},
       "description": "",
@@ -546,14 +546,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526164068-h1y74q.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-mchzyky-mpvt-id1058-ti2w6m",
+      "url": "https://streetstock.co.il/product/st-4-mchzyky-mpvt-id1058-oc7w46",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.702Z"
+      "updated_at": "2026-08-12T09:16:25.047Z"
     },
     {
       "id": "615dc337-d706-4bf8-b9cf-18323f544b4c",
