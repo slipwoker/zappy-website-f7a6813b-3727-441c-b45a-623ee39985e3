@@ -6567,7 +6567,7 @@ Availability: In stock
 
 ### מטרפה נירוסטה סדרת CLASSIC
 ID1035
-URL: https://streetstock.co.il/product/mtrph-nyrvsth-sdrt-classic-id1035-8tniud
+URL: https://streetstock.co.il/product/mtrph-nyrvsth-sdrt-classic-id1035-d4hs83
 Price: 14.90 ILS
 Availability: In stock
 
@@ -6575,7 +6575,7 @@ Availability: In stock
 
 ### כותש שום נירוסטה סדרת CLASSIC
 ID1036
-URL: https://streetstock.co.il/product/kvtsh-shvm-nyrvsth-sdrt-classic-id1036-xbzw9p
+URL: https://streetstock.co.il/product/kvtsh-shvm-nyrvsth-sdrt-classic-id1036-k17yi4
 Price: 19.90 ILS
 Availability: In stock
 
@@ -6583,7 +6583,7 @@ Availability: In stock
 
 ### פותחן שימורים מקצועי נירוסטה סדרת CLASSIC
 ID1037
-URL: https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-oy1pyy
+URL: https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-1522h2
 Price: 14.90 ILS
 Availability: In stock
 

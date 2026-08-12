@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:09:09.455Z",
+  "generated_at": "2026-08-12T09:09:55.026Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1123,7 +1123,7 @@
     },
     {
       "id": "e98786e8-a4f3-497c-8d04-57c267305f48",
-      "slug": "mtrph-nyrvsth-sdrt-classic-id1035-8tniud",
+      "slug": "mtrph-nyrvsth-sdrt-classic-id1035-d4hs83",
       "name": "מטרפה נירוסטה סדרת CLASSIC\nID1035",
       "name_translations": {},
       "description": "",
@@ -1134,18 +1134,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525771212-xoowrn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtrph-nyrvsth-sdrt-classic-id1035-8tniud",
+      "url": "https://streetstock.co.il/product/mtrph-nyrvsth-sdrt-classic-id1035-d4hs83",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.139Z"
+      "updated_at": "2026-08-12T09:09:48.525Z"
     },
     {
       "id": "e0158d31-79d7-40df-89bc-6e04132392ef",
-      "slug": "kvtsh-shvm-nyrvsth-sdrt-classic-id1036-xbzw9p",
+      "slug": "kvtsh-shvm-nyrvsth-sdrt-classic-id1036-k17yi4",
       "name": "כותש שום נירוסטה סדרת CLASSIC\nID1036",
       "name_translations": {},
       "description": "",
@@ -1156,18 +1158,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525757473-lk8die.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvtsh-shvm-nyrvsth-sdrt-classic-id1036-xbzw9p",
+      "url": "https://streetstock.co.il/product/kvtsh-shvm-nyrvsth-sdrt-classic-id1036-k17yi4",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.282Z"
+      "updated_at": "2026-08-12T09:09:31.870Z"
     },
     {
       "id": "596f235a-03a4-49ab-b78c-dae9d3cb5022",
-      "slug": "pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-oy1pyy",
+      "slug": "pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-1522h2",
       "name": "פותחן שימורים מקצועי נירוסטה סדרת CLASSIC\nID1037",
       "name_translations": {},
       "description": "",
@@ -1178,14 +1182,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525739805-jsu1le.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-oy1pyy",
+      "url": "https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-1522h2",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.274Z"
+      "updated_at": "2026-08-12T09:09:17.717Z"
     },
     {
       "id": "2b8690c5-f35b-45a0-a135-1bb98ec74b33",
