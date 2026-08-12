@@ -505,11 +505,12 @@ https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-ah2hii
 
 ### כף מחוררת נירוסטה סדרת CLASSIC 
 ID1030
-https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-u3oel8
+https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-jfbscd
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525724447-fesa.webp
 
 ### כף טיגון מחוררת נירוסטה סדרת CLASSIC
 ID1031

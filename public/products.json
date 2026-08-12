@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:08:59.682Z",
+  "generated_at": "2026-08-12T09:09:09.455Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1233,7 +1233,7 @@
     },
     {
       "id": "211e64ec-8fa7-401c-8ec5-87d77b2110ff",
-      "slug": "kp-mchvrrt-nyrvsth-sdrt-classic-id1030-u3oel8",
+      "slug": "kp-mchvrrt-nyrvsth-sdrt-classic-id1030-jfbscd",
       "name": "כף מחוררת נירוסטה סדרת CLASSIC \nID1030",
       "name_translations": {},
       "description": "",
@@ -1244,14 +1244,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525724447-fesa.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-u3oel8",
+      "url": "https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-jfbscd",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:22.228Z"
+      "updated_at": "2026-08-12T09:09:01.181Z"
     },
     {
       "id": "bd0a1f96-6691-49ee-8905-338ca3a54413",
