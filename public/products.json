@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:58:26.500Z",
+  "generated_at": "2026-08-12T08:59:42.031Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -79,7 +79,7 @@
     },
     {
       "id": "d75ac5bb-5f4a-4909-85af-0dfa90528a9e",
-      "slug": "argvnyt-akrylyt-dgm-chen-id409-hzhoy5",
+      "slug": "argvnyt-akrylyt-dgm-chen-id409-bfbadj",
       "name": "ארגונית אקרילית דגם \"CHEN\"\nID409 ",
       "name_translations": {},
       "description": "",
@@ -90,18 +90,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525100872-soybsc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-hzhoy5",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:33.598Z"
+      "updated_at": "2026-08-12T08:58:36.595Z"
     },
     {
       "id": "abf55749-c986-4451-80e0-3fcc2eedd31f",
-      "slug": "skvmvn-agvl-shchvr-m-id514-2zu1vw",
+      "slug": "skvmvn-agvl-shchvr-m-id514-prjj06",
       "name": "סכומון עגול שחור M\nID514 ",
       "name_translations": {},
       "description": "",
@@ -112,18 +114,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525115881-obahtl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-id514-2zu1vw",
+      "url": "https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-id514-prjj06",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:33.596Z"
+      "updated_at": "2026-08-12T08:58:51.170Z"
     },
     {
       "id": "0f3a7d34-83d0-4fa8-b222-76567514d2a1",
-      "slug": "argvnyt-akrylyt-dgm-mor-id410-55bift",
+      "slug": "argvnyt-akrylyt-dgm-mor-id410-b64xb9",
       "name": "ארגונית אקרילית דגם \"MOR\"\nID410 ",
       "name_translations": {},
       "description": "",
@@ -134,18 +138,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525130131-wg9uco.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-mor-id410-55bift",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-mor-id410-b64xb9",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:33.596Z"
+      "updated_at": "2026-08-12T08:59:05.520Z"
     },
     {
       "id": "a7792613-8ac5-4757-adda-040e33f6abd3",
-      "slug": "skvmvn-agvl-shchvr-l-id513-byrvr5",
+      "slug": "skvmvn-agvl-shchvr-l-id513-v5lmap",
       "name": "סכומון עגול שחור L\nID513 ",
       "name_translations": {},
       "description": "",
@@ -156,18 +162,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525145231-2zy54l.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-agvl-shchvr-l-id513-byrvr5",
+      "url": "https://streetstock.co.il/product/skvmvn-agvl-shchvr-l-id513-v5lmap",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:33.595Z"
+      "updated_at": "2026-08-12T08:59:19.282Z"
     },
     {
       "id": "1ba75b17-ee62-4e70-a114-14f4c60a4999",
-      "slug": "argvnyt-akrylyt-dgm-gal-id407-lelp6a",
+      "slug": "argvnyt-akrylyt-dgm-gal-id407-wqyjiw",
       "name": "ארגונית אקרילית דגם \"GAL\"\nID407 ",
       "name_translations": {},
       "description": "",
@@ -178,14 +186,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525158087-hmaq6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-id407-lelp6a",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-id407-wqyjiw",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:33.595Z"
+      "updated_at": "2026-08-12T08:59:35.748Z"
     },
     {
       "id": "b6c0f855-44a2-4bc1-924d-e2a4514c451e",
