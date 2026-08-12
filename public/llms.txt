@@ -80,11 +80,12 @@ https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ftmrcv
 
 ### סל כביסה אקריל דגם LUNA
 ID615 
-https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-buxt02
+https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms
 - Price: 129.90 ILS
 - Availability: In stock
 - Category: מוצרי אקריל
 - Description: סל כביסה אקרילי מעוצב ופרקטי, בעל מראה מודרני ונקי המשתלב בצורה מושלמת בחדר הרחצה או הכביסה. פתרון נוח ואסתטי לאחסון הכביסה ולשמירה על סדר וארגון.
+- Image: https://streetstock.co.il/assets/product-1786524696537-2i6xf1.webp
 
 ### סכומון מלבן מחולק לשתיים
 ID512 

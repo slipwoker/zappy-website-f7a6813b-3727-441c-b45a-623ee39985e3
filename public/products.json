@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:48:13.039Z",
+  "generated_at": "2026-08-12T08:52:22.458Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -29,7 +29,7 @@
     },
     {
       "id": "2157e0aa-ad92-428a-b3d9-d2765218f5bc",
-      "slug": "sl-kbysh-akryl-dgm-luna-id615-buxt02",
+      "slug": "sl-kbysh-akryl-dgm-luna-id615-iearms",
       "name": "סל כביסה אקריל דגם LUNA\nID615 ",
       "name_translations": {},
       "description": "",
@@ -40,14 +40,16 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786524696537-2i6xf1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-buxt02",
+      "url": "https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:33.649Z"
+      "updated_at": "2026-08-12T08:51:46.310Z"
     },
     {
       "id": "97629411-c92a-4f48-8227-28c7613a1f9f",
