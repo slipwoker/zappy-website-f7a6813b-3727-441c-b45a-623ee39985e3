@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:04:31.333Z",
+  "generated_at": "2026-08-12T09:05:36.682Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -823,7 +823,7 @@
     },
     {
       "id": "50870c51-c8b2-4505-ba6d-66c5bae2170b",
-      "slug": "mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-v2h6zw",
+      "slug": "mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-pihcuc",
       "name": "מלקחיים מקצועיות גודל XL סדרת CLASSIC\nID1051",
       "name_translations": {},
       "description": "",
@@ -834,18 +834,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525467062-wjd0h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-v2h6zw",
+      "url": "https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-pihcuc",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:26.469Z"
+      "updated_at": "2026-08-12T09:04:44.423Z"
     },
     {
       "id": "31c99ef2-c507-4f5d-b733-6fab7a642182",
-      "slug": "pvmpyh-nyrvsth-sdrt-classic-id1043-mna5lu",
+      "slug": "pvmpyh-nyrvsth-sdrt-classic-id1043-tvcbon",
       "name": "פומפיה נירוסטה סדרת CLASSIC\nID1043",
       "name_translations": {},
       "description": "",
@@ -856,18 +858,20 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525483800-cuqzpi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pvmpyh-nyrvsth-sdrt-classic-id1043-mna5lu",
+      "url": "https://streetstock.co.il/product/pvmpyh-nyrvsth-sdrt-classic-id1043-tvcbon",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:26.204Z"
+      "updated_at": "2026-08-12T09:05:02.599Z"
     },
     {
       "id": "fcfce097-a295-4462-858b-97f86fd61980",
-      "slug": "tpvchn-nyrvsth-sdrt-classic-id1045-vhuiwh",
+      "slug": "tpvchn-nyrvsth-sdrt-classic-id1045-iitbve",
       "name": "תפוחן נירוסטה סדרת CLASSIC\nID1045",
       "name_translations": {},
       "description": "",
@@ -878,14 +882,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525500939-gzra19.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tpvchn-nyrvsth-sdrt-classic-id1045-vhuiwh",
+      "url": "https://streetstock.co.il/product/tpvchn-nyrvsth-sdrt-classic-id1045-iitbve",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:26.200Z"
+      "updated_at": "2026-08-12T09:05:34.539Z"
     },
     {
       "id": "2333b663-f647-4767-aaf0-4eac2c7fc367",

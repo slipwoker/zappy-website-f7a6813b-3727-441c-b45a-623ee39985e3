@@ -6463,7 +6463,7 @@ Availability: In stock
 
 ### מלקחיים מקצועיות גודל XL סדרת CLASSIC
 ID1051
-URL: https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-v2h6zw
+URL: https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-pihcuc
 Price: 19.90 ILS
 Availability: In stock
 
@@ -6471,7 +6471,7 @@ Availability: In stock
 
 ### פומפיה נירוסטה סדרת CLASSIC
 ID1043
-URL: https://streetstock.co.il/product/pvmpyh-nyrvsth-sdrt-classic-id1043-mna5lu
+URL: https://streetstock.co.il/product/pvmpyh-nyrvsth-sdrt-classic-id1043-tvcbon
 Price: 11.90 ILS
 Availability: In stock
 
@@ -6479,7 +6479,7 @@ Availability: In stock
 
 ### תפוחן נירוסטה סדרת CLASSIC
 ID1045
-URL: https://streetstock.co.il/product/tpvchn-nyrvsth-sdrt-classic-id1045-vhuiwh
+URL: https://streetstock.co.il/product/tpvchn-nyrvsth-sdrt-classic-id1045-iitbve
 Price: 11.90 ILS
 Availability: In stock
 
