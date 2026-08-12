@@ -556,11 +556,12 @@ https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-8wlwda
 
 ### מעמד צלחות / מכסים
 ID1023
-https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-l90fmi
+https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-6d7lb0
 - Price: 24.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526565079-71kbun.webp
 
 ### מעמד רב שימושי
 ID1024
