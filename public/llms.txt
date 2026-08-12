@@ -514,7 +514,6 @@ ID1028
 https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-n1lkaq
 - Price: 24.90 ILS
 - Availability: In stock
-- Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
 
 ### סכין שף 13 ס"מ סדרת KITCHEN PRO
@@ -578,50 +577,56 @@ https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-gige
 
 ### סכין סנטוקו 18 ס"מ סדרת KITCHEN PRO
 ID1026
-https://streetstock.co.il/product/skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-74ryfx
+https://streetstock.co.il/product/skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-orip6k
 - Price: 24.90 ILS
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
+- Image: https://streetstock.co.il/assets/product-1786526486097-lpsjqe.webp
 
 ### סכין שף 20 ס"מ סדרת KITCHEN PRO
 ID1027
-https://streetstock.co.il/product/skyn-shp-20-sm-sdrt-kitchen-pro-id1027-u3u4pc
+https://streetstock.co.il/product/skyn-shp-20-sm-sdrt-kitchen-pro-id1027-9pnqf4
 - Price: 24.90 ILS
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
+- Image: https://streetstock.co.il/assets/product-1786526500785-ij2ggo.webp
 
 ### קופסאת חמאה + מכסה אקריל
 ID1019
-https://streetstock.co.il/product/kvpsat-chmah-mksh-akryl-id1019-dwk6ws
+https://streetstock.co.il/product/kvpsat-chmah-mksh-akryl-id1019-0yjnfd
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526474578-zh2cb8.webp
 
 ### פעמון עוגה במבוק + מכסה אקריל
 ID1020
-https://streetstock.co.il/product/pamvn-avgh-bmbvk-mksh-akryl-id1020-k9hg1v
+https://streetstock.co.il/product/pamvn-avgh-bmbvk-mksh-akryl-id1020-jl5h8b
 - Price: 49.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526460126-xk9ko.webp
 
 ### משטח חיתוך מקצועי מעץ במבוק
 מידות : 38X29 ס"מ ID1021
-https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-ywch1d
+https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-tkwp5r
 - Price: 39.90 ILS
 - Availability: In stock
 - Category: משטחי חיתוך
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526443851-rq3aap.webp
 
 ### סכומיץ עץ מידות : 37X30X4.5 ס"מ
 ID1022
-https://streetstock.co.il/product/skvmyts-ats-mydvt-37x30x45-sm-id1022-jb95ut
+https://streetstock.co.il/product/skvmyts-ats-mydvt-37x30x45-sm-id1022-efsqas
 - Price: 44.90 ILS
 - Availability: In stock
 - Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1786526428635-wsudt.webp
 
 ### בקבוק רטבים לחיץ 800 מ"ל
 ID1013

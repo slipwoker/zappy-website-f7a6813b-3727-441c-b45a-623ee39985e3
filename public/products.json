@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:20:40.035Z",
+  "generated_at": "2026-08-12T09:22:04.976Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1248,9 +1248,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-n1lkaq",
-      "categories": [
-        "סכיני מטבח"
-      ],
+      "categories": [],
       "updated_at": "2026-08-12T08:47:22.234Z"
     },
     {
@@ -1415,7 +1413,7 @@
     },
     {
       "id": "e5079c6f-a52f-486f-ad00-229c38247183",
-      "slug": "skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-74ryfx",
+      "slug": "skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-orip6k",
       "name": "סכין סנטוקו 18 ס\"מ סדרת KITCHEN PRO\nID1026",
       "name_translations": {},
       "description": "",
@@ -1426,18 +1424,20 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526486097-lpsjqe.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-74ryfx",
+      "url": "https://streetstock.co.il/product/skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-orip6k",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-08-12T08:47:20.093Z"
+      "updated_at": "2026-08-12T09:21:41.692Z"
     },
     {
       "id": "66a267e3-ced7-4974-8a78-45247ec8ae2d",
-      "slug": "skyn-shp-20-sm-sdrt-kitchen-pro-id1027-u3u4pc",
+      "slug": "skyn-shp-20-sm-sdrt-kitchen-pro-id1027-9pnqf4",
       "name": "סכין שף 20 ס\"מ סדרת KITCHEN PRO\nID1027",
       "name_translations": {},
       "description": "",
@@ -1448,18 +1448,20 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526500785-ij2ggo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-shp-20-sm-sdrt-kitchen-pro-id1027-u3u4pc",
+      "url": "https://streetstock.co.il/product/skyn-shp-20-sm-sdrt-kitchen-pro-id1027-9pnqf4",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-08-12T08:47:20.081Z"
+      "updated_at": "2026-08-12T09:21:53.555Z"
     },
     {
       "id": "6be3fdaf-a399-4ec3-9322-06fb46b4cd23",
-      "slug": "kvpsat-chmah-mksh-akryl-id1019-dwk6ws",
+      "slug": "kvpsat-chmah-mksh-akryl-id1019-0yjnfd",
       "name": "קופסאת חמאה + מכסה אקריל\nID1019",
       "name_translations": {},
       "description": "",
@@ -1470,18 +1472,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526474578-zh2cb8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-chmah-mksh-akryl-id1019-dwk6ws",
+      "url": "https://streetstock.co.il/product/kvpsat-chmah-mksh-akryl-id1019-0yjnfd",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:20.069Z"
+      "updated_at": "2026-08-12T09:21:27.353Z"
     },
     {
       "id": "5651fad4-f311-440e-a8c9-4d62ee955d19",
-      "slug": "pamvn-avgh-bmbvk-mksh-akryl-id1020-k9hg1v",
+      "slug": "pamvn-avgh-bmbvk-mksh-akryl-id1020-jl5h8b",
       "name": "פעמון עוגה במבוק + מכסה אקריל\nID1020",
       "name_translations": {},
       "description": "",
@@ -1492,18 +1496,20 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526460126-xk9ko.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pamvn-avgh-bmbvk-mksh-akryl-id1020-k9hg1v",
+      "url": "https://streetstock.co.il/product/pamvn-avgh-bmbvk-mksh-akryl-id1020-jl5h8b",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:20.038Z"
+      "updated_at": "2026-08-12T09:21:15.112Z"
     },
     {
       "id": "7d223b4d-17bc-4cfd-9b18-ccb04339c8b3",
-      "slug": "mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-ywch1d",
+      "slug": "mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-tkwp5r",
       "name": "משטח חיתוך מקצועי מעץ במבוק\nמידות : 38X29 ס\"מ ID1021",
       "name_translations": {},
       "description": "",
@@ -1514,18 +1520,20 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526443851-rq3aap.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-ywch1d",
+      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-tkwp5r",
       "categories": [
         "משטחי חיתוך"
       ],
-      "updated_at": "2026-08-12T08:47:20.030Z"
+      "updated_at": "2026-08-12T09:21:00.104Z"
     },
     {
       "id": "0d6e7a23-c070-4fa5-abb1-d9f360045857",
-      "slug": "skvmyts-ats-mydvt-37x30x45-sm-id1022-jb95ut",
+      "slug": "skvmyts-ats-mydvt-37x30x45-sm-id1022-efsqas",
       "name": "סכומיץ עץ מידות : 37X30X4.5 ס\"מ\nID1022",
       "name_translations": {},
       "description": "",
@@ -1536,14 +1544,16 @@
       "base_price": 44.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526428635-wsudt.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyts-ats-mydvt-37x30x45-sm-id1022-jb95ut",
+      "url": "https://streetstock.co.il/product/skvmyts-ats-mydvt-37x30x45-sm-id1022-efsqas",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:20.020Z"
+      "updated_at": "2026-08-12T09:20:44.560Z"
     },
     {
       "id": "fa62ea86-9baf-4e6e-9be7-114c3737c9c1",
