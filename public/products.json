@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:18:12.704Z",
+  "generated_at": "2026-08-12T09:20:11.868Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -969,7 +969,7 @@
     },
     {
       "id": "bd10b593-cceb-4a55-a8d8-e0a152d1e2f0",
-      "slug": "glglt-pytsh-mktsvayt-id1046-l3vfxx",
+      "slug": "glglt-pytsh-mktsvayt-id1046-accnx1",
       "name": "גלגלת פיצה מקצועית \nID1046",
       "name_translations": {},
       "description": "",
@@ -980,14 +980,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526344037-ta8hs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-l3vfxx",
+      "url": "https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-accnx1",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.376Z"
+      "updated_at": "2026-08-12T09:19:13.580Z"
     },
     {
       "id": "d2fa39d8-ac02-4f79-9290-e4d320d60ac7",
@@ -1611,7 +1613,7 @@
     },
     {
       "id": "49817baf-7d93-4339-b2d2-656f03460219",
-      "slug": "bkbvk-rtbym-lchyts-360-ml-id1016-yz3rnb",
+      "slug": "bkbvk-rtbym-lchyts-360-ml-id1016-jro4do",
       "name": "בקבוק רטבים לחיץ 360 מ\"ל\nID1016",
       "name_translations": {},
       "description": "",
@@ -1622,18 +1624,20 @@
       "base_price": 7.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526378158-y18u0i.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-360-ml-id1016-yz3rnb",
+      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-360-ml-id1016-jro4do",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-08-12T08:47:19.969Z"
+      "updated_at": "2026-08-12T09:19:53.097Z"
     },
     {
       "id": "bb7b6b38-ab26-44b0-ae6a-d888979eec82",
-      "slug": "bkbvk-rtbym-lchyts-250-ml-id1017-n4qbs3",
+      "slug": "bkbvk-rtbym-lchyts-250-ml-id1017-iwf7ya",
       "name": "בקבוק רטבים לחיץ 250 מ\"ל\nID1017",
       "name_translations": {},
       "description": "",
@@ -1644,14 +1648,16 @@
       "base_price": 6.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526368402-cjxw0b.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-250-ml-id1017-n4qbs3",
+      "url": "https://streetstock.co.il/product/bkbvk-rtbym-lchyts-250-ml-id1017-iwf7ya",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-08-12T08:47:18.280Z"
+      "updated_at": "2026-08-12T09:19:40.910Z"
     },
     {
       "id": "6f87e58b-defe-4dff-bd95-1ac20b8af8ee",

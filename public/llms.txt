@@ -412,11 +412,12 @@ https://streetstock.co.il/product/kvtsh-shvm-mktsvay-sdrt-classic-id1047-tuquaq
 
 ### גלגלת פיצה מקצועית 
 ID1046
-https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-l3vfxx
+https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-accnx1
 - Price: 11.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786526344037-ta8hs.webp
 
 ### מסננת נירוסטה 6.5 ס"מ סדרת CLASSIC
 ID1038
@@ -645,17 +646,19 @@ https://streetstock.co.il/product/bkbvk-rtbym-lchyts-450-ml-id1015-gnhkqc
 
 ### בקבוק רטבים לחיץ 360 מ"ל
 ID1016
-https://streetstock.co.il/product/bkbvk-rtbym-lchyts-360-ml-id1016-yz3rnb
+https://streetstock.co.il/product/bkbvk-rtbym-lchyts-360-ml-id1016-jro4do
 - Price: 7.90 ILS
 - Availability: In stock
 - Category: כללי
+- Image: https://streetstock.co.il/assets/product-1786526378158-y18u0i.webp
 
 ### בקבוק רטבים לחיץ 250 מ"ל
 ID1017
-https://streetstock.co.il/product/bkbvk-rtbym-lchyts-250-ml-id1017-n4qbs3
+https://streetstock.co.il/product/bkbvk-rtbym-lchyts-250-ml-id1017-iwf7ya
 - Price: 6.90 ILS
 - Availability: In stock
 - Category: כללי
+- Image: https://streetstock.co.il/assets/product-1786526368402-cjxw0b.webp
 
 ### מייבש כלים דגם BELLA
 צבע לבן ID1008 
