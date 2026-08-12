@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:01:41.356Z",
+  "generated_at": "2026-08-12T09:03:40.992Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -295,7 +295,7 @@
     },
     {
       "id": "ff1b2abe-2c70-4a0d-8c73-f868b77475fd",
-      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-io175r",
+      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-bbulum",
       "name": "ארגונית אחסון אקרילית מחולקת אקריל + מכסה \nדגם ID1169 SHARONA",
       "name_translations": {},
       "description": "",
@@ -311,11 +311,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-io175r",
+      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-bbulum",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T09:01:07.208Z"
+      "updated_at": "2026-08-12T09:02:19.290Z"
     },
     {
       "id": "3843927c-d0fc-486c-8927-87c25efcd98b",
@@ -541,7 +541,7 @@
     },
     {
       "id": "615dc337-d706-4bf8-b9cf-18323f544b4c",
-      "slug": "mvak-tpvch-admh-nyrvsth-sdrt-classic-id1059-k7z8ke",
+      "slug": "mvak-tpvch-admh-nyrvsth-sdrt-classic-id1059-xl6rq3",
       "name": "מועך תפוח אדמה נירוסטה סדרת CLASSIC\nID1059",
       "name_translations": {},
       "description": "",
@@ -552,14 +552,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525275290-xgbii.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1059-k7z8ke",
+      "url": "https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1059-xl6rq3",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.699Z"
+      "updated_at": "2026-08-12T09:02:17.524Z"
     },
     {
       "id": "f350fa2a-b591-46ae-b914-86e956f3c123",
@@ -607,7 +609,7 @@
     },
     {
       "id": "87748ea7-95b7-48bc-bfdf-df9743886d9b",
-      "slug": "mvak-tpvch-admh-nyrvsth-sdrt-classic-id1053-o4pee8",
+      "slug": "mvak-tpvch-admh-nyrvsth-sdrt-classic-id1053-dnxpnw",
       "name": "מועך תפוח אדמה נירוסטה סדרת CLASSIC\nID1053",
       "name_translations": {},
       "description": "",
@@ -618,18 +620,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525351640-do2i1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1053-o4pee8",
+      "url": "https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1053-dnxpnw",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.652Z"
+      "updated_at": "2026-08-12T09:02:46.428Z"
     },
     {
       "id": "70a7b9e8-e006-42f2-8c8f-018022985385",
-      "slug": "mvak-tpvchy-admh-lchytsh-nyrvsth-sdrt-classic-id1054-wgieh8",
+      "slug": "mvak-tpvchy-admh-lchytsh-nyrvsth-sdrt-classic-id1054-o0utgq",
       "name": "מועך תפוחי אדמה לחיצה נירוסטה סדרת CLASSIC\nID1054",
       "name_translations": {},
       "description": "",
@@ -640,18 +644,20 @@
       "base_price": 49.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525359279-73sahs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mvak-tpvchy-admh-lchytsh-nyrvsth-sdrt-classic-id1054-wgieh8",
+      "url": "https://streetstock.co.il/product/mvak-tpvchy-admh-lchytsh-nyrvsth-sdrt-classic-id1054-o0utgq",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.649Z"
+      "updated_at": "2026-08-12T09:03:00.989Z"
     },
     {
       "id": "8966f223-2fca-4c2b-aaf7-8d526cb49d12",
-      "slug": "st-4-kpvt-mdydh-sdrt-classic-id1055-ndlzrx",
+      "slug": "st-4-kpvt-mdydh-sdrt-classic-id1055-ypzko8",
       "name": "סט 4 כפות מדידה סדרת CLASSIC\nID1055",
       "name_translations": {},
       "description": "",
@@ -662,14 +668,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525380751-8w8mxl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-kpvt-mdydh-sdrt-classic-id1055-ndlzrx",
+      "url": "https://streetstock.co.il/product/st-4-kpvt-mdydh-sdrt-classic-id1055-ypzko8",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.649Z"
+      "updated_at": "2026-08-12T09:03:14.659Z"
     },
     {
       "id": "2dd2c209-b476-487a-ba30-8a76d8318877",
@@ -695,7 +703,7 @@
     },
     {
       "id": "dbfc9d17-c527-4206-807c-f0ed87238426",
-      "slug": "mspryym-rb-shymvshyvt-sdrt-classic-id1056-2w56bi",
+      "slug": "mspryym-rb-shymvshyvt-sdrt-classic-id1056-ww7pzf",
       "name": "מספריים רב שימושיות סדרת CLASSIC\nID1056",
       "name_translations": {},
       "description": "",
@@ -706,14 +714,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525393952-vg8ovg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mspryym-rb-shymvshyvt-sdrt-classic-id1056-2w56bi",
+      "url": "https://streetstock.co.il/product/mspryym-rb-shymvshyvt-sdrt-classic-id1056-ww7pzf",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:26.532Z"
+      "updated_at": "2026-08-12T09:03:28.783Z"
     },
     {
       "id": "e586f9d1-5a4c-4305-a421-a44e4bf2ea87",
