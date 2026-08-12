@@ -670,7 +670,7 @@ https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-bm5koo
 
 ### מייבש כלים דגם ADI 
 צבע מוקה ID1009
-https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-tpv7va
+https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-4yyrjb
 - Price: 79.90 ILS
 - Availability: In stock
 - Category: מייבשי כלים
@@ -679,11 +679,12 @@ https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-tpv7va
 
 ### מייבש כלים 2 קומות דגם SAPIR 
 צבע לבן ID1012
-https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-j1m0uc
+https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-we23kk
 - Price: 129.90 ILS
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
+- Image: https://streetstock.co.il/assets/product-1786524995341-1b17b.webp
 
 ### אלמוגית סקוטש ברזל מצופה ID659
 https://streetstock.co.il/product/almvgyt-skvtsh-brzl-mtsvph-id659-qi9oc7

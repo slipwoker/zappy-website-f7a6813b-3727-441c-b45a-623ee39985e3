@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:56:26.817Z",
+  "generated_at": "2026-08-12T08:57:12.151Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "771483b8-4208-44a3-ac84-075229129082",
-      "slug": "myybsh-klym-dgm-adi-tsba-mvkh-id1009-tpv7va",
+      "slug": "myybsh-klym-dgm-adi-tsba-mvkh-id1009-4yyrjb",
       "name": "מייבש כלים דגם ADI \nצבע מוקה ID1009",
       "name_translations": {},
       "description": "",
@@ -1735,15 +1735,15 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-tpv7va",
+      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-4yyrjb",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-08-12T08:55:41.461Z"
+      "updated_at": "2026-08-12T08:56:36.802Z"
     },
     {
       "id": "a073b227-ab5f-4158-89ef-d3bca6d47b01",
-      "slug": "myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-j1m0uc",
+      "slug": "myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-we23kk",
       "name": "מייבש כלים 2 קומות דגם SAPIR \nצבע לבן ID1012",
       "name_translations": {},
       "description": "",
@@ -1754,14 +1754,16 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786524995341-1b17b.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-j1m0uc",
+      "url": "https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-we23kk",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-08-12T08:47:18.172Z"
+      "updated_at": "2026-08-12T08:56:46.760Z"
     },
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
