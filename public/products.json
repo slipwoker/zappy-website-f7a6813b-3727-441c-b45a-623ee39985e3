@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:13:22.513Z",
+  "generated_at": "2026-08-12T09:14:12.735Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -343,7 +343,7 @@
     },
     {
       "id": "e1f9c5ed-8360-4b95-8a3e-6f3a2d0aa907",
-      "slug": "kvpsat-achsvn-dgm-pearel-460-ml-id1163-5hpnm5",
+      "slug": "kvpsat-achsvn-dgm-pearel-460-ml-id1163-z08gex",
       "name": "קופסאת אחסון דגם PEAREL \n460 מ\"ל ID1163 ",
       "name_translations": {},
       "description": "",
@@ -354,18 +354,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525988690-2wadxj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-460-ml-id1163-5hpnm5",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-460-ml-id1163-z08gex",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.274Z"
+      "updated_at": "2026-08-12T09:13:23.171Z"
     },
     {
       "id": "487f3ce9-a427-487b-a051-617c26f8ae53",
-      "slug": "kvpsat-achsvn-dgm-pearel-800-ml-id1164-v44j7e",
+      "slug": "kvpsat-achsvn-dgm-pearel-800-ml-id1164-qux41t",
       "name": "קופסאת אחסון דגם PEAREL \n800 מ\"ל ID1164",
       "name_translations": {},
       "description": "",
@@ -376,14 +378,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526013029-qtjyl3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-800-ml-id1164-v44j7e",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-800-ml-id1164-qux41t",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.274Z"
+      "updated_at": "2026-08-12T09:13:53.114Z"
     },
     {
       "id": "eee5dddb-025f-42ab-b934-7323502d53e9",
@@ -585,11 +589,11 @@
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.696Z"
+      "updated_at": "2026-08-12T09:14:09.617Z"
     },
     {
       "id": "f68662de-a9fc-4941-a6ca-69de45942992",
-      "slug": "mdp-mtkt-dvkvmty-id1061-29qlyb",
+      "slug": "mdp-mtkt-dvkvmty-id1061-1nle12",
       "name": "מדף מתכת דו־קומתי \nID1061",
       "name_translations": {},
       "description": "",
@@ -600,14 +604,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526002523-eglxj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-29qlyb",
+      "url": "https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-1nle12",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:28.652Z"
+      "updated_at": "2026-08-12T09:13:36.471Z"
     },
     {
       "id": "87748ea7-95b7-48bc-bfdf-df9743886d9b",
