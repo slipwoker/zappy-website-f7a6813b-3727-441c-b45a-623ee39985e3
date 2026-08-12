@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:14:12.735Z",
+  "generated_at": "2026-08-12T09:14:47.422Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -391,7 +391,7 @@
     },
     {
       "id": "eee5dddb-025f-42ab-b934-7323502d53e9",
-      "slug": "kvpsat-achsvn-dgm-pearel-1200-ml-id1165-x0idwz",
+      "slug": "kvpsat-achsvn-dgm-pearel-1200-ml-id1165-c2yg3y",
       "name": "קופסאת אחסון דגם PEAREL \n1200 מ\"ל ID1165",
       "name_translations": {},
       "description": "",
@@ -402,14 +402,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526043577-6dqyc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1200-ml-id1165-x0idwz",
+      "url": "https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1200-ml-id1165-c2yg3y",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.209Z"
+      "updated_at": "2026-08-12T09:14:28.902Z"
     },
     {
       "id": "5f2f6c5d-1c66-4605-a451-60b1fc67f230",
@@ -571,7 +573,7 @@
     },
     {
       "id": "f350fa2a-b591-46ae-b914-86e956f3c123",
-      "slug": "mamd-nyyr-tvalt-avmd-id1060-tr6l25",
+      "slug": "mamd-nyyr-tvalt-avmd-id1060-zhe75o",
       "name": "מעמד נייר טואלט עומד\nID1060",
       "name_translations": {},
       "description": "",
@@ -582,14 +584,16 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786526027528-vfc3ul.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-tr6l25",
+      "url": "https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-zhe75o",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T09:14:09.617Z"
+      "updated_at": "2026-08-12T09:14:23.356Z"
     },
     {
       "id": "f68662de-a9fc-4941-a6ca-69de45942992",

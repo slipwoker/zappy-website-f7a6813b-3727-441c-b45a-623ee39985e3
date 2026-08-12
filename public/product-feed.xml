@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 12 Aug 2026 09:14:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 09:14:47 GMT</lastBuildDate>
     <item>
       <g:id>05759545-76da-48c4-8c2f-2b1984301623</g:id>
       <g:title>מארז 4 כפות עץ
@@ -250,7 +250,8 @@ ID404 </g:title>
       <g:title>קופסאת אחסון דגם PEAREL 
 1200 מ&quot;ל ID1165</g:title>
       <g:description>קופסאת אחסון דגם PEAREL 1200 מ&quot;ל ID1165</g:description>
-      <g:link>https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1200-ml-id1165-x0idwz</g:link>
+      <g:link>https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1200-ml-id1165-c2yg3y</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1786526043577-6dqyc.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>24.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -350,11 +351,28 @@ ID1059</g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>f350fa2a-b591-46ae-b914-86e956f3c123</g:id>
+      <g:id>c7303202-733c-420d-a2fa-4c73adc6033b</g:id>
       <g:title>מעמד נייר טואלט עומד
-ID1060</g:title>
+ID1060 - Black</g:title>
       <g:description>מעמד נייר טואלט עומד ID1060</g:description>
-      <g:link>https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-tr6l25</g:link>
+      <g:link>https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-zhe75o</g:link>
+      <g:item_group_id>f350fa2a-b591-46ae-b914-86e956f3c123</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1786526027528-vfc3ul.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>7e01138d-52f0-4251-89c2-e400ddb5d448</g:id>
+      <g:title>מעמד נייר טואלט עומד
+ID1060 - White</g:title>
+      <g:description>מעמד נייר טואלט עומד ID1060</g:description>
+      <g:link>https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-zhe75o</g:link>
+      <g:item_group_id>f350fa2a-b591-46ae-b914-86e956f3c123</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1786526027528-vfc3ul.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>39.90 ILS</g:price>
       <g:condition>new</g:condition>
