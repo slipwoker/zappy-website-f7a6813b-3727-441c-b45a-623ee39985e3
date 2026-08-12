@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:10:49.636Z",
+  "generated_at": "2026-08-12T09:11:49.865Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1013,7 +1013,7 @@
     },
     {
       "id": "d8700c5f-61bf-4fab-a807-cc15ac0262a9",
-      "slug": "kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-sa4qoo",
+      "slug": "kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-5gu8h2",
       "name": "קולפן מקצועי נירוסטה סדרת CLASSIC\nID1039",
       "name_translations": {},
       "description": "",
@@ -1024,18 +1024,20 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525861556-p66lui.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-sa4qoo",
+      "url": "https://streetstock.co.il/product/kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-5gu8h2",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.287Z"
+      "updated_at": "2026-08-12T09:11:14.842Z"
     },
     {
       "id": "0e06756b-d35a-44c5-9bc3-81293b7e1f63",
-      "slug": "kp-nyrvsth-sdrt-classic-id1034-3i8nm6",
+      "slug": "kp-nyrvsth-sdrt-classic-id1034-kgwr2s",
       "name": "כף נירוסטה סדרת CLASSIC\nID1034",
       "name_translations": {},
       "description": "",
@@ -1046,14 +1048,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525844951-51nlu.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kp-nyrvsth-sdrt-classic-id1034-3i8nm6",
+      "url": "https://streetstock.co.il/product/kp-nyrvsth-sdrt-classic-id1034-kgwr2s",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.238Z"
+      "updated_at": "2026-08-12T09:11:05.958Z"
     },
     {
       "id": "3afd3cc2-31f7-4d7c-aea5-85b3e879394f",

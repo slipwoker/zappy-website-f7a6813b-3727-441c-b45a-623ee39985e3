@@ -425,19 +425,21 @@ https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf
 
 ### קולפן מקצועי נירוסטה סדרת CLASSIC
 ID1039
-https://streetstock.co.il/product/kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-sa4qoo
+https://streetstock.co.il/product/kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-5gu8h2
 - Price: 11.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525861556-p66lui.webp
 
 ### כף נירוסטה סדרת CLASSIC
 ID1034
-https://streetstock.co.il/product/kp-nyrvsth-sdrt-classic-id1034-3i8nm6
+https://streetstock.co.il/product/kp-nyrvsth-sdrt-classic-id1034-kgwr2s
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
+- Image: https://streetstock.co.il/assets/product-1786525844951-51nlu.webp
 
 ### פותחן בקבוקים מקצועי נירוסטה סדרת CLASSIC
 ID1041
