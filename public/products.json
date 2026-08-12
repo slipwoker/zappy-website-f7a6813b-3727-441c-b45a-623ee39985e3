@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:09:55.026Z",
+  "generated_at": "2026-08-12T09:10:49.636Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1057,7 +1057,7 @@
     },
     {
       "id": "3afd3cc2-31f7-4d7c-aea5-85b3e879394f",
-      "slug": "pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-9nlib9",
+      "slug": "pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-6fajoa",
       "name": "פותחן בקבוקים מקצועי נירוסטה סדרת CLASSIC\nID1041",
       "name_translations": {},
       "description": "",
@@ -1068,18 +1068,20 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525831920-n6uvc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-9nlib9",
+      "url": "https://streetstock.co.il/product/pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-6fajoa",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.238Z"
+      "updated_at": "2026-08-12T09:10:45.887Z"
     },
     {
       "id": "08ba5a32-0fa2-43bd-ba3d-2f6797a72dff",
-      "slug": "msnnt-nyrvsth-85-sm-sdrt-classic-id1042-p3wb3u",
+      "slug": "msnnt-nyrvsth-85-sm-sdrt-classic-id1042-opqcnt",
       "name": "מסננת נירוסטה 8.5 ס\"מ סדרת CLASSIC\nID1042",
       "name_translations": {},
       "description": "",
@@ -1090,18 +1092,20 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525816512-66gas.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-85-sm-sdrt-classic-id1042-p3wb3u",
+      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-85-sm-sdrt-classic-id1042-opqcnt",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.235Z"
+      "updated_at": "2026-08-12T09:10:32.440Z"
     },
     {
       "id": "d5853a00-1345-4e7c-92bf-017bedb08c3e",
-      "slug": "trvvd-nyrvsth-sdrt-classic-id1033-xov3fn",
+      "slug": "trvvd-nyrvsth-sdrt-classic-id1033-p51fqi",
       "name": "תרווד נירוסטה סדרת CLASSIC\nID1033",
       "name_translations": {},
       "description": "",
@@ -1112,14 +1116,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525787707-j75kbk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/trvvd-nyrvsth-sdrt-classic-id1033-xov3fn",
+      "url": "https://streetstock.co.il/product/trvvd-nyrvsth-sdrt-classic-id1033-p51fqi",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.233Z"
+      "updated_at": "2026-08-12T09:10:16.539Z"
     },
     {
       "id": "e98786e8-a4f3-497c-8d04-57c267305f48",

@@ -6543,7 +6543,7 @@ Availability: In stock
 
 ### פותחן בקבוקים מקצועי נירוסטה סדרת CLASSIC
 ID1041
-URL: https://streetstock.co.il/product/pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-9nlib9
+URL: https://streetstock.co.il/product/pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-6fajoa
 Price: 11.90 ILS
 Availability: In stock
 
@@ -6551,7 +6551,7 @@ Availability: In stock
 
 ### מסננת נירוסטה 8.5 ס"מ סדרת CLASSIC
 ID1042
-URL: https://streetstock.co.il/product/msnnt-nyrvsth-85-sm-sdrt-classic-id1042-p3wb3u
+URL: https://streetstock.co.il/product/msnnt-nyrvsth-85-sm-sdrt-classic-id1042-opqcnt
 Price: 11.90 ILS
 Availability: In stock
 
@@ -6559,7 +6559,7 @@ Availability: In stock
 
 ### תרווד נירוסטה סדרת CLASSIC
 ID1033
-URL: https://streetstock.co.il/product/trvvd-nyrvsth-sdrt-classic-id1033-xov3fn
+URL: https://streetstock.co.il/product/trvvd-nyrvsth-sdrt-classic-id1033-p51fqi
 Price: 14.90 ILS
 Availability: In stock
 
