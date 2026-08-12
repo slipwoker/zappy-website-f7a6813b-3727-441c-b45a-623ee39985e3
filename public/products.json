@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:11:49.865Z",
+  "generated_at": "2026-08-12T09:13:22.513Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -319,7 +319,7 @@
     },
     {
       "id": "3843927c-d0fc-486c-8927-87c25efcd98b",
-      "slug": "argvnyt-akrylyt-lbytsym-dgm-tom-id404-jlg8wz",
+      "slug": "argvnyt-akrylyt-lbytsym-dgm-tom-id404-mgabdw",
       "name": "ארגונית אקרילית לביצים דגם \"TOM\"\nID404 ",
       "name_translations": {},
       "description": "",
@@ -330,14 +330,16 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525955171-45pzb5.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-lbytsym-dgm-tom-id404-jlg8wz",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-lbytsym-dgm-tom-id404-mgabdw",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.274Z"
+      "updated_at": "2026-08-12T09:12:47.106Z"
     },
     {
       "id": "e1f9c5ed-8360-4b95-8a3e-6f3a2d0aa907",
