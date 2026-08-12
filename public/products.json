@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:00:36.652Z",
+  "generated_at": "2026-08-12T09:01:31.446Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -271,7 +271,7 @@
     },
     {
       "id": "8d09c8d8-38b8-48c1-9b6e-fc68bf6d053a",
-      "slug": "skvmyt-mgyrh-bynvny-dgm-maayan-id479-nhvzdp",
+      "slug": "skvmyt-mgyrh-bynvny-dgm-maayan-id479-mzw7va",
       "name": "סכומית מגירה בינוני דגם MAAYAN\nID479 ",
       "name_translations": {},
       "description": "",
@@ -282,18 +282,20 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525232024-zkp96.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-dgm-maayan-id479-nhvzdp",
+      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-dgm-maayan-id479-mzw7va",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.277Z"
+      "updated_at": "2026-08-12T09:00:55.130Z"
     },
     {
       "id": "ff1b2abe-2c70-4a0d-8c73-f868b77475fd",
-      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-3y54yc",
+      "slug": "argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-io175r",
       "name": "ארגונית אחסון אקרילית מחולקת אקריל + מכסה \nדגם ID1169 SHARONA",
       "name_translations": {},
       "description": "",
@@ -304,14 +306,16 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525248235-t5zdy3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-3y54yc",
+      "url": "https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-io175r",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-12T08:47:31.274Z"
+      "updated_at": "2026-08-12T09:01:07.208Z"
     },
     {
       "id": "3843927c-d0fc-486c-8927-87c25efcd98b",
