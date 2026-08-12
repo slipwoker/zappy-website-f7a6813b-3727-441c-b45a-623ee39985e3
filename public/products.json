@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T08:52:22.458Z",
+  "generated_at": "2026-08-12T08:53:42.320Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -1551,7 +1551,7 @@
     },
     {
       "id": "6f87e58b-defe-4dff-bd95-1ac20b8af8ee",
-      "slug": "myybsh-klym-dgm-bella-tsba-lbn-id1008-kiek2h",
+      "slug": "myybsh-klym-dgm-bella-tsba-lbn-id1008-gc1bxa",
       "name": "מייבש כלים דגם BELLA\nצבע לבן ID1008 ",
       "name_translations": {},
       "description": "",
@@ -1562,18 +1562,20 @@
       "base_price": 89.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786524775394-wx3uw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-lbn-id1008-kiek2h",
+      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-lbn-id1008-gc1bxa",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-08-12T08:47:18.275Z"
+      "updated_at": "2026-08-12T08:53:06.129Z"
     },
     {
       "id": "3f030d8c-087a-42cf-98a1-d4798fa14898",
-      "slug": "myybsh-klym-dgm-bella-tsba-mvkh-id1007-xznf7k",
+      "slug": "myybsh-klym-dgm-bella-tsba-mvkh-id1007-46e3fh",
       "name": "מייבש כלים דגם BELLA\nצבע מוקה ID1007 ",
       "name_translations": {},
       "description": "",
@@ -1584,14 +1586,16 @@
       "base_price": 89.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786524807537-25giti.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-mvkh-id1007-xznf7k",
+      "url": "https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-mvkh-id1007-46e3fh",
       "categories": [
         "מייבשי כלים"
       ],
-      "updated_at": "2026-08-12T08:47:18.264Z"
+      "updated_at": "2026-08-12T08:53:40.670Z"
     },
     {
       "id": "1636cd42-7ee0-4a82-af0e-b4759e7d494f",
