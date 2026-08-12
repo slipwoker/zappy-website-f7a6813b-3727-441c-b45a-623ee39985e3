@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-12T09:05:36.682Z",
+  "generated_at": "2026-08-12T09:06:40.901Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 642,
@@ -895,7 +895,7 @@
     },
     {
       "id": "2333b663-f647-4767-aaf0-4eac2c7fc367",
-      "slug": "mryt-lavgh-lhb-lchytvk-nyrvsth-sdrt-classic-id1044-2pke1a",
+      "slug": "mryt-lavgh-lhb-lchytvk-nyrvsth-sdrt-classic-id1044-q6m3wo",
       "name": "מרית לעוגה + להב לחיתוך נירוסטה סדרת CLASSIC\nID1044",
       "name_translations": {},
       "description": "",
@@ -906,18 +906,20 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525533836-6hj2en.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mryt-lavgh-lhb-lchytvk-nyrvsth-sdrt-classic-id1044-2pke1a",
+      "url": "https://streetstock.co.il/product/mryt-lavgh-lhb-lchytvk-nyrvsth-sdrt-classic-id1044-q6m3wo",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:26.198Z"
+      "updated_at": "2026-08-12T09:05:48.463Z"
     },
     {
       "id": "2978554c-ea64-4cbc-b7f1-d08f2bc0d456",
-      "slug": "kvtsh-shvm-mktsvay-sdrt-classic-id1047-u8flmt",
+      "slug": "kvtsh-shvm-mktsvay-sdrt-classic-id1047-tuquaq",
       "name": "כותש שום מקצועי סדרת CLASSIC\nID1047",
       "name_translations": {},
       "description": "",
@@ -928,14 +930,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1786525548563-rlb2aa.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvtsh-shvm-mktsvay-sdrt-classic-id1047-u8flmt",
+      "url": "https://streetstock.co.il/product/kvtsh-shvm-mktsvay-sdrt-classic-id1047-tuquaq",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-08-12T08:47:24.377Z"
+      "updated_at": "2026-08-12T09:06:04.949Z"
     },
     {
       "id": "bd10b593-cceb-4a55-a8d8-e0a152d1e2f0",
