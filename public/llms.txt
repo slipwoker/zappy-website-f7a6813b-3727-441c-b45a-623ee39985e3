@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 642** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 643** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מארז 4 כפות עץ
 ID1018 
