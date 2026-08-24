@@ -136,17 +136,19 @@ https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-lbn-id1071-sr2
 
 ### מסגרת תמונה 10X15 ס"מ BASIC
 צבע עץ ID1073
-https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-ats-id1073-p9fx5n
+https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-ats-id1073-bovtq2
 - Price: 7.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558142148-cpcw2e.webp
 
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע עץ ID1076
-https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-ats-id1076-7xfvyp
+https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-ats-id1076-peasp5
 - Price: 9.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558156148-loa7c.webp
 
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע שחור ID1075
