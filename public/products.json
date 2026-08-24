@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:25:29.478Z",
+  "generated_at": "2026-08-24T08:26:49.433Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2642,7 +2642,7 @@
     },
     {
       "id": "65d281b3-209c-419c-9c62-0bdc59d3e91a",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-jub26i",
+      "slug": "st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-7fz28y",
       "name": "סט פח + מברשת דגם AUREL\nצבע זהב ID1092",
       "name_translations": {},
       "description": "",
@@ -2653,15 +2653,17 @@
       "base_price": 124.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559970633-kcc56f.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-jub26i",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-7fz28y",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T07:44:52.555Z"
+      "updated_at": "2026-08-24T08:26:26.862Z"
     },
     {
       "id": "a7399585-3b57-4c20-a278-b9503d751f42",
@@ -2711,7 +2713,7 @@
     },
     {
       "id": "ff0eaed2-d947-4fbe-8d64-e0549039d4be",
-      "slug": "st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-fphhng",
+      "slug": "st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-9vo88h",
       "name": "סט פח + מברשת דגם LUCENTO\nצבע זהב ID1087",
       "name_translations": {},
       "description": "",
@@ -2722,15 +2724,17 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559951399-834sdg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-fphhng",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-9vo88h",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T07:44:52.320Z"
+      "updated_at": "2026-08-24T08:26:11.568Z"
     },
     {
       "id": "4875aa52-d839-488d-8611-78dc19c5b77e",
@@ -2757,7 +2761,7 @@
     },
     {
       "id": "04f8c75a-5308-48df-a1ea-ff224310780b",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-ytat65",
+      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-exbrtt",
       "name": "סט פח + מברשת דגם AUREL\nצבע שמנת ID1090",
       "name_translations": {},
       "description": "",
@@ -2768,19 +2772,21 @@
       "base_price": 124.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559939519-sqeye7.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-ytat65",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-exbrtt",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T07:44:52.304Z"
+      "updated_at": "2026-08-24T08:25:52.055Z"
     },
     {
       "id": "bff3b9f7-5979-4491-93f0-254a6e202ff2",
-      "slug": "st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-m972b7",
+      "slug": "st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-khc35j",
       "name": "סט פח + מברשת דגם LUCENTO\nצבע שחור ID1083",
       "name_translations": {},
       "description": "",
@@ -2791,15 +2797,17 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559983989-0zazrdy.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-m972b7",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-khc35j",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T07:44:51.999Z"
+      "updated_at": "2026-08-24T08:26:41.696Z"
     },
     {
       "id": "f9a153bc-c2ac-44e5-9b4f-de1f2bdc751f",
