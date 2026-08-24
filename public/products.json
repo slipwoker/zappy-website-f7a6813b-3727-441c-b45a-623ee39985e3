@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:15:29.352Z",
+  "generated_at": "2026-08-24T08:16:15.537Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2360,7 +2360,7 @@
     },
     {
       "id": "d7d26940-6621-47f3-98ff-f90f5a0f7a8b",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-fg62ss",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-vv0kby",
       "name": "סיר יציקת אלומיניום שחור MORO\n28 ס\"מ סוטאז' ID1109\n",
       "name_translations": {},
       "description": "",
@@ -2371,18 +2371,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559320178-6no9k7.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-fg62ss",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-vv0kby",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:54.899Z"
+      "updated_at": "2026-08-24T08:15:37.135Z"
     },
     {
       "id": "ea0a7b30-21fd-4a9b-bf78-2cda626c72b9",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-h8bi0j",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-v2pujm",
       "name": "סיר יציקת אלומיניום שחור MORO\n24 ס\"מ ID1107\n",
       "name_translations": {},
       "description": "",
@@ -2393,18 +2395,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559336782-enewo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-h8bi0j",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-v2pujm",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:54.892Z"
+      "updated_at": "2026-08-24T08:15:49.233Z"
     },
     {
       "id": "04ec2991-a384-4ef8-8bf6-0e86e1142838",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-424ok9",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-ydwuo1",
       "name": "סיר יציקת אלומיניום שמנת MORO\n32 ס\"מ סוטאז' ID1105\n",
       "name_translations": {},
       "description": "",
@@ -2415,14 +2419,16 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559348146-vqjpka.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-424ok9",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-ydwuo1",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.350Z"
+      "updated_at": "2026-08-24T08:16:05.855Z"
     },
     {
       "id": "db6c6789-4cc6-4f12-b353-5afdd7b52ecd",
