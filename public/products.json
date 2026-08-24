@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:35:37.363Z",
+  "generated_at": "2026-08-24T08:36:27.866Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1270,7 +1270,7 @@
     },
     {
       "id": "bbe6b5f9-0368-4bf8-969a-14d602d979f8",
-      "slug": "argvnyt-akrylyt-mksh-dgm-yagel-id1145-oz0ogw",
+      "slug": "argvnyt-akrylyt-mksh-dgm-yagel-id1145-67bror",
       "name": "ארגונית אקרילית + מכסה דגם \"YAGEL\"\nID1145",
       "name_translations": {},
       "description": "",
@@ -1281,19 +1281,21 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560522483-r0p4a.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yagel-id1145-oz0ogw",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yagel-id1145-67bror",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.245Z"
+      "updated_at": "2026-08-24T08:35:37.755Z"
     },
     {
       "id": "78d86d1a-00e2-41a8-a7df-1f6d296d710c",
-      "slug": "argvnyt-akrylyt-mksh-dgm-ziv-id1143-w4n6pm",
+      "slug": "argvnyt-akrylyt-mksh-dgm-ziv-id1143-0mjqph",
       "name": "ארגונית אקרילית + מכסה דגם \"ZIV\"\nID1143",
       "name_translations": {},
       "description": "",
@@ -1304,19 +1306,21 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560535478-ba406h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-ziv-id1143-w4n6pm",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-ziv-id1143-0mjqph",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.181Z"
+      "updated_at": "2026-08-24T08:35:53.458Z"
     },
     {
       "id": "d4cd9e82-8a60-45b7-8813-d161fe4948fd",
-      "slug": "argvnyt-akrylyt-mksh-dgm-gili-id1142-ojdfn1",
+      "slug": "argvnyt-akrylyt-mksh-dgm-gili-id1142-u9j26t",
       "name": "ארגונית אקרילית + מכסה דגם \"GILI\"\nID1142",
       "name_translations": {},
       "description": "",
@@ -1327,15 +1331,17 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560550996-8vfznj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-gili-id1142-ojdfn1",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-gili-id1142-u9j26t",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.178Z"
+      "updated_at": "2026-08-24T08:36:06.719Z"
     },
     {
       "id": "18e891d1-9a0e-4ec7-b8b1-c0e70f279be3",
@@ -1362,7 +1368,7 @@
     },
     {
       "id": "7556bf7e-a200-4745-952f-e12784a6737e",
-      "slug": "argvnyt-akrylyt-mtkplt-dgm-oriya-id1141-cowut9",
+      "slug": "argvnyt-akrylyt-mtkplt-dgm-oriya-id1141-hwgg5x",
       "name": "ארגונית אקרילית מתקפלת דגם \"ORIYA\"\nID1141",
       "name_translations": {},
       "description": "",
@@ -1373,15 +1379,17 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560563908-8zch1l.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-oriya-id1141-cowut9",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-oriya-id1141-hwgg5x",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.178Z"
+      "updated_at": "2026-08-24T08:36:16.808Z"
     },
     {
       "id": "02fb713a-d0f7-41f3-b301-f11347096662",
