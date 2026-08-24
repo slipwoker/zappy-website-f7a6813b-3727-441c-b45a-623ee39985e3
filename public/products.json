@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:36:27.866Z",
+  "generated_at": "2026-08-24T08:37:02.563Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1393,7 +1393,7 @@
     },
     {
       "id": "02fb713a-d0f7-41f3-b301-f11347096662",
-      "slug": "argvnyt-akrylyt-mtkplt-dgm-yuval-id1140-0stzy8",
+      "slug": "argvnyt-akrylyt-mtkplt-dgm-yuval-id1140-8i3i09",
       "name": "ארגונית אקרילית מתקפלת דגם \"YUVAL\"\nID1140",
       "name_translations": {},
       "description": "",
@@ -1404,19 +1404,21 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560575151-fdimsi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-yuval-id1140-0stzy8",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-yuval-id1140-8i3i09",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.171Z"
+      "updated_at": "2026-08-24T08:36:28.015Z"
     },
     {
       "id": "0ff4948b-c5e2-4458-9db1-6e117ee659ec",
-      "slug": "argvnyt-akrylyt-dgm-ofir-id1139-yzt84d",
+      "slug": "argvnyt-akrylyt-dgm-ofir-id1139-andur6",
       "name": "ארגונית אקרילית דגם \"OFIR\"\nID1139",
       "name_translations": {},
       "description": "",
@@ -1427,14 +1429,16 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560585451-9flsp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ofir-id1139-yzt84d",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ofir-id1139-andur6",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.170Z"
+      "updated_at": "2026-08-24T08:36:42.936Z"
     },
     {
       "id": "94476547-a2a7-4039-bd2b-38977cfe504f",
@@ -1460,7 +1464,7 @@
     },
     {
       "id": "322d2c0f-82d7-4b6c-903e-4629fc061ff7",
-      "slug": "argvnyt-akrylyt-dgm-agam-id1138-yyqrb2",
+      "slug": "argvnyt-akrylyt-dgm-agam-id1138-b3bt6j",
       "name": "ארגונית אקרילית דגם \"AGAM\"\nID1138",
       "name_translations": {},
       "description": "",
@@ -1471,14 +1475,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560601586-dufh9i.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-agam-id1138-yyqrb2",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-agam-id1138-b3bt6j",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.052Z"
+      "updated_at": "2026-08-24T08:36:55.729Z"
     },
     {
       "id": "b49113cc-e2eb-4af0-a1f4-052eb1ebf027",
