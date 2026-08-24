@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:13:08.620Z",
+  "generated_at": "2026-08-24T08:13:34.609Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2240,7 +2240,7 @@
     },
     {
       "id": "064833bd-77e1-4062-8614-9b0b843b3baf",
-      "slug": "mchbt-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1113-zaqdl9",
+      "slug": "mchbt-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1113-2gd214",
       "name": "מחבת יציקת אלומיניום שמנת MORO\n28 ס\"מ ID1113",
       "name_translations": {},
       "description": "",
@@ -2251,14 +2251,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559166907-pw6ge.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1113-zaqdl9",
+      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1113-2gd214",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:55.047Z"
+      "updated_at": "2026-08-24T08:13:20.676Z"
     },
     {
       "id": "15c8d1d7-701b-4764-8395-0994ce1996fe",
