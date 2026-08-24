@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:06:14.636Z",
+  "generated_at": "2026-08-24T08:06:33.801Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -922,7 +922,7 @@
     },
     {
       "id": "1346bf77-4573-4282-ba19-82f63e4ed771",
-      "slug": "mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-shchvr-qw4fdk",
+      "slug": "mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-shchvr-h7kked",
       "name": "מראה אובלית מסגרת אלומיניום\n40X60 ס\"מ צבע שחור",
       "name_translations": {},
       "description": "",
@@ -933,14 +933,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558754896-1j0eg4.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-shchvr-qw4fdk",
+      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-shchvr-h7kked",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:04.086Z"
+      "updated_at": "2026-08-24T08:06:14.277Z"
     },
     {
       "id": "57b83658-a1df-45d5-b9f2-d4771a4cda2f",
