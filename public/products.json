@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:35:08.196Z",
+  "generated_at": "2026-08-24T08:35:37.363Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1220,7 +1220,7 @@
     },
     {
       "id": "f79d4f38-e119-4c2f-82f3-a6a81d229e7d",
-      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-sharon-id1148-ki6uz2",
+      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-sharon-id1148-5d4nqs",
       "name": "ארגונית אקרילית + מכסה ורשת דגם \"SHARON\"\nID1148",
       "name_translations": {},
       "description": "",
@@ -1231,19 +1231,21 @@
       "base_price": 34.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560501408-u5i8lj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-sharon-id1148-ki6uz2",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-sharon-id1148-5d4nqs",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:01.673Z"
+      "updated_at": "2026-08-24T08:35:12.952Z"
     },
     {
       "id": "62cb9d33-bab7-403e-99b8-f43f9167e15e",
-      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-yarden-id1146-vgl9rk",
+      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-yarden-id1146-rcenja",
       "name": "ארגונית אקרילית + מכסה ורשת דגם \"YARDEN\"\nID1146",
       "name_translations": {},
       "description": "",
@@ -1254,15 +1256,17 @@
       "base_price": 24.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560511191-cavsd6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-yarden-id1146-vgl9rk",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-yarden-id1146-rcenja",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:01.667Z"
+      "updated_at": "2026-08-24T08:35:24.819Z"
     },
     {
       "id": "bbe6b5f9-0368-4bf8-969a-14d602d979f8",
