@@ -1,33 +1,33 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:42:50.079Z",
+  "generated_at": "2026-08-24T15:41:18.803Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
   "products": [
     {
       "id": "323357d3-09f0-404d-80a0-99cf38e02701",
-      "slug": "msgrt-tmvnh-basic-a3-tsba-ats-id1082-nx12g6",
+      "slug": "msgrt-tmvnh-basic-a3-tsba-ats-id1082-dwybib",
       "name": "מסגרת תמונה BASIC A3\n צבע עץ ID1082",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 19.9,
+      "price": 17.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 17.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558035575-a83tpl.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-nx12g6",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-dwybib",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:54:04.281Z"
+      "updated_at": "2026-08-24T15:40:39.446Z"
     },
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",

@@ -72,8 +72,8 @@ Information about WCAG compliance and accessibility features.
 
 ### מסגרת תמונה BASIC A3
  צבע עץ ID1082
-https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-nx12g6
-- Price: 19.90 ILS
+https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-dwybib
+- Price: 17.90 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558035575-a83tpl.webp
