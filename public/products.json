@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:32:57.524Z",
+  "generated_at": "2026-08-24T08:35:08.196Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1170,7 +1170,7 @@
     },
     {
       "id": "f324fdff-c905-4411-a1f6-df95d4d8fff8",
-      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-483mmb",
+      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-vzi8lx",
       "name": "ארגונית אקרילית + מכסה ורשת דגם \"LENNY\"\nID1149",
       "name_translations": {},
       "description": "",
@@ -1181,19 +1181,21 @@
       "base_price": 39.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560484905-5ho5t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-483mmb",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-vzi8lx",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:01.787Z"
+      "updated_at": "2026-08-24T08:34:53.104Z"
     },
     {
       "id": "ec8cb74e-1f70-4803-9f17-c35041612f0a",
-      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-liron-id1147-zinsjc",
+      "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-liron-id1147-m7f921",
       "name": "ארגונית אקרילית + מכסה ורשת דגם \"LIRON\"\nID1147",
       "name_translations": {},
       "description": "",
@@ -1204,15 +1206,17 @@
       "base_price": 44.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560490463-y03wsq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-liron-id1147-zinsjc",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-liron-id1147-m7f921",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:01.676Z"
+      "updated_at": "2026-08-24T08:35:02.950Z"
     },
     {
       "id": "f79d4f38-e119-4c2f-82f3-a6a81d229e7d",
@@ -18381,7 +18385,7 @@
     },
     {
       "id": "3f1d6707-f8b2-4436-9ade-f155746f6d7e",
-      "slug": "pch-53-lytr-lbn-pure-touch-2chq96",
+      "slug": "pch-53-lytr-lbn-pure-touch-nieje1",
       "name": "פח 53 ליטר לבן PURE TOUCH",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -18398,11 +18402,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-53-lytr-lbn-pure-touch-2chq96",
+      "url": "https://streetstock.co.il/product/pch-53-lytr-lbn-pure-touch-nieje1",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T08:32:23.190Z"
+      "updated_at": "2026-08-24T08:34:30.694Z"
     },
     {
       "id": "c48cbaee-22a6-44a9-92d2-5846921f4e97",
