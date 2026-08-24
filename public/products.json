@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:17:09.024Z",
+  "generated_at": "2026-08-24T08:17:54.645Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2528,7 +2528,7 @@
     },
     {
       "id": "e60f6371-7279-4bf6-8190-6f141662d5f9",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-01xijj",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-xoosux",
       "name": "סיר יציקת אלומיניום שמנת MORO\n28 ס\"מ ID1103\n",
       "name_translations": {},
       "description": "",
@@ -2539,18 +2539,20 @@
       "base_price": 159.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559420491-e6f14m.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-01xijj",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-xoosux",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.268Z"
+      "updated_at": "2026-08-24T08:17:12.335Z"
     },
     {
       "id": "a015cf72-eafc-46bd-a3f3-ca854c64e2a2",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-2uhnd9",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-u2p7f6",
       "name": "סיר יציקת אלומיניום שמנת MORO\n20 ס\"מ ID1101",
       "name_translations": {},
       "description": "",
@@ -2561,14 +2563,16 @@
       "base_price": 109.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559431820-3qogos.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-2uhnd9",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-u2p7f6",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.212Z"
+      "updated_at": "2026-08-24T08:17:23.789Z"
     },
     {
       "id": "17c02fe2-789c-4582-84b7-c434a43d654c",
