@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:28:48.706Z",
+  "generated_at": "2026-08-24T08:29:26.420Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1864,7 +1864,7 @@
     },
     {
       "id": "7a5cf8c1-a05d-4aac-8681-8d350480c080",
-      "slug": "pch-tats-60-lytr-mvkh-dgm-elvano-oimj6g",
+      "slug": "pch-tats-60-lytr-mvkh-dgm-elvano-b5rl53",
       "name": "פח טאצ' 60 ליטר מוקה\nדגם ELVANO",
       "name_translations": {},
       "description": "",
@@ -1875,18 +1875,20 @@
       "base_price": 499.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560116899-zzok7.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-mvkh-dgm-elvano-oimj6g",
+      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-mvkh-dgm-elvano-b5rl53",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T07:44:57.507Z"
+      "updated_at": "2026-08-24T08:28:49.487Z"
     },
     {
       "id": "4963c5b6-b862-4a3d-841c-ad05d1ec4b17",
-      "slug": "pch-tats-60-lytr-shchvr-dgm-elvano-m5eyo3",
+      "slug": "pch-tats-60-lytr-shchvr-dgm-elvano-w5qto2",
       "name": "פח טאצ' 60 ליטר שחור\nדגם ELVANO",
       "name_translations": {},
       "description": "",
@@ -1897,14 +1899,16 @@
       "base_price": 499.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560139474-wysnq9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-shchvr-dgm-elvano-m5eyo3",
+      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-shchvr-dgm-elvano-w5qto2",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T07:44:57.444Z"
+      "updated_at": "2026-08-24T08:29:15.974Z"
     },
     {
       "id": "21f0bd5d-2582-4263-9fc2-6e9f1b41aab7",
@@ -13762,7 +13766,7 @@
     },
     {
       "id": "1b215d23-1302-48fc-881c-5b7f7a95dff6",
-      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-5wfsae",
+      "slug": "st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-3kawah",
       "name": "סט פח + מברשת אסלה דגם LUNARIA\r\n צבע לבן",
       "name_translations": {},
       "description": "<p>פחי שירותים, פחי אמבטיה</p>",
@@ -13774,17 +13778,18 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
+        "https://streetstock.co.il/assets/product-1787560128503-7rv8mc.webp",
         "https://streetstock.co.il/assets/product-1781504519609-aim2pk.webp",
         "https://streetstock.co.il/assets/product-1784528281852-fqrh3q.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-5wfsae",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-3kawah",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-07-30T07:28:15.073Z"
+      "updated_at": "2026-08-24T08:29:01.838Z"
     },
     {
       "id": "7816aa98-d733-4305-b5d8-cbd50970461b",
