@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T07:45:48.919Z",
+  "generated_at": "2026-08-24T07:54:58.823Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
   "products": [
     {
       "id": "323357d3-09f0-404d-80a0-99cf38e02701",
-      "slug": "msgrt-tmvnh-basic-a3-tsba-ats-id1082-xrkddq",
+      "slug": "msgrt-tmvnh-basic-a3-tsba-ats-id1082-nx12g6",
       "name": "מסגרת תמונה BASIC A3\n צבע עץ ID1082",
       "name_translations": {},
       "description": "",
@@ -18,18 +18,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558035575-a83tpl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-xrkddq",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-nx12g6",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:10.710Z"
+      "updated_at": "2026-08-24T07:54:04.281Z"
     },
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
-      "slug": "msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-fdoej7",
+      "slug": "msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-z3hds6",
       "name": "מסגרת תמונה BASIC A3\n צבע שחור ID1081",
       "name_translations": {},
       "description": "",
@@ -40,18 +42,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558042067-thupzc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-fdoej7",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-z3hds6",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:10.641Z"
+      "updated_at": "2026-08-24T07:54:21.210Z"
     },
     {
       "id": "9e0227ea-c92b-4eb9-bccc-bbb33dc458ff",
-      "slug": "msgrt-tmvnh-basic-a3-tsba-lbn-id1080-chgc5k",
+      "slug": "msgrt-tmvnh-basic-a3-tsba-lbn-id1080-qt09aj",
       "name": "מסגרת תמונה BASIC A3\n צבע לבן ID1080",
       "name_translations": {},
       "description": "",
@@ -62,18 +66,20 @@
       "base_price": 19.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558058888-gb2dhq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-chgc5k",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-qt09aj",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:10.639Z"
+      "updated_at": "2026-08-24T07:54:26.852Z"
     },
     {
       "id": "95f32dfc-369a-4a5f-9e3d-9dc26d39861d",
-      "slug": "msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-c8uz98",
+      "slug": "msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-s1idel",
       "name": "מסגרת תמונה BASIC A4\n צבע שחור ID1078",
       "name_translations": {},
       "description": "",
@@ -84,14 +90,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558076930-9iu7y.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-c8uz98",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-s1idel",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:09.080Z"
+      "updated_at": "2026-08-24T07:54:50.342Z"
     },
     {
       "id": "bff5c3a7-82aa-4d75-bbec-417efc90343b",

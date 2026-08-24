@@ -72,31 +72,35 @@ Information about WCAG compliance and accessibility features.
 
 ### מסגרת תמונה BASIC A3
  צבע עץ ID1082
-https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-xrkddq
+https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-nx12g6
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558035575-a83tpl.webp
 
 ### מסגרת תמונה BASIC A3
  צבע שחור ID1081
-https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-fdoej7
+https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-z3hds6
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558042067-thupzc.webp
 
 ### מסגרת תמונה BASIC A3
  צבע לבן ID1080
-https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-chgc5k
+https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-qt09aj
 - Price: 19.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558058888-gb2dhq.webp
 
 ### מסגרת תמונה BASIC A4
  צבע שחור ID1078
-https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-c8uz98
+https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-s1idel
 - Price: 14.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558076930-9iu7y.webp
 
 ### מסגרת תמונה BASIC A4
  צבע עץ ID1079
