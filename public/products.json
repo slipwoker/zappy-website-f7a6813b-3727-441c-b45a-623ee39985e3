@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:14:49.699Z",
+  "generated_at": "2026-08-24T08:15:29.352Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2312,7 +2312,7 @@
     },
     {
       "id": "f60daddd-9841-4608-9bfa-4e97f45ca428",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-46j4j6",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-w6tp7q",
       "name": "סיר יציקת אלומיניום שחור MORO\n28 ס\"מ ID1108\n",
       "name_translations": {},
       "description": "",
@@ -2323,18 +2323,20 @@
       "base_price": 159.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559252706-wvilym.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-46j4j6",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-w6tp7q",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:54.903Z"
+      "updated_at": "2026-08-24T08:14:51.954Z"
     },
     {
       "id": "0b8b840a-66af-4ff7-a7f2-84677c7c1011",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-ciy10a",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-kbijfr",
       "name": "סיר יציקת אלומיניום שחור MORO\nסוטאז' 24 ס\"מ ID1173\n",
       "name_translations": {},
       "description": "",
@@ -2345,14 +2347,16 @@
       "base_price": 109.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559310832-qsjklg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-ciy10a",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-kbijfr",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:54.900Z"
+      "updated_at": "2026-08-24T08:15:20.940Z"
     },
     {
       "id": "d7d26940-6621-47f3-98ff-f90f5a0f7a8b",
