@@ -6505,8 +6505,8 @@ Availability: In stock
 
 ### ארון נעליים 10 קומות צבע לבן
 ID423
-URL: https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-u1953e
-Price: 119.90 ILS
+URL: https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-ao05bb
+Price: 129.90 ILS
 Availability: In stock
 
 ---
