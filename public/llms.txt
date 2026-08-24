@@ -738,11 +738,12 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-mvkh-id1094
 
 ### פח טאצ' 60 ליטר לבן
 דגם ELVANO
-https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-zki8pq
+https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-4liv01
 - Price: 499.90 ILS
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.
+- Image: https://streetstock.co.il/assets/product-1787560092506-j935o.webp
 
 ### פח טאצ' 60 ליטר מוקה
 דגם ELVANO
@@ -1096,11 +1097,12 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-9vo8
 
 ### סט פח + מברשת דגם AUREL
 צבע מוקה ID1089
-https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-sj7oup
+https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-lg7qyl
 - Price: 124.90 ILS
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
+- Image: https://streetstock.co.il/assets/product-1787560051862-ui4om.webp
 
 ### סט פח + מברשת דגם AUREL
 צבע שמנת ID1090
@@ -1140,11 +1142,12 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-lk
 
 ### סט פח + מברשת דגם LUCENTO
 צבע נירוסטה ID1086
-https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-nyrvsth-id1086-mtrdl9
+https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-nyrvsth-id1086-c5ivaq
 - Price: 99.90 ILS
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
+- Image: https://streetstock.co.il/assets/product-1787560064949-szknam.webp
 
 ### מארז 4 כפות עץ
 ID1018 
