@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:08:49.639Z",
+  "generated_at": "2026-08-24T08:09:34.296Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -970,7 +970,7 @@
     },
     {
       "id": "87d35e34-63b4-4185-86b3-1fee9502e227",
-      "slug": "arvn-nalyym-10-kvmvt-tsba-lbn-id423-uqscnh",
+      "slug": "arvn-nalyym-10-kvmvt-tsba-lbn-id423-ddnov9",
       "name": "ארון נעליים 10 קומות צבע לבן\nID423",
       "name_translations": {},
       "description": "",
@@ -986,11 +986,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-uqscnh",
+      "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-ddnov9",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-24T08:08:46.307Z"
+      "updated_at": "2026-08-24T08:08:57.725Z"
     },
     {
       "id": "e99af7ee-9c74-4ec2-8246-398f08d9493a",
