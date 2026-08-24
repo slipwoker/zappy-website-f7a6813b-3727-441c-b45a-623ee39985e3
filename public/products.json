@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:38:27.777Z",
+  "generated_at": "2026-08-24T08:39:12.587Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1634,7 +1634,7 @@
     },
     {
       "id": "4f411070-334b-4d5d-91e1-5b24118fab98",
-      "slug": "argvnyt-akrylyt-dgm-adi-id1130-2bjfqu",
+      "slug": "argvnyt-akrylyt-dgm-adi-id1130-phoyxs",
       "name": "ארגונית אקרילית דגם \"ADI\"\nID1130",
       "name_translations": {},
       "description": "",
@@ -1645,18 +1645,20 @@
       "base_price": 29.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560701755-n1u7nl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-adi-id1130-2bjfqu",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-adi-id1130-phoyxs",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:44:58.843Z"
+      "updated_at": "2026-08-24T08:38:36.134Z"
     },
     {
       "id": "d89c2d4b-a929-43f8-9484-c716be4d930c",
-      "slug": "argvnyt-akrylyt-dgm-itay-id1129-sx3jf1",
+      "slug": "argvnyt-akrylyt-dgm-itay-id1129-wi25x0",
       "name": "ארגונית אקרילית דגם \"ITAY\"\nID1129",
       "name_translations": {},
       "description": "",
@@ -1667,18 +1669,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560713548-bpu3yt.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-itay-id1129-sx3jf1",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-itay-id1129-wi25x0",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:44:58.840Z"
+      "updated_at": "2026-08-24T08:38:47.181Z"
     },
     {
       "id": "ca39f89e-1511-4f84-9cc3-79ec2c4898d6",
-      "slug": "argvnyt-akrylyt-dgm-ori-id1128-zajtlm",
+      "slug": "argvnyt-akrylyt-dgm-ori-id1128-xt9le8",
       "name": "ארגונית אקרילית  דגם \"ORI\"\nID1128",
       "name_translations": {},
       "description": "",
@@ -1689,14 +1693,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560725233-g8w1m.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ori-id1128-zajtlm",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ori-id1128-xt9le8",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:44:58.780Z"
+      "updated_at": "2026-08-24T08:38:55.420Z"
     },
     {
       "id": "63144e7b-3444-4fc4-a5b3-428e7b6badce",
