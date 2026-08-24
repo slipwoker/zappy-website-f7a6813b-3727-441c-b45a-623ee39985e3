@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 24 Aug 2026 08:39:32 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 08:41:15 GMT</lastBuildDate>
     <item>
       <g:id>323357d3-09f0-404d-80a0-99cf38e02701</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -1307,7 +1307,8 @@ ID1128</g:title>
 20 ס&quot;מ ID1117
 </g:title>
       <g:description>סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.</g:description>
-      <g:link>https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-0vglll</g:link>
+      <g:link>https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-aiz2sy</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1787560757794-e1k37f.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>62.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -1565,11 +1566,30 @@ ID1128</g:title>
       <g:product_type>סירים ומחבתות</g:product_type>
     </item>
     <item>
-      <g:id>17c02fe2-789c-4582-84b7-c434a43d654c</g:id>
+      <g:id>ca5f858e-3077-4519-b34e-da95b54ca903</g:id>
       <g:title>מחבת גריל אלומיניום סדרת LUSSO
-28 ס&quot;מ ID1174</g:title>
+28 ס&quot;מ ID1174 - Beige</g:title>
       <g:description>סדרת מחבתות היציקה LUSSO – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK לבישול נוח ותוצאות מושלמות. עיצוב יוקרתי, פיזור חום אחיד ואיכות שמרגישים בכל שימוש.</g:description>
-      <g:link>https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-n8y9ke</g:link>
+      <g:link>https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-50s6nt</g:link>
+      <g:item_group_id>17c02fe2-789c-4582-84b7-c434a43d654c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1787560784757-gid76h.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1787560807723-rm10wi.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>89.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>סירים ומחבתות</g:product_type>
+    </item>
+    <item>
+      <g:id>4f1efd4d-e90f-4ee8-9a56-9474e2e0eb79</g:id>
+      <g:title>מחבת גריל אלומיניום סדרת LUSSO
+28 ס&quot;מ ID1174 - Gray</g:title>
+      <g:description>סדרת מחבתות היציקה LUSSO – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK לבישול נוח ותוצאות מושלמות. עיצוב יוקרתי, פיזור חום אחיד ואיכות שמרגישים בכל שימוש.</g:description>
+      <g:link>https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-50s6nt</g:link>
+      <g:item_group_id>17c02fe2-789c-4582-84b7-c434a43d654c</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1787560784757-gid76h.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1787560807723-rm10wi.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>89.90 ILS</g:price>
       <g:condition>new</g:condition>

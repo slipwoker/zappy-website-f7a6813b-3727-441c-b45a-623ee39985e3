@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:39:32.708Z",
+  "generated_at": "2026-08-24T08:41:15.344Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2210,7 +2210,7 @@
     },
     {
       "id": "be018845-6506-4c9d-9960-939d74d5c12a",
-      "slug": "syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-0vglll",
+      "slug": "syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-aiz2sy",
       "name": "סיר יציקת אלומיניום מוקה MADERA\n20 ס\"מ ID1117\n",
       "name_translations": {},
       "description": "",
@@ -2221,14 +2221,16 @@
       "base_price": 62.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560757794-e1k37f.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-0vglll",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-aiz2sy",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T08:11:48.052Z"
+      "updated_at": "2026-08-24T08:39:47.881Z"
     },
     {
       "id": "62d42330-f1f7-42a1-a3f5-86c68607324e",
@@ -2640,7 +2642,7 @@
     },
     {
       "id": "17c02fe2-789c-4582-84b7-c434a43d654c",
-      "slug": "mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-n8y9ke",
+      "slug": "mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-50s6nt",
       "name": "מחבת גריל אלומיניום סדרת LUSSO\n28 ס\"מ ID1174",
       "name_translations": {},
       "description": "",
@@ -2651,14 +2653,17 @@
       "base_price": 89.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560784757-gid76h.webp",
+        "https://streetstock.co.il/assets/product-1787560807723-rm10wi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-n8y9ke",
+      "url": "https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-50s6nt",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.211Z"
+      "updated_at": "2026-08-24T08:40:57.905Z"
     },
     {
       "id": "9d075bcd-ed5c-42cd-868e-5e1a23b37cb0",
