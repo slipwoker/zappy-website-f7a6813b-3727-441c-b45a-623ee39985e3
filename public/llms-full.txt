@@ -6774,7 +6774,7 @@ Availability: In stock
 
 ### פח דוושה 50 ליטר צבע שחור
 דגם PRIME
-URL: https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-d8q127
+URL: https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-j8u6m4
 Price: 399.90 ILS
 Availability: In stock
 
@@ -6798,7 +6798,7 @@ Availability: In stock
 
 ### פח 30 ליטר דוושה דגם URBANO
 צבע שמנת ID1095
-URL: https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shmnt-id1095-5ldwvw
+URL: https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shmnt-id1095-1tb2c9
 Price: 349.90 ILS
 Availability: In stock
 
@@ -12400,7 +12400,7 @@ SKU: 7290121563079
 ---
 
 ### פח 53 ליטר מוקה PURE TOUCH
-URL: https://streetstock.co.il/product/pch-53-lytr-mvkh-pure-touch-ale8ar
+URL: https://streetstock.co.il/product/pch-53-lytr-mvkh-pure-touch-iy3a3w
 Price: 299.90 ILS
 Availability: In stock
 SKU: 7290121560092

@@ -692,11 +692,12 @@ https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy
 
 ### פח דוושה 50 ליטר צבע שחור
 דגם PRIME
-https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-d8q127
+https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-j8u6m4
 - Price: 399.90 ILS
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.
+- Image: https://streetstock.co.il/assets/product-1787560203282-q6fdw.webp
 
 ### פח 30 ליטר דוושה דגם URBANO
 צבע זהב ID1097
@@ -718,11 +719,12 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1
 
 ### פח 30 ליטר דוושה דגם URBANO
 צבע שמנת ID1095
-https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shmnt-id1095-5ldwvw
+https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shmnt-id1095-1tb2c9
 - Price: 349.90 ILS
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח 30 ליטר עם דוושה לפתיחה נוחה והיגיינית, כולל דלי פנימי נשלף לריקון וניקוי קל. עיצוב נקי ופרקטי המתאים לכל מטבח.
+- Image: https://streetstock.co.il/assets/product-1787560214919-8bqtli.webp
 
 ### פח 30 ליטר דוושה דגם URBANO
 צבע שחור ID1093
