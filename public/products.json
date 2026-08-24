@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:16:15.537Z",
+  "generated_at": "2026-08-24T08:17:09.024Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2432,7 +2432,7 @@
     },
     {
       "id": "db6c6789-4cc6-4f12-b353-5afdd7b52ecd",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-u5oxtr",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-5v7f6g",
       "name": "סיר יציקת אלומיניום שמנת MORO\n28 ס\"מ סוטאז' ID1104\n",
       "name_translations": {},
       "description": "",
@@ -2443,18 +2443,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559364653-mk6ijd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-u5oxtr",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-5v7f6g",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.339Z"
+      "updated_at": "2026-08-24T08:16:21.527Z"
     },
     {
       "id": "c844d9d3-8f14-4268-98f1-0500b6a7f94b",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-144gox",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-78en68",
       "name": "סיר יציקת אלומיניום שחור MORO\n20 ס\"מ ID1106\n",
       "name_translations": {},
       "description": "",
@@ -2465,18 +2467,20 @@
       "base_price": 109.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559380101-zlnwm4.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-144gox",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-78en68",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.339Z"
+      "updated_at": "2026-08-24T08:16:35.544Z"
     },
     {
       "id": "5fbd709e-5265-4c6c-bdee-827f7ea70c99",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-w2l8za",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-r1prh3",
       "name": "סיר יציקת אלומיניום שמנת MORO\nסוטאז' 24 ס\"מ ID1172\n",
       "name_translations": {},
       "description": "",
@@ -2487,18 +2491,20 @@
       "base_price": 109.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559394661-s43fo2.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-w2l8za",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-r1prh3",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.337Z"
+      "updated_at": "2026-08-24T08:16:49.420Z"
     },
     {
       "id": "be98ff65-7d4f-4f0e-bb1a-ae5c62ff53c2",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-k130ew",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-ahvati",
       "name": "סיר יציקת אלומיניום שמנת MORO\n24 ס\"מ ID1102\n",
       "name_translations": {},
       "description": "",
@@ -2509,14 +2515,16 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559409212-j5rj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-k130ew",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-ahvati",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.268Z"
+      "updated_at": "2026-08-24T08:17:00.718Z"
     },
     {
       "id": "e60f6371-7279-4bf6-8190-6f141662d5f9",
