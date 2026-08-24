@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T07:59:02.531Z",
+  "generated_at": "2026-08-24T07:59:42.276Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -439,7 +439,7 @@
     },
     {
       "id": "0cbb0759-c559-458e-a7b0-0c9dfdbb8682",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-lbn-5jkvhp",
+      "slug": "mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-lbn-va37zs",
       "name": "מראה עגולה מסגרת אלומיניום\n60 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
@@ -450,14 +450,16 @@
       "base_price": 139.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558333603-h0n4sp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-lbn-5jkvhp",
+      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-lbn-va37zs",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:07.312Z"
+      "updated_at": "2026-08-24T07:59:12.936Z"
     },
     {
       "id": "f8fdf73e-9781-4e3e-8ddb-69c8f1112f1c",
