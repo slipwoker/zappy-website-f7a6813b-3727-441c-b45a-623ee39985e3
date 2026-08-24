@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T07:56:18.105Z",
+  "generated_at": "2026-08-24T07:57:08.760Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -247,7 +247,7 @@
     },
     {
       "id": "ad9738cb-5d76-4786-b5e8-c8c65382d974",
-      "slug": "msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-geu0m5",
+      "slug": "msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-7dpmet",
       "name": "מסגרת תמונה 13X18 ס\"מ BASIC\nצבע שחור ID1075",
       "name_translations": {},
       "description": "",
@@ -258,18 +258,20 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558174913-900t3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-geu0m5",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-7dpmet",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:08.949Z"
+      "updated_at": "2026-08-24T07:56:30.459Z"
     },
     {
       "id": "fc4c4a08-2f8f-4c41-87d8-1cbbf926988a",
-      "slug": "msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-xl48d2",
+      "slug": "msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-b9c60j",
       "name": "מסגרת תמונה 13X18 ס\"מ BASIC\nצבע לבן ID1074",
       "name_translations": {},
       "description": "",
@@ -280,14 +282,16 @@
       "base_price": 9.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558188554-glpyn9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-xl48d2",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-b9c60j",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:08.878Z"
+      "updated_at": "2026-08-24T07:56:41.894Z"
     },
     {
       "id": "4894856b-f98d-46c2-b27f-fb1c15a93b1c",

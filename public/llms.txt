@@ -152,17 +152,19 @@ https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-ats-id1076-pea
 
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע שחור ID1075
-https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-geu0m5
+https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-7dpmet
 - Price: 9.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558174913-900t3.webp
 
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע לבן ID1074
-https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-xl48d2
+https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-b9c60j
 - Price: 9.90 ILS
 - Availability: In stock
 - Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558188554-glpyn9.webp
 
 ### מראה עגולה מסגרת אלומיניום
 80 ס"מ צבע זהב
