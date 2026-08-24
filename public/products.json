@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-22T17:44:14.157Z",
+  "generated_at": "2026-08-24T06:57:47.841Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 644,
+  "count": 641,
   "products": [
     {
       "id": "05759545-76da-48c4-8c2f-2b1984301623",
@@ -11488,30 +11488,6 @@
       "updated_at": "2026-07-27T08:00:22.410Z"
     },
     {
-      "id": "cb4a764b-dfc2-4526-b8e9-8058b25e74d4",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-shchvr-60-sm-uz3hit",
-      "name": "מראה עגולה מסגרת אלומיניום שחור\r\n 60 ס\"מ\r\n ",
-      "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
-      "short_description": null,
-      "sku": "7290121567367",
-      "brand": null,
-      "price": 129.9,
-      "base_price": 129.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837700655-1bhaki.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-shchvr-60-sm-uz3hit",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-06-16T10:11:21.321Z"
-    },
-    {
       "id": "9289e42d-eb39-4443-8618-f63e1737f8fc",
       "slug": "st-th-kph-akryly-agvl-ktvbyvt-shchvr-gxajuq",
       "name": "סט תה קפה אקרילי עגול כתוביות שחור\r\n\r\n ",
@@ -13589,30 +13565,6 @@
       "updated_at": "2026-06-15T07:41:46.241Z"
     },
     {
-      "id": "61d1420e-d62e-4393-a261-688d5982415d",
-      "slug": "mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc",
-      "name": "מראה מלבנית מסגרת אלומיניום\r\n 40X60 ס\"מ",
-      "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
-      "short_description": null,
-      "sku": "7290121561365",
-      "brand": null,
-      "price": 99.9,
-      "base_price": 99.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659967-zb9qe.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-06-16T10:10:10.421Z"
-    },
-    {
       "id": "113c5198-3fa1-42fb-a24f-6ecac4151134",
       "slug": "mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft",
       "name": "מעמד 5 קומות צבע עץ\r\n דגם DARO\r\n",
@@ -13755,30 +13707,6 @@
         "מראות ומסגרות"
       ],
       "updated_at": "2026-06-16T10:12:15.074Z"
-    },
-    {
-      "id": "598350ec-5489-4d70-a0a6-0079b796f88b",
-      "slug": "mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i",
-      "name": "מראה מלבנית מסגרת אלומיניום\r\n 50X70 ס\"מ",
-      "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
-      "short_description": null,
-      "sku": "7290121561358",
-      "brand": null,
-      "price": 129.9,
-      "base_price": 129.9,
-      "sale_price": null,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659021-cm17c8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-06-16T10:10:30.762Z"
     },
     {
       "id": "77422bb9-11c5-40ef-8698-1e78c064f336",
