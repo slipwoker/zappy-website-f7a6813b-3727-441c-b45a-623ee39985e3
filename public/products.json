@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:13:34.609Z",
+  "generated_at": "2026-08-24T08:14:18.969Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2264,7 +2264,7 @@
     },
     {
       "id": "15c8d1d7-701b-4764-8395-0994ce1996fe",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-s1y8o9",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-gu88l0",
       "name": "סיר יציקת אלומיניום שחור MORO\n32 ס\"מ סוטאז' ID1110\n",
       "name_translations": {},
       "description": "",
@@ -2275,18 +2275,20 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559202478-mskibl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-s1y8o9",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-gu88l0",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:55.047Z"
+      "updated_at": "2026-08-24T08:13:43.203Z"
     },
     {
       "id": "007881b5-1996-4cb2-b125-0ec0198770c4",
-      "slug": "mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-bymoc9",
+      "slug": "mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-qgbkhk",
       "name": "מחבת יציקת אלומיניום שמנת MORO\n20 ס\"מ ID1111",
       "name_translations": {},
       "description": "",
@@ -2297,14 +2299,16 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559244919-i7xej.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-bymoc9",
+      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-qgbkhk",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:54.987Z"
+      "updated_at": "2026-08-24T08:14:14.085Z"
     },
     {
       "id": "f60daddd-9841-4608-9bfa-4e97f45ca428",
