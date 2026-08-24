@@ -6758,7 +6758,7 @@ Availability: In stock
 
 ### פח דוושה 50 ליטר צבע לבן
 דגם PRIME
-URL: https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-3yb1e8
+URL: https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc
 Price: 399.90 ILS
 Availability: In stock
 
@@ -6766,7 +6766,7 @@ Availability: In stock
 
 ### פח דוושה 50 ליטר צבע מוקה
 דגם PRIME
-URL: https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-wdl2wi
+URL: https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy
 Price: 399.90 ILS
 Availability: In stock
 
@@ -6782,7 +6782,7 @@ Availability: In stock
 
 ### פח 30 ליטר דוושה דגם URBANO
 צבע זהב ID1097
-URL: https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-2ne5o5
+URL: https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-cx528u
 Price: 349.90 ILS
 Availability: In stock
 
@@ -6790,7 +6790,7 @@ Availability: In stock
 
 ### פח 30 ליטר דוושה דגם URBANO
 צבע נירוסטה ID1096
-URL: https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-ec3q8x
+URL: https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-5glcdq
 Price: 349.90 ILS
 Availability: In stock
 

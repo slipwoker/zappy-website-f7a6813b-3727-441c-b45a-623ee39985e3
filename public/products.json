@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:29:26.420Z",
+  "generated_at": "2026-08-24T08:30:16.430Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1664,7 +1664,7 @@
     },
     {
       "id": "63144e7b-3444-4fc4-a5b3-428e7b6badce",
-      "slug": "pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-3yb1e8",
+      "slug": "pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc",
       "name": "פח דוושה 50 ליטר צבע לבן\nדגם PRIME",
       "name_translations": {},
       "description": "",
@@ -1675,18 +1675,20 @@
       "base_price": 399.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560155559-s7oqi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-3yb1e8",
+      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T07:44:58.716Z"
+      "updated_at": "2026-08-24T08:29:27.882Z"
     },
     {
       "id": "a853e267-4c1d-48ab-9592-9313917350fb",
-      "slug": "pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-wdl2wi",
+      "slug": "pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
       "name": "פח דוושה 50 ליטר צבע מוקה\nדגם PRIME",
       "name_translations": {},
       "description": "",
@@ -1697,14 +1699,16 @@
       "base_price": 399.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560181964-z09t62.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-wdl2wi",
+      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T07:44:58.641Z"
+      "updated_at": "2026-08-24T08:29:53.209Z"
     },
     {
       "id": "45ddb5c1-d97c-442b-a2e5-e0e33e6d2037",
@@ -1730,7 +1734,7 @@
     },
     {
       "id": "c5ff15bb-7968-4ec1-9054-c8d407d89120",
-      "slug": "pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-2ne5o5",
+      "slug": "pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-cx528u",
       "name": "פח 30 ליטר דוושה דגם URBANO\nצבע זהב ID1097",
       "name_translations": {},
       "description": "",
@@ -1741,18 +1745,20 @@
       "base_price": 349.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560167697-a4xrv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-2ne5o5",
+      "url": "https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-cx528u",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T07:44:57.641Z"
+      "updated_at": "2026-08-24T08:29:42.605Z"
     },
     {
       "id": "1e522c08-1156-40a9-8e01-bf25e53dddcf",
-      "slug": "pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-ec3q8x",
+      "slug": "pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-5glcdq",
       "name": "פח 30 ליטר דוושה דגם URBANO\nצבע נירוסטה ID1096",
       "name_translations": {},
       "description": "",
@@ -1763,14 +1769,16 @@
       "base_price": 349.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560193201-oyo8yv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-ec3q8x",
+      "url": "https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-5glcdq",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-24T07:44:57.637Z"
+      "updated_at": "2026-08-24T08:30:03.634Z"
     },
     {
       "id": "b1822742-caa5-45df-855d-8999204f90ab",
