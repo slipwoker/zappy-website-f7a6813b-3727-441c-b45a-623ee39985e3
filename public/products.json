@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:41:15.344Z",
+  "generated_at": "2026-08-24T08:42:05.692Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1345,7 +1345,7 @@
     },
     {
       "id": "18e891d1-9a0e-4ec7-b8b1-c0e70f279be3",
-      "slug": "argvnyt-akrylyt-mksh-dgm-yan-id1144-x6a8n9",
+      "slug": "argvnyt-akrylyt-mksh-dgm-yan-id1144-7appip",
       "name": "ארגונית אקרילית + מכסה דגם \"YAN\"\nID1144",
       "name_translations": {},
       "description": "",
@@ -1356,15 +1356,17 @@
       "base_price": 59.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560907631-17f25.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yan-id1144-x6a8n9",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yan-id1144-7appip",
       "categories": [
         "ארגוניות אקריל",
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.178Z"
+      "updated_at": "2026-08-24T08:41:56.766Z"
     },
     {
       "id": "7556bf7e-a200-4745-952f-e12784a6737e",
@@ -2667,7 +2669,7 @@
     },
     {
       "id": "9d075bcd-ed5c-42cd-868e-5e1a23b37cb0",
-      "slug": "syr-ytsykt-alvmynyvm-mvkh-lusso-svtaz-24-sm-id1171-gv85tq",
+      "slug": "syr-ytsykt-alvmynyvm-mvkh-lusso-svtaz-24-sm-id1171-ay6qyl",
       "name": "סיר יציקת אלומיניום מוקה LUSSO\nסוטאז' 24 ס\"מ ID1171\n",
       "name_translations": {},
       "description": "",
@@ -2678,18 +2680,20 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560852981-7mvl9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-lusso-svtaz-24-sm-id1171-gv85tq",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-lusso-svtaz-24-sm-id1171-ay6qyl",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.208Z"
+      "updated_at": "2026-08-24T08:41:20.622Z"
     },
     {
       "id": "039cfd90-15ee-4caa-8a2c-d66360b77d14",
-      "slug": "syr-ytsykt-alvmynyvm-apvr-lusso-svtaz-24-sm-id1170-y5j7lk",
+      "slug": "syr-ytsykt-alvmynyvm-apvr-lusso-svtaz-24-sm-id1170-fo4xij",
       "name": "סיר יציקת אלומיניום אפור LUSSO\nסוטאז' 24 ס\"מ ID1170\n",
       "name_translations": {},
       "description": "",
@@ -2700,14 +2704,16 @@
       "base_price": 99.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560880726-kr84k.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-apvr-lusso-svtaz-24-sm-id1170-y5j7lk",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-apvr-lusso-svtaz-24-sm-id1170-fo4xij",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:53.190Z"
+      "updated_at": "2026-08-24T08:41:29.528Z"
     },
     {
       "id": "65d281b3-209c-419c-9c62-0bdc59d3e91a",
