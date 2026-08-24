@@ -1069,11 +1069,12 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-7fz28y
 
 ### סט פח + מברשת דגם AUREL
 צבע שחור ID1088
-https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shchvr-id1088-hozhti
+https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shchvr-id1088-jezlf3
 - Price: 124.90 ILS
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
+- Image: https://streetstock.co.il/assets/product-1787560002159-jfm36m.webp
 
 ### סט פח + מברשת דגם AUREL
 צבע נירוסטה ID1091
@@ -1120,11 +1121,12 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-k
 
 ### סט פח + מברשת דגם LUCENTO
 צבע מוקה ID1084
-https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-mvkh-id1084-gyadt9
+https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-mvkh-id1084-z2ysiu
 - Price: 99.90 ILS
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
+- Image: https://streetstock.co.il/assets/product-1787560016606-396ccn.webp
 
 ### סט פח + מברשת דגם LUCENTO
 צבע שמנת ID1085
