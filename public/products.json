@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:03:04.473Z",
+  "generated_at": "2026-08-24T08:05:04.593Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -706,7 +706,7 @@
     },
     {
       "id": "47e2d0f7-8240-4e51-bc16-b37f0b18125a",
-      "slug": "mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-lbn-cqw69o",
+      "slug": "mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-lbn-7360vi",
       "name": "מראה חצי אובלית מסגרת אלומיניום\n45X60 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
@@ -717,18 +717,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558579377-ks6fxo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-lbn-cqw69o",
+      "url": "https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-lbn-7360vi",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:05.607Z"
+      "updated_at": "2026-08-24T08:03:32.413Z"
     },
     {
       "id": "b50d9aa6-8b4b-42bd-ae60-6e12813b9fcd",
-      "slug": "mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-shchvr-553bbp",
+      "slug": "mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-shchvr-xy868e",
       "name": "מראה חצי אובלית מסגרת אלומיניום\n45X60 ס\"מ צבע שחור",
       "name_translations": {},
       "description": "",
@@ -739,18 +741,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558592036-31lcsm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-shchvr-553bbp",
+      "url": "https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-shchvr-xy868e",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:05.560Z"
+      "updated_at": "2026-08-24T08:03:54.220Z"
     },
     {
       "id": "d13483d7-e81a-4dcb-b798-ad1c6a6cf9cd",
-      "slug": "mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-mvkh-yc2ri6",
+      "slug": "mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-mvkh-qqc68c",
       "name": "מראה אובלית מסגרת אלומיניום\n45X80 ס\"מ צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -761,18 +765,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558632306-kjrjw2.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-mvkh-yc2ri6",
+      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-mvkh-qqc68c",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:05.560Z"
+      "updated_at": "2026-08-24T08:04:10.719Z"
     },
     {
       "id": "185b7deb-680c-43c8-9b59-63ed5abb8b32",
-      "slug": "mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-zhb-1j2g3x",
+      "slug": "mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-zhb-nlcvoz",
       "name": "מראה אובלית מסגרת אלומיניום\n45X80 ס\"מ צבע זהב",
       "name_translations": {},
       "description": "",
@@ -783,18 +789,20 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558650135-zur1dhp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-zhb-1j2g3x",
+      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-zhb-nlcvoz",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:05.560Z"
+      "updated_at": "2026-08-24T08:04:26.532Z"
     },
     {
       "id": "d891eaab-f81d-4ea5-9f75-1f886c59091a",
-      "slug": "mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-lbn-cyo9iq",
+      "slug": "mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-lbn-6kr2ou",
       "name": "מראה אובלית מסגרת אלומיניום\n45X80 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
@@ -805,14 +813,16 @@
       "base_price": 129.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558665165-lp2y7m.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-lbn-cyo9iq",
+      "url": "https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-lbn-6kr2ou",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:04.228Z"
+      "updated_at": "2026-08-24T08:04:49.353Z"
     },
     {
       "id": "7c74e525-b9e6-488d-8975-e81909f77794",
