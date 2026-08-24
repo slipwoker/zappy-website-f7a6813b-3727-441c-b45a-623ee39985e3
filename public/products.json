@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:11:19.099Z",
+  "generated_at": "2026-08-24T08:12:09.528Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -2074,7 +2074,7 @@
     },
     {
       "id": "b7f1ca79-8c2a-4ea3-b2d1-58a1e234906e",
-      "slug": "syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-svtaz-id1120-awhjrb",
+      "slug": "syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-svtaz-id1120-if5k0b",
       "name": "סיר יציקת אלומיניום מוקה MADERA\n24 ס\"מ סוטאז' ID1120\n",
       "name_translations": {},
       "description": "",
@@ -2085,18 +2085,20 @@
       "base_price": 62.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559067507-uzrjpb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-svtaz-id1120-awhjrb",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-svtaz-id1120-if5k0b",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:56.199Z"
+      "updated_at": "2026-08-24T08:11:20.568Z"
     },
     {
       "id": "402da4c2-f17b-4ab8-a71c-241a81df6bd9",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-svtaz-id1125-to9ptr",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-svtaz-id1125-8ojft6",
       "name": "סיר יציקת אלומיניום שחור MADERA\n24 ס\"מ סוטאז' ID1125\n",
       "name_translations": {},
       "description": "",
@@ -2107,14 +2109,16 @@
       "base_price": 62.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787559079965-m5dg4x.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-svtaz-id1125-to9ptr",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-svtaz-id1125-8ojft6",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:56.199Z"
+      "updated_at": "2026-08-24T08:11:41.850Z"
     },
     {
       "id": "91e3ad38-7ba7-441b-a629-f9e1eba53767",
@@ -2140,7 +2144,7 @@
     },
     {
       "id": "be018845-6506-4c9d-9960-939d74d5c12a",
-      "slug": "syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-tbatdx",
+      "slug": "syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-0vglll",
       "name": "סיר יציקת אלומיניום מוקה MADERA\n20 ס\"מ ID1117\n",
       "name_translations": {},
       "description": "",
@@ -2154,11 +2158,11 @@
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-tbatdx",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-0vglll",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-08-24T07:44:56.123Z"
+      "updated_at": "2026-08-24T08:11:48.052Z"
     },
     {
       "id": "62d42330-f1f7-42a1-a3f5-86c68607324e",
