@@ -6217,7 +6217,7 @@ Availability: In stock
 
 ### מסגרת תמונה BASIC A4
  צבע עץ ID1079
-URL: https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-l5dryf
+URL: https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-4xwn2e
 Price: 14.90 ILS
 Availability: In stock
 
@@ -6225,7 +6225,7 @@ Availability: In stock
 
 ### מסגרת תמונה BASIC A4
  צבע לבן ID1077
-URL: https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-lbn-id1077-xzgmql
+URL: https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-lbn-id1077-lszovt
 Price: 14.90 ILS
 Availability: In stock
 

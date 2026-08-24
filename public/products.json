@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T07:54:58.823Z",
+  "generated_at": "2026-08-24T07:55:23.888Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -103,7 +103,7 @@
     },
     {
       "id": "bff5c3a7-82aa-4d75-bbec-417efc90343b",
-      "slug": "msgrt-tmvnh-basic-a4-tsba-ats-id1079-l5dryf",
+      "slug": "msgrt-tmvnh-basic-a4-tsba-ats-id1079-4xwn2e",
       "name": "מסגרת תמונה BASIC A4\n צבע עץ ID1079",
       "name_translations": {},
       "description": "",
@@ -114,18 +114,20 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558089166-kjru9h8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-l5dryf",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-4xwn2e",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:09.078Z"
+      "updated_at": "2026-08-24T07:55:02.847Z"
     },
     {
       "id": "fd90f4a0-12a2-437e-b520-f802f95ee663",
-      "slug": "msgrt-tmvnh-basic-a4-tsba-lbn-id1077-xzgmql",
+      "slug": "msgrt-tmvnh-basic-a4-tsba-lbn-id1077-lszovt",
       "name": "מסגרת תמונה BASIC A4\n צבע לבן ID1077",
       "name_translations": {},
       "description": "",
@@ -136,14 +138,16 @@
       "base_price": 14.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558101526-dlis6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-lbn-id1077-xzgmql",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-lbn-id1077-lszovt",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:09.073Z"
+      "updated_at": "2026-08-24T07:55:16.380Z"
     },
     {
       "id": "ce8c41e6-9cb1-439d-8524-6d441bfef911",
