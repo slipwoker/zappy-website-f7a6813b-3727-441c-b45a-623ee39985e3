@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T07:57:18.032Z",
+  "generated_at": "2026-08-24T07:58:40.014Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -295,7 +295,7 @@
     },
     {
       "id": "4894856b-f98d-46c2-b27f-fb1c15a93b1c",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-hdkgtm",
+      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-ou6stz",
       "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע זהב",
       "name_translations": {},
       "description": "",
@@ -306,18 +306,20 @@
       "base_price": 179.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558240818-fsvmp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-hdkgtm",
+      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-ou6stz",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:08.786Z"
+      "updated_at": "2026-08-24T07:57:33.327Z"
     },
     {
       "id": "28fb8408-3091-4ced-8150-4f9ab20e7890",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-cpyjpe",
+      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-8czf43",
       "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע מוקה",
       "name_translations": {},
       "description": "",
@@ -328,18 +330,20 @@
       "base_price": 179.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558251827-by4nxc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-cpyjpe",
+      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-8czf43",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:07.318Z"
+      "updated_at": "2026-08-24T07:57:47.206Z"
     },
     {
       "id": "2e672cef-64b4-4185-a15c-7ff10c7043b3",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6mwgan",
+      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6ctptc",
       "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע שחור",
       "name_translations": {},
       "description": "",
@@ -350,18 +354,20 @@
       "base_price": 179.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558266207-5iegmx.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6mwgan",
+      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6ctptc",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:07.314Z"
+      "updated_at": "2026-08-24T07:58:13.381Z"
     },
     {
       "id": "af3f2138-c0da-4b9b-a493-353b2aaf6cef",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-9i7y2v",
+      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-1wjd8b",
       "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
@@ -372,14 +378,16 @@
       "base_price": 179.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787558291422-3xuczh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-9i7y2v",
+      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-1wjd8b",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-24T07:45:07.314Z"
+      "updated_at": "2026-08-24T07:58:25.766Z"
     },
     {
       "id": "06e58b8e-a299-4735-8f66-156955fdcad4",

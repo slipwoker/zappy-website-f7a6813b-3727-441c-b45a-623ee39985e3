@@ -1145,8 +1145,11 @@
       if (toggle.__zappyMobileToggleBound) return;
       toggle.__zappyMobileToggleBound = true;
 
-      // Repair baked open-icon styles when the menu is actually closed.
-      if (!menuIsOpen(navMenu)) setClosedIcons(toggle);
+      // Always start closed. A save while the overlay was open bakes
+      // .nav-menu.active into HTML; repairing icons alone leaves the panel up.
+      closeMenu(navMenu);
+      setClosedIcons(toggle);
+      document.body.style.overflow = '';
 
       toggle.addEventListener('click', function(e) {
         e.preventDefault();
