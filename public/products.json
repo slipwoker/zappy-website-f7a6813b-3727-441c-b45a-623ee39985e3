@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-24T08:37:02.563Z",
+  "generated_at": "2026-08-24T08:37:32.767Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1442,7 +1442,7 @@
     },
     {
       "id": "94476547-a2a7-4039-bd2b-38977cfe504f",
-      "slug": "argvnyt-akrylyt-dgm-avia-id1136-89whbi",
+      "slug": "argvnyt-akrylyt-dgm-avia-id1136-1j4l1f",
       "name": "ארגונית אקרילית דגם \"AVIA\"\nID1136",
       "name_translations": {},
       "description": "",
@@ -1453,14 +1453,16 @@
       "base_price": 4.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560630109-s732t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-89whbi",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-1j4l1f",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.054Z"
+      "updated_at": "2026-08-24T08:37:27.465Z"
     },
     {
       "id": "322d2c0f-82d7-4b6c-903e-4629fc061ff7",
@@ -1488,7 +1490,7 @@
     },
     {
       "id": "b49113cc-e2eb-4af0-a1f4-052eb1ebf027",
-      "slug": "argvnyt-akrylyt-dgm-on-id1137-3c0eyx",
+      "slug": "argvnyt-akrylyt-dgm-on-id1137-4z252v",
       "name": "ארגונית אקרילית דגם \"ON\"\nID1137",
       "name_translations": {},
       "description": "",
@@ -1499,14 +1501,16 @@
       "base_price": 11.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1787560613743-ya025.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-3c0eyx",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-4z252v",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-08-24T07:45:00.052Z"
+      "updated_at": "2026-08-24T08:37:12.274Z"
     },
     {
       "id": "6cc67855-f472-4ce1-8598-77d9d397c3d3",

@@ -6670,7 +6670,7 @@ Availability: In stock
 
 ### ארגונית אקרילית דגם "AVIA"
 ID1136
-URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-89whbi
+URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-1j4l1f
 Price: 4.90 ILS
 Availability: In stock
 
@@ -6686,7 +6686,7 @@ Availability: In stock
 
 ### ארגונית אקרילית דגם "ON"
 ID1137
-URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-3c0eyx
+URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-4z252v
 Price: 11.90 ILS
 Availability: In stock
 
