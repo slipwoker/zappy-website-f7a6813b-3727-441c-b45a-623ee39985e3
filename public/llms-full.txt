@@ -9080,13 +9080,6 @@ Availability: In stock
 
 ---
 
-### סט 3 ארגוניות מגירה דגם "CARMEL" מידה L
-URL: https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-bw6e0g
-Price: 99.90 ILS
-Availability: In stock
-
----
-
 ### ארגונית אקרילית דגם "ANAT"
 URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-anat-zzujpi
 Price: 6.90 ILS
@@ -9097,13 +9090,6 @@ Availability: In stock
 ### ארגונית אקרילית דגם "SHOPIA" 
 URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-shopia-a5gcnx
 Price: 14.90 ILS
-Availability: In stock
-
----
-
-### סט 4 ארגוניות מגירה דגם "CARMEL" מידה M
-URL: https://streetstock.co.il/product/st-4-argvnyvt-mgyrh-dgm-carmel-mydh-m-qgxphu
-Price: 99.90 ILS
 Availability: In stock
 
 ---
