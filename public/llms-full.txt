@@ -380,7 +380,7 @@ CTRL+F2
 
 ## מוצרים מומלצים
 
-
+עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!
 
 צפה בכל המוצרים →
 
@@ -1744,6 +1744,8 @@ Description: המוצרים שלנו - Street Stock
 
 
 
+
+טוען מוצרים...
 
 
 
@@ -4586,6 +4588,8 @@ Description: מוצרים - Street Stock
 
 
 
+
+טוען מוצרים...
 
 
 
@@ -8216,7 +8220,7 @@ Availability: In stock
 
 ### שטיח דגם ROVI מידות : 50X80 ס"מ
 צבע מוקה ID901 
-URL: https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-mvkh-id901-3vxpip
+URL: https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-mvkh-id901-pxzgaa
 Price: 39.90 ILS
 Availability: In stock
 
