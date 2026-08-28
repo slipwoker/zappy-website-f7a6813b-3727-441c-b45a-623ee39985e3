@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:25:20.233Z",
+  "generated_at": "2026-08-28T06:34:35.908Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -2917,7 +2917,7 @@
     },
     {
       "id": "6deb3487-9ba2-4c63-900e-f82e92246491",
-      "slug": "st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-lkca05",
+      "slug": "st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-vnwt9a",
       "name": "סט פח + מברשת דגם LUCENTO\nצבע שמנת ID1085",
       "name_translations": {},
       "description": "",
@@ -2929,16 +2929,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1787560040168-lgtv7d.webp"
+        "https://streetstock.co.il/assets/product-1787898821779-ujnsk.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-lkca05",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-vnwt9a",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T08:27:32.674Z"
+      "updated_at": "2026-08-28T06:34:00.005Z"
     },
     {
       "id": "4e86935d-ee3a-4c8e-9610-28be162cfb72",
