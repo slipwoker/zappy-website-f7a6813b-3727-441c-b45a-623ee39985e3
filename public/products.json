@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:50:07.921Z",
+  "generated_at": "2026-08-28T06:52:03.943Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -14374,16 +14374,16 @@
     },
     {
       "id": "121e2bd2-9c8d-4d9f-b8ce-5da17d690842",
-      "slug": "dyspnsr-lsbvn-dgm-avero-tsba-lbn-2mlr5j",
+      "slug": "dyspnsr-lsbvn-dgm-avero-tsba-lbn-4uzy4u",
       "name": "דיספנסר לסבון דגם AVERO צבע לבן",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563147",
       "brand": null,
-      "price": 29.9,
+      "price": 24.9,
       "base_price": 29.9,
-      "sale_price": null,
+      "sale_price": 24.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785139076788-kl4h3.webp",
@@ -14392,12 +14392,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-avero-tsba-lbn-2mlr5j",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-avero-tsba-lbn-4uzy4u",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:11.086Z"
+      "updated_at": "2026-08-28T06:51:44.726Z"
     },
     {
       "id": "a0cf96c1-8b75-419d-be3b-7833bb6250a1",
@@ -18312,27 +18312,27 @@
     },
     {
       "id": "c25860ac-3c84-4312-bce4-f1c2bd0250a2",
-      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-ts9do7",
+      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-1l2k3v",
       "name": "פח 33 ליטר צבע מוקה TOUCH PURE",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\nנפתח על ידי לחיצה קלה\nקל לניקוי\nטבעת פנימית לאחיזה של השקיות אשפה",
       "sku": "7290121560023",
       "brand": null,
-      "price": 249.9,
+      "price": 199.9,
       "base_price": 249.9,
-      "sale_price": null,
+      "sale_price": 199.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837632799-l68m3s.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-ts9do7",
+      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-1l2k3v",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-28T06:42:08.854Z"
+      "updated_at": "2026-08-28T06:51:29.625Z"
     },
     {
       "id": "b405ab56-ad3e-48ea-95fb-82eb034d3f6c",
