@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:24:29.840Z",
+  "generated_at": "2026-08-28T06:25:20.233Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -6445,7 +6445,7 @@
     },
     {
       "id": "9f942884-7f34-4b67-b2c0-aed2b9d7ef00",
-      "slug": "shtych-dgm-nexo-mydvt-50x80-smtsba-apvr-bhyr-id910-v234le",
+      "slug": "shtych-dgm-nexo-mydvt-50x80-smtsba-apvr-bhyr-id910-6pu79r",
       "name": "שטיח דגם NEXO מידות : 50X80 ס\"מצבע אפור בהיר ID910",
       "name_translations": {},
       "description": "",
@@ -6457,20 +6457,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785131050489-rlvlim.webp"
+        "https://streetstock.co.il/assets/product-1785131050489-rlvlim.webp",
+        "https://streetstock.co.il/assets/product-1787898259143-2fflae.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-smtsba-apvr-bhyr-id910-v234le",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-smtsba-apvr-bhyr-id910-6pu79r",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:24:41.654Z"
     },
     {
       "id": "5cb671fb-8314-4d89-861c-6341ab267830",
-      "slug": "shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-11enhc",
+      "slug": "shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-9e3yd7",
       "name": "שטיח דגם NEXO מידות : 50X80 ס\"מ\nצבע בז' ID909 ",
       "name_translations": {},
       "description": "",
@@ -6482,16 +6483,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785131024231-9lqpc6.webp"
+        "https://streetstock.co.il/assets/product-1785131024231-9lqpc6.webp",
+        "https://streetstock.co.il/assets/product-1787898275423-0uhcj8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-11enhc",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-50x80-sm-tsba-bz-id909-9e3yd7",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:24:45.919Z"
     },
     {
       "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
