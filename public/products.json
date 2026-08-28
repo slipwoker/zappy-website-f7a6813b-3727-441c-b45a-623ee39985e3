@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:19:05.544Z",
+  "generated_at": "2026-08-28T06:19:44.900Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -6124,7 +6124,7 @@
     },
     {
       "id": "75d609a0-0dbd-49c8-aec1-b21c22443ca0",
-      "slug": "shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-j106re",
+      "slug": "shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-fix8ey",
       "name": "שטיח דגם ROVI מידות : 50X150 ס\"מ\nצבע מוקה ID907 ",
       "name_translations": {},
       "description": "",
@@ -6136,20 +6136,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130925816-4gnqgx.webp"
+        "https://streetstock.co.il/assets/product-1785130925816-4gnqgx.webp",
+        "https://streetstock.co.il/assets/product-1787897910272-7kmks.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-j106re",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x150-sm-tsba-mvkh-id907-fix8ey",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:19:10.675Z"
     },
     {
       "id": "b8ec2345-0d06-4d6f-abcf-7f941d874fac",
-      "slug": "shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-9n8h3g",
+      "slug": "shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-qq6faf",
       "name": "שטיח דגם ROVI מידות : 50X80 ס\"מ\nצבע בז' ID900 ",
       "name_translations": {},
       "description": "",
@@ -6161,20 +6162,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130846476-ik5w3m.webp"
+        "https://streetstock.co.il/assets/product-1785130846476-ik5w3m.webp",
+        "https://streetstock.co.il/assets/product-1787897949072-v8elg4.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-9n8h3g",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x80-sm-tsba-bz-id900-qq6faf",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:19:25.243Z"
     },
     {
       "id": "772d64ab-243f-4476-9f1f-e79b204a3332",
-      "slug": "shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-h55vdv",
+      "slug": "shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-kfizk2",
       "name": "שטיח דגם ROVI מידות : 50X120 ס\"מ\nצבע מוקה ID904",
       "name_translations": {},
       "description": "",
@@ -6186,16 +6188,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130920656-9i2j89.webp"
+        "https://streetstock.co.il/assets/product-1785130920656-9i2j89.webp",
+        "https://streetstock.co.il/assets/product-1787897963932-73fc4.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-h55vdv",
+      "url": "https://streetstock.co.il/product/shtych-dgm-rovi-mydvt-50x120-sm-tsba-mvkh-id904-kfizk2",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:19:40.763Z"
     },
     {
       "id": "c408e73d-b4cb-4d1b-a943-5c9247cbc231",
