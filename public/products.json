@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:21:20.596Z",
+  "generated_at": "2026-08-28T06:21:59.643Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -5873,7 +5873,7 @@
     },
     {
       "id": "29ee5ce2-4d94-4921-ba05-409765d7bda7",
-      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-a8atd4",
+      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-p42xbc",
       "name": "שטיח דגם TAVO מידות : 60X90 ס\"מ\nצבע אפור כהה ID892 ",
       "name_translations": {},
       "description": "",
@@ -5885,20 +5885,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130601019-whuztg.webp"
+        "https://streetstock.co.il/assets/product-1785130601019-whuztg.webp",
+        "https://streetstock.co.il/assets/product-1787898065051-3pxva.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-a8atd4",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-khh-id892-p42xbc",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:21:22.403Z"
     },
     {
       "id": "95191bd3-dc83-4c04-96c3-f0176363e508",
-      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-ubzlpt",
+      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-er0x9s",
       "name": "שטיח דגם TAVO מידות : 60X90 ס\"מ\nצבע בז' ID891",
       "name_translations": {},
       "description": "",
@@ -5910,20 +5911,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130770093-939bha.webp"
+        "https://streetstock.co.il/assets/product-1785130770093-939bha.webp",
+        "https://streetstock.co.il/assets/product-1787898080703-jebwcs.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-ubzlpt",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-bz-id891-er0x9s",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:21:34.181Z"
     },
     {
       "id": "9b3becad-9843-4579-aadb-8c0ac7d287ba",
-      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-shjmt5",
+      "slug": "shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-09atxn",
       "name": "שטיח דגם TAVO מידות : 60X90 ס\"מ\nצבע אפור בהיר ID893 ",
       "name_translations": {},
       "description": "",
@@ -5935,16 +5937,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130663918-kyhoic.webp"
+        "https://streetstock.co.il/assets/product-1785130663918-kyhoic.webp",
+        "https://streetstock.co.il/assets/product-1787898093396-m277l2.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-shjmt5",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x90-sm-tsba-apvr-bhyr-id893-09atxn",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:21:48.911Z"
     },
     {
       "id": "50e19492-8ec0-4d7e-b491-cfbec95a4a07",
