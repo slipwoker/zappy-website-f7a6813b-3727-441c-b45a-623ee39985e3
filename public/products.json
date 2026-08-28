@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:43:13.565Z",
+  "generated_at": "2026-08-28T06:45:41.456Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -31,51 +31,51 @@
     },
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
-      "slug": "msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-z3hds6",
+      "slug": "msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-bpkht7",
       "name": "מסגרת תמונה BASIC A3\n צבע שחור ID1081",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 19.9,
+      "price": 17.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 17.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558042067-thupzc.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-z3hds6",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-shchvr-id1081-bpkht7",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-28T06:42:34.379Z"
+      "updated_at": "2026-08-28T06:44:45.157Z"
     },
     {
       "id": "9e0227ea-c92b-4eb9-bccc-bbb33dc458ff",
-      "slug": "msgrt-tmvnh-basic-a3-tsba-lbn-id1080-qt09aj",
+      "slug": "msgrt-tmvnh-basic-a3-tsba-lbn-id1080-wybbz7",
       "name": "מסגרת תמונה BASIC A3\n צבע לבן ID1080",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 19.9,
+      "price": 17.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 17.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558058888-gb2dhq.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-qt09aj",
+      "url": "https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-wybbz7",
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-28T06:41:53.861Z"
+      "updated_at": "2026-08-28T06:44:56.198Z"
     },
     {
       "id": "95f32dfc-369a-4a5f-9e3d-9dc26d39861d",
