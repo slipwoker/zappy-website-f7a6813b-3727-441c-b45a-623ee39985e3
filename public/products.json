@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:54:18.090Z",
+  "generated_at": "2026-08-28T06:54:48.118Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -5480,28 +5480,28 @@
     },
     {
       "id": "01c5ba56-464e-4bd4-94a3-5ac4e99b4827",
-      "slug": "kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-fmtdf1",
+      "slug": "kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-7r6nw0",
       "name": "כוס מברשת שיניים צבע לבן \nדגם ID922 AIRA",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 19.9,
+      "price": 15.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 15.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785304681911-23w7p.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-fmtdf1",
+      "url": "https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-lbn-dgm-id922-aira-7r6nw0",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:23.330Z"
+      "updated_at": "2026-08-28T06:54:23.485Z"
     },
     {
       "id": "afdab467-b7ce-49f4-ab35-0b4bd5a7ef6b",
