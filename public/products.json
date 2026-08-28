@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:23:59.903Z",
+  "generated_at": "2026-08-28T06:24:09.690Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -6393,7 +6393,7 @@
     },
     {
       "id": "aa8b942d-9fe2-4aa1-a0b7-1c615c81d3d6",
-      "slug": "shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-6dz0mj",
+      "slug": "shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-s4k8gr",
       "name": "שטיח דגם NEXO מידות : 60X120 ס\"מ\nצבע אפור בהיר ID913 ",
       "name_translations": {},
       "description": "",
@@ -6405,16 +6405,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785131061809-mkajk2.webp"
+        "https://streetstock.co.il/assets/product-1785131061809-mkajk2.webp",
+        "https://streetstock.co.il/assets/product-1787898231101-3n8jle.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-6dz0mj",
+      "url": "https://streetstock.co.il/product/shtych-dgm-nexo-mydvt-60x120-sm-tsba-apvr-bhyr-id913-s4k8gr",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:24:06.717Z"
     },
     {
       "id": "393cdac3-834e-443c-be55-b597d3da639e",
