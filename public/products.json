@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:34:35.908Z",
+  "generated_at": "2026-08-28T06:35:50.536Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -2842,7 +2842,7 @@
     },
     {
       "id": "04f8c75a-5308-48df-a1ea-ff224310780b",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-exbrtt",
+      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-dpnzm5",
       "name": "סט פח + מברשת דגם AUREL\nצבע שמנת ID1090",
       "name_translations": {},
       "description": "",
@@ -2854,16 +2854,16 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1787559939519-sqeye7.webp"
+        "https://streetstock.co.il/assets/product-1787898884175-4hg00g.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-exbrtt",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-dpnzm5",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T08:25:52.055Z"
+      "updated_at": "2026-08-28T06:35:16.301Z"
     },
     {
       "id": "bff3b9f7-5979-4491-93f0-254a6e202ff2",
