@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:22:24.692Z",
+  "generated_at": "2026-08-28T06:23:04.659Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -6003,7 +6003,7 @@
     },
     {
       "id": "20c416b7-61df-416e-b607-27d0dccc6340",
-      "slug": "shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-22tldr",
+      "slug": "shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-oln6vr",
       "name": "שטיח דגם TAVO מידות : 60X180 ס\"מ\nצבע בז' ID897 ",
       "name_translations": {},
       "description": "",
@@ -6015,20 +6015,21 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130803133-7ta6th.webp"
+        "https://streetstock.co.il/assets/product-1785130803133-7ta6th.webp",
+        "https://streetstock.co.il/assets/product-1787898136840-7g4g9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-22tldr",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x180-sm-tsba-bz-id897-oln6vr",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:22:31.159Z"
     },
     {
       "id": "2d8f151f-9dad-4a14-912b-9b571fcb7881",
-      "slug": "shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-43lk20",
+      "slug": "shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-6ws4fu",
       "name": "שטיח דגם TAVO מידות : 60X130 ס\"מ\nצבע בז' ID894 ",
       "name_translations": {},
       "description": "",
@@ -6040,16 +6041,17 @@
       "sale_price": null,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1785130782876-z8o0t.webp"
+        "https://streetstock.co.il/assets/product-1785130782876-z8o0t.webp",
+        "https://streetstock.co.il/assets/product-1787898150518-oq4dtu.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-43lk20",
+      "url": "https://streetstock.co.il/product/shtych-dgm-tavo-mydvt-60x130-sm-tsba-bz-id894-6ws4fu",
       "categories": [
         "שטיחי אמבטיה",
         "שטיחי מטבח"
       ],
-      "updated_at": "2026-07-27T05:47:25.266Z"
+      "updated_at": "2026-08-28T06:22:47.775Z"
     },
     {
       "id": "dfa3b52c-a0d5-4504-8959-a6d4c17ba346",
