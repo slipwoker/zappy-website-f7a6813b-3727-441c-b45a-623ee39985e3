@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:48:43.281Z",
+  "generated_at": "2026-08-28T06:49:58.239Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -5044,76 +5044,76 @@
     },
     {
       "id": "9079964f-f21b-4976-8af1-d1ccf71d6e66",
-      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-1c9mnb",
+      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-o9di19",
       "name": "דיספנסר לסבון  דגם VELIN\n צבע לבן ID648",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 29.9,
+      "price": 23.9,
       "base_price": 29.9,
-      "sale_price": null,
+      "sale_price": 23.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785304703053-dmicqi.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-1c9mnb",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-lbn-id648-o9di19",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:23.742Z"
+      "updated_at": "2026-08-28T06:49:02.736Z"
     },
     {
       "id": "924cb012-149b-4dbf-a220-c56bd5c85bf4",
-      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-shchvr-id647-zcldfx",
+      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-shchvr-id647-8e2x8s",
       "name": "כוס למברשת שיניים  דגם VELIN\n צבע שחור ID647",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 19.9,
+      "price": 15.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 15.9,
       "currency": "ILS",
       "images": [],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-shchvr-id647-zcldfx",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-shchvr-id647-8e2x8s",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:23.485Z"
+      "updated_at": "2026-08-28T06:49:10.891Z"
     },
     {
       "id": "cb64c54e-f261-4e12-a8b9-204cafb891f2",
-      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-84xgk9",
+      "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-6kvz9t",
       "name": "כוס למברשת שיניים  דגם VELIN\n צבע בג' ID646",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 19.9,
+      "price": 15.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 15.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785304807062-d2aa1.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-84xgk9",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-bg-id646-6kvz9t",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:24.637Z"
+      "updated_at": "2026-08-28T06:49:19.743Z"
     },
     {
       "id": "c553e0d2-88ab-4c6b-83b6-42f1dcbfbdec",
@@ -7341,16 +7341,16 @@
     },
     {
       "id": "1480874c-7697-42ce-819f-f925e79f2be1",
-      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-zcnm4j",
+      "slug": "dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-mx69wr",
       "name": "דיספנסר לסבון צבע בז' דגם NIVORA ID864 ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 29.9,
+      "price": 23.9,
       "base_price": 29.9,
-      "sale_price": null,
+      "sale_price": 23.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785132707735-i9gner.webp",
@@ -7360,12 +7360,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-zcnm4j",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-tsba-bz-dgm-nivora-id864-mx69wr",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:20.947Z"
+      "updated_at": "2026-08-28T06:49:29.106Z"
     },
     {
       "id": "023059ff-a4bd-4639-9a39-dc85a934522f",
