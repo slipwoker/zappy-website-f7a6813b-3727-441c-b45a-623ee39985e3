@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:35:50.536Z",
+  "generated_at": "2026-08-28T06:37:41.136Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -2717,28 +2717,28 @@
     },
     {
       "id": "65d281b3-209c-419c-9c62-0bdc59d3e91a",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-7fz28y",
+      "slug": "st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-rcsk3i",
       "name": "סט פח + מברשת דגם AUREL\nצבע זהב ID1092",
       "name_translations": {},
       "description": "",
       "short_description": "סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.",
       "sku": null,
       "brand": null,
-      "price": 124.9,
+      "price": 99.9,
       "base_price": 124.9,
-      "sale_price": null,
+      "sale_price": 99.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559970633-kcc56f.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-7fz28y",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-rcsk3i",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-24T08:26:26.862Z"
+      "updated_at": "2026-08-28T06:37:22.596Z"
     },
     {
       "id": "a7399585-3b57-4c20-a278-b9503d751f42",
@@ -2842,7 +2842,7 @@
     },
     {
       "id": "04f8c75a-5308-48df-a1ea-ff224310780b",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-dpnzm5",
+      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjno9",
       "name": "סט פח + מברשת דגם AUREL\nצבע שמנת ID1090",
       "name_translations": {},
       "description": "",
@@ -2858,12 +2858,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-dpnzm5",
+      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjno9",
       "categories": [
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-28T06:35:16.301Z"
+      "updated_at": "2026-08-28T06:37:03.349Z"
     },
     {
       "id": "bff3b9f7-5979-4491-93f0-254a6e202ff2",
