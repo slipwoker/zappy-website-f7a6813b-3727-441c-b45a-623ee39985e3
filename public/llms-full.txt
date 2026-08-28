@@ -7866,16 +7866,16 @@ Availability: In stock
 
 ### דיספנסר לסבון  דגם VELIN
  צבע שחור ID650
-URL: https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-shchvr-id650-hgycdi
-Price: 29.90 ILS
+URL: https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-shchvr-id650-3ir9bu
+Price: 23.90 ILS (sale, was 29.90 ILS)
 Availability: In stock
 
 ---
 
 ### דיספנסר לסבון  דגם VELIN
  צבע בג' ID649
-URL: https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg
-Price: 29.90 ILS
+URL: https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-5j63fl
+Price: 23.90 ILS (sale, was 29.90 ILS)
 Availability: In stock
 
 ---
@@ -10721,8 +10721,8 @@ SKU: 7290121563147
 ---
 
 ### כוס למברשת שיניים דגם AVERO צבע לבן 
-URL: https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-t3dyb8
-Price: 19.90 ILS
+URL: https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-gaohwm
+Price: 16.90 ILS (sale, was 19.90 ILS)
 Availability: In stock
 SKU: 7290121563123
 
@@ -11724,8 +11724,8 @@ SKU: 7290121563277
 
 ### כוס זכוכית דגם SOAPRO
 
-URL: https://streetstock.co.il/product/kvs-zkvkyt-dgm-soapro-r4xn34
-Price: 9.90 ILS
+URL: https://streetstock.co.il/product/kvs-zkvkyt-dgm-soapro-pq5pb9
+Price: 7.90 ILS (sale, was 9.90 ILS)
 Availability: In stock
 SKU: 7290121564878
 

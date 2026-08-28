@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:47:58.297Z",
+  "generated_at": "2026-08-28T06:48:43.281Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -4994,53 +4994,53 @@
     },
     {
       "id": "7961d65f-e7b2-43ee-b3da-9898ff39ece7",
-      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-shchvr-id650-hgycdi",
+      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-shchvr-id650-3ir9bu",
       "name": "דיספנסר לסבון  דגם VELIN\n צבע שחור ID650",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 29.9,
+      "price": 23.9,
       "base_price": 29.9,
-      "sale_price": null,
+      "sale_price": 23.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785304548549-m7jfn.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-shchvr-id650-hgycdi",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-shchvr-id650-3ir9bu",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:24.313Z"
+      "updated_at": "2026-08-28T06:48:08.550Z"
     },
     {
       "id": "ad8225b3-e6b6-482d-8b1e-6eba4ca8f259",
-      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg",
+      "slug": "dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-5j63fl",
       "name": "דיספנסר לסבון  דגם VELIN\n צבע בג' ID649",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 29.9,
+      "price": 23.9,
       "base_price": 29.9,
-      "sale_price": null,
+      "sale_price": 23.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785304580330-hh53ss.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-e6l4jg",
+      "url": "https://streetstock.co.il/product/dyspnsr-lsbvn-dgm-velin-tsba-bg-id649-5j63fl",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:24.054Z"
+      "updated_at": "2026-08-28T06:48:39.950Z"
     },
     {
       "id": "9079964f-f21b-4976-8af1-d1ccf71d6e66",
@@ -14401,16 +14401,16 @@
     },
     {
       "id": "a0cf96c1-8b75-419d-be3b-7833bb6250a1",
-      "slug": "kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-t3dyb8",
+      "slug": "kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-gaohwm",
       "name": "כוס למברשת שיניים דגם AVERO צבע לבן ",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121563123",
       "brand": null,
-      "price": 19.9,
+      "price": 16.9,
       "base_price": 19.9,
-      "sale_price": null,
+      "sale_price": 16.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785139161540-8qr29q.webp",
@@ -14419,12 +14419,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-t3dyb8",
+      "url": "https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-avero-tsba-lbn-gaohwm",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:41:57.219Z"
+      "updated_at": "2026-08-28T06:48:28.973Z"
     },
     {
       "id": "9289e42d-eb39-4443-8618-f63e1737f8fc",
@@ -16720,28 +16720,28 @@
     },
     {
       "id": "1ab1189c-64f1-42d9-a373-e7cc852e0c45",
-      "slug": "kvs-zkvkyt-dgm-soapro-r4xn34",
+      "slug": "kvs-zkvkyt-dgm-soapro-pq5pb9",
       "name": "כוס זכוכית דגם SOAPRO\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121564878",
       "brand": null,
-      "price": 9.9,
+      "price": 7.9,
       "base_price": 9.9,
-      "sale_price": null,
+      "sale_price": 7.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837656507-z77rgf.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-dgm-soapro-r4xn34",
+      "url": "https://streetstock.co.il/product/kvs-zkvkyt-dgm-soapro-pq5pb9",
       "categories": [
         "דיספנסרים",
         "כלי בית"
       ],
-      "updated_at": "2026-08-28T06:42:13.554Z"
+      "updated_at": "2026-08-28T06:48:17.938Z"
     },
     {
       "id": "16597c92-811d-4a4e-9031-837795e6f236",
