@@ -68,7 +68,22 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 762** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 764** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### מסגרת תמונה BASIC A4
+ צבע עץ ID1079
+https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-4j4cd6
+- Price: 11.90 ILS (sale, was 14.90 ILS)
+- Availability: In stock
+- Category: מראות ומסגרות
+- Image: https://streetstock.co.il/assets/product-1787558089166-kjru9h8.webp
+
+### סט פח + מברשת צבע לבן דגם CLEVO 
+https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-jur845
+- Price: 79.90 ILS
+- Availability: In stock
+- Category: פחי שירותים
+- Image: https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp
 
 ### מסגרת תמונה BASIC A3
  צבע עץ ID1082
@@ -1833,24 +1848,6 @@ https://streetstock.co.il/product/myybsh-klym-adi-shchvr-id557-j7upff
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
 - Image: https://streetstock.co.il/assets/product-1786524819824-geukq9.webp
-
-### מייבש כלים 2 קומות דגם SAPIR 
-צבע שחור ID1010
-https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-shchvr-id1010-qk8c1l
-- Price: 129.90 ILS
-- Availability: In stock
-- Category: מייבשי כלים
-- Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
-- Image: https://streetstock.co.il/assets/product-1786524937173-yacsqh.webp
-
-### מייבש כלים ADI לבן 
-ID556 
-https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-bm5koo
-- Price: 79.90 ILS
-- Availability: In stock
-- Category: מייבשי כלים
-- Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
-- Image: https://streetstock.co.il/assets/product-1786524876465-u67da8.webp
 
 ---
 
