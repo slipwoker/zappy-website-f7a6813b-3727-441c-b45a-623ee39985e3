@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Fri, 28 Aug 2026 06:53:33 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 06:54:18 GMT</lastBuildDate>
     <item>
       <g:id>323357d3-09f0-404d-80a0-99cf38e02701</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -3243,10 +3243,11 @@ ID923</g:title>
       <g:title>כוס למברשת שיניים  דגם VELIN
  צבע לבן ID645</g:title>
       <g:description>כוס למברשת שיניים דגם VELIN צבע לבן ID645</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-368jhi</g:link>
+      <g:link>https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-a0rer1</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1785304857614-64e2v.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
+      <g:sale_price>15.90 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -3341,10 +3342,11 @@ ID927</g:title>
       <g:title>כוס מברשת שיניים צבע שחור 
 דגם ID921 AIRA</g:title>
       <g:description>כוס מברשת שיניים צבע שחור דגם ID921 AIRA</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-shchvr-dgm-id921-aira-e0k807</g:link>
+      <g:link>https://streetstock.co.il/product/kvs-mbrsht-shynyym-tsba-shchvr-dgm-id921-aira-t1ebtq</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1785304528867-0ys6ph.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
+      <g:sale_price>15.90 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -4594,13 +4596,14 @@ ID890</g:title>
       <g:id>c95ac36e-56e5-481f-aa65-4a5cc3955dae</g:id>
       <g:title>כוס למברשת שיניים צבע בז&apos; דגם NIVORA ID865 </g:title>
       <g:description>כוס למברשת שיניים צבע בז&apos; דגם NIVORA ID865</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-6d6e7i</g:link>
+      <g:link>https://streetstock.co.il/product/kvs-lmbrsht-shynyym-tsba-bz-dgm-nivora-id865-o80yng</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1785132644300-nxjqd.webp</g:image_link>
       <g:additional_image_link>https://streetstock.co.il/assets/product-1785302060694-d2p05h.webp</g:additional_image_link>
       <g:additional_image_link>https://streetstock.co.il/assets/product-1785132652896-ekqt18.webp</g:additional_image_link>
       <g:additional_image_link>https://streetstock.co.il/assets/product-1784098943562-05btte.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
+      <g:sale_price>15.90 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
