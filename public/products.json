@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-28T06:57:44.353Z",
+  "generated_at": "2026-08-30T06:29:20.625Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1043,7 +1043,7 @@
     },
     {
       "id": "e99af7ee-9c74-4ec2-8246-398f08d9493a",
-      "slug": "hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-ht6kpc",
+      "slug": "hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o",
       "name": "הדום אחסון וישיבה פרוותי\n דגם PIZA\nID359",
       "name_translations": {},
       "description": "",
@@ -1054,14 +1054,16 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071308488-ydtoec.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-ht6kpc",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-28T06:42:33.012Z"
+      "updated_at": "2026-08-30T06:28:44.551Z"
     },
     {
       "id": "e6b4705c-ba67-4494-852d-1e1838960148",
@@ -1083,7 +1085,7 @@
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-28T06:42:35.905Z"
+      "updated_at": "2026-08-30T06:29:18.398Z"
     },
     {
       "id": "090cbc74-c05b-44b5-8c24-1378b812d81d",
@@ -18361,27 +18363,27 @@
     },
     {
       "id": "c25860ac-3c84-4312-bce4-f1c2bd0250a2",
-      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-1l2k3v",
+      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-cq7t6q",
       "name": "פח 33 ליטר צבע מוקה TOUCH PURE",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\nנפתח על ידי לחיצה קלה\nקל לניקוי\nטבעת פנימית לאחיזה של השקיות אשפה",
       "sku": "7290121560023",
       "brand": null,
-      "price": 199.9,
+      "price": 249.9,
       "base_price": 249.9,
-      "sale_price": 199.9,
+      "sale_price": null,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837632799-l68m3s.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-1l2k3v",
+      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-cq7t6q",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-08-28T06:51:29.625Z"
+      "updated_at": "2026-08-30T06:28:06.438Z"
     },
     {
       "id": "b405ab56-ad3e-48ea-95fb-82eb034d3f6c",

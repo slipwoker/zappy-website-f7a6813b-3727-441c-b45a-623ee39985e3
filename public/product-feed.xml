@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Fri, 28 Aug 2026 06:57:44 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 06:29:20 GMT</lastBuildDate>
     <item>
       <g:id>679d8844-5122-4a08-8272-62df007b96de</g:id>
       <g:title>מסגרת תמונה BASIC A4
@@ -614,12 +614,14 @@ ID423</g:title>
       <g:product_type>נוי ואחסון</g:product_type>
     </item>
     <item>
-      <g:id>e99af7ee-9c74-4ec2-8246-398f08d9493a</g:id>
+      <g:id>0e5b4f1f-f7ba-4da5-b83c-54caba68a78e</g:id>
       <g:title>הדום אחסון וישיבה פרוותי
  דגם PIZA
-ID359</g:title>
+ID359 - White</g:title>
       <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
-      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-ht6kpc</g:link>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o</g:link>
+      <g:item_group_id>e99af7ee-9c74-4ec2-8246-398f08d9493a</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1788071308488-ydtoec.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>149.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -628,11 +630,56 @@ ID359</g:title>
       <g:product_type>נוי ואחסון</g:product_type>
     </item>
     <item>
-      <g:id>e6b4705c-ba67-4494-852d-1e1838960148</g:id>
+      <g:id>debc5847-aa91-4bc6-96fc-62fa0fc17601</g:id>
+      <g:title>הדום אחסון וישיבה פרוותי
+ דגם PIZA
+ID359 - Ivory</g:title>
+      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o</g:link>
+      <g:item_group_id>e99af7ee-9c74-4ec2-8246-398f08d9493a</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1788071308488-ydtoec.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>נוי ואחסון</g:product_type>
+    </item>
+    <item>
+      <g:id>efa0dc7e-1edd-48d7-ae30-0299156cfc9a</g:id>
       <g:title>הדום אחסון וישיבה 
-דגם ID430  MILANO</g:title>
+דגם ID430  MILANO - Ivory</g:title>
       <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
       <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj</g:link>
+      <g:item_group_id>e6b4705c-ba67-4494-852d-1e1838960148</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>נוי ואחסון</g:product_type>
+    </item>
+    <item>
+      <g:id>6f5b0d22-c9ce-4e17-9a1a-65d3af88809d</g:id>
+      <g:title>הדום אחסון וישיבה 
+דגם ID430  MILANO - Beige</g:title>
+      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj</g:link>
+      <g:item_group_id>e6b4705c-ba67-4494-852d-1e1838960148</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>נוי ואחסון</g:product_type>
+    </item>
+    <item>
+      <g:id>d2cd5e03-4bea-4745-b3d2-d42b5ffeda8f</g:id>
+      <g:title>הדום אחסון וישיבה 
+דגם ID430  MILANO - Gray</g:title>
+      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj</g:link>
+      <g:item_group_id>e6b4705c-ba67-4494-852d-1e1838960148</g:item_group_id>
       <g:availability>in_stock</g:availability>
       <g:price>149.90 ILS</g:price>
       <g:condition>new</g:condition>
@@ -12166,11 +12213,10 @@ ID890</g:title>
       <g:id>c25860ac-3c84-4312-bce4-f1c2bd0250a2</g:id>
       <g:title>פח 33 ליטר צבע מוקה TOUCH PURE</g:title>
       <g:description>פח אשפה טאצ&apos; מעוצב באופן מושלם לחלל הבית נפתח על ידי לחיצה קלה קל לניקוי טבעת פנימית לאחיזה של השקיות אשפה</g:description>
-      <g:link>https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-1l2k3v</g:link>
+      <g:link>https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-cq7t6q</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837632799-l68m3s.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>249.90 ILS</g:price>
-      <g:sale_price>199.90 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121560023</g:mpn>
