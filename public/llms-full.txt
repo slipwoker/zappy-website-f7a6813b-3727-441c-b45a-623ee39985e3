@@ -6554,7 +6554,7 @@ Availability: In stock
 ### הדום אחסון וישיבה צבע שחור
  NAPOLI
 ID1084
-URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-71cz5m
+URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw
 Price: 119.90 ILS
 Availability: In stock
 
@@ -6563,7 +6563,7 @@ Availability: In stock
 ### הדום אחסון וישיבה צבע קרם
   NAPOLI
 ID1127
-URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-wa7nfi
+URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b
 Price: 119.90 ILS
 Availability: In stock
 

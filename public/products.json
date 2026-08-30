@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-30T06:32:23.094Z",
+  "generated_at": "2026-08-30T06:33:13.433Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1117,7 +1117,7 @@
     },
     {
       "id": "04cc13d9-b3f4-44e2-ac0b-122d1e980065",
-      "slug": "hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-71cz5m",
+      "slug": "hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw",
       "name": "הדום אחסון וישיבה צבע שחור\n NAPOLI\nID1084",
       "name_translations": {},
       "description": "",
@@ -1128,18 +1128,21 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071538055-s2qo1a.webp",
+        "https://streetstock.co.il/assets/product-1788071551570-7qedxv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-71cz5m",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-28T06:42:32.486Z"
+      "updated_at": "2026-08-30T06:32:39.031Z"
     },
     {
       "id": "9e72187d-ae15-423e-b5cd-6f0e4c86617f",
-      "slug": "hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-wa7nfi",
+      "slug": "hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b",
       "name": "הדום אחסון וישיבה צבע קרם\n  NAPOLI\nID1127",
       "name_translations": {},
       "description": "",
@@ -1150,14 +1153,17 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071572186-37l85m.webp",
+        "https://streetstock.co.il/assets/product-1788071579471-zf58kq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-wa7nfi",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-28T06:42:32.435Z"
+      "updated_at": "2026-08-30T06:33:09.671Z"
     },
     {
       "id": "5f44c7b1-8076-433d-895d-9670c736a518",
