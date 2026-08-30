@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 30 Aug 2026 06:33:13 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 06:34:13 GMT</lastBuildDate>
     <item>
       <g:id>679d8844-5122-4a08-8272-62df007b96de</g:id>
       <g:title>מסגרת תמונה BASIC A4
@@ -759,11 +759,43 @@ ID1127</g:title>
       <g:product_type>נוי ואחסון</g:product_type>
     </item>
     <item>
-      <g:id>5f44c7b1-8076-433d-895d-9670c736a518</g:id>
+      <g:id>9b2b7210-e81e-4043-b2a1-4ee103221768</g:id>
       <g:title>הדום אחסון וישיבה 
-דגם FLORENCE  ID433</g:title>
+דגם FLORENCE  ID433 - Ivory</g:title>
       <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
-      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-uibcxa</g:link>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp</g:link>
+      <g:item_group_id>5f44c7b1-8076-433d-895d-9670c736a518</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>119.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>נוי ואחסון</g:product_type>
+    </item>
+    <item>
+      <g:id>d9cd0b84-2c32-4c80-9b57-a33a6b2a8c13</g:id>
+      <g:title>הדום אחסון וישיבה 
+דגם FLORENCE  ID433 - Beige</g:title>
+      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp</g:link>
+      <g:item_group_id>5f44c7b1-8076-433d-895d-9670c736a518</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>119.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>נוי ואחסון</g:product_type>
+    </item>
+    <item>
+      <g:id>044539cd-bfdc-479f-a87f-e9266c855195</g:id>
+      <g:title>הדום אחסון וישיבה 
+דגם FLORENCE  ID433 - Charcoal</g:title>
+      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp</g:link>
+      <g:item_group_id>5f44c7b1-8076-433d-895d-9670c736a518</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>119.90 ILS</g:price>
       <g:condition>new</g:condition>

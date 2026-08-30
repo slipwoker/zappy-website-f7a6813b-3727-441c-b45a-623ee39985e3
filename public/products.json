@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-30T06:33:13.433Z",
+  "generated_at": "2026-08-30T06:34:13.133Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1167,7 +1167,7 @@
     },
     {
       "id": "5f44c7b1-8076-433d-895d-9670c736a518",
-      "slug": "hdvm-achsvn-vyshybh-dgm-florence-id433-uibcxa",
+      "slug": "hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp",
       "name": "הדום אחסון וישיבה \nדגם FLORENCE  ID433",
       "name_translations": {},
       "description": "",
@@ -1178,14 +1178,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-uibcxa",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-28T06:42:33.282Z"
+      "updated_at": "2026-08-30T06:33:41.442Z"
     },
     {
       "id": "ee0dd0e1-861c-4380-9bdb-846f0a7dcb31",
