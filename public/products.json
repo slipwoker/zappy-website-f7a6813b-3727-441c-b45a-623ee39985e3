@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-30T06:34:23.479Z",
+  "generated_at": "2026-08-30T06:34:58.672Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1213,7 +1213,7 @@
     },
     {
       "id": "81bc984f-cb41-49f5-8700-d493e76c72e2",
-      "slug": "hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-htsjcl",
+      "slug": "hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4",
       "name": "הדום אחסון וישיבה קורדרוי\n דגם TORINO \nID1082",
       "name_translations": {},
       "description": "",
@@ -1224,14 +1224,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071671189-wcea9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-htsjcl",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-30T06:34:20.954Z"
+      "updated_at": "2026-08-30T06:34:39.064Z"
     },
     {
       "id": "f324fdff-c905-4411-a1f6-df95d4d8fff8",
