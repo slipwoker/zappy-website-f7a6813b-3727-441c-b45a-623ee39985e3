@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-30T06:30:23.021Z",
+  "generated_at": "2026-08-30T06:32:13.594Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1067,7 +1067,7 @@
     },
     {
       "id": "e6b4705c-ba67-4494-852d-1e1838960148",
-      "slug": "hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj",
+      "slug": "hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5",
       "name": "הדום אחסון וישיבה \nדגם ID430  MILANO",
       "name_translations": {},
       "description": "",
@@ -1078,18 +1078,22 @@
       "base_price": 149.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071424998-psatvg.webp",
+        "https://streetstock.co.il/assets/product-1788071408328-06g5jp.webp",
+        "https://streetstock.co.il/assets/product-1788071417126-cgxn3n.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-30T06:29:41.766Z"
+      "updated_at": "2026-08-30T06:31:10.085Z"
     },
     {
       "id": "090cbc74-c05b-44b5-8c24-1378b812d81d",
-      "slug": "hdvm-achsvn-vyshybh-dgm-palermo-id431-gpzenu",
+      "slug": "hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx",
       "name": "הדום אחסון וישיבה \nדגם PALERMO  ID431",
       "name_translations": {},
       "description": "",
@@ -1100,14 +1104,16 @@
       "base_price": 119.9,
       "sale_price": null,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1788071491317-d4k4p.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-gpzenu",
+      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-08-28T06:42:35.853Z"
+      "updated_at": "2026-08-30T06:31:44.964Z"
     },
     {
       "id": "04cc13d9-b3f4-44e2-ac0b-122d1e980065",

@@ -6537,7 +6537,7 @@ Availability: In stock
 
 ### הדום אחסון וישיבה 
 דגם ID430  MILANO
-URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj
+URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5
 Price: 149.90 ILS
 Availability: In stock
 
@@ -6545,7 +6545,7 @@ Availability: In stock
 
 ### הדום אחסון וישיבה 
 דגם PALERMO  ID431
-URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-gpzenu
+URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx
 Price: 119.90 ILS
 Availability: In stock
 
