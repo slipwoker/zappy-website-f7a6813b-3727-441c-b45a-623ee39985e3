@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 30 Aug 2026 06:29:20 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 06:30:13 GMT</lastBuildDate>
     <item>
       <g:id>679d8844-5122-4a08-8272-62df007b96de</g:id>
       <g:title>מסגרת תמונה BASIC A4
@@ -646,20 +646,6 @@ ID359 - Ivory</g:title>
       <g:product_type>נוי ואחסון</g:product_type>
     </item>
     <item>
-      <g:id>efa0dc7e-1edd-48d7-ae30-0299156cfc9a</g:id>
-      <g:title>הדום אחסון וישיבה 
-דגם ID430  MILANO - Ivory</g:title>
-      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
-      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj</g:link>
-      <g:item_group_id>e6b4705c-ba67-4494-852d-1e1838960148</g:item_group_id>
-      <g:availability>in_stock</g:availability>
-      <g:price>149.90 ILS</g:price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>נוי ואחסון</g:product_type>
-    </item>
-    <item>
       <g:id>6f5b0d22-c9ce-4e17-9a1a-65d3af88809d</g:id>
       <g:title>הדום אחסון וישיבה 
 דגם ID430  MILANO - Beige</g:title>
@@ -674,9 +660,23 @@ ID359 - Ivory</g:title>
       <g:product_type>נוי ואחסון</g:product_type>
     </item>
     <item>
-      <g:id>d2cd5e03-4bea-4745-b3d2-d42b5ffeda8f</g:id>
+      <g:id>efa0dc7e-1edd-48d7-ae30-0299156cfc9a</g:id>
       <g:title>הדום אחסון וישיבה 
-דגם ID430  MILANO - Gray</g:title>
+דגם ID430  MILANO - Ivory</g:title>
+      <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
+      <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj</g:link>
+      <g:item_group_id>e6b4705c-ba67-4494-852d-1e1838960148</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>נוי ואחסון</g:product_type>
+    </item>
+    <item>
+      <g:id>baada0e0-47b5-4893-aa57-b5e8970a4b5e</g:id>
+      <g:title>הדום אחסון וישיבה 
+דגם ID430  MILANO - Charcoal</g:title>
       <g:description>הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.</g:description>
       <g:link>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-828cwj</g:link>
       <g:item_group_id>e6b4705c-ba67-4494-852d-1e1838960148</g:item_group_id>
