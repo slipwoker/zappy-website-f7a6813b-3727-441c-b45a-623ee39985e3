@@ -429,7 +429,6 @@ ID422
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-id422-580527
 - Price: 129.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
 - Description: ארון נעליים מעוצב ופרקטי בעל 10 קומות, עם מקום לעד 20 זוגות נעליים. פתרון אחסון חכם וחסכוני במקום, השומר על הנעליים מסודרות ונגישות ומעניק לחלל מראה נקי ומאורגן.
 - Image: https://streetstock.co.il/assets/product-1787558771791-6w23l9.webp
 
@@ -438,7 +437,6 @@ ID423
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-ddnov9
 - Price: 129.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
 - Description: ארון נעליים מעוצב ופרקטי בעל 10 קומות, עם מקום לעד 20 זוגות נעליים. פתרון אחסון חכם וחסכוני במקום, השומר על הנעליים מסודרות ונגישות ומעניק לחלל מראה נקי ומאורגן.
 - Image: https://streetstock.co.il/assets/product-1787558904625-in7zeb.webp
 
@@ -448,7 +446,7 @@ ID359
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071308488-ydtoec.webp
 
@@ -457,7 +455,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071424998-psatvg.webp
 
@@ -466,7 +464,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071491317-d4k4p.webp
 
@@ -476,7 +474,7 @@ ID1084
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071538055-s2qo1a.webp
 
@@ -486,7 +484,7 @@ ID1127
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071572186-37l85m.webp
 
@@ -495,7 +493,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktr
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp
 
@@ -505,7 +503,7 @@ ID1083
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-id1083-s4z6nx
 - Price: 149.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 
 ### הדום אחסון וישיבה קורדרוי
@@ -514,7 +512,7 @@ ID1082
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4
 - Price: 119.90 ILS
 - Availability: In stock
-- Category: נוי ואחסון
+- Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071671189-wcea9.webp
 

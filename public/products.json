@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-03T08:11:47.497Z",
+  "generated_at": "2026-09-03T08:44:52.981Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -1012,9 +1012,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-id422-580527",
-      "categories": [
-        "נוי ואחסון"
-      ],
+      "categories": [],
       "updated_at": "2026-08-28T06:41:57.481Z"
     },
     {
@@ -1036,9 +1034,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-ddnov9",
-      "categories": [
-        "נוי ואחסון"
-      ],
+      "categories": [],
       "updated_at": "2026-08-28T06:41:54.862Z"
     },
     {
@@ -1061,9 +1057,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:28:44.551Z"
+      "updated_at": "2026-09-03T08:43:42.754Z"
     },
     {
       "id": "e6b4705c-ba67-4494-852d-1e1838960148",
@@ -1087,9 +1083,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:31:10.085Z"
+      "updated_at": "2026-09-03T08:43:42.561Z"
     },
     {
       "id": "090cbc74-c05b-44b5-8c24-1378b812d81d",
@@ -1111,9 +1107,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:31:44.964Z"
+      "updated_at": "2026-09-03T08:43:41.777Z"
     },
     {
       "id": "04cc13d9-b3f4-44e2-ac0b-122d1e980065",
@@ -1136,9 +1132,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:32:39.031Z"
+      "updated_at": "2026-09-03T08:43:41.584Z"
     },
     {
       "id": "9e72187d-ae15-423e-b5cd-6f0e4c86617f",
@@ -1161,9 +1157,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:33:09.671Z"
+      "updated_at": "2026-09-03T08:43:42.356Z"
     },
     {
       "id": "5f44c7b1-8076-433d-895d-9670c736a518",
@@ -1185,9 +1181,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:33:41.442Z"
+      "updated_at": "2026-09-03T08:43:41.970Z"
     },
     {
       "id": "ee0dd0e1-861c-4380-9bdb-846f0a7dcb31",
@@ -1207,9 +1203,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-id1083-s4z6nx",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-28T06:42:34.696Z"
+      "updated_at": "2026-09-03T08:43:42.946Z"
     },
     {
       "id": "81bc984f-cb41-49f5-8700-d493e76c72e2",
@@ -1231,9 +1227,9 @@
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4",
       "categories": [
-        "נוי ואחסון"
+        "הדומים"
       ],
-      "updated_at": "2026-08-30T06:34:39.064Z"
+      "updated_at": "2026-09-03T08:43:42.163Z"
     },
     {
       "id": "f324fdff-c905-4411-a1f6-df95d4d8fff8",
