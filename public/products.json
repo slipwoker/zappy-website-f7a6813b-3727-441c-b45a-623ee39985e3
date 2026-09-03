@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-08-31T05:32:51.636Z",
+  "generated_at": "2026-09-03T08:11:47.497Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 764,
@@ -14,9 +14,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 11.9,
+      "price": 11.92,
       "base_price": 14.9,
-      "sale_price": 11.9,
+      "sale_price": 11.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558089166-kjru9h8.webp"
@@ -27,20 +27,20 @@
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-28T06:57:09.460Z"
+      "updated_at": "2026-09-03T08:11:09.791Z"
     },
     {
       "id": "2f9e5628-4ee3-4e2e-9129-7915e6db385b",
       "slug": "st-pch-mbrsht-tsba-lbn-dgm-clevo-jur845",
-      "name": "סט פח + מברשת צבע לבן דגם CLEVO ",
+      "name": "סט פח + מברשת צבע לבן דגם CLEVO",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 79.9,
+      "price": 63.92,
       "base_price": 79.9,
-      "sale_price": null,
+      "sale_price": 63.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp"
@@ -52,7 +52,7 @@
         "פחי שירותים",
         "פחי אמבטיה"
       ],
-      "updated_at": "2026-08-28T06:57:09.453Z"
+      "updated_at": "2026-09-03T08:11:09.790Z"
     },
     {
       "id": "323357d3-09f0-404d-80a0-99cf38e02701",
@@ -63,9 +63,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 17.9,
+      "price": 15.92,
       "base_price": 19.9,
-      "sale_price": 17.9,
+      "sale_price": 15.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558035575-a83tpl.webp"
@@ -76,7 +76,7 @@
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-28T06:41:53.706Z"
+      "updated_at": "2026-09-03T08:11:09.808Z"
     },
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",

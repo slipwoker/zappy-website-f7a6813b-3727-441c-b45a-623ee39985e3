@@ -73,14 +73,14 @@ Information about WCAG compliance and accessibility features.
 ### מסגרת תמונה BASIC A4
  צבע עץ ID1079
 https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-4j4cd6
-- Price: 11.90 ILS (sale, was 14.90 ILS)
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558089166-kjru9h8.webp
 
-### סט פח + מברשת צבע לבן דגם CLEVO 
+### סט פח + מברשת צבע לבן דגם CLEVO
 https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-jur845
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Image: https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp
@@ -88,7 +88,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-jur845
 ### מסגרת תמונה BASIC A3
  צבע עץ ID1082
 https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-ats-id1082-dwybib
-- Price: 17.90 ILS (sale, was 19.90 ILS)
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558035575-a83tpl.webp
