@@ -18593,6 +18593,40 @@ body:has(.zappy-announcement-bar) .navbar:not(.zappy-catalog-menu):not(.mobile-s
 .product-tag.tag-color-pink { background: #ec4899 !important; color: #fff !important; }
 .product-tag.tag-color-slate { background: #64748b !important; color: #fff !important; }
 
+/* ZAPPY_MOBILE_CARD_TAGS_V1 */
+.product-tags.product-tags-inline,
+.product-grid.view-list .product-card .product-tags.product-tags-inline {
+  display: none !important;
+}
+@media (max-width: 768px) {
+  .product-card-media > .product-tags:not(.product-tags-inline),
+  .product-grid.view-list .product-card .product-card-media .product-tags:not(.product-tags-inline) {
+    display: none !important;
+  }
+  .product-tags.product-tags-inline,
+  .product-grid.view-list .product-card .product-tags.product-tags-inline {
+    display: flex !important;
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    max-width: none !important;
+    flex-wrap: wrap !important;
+    gap: 4px !important;
+    margin: 0 0 6px;
+    z-index: auto;
+    pointer-events: auto;
+  }
+  .product-tags-inline .product-tag {
+    font-size: 10px !important;
+    padding: 2px 6px !important;
+    letter-spacing: 0 !important;
+    text-transform: none;
+    box-shadow: none;
+  }
+}
+
+
 
 /* zappy-nav-child-indent */
 .zappy-products-dropdown .zappy-nav-child > a,

@@ -14975,6 +14975,48 @@ function fixContrast(){
 })();
 
 
+/* ZAPPY_MOBILE_CARD_TAGS_V1 */
+;(function(){
+  try {
+    if (window.__zappyMobileCardTagsInit) return;
+    window.__zappyMobileCardTagsInit = true;
+
+    function relocate(scope) {
+      try {
+        var root = scope && scope.querySelectorAll ? scope : document;
+        root.querySelectorAll('.product-card[data-product-id]').forEach(function(card) {
+          var content = card.querySelector('.card-content');
+          if (!content || content.querySelector('.product-tags-inline')) return;
+          var media = card.querySelector('.product-card-media');
+          var overlay = media && media.querySelector('.product-tags:not(.product-tags-inline)');
+          if (!overlay) return;
+          var clone = overlay.cloneNode(true);
+          if (clone.classList) clone.classList.add('product-tags-inline');
+          else clone.className = (clone.className ? clone.className + ' ' : '') + 'product-tags-inline';
+          var h3 = content.querySelector('h3');
+          if (h3 && h3.nextSibling) content.insertBefore(clone, h3.nextSibling);
+          else if (h3) content.appendChild(clone);
+          else content.insertBefore(clone, content.firstChild);
+        });
+      } catch (e) {}
+    }
+
+    window.__zappyRelocateMobileCardTags = relocate;
+
+    var _origAfter = window.zappyAfterCardsRendered;
+    window.zappyAfterCardsRendered = function(scope) {
+      if (typeof _origAfter === 'function') { try { _origAfter(scope); } catch (e0) {} }
+      relocate(scope);
+    };
+
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', function() { relocate(); });
+    else relocate();
+    setTimeout(function() { relocate(); }, 500);
+    setTimeout(function() { relocate(); }, 1500);
+  } catch (e) {}
+})();
+
+
 /* ZAPPY_PRODUCTS_MENU_LABEL_LANG_GUARD_V2 */
 (function(){
   var RTL_RE = /[\u0590-\u05FF\u0600-\u06FF]/;
@@ -20529,6 +20571,175 @@ if (typeof zappyI18n !== 'undefined' && typeof zappyI18n.onLanguageChange === 'f
 /* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V4 */
 
 /* ZAPPY_ECOM_STARTUP_PERF_GUARDS_V1 */
+
+/* ZAPPY_SEASONAL_CARD_PRICE_V1 */
+;(function() {
+  if (window.__zappySeasonalCardPriceV1) return;
+  window.__zappySeasonalCardPriceV1 = true;
+
+  function eligible(d) {
+    if (!d) return false;
+    if (d.type === 'free_shipping') return false;
+    if (parseFloat(d.min_order_amount) > 0) return false;
+    return d.type === 'percentage' || d.type === 'fixed';
+  }
+
+  function matchProduct(d, productId) {
+    if (!eligible(d) || !productId) return false;
+    if (d.applies_to === 'all') return true;
+    var ids = d.product_ids || [];
+    if (!ids.length) return true;
+    return ids.indexOf(productId) !== -1 || ids.indexOf(String(productId)) !== -1;
+  }
+
+  function applyOne(base, d) {
+    var p = parseFloat(base);
+    if (!(p > 0) || !d) return p;
+    if (d.type === 'percentage') return p * (1 - (parseFloat(d.value) || 0) / 100);
+    if (d.type === 'fixed') return Math.max(0, p - (parseFloat(d.value) || 0));
+    return p;
+  }
+
+  function pick(productId) {
+    var list = window.__zappySeasonalDiscounts || [];
+    for (var i = 0; i < list.length; i++) {
+      if (matchProduct(list[i], productId)) return list[i];
+    }
+    return null;
+  }
+
+  function format(n) {
+    if (typeof formatMoney === 'function') return formatMoney(n);
+    if (typeof window.formatMoney === 'function') return window.formatMoney(n);
+    return String(n);
+  }
+
+  function parsePrice(el) {
+    if (!el) return NaN;
+    var existing = el.getAttribute('data-base-price');
+    if (existing) return parseFloat(existing);
+    var t = (el.textContent || '').replace(/[^0-9.,-]/g, '').replace(',', '.');
+    return parseFloat(t);
+  }
+
+  function applyCards() {
+    var cards = document.querySelectorAll('[data-product-id]');
+    cards.forEach(function(card) {
+      if (card.getAttribute('data-seasonal-applied') === '1') return;
+      var pid = card.getAttribute('data-product-id');
+      var d = pick(pid);
+      if (!d) return;
+      var priceEl = card.querySelector('.price, .product-price, [data-price]');
+      if (!priceEl || priceEl.getAttribute('data-seasonal-applied') === '1') return;
+      var base = parsePrice(priceEl);
+      if (!(base > 0)) return;
+      var next = applyOne(base, d);
+      if (!(next < base)) return;
+      if (!priceEl.getAttribute('data-base-price')) priceEl.setAttribute('data-base-price', String(base));
+      var wrap = priceEl;
+      if (!wrap.querySelector('.original-price, .price-original, s')) {
+        var orig = document.createElement('span');
+        orig.className = 'original-price';
+        orig.style.textDecoration = 'line-through';
+        orig.style.opacity = '0.6';
+        orig.style.marginInlineEnd = '0.4em';
+        orig.textContent = format(base);
+        wrap.insertBefore(orig, wrap.firstChild);
+      }
+      var current = wrap.querySelector('.price-current') || wrap;
+      if (current === wrap) {
+        var nodes = Array.prototype.slice.call(wrap.childNodes);
+        nodes.forEach(function(n) {
+          if (n.nodeType === 3) n.textContent = '';
+        });
+        var live = wrap.querySelector('.zappy-seasonal-live-price');
+        if (!live) {
+          live = document.createElement('span');
+          live.className = 'zappy-seasonal-live-price';
+          wrap.appendChild(live);
+        }
+        live.textContent = format(next);
+      } else {
+        current.textContent = format(next);
+      }
+      priceEl.setAttribute('data-seasonal-applied', '1');
+      card.setAttribute('data-seasonal-applied', '1');
+    });
+  }
+
+  function applyDetail() {
+    var root = document.getElementById('product-detail') || document.querySelector('.product-detail, [data-product-detail]');
+    if (!root || root.getAttribute('data-seasonal-applied') === '1') return;
+    var pid = root.getAttribute('data-product-id')
+      || (window.currentProduct && window.currentProduct.id)
+      || ((window.location.pathname.match(/\/product\/([^/?#]+)/) || [])[1]);
+    var d = pick(pid);
+    if (!d) return;
+    var priceEl = root.querySelector('#product-price-display, .price-current, .product-price, [data-price], .current-price');
+    if (!priceEl || priceEl.getAttribute('data-seasonal-applied') === '1') return;
+    var base = parsePrice(priceEl);
+    if (!(base > 0)) return;
+    var next = applyOne(base, d);
+    if (!(next < base)) return;
+    if (!priceEl.getAttribute('data-base-price')) priceEl.setAttribute('data-base-price', String(base));
+    if (!root.querySelector('.original-price, .price-original, s')) {
+      var orig = document.createElement('span');
+      orig.className = 'original-price';
+      orig.style.textDecoration = 'line-through';
+      orig.style.opacity = '0.6';
+      orig.style.marginInlineEnd = '0.4em';
+      orig.textContent = format(base);
+      if (priceEl.parentElement) priceEl.parentElement.insertBefore(orig, priceEl);
+    }
+    priceEl.textContent = format(next);
+    priceEl.setAttribute('data-seasonal-applied', '1');
+    root.setAttribute('data-seasonal-applied', '1');
+  }
+
+  function refresh() {
+    try { applyCards(); } catch (e) {}
+    try { applyDetail(); } catch (e) {}
+    try { if (typeof refreshProductListingAfterDiscount === 'function') refreshProductListingAfterDiscount(); } catch (e) {}
+    try {
+      if (typeof window.__zappyScheduleDynamicProductGridsDiscountRefresh === 'function') {
+        window.__zappyScheduleDynamicProductGridsDiscountRefresh();
+      }
+    } catch (e) {}
+  }
+
+  function boot() {
+    if (window.__zappySeasonalDiscounts && window.__zappySeasonalDiscounts.length) {
+      refresh();
+      return;
+    }
+    var wid = window.ZAPPY_WEBSITE_ID;
+    var base = window.ZAPPY_API_BASE || '';
+    if (!wid) return;
+    fetch(base + '/api/ecommerce/storefront/seasonal-discounts?websiteId=' + encodeURIComponent(wid))
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(data) {
+        if (!data) return;
+        window.__zappySeasonalDiscounts = data.data || data.discounts || [];
+        refresh();
+      })
+      .catch(function() {});
+  }
+
+  var prevFetch = window.fetchSeasonalDiscounts;
+  if (typeof prevFetch === 'function') {
+    window.fetchSeasonalDiscounts = function() {
+      var ret = prevFetch.apply(this, arguments);
+      if (ret && typeof ret.then === 'function') {
+        return ret.then(function(v) { refresh(); return v; });
+      }
+      refresh();
+      return ret;
+    };
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+  else boot();
+})();
 
 /* ZAPPY_CART_BUNDLE_DISCOUNT_V4 */
 ;(function() {
