@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Thu, 03 Sep 2026 08:45:01 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 11:11:37 GMT</lastBuildDate>
     <item>
       <g:id>679d8844-5122-4a08-8272-62df007b96de</g:id>
       <g:title>מסגרת תמונה BASIC A4
@@ -3853,6 +3853,7 @@ ID933 - Gray</g:title>
       <g:additional_image_link>https://streetstock.co.il/assets/product-1784700224404-cq890i.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>579.90 ILS</g:price>
+      <g:sale_price>520.00 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
