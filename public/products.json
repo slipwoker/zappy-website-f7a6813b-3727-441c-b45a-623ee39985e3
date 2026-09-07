@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-07T11:40:32.267Z",
+  "generated_at": "2026-09-07T11:43:35.284Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 761,
@@ -14,9 +14,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 17.9,
+      "price": 15.92,
       "base_price": 19.9,
-      "sale_price": 17.9,
+      "sale_price": 15.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558042067-thupzc.webp"
@@ -27,7 +27,7 @@
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-28T06:44:45.157Z"
+      "updated_at": "2026-09-07T11:42:57.872Z"
     },
     {
       "id": "9e0227ea-c92b-4eb9-bccc-bbb33dc458ff",
@@ -38,9 +38,9 @@
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 17.9,
+      "price": 15.92,
       "base_price": 19.9,
-      "sale_price": 17.9,
+      "sale_price": 15.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787558058888-gb2dhq.webp"
@@ -51,7 +51,7 @@
       "categories": [
         "מראות ומסגרות"
       ],
-      "updated_at": "2026-08-28T06:44:56.198Z"
+      "updated_at": "2026-09-07T11:42:57.875Z"
     },
     {
       "id": "95f32dfc-369a-4a5f-9e3d-9dc26d39861d",
