@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 761** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 824** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מסגרת תמונה BASIC A3
  צבע שחור ID1081
@@ -89,7 +89,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-basic-a3-tsba-lbn-id1080-wybbz7
 ### מסגרת תמונה BASIC A4
  צבע שחור ID1078
 https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-s1idel
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558076930-9iu7y.webp
@@ -97,7 +97,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-shchvr-id1078-s1idel
 ### מסגרת תמונה BASIC A4
  צבע עץ ID1079
 https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-4xwn2e
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558089166-kjru9h8.webp
@@ -105,7 +105,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-ats-id1079-4xwn2e
 ### מסגרת תמונה BASIC A4
  צבע לבן ID1077
 https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-lbn-id1077-lszovt
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558101526-dlis6.webp
@@ -113,7 +113,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-basic-a4-tsba-lbn-id1077-lszovt
 ### מסגרת תמונה 10X15 ס"מ BASIC
 צבע שחור ID1072
 https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-shchvr-id1072-s9a9l3
-- Price: 7.90 ILS
+- Price: 6.32 ILS (sale, was 7.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558114606-7uzzvr.webp
@@ -121,7 +121,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-shchvr-id1072-
 ### מסגרת תמונה 10X15 ס"מ BASIC
 צבע לבן ID1071
 https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-lbn-id1071-sr2oza
-- Price: 7.90 ILS
+- Price: 6.32 ILS (sale, was 7.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558126248-up2swt.webp
@@ -129,7 +129,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-lbn-id1071-sr2
 ### מסגרת תמונה 10X15 ס"מ BASIC
 צבע עץ ID1073
 https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-ats-id1073-bovtq2
-- Price: 7.90 ILS
+- Price: 6.32 ILS (sale, was 7.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558142148-cpcw2e.webp
@@ -137,7 +137,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-basic-tsba-ats-id1073-bov
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע עץ ID1076
 https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-ats-id1076-peasp5
-- Price: 9.90 ILS
+- Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558156148-loa7c.webp
@@ -145,7 +145,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-ats-id1076-pea
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע שחור ID1075
 https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-7dpmet
-- Price: 9.90 ILS
+- Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558174913-900t3.webp
@@ -153,7 +153,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-shchvr-id1075-
 ### מסגרת תמונה 13X18 ס"מ BASIC
 צבע לבן ID1074
 https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-b9c60j
-- Price: 9.90 ILS
+- Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Image: https://streetstock.co.il/assets/product-1787558188554-glpyn9.webp
@@ -161,7 +161,7 @@ https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-basic-tsba-lbn-id1074-b9c
 ### מראה עגולה מסגרת אלומיניום
 80 ס"מ צבע זהב
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-ou6stz
-- Price: 179.90 ILS
+- Price: 143.92 ILS (sale, was 179.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -170,7 +170,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-ou6s
 ### מראה עגולה מסגרת אלומיניום
 80 ס"מ צבע מוקה
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-8czf43
-- Price: 179.90 ILS
+- Price: 143.92 ILS (sale, was 179.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -179,7 +179,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-8cz
 ### מראה עגולה מסגרת אלומיניום
 80 ס"מ צבע שחור
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6ctptc
-- Price: 179.90 ILS
+- Price: 143.92 ILS (sale, was 179.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -188,7 +188,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6
 ### מראה עגולה מסגרת אלומיניום
 80 ס"מ צבע לבן
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-1wjd8b
-- Price: 179.90 ILS
+- Price: 143.92 ILS (sale, was 179.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -197,7 +197,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-1wjd
 ### מראה עגולה מסגרת אלומיניום
 60 ס"מ צבע מוקה
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-mvkh-85wp5v
-- Price: 139.90 ILS
+- Price: 111.92 ILS (sale, was 139.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -206,7 +206,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-mvkh-85w
 ### מראה עגולה מסגרת אלומיניום
 60 ס"מ צבע זהב
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-zhb-v9svsp
-- Price: 139.90 ILS
+- Price: 111.92 ILS (sale, was 139.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -215,7 +215,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-zhb-v9sv
 ### מראה עגולה מסגרת אלומיניום
 60 ס"מ צבע לבן
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-lbn-va37zs
-- Price: 139.90 ILS
+- Price: 111.92 ILS (sale, was 139.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -224,7 +224,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-lbn-va37
 ### מראה עגולה מסגרת אלומיניום
 60 ס"מ צבע שחור
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-shchvr-4pfg51
-- Price: 139.90 ILS
+- Price: 111.92 ILS (sale, was 139.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -233,7 +233,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-60-sm-tsba-shchvr-4
 ### מראה עגולה מסגרת אלומיניום
 40 ס"מ צבע זהב
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-zhb-nv9y0q
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -242,7 +242,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-zhb-nv9y
 ### מראה עגולה מסגרת אלומיניום
 40 ס"מ צבע מוקה
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-mvkh-p41dm1
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -251,7 +251,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-mvkh-p41
 ### מראה עגולה מסגרת אלומיניום
 40 ס"מ צבע לבן
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-lbn-hmj8ck
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -260,7 +260,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-lbn-hmj8
 ### מראה עגולה מסגרת אלומיניום
 40 ס"מ צבע שחור
 https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-shchvr-0l12i1
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -269,7 +269,7 @@ https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-40-sm-tsba-shchvr-0
 ### מראה עגולה מרחפת ללא מסגרת
 80 ס"מ ID1100
 https://streetstock.co.il/product/mrah-agvlh-mrchpt-lla-msgrt-80-sm-id1100-1s9sud
-- Price: 169.90 ILS
+- Price: 135.92 ILS (sale, was 169.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מרחפת ללא מסגרת, בעיצוב נקי, מודרני ויוקרתי המעניק תחושת מרחב ואלגנטיות לכל חלל. מראה מינימליסטי ומרהיב שמשתלב בצורה מושלמת בכל סגנון עיצוב.
@@ -278,7 +278,7 @@ https://streetstock.co.il/product/mrah-agvlh-mrchpt-lla-msgrt-80-sm-id1100-1s9su
 ### מראה עגולה מרחפת ללא מסגרת
 40 ס"מ ID1070
 https://streetstock.co.il/product/mrah-agvlh-mrchpt-lla-msgrt-40-sm-id1070-nyq5zn
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מרחפת ללא מסגרת, בעיצוב נקי, מודרני ויוקרתי המעניק תחושת מרחב ואלגנטיות לכל חלל. מראה מינימליסטי ומרהיב שמשתלב בצורה מושלמת בכל סגנון עיצוב.
@@ -287,7 +287,7 @@ https://streetstock.co.il/product/mrah-agvlh-mrchpt-lla-msgrt-40-sm-id1070-nyq5z
 ### מראה עגולה מרחפת ללא מסגרת
 60 ס"מ ID1099
 https://streetstock.co.il/product/mrah-agvlh-mrchpt-lla-msgrt-60-sm-id1099-sni5zl
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מרחפת ללא מסגרת, בעיצוב נקי, מודרני ויוקרתי המעניק תחושת מרחב ואלגנטיות לכל חלל. מראה מינימליסטי ומרהיב שמשתלב בצורה מושלמת בכל סגנון עיצוב.
@@ -296,7 +296,7 @@ https://streetstock.co.il/product/mrah-agvlh-mrchpt-lla-msgrt-60-sm-id1099-sni5z
 ### מראה חצי אובלית מסגרת אלומיניום
 45X60 ס"מ צבע זהב
 https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-zhb-h0nvu6
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -305,7 +305,7 @@ https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsb
 ### מראה חצי אובלית מסגרת אלומיניום
 45X60 ס"מ צבע מוקה
 https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-mvkh-ljs0n4
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -314,7 +314,7 @@ https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsb
 ### מראה חצי אובלית מסגרת אלומיניום
 45X60 ס"מ צבע לבן
 https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-lbn-7360vi
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -323,7 +323,7 @@ https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsb
 ### מראה חצי אובלית מסגרת אלומיניום
 45X60 ס"מ צבע שחור
 https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsba-shchvr-xy868e
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -332,7 +332,7 @@ https://streetstock.co.il/product/mrah-chtsy-avblyt-msgrt-alvmynyvm-45x60-sm-tsb
 ### מראה אובלית מסגרת אלומיניום
 45X80 ס"מ צבע מוקה
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-mvkh-qqc68c
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -341,7 +341,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-mvkh
 ### מראה אובלית מסגרת אלומיניום
 45X80 ס"מ צבע זהב
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-zhb-nlcvoz
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -350,7 +350,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-zhb-
 ### מראה אובלית מסגרת אלומיניום
 45X80 ס"מ צבע לבן
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-lbn-6kr2ou
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -359,7 +359,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-lbn-
 ### מראה אובלית מסגרת אלומיניום
 40X60 ס"מ צבע זהב
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-zhb-3dktux
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -368,7 +368,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-zhb-
 ### מראה אובלית מסגרת אלומיניום
 45X80 ס"מ צבע שחור
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-shchvr-0p60ot
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -377,7 +377,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-45x80-sm-tsba-shch
 ### מראה אובלית מסגרת אלומיניום
 40X60 ס"מ צבע מוקה
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-mvkh-f41dvj
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -386,7 +386,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-mvkh
 ### מראה אובלית מסגרת אלומיניום
 40X60 ס"מ צבע לבן
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-lbn-qtp3ju
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -395,7 +395,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-lbn-
 ### מראה אובלית מסגרת אלומיניום
 40X60 ס"מ צבע שחור
 https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-shchvr-h7kked
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: מראות ומסגרות
 - Description: מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.
@@ -404,7 +404,7 @@ https://streetstock.co.il/product/mrah-avblyt-msgrt-alvmynyvm-40x60-sm-tsba-shch
 ### ארון נעליים 10 קומות צבע שחור
 ID422
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-id422-580527
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Description: ארון נעליים מעוצב ופרקטי בעל 10 קומות, עם מקום לעד 20 זוגות נעליים. פתרון אחסון חכם וחסכוני במקום, השומר על הנעליים מסודרות ונגישות ומעניק לחלל מראה נקי ומאורגן.
 - Image: https://streetstock.co.il/assets/product-1787558771791-6w23l9.webp
@@ -412,7 +412,7 @@ https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-shchvr-id422-580527
 ### ארון נעליים 10 קומות צבע לבן
 ID423
 https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-ddnov9
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Description: ארון נעליים מעוצב ופרקטי בעל 10 קומות, עם מקום לעד 20 זוגות נעליים. פתרון אחסון חכם וחסכוני במקום, השומר על הנעליים מסודרות ונגישות ומעניק לחלל מראה נקי ומאורגן.
 - Image: https://streetstock.co.il/assets/product-1787558904625-in7zeb.webp
@@ -421,7 +421,7 @@ https://streetstock.co.il/product/arvn-nalyym-10-kvmvt-tsba-lbn-id423-ddnov9
  דגם PIZA
 ID359
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o
-- Price: 149.90 ILS
+- Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -430,7 +430,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe
 ### הדום אחסון וישיבה 
 דגם ID430  MILANO
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5
-- Price: 149.90 ILS
+- Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -439,7 +439,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5
 ### הדום אחסון וישיבה 
 דגם PALERMO  ID431
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -449,7 +449,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx
  NAPOLI
 ID1084
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -459,7 +459,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-
   NAPOLI
 ID1127
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -468,7 +468,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktr
 ### הדום אחסון וישיבה 
 דגם FLORENCE  ID433
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -478,7 +478,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp
  דגם TORINO
 ID1083
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-id1083-s4z6nx
-- Price: 149.90 ILS
+- Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -487,7 +487,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-i
  דגם TORINO 
 ID1082
 https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4
-- Price: 119.90 ILS
+- Price: 95.92 ILS (sale, was 119.90 ILS)
 - Availability: In stock
 - Category: הדומים
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
@@ -496,7 +496,7 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-
 ### ארגונית אקרילית + מכסה ורשת דגם "LENNY"
 ID1149
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-vzi8lx
-- Price: 39.90 ILS
+- Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה ורשת פנימית, המסייעת לשמור על המזון מסודר וטרי לאורך זמן. פתרון פרקטי ואסתטי לאחסון פירות, ירקות ומוצרי מזון במקרר ובמטבח.
@@ -505,7 +505,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-vz
 ### ארגונית אקרילית + מכסה ורשת דגם "LIRON"
 ID1147
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-liron-id1147-m7f921
-- Price: 44.90 ILS
+- Price: 35.92 ILS (sale, was 44.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה ורשת פנימית, המסייעת לשמור על המזון מסודר וטרי לאורך זמן. פתרון פרקטי ואסתטי לאחסון פירות, ירקות ומוצרי מזון במקרר ובמטבח.
@@ -514,7 +514,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-liron-id1147-m7
 ### ארגונית אקרילית + מכסה ורשת דגם "SHARON"
 ID1148
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-sharon-id1148-5d4nqs
-- Price: 34.90 ILS
+- Price: 27.92 ILS (sale, was 34.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה ורשת פנימית, המסייעת לשמור על המזון מסודר וטרי לאורך זמן. פתרון פרקטי ואסתטי לאחסון פירות, ירקות ומוצרי מזון במקרר ובמטבח.
@@ -523,7 +523,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-sharon-id1148-5
 ### ארגונית אקרילית + מכסה ורשת דגם "YARDEN"
 ID1146
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-yarden-id1146-rcenja
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה ורשת פנימית, המסייעת לשמור על המזון מסודר וטרי לאורך זמן. פתרון פרקטי ואסתטי לאחסון פירות, ירקות ומוצרי מזון במקרר ובמטבח.
@@ -532,7 +532,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-vrsht-dgm-yarden-id1146-r
 ### ארגונית אקרילית + מכסה דגם "YAGEL"
 ID1145
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yagel-id1145-67bror
-- Price: 34.90 ILS
+- Price: 27.92 ILS (sale, was 34.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה, בעיצוב מודולרי המאפשר לערום מספר ארגוניות אחת על השנייה ולנצל את המקום בצורה חכמה. מושלמת לסידור המטבח, המזווה, המקרר, הארונות והמגירות – לסדר מושלם ומראה נקי ואסתטי.
@@ -541,7 +541,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yagel-id1145-67bror
 ### ארגונית אקרילית + מכסה דגם "ZIV"
 ID1143
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-ziv-id1143-0mjqph
-- Price: 59.90 ILS
+- Price: 47.92 ILS (sale, was 59.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה, בעיצוב מודולרי המאפשר לערום מספר ארגוניות אחת על השנייה ולנצל את המקום בצורה חכמה. מושלמת לסידור המטבח, המזווה, המקרר, הארונות והמגירות – לסדר מושלם ומראה נקי ואסתטי.
@@ -550,7 +550,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-ziv-id1143-0mjqph
 ### ארגונית אקרילית + מכסה דגם "GILI"
 ID1142
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-gili-id1142-u9j26t
-- Price: 29.90 ILS
+- Price: 23.92 ILS (sale, was 29.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה, בעיצוב מודולרי המאפשר לערום מספר ארגוניות אחת על השנייה ולנצל את המקום בצורה חכמה. מושלמת לסידור המטבח, המזווה, המקרר, הארונות והמגירות – לסדר מושלם ומראה נקי ואסתטי.
@@ -559,7 +559,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-gili-id1142-u9j26t
 ### ארגונית אקרילית + מכסה דגם "YAN"
 ID1144
 https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yan-id1144-pu252r
-- Price: 59.90 ILS
+- Price: 47.92 ILS (sale, was 59.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית עם מכסה, בעיצוב מודולרי המאפשר לערום מספר ארגוניות אחת על השנייה ולנצל את המקום בצורה חכמה. מושלמת לסידור המטבח, המזווה, המקרר, הארונות והמגירות – לסדר מושלם ומראה נקי ואסתטי.
@@ -568,7 +568,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-yan-id1144-pu252r
 ### ארגונית אקרילית מתקפלת דגם "ORIYA"
 ID1141
 https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-oriya-id1141-hwgg5x
-- Price: 39.90 ILS
+- Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל מתקפלת, שקופה ואיכותית לסידור חכם ונוח בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – עיצוב פרקטי וחסכוני במקום, לשמירה על סדר ומראה נקי ואסתטי.
@@ -577,7 +577,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-oriya-id1141-hwgg5x
 ### ארגונית אקרילית מתקפלת דגם "YUVAL"
 ID1140
 https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-yuval-id1140-8i3i09
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל מתקפלת, שקופה ואיכותית לסידור חכם ונוח בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – עיצוב פרקטי וחסכוני במקום, לשמירה על סדר ומראה נקי ואסתטי.
@@ -586,7 +586,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-mtkplt-dgm-yuval-id1140-8i3i09
 ### ארגונית אקרילית דגם "OFIR"
 ID1139
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ofir-id1139-andur6
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -595,7 +595,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ofir-id1139-andur6
 ### ארגונית אקרילית דגם "AVIA"
 ID1136
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-1j4l1f
-- Price: 4.90 ILS
+- Price: 3.92 ILS (sale, was 4.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -604,7 +604,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-1j4l1f
 ### ארגונית אקרילית דגם "AGAM"
 ID1138
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-agam-id1138-b3bt6j
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -613,7 +613,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-agam-id1138-b3bt6j
 ### ארגונית אקרילית דגם "ON"
 ID1137
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-4z252v
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -622,7 +622,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-4z252v
 ### ארגונית אקרילית דגם "RAVID"
 ID1134
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ravid-id1134-6q3w3d
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -631,7 +631,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ravid-id1134-6q3w3d
 ### ארגונית אקרילית דגם "AMIT"
 ID1135
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-amit-id1135-frte49
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -640,7 +640,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-amit-id1135-frte49
 ### ארגונית אקרילית דגם "OMER"
 ID1133
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-omer-id1133-q5pklk
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -649,7 +649,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-omer-id1133-q5pklk
 ### ארגונית אקרילית דגם "LIRAZ"
 ID1131
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-liraz-id1131-grrn0l
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -658,7 +658,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-liraz-id1131-grrn0l
 ### ארגונית אקרילית דגם "IDO"
 ID1132
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ido-id1132-opm5se
-- Price: 6.90 ILS
+- Price: 5.52 ILS (sale, was 6.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -667,7 +667,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ido-id1132-opm5se
 ### ארגונית אקרילית דגם "ADI"
 ID1130
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-adi-id1130-phoyxs
-- Price: 29.90 ILS
+- Price: 23.92 ILS (sale, was 29.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -676,7 +676,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-adi-id1130-phoyxs
 ### ארגונית אקרילית דגם "ITAY"
 ID1129
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-itay-id1129-wi25x0
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -685,7 +685,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-itay-id1129-wi25x0
 ### ארגונית אקרילית  דגם "ORI"
 ID1128
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ori-id1128-xt9le8
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
@@ -694,7 +694,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ori-id1128-xt9le8
 ### פח דוושה 50 ליטר צבע לבן
 דגם PRIME
 https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc
-- Price: 399.90 ILS
+- Price: 319.92 ILS (sale, was 399.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.
@@ -703,7 +703,7 @@ https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc
 ### פח דוושה 50 ליטר צבע מוקה
 דגם PRIME
 https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy
-- Price: 399.90 ILS
+- Price: 319.92 ILS (sale, was 399.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.
@@ -712,7 +712,7 @@ https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy
 ### פח דוושה 50 ליטר צבע שחור
 דגם PRIME
 https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-j8u6m4
-- Price: 399.90 ILS
+- Price: 319.92 ILS (sale, was 399.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.
@@ -721,7 +721,7 @@ https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-j8u6m
 ### פח 30 ליטר דוושה דגם URBANO
 צבע זהב ID1097
 https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-cx528u
-- Price: 349.90 ILS
+- Price: 279.92 ILS (sale, was 349.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח 30 ליטר עם דוושה לפתיחה נוחה והיגיינית, כולל דלי פנימי נשלף לריקון וניקוי קל. עיצוב נקי ופרקטי המתאים לכל מטבח.
@@ -730,7 +730,7 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-zhb-id1097-
 ### פח 30 ליטר דוושה דגם URBANO
 צבע נירוסטה ID1096
 https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1096-5glcdq
-- Price: 349.90 ILS
+- Price: 279.92 ILS (sale, was 349.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח 30 ליטר עם דוושה לפתיחה נוחה והיגיינית, כולל דלי פנימי נשלף לריקון וניקוי קל. עיצוב נקי ופרקטי המתאים לכל מטבח.
@@ -739,7 +739,7 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-nyrvsth-id1
 ### פח 30 ליטר דוושה דגם URBANO
 צבע שמנת ID1095
 https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shmnt-id1095-1tb2c9
-- Price: 349.90 ILS
+- Price: 279.92 ILS (sale, was 349.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח 30 ליטר עם דוושה לפתיחה נוחה והיגיינית, כולל דלי פנימי נשלף לריקון וניקוי קל. עיצוב נקי ופרקטי המתאים לכל מטבח.
@@ -748,7 +748,7 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shmnt-id109
 ### פח 30 ליטר דוושה דגם URBANO
 צבע שחור ID1093
 https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shchvr-id1093-44uok0
-- Price: 349.90 ILS
+- Price: 279.92 ILS (sale, was 349.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח 30 ליטר עם דוושה לפתיחה נוחה והיגיינית, כולל דלי פנימי נשלף לריקון וניקוי קל. עיצוב נקי ופרקטי המתאים לכל מטבח.
@@ -757,7 +757,7 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-shchvr-id10
 ### פח 30 ליטר דוושה דגם URBANO
 צבע מוקה ID1094
 https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-mvkh-id1094-vceaw4
-- Price: 349.90 ILS
+- Price: 279.92 ILS (sale, was 349.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח 30 ליטר עם דוושה לפתיחה נוחה והיגיינית, כולל דלי פנימי נשלף לריקון וניקוי קל. עיצוב נקי ופרקטי המתאים לכל מטבח.
@@ -766,7 +766,7 @@ https://streetstock.co.il/product/pch-30-lytr-dvvshh-dgm-urbano-tsba-mvkh-id1094
 ### פח טאצ' 60 ליטר לבן
 דגם ELVANO
 https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-4liv01
-- Price: 499.90 ILS
+- Price: 399.92 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.
@@ -775,7 +775,7 @@ https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-4liv01
 ### פח טאצ' 60 ליטר מוקה
 דגם ELVANO
 https://streetstock.co.il/product/pch-tats-60-lytr-mvkh-dgm-elvano-b5rl53
-- Price: 499.90 ILS
+- Price: 399.92 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.
@@ -784,7 +784,7 @@ https://streetstock.co.il/product/pch-tats-60-lytr-mvkh-dgm-elvano-b5rl53
 ### פח טאצ' 60 ליטר שחור
 דגם ELVANO
 https://streetstock.co.il/product/pch-tats-60-lytr-shchvr-dgm-elvano-w5qto2
-- Price: 499.90 ILS
+- Price: 399.92 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: פחי מטבח
 - Description: פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.
@@ -794,7 +794,7 @@ https://streetstock.co.il/product/pch-tats-60-lytr-shchvr-dgm-elvano-w5qto2
 28 ס"מ סוטאז' ID1126
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-28-sm-svtaz-id1126-ar3cec
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -804,7 +804,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-28-sm-svtaz
 28 ס"מ ID1124
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-28-sm-id1124-5pnilt
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -814,7 +814,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-28-sm-id112
 20 ס"מ ID1122
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-20-sm-id1122-jxdbrf
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -824,7 +824,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-20-sm-id112
 28 ס"מ ID1119
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-28-sm-id1119-nlc68x
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -834,7 +834,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-28-sm-id1119-
 24 ס"מ ID1118
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-id1118-beuar0
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -844,7 +844,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-id1118-
 24 ס"מ ID1123
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-id1123-lrcglc
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -854,7 +854,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-id112
 28 ס"מ סוטאז' ID1121
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-28-sm-svtaz-id1121-oihrzv
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -864,7 +864,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-28-sm-svtaz-i
 24 ס"מ סוטאז' ID1120
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-svtaz-id1120-if5k0b
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -874,7 +874,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-24-sm-svtaz-i
 24 ס"מ סוטאז' ID1125
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-svtaz-id1125-8ojft6
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -883,7 +883,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-madera-24-sm-svtaz
 ### מחבת יציקת אלומיניום שחור MORO
 28 ס"מ ID1116
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1116-zjwzul
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -893,7 +893,7 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shchvr-moro-28-sm-id111
 20 ס"מ ID1117
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-aiz2sy
-- Price: 62.90 ILS
+- Price: 50.32 ILS (sale, was 62.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MADERA – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK, לבישול נוח ופיזור חום אחיד. עיצוב אלגנטי ומרשים המשלב איכות, פרקטיות וסטייל במטבח.
@@ -902,7 +902,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-madera-20-sm-id1117-
 ### מחבת יציקת אלומיניום שחור MORO
 24 ס"מ ID1115
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1115-h9fa0w
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -911,7 +911,7 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shchvr-moro-24-sm-id111
 ### מחבת יציקת אלומיניום שמנת MORO
 24 ס"מ ID1112
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1112-yqoaod
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -920,7 +920,7 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1112
 ### מחבת יציקת אלומיניום שחור MORO
 20 ס"מ ID1114
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1114-i31506
-- Price: 59.90 ILS
+- Price: 47.92 ILS (sale, was 59.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -929,7 +929,7 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shchvr-moro-20-sm-id111
 ### מחבת יציקת אלומיניום שמנת MORO
 28 ס"מ ID1113
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1113-2gd214
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -939,7 +939,7 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1113
 32 ס"מ סוטאז' ID1110
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-gu88l0
-- Price: 149.90 ILS
+- Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -948,7 +948,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-i
 ### מחבת יציקת אלומיניום שמנת MORO
 20 ס"מ ID1111
 https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-qgbkhk
-- Price: 59.90 ILS
+- Price: 47.92 ILS (sale, was 59.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -958,7 +958,7 @@ https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111
 28 ס"מ ID1108
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-w6tp7q
-- Price: 159.90 ILS
+- Price: 127.92 ILS (sale, was 159.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -968,7 +968,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-
 סוטאז' 24 ס"מ ID1173
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-kbijfr
-- Price: 109.90 ILS
+- Price: 87.92 ILS (sale, was 109.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -978,7 +978,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-i
 28 ס"מ סוטאז' ID1109
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-vv0kby
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -988,7 +988,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-i
 24 ס"מ ID1107
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-v2pujm
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -998,7 +998,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-
 32 ס"מ סוטאז' ID1105
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-ydwuo1
-- Price: 149.90 ILS
+- Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1008,7 +1008,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id
 28 ס"מ סוטאז' ID1104
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-5v7f6g
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1018,7 +1018,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id
 20 ס"מ ID1106
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-78en68
-- Price: 109.90 ILS
+- Price: 87.92 ILS (sale, was 109.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1028,7 +1028,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-
 סוטאז' 24 ס"מ ID1172
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-r1prh3
-- Price: 109.90 ILS
+- Price: 87.92 ILS (sale, was 109.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1038,7 +1038,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id
 24 ס"מ ID1102
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-ahvati
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1048,7 +1048,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-a
 28 ס"מ ID1103
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-52advc
-- Price: 159.90 ILS
+- Price: 127.92 ILS (sale, was 159.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1057,7 +1057,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-5
 ### סיר יציקת אלומיניום שמנת MORO
 20 ס"מ ID1101
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-7ga589
-- Price: 109.90 ILS
+- Price: 87.92 ILS (sale, was 109.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
@@ -1066,7 +1066,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-7
 ### מחבת גריל אלומיניום סדרת LUSSO
 28 ס"מ ID1174
 https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-50s6nt
-- Price: 89.90 ILS
+- Price: 71.92 ILS (sale, was 89.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת מחבתות היציקה LUSSO – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK לבישול נוח ותוצאות מושלמות. עיצוב יוקרתי, פיזור חום אחיד ואיכות שמרגישים בכל שימוש.
@@ -1076,7 +1076,7 @@ https://streetstock.co.il/product/mchbt-gryl-alvmynyvm-sdrt-lusso-28-sm-id1174-5
 סוטאז' 24 ס"מ ID1171
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-lusso-svtaz-24-sm-id1171-ay6qyl
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי היציקה LUSSO – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK לבישול נוח ותוצאות מושלמות. עיצוב יוקרתי, פיזור חום אחיד ואיכות שמרגישים בכל שימוש.
@@ -1086,7 +1086,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-mvkh-lusso-svtaz-24-sm-id
 סוטאז' 24 ס"מ ID1170
 
 https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-apvr-lusso-svtaz-24-sm-id1170-fo4xij
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: סירים ומחבתות
 - Description: סדרת סירי היציקה LUSSO – סירי יציקת אלומיניום איכותיים בציפוי NON-STICK לבישול נוח ותוצאות מושלמות. עיצוב יוקרתי, פיזור חום אחיד ואיכות שמרגישים בכל שימוש.
@@ -1095,7 +1095,7 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-apvr-lusso-svtaz-24-sm-id
 ### סט פח + מברשת דגם AUREL
 צבע זהב ID1092
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-i92fz1
-- Price: 99.90 ILS (sale, was 124.90 ILS)
+- Price: 99.92 ILS (sale, was 124.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
@@ -1104,7 +1104,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-zhb-id1092-i92fz1
 ### סט פח + מברשת דגם AUREL
 צבע שחור ID1088
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shchvr-id1088-jezlf3
-- Price: 124.90 ILS
+- Price: 99.92 ILS (sale, was 124.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
@@ -1113,7 +1113,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shchvr-id1088-jez
 ### סט פח + מברשת דגם AUREL
 צבע נירוסטה ID1091
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-nyrvsth-id1091-rau3dj
-- Price: 124.90 ILS
+- Price: 99.92 ILS (sale, was 124.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
@@ -1122,7 +1122,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-nyrvsth-id1091-ra
 ### סט פח + מברשת דגם LUCENTO
 צבע זהב ID1087
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-9vo88h
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
@@ -1131,7 +1131,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-zhb-id1087-9vo8
 ### סט פח + מברשת דגם AUREL
 צבע מוקה ID1089
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-lg7qyl
-- Price: 124.90 ILS
+- Price: 99.92 ILS (sale, was 124.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
@@ -1140,7 +1140,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-lg7qy
 ### סט פח + מברשת דגם AUREL
 צבע שמנת ID1090
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjno9
-- Price: 124.90 ILS
+- Price: 99.92 ILS (sale, was 124.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.
@@ -1149,7 +1149,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjn
 ### סט פח + מברשת דגם LUCENTO
 צבע שחור ID1083
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-khc35j
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
@@ -1158,7 +1158,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-k
 ### סט פח + מברשת דגם LUCENTO
 צבע מוקה ID1084
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-mvkh-id1084-z2ysiu
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
@@ -1167,7 +1167,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-mvkh-id1084-z2y
 ### סט פח + מברשת דגם LUCENTO
 צבע שמנת ID1085
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-vnwt9a
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
@@ -1176,7 +1176,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shmnt-id1085-vn
 ### סט פח + מברשת דגם LUCENTO
 צבע נירוסטה ID1086
 https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-nyrvsth-id1086-c5ivaq
-- Price: 99.90 ILS
+- Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
 - Category: פחי שירותים
 - Description: סט פח ומברשת אסלה יוקרתי לאמבטיה, בעיצוב מודרני ואלגנטי המעניק לחלל מראה נקי ומוקפד. שילוב מושלם של פרקטיות, איכות וסטייל.
@@ -1185,7 +1185,7 @@ https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-nyrvsth-id1086-
 ### מארז 4 כפות עץ
 ID1018 
 https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ffice4
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1194,7 +1194,7 @@ https://streetstock.co.il/product/marz-4-kpvt-ats-id1018-ffice4
 ### סל כביסה אקריל דגם LUNA
 ID615 
 https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Description: סל כביסה אקרילי מעוצב ופרקטי, בעל מראה מודרני ונקי המשתלב בצורה מושלמת בחדר הרחצה או הכביסה. פתרון נוח ואסתטי לאחסון הכביסה ולשמירה על סדר וארגון.
@@ -1203,7 +1203,7 @@ https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms
 ### סכומון מלבן מחולק לשתיים
 ID512 
 https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1212,7 +1212,7 @@ https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l
 ### ארגונית אקרילית דגם "CHEN"
 ID409 
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525100872-soybsc.webp
@@ -1220,7 +1220,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj
 ### סכומון עגול שחור M
 ID514 
 https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-id514-prjj06
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1229,7 +1229,7 @@ https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-id514-prjj06
 ### ארגונית אקרילית דגם "MOR"
 ID410 
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-mor-id410-b64xb9
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525130131-wg9uco.webp
@@ -1237,7 +1237,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-mor-id410-b64xb9
 ### סכומון עגול שחור L
 ID513 
 https://streetstock.co.il/product/skvmvn-agvl-shchvr-l-id513-v5lmap
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1246,7 +1246,7 @@ https://streetstock.co.il/product/skvmvn-agvl-shchvr-l-id513-v5lmap
 ### ארגונית אקרילית דגם "GAL"
 ID407 
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-id407-wqyjiw
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525158087-hmaq6.webp
@@ -1254,7 +1254,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-id407-wqyjiw
 ### ארגונית אקרילית דגם "GAIA"
 ID406 
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gaia-id406-hy8mwp
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525174423-b521yv.webp
@@ -1262,7 +1262,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gaia-id406-hy8mwp
 ### ארגונית אקרילית דגם "OR"
 ID405 
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-or-id405-bqd9xs
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525189279-32dq99.webp
@@ -1270,7 +1270,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-or-id405-bqd9xs
 ### סכומית מגירה גדול דגם MAAYAN
 ID480 
 https://streetstock.co.il/product/skvmyt-mgyrh-gdvl-dgm-maayan-id480-17wv5m
-- Price: 39.90 ILS
+- Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525216888-mqask.webp
@@ -1278,7 +1278,7 @@ https://streetstock.co.il/product/skvmyt-mgyrh-gdvl-dgm-maayan-id480-17wv5m
 ### סכומית מגירה בינוני דגם MAAYAN
 ID479 
 https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-dgm-maayan-id479-mzw7va
-- Price: 29.90 ILS
+- Price: 23.92 ILS (sale, was 29.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525232024-zkp96.webp
@@ -1286,7 +1286,7 @@ https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-dgm-maayan-id479-mzw7va
 ### ארגונית אחסון אקרילית מחולקת אקריל + מכסה 
 דגם ID1169 SHARONA
 https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1169-sharona-bbulum
-- Price: 39.90 ILS
+- Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786525248235-t5zdy3.webp
@@ -1294,7 +1294,7 @@ https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-
 ### ארגונית אקרילית לביצים דגם "TOM"
 ID404 
 https://streetstock.co.il/product/argvnyt-akrylyt-lbytsym-dgm-tom-id404-mgabdw
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: ארגוניות אקריל
 - Image: https://streetstock.co.il/assets/product-1786525955171-45pzb5.webp
@@ -1302,7 +1302,7 @@ https://streetstock.co.il/product/argvnyt-akrylyt-lbytsym-dgm-tom-id404-mgabdw
 ### קופסאת אחסון דגם PEAREL 
 460 מ"ל ID1163 
 https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-460-ml-id1163-z08gex
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786525988690-2wadxj.webp
@@ -1310,7 +1310,7 @@ https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-460-ml-id1163-z08gex
 ### קופסאת אחסון דגם PEAREL 
 800 מ"ל ID1164
 https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-800-ml-id1164-qux41t
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786526013029-qtjyl3.webp
@@ -1318,7 +1318,7 @@ https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-800-ml-id1164-qux41t
 ### קופסאת אחסון דגם PEAREL 
 1200 מ"ל ID1165
 https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1200-ml-id1165-c2yg3y
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786526043577-6dqyc.webp
@@ -1326,7 +1326,7 @@ https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1200-ml-id1165-c2yg3y
 ### קופסאת אחסון דגם PEAREL 
 1800 מ"ל ID1166
 https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1800-ml-id1166-2fyrvt
-- Price: 29.90 ILS
+- Price: 23.92 ILS (sale, was 29.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786526087754-knsm9s.webp
@@ -1334,7 +1334,7 @@ https://streetstock.co.il/product/kvpsat-achsvn-dgm-pearel-1800-ml-id1166-2fyrvt
 ### ארגונית אחסון אקרילית מחולקת אקריל דגם KORAL
 ID1167
 https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-dgm-koral-id1167-dafqdt
-- Price: 29.90 ILS
+- Price: 23.92 ILS (sale, was 29.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786526104514-azfj5r.webp
@@ -1342,7 +1342,7 @@ https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-dgm-koral
 ### ארגונית אחסון אקרילית מחולקת אקריל + מכסה 
 דגם ID1168 KESEM
 https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-id1168-kesem-8u6isp
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: מוצרי אקריל
 - Image: https://streetstock.co.il/assets/product-1786526081825-mdb2pd.webp
@@ -1350,7 +1350,7 @@ https://streetstock.co.il/product/argvnyt-achsvn-akrylyt-mchvlkt-akryl-mksh-dgm-
 ### מארז 10 קולבי פלסטיק איכותיים
 ID1063
 https://streetstock.co.il/product/marz-10-kvlby-plstyk-aykvtyym-id1063-kgk1gr
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526127349-n0lb08.webp
@@ -1358,14 +1358,14 @@ https://streetstock.co.il/product/marz-10-kvlby-plstyk-aykvtyym-id1063-kgk1gr
 ### מארז 3 קולבי מתכת עם קליפס
 ID1064
 https://streetstock.co.il/product/marz-3-kvlby-mtkt-am-klyps-id1064-a16u1l
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526217171-dqsjys.webp
 
 ### סט 4 מחזיקי מפות ID1058
 https://streetstock.co.il/product/st-4-mchzyky-mpvt-id1058-oc7w46
-- Price: 9.90 ILS
+- Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1374,7 +1374,7 @@ https://streetstock.co.il/product/st-4-mchzyky-mpvt-id1058-oc7w46
 ### מועך תפוח אדמה נירוסטה סדרת CLASSIC
 ID1059
 https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1059-xl6rq3
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1383,7 +1383,7 @@ https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1059-xl
 ### מעמד נייר טואלט עומד
 ID1060
 https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-zhe75o
-- Price: 39.90 ILS
+- Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1786526027528-vfc3ul.webp
@@ -1391,7 +1391,7 @@ https://streetstock.co.il/product/mamd-nyyr-tvalt-avmd-id1060-zhe75o
 ### מדף מתכת דו־קומתי 
 ID1061
 https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-1nle12
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1400,7 +1400,7 @@ https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-1nle12
 ### מועך תפוח אדמה נירוסטה סדרת CLASSIC
 ID1053
 https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1053-dnxpnw
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1409,7 +1409,7 @@ https://streetstock.co.il/product/mvak-tpvch-admh-nyrvsth-sdrt-classic-id1053-dn
 ### מועך תפוחי אדמה לחיצה נירוסטה סדרת CLASSIC
 ID1054
 https://streetstock.co.il/product/mvak-tpvchy-admh-lchytsh-nyrvsth-sdrt-classic-id1054-o0utgq
-- Price: 49.90 ILS
+- Price: 39.92 ILS (sale, was 49.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1418,7 +1418,7 @@ https://streetstock.co.il/product/mvak-tpvchy-admh-lchytsh-nyrvsth-sdrt-classic-
 ### סט 4 כפות מדידה סדרת CLASSIC
 ID1055
 https://streetstock.co.il/product/st-4-kpvt-mdydh-sdrt-classic-id1055-ypzko8
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1426,7 +1426,7 @@ https://streetstock.co.il/product/st-4-kpvt-mdydh-sdrt-classic-id1055-ypzko8
 
 ### מסננת כיור נירוסטה ID1057
 https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id1057-70jfkd
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1435,7 +1435,7 @@ https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id1057-70jfkd
 ### מספריים רב שימושיות סדרת CLASSIC
 ID1056
 https://streetstock.co.il/product/mspryym-rb-shymvshyvt-sdrt-classic-id1056-ww7pzf
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1444,7 +1444,7 @@ https://streetstock.co.il/product/mspryym-rb-shymvshyvt-sdrt-classic-id1056-ww7p
 ### פורס ביצים מקצועי סדרת CLASSIC
 ID1048
 https://streetstock.co.il/product/pvrs-bytsym-mktsvay-sdrt-classic-id1048-3b1wtz
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1453,7 +1453,7 @@ https://streetstock.co.il/product/pvrs-bytsym-mktsvay-sdrt-classic-id1048-3b1wtz
 ### מלקחיים מקצועיות גודל L סדרת CLASSIC
 ID1050
 https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-l-sdrt-classic-id1050-7p8h63
-- Price: 16.90 ILS
+- Price: 13.52 ILS (sale, was 16.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1462,7 +1462,7 @@ https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-l-sdrt-classic-id1050-
 ### פומפיה נירוסטה 3 מצבי פעולה סדרת CLASSIC
 ID1049
 https://streetstock.co.il/product/pvmpyh-nyrvsth-3-mtsby-pavlh-sdrt-classic-id1049-6f8f1a
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1471,7 +1471,7 @@ https://streetstock.co.il/product/pvmpyh-nyrvsth-3-mtsby-pavlh-sdrt-classic-id10
 ### קולפן מקצועי סדרת CLASSIC
 ID1052
 https://streetstock.co.il/product/kvlpn-mktsvay-sdrt-classic-id1052-myiszb
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1480,7 +1480,7 @@ https://streetstock.co.il/product/kvlpn-mktsvay-sdrt-classic-id1052-myiszb
 ### מלקחיים מקצועיות גודל XL סדרת CLASSIC
 ID1051
 https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051-pihcuc
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1489,7 +1489,7 @@ https://streetstock.co.il/product/mlkchyym-mktsvayvt-gvdl-xl-sdrt-classic-id1051
 ### פומפיה נירוסטה סדרת CLASSIC
 ID1043
 https://streetstock.co.il/product/pvmpyh-nyrvsth-sdrt-classic-id1043-tvcbon
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1498,7 +1498,7 @@ https://streetstock.co.il/product/pvmpyh-nyrvsth-sdrt-classic-id1043-tvcbon
 ### תפוחן נירוסטה סדרת CLASSIC
 ID1045
 https://streetstock.co.il/product/tpvchn-nyrvsth-sdrt-classic-id1045-iitbve
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1507,7 +1507,7 @@ https://streetstock.co.il/product/tpvchn-nyrvsth-sdrt-classic-id1045-iitbve
 ### מרית לעוגה + להב לחיתוך נירוסטה סדרת CLASSIC
 ID1044
 https://streetstock.co.il/product/mryt-lavgh-lhb-lchytvk-nyrvsth-sdrt-classic-id1044-q6m3wo
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1516,7 +1516,7 @@ https://streetstock.co.il/product/mryt-lavgh-lhb-lchytvk-nyrvsth-sdrt-classic-id
 ### כותש שום מקצועי סדרת CLASSIC
 ID1047
 https://streetstock.co.il/product/kvtsh-shvm-mktsvay-sdrt-classic-id1047-tuquaq
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1525,7 +1525,7 @@ https://streetstock.co.il/product/kvtsh-shvm-mktsvay-sdrt-classic-id1047-tuquaq
 ### גלגלת פיצה מקצועית 
 ID1046
 https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-accnx1
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1534,7 +1534,7 @@ https://streetstock.co.il/product/glglt-pytsh-mktsvayt-id1046-accnx1
 ### מסננת נירוסטה 6.5 ס"מ סדרת CLASSIC
 ID1038
 https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-eafc7s
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1543,7 +1543,7 @@ https://streetstock.co.il/product/msnnt-nyrvsth-65-sm-sdrt-classic-id1038-eafc7s
 ### גלגלת פיצה נירוסטה סדרת CLASSIC
 ID1040
 https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1552,7 +1552,7 @@ https://streetstock.co.il/product/glglt-pytsh-nyrvsth-sdrt-classic-id1040-wm5baf
 ### קולפן מקצועי נירוסטה סדרת CLASSIC
 ID1039
 https://streetstock.co.il/product/kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-5gu8h2
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1561,7 +1561,7 @@ https://streetstock.co.il/product/kvlpn-mktsvay-nyrvsth-sdrt-classic-id1039-5gu8
 ### כף נירוסטה סדרת CLASSIC
 ID1034
 https://streetstock.co.il/product/kp-nyrvsth-sdrt-classic-id1034-kgwr2s
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1570,7 +1570,7 @@ https://streetstock.co.il/product/kp-nyrvsth-sdrt-classic-id1034-kgwr2s
 ### פותחן בקבוקים מקצועי נירוסטה סדרת CLASSIC
 ID1041
 https://streetstock.co.il/product/pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id1041-6fajoa
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1579,7 +1579,7 @@ https://streetstock.co.il/product/pvtchn-bkbvkym-mktsvay-nyrvsth-sdrt-classic-id
 ### מסננת נירוסטה 8.5 ס"מ סדרת CLASSIC
 ID1042
 https://streetstock.co.il/product/msnnt-nyrvsth-85-sm-sdrt-classic-id1042-opqcnt
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1588,7 +1588,7 @@ https://streetstock.co.il/product/msnnt-nyrvsth-85-sm-sdrt-classic-id1042-opqcnt
 ### תרווד נירוסטה סדרת CLASSIC
 ID1033
 https://streetstock.co.il/product/trvvd-nyrvsth-sdrt-classic-id1033-p51fqi
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1597,7 +1597,7 @@ https://streetstock.co.il/product/trvvd-nyrvsth-sdrt-classic-id1033-p51fqi
 ### מטרפה נירוסטה סדרת CLASSIC
 ID1035
 https://streetstock.co.il/product/mtrph-nyrvsth-sdrt-classic-id1035-d4hs83
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1606,7 +1606,7 @@ https://streetstock.co.il/product/mtrph-nyrvsth-sdrt-classic-id1035-d4hs83
 ### כותש שום נירוסטה סדרת CLASSIC
 ID1036
 https://streetstock.co.il/product/kvtsh-shvm-nyrvsth-sdrt-classic-id1036-k17yi4
-- Price: 19.90 ILS
+- Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1615,7 +1615,7 @@ https://streetstock.co.il/product/kvtsh-shvm-nyrvsth-sdrt-classic-id1036-k17yi4
 ### פותחן שימורים מקצועי נירוסטה סדרת CLASSIC
 ID1037
 https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-id1037-1522h2
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1624,7 +1624,7 @@ https://streetstock.co.il/product/pvtchn-shymvrym-mktsvay-nyrvsth-sdrt-classic-i
 ### סכין לחם 19 ס"מ סדרת KITCHEN PRO
 ID1028
 https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-phge0u
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
@@ -1633,7 +1633,7 @@ https://streetstock.co.il/product/skyn-lchm-19-sm-sdrt-kitchen-pro-id1028-phge0u
 ### סכין שף 13 ס"מ סדרת KITCHEN PRO
 ID1029
 https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-r3q955
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
@@ -1642,7 +1642,7 @@ https://streetstock.co.il/product/skyn-shp-13-sm-sdrt-kitchen-pro-id1029-r3q955
 ### כף מחוררת נירוסטה סדרת CLASSIC 
 ID1030
 https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-jfbscd
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1651,7 +1651,7 @@ https://streetstock.co.il/product/kp-mchvrrt-nyrvsth-sdrt-classic-id1030-jfbscd
 ### כף טיגון מחוררת נירוסטה סדרת CLASSIC
 ID1031
 https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-yi24rc
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1660,7 +1660,7 @@ https://streetstock.co.il/product/kp-tygvn-mchvrrt-nyrvsth-sdrt-classic-id1031-y
 ### מצקת נירוסטה סדרת CLASSIC
 ID1032
 https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-8wlwda
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1669,7 +1669,7 @@ https://streetstock.co.il/product/mtskt-nyrvsth-sdrt-classic-id1032-8wlwda
 ### מעמד צלחות / מכסים
 ID1023
 https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-6d7lb0
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1678,7 +1678,7 @@ https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-6d7lb0
 ### מעמד רב שימושי
 ID1024
 https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-6p9xsk
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1687,7 +1687,7 @@ https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-6p9xsk
 ### סלסלת אחסון מתכת נתלת רב־שימושית 
 ID1025
 https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609cxh
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1696,7 +1696,7 @@ https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609c
 ### סכין סנטוקו 18 ס"מ סדרת KITCHEN PRO
 ID1026
 https://streetstock.co.il/product/skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-orip6k
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
@@ -1705,7 +1705,7 @@ https://streetstock.co.il/product/skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-orip
 ### סכין שף 20 ס"מ סדרת KITCHEN PRO
 ID1027
 https://streetstock.co.il/product/skyn-shp-20-sm-sdrt-kitchen-pro-id1027-9pnqf4
-- Price: 24.90 ILS
+- Price: 19.92 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
 - Description: סכיני מטבח גדולות, חדות ואיכותיות, המעניקות חיתוך מדויק ונוח. בעלות ידית אחיזה נוחה ועיצוב מרשים, מושלמות לשימוש יומיומי במטבח.
@@ -1714,7 +1714,7 @@ https://streetstock.co.il/product/skyn-shp-20-sm-sdrt-kitchen-pro-id1027-9pnqf4
 ### קופסאת חמאה + מכסה אקריל
 ID1019
 https://streetstock.co.il/product/kvpsat-chmah-mksh-akryl-id1019-0yjnfd
-- Price: 14.90 ILS
+- Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1723,7 +1723,7 @@ https://streetstock.co.il/product/kvpsat-chmah-mksh-akryl-id1019-0yjnfd
 ### פעמון עוגה במבוק + מכסה אקריל
 ID1020
 https://streetstock.co.il/product/pamvn-avgh-bmbvk-mksh-akryl-id1020-jl5h8b
-- Price: 49.90 ILS
+- Price: 39.92 ILS (sale, was 49.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1732,7 +1732,7 @@ https://streetstock.co.il/product/pamvn-avgh-bmbvk-mksh-akryl-id1020-jl5h8b
 ### משטח חיתוך מקצועי מעץ במבוק
 מידות : 38X29 ס"מ ID1021
 https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-sm-id1021-tkwp5r
-- Price: 39.90 ILS
+- Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: משטחי חיתוך
 - Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
@@ -1741,7 +1741,7 @@ https://streetstock.co.il/product/mshtch-chytvk-mktsvay-mats-bmbvk-mydvt-38x29-s
 ### סכומיץ עץ מידות : 37X30X4.5 ס"מ
 ID1022
 https://streetstock.co.il/product/skvmyts-ats-mydvt-37x30x45-sm-id1022-efsqas
-- Price: 44.90 ILS
+- Price: 35.92 ILS (sale, was 44.90 ILS)
 - Availability: In stock
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1786526428635-wsudt.webp
@@ -1749,7 +1749,7 @@ https://streetstock.co.il/product/skvmyts-ats-mydvt-37x30x45-sm-id1022-efsqas
 ### בקבוק רטבים לחיץ 800 מ"ל
 ID1013
 https://streetstock.co.il/product/bkbvk-rtbym-lchyts-800-ml-id1013-elz78w
-- Price: 13.90 ILS
+- Price: 11.12 ILS (sale, was 13.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526416570-iagmj6.webp
@@ -1757,7 +1757,7 @@ https://streetstock.co.il/product/bkbvk-rtbym-lchyts-800-ml-id1013-elz78w
 ### בקבוק רטבים לחיץ 650 מ"ל
 ID1014
 https://streetstock.co.il/product/bkbvk-rtbym-lchyts-650-ml-id1014-qwgpud
-- Price: 11.90 ILS
+- Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526403874-0eu83j.webp
@@ -1765,7 +1765,7 @@ https://streetstock.co.il/product/bkbvk-rtbym-lchyts-650-ml-id1014-qwgpud
 ### בקבוק רטבים לחיץ 450 מ"ל
 ID1015
 https://streetstock.co.il/product/bkbvk-rtbym-lchyts-450-ml-id1015-ph942e
-- Price: 9.90 ILS
+- Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526392465-e01cb.webp
@@ -1773,7 +1773,7 @@ https://streetstock.co.il/product/bkbvk-rtbym-lchyts-450-ml-id1015-ph942e
 ### בקבוק רטבים לחיץ 360 מ"ל
 ID1016
 https://streetstock.co.il/product/bkbvk-rtbym-lchyts-360-ml-id1016-jro4do
-- Price: 7.90 ILS
+- Price: 6.32 ILS (sale, was 7.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526378158-y18u0i.webp
@@ -1781,7 +1781,7 @@ https://streetstock.co.il/product/bkbvk-rtbym-lchyts-360-ml-id1016-jro4do
 ### בקבוק רטבים לחיץ 250 מ"ל
 ID1017
 https://streetstock.co.il/product/bkbvk-rtbym-lchyts-250-ml-id1017-iwf7ya
-- Price: 6.90 ILS
+- Price: 5.52 ILS (sale, was 6.90 ILS)
 - Availability: In stock
 - Category: כללי
 - Image: https://streetstock.co.il/assets/product-1786526368402-cjxw0b.webp
@@ -1789,7 +1789,7 @@ https://streetstock.co.il/product/bkbvk-rtbym-lchyts-250-ml-id1017-iwf7ya
 ### מייבש כלים דגם BELLA
 צבע לבן ID1008 
 https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-lbn-id1008-gc1bxa
-- Price: 89.90 ILS
+- Price: 71.92 ILS (sale, was 89.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1798,7 +1798,7 @@ https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-lbn-id1008-gc1bxa
 ### מייבש כלים דגם BELLA
 צבע מוקה ID1007 
 https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-mvkh-id1007-46e3fh
-- Price: 89.90 ILS
+- Price: 71.92 ILS (sale, was 89.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1807,7 +1807,7 @@ https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-mvkh-id1007-46e3fh
 ### מייבש כלים 2 קומות דגם SAPIR 
 צבע מוקה ID1011
 https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-mvkh-id1011-jacymk
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1816,7 +1816,7 @@ https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-mvkh-id1011
 ### מייבש כלים דגם BELLA
 צבע שחור ID1006 
 https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-shchvr-id1006-1sanl1
-- Price: 89.90 ILS
+- Price: 71.92 ILS (sale, was 89.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1825,7 +1825,7 @@ https://streetstock.co.il/product/myybsh-klym-dgm-bella-tsba-shchvr-id1006-1sanl
 ### מייבש כלים ADI שחור
 ID557 
 https://streetstock.co.il/product/myybsh-klym-adi-shchvr-id557-j7upff
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1834,7 +1834,7 @@ https://streetstock.co.il/product/myybsh-klym-adi-shchvr-id557-j7upff
 ### מייבש כלים 2 קומות דגם SAPIR 
 צבע שחור ID1010
 https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-shchvr-id1010-qk8c1l
-- Price: 129.90 ILS
+- Price: 103.92 ILS (sale, was 129.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1843,7 +1843,7 @@ https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-shchvr-id10
 ### מייבש כלים ADI לבן 
 ID556 
 https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-bm5koo
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
@@ -1852,7 +1852,7 @@ https://streetstock.co.il/product/myybsh-klym-adi-lbn-id556-bm5koo
 ### מייבש כלים דגם ADI 
 צבע מוקה ID1009
 https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-4yyrjb
-- Price: 79.90 ILS
+- Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
