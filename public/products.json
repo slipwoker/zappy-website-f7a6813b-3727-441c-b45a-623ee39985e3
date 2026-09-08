@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:25:42.707Z",
+  "generated_at": "2026-09-08T05:26:35.718Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 812,
+  "count": 811,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -8774,30 +8774,6 @@
         "ארגוניות אקריל"
       ],
       "updated_at": "2026-09-07T11:54:50.899Z"
-    },
-    {
-      "id": "6b9dcf4a-8312-4828-acf2-c276c9c44a9d",
-      "slug": "argvnyt-akrylyt-dgm-sapir-taultj",
-      "name": "ארגונית אקרילית דגם \"SAPIR\"",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781613424047-h9d31t.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-sapir-taultj",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:50.900Z"
     },
     {
       "id": "d8325d5e-277b-4547-b14e-2ef7d76f4165",
