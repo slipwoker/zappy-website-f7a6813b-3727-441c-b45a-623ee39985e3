@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:37:09.581Z",
+  "generated_at": "2026-09-08T05:38:52.051Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -11098,9 +11098,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-hfc9wf",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:55:08.446Z"
     },
     {
@@ -11122,9 +11120,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-dpsch2",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:55:08.449Z"
     },
     {
@@ -11146,9 +11142,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-8ud35r",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:55:08.499Z"
     },
     {
@@ -11170,9 +11164,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-6x2aej",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:55:08.448Z"
     },
     {
@@ -14553,9 +14545,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:55:43.581Z"
     },
     {
@@ -14577,9 +14567,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17",
-      "categories": [
-        "מזוודות"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:55:45.446Z"
     },
     {
