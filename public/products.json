@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:21:45.541Z",
+  "generated_at": "2026-09-08T05:25:21.353Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 815,
+  "count": 812,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -6512,30 +6512,6 @@
       "updated_at": "2026-09-07T11:54:31.886Z"
     },
     {
-      "id": "b9913708-e64b-454c-9067-5b610b7cd65f",
-      "slug": "kvs-zkvkyt-ksh-500-ml-id820-qsnnf2",
-      "name": "כוס זכוכית + קש | 500 מ\"ל\nID820",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 9.52,
-      "base_price": 11.9,
-      "sale_price": 9.52,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784526814010-a9e095.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id820-qsnnf2",
-      "categories": [
-        "צנצנות זכוכית"
-      ],
-      "updated_at": "2026-09-07T11:54:31.881Z"
-    },
-    {
       "id": "8c34bce1-4d27-4b13-9ee8-41a8f0b572d7",
       "slug": "tsntsnt-achsvn-2500-ml-dgm-agm-id390-48jcl7",
       "name": "צנצנת אחסון 2500 מ\"ל דגם אגם\nID390",
@@ -8728,31 +8704,6 @@
       "updated_at": "2026-09-07T11:54:49.425Z"
     },
     {
-      "id": "6e14c0e5-cc8a-4b2d-b51e-65a9592b4714",
-      "slug": "st-pch-mbrsht-tsba-lbn-dgm-clevo-gvgps8",
-      "name": "סט פח + מברשת צבע לבן דגם CLEVO ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 63.92,
-      "base_price": 79.9,
-      "sale_price": 63.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-gvgps8",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-09-07T11:54:49.393Z"
-    },
-    {
       "id": "89f19a72-a4bb-467d-b5a2-f4df0a5eb798",
       "slug": "argvnyt-akrylyt-mchvlkt-mkshdgm-dor-y7qeoq",
       "name": "ארגונית אקרילית מחולקת + מכסהדגם \"DOR\"",
@@ -8843,30 +8794,6 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-sapir-taultj",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:50.900Z"
-    },
-    {
-      "id": "de78f54a-4413-4905-8ea3-af0a4406b3a1",
-      "slug": "argvnyt-akrylyt-dgm-ronit-u23tb0",
-      "name": "ארגונית אקרילית דגם \"RONIT\"",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781613514215-scyloe.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ronit-u23tb0",
       "categories": [
         "ארגוניות אקריל"
       ],

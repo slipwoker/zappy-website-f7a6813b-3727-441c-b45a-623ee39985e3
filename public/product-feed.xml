@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 08 Sep 2026 05:21:45 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:25:21 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -4488,21 +4488,6 @@ ID492</g:title>
       <g:product_type>צנצנות זכוכית</g:product_type>
     </item>
     <item>
-      <g:id>b9913708-e64b-454c-9067-5b610b7cd65f</g:id>
-      <g:title>כוס זכוכית + קש | 500 מ&quot;ל
-ID820</g:title>
-      <g:description>כוס זכוכית + קש | 500 מ&quot;ל ID820</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id820-qsnnf2</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1784526814010-a9e095.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>11.90 ILS</g:price>
-      <g:sale_price>9.52 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>צנצנות זכוכית</g:product_type>
-    </item>
-    <item>
       <g:id>8c34bce1-4d27-4b13-9ee8-41a8f0b572d7</g:id>
       <g:title>צנצנת אחסון 2500 מ&quot;ל דגם אגם
 ID390</g:title>
@@ -6069,20 +6054,6 @@ ID890</g:title>
       <g:product_type>שמיכות חורף</g:product_type>
     </item>
     <item>
-      <g:id>6e14c0e5-cc8a-4b2d-b51e-65a9592b4714</g:id>
-      <g:title>סט פח + מברשת צבע לבן דגם CLEVO </g:title>
-      <g:description>סט פח + מברשת צבע לבן דגם CLEVO</g:description>
-      <g:link>https://streetstock.co.il/product/st-pch-mbrsht-tsba-lbn-dgm-clevo-gvgps8</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1782027019249-9pcz25.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>79.90 ILS</g:price>
-      <g:sale_price>63.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>פחי שירותים</g:product_type>
-    </item>
-    <item>
       <g:id>89f19a72-a4bb-467d-b5a2-f4df0a5eb798</g:id>
       <g:title>ארגונית אקרילית מחולקת + מכסהדגם &quot;DOR&quot;</g:title>
       <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
@@ -6133,20 +6104,6 @@ ID890</g:title>
       <g:availability>in_stock</g:availability>
       <g:price>19.90 ILS</g:price>
       <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>ארגוניות אקריל</g:product_type>
-    </item>
-    <item>
-      <g:id>de78f54a-4413-4905-8ea3-af0a4406b3a1</g:id>
-      <g:title>ארגונית אקרילית דגם &quot;RONIT&quot;</g:title>
-      <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
-      <g:link>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ronit-u23tb0</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781613514215-scyloe.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
