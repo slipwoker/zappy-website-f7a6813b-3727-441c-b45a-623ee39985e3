@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:35:31.495Z",
+  "generated_at": "2026-09-08T05:35:57.645Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 773,
+  "count": 765,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -18030,30 +18030,6 @@
       "updated_at": "2026-09-07T11:56:15.971Z"
     },
     {
-      "id": "32fb532c-c4d2-4354-8386-eb114ee607fb",
-      "slug": "mchbt-ytsykt-alvmynyvm-20-sm-tsba-shchvr-lusso-ss4ae8",
-      "name": "מחבת יציקת אלומיניום 20 ס\"מ צבע שחור LUSSO\r\n",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מחבת יציקת אלומיניום סדרת LUSSO \r\nבעל ציפוי NON STICK",
-      "sku": "7290121564137",
-      "brand": null,
-      "price": 31.92,
-      "base_price": 39.9,
-      "sale_price": 31.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837639196-l2yzp.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-shchvr-lusso-ss4ae8",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:16.065Z"
-    },
-    {
       "id": "c6e3d82c-0579-4c21-89c6-b7fab27019cc",
       "slug": "st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-lbndgm-brevia-2r45wu",
       "name": "סט תה , קפה וסוכר שחור מתכת אל חלד\r\nצבע לבןדגם BREVIA\r\n\r\n",
@@ -18076,30 +18052,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-09-07T11:56:16.133Z"
-    },
-    {
-      "id": "427552b0-970b-45aa-9c40-501942f21afe",
-      "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-shchvr-lusso-ipo0ks",
-      "name": "מחבת יציקת אלומיניום 24 ס\"מ צבע שחור LUSSO\r\n",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מחבת יציקת אלומיניום סדרת LUSSO \r\nבעל ציפוי NON STICK",
-      "sku": "7290121564120",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638598-ae5g.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-shchvr-lusso-ipo0ks",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:16.061Z"
     },
     {
       "id": "a97f13fd-176b-4126-9cd6-7fdc76088422",
@@ -18174,30 +18126,6 @@
       "updated_at": "2026-09-07T11:56:16.187Z"
     },
     {
-      "id": "db93b036-a6ac-4c9e-b71b-39c6acf472ed",
-      "slug": "mchbt-ytsykt-alvmynyvm-28-sm-tsba-shchvr-lusso-saz1l5",
-      "name": "מחבת יציקת אלומיניום 28 ס\"מ צבע שחור LUSSO\r\n",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מחבת יציקת אלומיניום סדרת LUSSO \r\nבעל ציפוי NON STICK",
-      "sku": "7290121564113",
-      "brand": null,
-      "price": 47.92,
-      "base_price": 59.9,
-      "sale_price": 47.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638598-kx19nd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-shchvr-lusso-saz1l5",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:17.583Z"
-    },
-    {
       "id": "d350166e-8737-4ea3-abff-f0cad330f287",
       "slug": "mchbt-ytsykt-alvmynyvm-20-sm-tsba-mvkh-lusso-pf1atj",
       "name": "מחבת יציקת אלומיניום 20 ס\"מ צבע מוקה LUSSO\r\n",
@@ -18244,102 +18172,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-09-07T11:56:17.603Z"
-    },
-    {
-      "id": "3c31712e-5dbb-48cf-9992-db3a6e8fa153",
-      "slug": "syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-shchvr-sdrt-lusso-0oejqc",
-      "name": "סיר סוטאז' יציקת אלומיניום 32 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר סוטאז' יציקת אלומיניום בעל ציפוי NON STICK\r\n32 ס\"מ | 5 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564199",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638588-ut4bkt.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-shchvr-sdrt-lusso-0oejqc",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:17.622Z"
-    },
-    {
-      "id": "b691df18-7397-4b30-8bc2-f512921620ec",
-      "slug": "syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-xvur8i",
-      "name": "סיר סוטאז' יציקת אלומיניום 28 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר סוטאז' יציקת אלומיניום בעל ציפוי NON STICK\r\n28 ס\"מ | 3.5 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564106",
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837637123-uvzplq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-xvur8i",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:17.624Z"
-    },
-    {
-      "id": "230ee081-c7cc-4478-868f-4dab2c0354fa",
-      "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-shchvr-sdrt-lusso-1wlrz7",
-      "name": "סיר יציקת אלומיניום 24 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n24 ס\"מ | 3.6 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564052",
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837636981-3tt41.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-shchvr-sdrt-lusso-1wlrz7",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:17.644Z"
-    },
-    {
-      "id": "3dbd8b96-abb5-4eca-9d8e-03ada27011b7",
-      "slug": "syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h",
-      "name": "סיר יציקת אלומיניום 20 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n20 ס\"מ | 2.3 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564069",
-      "brand": null,
-      "price": 80,
-      "base_price": 100,
-      "sale_price": 80,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837636058-uaye5g.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:17.706Z"
     },
     {
       "id": "b5ba33a7-b626-4a99-8ce8-ce3d629da1fd",
@@ -18439,30 +18271,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-09-07T11:56:19.318Z"
-    },
-    {
-      "id": "ef03c3f1-9f52-4c57-a5e8-d22c0cb535fd",
-      "slug": "syr-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-dp66mn",
-      "name": "סיר יציקת אלומיניום 28 ס\"מ צבע שחור\r\nסדרת LUSSO\r\n\r\n ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סיר יציקת אלומיניום בעל ציפוי NON STICK\r\n28 ס\"מ | 6.2 ליטר\r\nסדרת LUSSO",
-      "sku": "7290121564144",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837635160-3qe2um.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-dp66mn",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:56:19.271Z"
     },
     {
       "id": "73cb0bc6-fe34-4c55-8482-775ac0725a30",

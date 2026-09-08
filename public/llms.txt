@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 773** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 765** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מסגרת תמונה BASIC A3
  צבע שחור ID1081

@@ -12261,15 +12261,6 @@ SKU: 7290121564373
 
 ---
 
-### מחבת יציקת אלומיניום 20 ס"מ צבע שחור LUSSO
-
-URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-shchvr-lusso-ss4ae8
-Price: 31.92 ILS (sale, was 39.90 ILS)
-Availability: In stock
-SKU: 7290121564137
-
----
-
 ### סט תה , קפה וסוכר שחור מתכת אל חלד
 צבע לבןדגם BREVIA
 
@@ -12280,15 +12271,6 @@ Availability: In stock
 SKU: 7290121563383
 
 סט תה קפה סוכר
-
----
-
-### מחבת יציקת אלומיניום 24 ס"מ צבע שחור LUSSO
-
-URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-shchvr-lusso-ipo0ks
-Price: 39.92 ILS (sale, was 49.90 ILS)
-Availability: In stock
-SKU: 7290121564120
 
 ---
 
@@ -12327,15 +12309,6 @@ SKU: 7290121564991
 
 ---
 
-### מחבת יציקת אלומיניום 28 ס"מ צבע שחור LUSSO
-
-URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-28-sm-tsba-shchvr-lusso-saz1l5
-Price: 47.92 ILS (sale, was 59.90 ILS)
-Availability: In stock
-SKU: 7290121564113
-
----
-
 ### מחבת יציקת אלומיניום 20 ס"מ צבע מוקה LUSSO
 
 URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-20-sm-tsba-mvkh-lusso-pf1atj
@@ -12357,50 +12330,6 @@ Availability: In stock
 SKU: 7290121563390
 
 סט תה קפה סוכר
-
----
-
-### סיר סוטאז' יציקת אלומיניום 32 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-32-sm-tsba-shchvr-sdrt-lusso-0oejqc
-Price: 119.92 ILS (sale, was 149.90 ILS)
-Availability: In stock
-SKU: 7290121564199
-
----
-
-### סיר סוטאז' יציקת אלומיניום 28 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-svtaz-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-xvur8i
-Price: 95.92 ILS (sale, was 119.90 ILS)
-Availability: In stock
-SKU: 7290121564106
-
----
-
-### סיר יציקת אלומיניום 24 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-24-sm-tsba-shchvr-sdrt-lusso-1wlrz7
-Price: 95.92 ILS (sale, was 119.90 ILS)
-Availability: In stock
-SKU: 7290121564052
-
----
-
-### סיר יציקת אלומיניום 20 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-shchvr-sdrt-lusso-k5yk2h
-Price: 80.00 ILS (sale, was 100.00 ILS)
-Availability: In stock
-SKU: 7290121564069
 
 ---
 
@@ -12443,17 +12372,6 @@ URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-20-sm-tsba-mvkh-sdrt
 Price: 80.00 ILS (sale, was 100.00 ILS)
 Availability: In stock
 SKU: 7290121564779
-
----
-
-### סיר יציקת אלומיניום 28 ס"מ צבע שחור
-סדרת LUSSO
-
- 
-URL: https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-28-sm-tsba-shchvr-sdrt-lusso-dp66mn
-Price: 119.92 ILS (sale, was 149.90 ILS)
-Availability: In stock
-SKU: 7290121564144
 
 ---
 
