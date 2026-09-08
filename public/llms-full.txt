@@ -11646,16 +11646,6 @@ SKU: 7290121561419
 
 ---
 
-### מעמד 5 קומות רחב צבע עץ
- דגם SILO
-
-URL: https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ek3zld
-Price: 119.92 ILS (sale, was 149.90 ILS)
-Availability: In stock
-SKU: 7290121561471
-
----
-
 ### מעמד 3 קומות צבע עץ
  דגם MILO
 
@@ -11670,7 +11660,7 @@ SKU: 7290121561433
 
 URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq
 Price: 63.92 ILS (sale, was 79.90 ILS)
-Availability: In stock
+Availability: Out of stock
 SKU: 7290121561266
 
 ---
@@ -11679,27 +11669,8 @@ SKU: 7290121561266
 
 URL: https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl
 Price: 63.92 ILS (sale, was 79.90 ILS)
-Availability: In stock
+Availability: Out of stock
 SKU: 7290121561273
-
----
-
-### שולחן נשכן אידיאל
-
-URL: https://streetstock.co.il/product/shvlchn-nshkn-aydyal-of12rs
-Price: 39.92 ILS (sale, was 49.90 ILS)
-Availability: In stock
-SKU: 7290121561259
-
----
-
-### מעמד 5 קומות רחב צבע שחור
- דגם SILO
-
-URL: https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-shchvr-dgm-silo-9gi80j
-Price: 119.92 ILS (sale, was 149.90 ILS)
-Availability: In stock
-SKU: 7290121561464
 
 ---
 

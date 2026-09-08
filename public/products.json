@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:33:23.583Z",
+  "generated_at": "2026-09-08T05:34:18.663Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 783,
+  "count": 780,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -16490,30 +16490,6 @@
       "updated_at": "2026-09-07T11:56:01.091Z"
     },
     {
-      "id": "432d0297-71d8-4a42-a0ca-9c375400cb56",
-      "slug": "mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ek3zld",
-      "name": "מעמד 5 קומות רחב צבע עץ\r\n דגם SILO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561471",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164989-mahcah.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ek3zld",
-      "categories": [
-        "מעמדים דקורטיבים"
-      ],
-      "updated_at": "2026-09-07T11:56:02.595Z"
-    },
-    {
       "id": "74509957-05db-4e97-a211-3d6da4f1ba19",
       "slug": "mamd-3-kvmvt-tsba-ats-dgm-milo-z6fy5g",
       "name": "מעמד 3 קומות צבע עץ\r\n דגם MILO\r\n",
@@ -16553,13 +16529,13 @@
       "images": [
         "https://streetstock.co.il/assets/product-1780837663446-45urio.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
       "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq",
       "categories": [
         "מעמדים דקורטיבים"
       ],
-      "updated_at": "2026-09-07T11:56:02.604Z"
+      "updated_at": "2026-09-08T05:33:39.598Z"
     },
     {
       "id": "e351a10c-e5f9-4396-b90c-2e64572e26a8",
@@ -16577,61 +16553,13 @@
       "images": [
         "https://streetstock.co.il/assets/product-1780837663457-k4si7.webp"
       ],
-      "in_stock": true,
-      "stock_status": "in_stock",
+      "in_stock": false,
+      "stock_status": "out_of_stock",
       "url": "https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl",
       "categories": [
         "מעמדים דקורטיבים"
       ],
-      "updated_at": "2026-09-07T11:56:02.600Z"
-    },
-    {
-      "id": "417635b9-1205-42e3-9e65-282b53f0ac94",
-      "slug": "shvlchn-nshkn-aydyal-of12rs",
-      "name": "שולחן נשכן אידיאל\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561259",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837663435-p27oy8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shvlchn-nshkn-aydyal-of12rs",
-      "categories": [
-        "מעמדים דקורטיבים"
-      ],
-      "updated_at": "2026-09-07T11:56:02.737Z"
-    },
-    {
-      "id": "c7047305-84aa-4c42-bd76-93990f446503",
-      "slug": "mamd-5-kvmvt-rchb-tsba-shchvr-dgm-silo-9gi80j",
-      "name": "מעמד 5 קומות רחב צבע שחור\r\n דגם SILO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561464",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659967-kvfl53.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-shchvr-dgm-silo-9gi80j",
-      "categories": [
-        "מעמדים דקורטיבים"
-      ],
-      "updated_at": "2026-09-07T11:56:02.605Z"
+      "updated_at": "2026-09-08T05:33:39.598Z"
     },
     {
       "id": "61d1420e-d62e-4393-a261-688d5982415d",

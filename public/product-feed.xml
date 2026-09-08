@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 08 Sep 2026 05:33:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:34:18 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -11935,22 +11935,6 @@ ID890</g:title>
       <g:product_type>מעמדים דקורטיבים</g:product_type>
     </item>
     <item>
-      <g:id>432d0297-71d8-4a42-a0ca-9c375400cb56</g:id>
-      <g:title>מעמד 5 קומות רחב צבע עץ
- דגם SILO
-</g:title>
-      <g:description>מעמד 5 קומות רחב צבע עץ דגם SILO</g:description>
-      <g:link>https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-ats-dgm-silo-ek3zld</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780903164989-mahcah.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>149.90 ILS</g:price>
-      <g:sale_price>119.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561471</g:mpn>
-      <g:product_type>מעמדים דקורטיבים</g:product_type>
-    </item>
-    <item>
       <g:id>74509957-05db-4e97-a211-3d6da4f1ba19</g:id>
       <g:title>מעמד 3 קומות צבע עץ
  דגם MILO
@@ -11973,7 +11957,7 @@ ID890</g:title>
       <g:description>שולחן עץ סביון שחור</g:description>
       <g:link>https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837663446-45urio.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
+      <g:availability>out_of_stock</g:availability>
       <g:price>79.90 ILS</g:price>
       <g:sale_price>63.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
@@ -11988,43 +11972,12 @@ ID890</g:title>
       <g:description>שולחן עץ סביון לבן</g:description>
       <g:link>https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl</g:link>
       <g:image_link>https://streetstock.co.il/assets/product-1780837663457-k4si7.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
+      <g:availability>out_of_stock</g:availability>
       <g:price>79.90 ILS</g:price>
       <g:sale_price>63.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561273</g:mpn>
-      <g:product_type>מעמדים דקורטיבים</g:product_type>
-    </item>
-    <item>
-      <g:id>417635b9-1205-42e3-9e65-282b53f0ac94</g:id>
-      <g:title>שולחן נשכן אידיאל
-</g:title>
-      <g:description>שולחן נשכן אידיאל</g:description>
-      <g:link>https://streetstock.co.il/product/shvlchn-nshkn-aydyal-of12rs</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837663435-p27oy8.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>49.90 ILS</g:price>
-      <g:sale_price>39.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561259</g:mpn>
-      <g:product_type>מעמדים דקורטיבים</g:product_type>
-    </item>
-    <item>
-      <g:id>c7047305-84aa-4c42-bd76-93990f446503</g:id>
-      <g:title>מעמד 5 קומות רחב צבע שחור
- דגם SILO
-</g:title>
-      <g:description>מעמד 5 קומות רחב צבע שחור דגם SILO</g:description>
-      <g:link>https://streetstock.co.il/product/mamd-5-kvmvt-rchb-tsba-shchvr-dgm-silo-9gi80j</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837659967-kvfl53.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>149.90 ILS</g:price>
-      <g:sale_price>119.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561464</g:mpn>
       <g:product_type>מעמדים דקורטיבים</g:product_type>
     </item>
     <item>
