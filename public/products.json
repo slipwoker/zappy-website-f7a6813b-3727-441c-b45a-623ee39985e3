@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:31:01.136Z",
+  "generated_at": "2026-09-08T05:31:14.824Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 793,
+  "count": 791,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -14630,54 +14630,6 @@
         "מוצרי חשמל"
       ],
       "updated_at": "2026-09-07T11:55:45.455Z"
-    },
-    {
-      "id": "994ac134-7f3a-4ff9-9e70-6075704ec698",
-      "slug": "st-4-slsavt-tsba-shchvr-lklsf5",
-      "name": "סט 4 סלסאות צבע שחור",
-      "name_translations": {},
-      "description": "<p>סלסלות אחסון</p>",
-      "short_description": null,
-      "sku": "6537825614340",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518281978-rmpl3l.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-slsavt-tsba-shchvr-lklsf5",
-      "categories": [
-        "סלסלות אחסון"
-      ],
-      "updated_at": "2026-09-07T11:55:45.501Z"
-    },
-    {
-      "id": "7d5f9b69-00b9-4cfa-8f00-140a159f4092",
-      "slug": "st-4-slsavt-tsba-lbn-k53o2m",
-      "name": "סט 4 סלסאות צבע לבן ",
-      "name_translations": {},
-      "description": "<p>סלסלות אחסון</p>",
-      "short_description": null,
-      "sku": "6537825614364",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518303213-36v7w1.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-slsavt-tsba-lbn-k53o2m",
-      "categories": [
-        "סלסלות אחסון"
-      ],
-      "updated_at": "2026-09-07T11:55:45.447Z"
     },
     {
       "id": "f89569bc-c6bd-43c3-9bbe-4fa852cb7007",
