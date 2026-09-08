@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 08 Sep 2026 05:44:12 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:46:02 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -8867,7 +8867,7 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>עגלות שירות</g:product_type>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>8ff56820-724e-448f-9fd2-0bac9020bd69</g:id>
@@ -8895,7 +8895,7 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>עגלות שירות</g:product_type>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>0f309071-6b35-47a9-bd76-69d9903151db</g:id>
@@ -8951,6 +8951,7 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>34cbd291-8a13-4329-ba48-e6635d6f7925</g:id>
