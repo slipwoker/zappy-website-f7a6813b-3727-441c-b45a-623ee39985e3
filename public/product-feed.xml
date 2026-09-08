@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 08 Sep 2026 05:29:34 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:30:49 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -10014,35 +10014,6 @@ ID890</g:title>
       <g:product_type>כללי</g:product_type>
     </item>
     <item>
-      <g:id>c89e1921-f104-4c08-916d-6e0ae6976647</g:id>
-      <g:title>מארז 5 יחידות קולבי אקריל </g:title>
-      <g:description>כללי</g:description>
-      <g:link>https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-xwerhi</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837707814-p0485c.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121563321</g:mpn>
-      <g:product_type>כללי</g:product_type>
-    </item>
-    <item>
-      <g:id>968b7168-9886-4a71-947a-2f72304eab09</g:id>
-      <g:title>משטח חיתוך מקצועי 24X40 ס&quot;מ 
-</g:title>
-      <g:description>משטחי חיתוך</g:description>
-      <g:link>https://streetstock.co.il/product/mshtch-chytvk-mktsvay-24x40-sm-r3hcht</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781513173549-jpvwbo.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121562454</g:mpn>
-      <g:product_type>כלי בית</g:product_type>
-    </item>
-    <item>
       <g:id>ee9f68dd-fc9a-4a50-afda-701b4aff46de</g:id>
       <g:title>משטח חיתוך מקצועי 20X33 ס&quot;מ 
 </g:title>
@@ -10072,22 +10043,6 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121564922</g:mpn>
       <g:product_type>כוסות + קנקני שתייה</g:product_type>
-    </item>
-    <item>
-      <g:id>0333c679-cd9a-4241-9414-5f4b23bc0b5a</g:id>
-      <g:title>פעמון עוגה יוקרתי + קברט אקריל
-
-  </g:title>
-      <g:description>פעמון עוגה יוקרתי + קברט אקריל</g:description>
-      <g:link>https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-sg5c13</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780903164990-9bcuqn.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>69.90 ILS</g:price>
-      <g:sale_price>55.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121564397</g:mpn>
-      <g:product_type>מוצרי אקריל</g:product_type>
     </item>
     <item>
       <g:id>06aa0f5c-2bd0-4d69-9999-24a5bdb062ed</g:id>
@@ -10147,21 +10102,6 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121564533</g:mpn>
-      <g:product_type>מוצרי אקריל</g:product_type>
-    </item>
-    <item>
-      <g:id>778574b3-556a-4a3a-8b61-3fce0b3efa4a</g:id>
-      <g:title>זוג מחלקי מדפים אקריל
-</g:title>
-      <g:description>זוג מחלקי מדפים אקריל</g:description>
-      <g:link>https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-o28mh9</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837703571-fakf6.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121564526</g:mpn>
       <g:product_type>מוצרי אקריל</g:product_type>
     </item>
     <item>

@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:29:34.216Z",
+  "generated_at": "2026-09-08T05:30:49.065Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 799,
+  "count": 795,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -14140,54 +14140,6 @@
       "updated_at": "2026-09-07T11:55:39.696Z"
     },
     {
-      "id": "c89e1921-f104-4c08-916d-6e0ae6976647",
-      "slug": "marz-5-ychydvt-kvlby-akryl-xwerhi",
-      "name": "מארז 5 יחידות קולבי אקריל ",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "7290121563321",
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837707814-p0485c.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-xwerhi",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:39.690Z"
-    },
-    {
-      "id": "968b7168-9886-4a71-947a-2f72304eab09",
-      "slug": "mshtch-chytvk-mktsvay-24x40-sm-r3hcht",
-      "name": "משטח חיתוך מקצועי 24X40 ס\"מ \r\n",
-      "name_translations": {},
-      "description": "<p>משטחי חיתוך</p>",
-      "short_description": null,
-      "sku": "7290121562454",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781513173549-jpvwbo.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-mktsvay-24x40-sm-r3hcht",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:55:39.692Z"
-    },
-    {
       "id": "ee9f68dd-fc9a-4a50-afda-701b4aff46de",
       "slug": "mshtch-chytvk-mktsvay-20x33-sm-oxype5",
       "name": "משטח חיתוך מקצועי 20X33 ס\"מ \r\n",
@@ -14235,30 +14187,6 @@
         "כוסות + קנקני שתייה"
       ],
       "updated_at": "2026-09-07T11:55:39.696Z"
-    },
-    {
-      "id": "0333c679-cd9a-4241-9414-5f4b23bc0b5a",
-      "slug": "pamvn-avgh-yvkrty-kbrt-akryl-sg5c13",
-      "name": "פעמון עוגה יוקרתי + קברט אקריל\r\n\r\n  ",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121564397",
-      "brand": null,
-      "price": 55.92,
-      "base_price": 69.9,
-      "sale_price": 55.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164990-9bcuqn.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pamvn-avgh-yvkrty-kbrt-akryl-sg5c13",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:55:39.694Z"
     },
     {
       "id": "06aa0f5c-2bd0-4d69-9999-24a5bdb062ed",
@@ -14355,30 +14283,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-09-07T11:55:41.528Z"
-    },
-    {
-      "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",
-      "slug": "zvg-mchlky-mdpym-akryl-o28mh9",
-      "name": "זוג מחלקי מדפים אקריל\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121564526",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703571-fakf6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-o28mh9",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:55:41.531Z"
     },
     {
       "id": "32699074-a01b-4a62-8037-4a04e8ca2cbf",
