@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:31:14.824Z",
+  "generated_at": "2026-09-08T05:31:28.454Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 791,
+  "count": 790,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -14776,31 +14776,6 @@
         "כללי"
       ],
       "updated_at": "2026-09-07T11:55:46.908Z"
-    },
-    {
-      "id": "2dd8357b-a35d-4031-b52d-d3116bb91b9c",
-      "slug": "mtlh-al-dlt-4-vvym-2i1odq",
-      "name": "מתלה על דלת 4 ווים\r\n",
-      "name_translations": {},
-      "description": "<p>כללי, מוצרי אמבט</p>",
-      "short_description": null,
-      "sku": "7290121561754",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837693883-cf04ov.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-al-dlt-4-vvym-2i1odq",
-      "categories": [
-        "מוצרי אמבט",
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:46.913Z"
     },
     {
       "id": "fd1d1ec5-d214-4c38-8a31-d5cb6d4a42c3",
