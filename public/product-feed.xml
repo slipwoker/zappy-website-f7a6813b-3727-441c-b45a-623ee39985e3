@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 08 Sep 2026 05:26:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:27:34 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -7633,19 +7633,6 @@ ID890</g:title>
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
     </item>
     <item>
-      <g:id>b6109cec-42fe-4c77-8e7f-37b44de537db</g:id>
-      <g:title>כיסוי מיטה מהודר + זוג ציפיות לכרית צבע מוקה</g:title>
-      <g:description>סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס&quot;מ זוג ציפיות לכרית : 50X70 ס&quot;מ</g:description>
-      <g:link>https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-v8luh3</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>99.90 ILS</g:price>
-      <g:sale_price>79.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-    </item>
-    <item>
       <g:id>4db56ceb-7381-41f8-a91f-2254774f1984</g:id>
       <g:title>סט מצעים כותנה הום סטייל דגם אפריל - זוגי 160X200</g:title>
       <g:description>מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה מידות מיטה זוגית 1.6 : סדין 160X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;) מידות מיטה זוגית 1.8 : סדין 180X200 ס&quot;מ ציפה לפוך : 200X220 ס&quot;מ ציפה לכרית : 50X70 ס&quot;מ (2יח&apos;)</g:description>
@@ -7658,34 +7645,6 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>סט מצעים 100% כותנה</g:product_type>
-    </item>
-    <item>
-      <g:id>b343cad0-74b4-419a-af03-ca0813ccab7e</g:id>
-      <g:title>כיסוי מיטה מהודר + זוג ציפיות לכרית צבע אפור כהה</g:title>
-      <g:description>סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס&quot;מ זוג ציפיות לכרית : 50X70 ס&quot;מ</g:description>
-      <g:link>https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780903164990-ptfcp8.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>99.90 ILS</g:price>
-      <g:sale_price>79.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שמיכות פוך</g:product_type>
-    </item>
-    <item>
-      <g:id>cefa7d5b-5c97-4479-a73f-60470e591a00</g:id>
-      <g:title>כיסוי מיטה מהודר + זוג ציפיות לכרית צבע לבן</g:title>
-      <g:description>סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי מידות : כיסוי מיטה 220X240 ס&quot;מ זוג ציפיות לכרית : 50X70 ס&quot;מ</g:description>
-      <g:link>https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780903164990-vqjm5u.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>99.90 ILS</g:price>
-      <g:sale_price>79.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שמיכות פוך</g:product_type>
     </item>
     <item>
       <g:id>dd28959c-7263-4c20-84ab-317ad7c560b2</g:id>

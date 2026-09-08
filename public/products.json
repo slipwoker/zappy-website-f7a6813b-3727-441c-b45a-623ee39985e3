@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:26:35.718Z",
+  "generated_at": "2026-09-08T05:27:34.216Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 811,
+  "count": 808,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -11273,28 +11273,6 @@
       "updated_at": "2026-09-07T11:55:10.636Z"
     },
     {
-      "id": "b6109cec-42fe-4c77-8e7f-37b44de537db",
-      "slug": "kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-v8luh3",
-      "name": "כיסוי מיטה מהודר + זוג ציפיות לכרית צבע מוקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי\r\nמידות : כיסוי מיטה 220X240 ס\"מ\r\nזוג ציפיות לכרית : 50X70 ס\"מ ",
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164990-7j5emi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-mvkh-v8luh3",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:10.334Z"
-    },
-    {
       "id": "129534c6-7114-4b10-80ee-b2aa8c88ba21",
       "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-apryl-r1srwm",
       "name": "סט מצעים כותנה הום סטייל דגם אפריל",
@@ -11317,56 +11295,6 @@
         "סט מצעים 100% כותנה"
       ],
       "updated_at": "2026-09-07T11:55:10.636Z"
-    },
-    {
-      "id": "b343cad0-74b4-419a-af03-ca0813ccab7e",
-      "slug": "kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm",
-      "name": "כיסוי מיטה מהודר + זוג ציפיות לכרית צבע אפור כהה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי\r\nמידות : כיסוי מיטה 220X240 ס\"מ\r\nזוג ציפיות לכרית : 50X70 ס\"מ ",
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164990-ptfcp8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-apvr-khh-xtodsm",
-      "categories": [
-        "שמיכות פוך",
-        "שמיכות קיץ"
-      ],
-      "updated_at": "2026-09-07T11:55:10.912Z"
-    },
-    {
-      "id": "cefa7d5b-5c97-4479-a73f-60470e591a00",
-      "slug": "kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n",
-      "name": "כיסוי מיטה מהודר + זוג ציפיות לכרית צבע לבן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט כיסוי מיטה מהודר בעיצוב בוהו יוקרתי\r\nמידות : כיסוי מיטה 220X240 ס\"מ\r\nזוג ציפיות לכרית : 50X70 ס\"מ ",
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780903164990-vqjm5u.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kysvy-myth-mhvdr-zvg-tsypyvt-lkryt-tsba-lbn-z9mk2n",
-      "categories": [
-        "שמיכות פוך",
-        "שמיכות קיץ"
-      ],
-      "updated_at": "2026-09-07T11:55:10.641Z"
     },
     {
       "id": "040b04f4-60aa-44b2-b033-718ed215e4a4",
