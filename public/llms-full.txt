@@ -11715,15 +11715,6 @@ SKU: 7290121562171
 
 ---
 
-### סט פח+מברשת אסלה צבע קרם דגם NEVOA
-
-URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-cqltvr
-Price: 47.92 ILS (sale, was 59.90 ILS)
-Availability: In stock
-SKU: 729012161853
-
----
-
 ### מעמד נתלה 2 קומות
 דגם HANGY
 URL: https://streetstock.co.il/product/mamd-ntlh-2-kvmvt-dgm-hangy-lkul4i
@@ -12224,17 +12215,6 @@ URL: https://streetstock.co.il/product/mamd-akryl-ntlh-lambtyh-dgm-clary-45y8ng
 Price: 55.92 ILS (sale, was 69.90 ILS)
 Availability: In stock
 SKU: 7290121564540
-
----
-
-### מעמד אקרילי רב שימושי 
-דגם MAREN
-
- 
-URL: https://streetstock.co.il/product/mamd-akryly-rb-shymvshy-dgm-maren-izux2q
-Price: 47.92 ILS (sale, was 59.90 ILS)
-Availability: In stock
-SKU: 7290121564410
 
 ---
 
