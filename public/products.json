@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:28:18.310Z",
+  "generated_at": "2026-09-08T05:29:34.216Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 804,
+  "count": 799,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -12426,30 +12426,6 @@
       "updated_at": "2026-09-07T11:55:23.033Z"
     },
     {
-      "id": "cd65521e-f6e5-4969-ace0-756479a0162c",
-      "slug": "st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o",
-      "name": "סט 3 צדניות פלסטיק בגדלים שונים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט 3 צידניות 7+14+26- קשיחות איכותיות\r\nמגיעות עם קרחון מובנה במכסה -מתנה!",
-      "sku": null,
-      "brand": null,
-      "price": 199.92,
-      "base_price": 249.9,
-      "sale_price": 199.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518253710-o9w7xb.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-09-07T11:55:23.160Z"
-    },
-    {
       "id": "c3845a62-f0ed-4d5b-9954-15ec1ce81832",
       "slug": "kvpsavt-achsvn-crunch-17-lytr-o4djqw",
       "name": "קופסאות אחסון CRUNCH 1.7 ליטר",
@@ -12496,30 +12472,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-09-07T11:55:23.034Z"
-    },
-    {
-      "id": "5a41fbd8-32f2-4472-8fbf-204b2e0a61cd",
-      "slug": "st-3-kvpsavt-plstyk-dgm-mysv-7jxxsi",
-      "name": "סט 3 קופסאות פלסטיק דגם מיסו",
-      "name_translations": {},
-      "description": "",
-      "short_description": "380 מ\"ל : 14X10X5 ס\"מ\r\n850 מ\"ל : 18X13X7 ס\"מ\r\n1600 מ\"ל : 23X16X8 ס\"מ",
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837734346-hrn9tl.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-kvpsavt-plstyk-dgm-mysv-7jxxsi",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:55:25.243Z"
     },
     {
       "id": "22380883-0efb-4411-a9bb-70a5f3cb45b1",
@@ -12688,30 +12640,6 @@
         "צנצנות זכוכית"
       ],
       "updated_at": "2026-09-07T11:55:25.338Z"
-    },
-    {
-      "id": "1b37714b-44fe-48f4-812f-c2bf4a536def",
-      "slug": "hdvm-dgm-ksht-tsba-mvkh-c1tevv",
-      "name": "הדום דגם קשת צבע מוקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום קשתות בעיצוב אופנתי\nעשוי מבד בוקלה\n\n",
-      "sku": null,
-      "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837732011-y1ijsn.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-dgm-ksht-tsba-mvkh-c1tevv",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-09-07T11:55:25.397Z"
     },
     {
       "id": "9278d2b1-9947-4282-ab00-9581f0ef2685",
@@ -13028,30 +12956,6 @@
       "updated_at": "2026-09-07T11:55:29.412Z"
     },
     {
-      "id": "5195d441-3612-4ecb-9ae4-97612a893359",
-      "slug": "hdvm-gdvl-dgm-ksht-tsba-mvkh-6lngq0",
-      "name": "הדום גדול דגם קשת צבע מוקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום קשתות בעיצוב אופנתי\nעשוי מבד בוקלה",
-      "sku": null,
-      "brand": null,
-      "price": 239.92,
-      "base_price": 299.9,
-      "sale_price": 239.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837729771-82k9y8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-mvkh-6lngq0",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-09-07T11:55:29.410Z"
-    },
-    {
       "id": "5e7a3f03-8c33-4285-9782-8283c5efd68c",
       "slug": "mpt-shvlchn-dgm-lunar-ps-ksp-tx5og1",
       "name": "מפת שולחן דגם LUNAR פס כסף",
@@ -13098,30 +13002,6 @@
         "מפות שולחן"
       ],
       "updated_at": "2026-09-07T11:55:29.412Z"
-    },
-    {
-      "id": "f80187ce-91ff-4125-85cb-af7c50d0ecd3",
-      "slug": "hdvm-gdvl-dgm-ksht-tsba-lbn-rxwvcn",
-      "name": "הדום גדול דגם קשת צבע לבן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום קשתות בעיצוב אופנתי עשוי מבד בוקלה\n",
-      "sku": null,
-      "brand": null,
-      "price": 239.92,
-      "base_price": 299.9,
-      "sale_price": 239.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837729424-yri8gi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-gdvl-dgm-ksht-tsba-lbn-rxwvcn",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-09-07T11:55:29.415Z"
     },
     {
       "id": "98e50817-21a0-4669-9e4e-a714ab8fc0cb",
