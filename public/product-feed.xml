@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 07 Sep 2026 12:01:05 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:18:42 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -6280,34 +6280,6 @@ ID890</g:title>
       <g:product_type>ארגוניות אקריל</g:product_type>
     </item>
     <item>
-      <g:id>dc696a53-8778-4dbb-a8db-7778e20e7ce2</g:id>
-      <g:title>סט 3 ארגוניות מגירה דגם &quot;CARMEL&quot; מידה L</g:title>
-      <g:description>ארגונית מגירה אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.</g:description>
-      <g:link>https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-fnffam</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781614175177-yo72.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>99.90 ILS</g:price>
-      <g:sale_price>79.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>ארגוניות אקריל</g:product_type>
-    </item>
-    <item>
-      <g:id>79b6238f-75d3-46e2-9945-6d84db32773e</g:id>
-      <g:title>סט 3 ארגוניות מגירה דגם &quot;CARMEL&quot; מידה XL</g:title>
-      <g:description>ארגונית מגירה אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.</g:description>
-      <g:link>https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-xl-8tdibj</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781614240109-z02djb.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>119.90 ILS</g:price>
-      <g:sale_price>95.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>ארגוניות אקריל</g:product_type>
-    </item>
-    <item>
       <g:id>bf78e523-eeca-4889-8e98-eed21894e796</g:id>
       <g:title>ארגונית אקרילית דגם &quot;ANAT&quot;</g:title>
       <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
@@ -6330,20 +6302,6 @@ ID890</g:title>
       <g:availability>in_stock</g:availability>
       <g:price>14.90 ILS</g:price>
       <g:sale_price>11.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>ארגוניות אקריל</g:product_type>
-    </item>
-    <item>
-      <g:id>66ae43ff-5a21-495e-b932-1bb0255ce496</g:id>
-      <g:title>סט 4 ארגוניות מגירה דגם &quot;CARMEL&quot; מידה M</g:title>
-      <g:description>ארגונית מגירה אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.</g:description>
-      <g:link>https://streetstock.co.il/product/st-4-argvnyvt-mgyrh-dgm-carmel-mydh-m-u0wz3b</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1781614142217-igrnxk.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>99.90 ILS</g:price>
-      <g:sale_price>79.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -10795,66 +10753,6 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562799</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
-    </item>
-    <item>
-      <g:id>7cbdaa12-80a2-415b-af90-6d724a7db35f</g:id>
-      <g:title>סט 3 מזוודות דגם VELORA 
- צבע ורוד </g:title>
-      <g:description>מזוודות</g:description>
-      <g:link>https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837698937-5pzcz.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>340.00 ILS</g:price>
-      <g:sale_price>272.00 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121562768</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
-    </item>
-    <item>
-      <g:id>e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f</g:id>
-      <g:title>סט 3 מזוודות דגם VELORA 
- צבע נייבי </g:title>
-      <g:description>מזוודות</g:description>
-      <g:link>https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-59xie3</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837698910-u09tk.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>340.00 ILS</g:price>
-      <g:sale_price>272.00 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121562782</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
-    </item>
-    <item>
-      <g:id>811542f0-2c9d-4ebc-95e6-5b70b0112710</g:id>
-      <g:title>סט 3 מזוודות דגם VELORA 
- צבע שחור </g:title>
-      <g:description>מזוודות</g:description>
-      <g:link>https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837698865-o5o1p.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>340.00 ILS</g:price>
-      <g:sale_price>272.00 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121562751</g:mpn>
-      <g:product_type>מזוודות</g:product_type>
-    </item>
-    <item>
-      <g:id>d0411331-3e4c-4679-acee-fe78755d59f1</g:id>
-      <g:title>סט 3 מזוודות דגם VELORA 
- צבע מוקה</g:title>
-      <g:description>מזוודות</g:description>
-      <g:link>https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837698776-6342t.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>340.00 ILS</g:price>
-      <g:sale_price>272.00 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121562706</g:mpn>
       <g:product_type>מזוודות</g:product_type>
     </item>
     <item>

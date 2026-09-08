@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-07T12:01:05.395Z",
+  "generated_at": "2026-09-08T05:18:42.201Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 824,
+  "count": 817,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -9089,54 +9089,6 @@
       "updated_at": "2026-09-07T11:54:52.726Z"
     },
     {
-      "id": "dc696a53-8778-4dbb-a8db-7778e20e7ce2",
-      "slug": "st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-fnffam",
-      "name": "סט 3 ארגוניות מגירה דגם \"CARMEL\" מידה L",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית מגירה אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781614175177-yo72.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-l-fnffam",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:52.661Z"
-    },
-    {
-      "id": "79b6238f-75d3-46e2-9945-6d84db32773e",
-      "slug": "st-3-argvnyvt-mgyrh-dgm-carmel-mydh-xl-8tdibj",
-      "name": "סט 3 ארגוניות מגירה דגם \"CARMEL\" מידה XL",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית מגירה אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781614240109-z02djb.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-xl-8tdibj",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:52.789Z"
-    },
-    {
       "id": "bf78e523-eeca-4889-8e98-eed21894e796",
       "slug": "argvnyt-akrylyt-dgm-anat-zzujpi",
       "name": "ארגונית אקרילית דגם \"ANAT\"",
@@ -9183,30 +9135,6 @@
         "ארגוניות אקריל"
       ],
       "updated_at": "2026-09-07T11:54:52.785Z"
-    },
-    {
-      "id": "66ae43ff-5a21-495e-b932-1bb0255ce496",
-      "slug": "st-4-argvnyvt-mgyrh-dgm-carmel-mydh-m-u0wz3b",
-      "name": "סט 4 ארגוניות מגירה דגם \"CARMEL\" מידה M",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית מגירה אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781614142217-igrnxk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-argvnyvt-mgyrh-dgm-carmel-mydh-m-u0wz3b",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:52.895Z"
     },
     {
       "id": "ee1a5ef3-bf76-4f85-a2f9-8350faeaabca",
@@ -15204,102 +15132,6 @@
         "מזוודות"
       ],
       "updated_at": "2026-09-07T11:55:43.581Z"
-    },
-    {
-      "id": "7cbdaa12-80a2-415b-af90-6d724a7db35f",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע ורוד ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562768",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698937-5pzcz.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-09-07T11:55:43.775Z"
-    },
-    {
-      "id": "e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-nyyby-59xie3",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע נייבי ",
-      "name_translations": {},
-      "description": "<p>מזוודות</p>",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562782",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698910-u09tk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-59xie3",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-09-07T11:55:43.624Z"
-    },
-    {
-      "id": "811542f0-2c9d-4ebc-95e6-5b70b0112710",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע שחור ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562751",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698865-o5o1p.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-09-07T11:55:43.783Z"
-    },
-    {
-      "id": "d0411331-3e4c-4679-acee-fe78755d59f1",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע מוקה",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7290121562706",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698776-6342t.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-09-07T11:55:43.780Z"
     },
     {
       "id": "b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb",
