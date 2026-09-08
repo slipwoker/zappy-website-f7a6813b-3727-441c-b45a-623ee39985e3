@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:27:34.216Z",
+  "generated_at": "2026-09-08T05:28:18.310Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 808,
+  "count": 804,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -11489,30 +11489,6 @@
       "updated_at": "2026-09-07T11:55:13.212Z"
     },
     {
-      "id": "56d878d8-e449-4f6f-8e5b-ced4274cd4ad",
-      "slug": "st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-k82scq",
-      "name": "סט מצעים כותנה פרקל דגם עמנואל צבע לבן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מערכת מצעים יוקרתית עשויה 100% כותנה בעיצוב פרנזים גליים ומלמלה\r\nמידות מיטה זוגית 1.6 : סדין 160X200 ס\"מ\r\nציפה לפוך : 200X220 ס\"מ \r\nציפה לכרית : 50X70 ס\"מ (2יח')\r\n\r\nמידות מיטה זוגית 1.8 : סדין 180X200 ס\"מ\r\nציפה לפוך : 200X220 ס\"מ \r\nציפה לכרית : 50X70 ס\"מ (2יח')",
-      "sku": null,
-      "brand": null,
-      "price": 199.92,
-      "base_price": 249.9,
-      "sale_price": 199.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837747978-bt7pf8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-mtsaym-kvtnh-prkl-dgm-amnval-tsba-lbn-k82scq",
-      "categories": [
-        "סט מצעים 100% כותנה"
-      ],
-      "updated_at": "2026-09-07T11:55:13.173Z"
-    },
-    {
       "id": "c8c691c8-240f-4d54-ace2-ca077b393799",
       "slug": "st-mtsaym-kvtnh-hvm-styyl-dgm-nbdh-vrvd-72vrr1",
       "name": "סט מצעים כותנה הום סטייל דגם נבדה ורוד",
@@ -12450,54 +12426,6 @@
       "updated_at": "2026-09-07T11:55:23.033Z"
     },
     {
-      "id": "ec633e4e-f402-4352-b70a-bfbda945534a",
-      "slug": "tsydnyt-bd-16-sm-psym-herks4",
-      "name": "צידנית בד 16 ס\"מ פסים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צידניות בד + ידית נשיאה ",
-      "sku": null,
-      "brand": null,
-      "price": 40,
-      "base_price": 50,
-      "sale_price": 40,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781511617529-9rwn86.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-16-sm-psym-herks4",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-09-07T11:55:23.031Z"
-    },
-    {
-      "id": "8bcf3e3d-52b5-4f0b-9da6-36942e05992e",
-      "slug": "tsydnyt-bd-9-sm-psym-ux5mad",
-      "name": "צידנית בד 9 ס\"מ פסים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צידניות בד + ידית נשיאה ",
-      "sku": null,
-      "brand": null,
-      "price": 28,
-      "base_price": 35,
-      "sale_price": 28,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781511596949-67dnni.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-9-sm-psym-ux5mad",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-09-07T11:55:23.033Z"
-    },
-    {
       "id": "cd65521e-f6e5-4969-ace0-756479a0162c",
       "slug": "st-3-tsdnyvt-plstyk-bgdlym-shvnym-olot4o",
       "name": "סט 3 צדניות פלסטיק בגדלים שונים",
@@ -12520,28 +12448,6 @@
         "קיץ"
       ],
       "updated_at": "2026-09-07T11:55:23.160Z"
-    },
-    {
-      "id": "321bd63e-3330-44ab-b987-3de96c286365",
-      "slug": "tsydnyt-bd-28-sm-psym-3qr83b",
-      "name": "צידנית בד 28 ס\"מ פסים",
-      "name_translations": {},
-      "description": "",
-      "short_description": "צידניות בד + ידית נשיאה ",
-      "sku": null,
-      "brand": null,
-      "price": 48,
-      "base_price": 60,
-      "sale_price": 48,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsydnyt-bd-28-sm-psym-3qr83b",
-      "categories": [
-        "קיץ"
-      ],
-      "updated_at": "2026-09-07T11:55:23.014Z"
     },
     {
       "id": "c3845a62-f0ed-4d5b-9954-15ec1ce81832",
