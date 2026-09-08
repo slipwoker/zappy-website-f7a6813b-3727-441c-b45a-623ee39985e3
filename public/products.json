@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:30:49.065Z",
+  "generated_at": "2026-09-08T05:31:01.136Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 795,
+  "count": 793,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -14283,54 +14283,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-09-07T11:55:41.528Z"
-    },
-    {
-      "id": "32699074-a01b-4a62-8037-4a04e8ca2cbf",
-      "slug": "ntlh-mhvdrt-akrylyt-shkvp-entcdg",
-      "name": "נטלה מהודרת אקרילית שקוף\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121564434",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703673-6z37p6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/ntlh-mhvdrt-akrylyt-shkvp-entcdg",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:55:41.574Z"
-    },
-    {
-      "id": "aae28fdb-e9a4-4271-b1a9-796365292e3e",
-      "slug": "ntlh-mhvdrt-akrylyt-shkvpnytsvtsvt-zhb-jnyvj0",
-      "name": "נטלה מהודרת אקרילית שקוף+ניצוצות זהב\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121564427",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703631-eiw1c5.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/ntlh-mhvdrt-akrylyt-shkvpnytsvtsvt-zhb-jnyvj0",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:55:41.638Z"
     },
     {
       "id": "664932b7-5ef0-4bdd-bdf6-986a634f2367",
