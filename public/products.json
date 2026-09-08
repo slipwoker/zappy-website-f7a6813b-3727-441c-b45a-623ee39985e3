@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:35:57.645Z",
+  "generated_at": "2026-09-08T05:36:49.695Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 765,
+  "count": 762,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -18199,30 +18199,6 @@
       "updated_at": "2026-09-07T11:56:17.769Z"
     },
     {
-      "id": "a84ab012-24aa-4c86-be7b-c9ebb5c7f9b3",
-      "slug": "myybsh-klym-alvmynyvm-romi-tsba-shchvr-fv2fp3",
-      "name": "מייבש כלים אלומיניום ROMI צבע שחור\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "עיצוב חדשני המתאים לחלל הבית\r\nכולל סכומון ומעמד לכוסות\r\nאלומיניום אל חד \r\nקל לניקוי",
-      "sku": "7290121562157",
-      "brand": null,
-      "price": 111.92,
-      "base_price": 139.9,
-      "sale_price": 111.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837635470-vho1e.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-alvmynyvm-romi-tsba-shchvr-fv2fp3",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-09-07T11:56:17.770Z"
-    },
-    {
       "id": "4e9ea095-641a-421b-9529-b6d7f1577cd1",
       "slug": "syr-ytsykt-alvmynyvm-24-sm-tsba-mvkh-sdrt-lusso-6uis4f",
       "name": "סיר יציקת אלומיניום 24 ס\"מ צבע מוקה \r\nסדרת LUSSO\r\n\r\n ",
@@ -18295,56 +18271,6 @@
         "מייבשי כלים"
       ],
       "updated_at": "2026-09-07T11:56:19.321Z"
-    },
-    {
-      "id": "f670eb28-801c-49af-9593-85508377822b",
-      "slug": "myybsh-klym-alvmynyvm-romi-tsba-ksp-qhs34l",
-      "name": "מייבש כלים אלומיניום ROMI צבע כסף\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "עיצוב חדשני המתאים לחלל הבית\r\nכולל סכומון ומעמד לכוסות\r\nאלומיניום אל חד \r\nקל לניקוי",
-      "sku": "7290121562249",
-      "brand": null,
-      "price": 111.92,
-      "base_price": 139.9,
-      "sale_price": 111.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837634981-lybitl.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-alvmynyvm-romi-tsba-ksp-qhs34l",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-09-07T11:56:19.410Z"
-    },
-    {
-      "id": "13d171fa-46e5-4823-9f24-98b52b34a6a3",
-      "slug": "pch-tats-rglyym-15-lytr-lbn-4f4k67",
-      "name": "פח טאצ' + רגליים 15 ליטר לבן",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "פח טאצ' 15 ליטר + רגליים\r\nעיצוב חדשני ומודרני לחלל הבית",
-      "sku": "7290121561341",
-      "brand": null,
-      "price": 63.92,
-      "base_price": 79.9,
-      "sale_price": 63.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837632411-loyfxd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-lbn-4f4k67",
-      "categories": [
-        "פחי מטבח",
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-09-07T11:56:19.325Z"
     },
     {
       "id": "ca383bee-6279-4b86-aa7b-8aaf00751fa0",
