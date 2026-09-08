@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:42:25.410Z",
+  "generated_at": "2026-09-08T05:43:48.873Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -12283,7 +12283,7 @@
     },
     {
       "id": "160f1b2c-be8f-4611-a478-81e045b6321b",
-      "slug": "sl-kbysh-2-taym-bmbvk-dgm-ntvrl-oexoqp",
+      "slug": "sl-kbysh-2-taym-bmbvk-dgm-ntvrl-dy5k1t",
       "name": "סל כביסה 2 תאים במבוק דגם נטורל",
       "name_translations": {},
       "description": "",
@@ -12299,9 +12299,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-oexoqp",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:21.273Z"
+      "url": "https://streetstock.co.il/product/sl-kbysh-2-taym-bmbvk-dgm-ntvrl-dy5k1t",
+      "categories": [
+        "מעמדים דקורטיבים "
+      ],
+      "updated_at": "2026-09-08T05:43:32.585Z"
     },
     {
       "id": "7b4af8da-e358-4e0f-aab2-4fc2e74ad139",
