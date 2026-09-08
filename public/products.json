@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:38:52.051Z",
+  "generated_at": "2026-09-08T05:40:31.334Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -11098,8 +11098,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-hfc9wf",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:08.446Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-09-08T05:39:19.910Z"
     },
     {
       "id": "abb39e79-2d78-4947-b1e8-be3814974a9b",
@@ -11120,8 +11122,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-dpsch2",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:08.449Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-09-08T05:39:19.169Z"
     },
     {
       "id": "986cad34-c3c1-4ea2-816b-98b95b1d797a",
@@ -11142,8 +11146,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-8ud35r",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:08.499Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-09-08T05:39:18.660Z"
     },
     {
       "id": "a1b31afc-d1e1-452f-ab3d-f654bd66465e",
@@ -11164,8 +11170,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-shchvr-6x2aej",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:08.448Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-09-08T05:39:18.916Z"
     },
     {
       "id": "74abffed-fafe-442c-9877-cb7b1af13334",
@@ -14545,8 +14553,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:43.581Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-09-08T05:39:17.910Z"
     },
     {
       "id": "b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb",
@@ -14567,8 +14577,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:45.446Z"
+      "categories": [
+        "מזוודות "
+      ],
+      "updated_at": "2026-09-08T05:39:19.413Z"
     },
     {
       "id": "c5cfcf0b-95d1-44cc-b6f8-5aedbdfac36b",
