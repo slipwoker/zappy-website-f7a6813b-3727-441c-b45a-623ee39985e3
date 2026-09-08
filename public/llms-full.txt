@@ -11548,24 +11548,6 @@ SKU: 729012162959
 
 ---
 
-### עגלת שירות 3 קומות שחור דגם ARIZONA
-URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-vn2rno
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-SKU: 7290121565127
-
----
-
-### עגלת שירות 3 קומות לבן דגם ARIZONA
-URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-lbn-dgm-arizona-2qxh3v
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-SKU: 7290121565127
-
-עגלות שירות
-
----
-
 ### הדום אחסון וישיבה קטיפה דגם VENICE
 URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-ktyph-dgm-venice-nk57wi
 Price: 95.92 ILS (sale, was 119.90 ILS)
@@ -11587,24 +11569,6 @@ URL: https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-ji
 Price: 143.92 ILS (sale, was 179.90 ILS)
 Availability: In stock
 SKU: 7290121560269
-
----
-
-### עגלת שירות 3 קומות שחור דגם CALIRFONIA
-URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-SKU: 7290121565110
-
----
-
-### עגלת שירות 3 קומות לבן דגם CALIRFONIA
-URL: https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-lbn-dgm-calirfonia-2xeheg
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-SKU: 7290121565103
-
-עגלות שירות
 
 ---
 

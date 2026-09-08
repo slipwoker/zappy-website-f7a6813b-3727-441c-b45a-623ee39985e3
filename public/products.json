@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:33:02.731Z",
+  "generated_at": "2026-09-08T05:33:23.583Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 787,
+  "count": 783,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -16223,56 +16223,6 @@
       "updated_at": "2026-09-07T11:55:58.803Z"
     },
     {
-      "id": "d2287446-666b-4881-b18a-687e5aa69ec4",
-      "slug": "aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-vn2rno",
-      "name": "עגלת שירות 3 קומות שחור דגם ARIZONA",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121565127",
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514452267-jcgz94.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-arizona-vn2rno",
-      "categories": [
-        "עגלות שירות",
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:58.801Z"
-    },
-    {
-      "id": "61e276c3-d873-4c8b-8f7a-043b44fb1662",
-      "slug": "aglt-shyrvt-3-kvmvt-lbn-dgm-arizona-2qxh3v",
-      "name": "עגלת שירות 3 קומות לבן דגם ARIZONA",
-      "name_translations": {},
-      "description": "<p>עגלות שירות</p>",
-      "short_description": null,
-      "sku": "7290121565127",
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837667619-je1t99.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-lbn-dgm-arizona-2qxh3v",
-      "categories": [
-        "עגלות שירות",
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:59.032Z"
-    },
-    {
       "id": "8e965e6b-ff5c-4ef4-8b4c-0e3f5165ae2c",
       "slug": "hdvm-achsvn-vyshybh-ktyph-dgm-venice-nk57wi",
       "name": "הדום אחסון וישיבה קטיפה דגם VENICE",
@@ -16344,56 +16294,6 @@
         "כללי"
       ],
       "updated_at": "2026-09-07T11:55:59.030Z"
-    },
-    {
-      "id": "910c85e9-69ce-4acd-8ce4-5d34b7220862",
-      "slug": "aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6",
-      "name": "עגלת שירות 3 קומות שחור דגם CALIRFONIA",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121565110",
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837666901-mopfco.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-shchvr-dgm-calirfonia-nacuq6",
-      "categories": [
-        "עגלות שירות",
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:56:00.998Z"
-    },
-    {
-      "id": "3143a343-3c95-4b69-b4b7-7d89d301fbec",
-      "slug": "aglt-shyrvt-3-kvmvt-lbn-dgm-calirfonia-2xeheg",
-      "name": "עגלת שירות 3 קומות לבן דגם CALIRFONIA",
-      "name_translations": {},
-      "description": "<p>עגלות שירות</p>",
-      "short_description": null,
-      "sku": "7290121565103",
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837666841-rapx8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-lbn-dgm-calirfonia-2xeheg",
-      "categories": [
-        "עגלות שירות",
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:56:00.996Z"
     },
     {
       "id": "09a8a66a-0cf3-4eb4-a813-b5b64c39e58d",
