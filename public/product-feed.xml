@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 08 Sep 2026 05:18:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 05:21:45 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -4471,21 +4471,6 @@ ID933 - Gray</g:title>
       <g:product_type>שטיחי אמבטיה</g:product_type>
     </item>
     <item>
-      <g:id>861787ab-d617-4b77-9398-dc4ef271e5ba</g:id>
-      <g:title>כוס זכוכית + קש | 500 מ&quot;ל
-ID819</g:title>
-      <g:description>כוס זכוכית + קש | 500 מ&quot;ל ID819</g:description>
-      <g:link>https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id819-rd2nd5</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1784526789249-st8tv.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>11.90 ILS</g:price>
-      <g:sale_price>9.52 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>צנצנות זכוכית</g:product_type>
-    </item>
-    <item>
       <g:id>5f5d7726-bc01-4184-9b95-84e7085298ee</g:id>
       <g:title>צנצנת אחסון 1200 מ&quot;ל I דגם &quot;אופק&quot;
 ID492</g:title>
@@ -5515,20 +5500,6 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>פחי אמבטיה</g:product_type>
-    </item>
-    <item>
-      <g:id>cacded33-9b97-48cf-bf35-ee83b068d68e</g:id>
-      <g:title>מארז 10 קולבי קטיפה קרם</g:title>
-      <g:description>מארז 10 קולבי קטיפה קרם</g:description>
-      <g:link>https://streetstock.co.il/product/marz-10-kvlby-ktyph-krm-k85fr4</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1784099271543-ubkpnn.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>כללי</g:product_type>
     </item>
     <item>
       <g:id>6b2f6ffa-b102-46d6-80c1-23ea3d75c737</g:id>

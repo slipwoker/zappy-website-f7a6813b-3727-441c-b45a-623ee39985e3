@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:18:42.201Z",
+  "generated_at": "2026-09-08T05:21:45.541Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 817,
+  "count": 815,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -6486,30 +6486,6 @@
       "updated_at": "2026-09-07T11:54:31.727Z"
     },
     {
-      "id": "861787ab-d617-4b77-9398-dc4ef271e5ba",
-      "slug": "kvs-zkvkyt-ksh-500-ml-id819-rd2nd5",
-      "name": "כוס זכוכית + קש | 500 מ\"ל\nID819",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 9.52,
-      "base_price": 11.9,
-      "sale_price": 9.52,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784526789249-st8tv.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-ksh-500-ml-id819-rd2nd5",
-      "categories": [
-        "צנצנות זכוכית"
-      ],
-      "updated_at": "2026-09-07T11:54:31.832Z"
-    },
-    {
       "id": "5f5d7726-bc01-4184-9b95-84e7085298ee",
       "slug": "tsntsnt-achsvn-1200-ml-i-dgm-avpk-id492-qqyz4j",
       "name": "צנצנת אחסון 1200 מ\"ל I דגם \"אופק\"\nID492",
@@ -7783,30 +7759,6 @@
         "פחי שירותים"
       ],
       "updated_at": "2026-09-07T11:54:41.775Z"
-    },
-    {
-      "id": "cacded33-9b97-48cf-bf35-ee83b068d68e",
-      "slug": "marz-10-kvlby-ktyph-krm-k85fr4",
-      "name": "מארז 10 קולבי קטיפה קרם",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784099271543-ubkpnn.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-ktyph-krm-k85fr4",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:54:41.700Z"
     },
     {
       "id": "6b2f6ffa-b102-46d6-80c1-23ea3d75c737",
