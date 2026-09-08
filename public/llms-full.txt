@@ -11715,53 +11715,6 @@ SKU: 7290121562171
 
 ---
 
-### מסגרת תמונה 10X15 ס"מ
-
-URL: https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-bh5lom
-Price: 7.92 ILS (sale, was 9.90 ILS)
-Availability: In stock
-SKU: 7290121561327
-
----
-
-### מסגרת תמונה 13X18 ס"מ
-
-URL: https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r
-Price: 10.32 ILS (sale, was 12.90 ILS)
-Availability: In stock
-SKU: 7290121561310
-
----
-
-### מסגרת תמונה A4
-
-URL: https://streetstock.co.il/product/msgrt-tmvnh-a4-9b3c43
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-SKU: 7290121561303
-
----
-
-### מראה מלבנית מסגרת אלומיניום
- 50X70 ס"מ
-URL: https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-SKU: 7290121561358
-
-מראות ומסגרות תמונה
-
----
-
-### מסגרת תמונה A3
-
-URL: https://streetstock.co.il/product/msgrt-tmvnh-a3-lscrvf
-Price: 19.92 ILS (sale, was 24.90 ILS)
-Availability: In stock
-SKU: 7290121565066
-
----
-
 ### סט פח+מברשת אסלה צבע קרם דגם NEVOA
 
 URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-krm-dgm-nevoa-cqltvr

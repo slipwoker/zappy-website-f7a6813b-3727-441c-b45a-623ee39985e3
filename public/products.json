@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:34:18.663Z",
+  "generated_at": "2026-09-08T05:34:36.616Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 780,
+  "count": 775,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -16656,124 +16656,6 @@
         "מעמדים דקורטיבים"
       ],
       "updated_at": "2026-09-07T11:56:02.742Z"
-    },
-    {
-      "id": "84e8f139-f570-444d-ac3f-1b7221cd4b66",
-      "slug": "msgrt-tmvnh-10x15-sm-bh5lom",
-      "name": "מסגרת תמונה 10X15 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561327",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659380-it25vc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-bh5lom",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-09-07T11:56:04.624Z"
-    },
-    {
-      "id": "a4f30b2f-d748-4a2f-aed3-6d5197a0fec5",
-      "slug": "msgrt-tmvnh-13x18-sm-icz23r",
-      "name": "מסגרת תמונה 13X18 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561310",
-      "brand": null,
-      "price": 10.32,
-      "base_price": 12.9,
-      "sale_price": 10.32,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659088-8oocj5.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-09-07T11:56:04.624Z"
-    },
-    {
-      "id": "20300e3a-d7a8-4b49-816b-2c07cf6531a4",
-      "slug": "msgrt-tmvnh-a4-9b3c43",
-      "name": "מסגרת תמונה A4\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561303",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659028-ltuhal.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-a4-9b3c43",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-09-07T11:56:04.620Z"
-    },
-    {
-      "id": "598350ec-5489-4d70-a0a6-0079b796f88b",
-      "slug": "mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i",
-      "name": "מראה מלבנית מסגרת אלומיניום\r\n 50X70 ס\"מ",
-      "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
-      "short_description": null,
-      "sku": "7290121561358",
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659021-cm17c8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-50x70-sm-9muk5i",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-09-07T11:56:04.678Z"
-    },
-    {
-      "id": "77422bb9-11c5-40ef-8698-1e78c064f336",
-      "slug": "msgrt-tmvnh-a3-lscrvf",
-      "name": "מסגרת תמונה A3\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121565066",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837658969-n32q3.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-a3-lscrvf",
-      "categories": [],
-      "updated_at": "2026-09-07T11:56:04.307Z"
     },
     {
       "id": "c3a818b8-2fe2-4147-a75e-b3215cdfbca8",
