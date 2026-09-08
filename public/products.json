@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:32:04.813Z",
+  "generated_at": "2026-09-08T05:32:44.045Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 790,
+  "count": 787,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -15859,30 +15859,6 @@
       "updated_at": "2026-09-07T11:55:54.354Z"
     },
     {
-      "id": "e7d2e5c2-5768-4baa-b991-87b62ff68255",
-      "slug": "mshtch-chytvk-ats-mktsvay-22x30-sm-opyr74",
-      "name": "משטח חיתוך עץ מקצועי 22X30 ס\"מ",
-      "name_translations": {},
-      "description": "משטחי חיתוך",
-      "short_description": null,
-      "sku": "7290121563376",
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837673475-xe4ycg.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-ats-mktsvay-22x30-sm-opyr74",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:55:54.528Z"
-    },
-    {
       "id": "2b1cf5e5-a327-4aa3-82b3-e22cdd7cb9bf",
       "slug": "mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-rspv0d",
       "name": "משטח חיתוך מקצועי מעץ במבוק 28X20 ס\"מ\r\n ",
@@ -15905,30 +15881,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-09-07T11:55:54.526Z"
-    },
-    {
-      "id": "a9bece82-1382-47c1-9607-c813c024d8c8",
-      "slug": "mshtch-chytvk-ats-mktsvay-25x35-sm-qcgpu7",
-      "name": "משטח חיתוך עץ מקצועי 25X35 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121563369",
-      "brand": null,
-      "price": 31.92,
-      "base_price": 39.9,
-      "sale_price": 31.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837672873-e7sbyk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-ats-mktsvay-25x35-sm-qcgpu7",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:55:54.407Z"
     },
     {
       "id": "3cc52fbd-c832-438c-8a97-1a28d1f96f7c",
@@ -16269,30 +16221,6 @@
         "כללי"
       ],
       "updated_at": "2026-09-07T11:55:58.803Z"
-    },
-    {
-      "id": "bc12d9ec-dc00-4aa4-a76d-d095db0e536b",
-      "slug": "mtlh-kbysh-tsba-shchvr-dgm-noam-ggg4z0",
-      "name": "מתלה כביסה צבע שחור\r\n דגם NOAM\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121560412",
-      "brand": null,
-      "price": 159.92,
-      "base_price": 199.9,
-      "sale_price": 159.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518341521-ihwlj.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-tsba-shchvr-dgm-noam-ggg4z0",
-      "categories": [
-        "מתקני כביסה"
-      ],
-      "updated_at": "2026-09-07T11:55:58.892Z"
     },
     {
       "id": "d2287446-666b-4881-b18a-687e5aa69ec4",
