@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-08T05:48:42.414Z",
+  "generated_at": "2026-09-22T05:26:04.621Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 762,
@@ -10697,27 +10697,27 @@
     },
     {
       "id": "388a7da8-633f-4226-8ddb-f8229f20a888",
-      "slug": "glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-q99isi",
+      "slug": "glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-ti912m",
       "name": "גליידר סיליקון - מנקה חלונות מגנטי R4",
       "name_translations": {},
       "description": "",
       "short_description": "עשוי ביציקה אחת של 100% סיליקון, עמיד במיוחד\r\nמנקה בצורה מושלמת ולא שורט את החלון\r\nמגנטים עוצמתיים במיוחד, מגנט-על ממתכת נדירה\r\nמנגנון כיוונון עוצמת המגנט לעובי הזכוכית (מ-6 מ”מ עד 38 מ\"מ)\r\nגריפה חלקה עם 4 מגבי סיליקון",
       "sku": null,
       "brand": null,
-      "price": 279.92,
-      "base_price": 349.9,
-      "sale_price": 279.92,
+      "price": 359.92,
+      "base_price": 449.9,
+      "sale_price": 359.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757475-elq59.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-q99isi",
+      "url": "https://streetstock.co.il/product/glyydr-sylykvn-mnkh-chlvnvt-mgnty-r4-ti912m",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-09-07T11:55:05.218Z"
+      "updated_at": "2026-09-22T05:25:25.907Z"
     },
     {
       "id": "ef438e03-bca1-40d2-80a2-87d10abb0945",
