@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 762** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 760** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מסגרת תמונה BASIC A3
  צבע שחור ID1081
@@ -1200,15 +1200,6 @@ https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms
 - Description: סל כביסה אקרילי מעוצב ופרקטי, בעל מראה מודרני ונקי המשתלב בצורה מושלמת בחדר הרחצה או הכביסה. פתרון נוח ואסתטי לאחסון הכביסה ולשמירה על סדר וארגון.
 - Image: https://streetstock.co.il/assets/product-1786524696537-2i6xf1.webp
 
-### סכומון מלבן מחולק לשתיים
-ID512 
-https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l
-- Price: 19.92 ILS (sale, was 24.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-- Description: סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.
-- Image: https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp
-
 ### ארגונית אקרילית דגם "CHEN"
 ID409 
 https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj
@@ -1857,6 +1848,15 @@ https://streetstock.co.il/product/myybsh-klym-dgm-adi-tsba-mvkh-id1009-4yyrjb
 - Category: מייבשי כלים
 - Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
 - Image: https://streetstock.co.il/assets/product-1786524915339-iuvjuk.webp
+
+### מייבש כלים 2 קומות דגם SAPIR 
+צבע לבן ID1012
+https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-we23kk
+- Price: 103.92 ILS (sale, was 129.90 ILS)
+- Availability: In stock
+- Category: מייבשי כלים
+- Description: מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו"ם.
+- Image: https://streetstock.co.il/assets/product-1786524995341-1b17b.webp
 
 ---
 

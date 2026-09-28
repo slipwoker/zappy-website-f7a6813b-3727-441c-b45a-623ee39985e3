@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 22 Sep 2026 05:26:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 07:12:55 GMT</lastBuildDate>
     <item>
       <g:id>350390dd-ac03-47f6-bb80-db82f15617ac</g:id>
       <g:title>מסגרת תמונה BASIC A3
@@ -616,8 +616,7 @@ ID359 - White</g:title>
       <g:item_group_id>e99af7ee-9c74-4ec2-8246-398f08d9493a</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1788071308488-ydtoec.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>149.90 ILS</g:price>
-      <g:sale_price>119.92 ILS</g:sale_price>
+      <g:price>119.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -651,8 +650,7 @@ ID359 - Ivory</g:title>
       <g:additional_image_link>https://streetstock.co.il/assets/product-1788071408328-06g5jp.webp</g:additional_image_link>
       <g:additional_image_link>https://streetstock.co.il/assets/product-1788071417126-cgxn3n.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>149.90 ILS</g:price>
-      <g:sale_price>119.92 ILS</g:sale_price>
+      <g:price>119.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -703,8 +701,7 @@ ID359 - Ivory</g:title>
       <g:item_group_id>090cbc74-c05b-44b5-8c24-1378b812d81d</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1788071491317-d4k4p.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>119.90 ILS</g:price>
-      <g:sale_price>95.92 ILS</g:sale_price>
+      <g:price>95.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -769,8 +766,7 @@ ID1127</g:title>
       <g:item_group_id>5f44c7b1-8076-433d-895d-9670c736a518</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>119.90 ILS</g:price>
-      <g:sale_price>95.92 ILS</g:sale_price>
+      <g:price>95.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -833,8 +829,7 @@ ID1082 - Ivory</g:title>
       <g:item_group_id>81bc984f-cb41-49f5-8700-d493e76c72e2</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1788071671189-wcea9.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>119.90 ILS</g:price>
-      <g:sale_price>95.92 ILS</g:sale_price>
+      <g:price>95.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -2055,38 +2050,6 @@ ID615 </g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>מוצרי אקריל</g:product_type>
-    </item>
-    <item>
-      <g:id>b096476e-eb13-4aec-98b7-639555091b9e</g:id>
-      <g:title>סכומון מלבן מחולק לשתיים
-ID512  - Black</g:title>
-      <g:description>סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l</g:link>
-      <g:item_group_id>97629411-c92a-4f48-8227-28c7613a1f9f</g:item_group_id>
-      <g:image_link>https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>24.90 ILS</g:price>
-      <g:sale_price>19.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>כלי בית</g:product_type>
-    </item>
-    <item>
-      <g:id>74a4bdca-880a-474a-bb07-07f252a39bd7</g:id>
-      <g:title>סכומון מלבן מחולק לשתיים
-ID512  - White</g:title>
-      <g:description>סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l</g:link>
-      <g:item_group_id>97629411-c92a-4f48-8227-28c7613a1f9f</g:item_group_id>
-      <g:image_link>https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>24.90 ILS</g:price>
-      <g:sale_price>19.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
       <g:id>d75ac5bb-5f4a-4909-85af-0dfa90528a9e</g:id>
@@ -9139,12 +9102,11 @@ ID890</g:title>
       <g:id>5e561271-9ed3-4b85-9e1d-c2adcc9ccedc</g:id>
       <g:title>מגבת פנים דגם TULIP - לבן</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>14.32 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9154,12 +9116,12 @@ ID890</g:title>
       <g:id>791f3543-7e55-48b6-b870-0ad725e79468</g:id>
       <g:title>מגבת פנים דגם TULIP - אפור</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>17.90 ILS</g:price>
+      <g:sale_price>14.32 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9169,12 +9131,12 @@ ID890</g:title>
       <g:id>f87022f5-6ee7-496c-b3f9-b66834850aa4</g:id>
       <g:title>מגבת פנים דגם TULIP - אפור כהה</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>17.90 ILS</g:price>
+      <g:sale_price>14.32 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9184,12 +9146,12 @@ ID890</g:title>
       <g:id>11ba02ca-5e4a-475e-8c35-ef7fd601a7f0</g:id>
       <g:title>מגבת פנים דגם TULIP - Navy</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>17.90 ILS</g:price>
+      <g:sale_price>14.32 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9199,12 +9161,12 @@ ID890</g:title>
       <g:id>ff353b25-5df9-41aa-a153-4d660d0b8f51</g:id>
       <g:title>מגבת פנים דגם TULIP - Beige</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>17.90 ILS</g:price>
+      <g:sale_price>14.32 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9214,12 +9176,12 @@ ID890</g:title>
       <g:id>18246858-b7ef-4939-a40b-e57764d98b81</g:id>
       <g:title>מגבת פנים דגם TULIP - Silver</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>17.90 ILS</g:price>
+      <g:sale_price>14.32 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9229,12 +9191,12 @@ ID890</g:title>
       <g:id>6d2afa13-ae96-46af-b806-9f7ef55f10e2</g:id>
       <g:title>מגבת פנים דגם TULIP - Pink</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs</g:link>
       <g:item_group_id>a277f88b-0b83-4942-bec7-72bb13b4ad9c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726221-obogwe.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
+      <g:price>17.90 ILS</g:price>
+      <g:sale_price>14.32 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9300,12 +9262,11 @@ ID890</g:title>
       <g:id>9ad37b1b-12e7-4696-90b2-7dae93f7e7bd</g:id>
       <g:title>מגבת גוף דגם TULIP - White</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>31.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9315,12 +9276,12 @@ ID890</g:title>
       <g:id>4de2e682-01b0-4e84-83ec-273f48f204b7</g:id>
       <g:title>מגבת גוף דגם TULIP - Gray</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9330,12 +9291,12 @@ ID890</g:title>
       <g:id>95de8246-606c-4a3b-acb7-b0c805ff5a86</g:id>
       <g:title>מגבת גוף דגם TULIP - Charcoal</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9345,12 +9306,12 @@ ID890</g:title>
       <g:id>c994c548-723a-41cf-a119-a2fb65147670</g:id>
       <g:title>מגבת גוף דגם TULIP - Navy</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9360,12 +9321,12 @@ ID890</g:title>
       <g:id>8ef0b801-3147-4c04-8a2a-6f8c374e3c11</g:id>
       <g:title>מגבת גוף דגם TULIP - Beige</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9375,12 +9336,12 @@ ID890</g:title>
       <g:id>23b39798-3091-42b5-9af8-aebea4660522</g:id>
       <g:title>מגבת גוף דגם TULIP - Silver</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9390,12 +9351,12 @@ ID890</g:title>
       <g:id>072166ec-bce8-4e42-b6a7-e4c3a068e220</g:id>
       <g:title>מגבת גוף דגם TULIP - Pink</g:title>
       <g:description>מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ&quot;ר</g:description>
-      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye</g:link>
+      <g:link>https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v</g:link>
       <g:item_group_id>e2aeaf50-6f13-42da-9611-b0d2c85c4d0c</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>29.90 ILS</g:price>
-      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9437,8 +9398,7 @@ ID890</g:title>
       <g:item_group_id>c2345aea-f3bc-47f7-90b0-141665e05357</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1780837721816-3c0gee.webp</g:image_link>
       <g:availability>in_stock</g:availability>
-      <g:price>9.90 ILS</g:price>
-      <g:sale_price>7.92 ILS</g:sale_price>
+      <g:price>7.92 ILS</g:price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
@@ -9849,20 +9809,6 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121561006</g:mpn>
       <g:product_type>מתקני כביסה</g:product_type>
-    </item>
-    <item>
-      <g:id>5ce84e01-aac0-49c3-9ee4-0903057a37fb</g:id>
-      <g:title>סכומון מלבן מחולק לשתיים</g:title>
-      <g:description>כלי בית</g:description>
-      <g:link>https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-eqqy7l</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837712216-mkfm2h.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>24.90 ILS</g:price>
-      <g:sale_price>19.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121561785</g:mpn>
-      <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
       <g:id>20d30670-fbda-4c28-b017-7d68d6b305c8</g:id>

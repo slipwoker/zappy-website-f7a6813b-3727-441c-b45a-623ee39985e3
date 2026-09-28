@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-22T05:26:04.621Z",
+  "generated_at": "2026-09-28T07:12:55.504Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 762,
+  "count": 760,
   "products": [
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
@@ -3002,30 +3002,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-09-07T11:54:07.708Z"
-    },
-    {
-      "id": "97629411-c92a-4f48-8227-28c7613a1f9f",
-      "slug": "skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l",
-      "name": "סכומון מלבן מחולק לשתיים\nID512 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.",
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786525087190-ttnf05.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:54:07.651Z"
     },
     {
       "id": "d75ac5bb-5f4a-4909-85af-0dfa90528a9e",
@@ -13141,27 +13117,27 @@
     },
     {
       "id": "a277f88b-0b83-4942-bec7-72bb13b4ad9c",
-      "slug": "mgbt-pnym-dgm-tulip-cn3ynt",
+      "slug": "mgbt-pnym-dgm-tulip-p8mvzs",
       "name": "מגבת פנים דגם TULIP",
       "name_translations": {},
       "description": "",
       "short_description": "מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ\"ר",
       "sku": null,
       "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
+      "price": 14.32,
+      "base_price": 17.9,
+      "sale_price": 14.32,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837726221-obogwe.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt",
+      "url": "https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs",
       "categories": [
         "מגבות"
       ],
-      "updated_at": "2026-09-07T11:55:31.206Z"
+      "updated_at": "2026-09-28T07:00:49.472Z"
     },
     {
       "id": "2cc9db62-1e1a-4cbd-836a-7bab68b2cd70",
@@ -13261,27 +13237,27 @@
     },
     {
       "id": "e2aeaf50-6f13-42da-9611-b0d2c85c4d0c",
-      "slug": "mgbt-gvp-dgm-tulip-g6hrye",
+      "slug": "mgbt-gvp-dgm-tulip-xsiu7v",
       "name": "מגבת גוף דגם TULIP",
       "name_translations": {},
       "description": "",
       "short_description": "מגבת קוביות דגם טוליפ 100% כותנה 560 גרם למ\"ר",
       "sku": null,
       "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
+      "price": 31.92,
+      "base_price": 39.9,
+      "sale_price": 31.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837726063-7lxsqm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye",
+      "url": "https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v",
       "categories": [
         "מגבות"
       ],
-      "updated_at": "2026-09-07T11:55:31.372Z"
+      "updated_at": "2026-09-28T06:59:34.955Z"
     },
     {
       "id": "f7111cdf-88e6-4f47-95c8-0526fd3b8987",
@@ -13889,30 +13865,6 @@
         "מתקני כביסה"
       ],
       "updated_at": "2026-09-07T11:55:37.660Z"
-    },
-    {
-      "id": "5ce84e01-aac0-49c3-9ee4-0903057a37fb",
-      "slug": "skvmvn-mlbn-mchvlk-lshtyym-eqqy7l",
-      "name": "סכומון מלבן מחולק לשתיים",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7290121561785",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837712216-mkfm2h.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-eqqy7l",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:55:37.738Z"
     },
     {
       "id": "20d30670-fbda-4c28-b017-7d68d6b305c8",

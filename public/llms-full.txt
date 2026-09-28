@@ -7203,14 +7203,6 @@ Availability: In stock
 
 ---
 
-### סכומון מלבן מחולק לשתיים
-ID512 
-URL: https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-id512-ykhb5l
-Price: 19.92 ILS (sale, was 24.90 ILS)
-Availability: In stock
-
----
-
 ### ארגונית אקרילית דגם "CHEN"
 ID409 
 URL: https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj
@@ -10295,8 +10287,8 @@ Availability: In stock
 ---
 
 ### מגבת פנים דגם TULIP
-URL: https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-cn3ynt
-Price: 11.92 ILS (sale, was 14.90 ILS)
+URL: https://streetstock.co.il/product/mgbt-pnym-dgm-tulip-p8mvzs
+Price: 14.32 ILS (sale, was 17.90 ILS)
 Availability: In stock
 
 ---
@@ -10330,8 +10322,8 @@ Availability: In stock
 ---
 
 ### מגבת גוף דגם TULIP
-URL: https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-g6hrye
-Price: 23.92 ILS (sale, was 29.90 ILS)
+URL: https://streetstock.co.il/product/mgbt-gvp-dgm-tulip-xsiu7v
+Price: 31.92 ILS (sale, was 39.90 ILS)
 Availability: In stock
 
 ---
@@ -10531,16 +10523,6 @@ URL: https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-
 Price: 119.92 ILS (sale, was 149.90 ILS)
 Availability: In stock
 SKU: 7290121561006
-
----
-
-### סכומון מלבן מחולק לשתיים
-URL: https://streetstock.co.il/product/skvmvn-mlbn-mchvlk-lshtyym-eqqy7l
-Price: 19.92 ILS (sale, was 24.90 ILS)
-Availability: In stock
-SKU: 7290121561785
-
-כלי בית
 
 ---
 
