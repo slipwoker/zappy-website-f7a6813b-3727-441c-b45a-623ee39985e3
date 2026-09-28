@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-28T07:27:50.661Z",
+  "generated_at": "2026-09-28T08:27:50.493Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 759,
@@ -15971,27 +15971,27 @@
     },
     {
       "id": "b48f71ad-afbc-4797-abe4-2dadcc3bcbfd",
-      "slug": "aglt-shvk-dgm-washingston-f5nn38",
+      "slug": "aglt-shvk-dgm-washingston-49ncy6",
       "name": "עגלת שוק דגם WASHINGSTON\r\n",
       "name_translations": {},
-      "description": "כללי, עגלות שירות",
+      "description": "<p>כללי, עגלות שירות</p>",
       "short_description": null,
       "sku": "7290121563017",
       "brand": null,
-      "price": 159.92,
-      "base_price": 199.9,
-      "sale_price": 159.92,
+      "price": 199.92,
+      "base_price": 249.92,
+      "sale_price": 199.92,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837669989-ahtyyh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shvk-dgm-washingston-f5nn38",
+      "url": "https://streetstock.co.il/product/aglt-shvk-dgm-washingston-49ncy6",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-09-07T11:55:56.321Z"
+      "updated_at": "2026-09-28T08:27:15.583Z"
     },
     {
       "id": "7b236a58-777f-4b22-8719-5561198d37a0",
