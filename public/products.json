@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:50:47.848Z",
+  "generated_at": "2026-10-01T08:51:06.224Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1962,7 +1962,7 @@
     },
     {
       "id": "28254cc2-0d5b-4fb7-bc81-552c66cb532f",
-      "slug": "st-skvm-24-chlkym-collection-imperial-tsba-zhb-id1156-2geyso",
+      "slug": "st-skvm-24-chlkym-collection-imperial-tsba-zhb-id1156-3gwhhs",
       "name": "סט סכום 24 חלקים COLLECTION IMPERIAL\nצבע זהב ID1156",
       "name_translations": {},
       "description": "",
@@ -1973,15 +1973,17 @@
       "base_price": 62.9,
       "sale_price": 50.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844643592-13gxtj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-zhb-id1156-2geyso",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-zhb-id1156-3gwhhs",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:01.765Z"
+      "updated_at": "2026-10-01T08:51:02.453Z"
     },
     {
       "id": "bd81a095-72cf-4560-a4a4-643d53b975b5",
@@ -2129,7 +2131,7 @@
     },
     {
       "id": "e57fe102-8aad-46b6-8a7d-ea49bff3b0ac",
-      "slug": "st-skvm-24-chlkym-collection-noir-tsba-lbn-id1155-xmeqwj",
+      "slug": "st-skvm-24-chlkym-collection-noir-tsba-lbn-id1155-nlao20",
       "name": "סט סכום 24 חלקים COLLECTION NOIR?\nצבע לבן ID1155",
       "name_translations": {},
       "description": "",
@@ -2140,15 +2142,17 @@
       "base_price": 62.9,
       "sale_price": 50.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844631687-dgm4sp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-lbn-id1155-xmeqwj",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-lbn-id1155-nlao20",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:01.418Z"
+      "updated_at": "2026-10-01T08:50:51.358Z"
     },
     {
       "id": "350390dd-ac03-47f6-bb80-db82f15617ac",
