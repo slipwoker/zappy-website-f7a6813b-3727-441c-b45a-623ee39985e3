@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:32:27.285Z",
+  "generated_at": "2026-10-01T08:33:16.708Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -880,7 +880,7 @@
     },
     {
       "id": "1abaf2c7-d2f1-4d2b-a106-308a0d432675",
-      "slug": "st-2-mtlh-hdbkh-bmbvk-sdrt-velstick-id518-al7pa7",
+      "slug": "st-2-mtlh-hdbkh-bmbvk-sdrt-velstick-id518-a8pg4k",
       "name": "סט 2 מתלה הדבקה במבוק סדרת VELSTICK\nID518",
       "name_translations": {},
       "description": "",
@@ -891,15 +891,17 @@
       "base_price": 14.9,
       "sale_price": 11.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843561961-ar5exi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-mtlh-hdbkh-bmbvk-sdrt-velstick-id518-al7pa7",
+      "url": "https://streetstock.co.il/product/st-2-mtlh-hdbkh-bmbvk-sdrt-velstick-id518-a8pg4k",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.490Z"
+      "updated_at": "2026-10-01T08:32:56.346Z"
     },
     {
       "id": "a8bf6aa4-221e-4a02-98e1-3bbee5f4381b",
@@ -925,7 +927,7 @@
     },
     {
       "id": "29f66f7e-d80a-4c98-af66-04509985bfe5",
-      "slug": "mtlh-hdbkh-2-vvym-bmbvk-sdrt-velstick-id517-taxrve",
+      "slug": "mtlh-hdbkh-2-vvym-bmbvk-sdrt-velstick-id517-8zqda9",
       "name": "מתלה הדבקה 2 ווים במבוק סדרת VELSTICK\nID517",
       "name_translations": {},
       "description": "",
@@ -936,19 +938,21 @@
       "base_price": 14.9,
       "sale_price": 11.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843571106-788uwh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-hdbkh-2-vvym-bmbvk-sdrt-velstick-id517-taxrve",
+      "url": "https://streetstock.co.il/product/mtlh-hdbkh-2-vvym-bmbvk-sdrt-velstick-id517-8zqda9",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.424Z"
+      "updated_at": "2026-10-01T08:33:06.722Z"
     },
     {
       "id": "0fd4caf1-dbd4-4ede-b5bc-ab1997a98e49",
-      "slug": "mtlh-hdbkh-3-vvym-bmbvk-sdrt-velstick-id977-pg5qc6",
+      "slug": "mtlh-hdbkh-3-vvym-bmbvk-sdrt-velstick-id977-gtpgyg",
       "name": "מתלה הדבקה 3 ווים במבוק סדרת VELSTICK\nID977",
       "name_translations": {},
       "description": "",
@@ -959,19 +963,21 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843532342-663u.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-hdbkh-3-vvym-bmbvk-sdrt-velstick-id977-pg5qc6",
+      "url": "https://streetstock.co.il/product/mtlh-hdbkh-3-vvym-bmbvk-sdrt-velstick-id977-gtpgyg",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.307Z"
+      "updated_at": "2026-10-01T08:32:28.085Z"
     },
     {
       "id": "2df38456-d800-4bb1-800f-79ba8c5a2366",
-      "slug": "mtlh-hdbkh-4-vvym-bmbvk-sdrt-velstick-id978-c5y848",
+      "slug": "mtlh-hdbkh-4-vvym-bmbvk-sdrt-velstick-id978-570893",
       "name": "מתלה הדבקה 4 ווים במבוק סדרת VELSTICK\nID978",
       "name_translations": {},
       "description": "",
@@ -982,15 +988,17 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843548094-qx084h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-hdbkh-4-vvym-bmbvk-sdrt-velstick-id978-c5y848",
+      "url": "https://streetstock.co.il/product/mtlh-hdbkh-4-vvym-bmbvk-sdrt-velstick-id978-570893",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.306Z"
+      "updated_at": "2026-10-01T08:32:41.492Z"
     },
     {
       "id": "272ac070-3e04-4a13-bfef-238c494186b3",
