@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:38:56.282Z",
+  "generated_at": "2026-10-01T08:40:01.333Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -395,7 +395,7 @@
     },
     {
       "id": "d81fca06-5841-4daf-b9f3-8b52a4e7aa3a",
-      "slug": "kvpsat-zkvkyt-mlbnyt-1520-ml-id717-bam0zz",
+      "slug": "kvpsat-zkvkyt-mlbnyt-1520-ml-id717-24zyty",
       "name": "קופסאת זכוכית מלבנית 1520 מ\"ל ID717",
       "name_translations": {},
       "description": "",
@@ -406,18 +406,20 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843976446-xn6wu.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-1520-ml-id717-bam0zz",
+      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-1520-ml-id717-24zyty",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:11.091Z"
+      "updated_at": "2026-10-01T08:39:58.760Z"
     },
     {
       "id": "337e0b2d-06db-416a-a104-bb2fa80b067b",
-      "slug": "kvpsat-zkvkyt-mlbnyt-1040-ml-id716-olg2r1",
+      "slug": "kvpsat-zkvkyt-mlbnyt-1040-ml-id716-1zh5zm",
       "name": "קופסאת זכוכית מלבנית 1040 מ\"ל ID716",
       "name_translations": {},
       "description": "",
@@ -428,18 +430,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843961432-jstumv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-1040-ml-id716-olg2r1",
+      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-1040-ml-id716-1zh5zm",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:11.059Z"
+      "updated_at": "2026-10-01T08:39:37.663Z"
     },
     {
       "id": "dfa78e51-daae-46d0-b80f-fa2978e5eea6",
-      "slug": "kvpsat-zkvkyt-mlbnyt-640-ml-id715-8vrleq",
+      "slug": "kvpsat-zkvkyt-mlbnyt-640-ml-id715-9544cz",
       "name": "קופסאת זכוכית מלבנית 640 מ\"ל ID715",
       "name_translations": {},
       "description": "",
@@ -450,18 +454,20 @@
       "base_price": 15.9,
       "sale_price": 12.72,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843951242-unidq9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-640-ml-id715-8vrleq",
+      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-640-ml-id715-9544cz",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:11.043Z"
+      "updated_at": "2026-10-01T08:39:25.205Z"
     },
     {
       "id": "661a17b1-877d-4c76-a048-e152e7c375e4",
-      "slug": "mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-242628-sm-id956-se54sl",
+      "slug": "mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-242628-sm-id956-yyty63",
       "name": "מכסה אוניברסלי לסירים ומחבתות\nמתאים לקוטר 24/26/28 ס\"מ ID956",
       "name_translations": {},
       "description": "",
@@ -472,18 +478,20 @@
       "base_price": 39.9,
       "sale_price": 31.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843930239-98sw28.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-242628-sm-id956-se54sl",
+      "url": "https://streetstock.co.il/product/mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-242628-sm-id956-yyty63",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-10-01T08:28:11.040Z"
+      "updated_at": "2026-10-01T08:39:10.029Z"
     },
     {
       "id": "c4e03b32-d503-45bc-b082-5075733e3a08",
-      "slug": "mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-182022-sm-id955-jau21x",
+      "slug": "mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-182022-sm-id955-qnx2gc",
       "name": "מכסה אוניברסלי לסירים ומחבתות\nמתאים לקוטר 18/20/22 ס\"מ ID955",
       "name_translations": {},
       "description": "",
@@ -494,14 +502,16 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843921239-d4i0l.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-182022-sm-id955-jau21x",
+      "url": "https://streetstock.co.il/product/mksh-avnybrsly-lsyrym-vmchbtvt-mtaym-lkvtr-182022-sm-id955-qnx2gc",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-10-01T08:28:11.036Z"
+      "updated_at": "2026-10-01T08:38:57.629Z"
     },
     {
       "id": "3b024b15-3f53-40ac-9212-5dadcf962ad3",
