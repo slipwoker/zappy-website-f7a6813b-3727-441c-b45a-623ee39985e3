@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:48:19.897Z",
+  "generated_at": "2026-10-01T08:49:55.673Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -828,7 +828,7 @@
     },
     {
       "id": "1c08a970-9915-47df-bc09-0dfbaf5fa0c0",
-      "slug": "marz-rvlr-lhvrdt-sybym-id983-kjrsy3",
+      "slug": "marz-rvlr-lhvrdt-sybym-id983-vbgokb",
       "name": "מארז רולר להורדת סיבים ID983",
       "name_translations": {},
       "description": "",
@@ -839,15 +839,17 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844463064-mzkfnc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-rvlr-lhvrdt-sybym-id983-kjrsy3",
+      "url": "https://streetstock.co.il/product/marz-rvlr-lhvrdt-sybym-id983-vbgokb",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.491Z"
+      "updated_at": "2026-10-01T08:49:02.960Z"
     },
     {
       "id": "1abaf2c7-d2f1-4d2b-a106-308a0d432675",
@@ -2097,7 +2099,7 @@
     },
     {
       "id": "c5a7ec4a-85d9-4337-89f0-ca0a5f938f68",
-      "slug": "pch-ambtyh-5-lytrdgm-bino-tsba-mvkh-id982-b5gse1",
+      "slug": "pch-ambtyh-5-lytrdgm-bino-tsba-mvkh-id982-44zaw7",
       "name": "פח אמבטיה 5 ליטרדגם BINO\nצבע מוקה ID982",
       "name_translations": {},
       "description": "",
@@ -2108,14 +2110,16 @@
       "base_price": 39.9,
       "sale_price": 31.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844544226-7ps1s.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-ambtyh-5-lytrdgm-bino-tsba-mvkh-id982-b5gse1",
+      "url": "https://streetstock.co.il/product/pch-ambtyh-5-lytrdgm-bino-tsba-mvkh-id982-44zaw7",
       "categories": [
         "פחי שירותים"
       ],
-      "updated_at": "2026-10-01T08:28:01.418Z"
+      "updated_at": "2026-10-01T08:49:18.246Z"
     },
     {
       "id": "e57fe102-8aad-46b6-8a7d-ea49bff3b0ac",
