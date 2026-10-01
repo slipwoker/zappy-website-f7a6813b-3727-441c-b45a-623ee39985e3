@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:45:49.471Z",
+  "generated_at": "2026-10-01T08:46:24.656Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 851,
+  "count": 850,
   "products": [
     {
       "id": "25b62db3-9980-453b-b7cb-1df0cf9bd5ce",
@@ -15818,30 +15818,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-09-07T11:55:35.992Z"
-    },
-    {
-      "id": "d57a3cc4-42cf-4a2b-a435-437ddd557dbf",
-      "slug": "marz-12-svgry-shkyvt-yw74nq",
-      "name": "מארז 12 סוגרי שקיות",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "7290121562263",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837712789-s7wy1w.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-12-svgry-shkyvt-yw74nq",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:55:35.996Z"
     },
     {
       "id": "f4b0185e-72bd-4796-83af-ee1086093870",
