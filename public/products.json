@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:55:01.279Z",
+  "generated_at": "2026-10-01T08:55:24.431Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1697,7 +1697,7 @@
     },
     {
       "id": "53c9375e-baa4-438d-a78a-121726b3ae77",
-      "slug": "argvnyt-bd-mtkplt-24-taym-tsba-krmsdrt-home-organizer-mydvt-32x32x9-sm-id990-dzii1m",
+      "slug": "argvnyt-bd-mtkplt-24-taym-tsba-krmsdrt-home-organizer-mydvt-32x32x9-sm-id990-iwnxs4",
       "name": "ארגונית בד מתקפלת 24 תאים צבע קרםסדרת HOME ORGANIZER\nמידות : 32X32X9 ס\"מ ID990 (",
       "name_translations": {},
       "description": "",
@@ -1708,18 +1708,20 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844898119-pnml9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-24-taym-tsba-krmsdrt-home-organizer-mydvt-32x32x9-sm-id990-dzii1m",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-24-taym-tsba-krmsdrt-home-organizer-mydvt-32x32x9-sm-id990-iwnxs4",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.576Z"
+      "updated_at": "2026-10-01T08:55:22.604Z"
     },
     {
       "id": "7d83f5d5-c1ee-4fee-be70-89c941d4ceab",
-      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-275x275x20-sm-id989-12-9znahh",
+      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-275x275x20-sm-id989-12-qbr69f",
       "name": "ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER\nמידות : 27.5X27.5X20 ס\"מ ID989 (12",
       "name_translations": {},
       "description": "",
@@ -1730,14 +1732,16 @@
       "base_price": 21.9,
       "sale_price": 17.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844886943-30aoqj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-275x275x20-sm-id989-12-9znahh",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-275x275x20-sm-id989-12-qbr69f",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.562Z"
+      "updated_at": "2026-10-01T08:55:02.229Z"
     },
     {
       "id": "3821505a-e56b-454a-b556-77882cecc527",
