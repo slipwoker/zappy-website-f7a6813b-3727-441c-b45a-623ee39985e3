@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T09:00:38.963Z",
+  "generated_at": "2026-10-01T09:01:29.157Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1023,7 +1023,7 @@
     },
     {
       "id": "6c327aa7-2290-4196-8c66-308384c2d5e6",
-      "slug": "st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id972-rowawd",
+      "slug": "st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id972-tlw4h3",
       "name": "סט 4 ווים עגולים להדבקה סדרת VELSTICK\nID972",
       "name_translations": {},
       "description": "",
@@ -1034,15 +1034,17 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845266856-vo8xs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id972-rowawd",
+      "url": "https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id972-tlw4h3",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:06.958Z"
+      "updated_at": "2026-10-01T09:01:22.414Z"
     },
     {
       "id": "34444a63-0e1f-4e84-aa5e-ad5fe21ed4ad",
@@ -1069,7 +1071,7 @@
     },
     {
       "id": "200c1836-438e-451c-b56f-905563e86158",
-      "slug": "st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id971-7mv3or",
+      "slug": "st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id971-m3zqki",
       "name": "סט 2 ווים עגולים להדבקה סדרת VELSTICK\nID971",
       "name_translations": {},
       "description": "",
@@ -1080,15 +1082,17 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845251873-7t5899.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id971-7mv3or",
+      "url": "https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id971-m3zqki",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:06.957Z"
+      "updated_at": "2026-10-01T09:01:06.880Z"
     },
     {
       "id": "cbfcbac4-4202-4f64-b63e-8b35f1a8dd6f",
@@ -1115,7 +1119,7 @@
     },
     {
       "id": "0e55a8e1-21b9-475d-8a33-ac27a57a9a59",
-      "slug": "tsynvr-mklcht-15-mtr-sdrt-water-flex-id968-sveuhu",
+      "slug": "tsynvr-mklcht-15-mtr-sdrt-water-flex-id968-hwz8jd",
       "name": "צינור מקלחת 1.5 מטר סדרת WATER FLEX\nID968",
       "name_translations": {},
       "description": "",
@@ -1126,18 +1130,20 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845239968-u2prrs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsynvr-mklcht-15-mtr-sdrt-water-flex-id968-sveuhu",
+      "url": "https://streetstock.co.il/product/tsynvr-mklcht-15-mtr-sdrt-water-flex-id968-hwz8jd",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:06.948Z"
+      "updated_at": "2026-10-01T09:00:55.076Z"
     },
     {
       "id": "0a9f3028-2883-42dc-8f61-01047c4f784e",
-      "slug": "tsynvr-mklcht-2-mtr-sdrt-water-flex-id967-lbuao1",
+      "slug": "tsynvr-mklcht-2-mtr-sdrt-water-flex-id967-2bdhtk",
       "name": "צינור מקלחת 2 מטר סדרת WATER FLEX\nID967",
       "name_translations": {},
       "description": "",
@@ -1148,14 +1154,16 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845226384-pjimi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsynvr-mklcht-2-mtr-sdrt-water-flex-id967-lbuao1",
+      "url": "https://streetstock.co.il/product/tsynvr-mklcht-2-mtr-sdrt-water-flex-id967-2bdhtk",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:06.862Z"
+      "updated_at": "2026-10-01T09:00:41.382Z"
     },
     {
       "id": "80ac40e6-8602-43f8-8b5b-63cdcf93d249",
