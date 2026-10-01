@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:49:55.673Z",
+  "generated_at": "2026-10-01T08:50:47.848Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -2031,7 +2031,7 @@
     },
     {
       "id": "076750b6-1bbe-4fc3-85a2-92a6b06639cf",
-      "slug": "mbrsht-aslh-dgm-bino-tsba-mvkh-id981-a05dok",
+      "slug": "mbrsht-aslh-dgm-bino-tsba-mvkh-id981-gk7bp5",
       "name": "מברשת אסלה דגם BINO\nצבע מוקה ID981",
       "name_translations": {},
       "description": "",
@@ -2042,18 +2042,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844556887-sypit6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-dgm-bino-tsba-mvkh-id981-a05dok",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-dgm-bino-tsba-mvkh-id981-gk7bp5",
       "categories": [
         "פחי שירותים"
       ],
-      "updated_at": "2026-10-01T08:28:01.431Z"
+      "updated_at": "2026-10-01T08:49:55.198Z"
     },
     {
       "id": "b964944a-37bd-47b5-a9f4-c2b69f934409",
-      "slug": "st-skvm-24-chlkym-collection-noir-tsba-mvkh-id1154-ll3pd0",
+      "slug": "st-skvm-24-chlkym-collection-noir-tsba-mvkh-id1154-4l6otr",
       "name": "סט סכום 24 חלקים COLLECTION NOIR?\nצבע מוקה ID1154",
       "name_translations": {},
       "description": "",
@@ -2064,19 +2066,21 @@
       "base_price": 62.9,
       "sale_price": 50.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844605944-qlbdlk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-mvkh-id1154-ll3pd0",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-mvkh-id1154-4l6otr",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:01.422Z"
+      "updated_at": "2026-10-01T08:50:33.816Z"
     },
     {
       "id": "47f62369-74b0-4854-9dca-6b51aa9c9989",
-      "slug": "st-skvm-24-chlkym-collection-noir-tsba-shchvr-id1153-x45d21",
+      "slug": "st-skvm-24-chlkym-collection-noir-tsba-shchvr-id1153-gif8jg",
       "name": "סט סכום 24 חלקים COLLECTION NOIR?\nצבע שחור ID1153",
       "name_translations": {},
       "description": "",
@@ -2087,15 +2091,17 @@
       "base_price": 62.9,
       "sale_price": 50.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844586651-kq2z6j.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-shchvr-id1153-x45d21",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-shchvr-id1153-gif8jg",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:01.421Z"
+      "updated_at": "2026-10-01T08:50:20.858Z"
     },
     {
       "id": "c5a7ec4a-85d9-4337-89f0-ca0a5f938f68",
