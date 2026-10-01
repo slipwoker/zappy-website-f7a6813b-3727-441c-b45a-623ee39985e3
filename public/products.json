@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T09:00:09.133Z",
+  "generated_at": "2026-10-01T09:00:38.963Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1159,7 +1159,7 @@
     },
     {
       "id": "80ac40e6-8602-43f8-8b5b-63cdcf93d249",
-      "slug": "rash-mklcht-ydny-sdrt-water-flex-id966-krpqei",
+      "slug": "rash-mklcht-ydny-sdrt-water-flex-id966-3cr46y",
       "name": "ראש מקלחת ידני סדרת WATER FLEX\nID966",
       "name_translations": {},
       "description": "",
@@ -1170,18 +1170,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845212713-d293m.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/rash-mklcht-ydny-sdrt-water-flex-id966-krpqei",
+      "url": "https://streetstock.co.il/product/rash-mklcht-ydny-sdrt-water-flex-id966-3cr46y",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:06.810Z"
+      "updated_at": "2026-10-01T09:00:27.370Z"
     },
     {
       "id": "ecd180bd-6417-49c9-ab9c-7c4d2797a6cb",
-      "slug": "rash-mklcht-ydny-5-mtsbym-sdrt-water-flex-id965-g1ot5b",
+      "slug": "rash-mklcht-ydny-5-mtsbym-sdrt-water-flex-id965-h8s03g",
       "name": "ראש מקלחת ידני 5 מצבים סדרת WATER FLEX\nID965",
       "name_translations": {},
       "description": "",
@@ -1192,14 +1194,16 @@
       "base_price": 39.9,
       "sale_price": 31.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845200169-38p2x.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/rash-mklcht-ydny-5-mtsbym-sdrt-water-flex-id965-g1ot5b",
+      "url": "https://streetstock.co.il/product/rash-mklcht-ydny-5-mtsbym-sdrt-water-flex-id965-h8s03g",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:06.805Z"
+      "updated_at": "2026-10-01T09:00:13.315Z"
     },
     {
       "id": "e70a9e53-7161-42e7-b375-a5189ace9ee2",
