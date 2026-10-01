@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 855** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 851** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מסננת כיור נירוסטה
 ID562
@@ -107,45 +107,20 @@ https://streetstock.co.il/product/svcht-hdrym-mktsvay-id980-fdt1c3
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1790843406596-lbplsh.webp
 
-### מדף מתכת דו־קומתי ID1061
-https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-9z06l4
-- Price: 19.92 ILS (sale, was 24.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-- Image: https://streetstock.co.il/assets/product-1790843488883-eupzo.webp
-
-### סלסלת אחסון מתכת נתלת רב־שימושית ID1025
-https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-f65udp
-- Price: 19.92 ILS (sale, was 24.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-
-### מעמד רב שימושי
-ID1024
-https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-egk7j3
-- Price: 19.92 ILS (sale, was 24.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-
 ### משטח ייבוש כלים דגם SMART DRY
 מידות : 38X50 ס"מ ID957
-https://streetstock.co.il/product/mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-cd47fn
+https://streetstock.co.il/product/mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-0sspbg
 - Price: 15.92 ILS (sale, was 19.90 ILS)
 - Availability: In stock
 - Category: כלי בית
-
-### מעמד צלחות / מכסים
-ID1023
-https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-8xrdc5
-- Price: 19.92 ILS (sale, was 24.90 ILS)
-- Availability: In stock
-- Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844236536-9r3hil.webp
 
 ### מרסס שמן זכוכית ID948
-https://streetstock.co.il/product/mrss-shmn-zkvkyt-id948-egg3qv
+https://streetstock.co.il/product/mrss-shmn-zkvkyt-id948-dua2p1
 - Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844214242-pyryar.webp
 
 ### סט 7 קשיות זכוכית ID949
 https://streetstock.co.il/product/st-7-kshyvt-zkvkyt-id949-wcofy2
@@ -163,7 +138,7 @@ https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns
 
 ### במבוק טרמוס 500 מ"ל דגם KEEPO
 ID951
-https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-1v3val
+https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-vnwb6x
 - Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: כלי בית
@@ -1709,6 +1684,46 @@ https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id
 - Category: סירים ומחבתות
 - Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
 - Image: https://streetstock.co.il/assets/product-1787559364653-mk6ijd.webp
+
+### סיר יציקת אלומיניום שחור MORO
+20 ס"מ ID1106
+
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-78en68
+- Price: 87.92 ILS (sale, was 109.90 ILS)
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
+- Image: https://streetstock.co.il/assets/product-1787559380101-zlnwm4.webp
+
+### סיר יציקת אלומיניום שמנת MORO
+סוטאז' 24 ס"מ ID1172
+
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-r1prh3
+- Price: 87.92 ILS (sale, was 109.90 ILS)
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
+- Image: https://streetstock.co.il/assets/product-1787559394661-s43fo2.webp
+
+### סיר יציקת אלומיניום שמנת MORO
+24 ס"מ ID1102
+
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-ahvati
+- Price: 103.92 ILS (sale, was 129.90 ILS)
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
+- Image: https://streetstock.co.il/assets/product-1787559409212-j5rj.webp
+
+### סיר יציקת אלומיניום שמנת MORO
+28 ס"מ ID1103
+
+https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-52advc
+- Price: 127.92 ILS (sale, was 159.90 ILS)
+- Availability: In stock
+- Category: סירים ומחבתות
+- Description: סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.
+- Image: https://streetstock.co.il/assets/product-1787559420491-e6f14m.webp
 
 ---
 

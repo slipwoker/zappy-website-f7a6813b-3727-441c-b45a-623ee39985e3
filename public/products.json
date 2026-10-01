@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:43:36.568Z",
+  "generated_at": "2026-10-01T08:45:20.164Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 855,
+  "count": 851,
   "products": [
     {
       "id": "25b62db3-9980-453b-b7cb-1df0cf9bd5ce",
@@ -126,76 +126,8 @@
       "updated_at": "2026-10-01T08:31:51.148Z"
     },
     {
-      "id": "9b06689c-0ea0-47dc-affd-830e2253f025",
-      "slug": "mdp-mtkt-dvkvmty-id1061-9z06l4",
-      "name": "מדף מתכת דו־קומתי ID1061",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1790843488883-eupzo.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-9z06l4",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-10-01T08:32:12.716Z"
-    },
-    {
-      "id": "c6ea44c5-6faf-4c88-9f1c-170f5ac30b16",
-      "slug": "slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-f65udp",
-      "name": "סלסלת אחסון מתכת נתלת רב־שימושית ID1025",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-f65udp",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-10-01T08:28:12.661Z"
-    },
-    {
-      "id": "5766d0d1-8a5d-4e7e-b9d7-2e98a093e87c",
-      "slug": "mamd-rb-shymvshy-id1024-egk7j3",
-      "name": "מעמד רב שימושי\nID1024",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-rb-shymvshy-id1024-egk7j3",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-10-01T08:28:12.587Z"
-    },
-    {
       "id": "b80fe837-490d-4a52-94d6-99e09cfd453f",
-      "slug": "mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-cd47fn",
+      "slug": "mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-0sspbg",
       "name": "משטח ייבוש כלים דגם SMART DRY\nמידות : 38X50 ס\"מ ID957",
       "name_translations": {},
       "description": "",
@@ -206,40 +138,21 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844236536-9r3hil.webp",
+        "https://streetstock.co.il/assets/product-1790844246148-ov5np8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-cd47fn",
+      "url": "https://streetstock.co.il/product/mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-0sspbg",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:12.583Z"
-    },
-    {
-      "id": "2e36ac75-530c-414f-9049-2cbee32a00b2",
-      "slug": "mamd-tslchvt-mksym-id1023-8xrdc5",
-      "name": "מעמד צלחות / מכסים\nID1023",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-tslchvt-mksym-id1023-8xrdc5",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-10-01T08:28:12.582Z"
+      "updated_at": "2026-10-01T08:44:23.443Z"
     },
     {
       "id": "efdb8f6b-029d-4794-b8ce-17808929883c",
-      "slug": "mrss-shmn-zkvkyt-id948-egg3qv",
+      "slug": "mrss-shmn-zkvkyt-id948-dua2p1",
       "name": "מרסס שמן זכוכית ID948",
       "name_translations": {},
       "description": "",
@@ -250,14 +163,16 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844214242-pyryar.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrss-shmn-zkvkyt-id948-egg3qv",
+      "url": "https://streetstock.co.il/product/mrss-shmn-zkvkyt-id948-dua2p1",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:12.566Z"
+      "updated_at": "2026-10-01T08:43:58.180Z"
     },
     {
       "id": "f22ae9d7-2863-4798-b7b6-f26e82eabdc0",
@@ -310,7 +225,7 @@
     },
     {
       "id": "c68e233f-c04f-42fe-be90-7c2e2699b9a5",
-      "slug": "bmbvk-trmvs-500-ml-dgm-keepo-id951-1v3val",
+      "slug": "bmbvk-trmvs-500-ml-dgm-keepo-id951-vnwb6x",
       "name": "במבוק טרמוס 500 מ\"ל דגם KEEPO\nID951",
       "name_translations": {},
       "description": "",
@@ -327,12 +242,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-1v3val",
+      "url": "https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-vnwb6x",
       "categories": [
         "כלי בית",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:43:17.203Z"
+      "updated_at": "2026-10-01T08:43:36.803Z"
     },
     {
       "id": "24388359-eead-4fcb-9055-2ceae197c5e8",
