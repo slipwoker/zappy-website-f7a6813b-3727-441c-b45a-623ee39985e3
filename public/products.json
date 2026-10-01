@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:57:18.942Z",
+  "generated_at": "2026-10-01T08:58:39.457Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1433,7 +1433,7 @@
     },
     {
       "id": "1e8425de-5613-4959-a7a3-a15b550a53c2",
-      "slug": "argvnyt-bd-lachsvn-tsba-apvr-sdrt-home-organizer-mydvt-100x45x15-sm-id1004-2il6ze",
+      "slug": "argvnyt-bd-lachsvn-tsba-apvr-sdrt-home-organizer-mydvt-100x45x15-sm-id1004-yyo5pc",
       "name": "ארגונית בד לאחסון צבע אפור סדרת HOME ORGANIZER\nמידות : 100X45X15 ס\"מ ID1004",
       "name_translations": {},
       "description": "",
@@ -1444,18 +1444,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845091613-tb3hvc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-lachsvn-tsba-apvr-sdrt-home-organizer-mydvt-100x45x15-sm-id1004-2il6ze",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-lachsvn-tsba-apvr-sdrt-home-organizer-mydvt-100x45x15-sm-id1004-yyo5pc",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:05.232Z"
+      "updated_at": "2026-10-01T08:58:28.529Z"
     },
     {
       "id": "2ed28308-f9b2-43bf-8508-55b16c11eb8b",
-      "slug": "argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-31x16x10-sm-id1003-jkljri",
+      "slug": "argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-31x16x10-sm-id1003-3nw3f3",
       "name": "ארגונית בד מתקפלת צבע אפור סדרת HOME ORGANIZER\nמידות : 31X16X10 ס\"מ ID1003",
       "name_translations": {},
       "description": "",
@@ -1466,14 +1468,16 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845082407-wz8w.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-31x16x10-sm-id1003-jkljri",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-31x16x10-sm-id1003-3nw3f3",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:05.216Z"
+      "updated_at": "2026-10-01T08:58:16.856Z"
     },
     {
       "id": "4eff48f7-5cfa-46ed-bf5f-b5fcc6dfdbc7",
@@ -1499,7 +1503,7 @@
     },
     {
       "id": "3bfa0b2b-4a99-4dbe-b3b8-bc543d07b1eb",
-      "slug": "argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-30x30x30-sm-id1002-q5r0kx",
+      "slug": "argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-30x30x30-sm-id1002-wts2qt",
       "name": "ארגונית בד מתקפלת צבע אפור סדרת HOME ORGANIZER\nמידות : 30X30X30 ס\"מ ID1002",
       "name_translations": {},
       "description": "",
@@ -1510,18 +1514,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845071398-ranwwm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-30x30x30-sm-id1002-q5r0kx",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-30x30x30-sm-id1002-wts2qt",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:04.031Z"
+      "updated_at": "2026-10-01T08:58:03.291Z"
     },
     {
       "id": "f3c6aafd-e001-423a-87c3-2826a57869aa",
-      "slug": "argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-275x275x20-sm-id1000-smtu1f",
+      "slug": "argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-275x275x20-sm-id1000-siejzg",
       "name": "ארגונית בד מתקפלת צבע אפור סדרת HOME ORGANIZER\nמידות : 27.5X27.5X20 ס\"מ ID1000 (",
       "name_translations": {},
       "description": "",
@@ -1532,14 +1538,16 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845022087-np0ngp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-275x275x20-sm-id1000-smtu1f",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-apvr-sdrt-home-organizer-mydvt-275x275x20-sm-id1000-siejzg",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:03.972Z"
+      "updated_at": "2026-10-01T08:57:38.136Z"
     },
     {
       "id": "3c93df55-369c-47dd-96fd-a45ead529fcb",
@@ -19195,7 +19203,7 @@
     },
     {
       "id": "0744e19a-36b3-47d6-89cb-fbb5ce542d43",
-      "slug": "prkvltvr-1000-ml-rp5cqq",
+      "slug": "prkvltvr-1000-ml-v83aeu",
       "name": "פרקולטור 1000 מ\"ל\r\n",
       "name_translations": {},
       "description": "<p>קנקני שתייה</p>",
@@ -19206,14 +19214,16 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845051966-erf3al.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/prkvltvr-1000-ml-rp5cqq",
+      "url": "https://streetstock.co.il/product/prkvltvr-1000-ml-v83aeu",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-09-07T11:56:08.672Z"
+      "updated_at": "2026-10-01T08:57:52.711Z"
     },
     {
       "id": "e835f607-63da-4c0e-9e92-8dc3d5ae9a97",
