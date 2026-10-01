@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:37:41.557Z",
+  "generated_at": "2026-10-01T08:38:06.410Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -549,7 +549,7 @@
     },
     {
       "id": "5b98d8fb-c158-4762-8e3d-154150e0438c",
-      "slug": "tsntsnt-achsvn-1000-ml-dgm-tayr-id846-ol3xpq",
+      "slug": "tsntsnt-achsvn-1000-ml-dgm-tayr-id846-kleb19",
       "name": "צנצנת אחסון 1000 מ\"ל\nדגם תאיר ID846",
       "name_translations": {},
       "description": "",
@@ -560,14 +560,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843872081-25lig6.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1000-ml-dgm-tayr-id846-ol3xpq",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1000-ml-dgm-tayr-id846-kleb19",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:10.904Z"
+      "updated_at": "2026-10-01T08:38:01.099Z"
     },
     {
       "id": "ef579c69-2d68-421c-85a0-680c123fb3e3",
