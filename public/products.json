@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:47:19.896Z",
+  "generated_at": "2026-10-01T08:47:49.811Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "1e93e761-145e-4fb6-9762-5031a0f5b70c",
-      "slug": "st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-npyq0h",
+      "slug": "st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-0cifsg",
       "name": "סט 3 סלסלאות במבוק מלבן צבע לבן\nסדרת BASKET HOME\nID970",
       "name_translations": {},
       "description": "",
@@ -1327,11 +1327,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-npyq0h",
+      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-0cifsg",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:47:18.492Z"
+      "updated_at": "2026-10-01T08:47:26.920Z"
     },
     {
       "id": "36658431-8dc2-4e1d-8dd9-ff7351ceebe4",
@@ -1359,7 +1359,7 @@
     },
     {
       "id": "4eeb53c0-c7f8-48f9-a0b6-d47e8415f266",
-      "slug": "st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-grbdyd",
+      "slug": "st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-7skye6",
       "name": "סט 3 סלסלאות במבוק אובלי צבע לבן\nסדרת BASKET HOME\nID969",
       "name_translations": {},
       "description": "",
@@ -1375,11 +1375,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-grbdyd",
+      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-7skye6",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:47:15.840Z"
+      "updated_at": "2026-10-01T08:47:45.086Z"
     },
     {
       "id": "e52c0e31-39bf-4146-b1f5-0c9536fec77c",
