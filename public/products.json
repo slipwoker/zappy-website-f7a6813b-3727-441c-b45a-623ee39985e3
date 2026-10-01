@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:33:16.708Z",
+  "generated_at": "2026-10-01T08:34:21.715Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -769,7 +769,7 @@
     },
     {
       "id": "56ed87de-6592-425c-bbee-88d908a8cdc6",
-      "slug": "tsntsnt-achsvn-240-ml-i-dgm-shkd-id1177-r1p8yq",
+      "slug": "tsntsnt-achsvn-240-ml-i-dgm-shkd-id1177-mvmcfk",
       "name": "צנצנת אחסון 240 מ\"ל I דגם \"שקד\"\nID1177",
       "name_translations": {},
       "description": "",
@@ -780,18 +780,20 @@
       "base_price": 8.9,
       "sale_price": 7.12,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843637616-sq2bs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-240-ml-i-dgm-shkd-id1177-r1p8yq",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-240-ml-i-dgm-shkd-id1177-mvmcfk",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:09.566Z"
+      "updated_at": "2026-10-01T08:34:11.359Z"
     },
     {
       "id": "94436a4a-6c6b-4f33-9cd0-5f4f0de2d317",
-      "slug": "marz-2-kvsvt-zkvkyt-375-ml-id824-8qv7yd",
+      "slug": "marz-2-kvsvt-zkvkyt-375-ml-id824-9u7ivn",
       "name": "מארז 2 כוסות זכוכית\n375 מ\"ל ID824",
       "name_translations": {},
       "description": "",
@@ -802,18 +804,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843622461-dq0mip.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-id824-8qv7yd",
+      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-375-ml-id824-9u7ivn",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-10-01T08:28:09.508Z"
+      "updated_at": "2026-10-01T08:33:58.772Z"
     },
     {
       "id": "b0103853-feda-418a-ba94-44e27f9df167",
-      "slug": "marz-2-kvsvt-zkvkyt-500-ml-id822-m6enaa",
+      "slug": "marz-2-kvsvt-zkvkyt-500-ml-id822-8ryht6",
       "name": "מארז 2 כוסות זכוכית\n500 מ\"ל ID822",
       "name_translations": {},
       "description": "",
@@ -824,18 +828,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843611305-g0swh8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-500-ml-id822-m6enaa",
+      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-500-ml-id822-8ryht6",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-10-01T08:28:08.550Z"
+      "updated_at": "2026-10-01T08:33:43.743Z"
     },
     {
       "id": "c10eef62-bc4c-4193-ab1e-6f06b2356972",
-      "slug": "marz-2-kvsvt-zkvkyt-325-ml-id1176-5gp8iu",
+      "slug": "marz-2-kvsvt-zkvkyt-325-ml-id1176-tp3tm1",
       "name": "מארז 2 כוסות זכוכית\n325 מ\"ל ID1176",
       "name_translations": {},
       "description": "",
@@ -846,14 +852,16 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843599405-v6bwm4.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-325-ml-id1176-5gp8iu",
+      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-325-ml-id1176-tp3tm1",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-10-01T08:28:08.548Z"
+      "updated_at": "2026-10-01T08:33:32.952Z"
     },
     {
       "id": "1c08a970-9915-47df-bc09-0dfbaf5fa0c0",
@@ -905,7 +913,7 @@
     },
     {
       "id": "a8bf6aa4-221e-4a02-98e1-3bbee5f4381b",
-      "slug": "marz-2-kvsvt-zkvkyt-500-ml-id1175-ulq567",
+      "slug": "marz-2-kvsvt-zkvkyt-500-ml-id1175-xxkkab",
       "name": "מארז 2 כוסות זכוכית\n500 מ\"ל ID1175",
       "name_translations": {},
       "description": "",
@@ -916,14 +924,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843586246-x0uwdq.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-500-ml-id1175-ulq567",
+      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-500-ml-id1175-xxkkab",
       "categories": [
         "כוסות + קנקני שתייה"
       ],
-      "updated_at": "2026-10-01T08:28:08.489Z"
+      "updated_at": "2026-10-01T08:33:20.247Z"
     },
     {
       "id": "29f66f7e-d80a-4c98-af66-04509985bfe5",
