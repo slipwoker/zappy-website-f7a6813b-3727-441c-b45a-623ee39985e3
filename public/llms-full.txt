@@ -11992,9 +11992,8 @@ SKU: 7290121560948
 
 ---
 
-### מארז 2 כוסות זכוכית 500 מ"ל
- 
-URL: https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-500-ml-p3lhqo
+### מארז 2 כוסות זכוכית 500 מ"ל ID821
+URL: https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-500-ml-id821-sen0k5
 Price: 19.92 ILS (sale, was 24.90 ILS)
 Availability: In stock
 SKU: 7290121564946
