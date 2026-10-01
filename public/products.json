@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:43:06.955Z",
+  "generated_at": "2026-10-01T08:43:36.568Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -261,7 +261,7 @@
     },
     {
       "id": "f22ae9d7-2863-4798-b7b6-f26e82eabdc0",
-      "slug": "st-7-kshyvt-zkvkyt-id949-s69ic5",
+      "slug": "st-7-kshyvt-zkvkyt-id949-wcofy2",
       "name": "סט 7 קשיות זכוכית ID949",
       "name_translations": {},
       "description": "",
@@ -272,14 +272,16 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844178787-sjtivt.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-7-kshyvt-zkvkyt-id949-s69ic5",
+      "url": "https://streetstock.co.il/product/st-7-kshyvt-zkvkyt-id949-wcofy2",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:12.542Z"
+      "updated_at": "2026-10-01T08:43:21.334Z"
     },
     {
       "id": "7f931287-9009-45d9-bec9-98542749785b",
@@ -308,7 +310,7 @@
     },
     {
       "id": "c68e233f-c04f-42fe-be90-7c2e2699b9a5",
-      "slug": "bmbvk-trmvs-500-ml-dgm-keepo-id951-bwntao",
+      "slug": "bmbvk-trmvs-500-ml-dgm-keepo-id951-1v3val",
       "name": "במבוק טרמוס 500 מ\"ל דגם KEEPO\nID951",
       "name_translations": {},
       "description": "",
@@ -319,15 +321,18 @@
       "base_price": 39.9,
       "sale_price": 31.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844165818-lrqdud.webp",
+        "https://streetstock.co.il/assets/product-1790844177444-asiits.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-bwntao",
+      "url": "https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-1v3val",
       "categories": [
         "כלי בית",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:43:05.754Z"
+      "updated_at": "2026-10-01T08:43:17.203Z"
     },
     {
       "id": "24388359-eead-4fcb-9055-2ceae197c5e8",

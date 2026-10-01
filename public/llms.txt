@@ -148,10 +148,11 @@ https://streetstock.co.il/product/mrss-shmn-zkvkyt-id948-egg3qv
 - Category: כלי בית
 
 ### סט 7 קשיות זכוכית ID949
-https://streetstock.co.il/product/st-7-kshyvt-zkvkyt-id949-s69ic5
+https://streetstock.co.il/product/st-7-kshyvt-zkvkyt-id949-wcofy2
 - Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844178787-sjtivt.webp
 
 ### במבוק טרמוס 1000 מ"ל דגם KEEPO ID950
 https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns
@@ -162,10 +163,11 @@ https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns
 
 ### במבוק טרמוס 500 מ"ל דגם KEEPO
 ID951
-https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-bwntao
+https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-1v3val
 - Price: 31.92 ILS (sale, was 39.90 ILS)
 - Availability: In stock
 - Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844165818-lrqdud.webp
 
 ### בקבוק שתייה קרה בדיספליי
 500 מ"ל ID979
