@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:53:06.270Z",
+  "generated_at": "2026-10-01T08:55:01.279Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1741,7 +1741,7 @@
     },
     {
       "id": "3821505a-e56b-454a-b556-77882cecc527",
-      "slug": "kysvy-chlyph-tsba-krm-sdrt-home-organizer-mydvt-137x60-sm-id988-42nyvn",
+      "slug": "kysvy-chlyph-tsba-krm-sdrt-home-organizer-mydvt-137x60-sm-id988-2rl8uu",
       "name": "כיסוי חליפה צבע קרם סדרת HOME ORGANIZER\nמידות : 137X60 ס\"מ ID988",
       "name_translations": {},
       "description": "",
@@ -1752,18 +1752,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844874479-q63j8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kysvy-chlyph-tsba-krm-sdrt-home-organizer-mydvt-137x60-sm-id988-42nyvn",
+      "url": "https://streetstock.co.il/product/kysvy-chlyph-tsba-krm-sdrt-home-organizer-mydvt-137x60-sm-id988-2rl8uu",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.552Z"
+      "updated_at": "2026-10-01T08:54:47.831Z"
     },
     {
       "id": "c32a0d4f-9b59-407f-9ea2-0afafe3be340",
-      "slug": "argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-60x45x30-sm-id987-qs2go0",
+      "slug": "argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-60x45x30-sm-id987-9qo6k5",
       "name": "ארגונית בד לאחסון צבע קרם סדרת HOME ORGANIZER\nמידות : 60X45X30 ס\"מ ID987",
       "name_translations": {},
       "description": "",
@@ -1774,18 +1776,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844860977-h4onmr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-60x45x30-sm-id987-qs2go0",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-60x45x30-sm-id987-9qo6k5",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.547Z"
+      "updated_at": "2026-10-01T08:54:36.255Z"
     },
     {
       "id": "be1275fa-75df-4b66-9571-4856e9132426",
-      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-15x15x15-sm-id986-ur6j8s",
+      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-15x15x15-sm-id986-vtf6vc",
       "name": "ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER\nמידות : 15X15X15 ס\"מ ID986",
       "name_translations": {},
       "description": "",
@@ -1796,14 +1800,16 @@
       "base_price": 14.9,
       "sale_price": 11.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844848387-veomrk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-15x15x15-sm-id986-ur6j8s",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-15x15x15-sm-id986-vtf6vc",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.542Z"
+      "updated_at": "2026-10-01T08:54:23.059Z"
     },
     {
       "id": "a03095b2-c7b2-4383-a9b3-875c9e974eba",
@@ -1829,7 +1835,7 @@
     },
     {
       "id": "b90d2611-286e-4f25-970f-99a81a1e9c0f",
-      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-scm2er",
+      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko",
       "name": "ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס\"מ ID984",
       "name_translations": {},
       "description": "",
@@ -1840,14 +1846,16 @@
       "base_price": 14.9,
       "sale_price": 11.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844824645-g3amyb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-scm2er",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.503Z"
+      "updated_at": "2026-10-01T08:53:59.281Z"
     },
     {
       "id": "cb113e2d-07e8-4bee-9ff4-870e76fd1434",
@@ -1873,7 +1881,7 @@
     },
     {
       "id": "c11da939-74a5-4dab-b5a4-30ceac6033c9",
-      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-32x10x10-sm-id985-iq34l0",
+      "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-32x10x10-sm-id985-p29wtk",
       "name": "ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER\nמידות : 32X10X10 ס\"מ ID985",
       "name_translations": {},
       "description": "",
@@ -1884,14 +1892,16 @@
       "base_price": 14.9,
       "sale_price": 11.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844832271-v8nb1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-32x10x10-sm-id985-iq34l0",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-32x10x10-sm-id985-p29wtk",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:02.494Z"
+      "updated_at": "2026-10-01T08:54:09.668Z"
     },
     {
       "id": "87dc52ee-1c9f-46fb-966d-9d5d119769c7",
