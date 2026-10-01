@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:51:25.487Z",
+  "generated_at": "2026-10-01T08:52:00.537Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1893,7 +1893,7 @@
     },
     {
       "id": "87dc52ee-1c9f-46fb-966d-9d5d119769c7",
-      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-tub0i1",
+      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-zs75tj",
       "name": "סט סכום 24 חלקים COLLECTION ROYAL\nצבע עץ+שחור ID1161",
       "name_translations": {},
       "description": "",
@@ -1904,15 +1904,17 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844703909-ult8vd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-tub0i1",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-zs75tj",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:02.492Z"
+      "updated_at": "2026-10-01T08:51:58.257Z"
     },
     {
       "id": "ffe0346a-0675-47fb-a2d5-01aa6c2d6cd7",
@@ -1941,7 +1943,7 @@
     },
     {
       "id": "8829d1e9-2eaf-4179-9bd8-e4342ec2cc54",
-      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atszhb-id1159-1v1jx3",
+      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atszhb-id1159-la5mom",
       "name": "סט סכום 24 חלקים COLLECTION ROYAL\nצבע עץ+זהב ID1159",
       "name_translations": {},
       "description": "",
@@ -1952,15 +1954,17 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844683094-mg7un.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atszhb-id1159-1v1jx3",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atszhb-id1159-la5mom",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:01.776Z"
+      "updated_at": "2026-10-01T08:51:35.066Z"
     },
     {
       "id": "28254cc2-0d5b-4fb7-bc81-552c66cb532f",
@@ -2014,7 +2018,7 @@
     },
     {
       "id": "606c4315-750a-4e0d-92b8-4c60baf5f2e7",
-      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atsksp-id1160-d7tata",
+      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atsksp-id1160-7kpzpx",
       "name": "סט סכום 24 חלקים COLLECTION ROYAL\nצבע עץ+כסף ID1160",
       "name_translations": {},
       "description": "",
@@ -2025,15 +2029,17 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844693011-xlojcl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsksp-id1160-d7tata",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsksp-id1160-7kpzpx",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:28:01.747Z"
+      "updated_at": "2026-10-01T08:51:45.796Z"
     },
     {
       "id": "076750b6-1bbe-4fc3-85a2-92a6b06639cf",
