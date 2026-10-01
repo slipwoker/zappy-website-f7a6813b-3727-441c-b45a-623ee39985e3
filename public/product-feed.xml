@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Thu, 01 Oct 2026 08:37:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:37:41 GMT</lastBuildDate>
     <item>
       <g:id>25b62db3-9980-453b-b7cb-1df0cf9bd5ce</g:id>
       <g:title>מסננת כיור נירוסטה
@@ -366,7 +366,8 @@ ID951</g:title>
       <g:id>42e826ce-d99a-4574-b79b-721824bf855f</g:id>
       <g:title>מלחייה זכוכית דגם ספיר ID954</g:title>
       <g:description>מלחייה זכוכית דגם ספיר ID954</g:description>
-      <g:link>https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-spyr-id954-78il6w</g:link>
+      <g:link>https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-spyr-id954-w6sh1r</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1790843813170-untx1.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>6.90 ILS</g:price>
       <g:sale_price>5.52 ILS</g:sale_price>
@@ -376,10 +377,41 @@ ID951</g:title>
       <g:product_type>צנצנות זכוכית</g:product_type>
     </item>
     <item>
-      <g:id>490c2ac3-b432-4854-8646-c7b9adc8c079</g:id>
-      <g:title>מלחייה זכוכית דגם גל ID953</g:title>
+      <g:id>01947d66-4087-4644-961c-1ba7cddb8bd9</g:id>
+      <g:title>מלחייה זכוכית דגם גל ID953 - White</g:title>
       <g:description>מלחייה זכוכית דגם גל ID953</g:description>
-      <g:link>https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-2eoxcn</g:link>
+      <g:link>https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-4ad4h0</g:link>
+      <g:item_group_id>490c2ac3-b432-4854-8646-c7b9adc8c079</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1790843801330-2syf6r.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>6.90 ILS</g:price>
+      <g:sale_price>5.52 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>צנצנות זכוכית</g:product_type>
+    </item>
+    <item>
+      <g:id>751de4a3-6616-408b-a0da-00a819b28f90</g:id>
+      <g:title>מלחייה זכוכית דגם גל ID953 - Black</g:title>
+      <g:description>מלחייה זכוכית דגם גל ID953</g:description>
+      <g:link>https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-4ad4h0</g:link>
+      <g:item_group_id>490c2ac3-b432-4854-8646-c7b9adc8c079</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1790843801330-2syf6r.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>6.90 ILS</g:price>
+      <g:sale_price>5.52 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>צנצנות זכוכית</g:product_type>
+    </item>
+    <item>
+      <g:id>05a56eb6-b45b-49f0-90e2-70caf74cedd0</g:id>
+      <g:title>מלחייה זכוכית דגם גל ID953 - Silver</g:title>
+      <g:description>מלחייה זכוכית דגם גל ID953</g:description>
+      <g:link>https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-4ad4h0</g:link>
+      <g:item_group_id>490c2ac3-b432-4854-8646-c7b9adc8c079</g:item_group_id>
       <g:image_link>https://streetstock.co.il/assets/product-1790843801330-2syf6r.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>6.90 ILS</g:price>

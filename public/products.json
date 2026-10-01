@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:37:01.326Z",
+  "generated_at": "2026-10-01T08:37:41.557Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -593,7 +593,7 @@
     },
     {
       "id": "42e826ce-d99a-4574-b79b-721824bf855f",
-      "slug": "mlchyyh-zkvkyt-dgm-spyr-id954-78il6w",
+      "slug": "mlchyyh-zkvkyt-dgm-spyr-id954-w6sh1r",
       "name": "מלחייה זכוכית דגם ספיר ID954",
       "name_translations": {},
       "description": "",
@@ -604,18 +604,20 @@
       "base_price": 6.9,
       "sale_price": 5.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843813170-untx1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-spyr-id954-78il6w",
+      "url": "https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-spyr-id954-w6sh1r",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:09.805Z"
+      "updated_at": "2026-10-01T08:37:30.473Z"
     },
     {
       "id": "490c2ac3-b432-4854-8646-c7b9adc8c079",
-      "slug": "mlchyyh-zkvkyt-dgm-gl-id953-2eoxcn",
+      "slug": "mlchyyh-zkvkyt-dgm-gl-id953-4ad4h0",
       "name": "מלחייה זכוכית דגם גל ID953",
       "name_translations": {},
       "description": "",
@@ -631,11 +633,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-2eoxcn",
+      "url": "https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-4ad4h0",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:36:54.912Z"
+      "updated_at": "2026-10-01T08:37:30.706Z"
     },
     {
       "id": "62bf2d9b-e16d-4ce3-89fb-a87ad255ed06",
