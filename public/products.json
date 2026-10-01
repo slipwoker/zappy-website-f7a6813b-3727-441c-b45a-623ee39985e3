@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:30:55.999Z",
+  "generated_at": "2026-10-01T08:32:27.285Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -103,7 +103,7 @@
     },
     {
       "id": "395edabd-eb89-4943-b493-354032361299",
-      "slug": "svcht-hdrym-mktsvay-id980-lr5m4b",
+      "slug": "svcht-hdrym-mktsvay-id980-fdt1c3",
       "name": "סוחט הדרים מקצועי ID980",
       "name_translations": {},
       "description": "",
@@ -114,18 +114,20 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843406596-lbplsh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svcht-hdrym-mktsvay-id980-lr5m4b",
+      "url": "https://streetstock.co.il/product/svcht-hdrym-mktsvay-id980-fdt1c3",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:13.843Z"
+      "updated_at": "2026-10-01T08:31:51.148Z"
     },
     {
       "id": "9b06689c-0ea0-47dc-affd-830e2253f025",
-      "slug": "mdp-mtkt-dvkvmty-id1061-86c531",
+      "slug": "mdp-mtkt-dvkvmty-id1061-9z06l4",
       "name": "מדף מתכת דו־קומתי ID1061",
       "name_translations": {},
       "description": "",
@@ -136,14 +138,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843488883-eupzo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-86c531",
+      "url": "https://streetstock.co.il/product/mdp-mtkt-dvkvmty-id1061-9z06l4",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:13.802Z"
+      "updated_at": "2026-10-01T08:32:12.716Z"
     },
     {
       "id": "c6ea44c5-6faf-4c88-9f1c-170f5ac30b16",
