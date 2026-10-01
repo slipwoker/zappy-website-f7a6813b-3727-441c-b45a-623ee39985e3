@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:52:20.530Z",
+  "generated_at": "2026-10-01T08:52:40.491Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1291,7 +1291,7 @@
     },
     {
       "id": "5301be90-540b-4479-a0bb-a39957875219",
-      "slug": "aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-g81pg0",
+      "slug": "aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-wgpr6g",
       "name": "עגלת שרות מתקפלת מוקה 3 קומות\nדגם ID1162 CHICAGO",
       "name_translations": {},
       "description": "",
@@ -1302,14 +1302,16 @@
       "base_price": 149.9,
       "sale_price": 119.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844719411-2i6o4.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-g81pg0",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-wgpr6g",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-10-01T08:28:05.681Z"
+      "updated_at": "2026-10-01T08:52:20.365Z"
     },
     {
       "id": "1e93e761-145e-4fb6-9762-5031a0f5b70c",
@@ -1893,7 +1895,7 @@
     },
     {
       "id": "87dc52ee-1c9f-46fb-966d-9d5d119769c7",
-      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-d809bw",
+      "slug": "st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-gl3ygk",
       "name": "סט סכום 24 חלקים COLLECTION ROYAL\nצבע עץ+שחור ID1161",
       "name_translations": {},
       "description": "",
@@ -1909,12 +1911,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-d809bw",
+      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsshchvr-id1161-gl3ygk",
       "categories": [
         "כלי בית",
         "סט סכום"
       ],
-      "updated_at": "2026-10-01T08:52:07.296Z"
+      "updated_at": "2026-10-01T08:52:27.561Z"
     },
     {
       "id": "ffe0346a-0675-47fb-a2d5-01aa6c2d6cd7",
