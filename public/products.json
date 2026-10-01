@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T09:01:29.157Z",
+  "generated_at": "2026-10-01T09:02:59.835Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 850,
+  "count": 849,
   "products": [
     {
       "id": "25b62db3-9980-453b-b7cb-1df0cf9bd5ce",
@@ -977,7 +977,7 @@
     },
     {
       "id": "272ac070-3e04-4a13-bfef-238c494186b3",
-      "slug": "st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-27kxyg",
+      "slug": "st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-p6utpt",
       "name": "סט 2 ווים עגולים להדבקה סדרת VELSTICK\nID974",
       "name_translations": {},
       "description": "",
@@ -988,19 +988,21 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845293192-uqbtcb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-27kxyg",
+      "url": "https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-p6utpt",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.295Z"
+      "updated_at": "2026-10-01T09:01:46.914Z"
     },
     {
       "id": "be01ea9e-d823-47e2-bf8a-816c835955b0",
-      "slug": "st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-6g7jpr",
+      "slug": "st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-q0lv8d",
       "name": "סט 2 ווים מרובעים להדבקה סדרת VELSTICK\nID976",
       "name_translations": {},
       "description": "",
@@ -1011,15 +1013,17 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845333137-ryz3ft.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-6g7jpr",
+      "url": "https://streetstock.co.il/product/st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-q0lv8d",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:08.293Z"
+      "updated_at": "2026-10-01T09:02:25.056Z"
     },
     {
       "id": "6c327aa7-2290-4196-8c66-308384c2d5e6",
@@ -1048,7 +1052,7 @@
     },
     {
       "id": "34444a63-0e1f-4e84-aa5e-ad5fe21ed4ad",
-      "slug": "st-2-vvym-mrvbaym-sdrt-velstick-id973-ki8vld",
+      "slug": "st-2-vvym-mrvbaym-sdrt-velstick-id973-46nuvj",
       "name": "סט 2 ווים מרובעים סדרת VELSTICK\nID973",
       "name_translations": {},
       "description": "",
@@ -1059,15 +1063,17 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845277743-b5wxyo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-2-vvym-mrvbaym-sdrt-velstick-id973-ki8vld",
+      "url": "https://streetstock.co.il/product/st-2-vvym-mrvbaym-sdrt-velstick-id973-46nuvj",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:06.957Z"
+      "updated_at": "2026-10-01T09:01:33.514Z"
     },
     {
       "id": "200c1836-438e-451c-b56f-905563e86158",
@@ -1096,7 +1102,7 @@
     },
     {
       "id": "cbfcbac4-4202-4f64-b63e-8b35f1a8dd6f",
-      "slug": "st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gi1nrr",
+      "slug": "st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gl9gzh",
       "name": "סט 4 ווים עגולים להדבקה סדרת VELSTICK\nID975",
       "name_translations": {},
       "description": "",
@@ -1107,15 +1113,17 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845304304-gbx08.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gi1nrr",
+      "url": "https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gl9gzh",
       "categories": [
         "מוצרי אמבט",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:06.956Z"
+      "updated_at": "2026-10-01T09:02:13.616Z"
     },
     {
       "id": "0e55a8e1-21b9-475d-8a33-ac27a57a9a59",
@@ -17180,28 +17188,6 @@
         "כללי"
       ],
       "updated_at": "2026-09-07T11:55:48.897Z"
-    },
-    {
-      "id": "72221133-0d09-40fd-8830-fa82a46ed0fe",
-      "slug": "gygyt-mtkplt-gdvlh-38-l-852r2c",
-      "name": "גיגית מתקפלת גדולה 38 ל'",
-      "name_translations": {},
-      "description": "<p>כללי</p>",
-      "short_description": null,
-      "sku": "8697404117278",
-      "brand": null,
-      "price": 63.92,
-      "base_price": 79.9,
-      "sale_price": 63.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/gygyt-mtkplt-gdvlh-38-l-852r2c",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:48.896Z"
     },
     {
       "id": "ce3832d6-dce1-403d-8e8f-025fed14aee0",

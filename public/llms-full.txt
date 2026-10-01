@@ -6491,7 +6491,7 @@ Availability: In stock
 
 ### סט 2 ווים עגולים להדבקה סדרת VELSTICK
 ID974
-URL: https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-27kxyg
+URL: https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-p6utpt
 Price: 7.92 ILS (sale, was 9.90 ILS)
 Availability: In stock
 
@@ -6499,7 +6499,7 @@ Availability: In stock
 
 ### סט 2 ווים מרובעים להדבקה סדרת VELSTICK
 ID976
-URL: https://streetstock.co.il/product/st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-6g7jpr
+URL: https://streetstock.co.il/product/st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-q0lv8d
 Price: 7.92 ILS (sale, was 9.90 ILS)
 Availability: In stock
 
@@ -6515,7 +6515,7 @@ Availability: In stock
 
 ### סט 2 ווים מרובעים סדרת VELSTICK
 ID973
-URL: https://streetstock.co.il/product/st-2-vvym-mrvbaym-sdrt-velstick-id973-ki8vld
+URL: https://streetstock.co.il/product/st-2-vvym-mrvbaym-sdrt-velstick-id973-46nuvj
 Price: 7.92 ILS (sale, was 9.90 ILS)
 Availability: In stock
 
@@ -6531,7 +6531,7 @@ Availability: In stock
 
 ### סט 4 ווים עגולים להדבקה סדרת VELSTICK
 ID975
-URL: https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gi1nrr
+URL: https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gl9gzh
 Price: 7.92 ILS (sale, was 9.90 ILS)
 Availability: In stock
 
@@ -11708,16 +11708,6 @@ URL: https://streetstock.co.il/product/mksh-mykrvgl-kvtr-26-sm-z6llz0
 Price: 7.92 ILS (sale, was 9.90 ILS)
 Availability: In stock
 SKU: 7290121563833
-
-כללי
-
----
-
-### גיגית מתקפלת גדולה 38 ל'
-URL: https://streetstock.co.il/product/gygyt-mtkplt-gdvlh-38-l-852r2c
-Price: 63.92 ILS (sale, was 79.90 ILS)
-Availability: In stock
-SKU: 8697404117278
 
 כללי
 

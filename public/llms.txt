@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 850** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 849** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מסננת כיור נירוסטה
 ID562
@@ -378,17 +378,19 @@ https://streetstock.co.il/product/mtlh-hdbkh-4-vvym-bmbvk-sdrt-velstick-id978-57
 
 ### סט 2 ווים עגולים להדבקה סדרת VELSTICK
 ID974
-https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-27kxyg
+https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id974-p6utpt
 - Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מוצרי אמבט
+- Image: https://streetstock.co.il/assets/product-1790845293192-uqbtcb.webp
 
 ### סט 2 ווים מרובעים להדבקה סדרת VELSTICK
 ID976
-https://streetstock.co.il/product/st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-6g7jpr
+https://streetstock.co.il/product/st-2-vvym-mrvbaym-lhdbkh-sdrt-velstick-id976-q0lv8d
 - Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מוצרי אמבט
+- Image: https://streetstock.co.il/assets/product-1790845333137-ryz3ft.webp
 
 ### סט 4 ווים עגולים להדבקה סדרת VELSTICK
 ID972
@@ -400,10 +402,11 @@ https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id972-tl
 
 ### סט 2 ווים מרובעים סדרת VELSTICK
 ID973
-https://streetstock.co.il/product/st-2-vvym-mrvbaym-sdrt-velstick-id973-ki8vld
+https://streetstock.co.il/product/st-2-vvym-mrvbaym-sdrt-velstick-id973-46nuvj
 - Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מוצרי אמבט
+- Image: https://streetstock.co.il/assets/product-1790845277743-b5wxyo.webp
 
 ### סט 2 ווים עגולים להדבקה סדרת VELSTICK
 ID971
@@ -415,10 +418,11 @@ https://streetstock.co.il/product/st-2-vvym-agvlym-lhdbkh-sdrt-velstick-id971-m3
 
 ### סט 4 ווים עגולים להדבקה סדרת VELSTICK
 ID975
-https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gi1nrr
+https://streetstock.co.il/product/st-4-vvym-agvlym-lhdbkh-sdrt-velstick-id975-gl9gzh
 - Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מוצרי אמבט
+- Image: https://streetstock.co.il/assets/product-1790845304304-gbx08.webp
 
 ### צינור מקלחת 1.5 מטר סדרת WATER FLEX
 ID968
