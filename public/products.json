@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:46:24.656Z",
+  "generated_at": "2026-10-01T08:47:19.896Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -127,7 +127,7 @@
     },
     {
       "id": "b80fe837-490d-4a52-94d6-99e09cfd453f",
-      "slug": "mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-0sspbg",
+      "slug": "mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-xyzog7",
       "name": "משטח ייבוש כלים דגם SMART DRY\nמידות : 38X50 ס\"מ ID957",
       "name_translations": {},
       "description": "",
@@ -144,11 +144,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-0sspbg",
+      "url": "https://streetstock.co.il/product/mshtch-yybvsh-klym-dgm-smart-dry-mydvt-38x50-sm-id957-xyzog7",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:44:23.443Z"
+      "updated_at": "2026-10-01T08:46:25.017Z"
     },
     {
       "id": "efdb8f6b-029d-4794-b8ce-17808929883c",
@@ -1311,7 +1311,7 @@
     },
     {
       "id": "1e93e761-145e-4fb6-9762-5031a0f5b70c",
-      "slug": "st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-7wp51z",
+      "slug": "st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-npyq0h",
       "name": "סט 3 סלסלאות במבוק מלבן צבע לבן\nסדרת BASKET HOME\nID970",
       "name_translations": {},
       "description": "",
@@ -1322,18 +1322,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844427089-rz26wr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-7wp51z",
+      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-mlbn-tsba-lbn-sdrt-basket-home-id970-npyq0h",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:05.398Z"
+      "updated_at": "2026-10-01T08:47:18.492Z"
     },
     {
       "id": "36658431-8dc2-4e1d-8dd9-ff7351ceebe4",
-      "slug": "st-3-slslavt-bmbvk-mlbn-tsba-ats-sdrt-basket-home-id946-l7bn1a",
+      "slug": "st-3-slslavt-bmbvk-mlbn-tsba-ats-sdrt-basket-home-id946-wcqh5c",
       "name": "סט 3 סלסלאות במבוק מלבן צבע עץ\nסדרת BASKET HOME\nID946",
       "name_translations": {},
       "description": "",
@@ -1344,18 +1346,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844383836-310nee.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-mlbn-tsba-ats-sdrt-basket-home-id946-l7bn1a",
+      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-mlbn-tsba-ats-sdrt-basket-home-id946-wcqh5c",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:05.397Z"
+      "updated_at": "2026-10-01T08:46:41.842Z"
     },
     {
       "id": "4eeb53c0-c7f8-48f9-a0b6-d47e8415f266",
-      "slug": "st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-60acig",
+      "slug": "st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-grbdyd",
       "name": "סט 3 סלסלאות במבוק אובלי צבע לבן\nסדרת BASKET HOME\nID969",
       "name_translations": {},
       "description": "",
@@ -1366,18 +1370,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844412213-zsw5j.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-60acig",
+      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-avbly-tsba-lbn-sdrt-basket-home-id969-grbdyd",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:05.395Z"
+      "updated_at": "2026-10-01T08:47:15.840Z"
     },
     {
       "id": "e52c0e31-39bf-4146-b1f5-0c9536fec77c",
-      "slug": "st-3-slslavt-bmbvk-avbly-tsba-ats-sdrt-basket-home-id945-xibm3x",
+      "slug": "st-3-slslavt-bmbvk-avbly-tsba-ats-sdrt-basket-home-id945-3h285l",
       "name": "סט 3 סלסלאות במבוק אובלי צבע עץ\nסדרת BASKET HOME ID945",
       "name_translations": {},
       "description": "",
@@ -1388,14 +1394,16 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844396765-862np3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-avbly-tsba-ats-sdrt-basket-home-id945-xibm3x",
+      "url": "https://streetstock.co.il/product/st-3-slslavt-bmbvk-avbly-tsba-ats-sdrt-basket-home-id945-3h285l",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:05.331Z"
+      "updated_at": "2026-10-01T08:46:53.087Z"
     },
     {
       "id": "d3361057-1d2f-4984-9769-82ff84366de6",
