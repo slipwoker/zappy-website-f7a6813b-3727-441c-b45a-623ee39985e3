@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:59:04.216Z",
+  "generated_at": "2026-10-01T09:00:09.133Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1203,7 +1203,7 @@
     },
     {
       "id": "e70a9e53-7161-42e7-b375-a5189ace9ee2",
-      "slug": "aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-v3cmhy",
+      "slug": "aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1",
       "name": "עגלת שרות מתקפלת לבן 3 קומות דגם CHICAGO\nID371",
       "name_translations": {},
       "description": "",
@@ -1214,18 +1214,20 @@
       "base_price": 149.9,
       "sale_price": 119.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845171991-kv2jtk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-v3cmhy",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-10-01T08:28:06.803Z"
+      "updated_at": "2026-10-01T08:59:48.383Z"
     },
     {
       "id": "70d803fe-d104-4516-bc80-f764325f3451",
-      "slug": "rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id964-74bck6",
+      "slug": "rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id964-n495v6",
       "name": "ראש מקלחת ידני 3 מצבים סדרת WATER FLEX\nID964",
       "name_translations": {},
       "description": "",
@@ -1236,18 +1238,20 @@
       "base_price": 34.9,
       "sale_price": 27.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845188282-fzt91a.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id964-74bck6",
+      "url": "https://streetstock.co.il/product/rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id964-n495v6",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:06.803Z"
+      "updated_at": "2026-10-01T09:00:02.662Z"
     },
     {
       "id": "ee84d525-b880-4bbf-aa61-48ad73c427c2",
-      "slug": "aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-dm0lpw",
+      "slug": "aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-5w91io",
       "name": "עגלת שרות מתקפלת שחור 3 קומות דגם CHICAGO\nID370",
       "name_translations": {},
       "description": "",
@@ -1258,18 +1262,20 @@
       "base_price": 149.9,
       "sale_price": 119.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845160507-hffbsw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-dm0lpw",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-5w91io",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-10-01T08:28:05.819Z"
+      "updated_at": "2026-10-01T08:59:35.026Z"
     },
     {
       "id": "62df6703-6e62-40ce-aaed-5ea50891ce7f",
-      "slug": "aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-6l7si3",
+      "slug": "aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z",
       "name": "עגלת שרות 4 קמות שחור דגם CALIRFONIA\nID366",
       "name_translations": {},
       "description": "",
@@ -1280,14 +1286,16 @@
       "base_price": 199.9,
       "sale_price": 159.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790845140319-luwupn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-6l7si3",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-10-01T08:28:05.682Z"
+      "updated_at": "2026-10-01T08:59:19.416Z"
     },
     {
       "id": "5301be90-540b-4479-a0bb-a39957875219",
