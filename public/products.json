@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:36:26.166Z",
+  "generated_at": "2026-10-01T08:37:01.326Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -615,7 +615,7 @@
     },
     {
       "id": "490c2ac3-b432-4854-8646-c7b9adc8c079",
-      "slug": "mlchyyh-zkvkyt-dgm-gl-id953-omjmv7",
+      "slug": "mlchyyh-zkvkyt-dgm-gl-id953-2eoxcn",
       "name": "מלחייה זכוכית דגם גל ID953",
       "name_translations": {},
       "description": "",
@@ -626,18 +626,20 @@
       "base_price": 6.9,
       "sale_price": 5.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843801330-2syf6r.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-omjmv7",
+      "url": "https://streetstock.co.il/product/mlchyyh-zkvkyt-dgm-gl-id953-2eoxcn",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:09.802Z"
+      "updated_at": "2026-10-01T08:36:54.912Z"
     },
     {
       "id": "62bf2d9b-e16d-4ce3-89fb-a87ad255ed06",
-      "slug": "tsntsnt-achsvn-1300-ml-i-dgm-shkd-id1183-f7hxgk",
+      "slug": "tsntsnt-achsvn-1300-ml-i-dgm-shkd-id1183-t7x622",
       "name": "צנצנת אחסון 1300 מ\"ל I דגם \"שקד\"\nID1183",
       "name_translations": {},
       "description": "",
@@ -648,14 +650,16 @@
       "base_price": 21.9,
       "sale_price": 17.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843784292-rzwxxw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-i-dgm-shkd-id1183-f7hxgk",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-1300-ml-i-dgm-shkd-id1183-t7x622",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:09.801Z"
+      "updated_at": "2026-10-01T08:36:42.191Z"
     },
     {
       "id": "07f7bb78-0782-4873-bc54-e6f5f48b3b08",
@@ -683,7 +687,7 @@
     },
     {
       "id": "6826f24b-6a8c-4150-86eb-b9957942cad5",
-      "slug": "tsntsnt-achsvn-960-ml-i-dgm-shkd-id1182-ln2i81",
+      "slug": "tsntsnt-achsvn-960-ml-i-dgm-shkd-id1182-0ky7l7",
       "name": "צנצנת אחסון 960 מ\"ל I דגם \"שקד\"\nID1182",
       "name_translations": {},
       "description": "",
@@ -694,12 +698,16 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843764110-yh6f96.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-960-ml-i-dgm-shkd-id1182-ln2i81",
-      "categories": [],
-      "updated_at": "2026-10-01T08:28:09.681Z"
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-960-ml-i-dgm-shkd-id1182-0ky7l7",
+      "categories": [
+        "צנצנות זכוכית"
+      ],
+      "updated_at": "2026-10-01T08:36:25.924Z"
     },
     {
       "id": "e494f832-89f7-4df9-999c-10fcd82efb27",
