@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:41:41.491Z",
+  "generated_at": "2026-10-01T08:43:06.955Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -283,7 +283,7 @@
     },
     {
       "id": "7f931287-9009-45d9-bec9-98542749785b",
-      "slug": "bmbvk-trmvs-1000-ml-dgm-keepo-id950-c3vxaq",
+      "slug": "bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns",
       "name": "במבוק טרמוס 1000 מ\"ל דגם KEEPO ID950",
       "name_translations": {},
       "description": "",
@@ -294,14 +294,17 @@
       "base_price": 59.9,
       "sale_price": 47.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844117780-gqv51h.webp",
+        "https://streetstock.co.il/assets/product-1790844136896-m3m4wh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-c3vxaq",
+      "url": "https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:12.474Z"
+      "updated_at": "2026-10-01T08:42:47.098Z"
     },
     {
       "id": "c68e233f-c04f-42fe-be90-7c2e2699b9a5",
@@ -324,11 +327,11 @@
         "כלי בית",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:12.457Z"
+      "updated_at": "2026-10-01T08:43:05.754Z"
     },
     {
       "id": "24388359-eead-4fcb-9055-2ceae197c5e8",
-      "slug": "bkbvk-shtyyh-krh-bdysplyy-500-ml-id979-qmnl5i",
+      "slug": "bkbvk-shtyyh-krh-bdysplyy-500-ml-id979-xw76et",
       "name": "בקבוק שתייה קרה בדיספליי\n500 מ\"ל ID979",
       "name_translations": {},
       "description": "",
@@ -339,15 +342,17 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844101470-k2cx1.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/bkbvk-shtyyh-krh-bdysplyy-500-ml-id979-qmnl5i",
+      "url": "https://streetstock.co.il/product/bkbvk-shtyyh-krh-bdysplyy-500-ml-id979-xw76et",
       "categories": [
         "כלי בית",
         "כללי"
       ],
-      "updated_at": "2026-10-01T08:28:12.457Z"
+      "updated_at": "2026-10-01T08:42:01.887Z"
     },
     {
       "id": "a0aca15a-020e-421a-8918-e3661b675611",

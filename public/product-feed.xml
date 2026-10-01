@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Thu, 01 Oct 2026 08:41:41 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:43:06 GMT</lastBuildDate>
     <item>
       <g:id>25b62db3-9980-453b-b7cb-1df0cf9bd5ce</g:id>
       <g:title>מסננת כיור נירוסטה
@@ -173,10 +173,13 @@ ID1023</g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>7f931287-9009-45d9-bec9-98542749785b</g:id>
-      <g:title>במבוק טרמוס 1000 מ&quot;ל דגם KEEPO ID950</g:title>
+      <g:id>89230c75-36dd-4a4e-9443-fe88735f07ce</g:id>
+      <g:title>במבוק טרמוס 1000 מ&quot;ל דגם KEEPO ID950 - Gray</g:title>
       <g:description>במבוק טרמוס 1000 מ&quot;ל דגם KEEPO ID950</g:description>
-      <g:link>https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-c3vxaq</g:link>
+      <g:link>https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns</g:link>
+      <g:item_group_id>7f931287-9009-45d9-bec9-98542749785b</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1790844117780-gqv51h.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1790844136896-m3m4wh.webp</g:additional_image_link>
       <g:availability>in_stock</g:availability>
       <g:price>59.90 ILS</g:price>
       <g:sale_price>47.92 ILS</g:sale_price>
@@ -186,11 +189,43 @@ ID1023</g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>c68e233f-c04f-42fe-be90-7c2e2699b9a5</g:id>
+      <g:id>2d5b0c4d-7e3a-4045-824f-015b7f2a5c94</g:id>
+      <g:title>במבוק טרמוס 1000 מ&quot;ל דגם KEEPO ID950 - Beige</g:title>
+      <g:description>במבוק טרמוס 1000 מ&quot;ל דגם KEEPO ID950</g:description>
+      <g:link>https://streetstock.co.il/product/bmbvk-trmvs-1000-ml-dgm-keepo-id950-mvkbns</g:link>
+      <g:item_group_id>7f931287-9009-45d9-bec9-98542749785b</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1790844117780-gqv51h.webp</g:image_link>
+      <g:additional_image_link>https://streetstock.co.il/assets/product-1790844136896-m3m4wh.webp</g:additional_image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>59.90 ILS</g:price>
+      <g:sale_price>47.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>ef437a44-4506-4933-ba9a-9e12ba9589a9</g:id>
       <g:title>במבוק טרמוס 500 מ&quot;ל דגם KEEPO
-ID951</g:title>
+ID951 - Gray</g:title>
       <g:description>במבוק טרמוס 500 מ&quot;ל דגם KEEPO ID951</g:description>
       <g:link>https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-bwntao</g:link>
+      <g:item_group_id>c68e233f-c04f-42fe-be90-7c2e2699b9a5</g:item_group_id>
+      <g:availability>in_stock</g:availability>
+      <g:price>39.90 ILS</g:price>
+      <g:sale_price>31.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כלי בית</g:product_type>
+    </item>
+    <item>
+      <g:id>6a5796f6-a666-4726-9486-04022e6ef90d</g:id>
+      <g:title>במבוק טרמוס 500 מ&quot;ל דגם KEEPO
+ID951 - Beige</g:title>
+      <g:description>במבוק טרמוס 500 מ&quot;ל דגם KEEPO ID951</g:description>
+      <g:link>https://streetstock.co.il/product/bmbvk-trmvs-500-ml-dgm-keepo-id951-bwntao</g:link>
+      <g:item_group_id>c68e233f-c04f-42fe-be90-7c2e2699b9a5</g:item_group_id>
       <g:availability>in_stock</g:availability>
       <g:price>39.90 ILS</g:price>
       <g:sale_price>31.92 ILS</g:sale_price>
@@ -204,7 +239,8 @@ ID951</g:title>
       <g:title>בקבוק שתייה קרה בדיספליי
 500 מ&quot;ל ID979</g:title>
       <g:description>בקבוק שתייה קרה בדיספליי 500 מ&quot;ל ID979</g:description>
-      <g:link>https://streetstock.co.il/product/bkbvk-shtyyh-krh-bdysplyy-500-ml-id979-qmnl5i</g:link>
+      <g:link>https://streetstock.co.il/product/bkbvk-shtyyh-krh-bdysplyy-500-ml-id979-xw76et</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1790844101470-k2cx1.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>11.90 ILS</g:price>
       <g:sale_price>9.52 ILS</g:sale_price>
