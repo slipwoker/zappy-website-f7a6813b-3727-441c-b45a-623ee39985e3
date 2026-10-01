@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:40:36.359Z",
+  "generated_at": "2026-10-01T08:41:41.491Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -351,7 +351,7 @@
     },
     {
       "id": "a0aca15a-020e-421a-8918-e3661b675611",
-      "slug": "ptysh-shnytsl-alvmynyvm-id961-e6x9cv",
+      "slug": "ptysh-shnytsl-alvmynyvm-id961-ywvsxk",
       "name": "פטיש שניצל אלומיניום ID961",
       "name_translations": {},
       "description": "",
@@ -362,18 +362,20 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844084372-imnmfr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/ptysh-shnytsl-alvmynyvm-id961-e6x9cv",
+      "url": "https://streetstock.co.il/product/ptysh-shnytsl-alvmynyvm-id961-ywvsxk",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:12.385Z"
+      "updated_at": "2026-10-01T08:41:40.883Z"
     },
     {
       "id": "07c4d0c7-fa16-423e-8f96-ef9dc7a13d56",
-      "slug": "kvpsat-zkvkyt-mlbnyt-370-ml-id714-l1tptg",
+      "slug": "kvpsat-zkvkyt-mlbnyt-370-ml-id714-cx85uu",
       "name": "קופסאת זכוכית מלבנית 370 מ\"ל ID714",
       "name_translations": {},
       "description": "",
@@ -384,18 +386,20 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843995607-1ek1sb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-370-ml-id714-l1tptg",
+      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-370-ml-id714-cx85uu",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:11.167Z"
+      "updated_at": "2026-10-01T08:41:00.649Z"
     },
     {
       "id": "d81fca06-5841-4daf-b9f3-8b52a4e7aa3a",
-      "slug": "kvpsat-zkvkyt-mlbnyt-1520-ml-id717-24zyty",
+      "slug": "kvpsat-zkvkyt-mlbnyt-1520-ml-id717-y2acyr",
       "name": "קופסאת זכוכית מלבנית 1520 מ\"ל ID717",
       "name_translations": {},
       "description": "",
@@ -411,11 +415,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-1520-ml-id717-24zyty",
+      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mlbnyt-1520-ml-id717-y2acyr",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:39:58.760Z"
+      "updated_at": "2026-10-01T08:41:05.358Z"
     },
     {
       "id": "337e0b2d-06db-416a-a104-bb2fa80b067b",
