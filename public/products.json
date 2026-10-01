@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:55:38.774Z",
+  "generated_at": "2026-10-01T08:55:58.878Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 850,
@@ -1677,7 +1677,7 @@
     },
     {
       "id": "985f8c93-7059-46b2-88fd-af9424d88ccd",
-      "slug": "argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-100x45x15-sm-id993-5axvwl",
+      "slug": "argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-100x45x15-sm-id993-1iaedm",
       "name": "ארגונית בד לאחסון צבע קרם סדרת HOME ORGANIZER\nמידות : 100X45X15 ס\"מ ID993",
       "name_translations": {},
       "description": "",
@@ -1688,14 +1688,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790844932433-lr7bf.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-100x45x15-sm-id993-5axvwl",
+      "url": "https://streetstock.co.il/product/argvnyt-bd-lachsvn-tsba-krm-sdrt-home-organizer-mydvt-100x45x15-sm-id993-1iaedm",
       "categories": [
         "סלסלות אחסון"
       ],
-      "updated_at": "2026-10-01T08:28:03.820Z"
+      "updated_at": "2026-10-01T08:55:58.134Z"
     },
     {
       "id": "53c9375e-baa4-438d-a78a-121726b3ae77",
