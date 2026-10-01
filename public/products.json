@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-09-28T08:29:20.674Z",
+  "generated_at": "2026-10-01T07:21:59.544Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 759,
@@ -16185,51 +16185,51 @@
     },
     {
       "id": "20b7f23e-cda4-43c2-a0d7-bb33685fc2cb",
-      "slug": "aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-jirgqt",
+      "slug": "aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-788of7",
       "name": "עגלת שירות 4 קומות לבן דגם CALIRFONIA",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560269",
       "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
+      "price": 159.9,
+      "base_price": 199.9,
+      "sale_price": 159.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837667433-jnyk79.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-jirgqt",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-788of7",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-09-07T11:55:59.030Z"
+      "updated_at": "2026-10-01T07:21:24.891Z"
     },
     {
       "id": "09a8a66a-0cf3-4eb4-a813-b5b64c39e58d",
-      "slug": "aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-q1n5sp",
+      "slug": "aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-3xtb17",
       "name": "עגלת שירות 4 קומות שחור דגם ARIZONA",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560276",
       "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
+      "price": 159.9,
+      "base_price": 199.9,
+      "sale_price": 159.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837666970-ol5y5n.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-q1n5sp",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-3xtb17",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-09-07T11:56:01.054Z"
+      "updated_at": "2026-10-01T07:20:53.012Z"
     },
     {
       "id": "de7d3861-1099-4863-881a-9aecde90b318",
@@ -16255,27 +16255,27 @@
     },
     {
       "id": "ba9d51c7-36e0-4081-a643-36725ba183ad",
-      "slug": "aglt-shrvt-4-kvmvt-lbn-dgm-arizona-icbz5k",
+      "slug": "aglt-shrvt-4-kvmvt-lbn-dgm-arizona-23nxz9",
       "name": "עגלת שרות 4 קומות לבן דגם ARIZONA",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": null,
       "sku": "7290121560306",
       "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
+      "price": 159.9,
+      "base_price": 199.9,
+      "sale_price": 159.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837666586-1f72e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-arizona-icbz5k",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-arizona-23nxz9",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-09-07T11:56:01.071Z"
+      "updated_at": "2026-10-01T07:21:12.498Z"
     },
     {
       "id": "511d2447-9c79-4436-b5b9-cf42f3ce2ef6",
