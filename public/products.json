@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:28:51.919Z",
+  "generated_at": "2026-10-01T08:30:46.992Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
   "products": [
     {
       "id": "25b62db3-9980-453b-b7cb-1df0cf9bd5ce",
-      "slug": "msnnt-kyvr-nyrvsth-id562-5qnshv",
+      "slug": "msnnt-kyvr-nyrvsth-id562-1cevyt",
       "name": "מסננת כיור נירוסטה\nID562",
       "name_translations": {},
       "description": "",
@@ -18,18 +18,20 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843325365-pye5s.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id562-5qnshv",
+      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id562-1cevyt",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:13.940Z"
+      "updated_at": "2026-10-01T08:29:05.695Z"
     },
     {
       "id": "766a59b7-3226-4a45-b950-78d8eeabf25a",
-      "slug": "msnnt-kyvr-nyrvsth-id561-merwrr",
+      "slug": "msnnt-kyvr-nyrvsth-id561-vhxij3",
       "name": "מסננת כיור נירוסטה\nID561",
       "name_translations": {},
       "description": "",
@@ -40,18 +42,20 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843360044-t54wi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id561-merwrr",
+      "url": "https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id561-vhxij3",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-10-01T08:28:13.939Z"
+      "updated_at": "2026-10-01T08:29:33.928Z"
     },
     {
       "id": "e919f726-2e53-4e23-ac68-67f82bc54a18",
-      "slug": "maryk-brz-ktsr-id960-uwrg2x",
+      "slug": "maryk-brz-ktsr-id960-b43g4a",
       "name": "מאריך ברז קצר ID960",
       "name_translations": {},
       "description": "",
@@ -62,18 +66,20 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843367866-k0tr2a.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/maryk-brz-ktsr-id960-uwrg2x",
+      "url": "https://streetstock.co.il/product/maryk-brz-ktsr-id960-b43g4a",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:13.928Z"
+      "updated_at": "2026-10-01T08:29:47.592Z"
     },
     {
       "id": "4caa3b1f-4413-4736-ac75-1d989630c22e",
-      "slug": "maryk-brz-arvk-id959-vnxdwy",
+      "slug": "maryk-brz-arvk-id959-hmxse2",
       "name": "מאריך ברז ארוך ID959",
       "name_translations": {},
       "description": "",
@@ -84,14 +90,16 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843387441-f7k7re.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/maryk-brz-arvk-id959-vnxdwy",
+      "url": "https://streetstock.co.il/product/maryk-brz-arvk-id959-hmxse2",
       "categories": [
         "מוצרי אמבט"
       ],
-      "updated_at": "2026-10-01T08:28:13.926Z"
+      "updated_at": "2026-10-01T08:30:14.405Z"
     },
     {
       "id": "395edabd-eb89-4943-b493-354032361299",

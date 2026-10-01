@@ -72,29 +72,33 @@ Information about WCAG compliance and accessibility features.
 
 ### מסננת כיור נירוסטה
 ID562
-https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id562-5qnshv
+https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id562-1cevyt
 - Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790843325365-pye5s.webp
 
 ### מסננת כיור נירוסטה
 ID561
-https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id561-merwrr
+https://streetstock.co.il/product/msnnt-kyvr-nyrvsth-id561-vhxij3
 - Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790843360044-t54wi.webp
 
 ### מאריך ברז קצר ID960
-https://streetstock.co.il/product/maryk-brz-ktsr-id960-uwrg2x
+https://streetstock.co.il/product/maryk-brz-ktsr-id960-b43g4a
 - Price: 7.92 ILS (sale, was 9.90 ILS)
 - Availability: In stock
 - Category: מוצרי אמבט
+- Image: https://streetstock.co.il/assets/product-1790843367866-k0tr2a.webp
 
 ### מאריך ברז ארוך ID959
-https://streetstock.co.il/product/maryk-brz-arvk-id959-vnxdwy
+https://streetstock.co.il/product/maryk-brz-arvk-id959-hmxse2
 - Price: 9.52 ILS (sale, was 11.90 ILS)
 - Availability: In stock
 - Category: מוצרי אמבט
+- Image: https://streetstock.co.il/assets/product-1790843387441-f7k7re.webp
 
 ### סוחט הדרים מקצועי ID980
 https://streetstock.co.il/product/svcht-hdrym-mktsvay-id980-lr5m4b
