@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-01T08:38:06.410Z",
+  "generated_at": "2026-10-01T08:38:56.282Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 855,
@@ -505,7 +505,7 @@
     },
     {
       "id": "3b024b15-3f53-40ac-9212-5dadcf962ad3",
-      "slug": "tsntsnt-achsvn-4000-ml-dgm-tayr-id849-7ce3xi",
+      "slug": "tsntsnt-achsvn-4000-ml-dgm-tayr-id849-39f6r0",
       "name": "צנצנת אחסון 4000 מ\"ל\nדגם תאיר ID849",
       "name_translations": {},
       "description": "",
@@ -516,18 +516,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843900676-mqb9c.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-4000-ml-dgm-tayr-id849-7ce3xi",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-4000-ml-dgm-tayr-id849-39f6r0",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:10.974Z"
+      "updated_at": "2026-10-01T08:38:37.029Z"
     },
     {
       "id": "3784012f-760e-45c5-885b-dcf134fa9e87",
-      "slug": "tsntsnt-achsvn-3000-ml-dgm-tayr-id848-u3c8ha",
+      "slug": "tsntsnt-achsvn-3000-ml-dgm-tayr-id848-2w1dw3",
       "name": "צנצנת אחסון 3000 מ\"ל\nדגם תאיר ID848",
       "name_translations": {},
       "description": "",
@@ -538,14 +540,16 @@
       "base_price": 39.9,
       "sale_price": 31.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843890016-rydinb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-3000-ml-dgm-tayr-id848-u3c8ha",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-3000-ml-dgm-tayr-id848-2w1dw3",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:10.912Z"
+      "updated_at": "2026-10-01T08:38:22.413Z"
     },
     {
       "id": "5b98d8fb-c158-4762-8e3d-154150e0438c",
@@ -573,7 +577,7 @@
     },
     {
       "id": "ef579c69-2d68-421c-85a0-680c123fb3e3",
-      "slug": "tsntsnt-achsvn-2000-ml-dgm-tayr-id847-tssol2",
+      "slug": "tsntsnt-achsvn-2000-ml-dgm-tayr-id847-yykyn4",
       "name": "צנצנת אחסון 2000 מ\"ל\nדגם תאיר ID847",
       "name_translations": {},
       "description": "",
@@ -584,14 +588,16 @@
       "base_price": 29.9,
       "sale_price": 23.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1790843879398-4fp5a8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-2000-ml-dgm-tayr-id847-tssol2",
+      "url": "https://streetstock.co.il/product/tsntsnt-achsvn-2000-ml-dgm-tayr-id847-yykyn4",
       "categories": [
         "צנצנות זכוכית"
       ],
-      "updated_at": "2026-10-01T08:28:10.866Z"
+      "updated_at": "2026-10-01T08:38:10.869Z"
     },
     {
       "id": "42e826ce-d99a-4574-b79b-721824bf855f",
