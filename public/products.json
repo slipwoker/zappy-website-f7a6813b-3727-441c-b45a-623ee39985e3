@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-12T14:26:40.586Z",
+  "generated_at": "2026-10-12T14:27:14.968Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 897,
@@ -11573,9 +11573,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-zvgy-200-100-kvtnh-e2x2a9",
-      "categories": [
-        "סדינים 100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:54:46.080Z"
     },
     {
@@ -11597,9 +11595,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-zvgy-180-100-kvtnh-myyq2r",
-      "categories": [
-        "סדינים 100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:54:47.493Z"
     },
     {
@@ -11621,9 +11617,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/zvg-tsypyvt-lkryt-100-kvtnh-atb2dr",
-      "categories": [
-        "סדינים 100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:54:47.623Z"
     },
     {
@@ -11645,9 +11639,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-ychyd-100-kvtnh-85ho8k",
-      "categories": [
-        "סדינים 100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:54:47.624Z"
     },
     {
@@ -11669,9 +11661,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-zvgy-160-100-kvtnh-ci5cor",
-      "categories": [
-        "סדינים 100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:54:47.558Z"
     },
     {
@@ -11693,9 +11683,7 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/sdyn-myth-vchtsy-100-kvtnh-pszrna",
-      "categories": [
-        "סדינים 100% כותנה"
-      ],
+      "categories": [],
       "updated_at": "2026-09-07T11:54:47.620Z"
     },
     {
