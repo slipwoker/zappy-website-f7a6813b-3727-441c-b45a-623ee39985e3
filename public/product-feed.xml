@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 12 Oct 2026 14:24:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 14:25:16 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -1517,6 +1517,7 @@ ID371</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>70d803fe-d104-4516-bc80-f764325f3451</g:id>
@@ -1561,6 +1562,7 @@ ID366</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>5301be90-540b-4479-a0bb-a39957875219</g:id>
@@ -1575,6 +1577,7 @@ ID366</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>1e93e761-145e-4fb6-9762-5031a0f5b70c</g:id>
@@ -13722,7 +13725,7 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121560269</g:mpn>
-      <g:product_type>כללי</g:product_type>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>09a8a66a-0cf3-4eb4-a813-b5b64c39e58d</g:id>
@@ -13736,7 +13739,7 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121560276</g:mpn>
-      <g:product_type>כללי</g:product_type>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>de7d3861-1099-4863-881a-9aecde90b318</g:id>
@@ -13763,7 +13766,7 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121560306</g:mpn>
-      <g:product_type>כללי</g:product_type>
+      <g:product_type>עגלות שירות </g:product_type>
     </item>
     <item>
       <g:id>511d2447-9c79-4436-b5b9-cf42f3ce2ef6</g:id>
