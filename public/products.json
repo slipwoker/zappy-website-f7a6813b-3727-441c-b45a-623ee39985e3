@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-12T12:28:47.569Z",
+  "generated_at": "2026-10-12T12:34:55.059Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 897,
@@ -753,7 +753,7 @@
     },
     {
       "id": "526f76db-63c3-4109-bce1-989402095362",
-      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-apvr-khh-6pv01v",
+      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-apvr-khh-xh3ze3",
       "name": "שטיח סלון דגם פלמינו 160X220 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
@@ -764,18 +764,20 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808113251-u35mare.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-apvr-khh-6pv01v",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-apvr-khh-xh3ze3",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:45.525Z"
+      "updated_at": "2026-10-12T12:28:47.165Z"
     },
     {
       "id": "53f1e12a-1ab1-4d1f-be9d-b484b6f46888",
-      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-lbn-kri934",
+      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-lbn-h2pfwg",
       "name": "שטיח סלון דגם פלמינו 160X220 ס\"מ לבן",
       "name_translations": {},
       "description": "",
@@ -786,18 +788,20 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808125517-hencvv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-lbn-kri934",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-lbn-h2pfwg",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:45.522Z"
+      "updated_at": "2026-10-12T12:28:59.920Z"
     },
     {
       "id": "011b8bde-cb32-41c5-afae-5acedc3c6c71",
-      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-mvkh-kb3i1t",
+      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-mvkh-p7soh3",
       "name": "שטיח סלון דגם פלמינו 160X220 ס\"מ מוקה",
       "name_translations": {},
       "description": "",
@@ -808,18 +812,20 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808137727-9ct4bbc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-mvkh-kb3i1t",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-mvkh-p7soh3",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:45.521Z"
+      "updated_at": "2026-10-12T12:29:42.690Z"
     },
     {
       "id": "1ce4e7ea-2dc6-44ce-8b7c-1dc8ad765039",
-      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-apvr-bhyr-boj7gr",
+      "slug": "shtych-slvn-dgm-plmynv-160x220-sm-apvr-bhyr-unek82",
       "name": "שטיח סלון דגם פלמינו 160X220 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -830,18 +836,20 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808158272-mkiizg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-apvr-bhyr-boj7gr",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-apvr-bhyr-unek82",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:45.436Z"
+      "updated_at": "2026-10-12T12:29:40.505Z"
     },
     {
       "id": "00efd3b4-48e4-4ddc-87de-bf8f5e91c6cc",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-mvkh-wujrt6",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-mvkh-j6mpu6",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ מוקה",
       "name_translations": {},
       "description": "",
@@ -852,18 +860,20 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808200215-dzyazi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-mvkh-wujrt6",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-mvkh-j6mpu6",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:45.430Z"
+      "updated_at": "2026-10-12T12:30:12.504Z"
     },
     {
       "id": "44648fac-0e27-4474-abc4-cd2bb2602123",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-lbn-gp39rk",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-lbn-7gpoyk",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ לבן",
       "name_translations": {},
       "description": "",
@@ -874,14 +884,16 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808245622-z6ce2i.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-lbn-gp39rk",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-lbn-7gpoyk",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:45.430Z"
+      "updated_at": "2026-10-12T12:30:56.482Z"
     },
     {
       "id": "0d94a95d-0c43-4b0b-9412-ed7dc85b1c63",
@@ -933,7 +945,7 @@
     },
     {
       "id": "271a9622-be36-4eaf-8f13-e1df0b75a62d",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-xxf67s",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-gqqv5b",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
@@ -944,18 +956,20 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808254264-e50u9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-xxf67s",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-gqqv5b",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.717Z"
+      "updated_at": "2026-10-12T12:31:11.109Z"
     },
     {
       "id": "8a95664c-1e5c-4fb2-a6ad-45786834403c",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-gvfw6y",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-7mlh4k",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -966,14 +980,16 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808268271-bdems8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-gvfw6y",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-7mlh4k",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.715Z"
+      "updated_at": "2026-10-12T12:31:30.258Z"
     },
     {
       "id": "86748229-aa96-4114-a61d-52be86ef1a37",
@@ -1001,7 +1017,7 @@
     },
     {
       "id": "91ef225d-48f1-47f9-ab34-76bced385161",
-      "slug": "shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-mip25z",
+      "slug": "shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-t4a9vn",
       "name": "שטיח סלון דגם ארמנדו 200X290 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
@@ -1012,14 +1028,16 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808359166-exd5t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-mip25z",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-t4a9vn",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.690Z"
+      "updated_at": "2026-10-12T12:32:51.918Z"
     },
     {
       "id": "b882ef24-8eba-4bee-b052-8158d5171921",
@@ -1047,7 +1065,7 @@
     },
     {
       "id": "793f2799-95a1-45f6-ba5f-6cc5e346ee51",
-      "slug": "shtych-slvn-dgm-armndv-160x220-sm-mvkh-o994c4",
+      "slug": "shtych-slvn-dgm-armndv-160x220-sm-mvkh-q4k575",
       "name": "שטיח סלון דגם ארמנדו 160X220 ס\"מ מוקה",
       "name_translations": {},
       "description": "",
@@ -1058,18 +1076,20 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808314395-upqr5h.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-mvkh-o994c4",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-mvkh-q4k575",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.660Z"
+      "updated_at": "2026-10-12T12:32:06.914Z"
     },
     {
       "id": "7399b507-3d9c-460d-8aa3-c463ee7a957f",
-      "slug": "shtych-slvn-dgm-armndv-200x290-sm-lbn-4bt0dh",
+      "slug": "shtych-slvn-dgm-armndv-200x290-sm-lbn-lsy55n",
       "name": "שטיח סלון דגם ארמנדו 200X290 ס\"מ לבן",
       "name_translations": {},
       "description": "",
@@ -1080,14 +1100,16 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808337903-9eb4hb.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-lbn-4bt0dh",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-lbn-lsy55n",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.644Z"
+      "updated_at": "2026-10-12T12:32:41.056Z"
     },
     {
       "id": "98be2316-ae27-4da1-acfa-a547666c25d6",
