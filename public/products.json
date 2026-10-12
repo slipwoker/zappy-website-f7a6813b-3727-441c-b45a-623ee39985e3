@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-12T04:22:23.679Z",
+  "generated_at": "2026-10-12T04:24:33.008Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 849,
@@ -15825,27 +15825,27 @@
     },
     {
       "id": "4b76df87-490c-45f3-bbf3-4a9830775cf6",
-      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-o9y5tc",
+      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-rh624x",
       "name": "מתלה כביסה טלסקופי דגם DANNY צבע לבן",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר.\nהמתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים.\nהעיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר.\nמתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד.\nפתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.",
       "sku": "7290121560405",
       "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
+      "price": 149.9,
+      "base_price": 299.9,
+      "sale_price": 149.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1781512824442-5yfb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-o9y5tc",
+      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-lbn-rh624x",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-09-07T11:55:35.942Z"
+      "updated_at": "2026-10-12T04:23:32.062Z"
     },
     {
       "id": "162ae038-938f-42b6-8a93-b08f9bbdacaf",
@@ -16047,27 +16047,27 @@
     },
     {
       "id": "3113db7c-297b-4ebc-a514-f6f7bf48cadf",
-      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-jrvfus",
+      "slug": "mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-647mx7",
       "name": "מתלה כביסה טלסקופי דגם DANNY צבע שחור",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "מתלה כביסה טלסקופי איכותי בצבע שחורלבן , המעניק שטח תלייה גדול במיוחד של 20 מטר.\nהמתלה בנוי מחומרים חזקים ועמידים, עם רגליים יציבות המאפשרות שימוש נוח ובטוח גם בעומסי כביסה גבוהים.\nהעיצוב הטלסקופי מאפשר פתיחה וקיפול קלים, אחסון חסכוני במקום ונוחות שימוש מרבית בבית, במרפסת או בחצר.\nמתאים לכל סוגי הכביסה – בגדים, סדינים, מגבות ועוד.\nפתרון מושלם למשפחות, לסטודנטים ולכל מי שמחפש מתלה כביסה איכותי, חזק ויעיל לאורך זמן.",
       "sku": "7290121561006",
       "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
+      "price": 149.9,
+      "base_price": 299.9,
+      "sale_price": 149.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837712076-tuaj2q.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-jrvfus",
+      "url": "https://streetstock.co.il/product/mtlh-kbysh-tlskvpy-dgm-danny-tsba-shchvr-647mx7",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-09-07T11:55:37.660Z"
+      "updated_at": "2026-10-12T04:23:58.004Z"
     },
     {
       "id": "20d30670-fbda-4c28-b017-7d68d6b305c8",
