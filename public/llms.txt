@@ -72,31 +72,35 @@ Information about WCAG compliance and accessibility features.
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ אפור בהיר
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-bhyr-9enh0l
+https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-bhyr-aano5o
 - Price: 119.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
 - Category: שמיכות חורף
+- Image: https://streetstock.co.il/assets/product-1791807715795-oi2ww3.webp
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ אפור כהה
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-khh-uaaicc
+https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-khh-3vgnik
 - Price: 119.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
 - Category: שמיכות חורף
+- Image: https://streetstock.co.il/assets/product-1791807822201-bn94s.webp
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ טורקיז
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-tvrkyz-qihmdy
+https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-tvrkyz-u4auxr
 - Price: 119.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
 - Category: שמיכות חורף
+- Image: https://streetstock.co.il/assets/product-1791807847208-89s0r9.webp
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ מוקה
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-mvkh-09n9iq
+https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-mvkh-sbkl12
 - Price: 119.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
 - Category: שמיכות חורף
+- Image: https://streetstock.co.il/assets/product-1791807990046-1pidr.webp
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ שמנת
@@ -142,10 +146,11 @@ https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-mvkh
 
 ### שמיכת חורף ממולאת לוסי זוגי
 220X200 ס"מ צבע אפור כהה
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-kx84z9
+https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-2st0io
 - Price: 174.90 ILS (sale, was 349.90 ILS)
 - Availability: In stock
 - Category: שמיכות חורף
+- Image: https://streetstock.co.il/assets/product-1791807742965-21q5og.webp
 
 ### שמיכת חורף ממולאת לוסי זוגי
 220X200 ס"מ צבע לבן
@@ -331,16 +336,18 @@ https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-lbn-gp39rk
 - Category: שטיחי סלון
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ אפור כהה
-https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-f81ra6
+https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-8drpgu
 - Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
+- Image: https://streetstock.co.il/assets/product-1791808045975-mxp77.webp
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ אפור בהיר
-https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-gq7qgn
+https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-h9pzua
 - Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
+- Image: https://streetstock.co.il/assets/product-1791808066283-8qsqhp.webp
 
 ### שטיח סלון דגם פלמינו 200X290 ס"מ אפור כהה
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-xxf67s
@@ -355,10 +362,11 @@ https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-gv
 - Category: שטיחי סלון
 
 ### שטיח סלון דגם ארמנדו 200X290 ס"מ מוקה
-https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-mvkh-taijaw
+https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-mvkh-jo4r7p
 - Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
+- Image: https://streetstock.co.il/assets/product-1791808078880-kpg5c.webp
 
 ### שטיח סלון דגם ארמנדו 200X290 ס"מ אפור כהה
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-mip25z
@@ -367,10 +375,11 @@ https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-mip
 - Category: שטיחי סלון
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ לבן
-https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-lbn-p5nomj
+https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-lbn-nq81kv
 - Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
+- Image: https://streetstock.co.il/assets/product-1791808094761-u2y6r.webp
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ מוקה
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-mvkh-o994c4

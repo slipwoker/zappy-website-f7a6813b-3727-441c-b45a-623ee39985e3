@@ -1,13 +1,13 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-12T12:20:45.438Z",
+  "generated_at": "2026-10-12T12:28:47.569Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 897,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-bhyr-9enh0l",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-bhyr-aano5o",
       "name": "שמיכת חורף ממולאת נובה זוגי\n 220X200 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -18,19 +18,21 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791807715795-oi2ww3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-bhyr-9enh0l",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-bhyr-aano5o",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.300Z"
+      "updated_at": "2026-10-12T12:22:25.817Z"
     },
     {
       "id": "67dd869b-b084-41e3-a7ed-ebfd0f0731a2",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-khh-uaaicc",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-khh-3vgnik",
       "name": "שמיכת חורף ממולאת נובה זוגי\n 220X200 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
@@ -41,19 +43,21 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791807822201-bn94s.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-khh-uaaicc",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-apvr-khh-3vgnik",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.299Z"
+      "updated_at": "2026-10-12T12:25:09.719Z"
     },
     {
       "id": "38e51579-14a4-4455-9938-67c193e042e8",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-tvrkyz-qihmdy",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-tvrkyz-u4auxr",
       "name": "שמיכת חורף ממולאת נובה זוגי\n 220X200 ס\"מ טורקיז",
       "name_translations": {},
       "description": "",
@@ -64,19 +68,21 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791807847208-89s0r9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-tvrkyz-qihmdy",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-tvrkyz-u4auxr",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.294Z"
+      "updated_at": "2026-10-12T12:24:43.164Z"
     },
     {
       "id": "c57d3a8f-cd39-4dff-a03e-4fcaf92be735",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-mvkh-09n9iq",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-mvkh-sbkl12",
       "name": "שמיכת חורף ממולאת נובה זוגי\n 220X200 ס\"מ מוקה",
       "name_translations": {},
       "description": "",
@@ -87,15 +93,17 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791807990046-1pidr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-mvkh-09n9iq",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-mvkh-sbkl12",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.290Z"
+      "updated_at": "2026-10-12T12:26:40.730Z"
     },
     {
       "id": "9e4ba30e-9916-4a35-a1f8-4642c9887567",
@@ -237,7 +245,7 @@
     },
     {
       "id": "b769b3b6-db0f-4963-b0ba-1f1087236126",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-kx84z9",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-2st0io",
       "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע אפור כהה",
       "name_translations": {},
       "description": "",
@@ -248,15 +256,17 @@
       "base_price": 349.9,
       "sale_price": 174.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791807742965-21q5og.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-kx84z9",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-2st0io",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:49.708Z"
+      "updated_at": "2026-10-12T12:22:38.150Z"
     },
     {
       "id": "9dbdaf35-144a-4fd7-af62-3bd818b1328f",
@@ -875,7 +885,7 @@
     },
     {
       "id": "0d94a95d-0c43-4b0b-9412-ed7dc85b1c63",
-      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-f81ra6",
+      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-8drpgu",
       "name": "שטיח סלון דגם ארמנדו 160X220 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
@@ -886,18 +896,20 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808045975-mxp77.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-f81ra6",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-8drpgu",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.925Z"
+      "updated_at": "2026-10-12T12:27:48.451Z"
     },
     {
       "id": "92ef3459-545a-4cc9-be93-d58463b544dd",
-      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-gq7qgn",
+      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-h9pzua",
       "name": "שטיח סלון דגם ארמנדו 160X220 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -908,14 +920,16 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808066283-8qsqhp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-gq7qgn",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-h9pzua",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.890Z"
+      "updated_at": "2026-10-12T12:28:00.818Z"
     },
     {
       "id": "271a9622-be36-4eaf-8f13-e1df0b75a62d",
@@ -963,7 +977,7 @@
     },
     {
       "id": "86748229-aa96-4114-a61d-52be86ef1a37",
-      "slug": "shtych-slvn-dgm-armndv-200x290-sm-mvkh-taijaw",
+      "slug": "shtych-slvn-dgm-armndv-200x290-sm-mvkh-jo4r7p",
       "name": "שטיח סלון דגם ארמנדו 200X290 ס\"מ מוקה",
       "name_translations": {},
       "description": "",
@@ -974,14 +988,16 @@
       "base_price": 699.9,
       "sale_price": 379.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808078880-kpg5c.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-mvkh-taijaw",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-mvkh-jo4r7p",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.691Z"
+      "updated_at": "2026-10-12T12:28:18.192Z"
     },
     {
       "id": "91ef225d-48f1-47f9-ab34-76bced385161",
@@ -1007,7 +1023,7 @@
     },
     {
       "id": "b882ef24-8eba-4bee-b052-8158d5171921",
-      "slug": "shtych-slvn-dgm-armndv-160x220-sm-lbn-p5nomj",
+      "slug": "shtych-slvn-dgm-armndv-160x220-sm-lbn-nq81kv",
       "name": "שטיח סלון דגם ארמנדו 160X220 ס\"מ לבן",
       "name_translations": {},
       "description": "",
@@ -1018,14 +1034,16 @@
       "base_price": 499.9,
       "sale_price": 279.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1791808094761-u2y6r.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-lbn-p5nomj",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-lbn-nq81kv",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:19:43.662Z"
+      "updated_at": "2026-10-12T12:28:35.017Z"
     },
     {
       "id": "793f2799-95a1-45f6-ba5f-6cc5e346ee51",
