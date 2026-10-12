@@ -380,7 +380,7 @@ CTRL+F2
 
 ## מוצרים מומלצים
 
-
+עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!
 
 צפה בכל המוצרים →
 
@@ -1744,6 +1744,8 @@ Description: המוצרים שלנו - Street Stock
 
 
 
+
+טוען מוצרים...
 
 
 
@@ -4587,6 +4589,8 @@ Description: מוצרים - Street Stock
 
 
 
+טוען מוצרים...
+
 
 
 
@@ -6951,7 +6955,7 @@ Availability: In stock
 
 ### עגלת שרות מתקפלת שחור 3 קומות דגם CHICAGO
 ID370
-URL: https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-5w91io
+URL: https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-mb55l9
 Price: 119.92 ILS (sale, was 149.90 ILS)
 Availability: In stock
 
