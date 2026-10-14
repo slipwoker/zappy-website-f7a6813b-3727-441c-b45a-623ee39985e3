@@ -8987,33 +8987,9 @@ Availability: In stock
 
 ---
 
-### מארז 5 יחידות קולבי אקריל
-ID663
-URL: https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-id663-8k21bv
-Price: 11.92 ILS (sale, was 14.90 ILS)
-Availability: In stock
-
----
-
-### מארז 10 קולבי פלסטיק שחור
-ID923
-URL: https://streetstock.co.il/product/marz-10-kvlby-plstyk-shchvr-id923-9kuief
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-
----
-
 ### כוס למברשת שיניים  דגם VELIN
  צבע לבן ID645
 URL: https://streetstock.co.il/product/kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-a0rer1
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-
----
-
-### מארז 10 קולבי פלסטיק לבן
-ID664
-URL: https://streetstock.co.il/product/marz-10-kvlby-plstyk-lbn-id664-72ukqj
 Price: 15.92 ILS (sale, was 19.90 ILS)
 Availability: In stock
 
@@ -11666,16 +11642,6 @@ SKU: 7290121563604
 
 ---
 
-### מארז 10 קולבי קטיפה שחור
-URL: https://streetstock.co.il/product/marz-10-kvlby-ktyph-shchvr-iwavd4
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-SKU: 7290121562652
-
-כללי
-
----
-
 ### משטח חיתוך נירוסטה 28X39 ס"מ 
 URL: https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-28x39-sm-420jr0
 Price: 31.92 ILS (sale, was 39.90 ILS)
@@ -12555,18 +12521,6 @@ Availability: In stock
 SKU: 7290121562980
 
 מתקני כביסה
-
----
-
-### מארז 10 יחידות  קולבי קטיפה צבע קרם
-
- 
-URL: https://streetstock.co.il/product/marz-10-ychydvt-kvlby-ktyph-tsba-krm-o9f1xc
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-SKU: 7290121563307
-
-כללי
 
 ---
 

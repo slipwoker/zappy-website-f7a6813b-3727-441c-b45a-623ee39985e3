@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:19:15.193Z",
+  "generated_at": "2026-10-14T10:20:22.176Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 896,
+  "count": 891,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -8461,54 +8461,6 @@
       "updated_at": "2026-09-07T11:54:22.916Z"
     },
     {
-      "id": "9c563be4-9132-45fe-83a0-306d856a97d5",
-      "slug": "marz-5-ychydvt-kvlby-akryl-id663-8k21bv",
-      "name": "מארז 5 יחידות קולבי אקריל\nID663",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1785302888254-e1w8jf.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-id663-8k21bv",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:54:22.874Z"
-    },
-    {
-      "id": "7a89e1ed-39f7-4888-81be-f877ead0f0b8",
-      "slug": "marz-10-kvlby-plstyk-shchvr-id923-9kuief",
-      "name": "מארז 10 קולבי פלסטיק שחור\nID923",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1785302956509-g8dznk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-shchvr-id923-9kuief",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:54:22.917Z"
-    },
-    {
       "id": "210a5efe-e0f0-4a42-a24b-42930751296e",
       "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-a0rer1",
       "name": "כוס למברשת שיניים  דגם VELIN\n צבע לבן ID645",
@@ -8532,30 +8484,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-09-07T11:54:22.918Z"
-    },
-    {
-      "id": "6046a897-af4d-48ea-812f-f535e36dbdaa",
-      "slug": "marz-10-kvlby-plstyk-lbn-id664-72ukqj",
-      "name": "מארז 10 קולבי פלסטיק לבן\nID664",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1785302905661-wyea1p.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-lbn-id664-72ukqj",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:54:22.927Z"
     },
     {
       "id": "cf76bd84-153c-4e27-99a2-0c4e3e31e0d6",
@@ -17330,30 +17258,6 @@
       "updated_at": "2026-09-07T11:55:37.908Z"
     },
     {
-      "id": "ae1e73e6-3384-40bc-a082-ebeac542c2e6",
-      "slug": "marz-10-kvlby-ktyph-shchvr-iwavd4",
-      "name": "מארז 10 קולבי קטיפה שחור",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "7290121562652",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837707875-p9sri.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-ktyph-shchvr-iwavd4",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:39.691Z"
-    },
-    {
       "id": "aaa6d66a-8f2c-4533-a5dc-41d122f256ed",
       "slug": "mshtch-chytvk-nyrvsth-28x39-sm-420jr0",
       "name": "משטח חיתוך נירוסטה 28X39 ס\"מ ",
@@ -19359,30 +19263,6 @@
         "מתקני כביסה"
       ],
       "updated_at": "2026-09-07T11:55:58.799Z"
-    },
-    {
-      "id": "e448e185-66e0-494c-b23d-7efbe52aa1b7",
-      "slug": "marz-10-ychydvt-kvlby-ktyph-tsba-krm-o9f1xc",
-      "name": "מארז 10 יחידות  קולבי קטיפה צבע קרם\r\n\r\n ",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "7290121563307",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669688-orcmbf.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-ychydvt-kvlby-ktyph-tsba-krm-o9f1xc",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:58.803Z"
     },
     {
       "id": "5665814b-c9b1-4e06-b4ed-f9242ee7448f",

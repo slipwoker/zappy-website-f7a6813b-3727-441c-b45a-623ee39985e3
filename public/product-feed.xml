@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 14 Oct 2026 10:19:15 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:20:22 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -5639,36 +5639,6 @@ ID556 </g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>9c563be4-9132-45fe-83a0-306d856a97d5</g:id>
-      <g:title>מארז 5 יחידות קולבי אקריל
-ID663</g:title>
-      <g:description>מארז 5 יחידות קולבי אקריל ID663</g:description>
-      <g:link>https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-id663-8k21bv</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1785302888254-e1w8jf.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>14.90 ILS</g:price>
-      <g:sale_price>11.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>כללי</g:product_type>
-    </item>
-    <item>
-      <g:id>7a89e1ed-39f7-4888-81be-f877ead0f0b8</g:id>
-      <g:title>מארז 10 קולבי פלסטיק שחור
-ID923</g:title>
-      <g:description>מארז 10 קולבי פלסטיק שחור ID923</g:description>
-      <g:link>https://streetstock.co.il/product/marz-10-kvlby-plstyk-shchvr-id923-9kuief</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1785302956509-g8dznk.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>כללי</g:product_type>
-    </item>
-    <item>
       <g:id>210a5efe-e0f0-4a42-a24b-42930751296e</g:id>
       <g:title>כוס למברשת שיניים  דגם VELIN
  צבע לבן ID645</g:title>
@@ -5682,21 +5652,6 @@ ID923</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>דיספנסרים</g:product_type>
-    </item>
-    <item>
-      <g:id>6046a897-af4d-48ea-812f-f535e36dbdaa</g:id>
-      <g:title>מארז 10 קולבי פלסטיק לבן
-ID664</g:title>
-      <g:description>מארז 10 קולבי פלסטיק לבן ID664</g:description>
-      <g:link>https://streetstock.co.il/product/marz-10-kvlby-plstyk-lbn-id664-72ukqj</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1785302905661-wyea1p.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>כללי</g:product_type>
     </item>
     <item>
       <g:id>cf76bd84-153c-4e27-99a2-0c4e3e31e0d6</g:id>
@@ -11922,20 +11877,6 @@ ID890</g:title>
       <g:product_type>כלי בית</g:product_type>
     </item>
     <item>
-      <g:id>ae1e73e6-3384-40bc-a082-ebeac542c2e6</g:id>
-      <g:title>מארז 10 קולבי קטיפה שחור</g:title>
-      <g:description>כללי</g:description>
-      <g:link>https://streetstock.co.il/product/marz-10-kvlby-ktyph-shchvr-iwavd4</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837707875-p9sri.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121562652</g:mpn>
-      <g:product_type>כללי</g:product_type>
-    </item>
-    <item>
       <g:id>aaa6d66a-8f2c-4533-a5dc-41d122f256ed</g:id>
       <g:title>משטח חיתוך נירוסטה 28X39 ס&quot;מ </g:title>
       <g:description>משטח חיתוך נירוסטה 28X39 ס&quot;מ</g:description>
@@ -13538,22 +13479,6 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121562980</g:mpn>
       <g:product_type>מתקני כביסה</g:product_type>
-    </item>
-    <item>
-      <g:id>e448e185-66e0-494c-b23d-7efbe52aa1b7</g:id>
-      <g:title>מארז 10 יחידות  קולבי קטיפה צבע קרם
-
- </g:title>
-      <g:description>כללי</g:description>
-      <g:link>https://streetstock.co.il/product/marz-10-ychydvt-kvlby-ktyph-tsba-krm-o9f1xc</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837669688-orcmbf.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:mpn>7290121563307</g:mpn>
-      <g:product_type>כללי</g:product_type>
     </item>
     <item>
       <g:id>07e0e5a2-49bc-48aa-8258-b58160351da7</g:id>
