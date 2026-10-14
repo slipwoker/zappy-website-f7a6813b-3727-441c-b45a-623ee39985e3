@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:27:16.992Z",
+  "generated_at": "2026-10-14T10:28:33.114Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 881,
+  "count": 878,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -16362,30 +16362,6 @@
       "updated_at": "2026-09-28T07:27:11.607Z"
     },
     {
-      "id": "4f7f34c5-bb0f-4df3-a459-98727407245e",
-      "slug": "syr-20-sm-26-lytr-znrqiu",
-      "name": "סיר 20 ס\"מ – 2.6 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 80,
-      "base_price": 100,
-      "sale_price": 80,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512527688-x5bxr6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-20-sm-26-lytr-znrqiu",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:55:33.573Z"
-    },
-    {
       "id": "b7f4ba32-c63a-4dfd-b6a5-ecc7205343a5",
       "slug": "svtaz-nyrvsth-28-sm-25-lytr-92he07",
       "name": "סוטאז נירוסטה 28 ס\"מ – 2.5 ליטר",
@@ -16434,30 +16410,6 @@
       "updated_at": "2026-09-07T11:55:33.568Z"
     },
     {
-      "id": "2a182786-a8f9-49c5-85ea-678beb3f0b2e",
-      "slug": "syr-24-sm-43-lytr-d4t2qt",
-      "name": "סיר 24 ס\"מ – 4.3 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512548248-7n4xny.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-24-sm-43-lytr-d4t2qt",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:55:33.575Z"
-    },
-    {
       "id": "e94d06a7-c267-410c-a03d-5ac61ca6dbb6",
       "slug": "svtaz-28-sm-38-lytr-qa95ht",
       "name": "סוטאז' 28 ס\"מ – 3.8 ליטר",
@@ -16480,30 +16432,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-09-07T11:55:33.568Z"
-    },
-    {
-      "id": "5b5f514f-15f4-4dd4-bcb4-8b38bd49b468",
-      "slug": "syr-28-sm-67-lytr-n3rztw",
-      "name": "סיר 28 ס\"מ – 6.7 ליטר",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת סולינה מיוצרת בטכנולוגית פורג'ד אלומיניום המבטיחה פיזור חום אחיד ובישול איכותי.\r\nלסיר NON STICK המאפשר בישול מופחת שמן ובריא יותר.\r\nידיות סיליקון צבעוניות",
-      "sku": null,
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781512566005-eexkfx.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-28-sm-67-lytr-n3rztw",
-      "categories": [
-        "סירים ומחבתות"
-      ],
-      "updated_at": "2026-09-07T11:55:33.582Z"
     },
     {
       "id": "58302929-a322-4d08-985a-5e5e40f0ceb6",

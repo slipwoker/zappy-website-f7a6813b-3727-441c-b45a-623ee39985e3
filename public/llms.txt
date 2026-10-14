@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 881** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 878** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ אפור בהיר

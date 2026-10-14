@@ -11344,13 +11344,6 @@ Availability: In stock
 
 ---
 
-### סיר 20 ס"מ – 2.6 ליטר
-URL: https://streetstock.co.il/product/syr-20-sm-26-lytr-znrqiu
-Price: 80.00 ILS (sale, was 100.00 ILS)
-Availability: In stock
-
----
-
 ### סוטאז נירוסטה 28 ס"מ – 2.5 ליטר
 URL: https://streetstock.co.il/product/svtaz-nyrvsth-28-sm-25-lytr-92he07
 Price: 143.92 ILS (sale, was 179.90 ILS)
@@ -11365,22 +11358,8 @@ Availability: In stock
 
 ---
 
-### סיר 24 ס"מ – 4.3 ליטר
-URL: https://streetstock.co.il/product/syr-24-sm-43-lytr-d4t2qt
-Price: 95.92 ILS (sale, was 119.90 ILS)
-Availability: In stock
-
----
-
 ### סוטאז' 28 ס"מ – 3.8 ליטר
 URL: https://streetstock.co.il/product/svtaz-28-sm-38-lytr-qa95ht
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-
----
-
-### סיר 28 ס"מ – 6.7 ליטר
-URL: https://streetstock.co.il/product/syr-28-sm-67-lytr-n3rztw
 Price: 103.92 ILS (sale, was 129.90 ILS)
 Availability: In stock
 
