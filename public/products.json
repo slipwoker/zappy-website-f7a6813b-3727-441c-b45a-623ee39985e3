@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:23:03.282Z",
+  "generated_at": "2026-10-14T10:24:07.170Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 890,
+  "count": 888,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -7657,30 +7657,6 @@
       "updated_at": "2026-09-07T11:54:15.488Z"
     },
     {
-      "id": "670ef8c5-92c6-4231-a483-2efbe3704792",
-      "slug": "slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609cxh",
-      "name": "סלסלת אחסון מתכת נתלת רב־שימושית \nID1025",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סדרת כלי המטבח של אידיאלי לבית – מגוון כלי מטבח איכותיים, שימושיים ומעוצבים לשימוש יומיומי. שילוב מושלם של נוחות, עמידות ועיצוב מודרני שישדרג כל מטבח.",
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786526538228-w7v2p.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-achsvn-mtkt-ntlt-rbshymvshyt-id1025-609cxh",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:54:17.081Z"
-    },
-    {
       "id": "e5079c6f-a52f-486f-ad00-229c38247183",
       "slug": "skyn-sntvkv-18-sm-sdrt-kitchen-pro-id1026-orip6k",
       "name": "סכין סנטוקו 18 ס\"מ סדרת KITCHEN PRO\nID1026",
@@ -8135,30 +8111,6 @@
         "מייבשי כלים"
       ],
       "updated_at": "2026-09-07T11:54:18.831Z"
-    },
-    {
-      "id": "a073b227-ab5f-4158-89ef-d3bca6d47b01",
-      "slug": "myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-we23kk",
-      "name": "מייבש כלים 2 קומות דגם SAPIR \nצבע לבן ID1012",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו\"ם.",
-      "sku": null,
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786524995341-1b17b.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-we23kk",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-09-07T11:54:20.300Z"
     },
     {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
