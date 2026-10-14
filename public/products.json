@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:20:56.487Z",
+  "generated_at": "2026-10-14T10:23:03.282Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 891,
+  "count": 890,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -5242,30 +5242,6 @@
         "פחי מטבח"
       ],
       "updated_at": "2026-09-07T11:54:00.275Z"
-    },
-    {
-      "id": "77562e48-3432-4bd1-912a-1d0d54dde35e",
-      "slug": "pch-tats-60-lytr-lbn-dgm-elvano-4liv01",
-      "name": "פח טאצ' 60 ליטר לבן\nדגם ELVANO",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.",
-      "sku": null,
-      "brand": null,
-      "price": 399.92,
-      "base_price": 499.9,
-      "sale_price": 399.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560092506-j935o.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-4liv01",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-09-07T11:54:00.303Z"
     },
     {
       "id": "7a5cf8c1-a05d-4aac-8681-8d350480c080",

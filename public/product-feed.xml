@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 14 Oct 2026 10:20:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:23:03 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -3442,21 +3442,6 @@ ID1128</g:title>
       <g:availability>in_stock</g:availability>
       <g:price>349.90 ILS</g:price>
       <g:sale_price>279.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>פחי מטבח</g:product_type>
-    </item>
-    <item>
-      <g:id>77562e48-3432-4bd1-912a-1d0d54dde35e</g:id>
-      <g:title>פח טאצ&apos; 60 ליטר לבן
-דגם ELVANO</g:title>
-      <g:description>פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.</g:description>
-      <g:link>https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-4liv01</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1787560092506-j935o.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>499.90 ILS</g:price>
-      <g:sale_price>399.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
