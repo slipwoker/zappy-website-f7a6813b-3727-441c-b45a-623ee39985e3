@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:25:32.661Z",
+  "generated_at": "2026-10-14T10:26:31.127Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 886,
+  "count": 882,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -13055,30 +13055,6 @@
       "updated_at": "2026-09-07T11:54:59.332Z"
     },
     {
-      "id": "56794a98-4bdf-4da8-aa59-60a0381fc5a9",
-      "slug": "st-skvm-24-chlkym-nyrvsth-mt-dgm-lymh-no1ci5",
-      "name": "סט סכום 24 חלקים נירוסטה מט דגם לימה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מערכת סכום איכותית\r\nמגיע בסט : 6 מזלגות\r\n6 כפות\r\n6 סכינים\r\n6 כפיטת\r\nמתאים למדיח כלים\r\nמומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה\r\nיש להמנע משימוש בחומרים / מוצרים שוחקים.",
-      "sku": null,
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837769798-o9bze.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-lymh-no1ci5",
-      "categories": [
-        "צלחות+סכום"
-      ],
-      "updated_at": "2026-09-07T11:54:59.331Z"
-    },
-    {
       "id": "5762dd02-5bbf-4e16-a45b-722877f563c5",
       "slug": "st-6-tslchvt-mrk-lunimarc-tsba-lbn-agvl-6jvh4s",
       "name": "סט 6 צלחות מרק LUNIMARC צבע לבן עגול",
@@ -13101,78 +13077,6 @@
         "צלחות+סכום"
       ],
       "updated_at": "2026-09-07T11:54:59.408Z"
-    },
-    {
-      "id": "7fe8d670-e434-4d5e-8caf-a4f81c430dc4",
-      "slug": "skyn-svlyngn-tsba-advm-10-sm-qbny78",
-      "name": "סכין סולינגן צבע אדום 10 סמ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837767598-s9fff.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-qbny78",
-      "categories": [
-        "סכיני מטבח"
-      ],
-      "updated_at": "2026-09-07T11:54:59.508Z"
-    },
-    {
-      "id": "145a7307-d317-41e7-961e-0ee1ad7eb191",
-      "slug": "skyn-svlyngn-tsba-shchvr-10-sm-fhur4j",
-      "name": "סכין סולינגן צבע שחור 10 סמ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837767300-6t57qs.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-fhur4j",
-      "categories": [
-        "סכיני מטבח"
-      ],
-      "updated_at": "2026-09-07T11:54:59.329Z"
-    },
-    {
-      "id": "25b4c8bd-610a-409b-8420-f0541be85afb",
-      "slug": "skyn-svlyngn-tsba-kchvl-10-sm-nalr76",
-      "name": "סכין סולינגן צבע כחול 10 סמ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837767105-a7zuh.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-nalr76",
-      "categories": [
-        "סכיני מטבח"
-      ],
-      "updated_at": "2026-09-07T11:55:01.121Z"
     },
     {
       "id": "436d494f-9366-48f3-a73a-efc27869b947",

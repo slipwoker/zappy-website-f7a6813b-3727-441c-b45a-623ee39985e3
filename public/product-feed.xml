@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 14 Oct 2026 10:25:32 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:26:31 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -8714,20 +8714,6 @@ ID890</g:title>
       <g:product_type>צלחות+סכום</g:product_type>
     </item>
     <item>
-      <g:id>56794a98-4bdf-4da8-aa59-60a0381fc5a9</g:id>
-      <g:title>סט סכום 24 חלקים נירוסטה מט דגם לימה</g:title>
-      <g:description>מערכת סכום איכותית מגיע בסט : 6 מזלגות 6 כפות 6 סכינים 6 כפיטת מתאים למדיח כלים מומלץ לייבש ולנגב את הכלי מיד לאחר השטיפה יש להמנע משימוש בחומרים / מוצרים שוחקים.</g:description>
-      <g:link>https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-lymh-no1ci5</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837769798-o9bze.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>49.90 ILS</g:price>
-      <g:sale_price>39.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>צלחות+סכום</g:product_type>
-    </item>
-    <item>
       <g:id>5762dd02-5bbf-4e16-a45b-722877f563c5</g:id>
       <g:title>סט 6 צלחות מרק LUNIMARC צבע לבן עגול</g:title>
       <g:description>סט 6 צלחות מרק חברת LUNIMARC קוטר צלחת 20 ס&quot;מ צלחת איכותית עשויה מזכוכית</g:description>
@@ -8740,48 +8726,6 @@ ID890</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>צלחות+סכום</g:product_type>
-    </item>
-    <item>
-      <g:id>7fe8d670-e434-4d5e-8caf-a4f81c430dc4</g:id>
-      <g:title>סכין סולינגן צבע אדום 10 סמ</g:title>
-      <g:description>סכין סולינגן צבע אדום 10 סמ</g:description>
-      <g:link>https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-qbny78</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837767598-s9fff.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סכיני מטבח</g:product_type>
-    </item>
-    <item>
-      <g:id>145a7307-d317-41e7-961e-0ee1ad7eb191</g:id>
-      <g:title>סכין סולינגן צבע שחור 10 סמ</g:title>
-      <g:description>סכין סולינגן צבע שחור 10 סמ</g:description>
-      <g:link>https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-fhur4j</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837767300-6t57qs.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סכיני מטבח</g:product_type>
-    </item>
-    <item>
-      <g:id>25b4c8bd-610a-409b-8420-f0541be85afb</g:id>
-      <g:title>סכין סולינגן צבע כחול 10 סמ</g:title>
-      <g:description>סכין סולינגן צבע כחול 10 סמ</g:description>
-      <g:link>https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-nalr76</g:link>
-      <g:image_link>https://streetstock.co.il/assets/product-1780837767105-a7zuh.webp</g:image_link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>סכיני מטבח</g:product_type>
     </item>
     <item>
       <g:id>436d494f-9366-48f3-a73a-efc27869b947</g:id>

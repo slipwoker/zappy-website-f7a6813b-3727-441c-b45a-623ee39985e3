@@ -10367,37 +10367,9 @@ Availability: In stock
 
 ---
 
-### סט סכום 24 חלקים נירוסטה מט דגם לימה
-URL: https://streetstock.co.il/product/st-skvm-24-chlkym-nyrvsth-mt-dgm-lymh-no1ci5
-Price: 39.92 ILS (sale, was 49.90 ILS)
-Availability: In stock
-
----
-
 ### סט 6 צלחות מרק LUNIMARC צבע לבן עגול
 URL: https://streetstock.co.il/product/st-6-tslchvt-mrk-lunimarc-tsba-lbn-agvl-6jvh4s
 Price: 47.92 ILS (sale, was 59.90 ILS)
-Availability: In stock
-
----
-
-### סכין סולינגן צבע אדום 10 סמ
-URL: https://streetstock.co.il/product/skyn-svlyngn-tsba-advm-10-sm-qbny78
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-
----
-
-### סכין סולינגן צבע שחור 10 סמ
-URL: https://streetstock.co.il/product/skyn-svlyngn-tsba-shchvr-10-sm-fhur4j
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-
----
-
-### סכין סולינגן צבע כחול 10 סמ
-URL: https://streetstock.co.il/product/skyn-svlyngn-tsba-kchvl-10-sm-nalr76
-Price: 15.92 ILS (sale, was 19.90 ILS)
 Availability: In stock
 
 ---
