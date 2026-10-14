@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:24:07.170Z",
+  "generated_at": "2026-10-14T10:25:32.661Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 888,
+  "count": 886,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -11949,54 +11949,6 @@
         "ארגוניות אקריל"
       ],
       "updated_at": "2026-09-07T11:54:50.899Z"
-    },
-    {
-      "id": "d8325d5e-277b-4547-b14e-2ef7d76f4165",
-      "slug": "argvnyt-akrylyt-dgm-stav-8vde4x",
-      "name": "ארגונית אקרילית דגם \"STAV\"",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 27.92,
-      "base_price": 34.9,
-      "sale_price": 27.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781613611307-jixwlc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-stav-8vde4x",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:50.943Z"
-    },
-    {
-      "id": "b0e9c116-fe1f-49d2-994c-6ac3ec61cdcb",
-      "slug": "argvnyt-akrylyt-dgm-iris-r0t2yv",
-      "name": "ארגונית אקרילית דגם \"IRIS\"",
-      "name_translations": {},
-      "description": "",
-      "short_description": "ארגונית אקרילית איכותית.\r\nלסידור ארגון ועיצוב.\r\nמתאימה למקרר , ארונות , חדרי אמבט ועוד.",
-      "sku": null,
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781613575279-n9ghoj.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-iris-r0t2yv",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:51.093Z"
     },
     {
       "id": "5cfc5d1d-13c7-4986-967b-f3f429fc7ee2",
