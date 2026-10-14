@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-12T16:15:36.382Z",
+  "generated_at": "2026-10-14T10:19:15.193Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 897,
+  "count": 896,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -19383,30 +19383,6 @@
         "כללי"
       ],
       "updated_at": "2026-09-07T11:55:58.803Z"
-    },
-    {
-      "id": "30dd32f6-f584-4c02-b83a-126fd25b4999",
-      "slug": "mtlh-kbysh-mtkt-tsba-shchvr-dgm-noga-fqmte7",
-      "name": "מתלה כביסה מתכת צבע שחור\r\nדגם NOGA\r\n",
-      "name_translations": {},
-      "description": "מתקני כביסה",
-      "short_description": null,
-      "sku": "7290121562973",
-      "brand": null,
-      "price": 55.92,
-      "base_price": 69.9,
-      "sale_price": 55.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669717-cjsn3a.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-mtkt-tsba-shchvr-dgm-noga-fqmte7",
-      "categories": [
-        "מתקני כביסה"
-      ],
-      "updated_at": "2026-09-07T11:55:58.799Z"
     },
     {
       "id": "5665814b-c9b1-4e06-b4ed-f9242ee7448f",
