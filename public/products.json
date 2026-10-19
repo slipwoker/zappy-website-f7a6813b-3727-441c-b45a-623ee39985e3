@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-14T10:28:33.114Z",
+  "generated_at": "2026-10-19T06:47:38.015Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 878,
+  "count": 877,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -18809,30 +18809,6 @@
       "updated_at": "2026-09-07T11:55:56.254Z"
     },
     {
-      "id": "d13c3035-3416-4d70-8aa5-5c67c59cf3de",
-      "slug": "aglt-shvk-dgm-oregon-775v3g",
-      "name": "עגלת שוק דגם OREGON\r\n",
-      "name_translations": {},
-      "description": "כללי, עגלות שירות",
-      "short_description": null,
-      "sku": "7290121563031",
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837670482-93pfiz.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shvk-dgm-oregon-775v3g",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:56.257Z"
-    },
-    {
       "id": "5d6037e1-78f8-4a9b-b796-8c21264314c2",
       "slug": "marz-5-ychydvt-kvlby-ats-pidm3m",
       "name": "מארז 5 יחידות קולבי עץ\r\n\r\n ",
@@ -18879,30 +18855,6 @@
         "כללי"
       ],
       "updated_at": "2026-09-28T08:27:15.583Z"
-    },
-    {
-      "id": "7b236a58-777f-4b22-8719-5561198d37a0",
-      "slug": "aglt-shvk-alvmynyvm-dgm-new-york-ztq9o8",
-      "name": "עגלת שוק אלומיניום דגם NEW YORK\r\n",
-      "name_translations": {},
-      "description": "כללי, עגלות שירות",
-      "short_description": null,
-      "sku": "7290121563048",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669876-ti3kbe.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-new-york-ztq9o8",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-09-07T11:55:56.327Z"
     },
     {
       "id": "8bbd79bd-01c3-4301-a7ac-6722d5a55551",
@@ -18975,6 +18927,30 @@
         "כללי"
       ],
       "updated_at": "2026-09-07T11:55:58.803Z"
+    },
+    {
+      "id": "bc12d9ec-dc00-4aa4-a76d-d095db0e536b",
+      "slug": "mtlh-kbysh-tsba-shchvr-dgm-noam-t57ytr",
+      "name": "מתלה כביסה צבע שחור\r\n דגם NOAM\r\n",
+      "name_translations": {},
+      "description": "<p><br></p>",
+      "short_description": null,
+      "sku": "7290121560412",
+      "brand": null,
+      "price": 159.92,
+      "base_price": 199.9,
+      "sale_price": 159.92,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1781518341521-ihwlj.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mtlh-kbysh-tsba-shchvr-dgm-noam-t57ytr",
+      "categories": [
+        "מתקני כביסה"
+      ],
+      "updated_at": "2026-10-19T06:47:11.049Z"
     },
     {
       "id": "8e965e6b-ff5c-4ef4-8b4c-0e3f5165ae2c",

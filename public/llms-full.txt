@@ -12364,17 +12364,6 @@ SKU: 7290121563444
 
 ---
 
-### עגלת שוק דגם OREGON
-
-URL: https://streetstock.co.il/product/aglt-shvk-dgm-oregon-775v3g
-Price: 103.92 ILS (sale, was 129.90 ILS)
-Availability: In stock
-SKU: 7290121563031
-
-כללי, עגלות שירות
-
----
-
 ### מארז 5 יחידות קולבי עץ
 
  
@@ -12393,17 +12382,6 @@ URL: https://streetstock.co.il/product/aglt-shvk-dgm-washingston-49ncy6
 Price: 199.92 ILS (sale, was 249.92 ILS)
 Availability: In stock
 SKU: 7290121563017
-
-כללי, עגלות שירות
-
----
-
-### עגלת שוק אלומיניום דגם NEW YORK
-
-URL: https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-new-york-ztq9o8
-Price: 119.92 ILS (sale, was 149.90 ILS)
-Availability: In stock
-SKU: 7290121563048
 
 כללי, עגלות שירות
 
@@ -12438,6 +12416,16 @@ Availability: In stock
 SKU: 729012162959
 
 כללי, עגלות שירות
+
+---
+
+### מתלה כביסה צבע שחור
+ דגם NOAM
+
+URL: https://streetstock.co.il/product/mtlh-kbysh-tsba-shchvr-dgm-noam-t57ytr
+Price: 159.92 ILS (sale, was 199.90 ILS)
+Availability: In stock
+SKU: 7290121560412
 
 ---
 
