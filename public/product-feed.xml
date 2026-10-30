@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Tue, 20 Oct 2026 06:42:46 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 04:17:30 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -8134,6 +8134,20 @@ ID890</g:title>
       <g:availability>in_stock</g:availability>
       <g:price>11.90 ILS</g:price>
       <g:sale_price>9.52 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>ארגוניות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>79b6238f-75d3-46e2-9945-6d84db32773e</g:id>
+      <g:title>סט 3 ארגוניות מגירה דגם &quot;CARMEL&quot; מידה XL</g:title>
+      <g:description>ארגונית מגירה אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , מתחת לכיור , חדרי אמבט ועוד.</g:description>
+      <g:link>https://streetstock.co.il/product/st-3-argvnyvt-mgyrh-dgm-carmel-mydh-xl-a7z8sc</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781614240109-z02djb.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>149.90 ILS</g:price>
+      <g:sale_price>119.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
