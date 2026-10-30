@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Fri, 30 Oct 2026 04:25:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 04:27:10 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -8064,6 +8064,62 @@ ID890</g:title>
       <g:availability>in_stock</g:availability>
       <g:price>14.90 ILS</g:price>
       <g:sale_price>11.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>ארגוניות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>6b9dcf4a-8312-4828-acf2-c276c9c44a9d</g:id>
+      <g:title>ארגונית אקרילית דגם &quot;SAPIR&quot;</g:title>
+      <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
+      <g:link>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-sapir-temhup</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781613424047-h9d31t.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>19.90 ILS</g:price>
+      <g:sale_price>15.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>ארגוניות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>de78f54a-4413-4905-8ea3-af0a4406b3a1</g:id>
+      <g:title>ארגונית אקרילית דגם &quot;RONIT&quot;</g:title>
+      <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
+      <g:link>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ronit-tn10fl</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781613514215-scyloe.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:sale_price>23.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>ארגוניות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>d8325d5e-277b-4547-b14e-2ef7d76f4165</g:id>
+      <g:title>ארגונית אקרילית דגם &quot;STAV&quot;</g:title>
+      <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
+      <g:link>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-stav-zo00nd</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781613611307-jixwlc.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.90 ILS</g:price>
+      <g:sale_price>27.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>ארגוניות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>b0e9c116-fe1f-49d2-994c-6ac3ec61cdcb</g:id>
+      <g:title>ארגונית אקרילית דגם &quot;IRIS&quot;</g:title>
+      <g:description>ארגונית אקרילית איכותית. לסידור ארגון ועיצוב. מתאימה למקרר , ארונות , חדרי אמבט ועוד.</g:description>
+      <g:link>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-iris-oba8le</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1781613575279-n9ghoj.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>24.90 ILS</g:price>
+      <g:sale_price>19.92 ILS</g:sale_price>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
