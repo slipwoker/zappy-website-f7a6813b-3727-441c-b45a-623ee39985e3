@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-10-30T04:27:10.488Z",
+  "generated_at": "2026-11-02T07:43:58.396Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 882,
@@ -8853,16 +8853,16 @@
     },
     {
       "id": "5afc926a-2375-47d4-85b5-dd363e40958e",
-      "slug": "st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-0ot91v",
-      "name": "סט 8 קופסאת אחסון אקרילית דגם אמילי150 מ\"ל ID876",
+      "slug": "st-20-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-m4qrzs",
+      "name": "סט 20 קופסאת אחסון אקרילית דגם אמילי150 מ\"ל ID876",
       "name_translations": {},
       "description": "",
       "short_description": "צנצנות אקריל פרימיום בגימור איכותי, המשלבות עיצוב מוקפד, עמידות גבוהה ונוחות שימוש יומיומית.",
       "sku": null,
       "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
+      "price": 99.9,
+      "base_price": 199.9,
+      "sale_price": 99.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785302206726-fokgas.webp",
@@ -8870,11 +8870,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-8-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-0ot91v",
+      "url": "https://streetstock.co.il/product/st-20-kvpsat-achsvn-akrylyt-dgm-amyly150-ml-id876-m4qrzs",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-09-07T11:54:26.904Z"
+      "updated_at": "2026-11-02T07:43:15.020Z"
     },
     {
       "id": "6797adec-8b49-4799-9701-fb6e31b0c0f3",
@@ -8928,16 +8928,16 @@
     },
     {
       "id": "3b4cfa5c-e426-4626-8c35-ca3abd95a913",
-      "slug": "st-8-kvpsat-achsvn-akrylyt-dgm-amyly300-ml-id877-ta2kv6",
-      "name": "סט 8 קופסאת אחסון אקרילית דגם אמילי300 מ\"ל ID877",
+      "slug": "st-20-kvpsat-achsvn-akrylyt-dgm-amyly300-ml-id877-wcg9xv",
+      "name": "סט 20 קופסאת אחסון אקרילית דגם אמילי300 מ\"ל ID877",
       "name_translations": {},
       "description": "",
       "short_description": "צנצנות אקריל פרימיום בגימור איכותי, המשלבות עיצוב מוקפד, עמידות גבוהה ונוחות שימוש יומיומית.",
       "sku": null,
       "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
+      "price": 99.9,
+      "base_price": 199.9,
+      "sale_price": 99.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1785302326006-jyz9.webp",
@@ -8945,11 +8945,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-8-kvpsat-achsvn-akrylyt-dgm-amyly300-ml-id877-ta2kv6",
+      "url": "https://streetstock.co.il/product/st-20-kvpsat-achsvn-akrylyt-dgm-amyly300-ml-id877-wcg9xv",
       "categories": [
         "צנצנות אקריל"
       ],
-      "updated_at": "2026-09-07T11:54:26.949Z"
+      "updated_at": "2026-11-02T07:43:50.283Z"
     },
     {
       "id": "544fc1cc-9fa0-4ed5-b5ea-617a583a63a6",
