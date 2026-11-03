@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-02T07:44:36.532Z",
+  "generated_at": "2026-11-03T07:20:32.846Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 882,
+  "count": 879,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -11243,30 +11243,6 @@
       "updated_at": "2026-09-07T11:54:45.549Z"
     },
     {
-      "id": "63755e16-fcaf-4ea6-afee-0c117f9d535a",
-      "slug": "argvnyt-mgyrh-4-kvmvt-dgm-shon-xeproh",
-      "name": "ארגונית מגירה 4 קומות  דגם SHON",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": "7290121565417",
-      "brand": null,
-      "price": 27.92,
-      "base_price": 34.9,
-      "sale_price": 27.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1782458820244-5bif0h.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-kvmvt-dgm-shon-xeproh",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:54:45.553Z"
-    },
-    {
       "id": "14af5322-4730-4c8d-9e5a-76056e844806",
       "slug": "dly-shtyph-akryl-13-lytr-9oogk6",
       "name": "דלי שטיפה אקריל 13 ליטר",
@@ -19145,28 +19121,6 @@
       "updated_at": "2026-09-07T11:55:59.031Z"
     },
     {
-      "id": "f4e615a7-0b9c-4f39-8f85-cf9528cf7e2d",
-      "slug": "argvnyt-2-kvmvt-lbn-dgm-texas-yl08y9",
-      "name": "ארגונית 2 קומות לבן דגם TEXAS",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121560856",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837667421-0c8zvw.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-2-kvmvt-lbn-dgm-texas-yl08y9",
-      "categories": [],
-      "updated_at": "2026-09-07T11:55:58.821Z"
-    },
-    {
       "id": "20b7f23e-cda4-43c2-a0d7-bb33685fc2cb",
       "slug": "aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-788of7",
       "name": "עגלת שירות 4 קומות לבן דגם CALIRFONIA",
@@ -19213,28 +19167,6 @@
         "עגלות שירות "
       ],
       "updated_at": "2026-10-12T14:24:38.892Z"
-    },
-    {
-      "id": "de7d3861-1099-4863-881a-9aecde90b318",
-      "slug": "argvnyt-2-kvmvt-shchvr-dgm-texas-xjdswq",
-      "name": "ארגונית 2 קומות שחור דגם TEXAS",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121560863",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837666873-f0w3z.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-2-kvmvt-shchvr-dgm-texas-xjdswq",
-      "categories": [],
-      "updated_at": "2026-09-07T11:56:01.000Z"
     },
     {
       "id": "ba9d51c7-36e0-4081-a643-36725ba183ad",
