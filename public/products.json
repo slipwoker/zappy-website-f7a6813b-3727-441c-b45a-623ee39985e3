@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-03T07:20:32.846Z",
+  "generated_at": "2026-11-03T07:32:16.724Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 879,
+  "count": 878,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -20495,30 +20495,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-09-07T11:56:12.792Z"
-    },
-    {
-      "id": "df7e2d89-6e8c-4048-b19a-849178ead91a",
-      "slug": "st-4-kvpsavt-achsvn-akrylyt-900-ml-dgm-anbr-hhljfg",
-      "name": "סט 4 קופסאות אחסון אקרילית 900 מ\"ל  דגם \"ענבר\" ",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837644621-gji1v.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-kvpsavt-achsvn-akrylyt-900-ml-dgm-anbr-hhljfg",
-      "categories": [
-        "צנצנות אקריל"
-      ],
-      "updated_at": "2026-09-07T11:56:12.967Z"
     },
     {
       "id": "d6ba1a3f-da38-4a3c-8227-96a43c152788",
