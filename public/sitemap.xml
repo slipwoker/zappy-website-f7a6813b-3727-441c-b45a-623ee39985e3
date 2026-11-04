@@ -2,85 +2,85 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://streetstock.co.il</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/about</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/contact-us</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/products</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/cart</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/checkout</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/login</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/account</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/order-success</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/:slug</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/category/:slug</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/privacy</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/terms</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/accessibility</loc>
-    <lastmod>2026-11-03</lastmod>
+    <lastmod>2026-11-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1195,12 +1195,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-id1083-s4z6nx</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -1615,18 +1609,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-lg7qyl</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjno9</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-khc35j</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -1663,19 +1645,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/skvmvn-agvl-shchvr-m-id514-prjj06</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-mor-id410-b64xb9</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -1688,18 +1658,6 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-id407-wqyjiw</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gaia-id406-hy8mwp</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/argvnyt-akrylyt-dgm-or-id405-bqd9xs</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3937,12 +3895,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/kysa-chvp-chlk-dgm-san-dxp8mx</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/kvpsavt-achsvn-crunch-17-lytr-o4djqw</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -3962,12 +3914,6 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/krsh-shbt-shlvm-bshylvb-shysh-dgm-rustic-cvtwru</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/st-3-kvpsavt-shkvpvt-mksh-tsbavny-dgm-rvzh-vwgvce</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -3999,12 +3945,6 @@
   <url>
     <loc>https://streetstock.co.il/product/pch-30-lytr-psym-dgm-vynh-ywu3q1</loc>
     <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/agrn-yrkvt-dgm-spyys-tsba-mvkh-g74acq</loc>
-    <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4183,18 +4123,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/svtaz-32-sm-53-lytr-q95882</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/svtaz-28-sm-38-lytr-qa95ht</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/svtaz-nyrvsth-32-sm-38-lytr-dmjdtb</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -4250,12 +4178,6 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-f85s0v</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/st-pch-mbrsht-aslh-dgm-lunaria-tsba-lbn-3kawah</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4322,12 +4244,6 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/mshtch-chytvk-nyrvsth-28x39-sm-420jr0</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/marz-10-ychydvt-kvlby-plstyk-c13xxr</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -4419,18 +4335,6 @@
   <url>
     <loc>https://streetstock.co.il/product/marz-shlvsh-nvrvt-ld-15-vvat-apamkd</loc>
     <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17</loc>
-    <lastmod>2026-09-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4801,12 +4705,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mtlh-kbysh-mtkt-tsba-ksp-dgm-noga-xokkop</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-ohio-lxwo07</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -4831,73 +4729,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-3xtb17</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-arizona-23nxz9</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-3-kvmvt-rchb-tsba-ats-dgm-taro-vjpkt6</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-3-kvmvt-rchb-tsba-shchvr-dgm-taro-jeve2s</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-5-kvmvt-tsba-shchvr-dgm-kora-ip61ol</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-3-kvmvt-tsba-shchvr-dgm-milo-kh9onu</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-kora-cw1jzr</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-3-kvmvt-tsba-ats-dgm-milo-z6fy5g</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/shvlchn-ats-sbyvn-shchvr-c0f0bq</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/shvlchn-ats-sbyvn-lbn-pk78vl</loc>
-    <lastmod>2026-09-08</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -5006,12 +4838,6 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/mbrsht-aslh-tsba-shchvr-dgm-bino-z6ykb6</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/st-pch-mbrsht-tsba-mvkh-dgm-clevo-7dmhfi</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -5179,12 +5005,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/argvnyt-mstvbbt-dgm-karin-qwff73</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://streetstock.co.il/product/st-10-kvpsavt-achsvn-akryly-dgm-adn-150-ml-gk75cp</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -5216,12 +5036,6 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/mamd-akryl-ntlh-lambtyh-dgm-clary-45y8ng</loc>
-    <lastmod>2026-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://streetstock.co.il/product/mamd-akryl-ntlh-lambtyh-dgm-lucen-lvq6vo</loc>
     <lastmod>2026-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

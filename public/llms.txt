@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 878** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 847** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ אפור בהיר
@@ -1526,15 +1526,6 @@ https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktr
 - Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
 - Image: https://streetstock.co.il/assets/product-1788071572186-37l85m.webp
 
-### הדום אחסון וישיבה 
-דגם FLORENCE  ID433
-https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp
-- Price: 95.92 ILS (sale, was 119.90 ILS)
-- Availability: In stock
-- Category: הדומים
-- Description: הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.
-- Image: https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp
-
 ### הדום אחסון וישיבה אובלי קורדרוי
  דגם TORINO
 ID1083
@@ -1661,6 +1652,15 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-avia-id1136-1j4l1f
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
 - Image: https://streetstock.co.il/assets/product-1787560630109-s732t.webp
+
+### ארגונית אקרילית דגם "AGAM"
+ID1138
+https://streetstock.co.il/product/argvnyt-akrylyt-dgm-agam-id1138-b3bt6j
+- Price: 11.92 ILS (sale, was 14.90 ILS)
+- Availability: In stock
+- Category: ארגוניות אקריל
+- Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
+- Image: https://streetstock.co.il/assets/product-1787560601586-dufh9i.webp
 
 ---
 
