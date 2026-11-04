@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-04T07:16:29.303Z",
+  "generated_at": "2026-11-04T07:17:03.396Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 847,
@@ -5821,27 +5821,27 @@
     },
     {
       "id": "c844d9d3-8f14-4268-98f1-0500b6a7f94b",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-78en68",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-69v344",
       "name": "סיר יציקת אלומיניום שחור MORO\n20 ס\"מ ID1106\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 87.92,
+      "price": 59.9,
       "base_price": 109.9,
-      "sale_price": 87.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559380101-zlnwm4.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-78en68",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-20-sm-id1106-69v344",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.455Z"
+      "updated_at": "2026-11-04T07:16:29.200Z"
     },
     {
       "id": "5fbd709e-5265-4c6c-bdee-827f7ea70c99",
@@ -5869,51 +5869,51 @@
     },
     {
       "id": "be98ff65-7d4f-4f0e-bb1a-ae5c62ff53c2",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-ahvati",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-k9q964",
       "name": "סיר יציקת אלומיניום שמנת MORO\n24 ס\"מ ID1102\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 103.92,
+      "price": 59.9,
       "base_price": 129.9,
-      "sale_price": 103.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559409212-j5rj.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-ahvati",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-24-sm-id1102-k9q964",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.465Z"
+      "updated_at": "2026-11-04T07:16:42.306Z"
     },
     {
       "id": "e60f6371-7279-4bf6-8190-6f141662d5f9",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-52advc",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-2ka3vm",
       "name": "סיר יציקת אלומיניום שמנת MORO\n28 ס\"מ ID1103\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 127.92,
+      "price": 59.9,
       "base_price": 159.9,
-      "sale_price": 127.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559420491-e6f14m.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-52advc",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-id1103-2ka3vm",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.466Z"
+      "updated_at": "2026-11-04T07:16:54.157Z"
     },
     {
       "id": "a015cf72-eafc-46bd-a3f3-ca854c64e2a2",
