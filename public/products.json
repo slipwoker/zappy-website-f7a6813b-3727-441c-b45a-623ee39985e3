@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-04T07:14:33.958Z",
+  "generated_at": "2026-11-04T07:16:29.303Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 847,
@@ -5629,195 +5629,195 @@
     },
     {
       "id": "15c8d1d7-701b-4764-8395-0994ce1996fe",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-gu88l0",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-zxnvvw",
       "name": "סיר יציקת אלומיניום שחור MORO\n32 ס\"מ סוטאז' ID1110\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 119.92,
+      "price": 59.9,
       "base_price": 149.9,
-      "sale_price": 119.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559202478-mskibl.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-gu88l0",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-32-sm-svtaz-id1110-zxnvvw",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:02.957Z"
+      "updated_at": "2026-11-04T07:14:40.951Z"
     },
     {
       "id": "007881b5-1996-4cb2-b125-0ec0198770c4",
-      "slug": "mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-qgbkhk",
+      "slug": "mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-lg9x3k",
       "name": "מחבת יציקת אלומיניום שמנת MORO\n20 ס\"מ ID1111",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת מחבתות MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 47.92,
+      "price": 34.9,
       "base_price": 59.9,
-      "sale_price": 47.92,
+      "sale_price": 34.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559244919-i7xej.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-qgbkhk",
+      "url": "https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1111-lg9x3k",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:03.001Z"
+      "updated_at": "2026-11-04T07:15:02.494Z"
     },
     {
       "id": "f60daddd-9841-4608-9bfa-4e97f45ca428",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-w6tp7q",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-m6pctb",
       "name": "סיר יציקת אלומיניום שחור MORO\n28 ס\"מ ID1108\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 127.92,
+      "price": 59.9,
       "base_price": 159.9,
-      "sale_price": 127.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559252706-wvilym.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-w6tp7q",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-id1108-m6pctb",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:03.075Z"
+      "updated_at": "2026-11-04T07:15:14.353Z"
     },
     {
       "id": "0b8b840a-66af-4ff7-a7f2-84677c7c1011",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-kbijfr",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-0k1bxo",
       "name": "סיר יציקת אלומיניום שחור MORO\nסוטאז' 24 ס\"מ ID1173\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 87.92,
+      "price": 59.9,
       "base_price": 109.9,
-      "sale_price": 87.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559310832-qsjklg.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-kbijfr",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-svtaz-24-sm-id1173-0k1bxo",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:03.244Z"
+      "updated_at": "2026-11-04T07:15:33.454Z"
     },
     {
       "id": "d7d26940-6621-47f3-98ff-f90f5a0f7a8b",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-vv0kby",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-3jiw9d",
       "name": "סיר יציקת אלומיניום שחור MORO\n28 ס\"מ סוטאז' ID1109\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 103.92,
+      "price": 59.9,
       "base_price": 129.9,
-      "sale_price": 103.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559320178-6no9k7.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-vv0kby",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-28-sm-svtaz-id1109-3jiw9d",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.328Z"
+      "updated_at": "2026-11-04T07:15:23.033Z"
     },
     {
       "id": "ea0a7b30-21fd-4a9b-bf78-2cda626c72b9",
-      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-v2pujm",
+      "slug": "syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-37umhn",
       "name": "סיר יציקת אלומיניום שחור MORO\n24 ס\"מ ID1107\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 103.92,
+      "price": 59.9,
       "base_price": 129.9,
-      "sale_price": 103.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559336782-enewo.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-v2pujm",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shchvr-moro-24-sm-id1107-37umhn",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.415Z"
+      "updated_at": "2026-11-04T07:15:42.695Z"
     },
     {
       "id": "04ec2991-a384-4ef8-8bf6-0e86e1142838",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-ydwuo1",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-8za9sa",
       "name": "סיר יציקת אלומיניום שמנת MORO\n32 ס\"מ סוטאז' ID1105\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 119.92,
+      "price": 59.9,
       "base_price": 149.9,
-      "sale_price": 119.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559348146-vqjpka.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-ydwuo1",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-32-sm-svtaz-id1105-8za9sa",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.415Z"
+      "updated_at": "2026-11-04T07:15:51.553Z"
     },
     {
       "id": "db6c6789-4cc6-4f12-b353-5afdd7b52ecd",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-5v7f6g",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-26k020",
       "name": "סיר יציקת אלומיניום שמנת MORO\n28 ס\"מ סוטאז' ID1104\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 103.92,
+      "price": 59.9,
       "base_price": 129.9,
-      "sale_price": 103.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559364653-mk6ijd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-5v7f6g",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-28-sm-svtaz-id1104-26k020",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.461Z"
+      "updated_at": "2026-11-04T07:16:03.884Z"
     },
     {
       "id": "c844d9d3-8f14-4268-98f1-0500b6a7f94b",
@@ -5845,27 +5845,27 @@
     },
     {
       "id": "5fbd709e-5265-4c6c-bdee-827f7ea70c99",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-r1prh3",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-4w5pxo",
       "name": "סיר יציקת אלומיניום שמנת MORO\nסוטאז' 24 ס\"מ ID1172\n",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 87.92,
+      "price": 59.9,
       "base_price": 109.9,
-      "sale_price": 87.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559394661-s43fo2.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-r1prh3",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-svtaz-24-sm-id1172-4w5pxo",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.415Z"
+      "updated_at": "2026-11-04T07:16:17.710Z"
     },
     {
       "id": "be98ff65-7d4f-4f0e-bb1a-ae5c62ff53c2",
@@ -5917,27 +5917,27 @@
     },
     {
       "id": "a015cf72-eafc-46bd-a3f3-ca854c64e2a2",
-      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-7ga589",
+      "slug": "syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-ltqprv",
       "name": "סיר יציקת אלומיניום שמנת MORO\n20 ס\"מ ID1101",
       "name_translations": {},
       "description": "",
       "short_description": "סדרת סירי MORO – יציקת אלומיניום איכותית בציפוי NON-STICK, בעיצוב יוקרתי עם ידיות בגימור זהב. מראה מרהיב שמשדרג את המטבח, לצד איכות ונוחות מושלמת לבישול היומיומי.",
       "sku": null,
       "brand": null,
-      "price": 87.92,
+      "price": 59.9,
       "base_price": 109.9,
-      "sale_price": 87.92,
+      "sale_price": 59.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787559431820-3qogos.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-7ga589",
+      "url": "https://streetstock.co.il/product/syr-ytsykt-alvmynyvm-shmnt-moro-20-sm-id1101-ltqprv",
       "categories": [
         "סירים ומחבתות"
       ],
-      "updated_at": "2026-09-07T11:54:04.468Z"
+      "updated_at": "2026-11-04T07:14:50.085Z"
     },
     {
       "id": "17c02fe2-789c-4582-84b7-c434a43d654c",
