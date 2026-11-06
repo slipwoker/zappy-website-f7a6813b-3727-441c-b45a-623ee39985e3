@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-04T07:18:03.813Z",
+  "generated_at": "2026-11-06T08:17:36.609Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 847,
+  "count": 848,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -11046,7 +11046,7 @@
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-09-07T11:54:45.549Z"
+      "updated_at": "2026-11-06T08:16:35.150Z"
     },
     {
       "id": "4114f314-86b9-4f19-8c7f-cd40bd02b42c",
@@ -16939,6 +16939,30 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-09-07T11:55:41.528Z"
+    },
+    {
+      "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",
+      "slug": "zvg-mchlky-mdpym-akryl-y6fhgh",
+      "name": "זוג מחלקי מדפים אקריל\r\n",
+      "name_translations": {},
+      "description": "<p><br></p>",
+      "short_description": null,
+      "sku": "7290121564526",
+      "brand": null,
+      "price": 23.9,
+      "base_price": 29.9,
+      "sale_price": 23.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1780837703571-fakf6.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-y6fhgh",
+      "categories": [
+        "מוצרי אקריל"
+      ],
+      "updated_at": "2026-11-06T08:17:00.818Z"
     },
     {
       "id": "5b6ec480-e9f6-4ba9-a4d3-d7dcf2186949",

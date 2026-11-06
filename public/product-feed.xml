@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Wed, 04 Nov 2026 07:18:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:17:36 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -11621,6 +11621,21 @@ ID890</g:title>
       <g:condition>new</g:condition>
       <g:brand>Street Stock</g:brand>
       <g:mpn>7290121564533</g:mpn>
+      <g:product_type>מוצרי אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>778574b3-556a-4a3a-8b61-3fce0b3efa4a</g:id>
+      <g:title>זוג מחלקי מדפים אקריל
+</g:title>
+      <g:description>זוג מחלקי מדפים אקריל</g:description>
+      <g:link>https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-y6fhgh</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1780837703571-fakf6.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>29.90 ILS</g:price>
+      <g:sale_price>23.90 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:mpn>7290121564526</g:mpn>
       <g:product_type>מוצרי אקריל</g:product_type>
     </item>
     <item>
