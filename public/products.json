@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-07T16:15:48.513Z",
+  "generated_at": "2026-11-07T16:16:23.394Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 848,
@@ -1089,27 +1089,27 @@
     },
     {
       "id": "7399b507-3d9c-460d-8aa3-c463ee7a957f",
-      "slug": "shtych-slvn-dgm-armndv-200x290-sm-lbn-lsy55n",
+      "slug": "shtych-slvn-dgm-armndv-200x290-sm-lbn-qnje6n",
       "name": "שטיח סלון דגם ארמנדו 200X290 ס\"מ לבן",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 379.9,
+      "price": 299.9,
       "base_price": 699.9,
-      "sale_price": 379.9,
+      "sale_price": 299.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808337903-9eb4hb.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-lbn-lsy55n",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-lbn-qnje6n",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:32:41.056Z"
+      "updated_at": "2026-11-07T16:16:02.480Z"
     },
     {
       "id": "98be2316-ae27-4da1-acfa-a547666c25d6",
