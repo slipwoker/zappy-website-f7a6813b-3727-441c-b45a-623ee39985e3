@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-07T16:13:08.790Z",
+  "generated_at": "2026-11-07T16:13:58.410Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 848,
@@ -897,51 +897,51 @@
     },
     {
       "id": "0d94a95d-0c43-4b0b-9412-ed7dc85b1c63",
-      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-8drpgu",
+      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-7t390o",
       "name": "שטיח סלון דגם ארמנדו 160X220 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 279.9,
+      "price": 199.9,
       "base_price": 499.9,
-      "sale_price": 279.9,
+      "sale_price": 199.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808045975-mxp77.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-8drpgu",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-7t390o",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:27:48.451Z"
+      "updated_at": "2026-11-07T16:13:24.342Z"
     },
     {
       "id": "92ef3459-545a-4cc9-be93-d58463b544dd",
-      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-h9pzua",
+      "slug": "shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-plfk3f",
       "name": "שטיח סלון דגם ארמנדו 160X220 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 279.9,
+      "price": 199.9,
       "base_price": 499.9,
-      "sale_price": 279.9,
+      "sale_price": 199.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808066283-8qsqhp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-h9pzua",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-plfk3f",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:28:00.818Z"
+      "updated_at": "2026-11-07T16:13:42.669Z"
     },
     {
       "id": "271a9622-be36-4eaf-8f13-e1df0b75a62d",
