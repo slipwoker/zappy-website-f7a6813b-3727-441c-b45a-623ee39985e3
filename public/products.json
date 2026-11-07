@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-07T16:11:43.025Z",
+  "generated_at": "2026-11-07T16:13:08.790Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 848,
@@ -849,51 +849,51 @@
     },
     {
       "id": "00efd3b4-48e4-4ddc-87de-bf8f5e91c6cc",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-mvkh-j6mpu6",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-mvkh-9u23rj",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ מוקה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 379.9,
+      "price": 299.9,
       "base_price": 699.9,
-      "sale_price": 379.9,
+      "sale_price": 299.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808200215-dzyazi.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-mvkh-j6mpu6",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-mvkh-9u23rj",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:30:12.504Z"
+      "updated_at": "2026-11-07T16:12:46.930Z"
     },
     {
       "id": "44648fac-0e27-4474-abc4-cd2bb2602123",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-lbn-7gpoyk",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-lbn-sw5et1",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ לבן",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 379.9,
+      "price": 299.9,
       "base_price": 699.9,
-      "sale_price": 379.9,
+      "sale_price": 299.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808245622-z6ce2i.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-lbn-7gpoyk",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-lbn-sw5et1",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:30:56.482Z"
+      "updated_at": "2026-11-07T16:13:00.760Z"
     },
     {
       "id": "0d94a95d-0c43-4b0b-9412-ed7dc85b1c63",
@@ -945,51 +945,51 @@
     },
     {
       "id": "271a9622-be36-4eaf-8f13-e1df0b75a62d",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-gqqv5b",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-qx8kvu",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 379.9,
+      "price": 299.9,
       "base_price": 699.9,
-      "sale_price": 379.9,
+      "sale_price": 299.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808254264-e50u9.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-gqqv5b",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-qx8kvu",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:31:11.109Z"
+      "updated_at": "2026-11-07T16:12:31.264Z"
     },
     {
       "id": "8a95664c-1e5c-4fb2-a6ad-45786834403c",
-      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-7mlh4k",
+      "slug": "shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-xt8irw",
       "name": "שטיח סלון דגם פלמינו 200X290 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 379.9,
+      "price": 299.9,
       "base_price": 699.9,
-      "sale_price": 379.9,
+      "sale_price": 299.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1791808268271-bdems8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-7mlh4k",
+      "url": "https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-xt8irw",
       "categories": [
         "שטיחי סלון"
       ],
-      "updated_at": "2026-10-12T12:31:30.258Z"
+      "updated_at": "2026-11-07T16:12:18.342Z"
     },
     {
       "id": "86748229-aa96-4114-a61d-52be86ef1a37",
