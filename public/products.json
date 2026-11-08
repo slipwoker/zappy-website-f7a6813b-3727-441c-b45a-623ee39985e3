@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:09:39.661Z",
+  "generated_at": "2026-11-08T13:09:49.357Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -561,7 +561,7 @@
     },
     {
       "id": "2d97d5d1-0d98-4b6f-907b-20ce1899e594",
-      "slug": "slslt-ratn-245x19x105-sm-sdrt-id705-baski-24-ec9j4u",
+      "slug": "slslt-ratn-245x19x105-sm-sdrt-id705-baski-24-g6uyyk",
       "name": "סלסלת ראטן 24.5X19X10.5 ס\"מ\nסדרת ID705 BASKI (24)\n",
       "name_translations": {},
       "description": "",
@@ -572,14 +572,16 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143364365-2210f.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-ratn-245x19x105-sm-sdrt-id705-baski-24-ec9j4u",
+      "url": "https://streetstock.co.il/product/slslt-ratn-245x19x105-sm-sdrt-id705-baski-24-g6uyyk",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.636Z"
+      "updated_at": "2026-11-08T13:09:44.140Z"
     },
     {
       "id": "c0e1e416-b6f2-4d07-a87a-1d760d553bb4",
