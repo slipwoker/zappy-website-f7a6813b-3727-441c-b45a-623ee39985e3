@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:05:24.679Z",
+  "generated_at": "2026-11-08T13:09:05.358Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -393,7 +393,7 @@
     },
     {
       "id": "a925deb2-510a-45e5-9a06-d163c445a43b",
-      "slug": "aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-8xqeo8",
+      "slug": "aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-9sr7pa",
       "name": "עגלת שירות 3 קומות דגם BOSTON\nID1187 (1)",
       "name_translations": {},
       "description": "",
@@ -404,18 +404,21 @@
       "base_price": 199.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143253673-vfvzb.webp",
+        "https://streetstock.co.il/assets/product-1794143239913-4e4wsd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-8xqeo8",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-9sr7pa",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.293Z"
+      "updated_at": "2026-11-08T13:07:46.395Z"
     },
     {
       "id": "1303a823-35e8-4608-aee6-a6529984a521",
-      "slug": "aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-y3oler",
+      "slug": "aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-mytgw1",
       "name": "עגלת שירות 4 קומות דגם BOSTON\nID1188 (1)",
       "name_translations": {},
       "description": "",
@@ -426,18 +429,21 @@
       "base_price": 249.9,
       "sale_price": 149.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143277435-k7oc9o.webp",
+        "https://streetstock.co.il/assets/product-1794143259512-wrxjc7.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-y3oler",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-mytgw1",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.293Z"
+      "updated_at": "2026-11-08T13:08:09.959Z"
     },
     {
       "id": "231fc493-db1d-4f36-9814-3bf1afb810ca",
-      "slug": "slslt-ratn-34x24x85-sm-sdrt-id709-baski-24-u0w67u",
+      "slug": "slslt-ratn-34x24x85-sm-sdrt-id709-baski-24-ded6yw",
       "name": "סלסלת ראטן 34X24X8.5 ס\"מ\nסדרת ID709 BASKI (24)\n ",
       "name_translations": {},
       "description": "",
@@ -448,18 +454,20 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143283877-xphgdt.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-ratn-34x24x85-sm-sdrt-id709-baski-24-u0w67u",
+      "url": "https://streetstock.co.il/product/slslt-ratn-34x24x85-sm-sdrt-id709-baski-24-ded6yw",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:54.958Z"
+      "updated_at": "2026-11-08T13:08:30.382Z"
     },
     {
       "id": "fee51a26-1998-48e3-b990-73357a6a9ad1",
-      "slug": "slslt-ratn-343x163x133-sm-sdrt-id710-baski-24-f83prj",
+      "slug": "slslt-ratn-343x163x133-sm-sdrt-id710-baski-24-zarnfs",
       "name": "סלסלת ראטן 34.3X16.3X13.3 ס\"מ\nסדרת ID710 BASKI (24)\n ",
       "name_translations": {},
       "description": "",
@@ -470,14 +478,16 @@
       "base_price": 17.9,
       "sale_price": 14.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143309131-al6xuj.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-ratn-343x163x133-sm-sdrt-id710-baski-24-f83prj",
+      "url": "https://streetstock.co.il/product/slslt-ratn-343x163x133-sm-sdrt-id710-baski-24-zarnfs",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:54.957Z"
+      "updated_at": "2026-11-08T13:08:41.811Z"
     },
     {
       "id": "a521452a-6fde-4f34-baa3-d688e6226090",
@@ -525,7 +535,7 @@
     },
     {
       "id": "d63a2919-36ad-47ee-99ed-dc9fd13544dd",
-      "slug": "slslt-ratn-28x18x75-sm-sdrt-id707-baski-24-d4rubr",
+      "slug": "slslt-ratn-28x18x75-sm-sdrt-id707-baski-24-g3enxc",
       "name": "סלסלת ראטן 28X18X7.5 ס\"מ\nסדרת ID707 BASKI (24)\n ",
       "name_translations": {},
       "description": "",
@@ -536,14 +546,16 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143332544-qlrj6t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-ratn-28x18x75-sm-sdrt-id707-baski-24-d4rubr",
+      "url": "https://streetstock.co.il/product/slslt-ratn-28x18x75-sm-sdrt-id707-baski-24-g3enxc",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.700Z"
+      "updated_at": "2026-11-08T13:09:02.635Z"
     },
     {
       "id": "2d97d5d1-0d98-4b6f-907b-20ce1899e594",
