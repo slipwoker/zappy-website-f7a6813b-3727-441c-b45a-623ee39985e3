@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:28:26.160Z",
+  "generated_at": "2026-11-08T13:29:25.698Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1545,7 +1545,7 @@
     },
     {
       "id": "e777fabe-3743-4acf-a1e7-43751016d0df",
-      "slug": "pch-tats-rglyym-15-lytr-lbn-id464-8-6lpayq",
+      "slug": "pch-tats-rglyym-15-lytr-lbn-id464-8-i5qiyt",
       "name": "פח טאצ' + רגליים 15 ליטר לבן\nID464 (8)",
       "name_translations": {},
       "description": "",
@@ -1556,15 +1556,18 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144482374-z1gsvd.webp",
+        "https://streetstock.co.il/assets/product-1794144464278-8g8we.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-lbn-id464-8-6lpayq",
+      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-lbn-id464-8-i5qiyt",
       "categories": [
         "פחי מטבח",
         "פחי שירותים"
       ],
-      "updated_at": "2026-11-08T12:43:48.828Z"
+      "updated_at": "2026-11-08T13:28:53.812Z"
     },
     {
       "id": "95083b6f-e71d-408d-a612-dd90df31a253",
