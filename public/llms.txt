@@ -71,28 +71,32 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 903** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע כחול
-https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-kchvl-ln9pb8
+https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-kchvl-ro9xbz
 - Price: 14.90 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
+- Image: https://streetstock.co.il/assets/product-1794142142192-qbpfp8.webp
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע לבן
-https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-lbn-yc0qbr
+https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-lbn-h0bi35
 - Price: 14.90 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
+- Image: https://streetstock.co.il/assets/product-1794142127229-ndxvbf.webp
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע שחור
-https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-shchvr-f9wx8f
+https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-shchvr-otq7ew
 - Price: 14.90 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
+- Image: https://streetstock.co.il/assets/product-1794142158506-aj1ttd.webp
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע כתום
-https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-ktvm-q7ol9d
+https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-ktvm-x8u29d
 - Price: 14.90 ILS (sale, was 24.90 ILS)
 - Availability: In stock
 - Category: סכיני מטבח
+- Image: https://streetstock.co.il/assets/product-1794142117298-6fyb8.webp
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע אדום
 https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-advm-v7jmi8
