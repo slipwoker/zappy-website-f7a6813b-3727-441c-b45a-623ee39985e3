@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:53:22.213Z",
+  "generated_at": "2026-11-08T12:54:14.889Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -249,7 +249,7 @@
     },
     {
       "id": "d444ac97-fbca-46da-b38a-74f03541faa0",
-      "slug": "aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-uk69le",
+      "slug": "aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-jrfxw8",
       "name": "עגלת שירות 3 קומות דגם SAN DIEGO\nID1233 (6)",
       "name_translations": {},
       "description": "",
@@ -260,14 +260,17 @@
       "base_price": 149.9,
       "sale_price": 69.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142398171-a98o6.webp",
+        "https://streetstock.co.il/assets/product-1794142388405-ryx6jf.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-uk69le",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-jrfxw8",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.322Z"
+      "updated_at": "2026-11-08T12:53:40.016Z"
     },
     {
       "id": "577495c7-249b-4ae5-b83a-0532571d1219",
