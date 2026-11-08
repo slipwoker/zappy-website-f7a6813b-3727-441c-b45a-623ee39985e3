@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:25:10.842Z",
+  "generated_at": "2026-11-08T13:25:28.610Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -929,7 +929,7 @@
     },
     {
       "id": "40458eab-a841-4f7c-b0e4-964dc0de3943",
-      "slug": "mdp-tsp-100-sm-tsba-shchvr-id1193-6-n1j5iz",
+      "slug": "mdp-tsp-100-sm-tsba-shchvr-id1193-6-72eekx",
       "name": "מדף צף 100 ס\"מ\nצבע שחור ID1193 (6)",
       "name_translations": {},
       "description": "",
@@ -940,18 +940,20 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144291942-pkrw5c.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-shchvr-id1193-6-n1j5iz",
+      "url": "https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-shchvr-id1193-6-72eekx",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-11-08T12:43:52.351Z"
+      "updated_at": "2026-11-08T13:25:02.517Z"
     },
     {
       "id": "0d06b5cf-31f5-41db-8adc-31d234176671",
-      "slug": "mdp-tsp-80-sm-tsba-shchvr-id1192-89qor6",
+      "slug": "mdp-tsp-80-sm-tsba-shchvr-id1192-lloyra",
       "name": "מדף צף 80 ס\"מ\nצבע שחור ID1192",
       "name_translations": {},
       "description": "",
@@ -962,18 +964,20 @@
       "base_price": 79.9,
       "sale_price": 63.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144300499-m2yli3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-shchvr-id1192-89qor6",
+      "url": "https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-shchvr-id1192-lloyra",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-11-08T12:43:52.293Z"
+      "updated_at": "2026-11-08T13:25:13.697Z"
     },
     {
       "id": "d6b3f3ee-3a4f-448c-81c3-53ba1e1026a2",
-      "slug": "mdp-tsp-60-sm-tsba-shchvr-id1191-6-hcb64q",
+      "slug": "mdp-tsp-60-sm-tsba-shchvr-id1191-6-r6npow",
       "name": "מדף צף 60 ס\"מ\nצבע שחור ID1191 (6)",
       "name_translations": {},
       "description": "",
@@ -984,14 +988,16 @@
       "base_price": 69.9,
       "sale_price": 55.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144311715-5bo5nn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-shchvr-id1191-6-hcb64q",
+      "url": "https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-shchvr-id1191-6-r6npow",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-11-08T12:43:51.288Z"
+      "updated_at": "2026-11-08T13:25:21.168Z"
     },
     {
       "id": "4ccacf6d-8343-4730-9568-000737359973",
