@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:20:37.928Z",
+  "generated_at": "2026-11-08T13:20:48.370Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -731,7 +731,7 @@
     },
     {
       "id": "28f91428-9b1c-473a-8d62-3fbad7e4ae6c",
-      "slug": "marz-3-kvpsavt-achsvn-mydh-id1217-m-24-buxyhi",
+      "slug": "marz-3-kvpsavt-achsvn-mydh-id1217-m-24-2rtnn3",
       "name": "מארז 3 קופסאות אחסון\nמידה ID1217 M (24)",
       "name_translations": {},
       "description": "",
@@ -742,14 +742,16 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144036652-gjjvk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1217-m-24-buxyhi",
+      "url": "https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1217-m-24-2rtnn3",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-11-08T12:43:52.488Z"
+      "updated_at": "2026-11-08T13:20:47.600Z"
     },
     {
       "id": "8fba1d52-3dc1-4b81-a1c2-26e13c5f189d",
