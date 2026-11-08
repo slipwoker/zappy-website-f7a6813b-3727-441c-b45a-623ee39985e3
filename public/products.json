@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T08:01:04.046Z",
+  "generated_at": "2026-11-08T08:02:05.858Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 846,
+  "count": 844,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -2984,28 +2984,6 @@
       "updated_at": "2026-10-01T08:54:23.059Z"
     },
     {
-      "id": "a03095b2-c7b2-4383-a9b3-875c9e974eba",
-      "slug": "shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu",
-      "name": "שטיח כניסה לבית דגם BASIC\nמידות : 40X60 ס\"מ ID962",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu",
-      "categories": [
-        "שטיחי מטבח"
-      ],
-      "updated_at": "2026-10-01T08:28:02.517Z"
-    },
-    {
       "id": "b90d2611-286e-4f25-970f-99a81a1e9c0f",
       "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko",
       "name": "ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס\"מ ID984",
@@ -3028,28 +3006,6 @@
         "סלסלות אחסון"
       ],
       "updated_at": "2026-10-01T08:53:59.281Z"
-    },
-    {
-      "id": "cb113e2d-07e8-4bee-9ff4-870e76fd1434",
-      "slug": "shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde",
-      "name": "שטיח כניסה לבית דגם LUCA\nמידות : 40X60 ס\"מ ID963",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 9.52,
-      "base_price": 11.9,
-      "sale_price": 9.52,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde",
-      "categories": [
-        "שטיחי מטבח"
-      ],
-      "updated_at": "2026-10-01T08:28:02.500Z"
     },
     {
       "id": "c11da939-74a5-4dab-b5a4-30ceac6033c9",

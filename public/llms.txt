@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 846** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 844** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ אפור בהיר
@@ -1017,26 +1017,12 @@ https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer
 - Category: סלסלות אחסון
 - Image: https://streetstock.co.il/assets/product-1790844848387-veomrk.webp
 
-### שטיח כניסה לבית דגם BASIC
-מידות : 40X60 ס"מ ID962
-https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu
-- Price: 15.92 ILS (sale, was 19.90 ILS)
-- Availability: In stock
-- Category: שטיחי מטבח
-
 ### ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס"מ ID984
 https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko
 - Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: סלסלות אחסון
 - Image: https://streetstock.co.il/assets/product-1790844824645-g3amyb.webp
-
-### שטיח כניסה לבית דגם LUCA
-מידות : 40X60 ס"מ ID963
-https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde
-- Price: 9.52 ILS (sale, was 11.90 ILS)
-- Availability: In stock
-- Category: שטיחי מטבח
 
 ### ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER
 מידות : 32X10X10 ס"מ ID985
@@ -1682,6 +1668,24 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ravid-id1134-6q3w3d
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
 - Image: https://streetstock.co.il/assets/product-1787560656502-asaenl.webp
+
+### ארגונית אקרילית דגם "AMIT"
+ID1135
+https://streetstock.co.il/product/argvnyt-akrylyt-dgm-amit-id1135-frte49
+- Price: 15.92 ILS (sale, was 19.90 ILS)
+- Availability: In stock
+- Category: ארגוניות אקריל
+- Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
+- Image: https://streetstock.co.il/assets/product-1787560645329-gxcm6.webp
+
+### ארגונית אקרילית דגם "OMER"
+ID1133
+https://streetstock.co.il/product/argvnyt-akrylyt-dgm-omer-id1133-q5pklk
+- Price: 11.92 ILS (sale, was 14.90 ILS)
+- Availability: In stock
+- Category: ארגוניות אקריל
+- Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
+- Image: https://streetstock.co.il/assets/product-1787560668969-5si79e.webp
 
 ---
 

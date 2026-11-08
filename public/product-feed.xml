@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 08 Nov 2026 08:01:04 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 08:02:05 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -1901,20 +1901,6 @@ ID969</g:title>
       <g:product_type>סלסלות אחסון</g:product_type>
     </item>
     <item>
-      <g:id>a03095b2-c7b2-4383-a9b3-875c9e974eba</g:id>
-      <g:title>שטיח כניסה לבית דגם BASIC
-מידות : 40X60 ס&quot;מ ID962</g:title>
-      <g:description>שטיח כניסה לבית דגם BASIC מידות : 40X60 ס&quot;מ ID962</g:description>
-      <g:link>https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu</g:link>
-      <g:availability>in_stock</g:availability>
-      <g:price>19.90 ILS</g:price>
-      <g:sale_price>15.92 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שטיחי מטבח</g:product_type>
-    </item>
-    <item>
       <g:id>b90d2611-286e-4f25-970f-99a81a1e9c0f</g:id>
       <g:title>ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס&quot;מ ID984</g:title>
       <g:description>ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס&quot;מ ID984</g:description>
@@ -1927,20 +1913,6 @@ ID969</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>סלסלות אחסון</g:product_type>
-    </item>
-    <item>
-      <g:id>cb113e2d-07e8-4bee-9ff4-870e76fd1434</g:id>
-      <g:title>שטיח כניסה לבית דגם LUCA
-מידות : 40X60 ס&quot;מ ID963</g:title>
-      <g:description>שטיח כניסה לבית דגם LUCA מידות : 40X60 ס&quot;מ ID963</g:description>
-      <g:link>https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde</g:link>
-      <g:availability>in_stock</g:availability>
-      <g:price>11.90 ILS</g:price>
-      <g:sale_price>9.52 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שטיחי מטבח</g:product_type>
     </item>
     <item>
       <g:id>c11da939-74a5-4dab-b5a4-30ceac6033c9</g:id>
