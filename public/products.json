@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:11:30.132Z",
+  "generated_at": "2026-11-08T13:11:39.829Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -679,7 +679,7 @@
     },
     {
       "id": "d02a9da0-f09e-4602-9c10-57bfbaf82e53",
-      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-7znp2m",
+      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-htlb12",
       "name": "שרפרף מתקפל סדרת FOLDIX\nמידה ID1203 L (10)",
       "name_translations": {},
       "description": "",
@@ -695,11 +695,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-7znp2m",
+      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-htlb12",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T13:11:23.162Z"
+      "updated_at": "2026-11-08T13:11:33.631Z"
     },
     {
       "id": "b1e86522-48c6-45f3-8442-e6e4947248fc",
