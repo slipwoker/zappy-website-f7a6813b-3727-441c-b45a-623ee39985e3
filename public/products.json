@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:20:48.370Z",
+  "generated_at": "2026-11-08T13:21:23.573Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1195,7 +1195,7 @@
     },
     {
       "id": "dc092c2f-a8d8-4165-91b5-3b48005a8bf4",
-      "slug": "argvnyt-mgyrh-4-taym-dgm-arbel-id1223-12-yiasau",
+      "slug": "argvnyt-mgyrh-4-taym-dgm-arbel-id1223-12-t4dhgk",
       "name": "ארגונית מגירה 4 תאים | דגם ARBEL\nID1223 (12)\n",
       "name_translations": {},
       "description": "",
@@ -1206,18 +1206,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144045344-3vxvl.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-taym-dgm-arbel-id1223-12-yiasau",
+      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-taym-dgm-arbel-id1223-12-t4dhgk",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.975Z"
+      "updated_at": "2026-11-08T13:21:03.973Z"
     },
     {
       "id": "ff38862c-61bc-4b20-a7f0-a19c2c47812a",
-      "slug": "argvnyt-mgyrh-3-taym-dgm-lev-id1222-12-c5w6tc",
+      "slug": "argvnyt-mgyrh-3-taym-dgm-lev-id1222-12-1iz74a",
       "name": "ארגונית מגירה 3 תאים | דגם LEV\nID1222 (12)\n",
       "name_translations": {},
       "description": "",
@@ -1228,14 +1230,16 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144064051-lmufn3.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-3-taym-dgm-lev-id1222-12-c5w6tc",
+      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-3-taym-dgm-lev-id1222-12-1iz74a",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.969Z"
+      "updated_at": "2026-11-08T13:21:15.323Z"
     },
     {
       "id": "3223a898-4c2b-4ca9-8684-6932da69466d",
