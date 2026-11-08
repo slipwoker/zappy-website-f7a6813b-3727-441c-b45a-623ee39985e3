@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T07:52:15.096Z",
+  "generated_at": "2026-11-08T07:54:37.247Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 848,
@@ -282,7 +282,7 @@
     },
     {
       "id": "9dbdaf35-144a-4fd7-af62-3bd818b1328f",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-5im6d7",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-zs1p6b",
       "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
@@ -298,12 +298,12 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-5im6d7",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-zs1p6b",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-11-08T07:51:37.384Z"
+      "updated_at": "2026-11-08T07:54:01.198Z"
     },
     {
       "id": "789a9a45-7c39-4bd9-b765-eddd29cfd261",
