@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:12:09.580Z",
+  "generated_at": "2026-11-08T13:13:02.988Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1035,7 +1035,7 @@
     },
     {
       "id": "f84f3df6-6bff-414b-9a8c-f402c38baae4",
-      "slug": "mykl-achsvn-pkk-mzygh-1800-ml-dgm-id1230-nave-12-wrwoaq",
+      "slug": "mykl-achsvn-pkk-mzygh-1800-ml-dgm-id1230-nave-12-a7d27q",
       "name": "מיכל אחסון + פקק מזיגה 1800 מ\"ל\nדגם ID1230 NAVE (12)",
       "name_translations": {},
       "description": "",
@@ -1046,18 +1046,20 @@
       "base_price": 31.9,
       "sale_price": 25.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143516142-gnfit8.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1800-ml-dgm-id1230-nave-12-wrwoaq",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1800-ml-dgm-id1230-nave-12-a7d27q",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:51.159Z"
+      "updated_at": "2026-11-08T13:12:13.051Z"
     },
     {
       "id": "d0164d33-bc9c-4368-9028-2af523e0f3b2",
-      "slug": "mykl-achsvn-pkk-mzygh-1300-ml-dgm-id1228-nave-12-qefca0",
+      "slug": "mykl-achsvn-pkk-mzygh-1300-ml-dgm-id1228-nave-12-dyxzds",
       "name": "מיכל אחסון + פקק מזיגה 1300 מ\"ל\nדגם ID1228 NAVE (12) ",
       "name_translations": {},
       "description": "",
@@ -1068,18 +1070,20 @@
       "base_price": 26.9,
       "sale_price": 21.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143530657-871ke.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1300-ml-dgm-id1228-nave-12-qefca0",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1300-ml-dgm-id1228-nave-12-dyxzds",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:51.093Z"
+      "updated_at": "2026-11-08T13:12:30.302Z"
     },
     {
       "id": "87f49ec8-1a8f-495a-b7c5-5b650629e197",
-      "slug": "mykl-achsvn-pkk-mzygh-1100-ml-dgm-id1227-nave-12-n8ekts",
+      "slug": "mykl-achsvn-pkk-mzygh-1100-ml-dgm-id1227-nave-12-fmvxhl",
       "name": "מיכל אחסון + פקק מזיגה 1100 מ\"ל\nדגם ID1227 NAVE (12)",
       "name_translations": {},
       "description": "",
@@ -1090,18 +1094,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143544117-mnfvo.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1100-ml-dgm-id1227-nave-12-n8ekts",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-pkk-mzygh-1100-ml-dgm-id1227-nave-12-fmvxhl",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:51.090Z"
+      "updated_at": "2026-11-08T13:12:44.182Z"
     },
     {
       "id": "08e44062-ecba-4263-a42a-df6f0e849420",
-      "slug": "mykl-achsvn-37-l-dgm-id1226-amit-6-20rl5p",
+      "slug": "mykl-achsvn-37-l-dgm-id1226-amit-6-73lw0i",
       "name": "מיכל אחסון 3.7 ל' \nדגם ID1226 AMIT (6)",
       "name_translations": {},
       "description": "",
@@ -1112,14 +1118,16 @@
       "base_price": 59.9,
       "sale_price": 47.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143563192-9zjlqn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-37-l-dgm-id1226-amit-6-20rl5p",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-37-l-dgm-id1226-amit-6-73lw0i",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:51.087Z"
+      "updated_at": "2026-11-08T13:12:59.274Z"
     },
     {
       "id": "f8266633-3ea9-431c-a95e-ded5ca958996",
