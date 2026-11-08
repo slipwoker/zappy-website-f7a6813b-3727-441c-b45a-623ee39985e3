@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:21:23.573Z",
+  "generated_at": "2026-11-08T13:21:47.824Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1243,7 +1243,7 @@
     },
     {
       "id": "3223a898-4c2b-4ca9-8684-6932da69466d",
-      "slug": "argvnyt-mgyrh-2-taym-dgm-rio-id1221-12-cfshw0",
+      "slug": "argvnyt-mgyrh-2-taym-dgm-rio-id1221-12-14kf3d",
       "name": "ארגונית מגירה 2 תאים | דגם RIO\nID1221 (12)",
       "name_translations": {},
       "description": "",
@@ -1254,18 +1254,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144074172-0lmwp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-2-taym-dgm-rio-id1221-12-cfshw0",
+      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-2-taym-dgm-rio-id1221-12-14kf3d",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.948Z"
+      "updated_at": "2026-11-08T13:21:30.203Z"
     },
     {
       "id": "62b6938e-2ad0-4b12-8e48-795c247b4a4e",
-      "slug": "argvnyt-mgyrh-3-taym-dgm-ari-id1219-12-b8fo6u",
+      "slug": "argvnyt-mgyrh-3-taym-dgm-ari-id1219-12-b6spf5",
       "name": "ארגונית מגירה 3 תאים | דגם ARI\nID1219 (12)\n",
       "name_translations": {},
       "description": "",
@@ -1276,14 +1278,16 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144088562-bnhcddm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-3-taym-dgm-ari-id1219-12-b8fo6u",
+      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-3-taym-dgm-ari-id1219-12-b6spf5",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.948Z"
+      "updated_at": "2026-11-08T13:21:42.993Z"
     },
     {
       "id": "4e675606-5045-400e-b36d-e7d301d6b836",
