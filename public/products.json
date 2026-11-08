@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:13:52.900Z",
+  "generated_at": "2026-11-08T13:14:18.424Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -515,7 +515,7 @@
     },
     {
       "id": "012ccd8f-71a9-4322-bcf4-5de098e7ce6e",
-      "slug": "slslt-ratn-305x21x8-sm-sdrt-id708-24-zkovkq",
+      "slug": "slslt-ratn-305x21x8-sm-sdrt-id708-24-hy9y2u",
       "name": "סלסלת ראטן 30.5X21X8 ס\"מ\nסדרת ID708 (24)\n ",
       "name_translations": {},
       "description": "",
@@ -526,14 +526,16 @@
       "base_price": 17.9,
       "sale_price": 14.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143635307-dbuqce.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-ratn-305x21x8-sm-sdrt-id708-24-zkovkq",
+      "url": "https://streetstock.co.il/product/slslt-ratn-305x21x8-sm-sdrt-id708-24-hy9y2u",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.762Z"
+      "updated_at": "2026-11-08T13:14:09.191Z"
     },
     {
       "id": "d63a2919-36ad-47ee-99ed-dc9fd13544dd",
@@ -1289,7 +1291,7 @@
     },
     {
       "id": "f4ba9e0e-8df4-4b23-8074-74508ef4bc9c",
-      "slug": "kart-slt-akryl-4500-ml-id1213-12-75dmie",
+      "slug": "kart-slt-akryl-4500-ml-id1213-12-y4ekz4",
       "name": "קערת סלט אקריל\n4500 מ\"ל ID1213 (12)",
       "name_translations": {},
       "description": "",
@@ -1300,14 +1302,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143617234-n39r1n.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-slt-akryl-4500-ml-id1213-12-75dmie",
+      "url": "https://streetstock.co.il/product/kart-slt-akryl-4500-ml-id1213-12-y4ekz4",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.947Z"
+      "updated_at": "2026-11-08T13:13:56.301Z"
     },
     {
       "id": "d173c4f5-6010-4e5e-8d28-9274a5b6aefa",
