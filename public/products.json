@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:13:02.988Z",
+  "generated_at": "2026-11-08T13:13:33.293Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1131,7 +1131,7 @@
     },
     {
       "id": "f8266633-3ea9-431c-a95e-ded5ca958996",
-      "slug": "mykl-achsvn-42-l-kpyt-mzygh-dgm-id1225-yonatan-6-jtgrjy",
+      "slug": "mykl-achsvn-42-l-kpyt-mzygh-dgm-id1225-yonatan-6-cnkqkx",
       "name": "מיכל אחסון 4.2 ל' + כפית מזיגה\nדגם ID1225 YONATAN (6)",
       "name_translations": {},
       "description": "",
@@ -1142,14 +1142,16 @@
       "base_price": 59.9,
       "sale_price": 47.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143576811-b3lf0x.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-achsvn-42-l-kpyt-mzygh-dgm-id1225-yonatan-6-jtgrjy",
+      "url": "https://streetstock.co.il/product/mykl-achsvn-42-l-kpyt-mzygh-dgm-id1225-yonatan-6-cnkqkx",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:50.999Z"
+      "updated_at": "2026-11-08T13:13:16.218Z"
     },
     {
       "id": "c61e7bcc-7b85-4fb1-9cf7-857971c5990c",
