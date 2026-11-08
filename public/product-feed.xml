@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 08 Nov 2026 13:09:49 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 13:11:30 GMT</lastBuildDate>
     <item>
       <g:id>91ef82f0-2ea1-4a5f-98d4-0033dc11ad45</g:id>
       <g:title>סכין סולינגן שפיץ 10 ס&quot;מ צבע כחול</g:title>
@@ -386,11 +386,29 @@ ID1208 (6)</g:title>
       <g:product_type>כללי</g:product_type>
     </item>
     <item>
-      <g:id>5e2fafe9-fe3d-41b7-a4f3-570a5d00fd87</g:id>
+      <g:id>17d96313-d4ca-405f-bee9-261df21113e8</g:id>
       <g:title>שרפרף מתקפל סדרת FOLDIX
-מידה ID1202 M (10)</g:title>
+מידה ID1202 M (10) - Black</g:title>
       <g:description>שרפרף מתקפל סדרת FOLDIX מידה ID1202 M (10)</g:description>
-      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-47uxv4</g:link>
+      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-v9vhck</g:link>
+      <g:item_group_id>5e2fafe9-fe3d-41b7-a4f3-570a5d00fd87</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143406844-p9u1yx.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>44.90 ILS</g:price>
+      <g:sale_price>35.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כללי</g:product_type>
+    </item>
+    <item>
+      <g:id>56672926-c1e1-422f-b3ed-fc98e9437ae7</g:id>
+      <g:title>שרפרף מתקפל סדרת FOLDIX
+מידה ID1202 M (10) - White</g:title>
+      <g:description>שרפרף מתקפל סדרת FOLDIX מידה ID1202 M (10)</g:description>
+      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-v9vhck</g:link>
+      <g:item_group_id>5e2fafe9-fe3d-41b7-a4f3-570a5d00fd87</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143406844-p9u1yx.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>44.90 ILS</g:price>
       <g:sale_price>35.92 ILS</g:sale_price>
@@ -404,7 +422,8 @@ ID1208 (6)</g:title>
       <g:title>סלסלת פלסטיק 19X13.5X6 ס&quot;מ
 סדרת ID704 BASKI (24)</g:title>
       <g:description>סלסלת פלסטיק 19X13.5X6 ס&quot;מ סדרת ID704 BASKI (24)</g:description>
-      <g:link>https://streetstock.co.il/product/slslt-plstyk-19x135x6-sm-sdrt-id704-baski-24-ezcxna</g:link>
+      <g:link>https://streetstock.co.il/product/slslt-plstyk-19x135x6-sm-sdrt-id704-baski-24-a8fgkg</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143372185-bjuwhg.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>7.90 ILS</g:price>
       <g:sale_price>6.32 ILS</g:sale_price>
@@ -414,11 +433,13 @@ ID1208 (6)</g:title>
       <g:product_type>כללי</g:product_type>
     </item>
     <item>
-      <g:id>b5fb6ac5-14c9-41ae-bcad-45edf49afce9</g:id>
+      <g:id>1fdf1360-94b3-45cd-adf7-c77d889933c5</g:id>
       <g:title>שרפרף מתקפל סדרת FOLDIX
-מידה ID1201 S (10)</g:title>
+מידה ID1201 S (10) - Black</g:title>
       <g:description>שרפרף מתקפל סדרת FOLDIX מידה ID1201 S (10)</g:description>
-      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-7smbrf</g:link>
+      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-5a9mht</g:link>
+      <g:item_group_id>b5fb6ac5-14c9-41ae-bcad-45edf49afce9</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143438885-3xv4t.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>34.90 ILS</g:price>
       <g:sale_price>27.92 ILS</g:sale_price>
@@ -428,11 +449,45 @@ ID1208 (6)</g:title>
       <g:product_type>כללי</g:product_type>
     </item>
     <item>
-      <g:id>d02a9da0-f09e-4602-9c10-57bfbaf82e53</g:id>
+      <g:id>5160d6c7-ab96-4f8e-b429-c9eb43f8605c</g:id>
       <g:title>שרפרף מתקפל סדרת FOLDIX
-מידה ID1203 L (10)</g:title>
+מידה ID1201 S (10) - White</g:title>
+      <g:description>שרפרף מתקפל סדרת FOLDIX מידה ID1201 S (10)</g:description>
+      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-5a9mht</g:link>
+      <g:item_group_id>b5fb6ac5-14c9-41ae-bcad-45edf49afce9</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143438885-3xv4t.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>34.90 ILS</g:price>
+      <g:sale_price>27.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כללי</g:product_type>
+    </item>
+    <item>
+      <g:id>ff2e37db-fe25-4e66-8263-8414cb5cea85</g:id>
+      <g:title>שרפרף מתקפל סדרת FOLDIX
+מידה ID1203 L (10) - Black</g:title>
       <g:description>שרפרף מתקפל סדרת FOLDIX מידה ID1203 L (10)</g:description>
-      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-9r8vnv</g:link>
+      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-7znp2m</g:link>
+      <g:item_group_id>d02a9da0-f09e-4602-9c10-57bfbaf82e53</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143459192-f7be6q.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>54.90 ILS</g:price>
+      <g:sale_price>43.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>כללי</g:product_type>
+    </item>
+    <item>
+      <g:id>10e78b2b-439f-4a01-b84e-6b41d3e3b6f7</g:id>
+      <g:title>שרפרף מתקפל סדרת FOLDIX
+מידה ID1203 L (10) - White</g:title>
+      <g:description>שרפרף מתקפל סדרת FOLDIX מידה ID1203 L (10)</g:description>
+      <g:link>https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-7znp2m</g:link>
+      <g:item_group_id>d02a9da0-f09e-4602-9c10-57bfbaf82e53</g:item_group_id>
+      <g:image_link>https://streetstock.co.il/assets/product-1794143459192-f7be6q.webp</g:image_link>
       <g:availability>in_stock</g:availability>
       <g:price>54.90 ILS</g:price>
       <g:sale_price>43.92 ILS</g:sale_price>

@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:09:49.357Z",
+  "generated_at": "2026-11-08T13:11:30.132Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -607,7 +607,7 @@
     },
     {
       "id": "5e2fafe9-fe3d-41b7-a4f3-570a5d00fd87",
-      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-47uxv4",
+      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-v9vhck",
       "name": "שרפרף מתקפל סדרת FOLDIX\nמידה ID1202 M (10)",
       "name_translations": {},
       "description": "",
@@ -618,18 +618,20 @@
       "base_price": 44.9,
       "sale_price": 35.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143406844-p9u1yx.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-47uxv4",
+      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1202-m-10-v9vhck",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.630Z"
+      "updated_at": "2026-11-08T13:10:39.654Z"
     },
     {
       "id": "ce197544-0a63-46af-a55b-dcce48042405",
-      "slug": "slslt-plstyk-19x135x6-sm-sdrt-id704-baski-24-ezcxna",
+      "slug": "slslt-plstyk-19x135x6-sm-sdrt-id704-baski-24-a8fgkg",
       "name": "סלסלת פלסטיק 19X13.5X6 ס\"מ\nסדרת ID704 BASKI (24)",
       "name_translations": {},
       "description": "",
@@ -640,18 +642,20 @@
       "base_price": 7.9,
       "sale_price": 6.32,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143372185-bjuwhg.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-plstyk-19x135x6-sm-sdrt-id704-baski-24-ezcxna",
+      "url": "https://streetstock.co.il/product/slslt-plstyk-19x135x6-sm-sdrt-id704-baski-24-a8fgkg",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.630Z"
+      "updated_at": "2026-11-08T13:10:18.630Z"
     },
     {
       "id": "b5fb6ac5-14c9-41ae-bcad-45edf49afce9",
-      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-7smbrf",
+      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-5a9mht",
       "name": "שרפרף מתקפל סדרת FOLDIX\nמידה ID1201 S (10)",
       "name_translations": {},
       "description": "",
@@ -662,18 +666,20 @@
       "base_price": 34.9,
       "sale_price": 27.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143438885-3xv4t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-7smbrf",
+      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1201-s-10-5a9mht",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.626Z"
+      "updated_at": "2026-11-08T13:11:06.148Z"
     },
     {
       "id": "d02a9da0-f09e-4602-9c10-57bfbaf82e53",
-      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-9r8vnv",
+      "slug": "shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-7znp2m",
       "name": "שרפרף מתקפל סדרת FOLDIX\nמידה ID1203 L (10)",
       "name_translations": {},
       "description": "",
@@ -684,14 +690,16 @@
       "base_price": 54.9,
       "sale_price": 43.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143459192-f7be6q.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-9r8vnv",
+      "url": "https://streetstock.co.il/product/shrprp-mtkpl-sdrt-foldix-mydh-id1203-l-10-7znp2m",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.608Z"
+      "updated_at": "2026-11-08T13:11:23.162Z"
     },
     {
       "id": "b1e86522-48c6-45f3-8442-e6e4947248fc",
