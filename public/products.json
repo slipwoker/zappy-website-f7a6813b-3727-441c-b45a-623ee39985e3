@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:14:18.424Z",
+  "generated_at": "2026-11-08T13:14:42.837Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1315,7 +1315,7 @@
     },
     {
       "id": "d173c4f5-6010-4e5e-8d28-9274a5b6aefa",
-      "slug": "kart-slt-akryl-3700-ml-id1212-12-flulq5",
+      "slug": "kart-slt-akryl-3700-ml-id1212-12-uljer4",
       "name": "קערת סלט אקריל\n3700 מ\"ל ID1212 (12)",
       "name_translations": {},
       "description": "",
@@ -1326,14 +1326,16 @@
       "base_price": 19.9,
       "sale_price": 15.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143644962-dkqiyc.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-slt-akryl-3700-ml-id1212-12-flulq5",
+      "url": "https://streetstock.co.il/product/kart-slt-akryl-3700-ml-id1212-12-uljer4",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.945Z"
+      "updated_at": "2026-11-08T13:14:40.148Z"
     },
     {
       "id": "27296466-85ad-4f9c-a4a3-b00dd921f457",
