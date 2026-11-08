@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:14:42.837Z",
+  "generated_at": "2026-11-08T13:16:00.858Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -773,7 +773,7 @@
     },
     {
       "id": "a4b09396-4dc2-4925-9b9a-fe0f491beab6",
-      "slug": "mdp-tsp-60-sm-tsba-ats-id1197-6-vea25y",
+      "slug": "mdp-tsp-60-sm-tsba-ats-id1197-6-w0rr06",
       "name": "מדף צף 60 ס\"מ\nצבע עץ ID1197 (6)",
       "name_translations": {},
       "description": "",
@@ -784,14 +784,16 @@
       "base_price": 69.9,
       "sale_price": 55.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143705615-3jgojh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-ats-id1197-6-vea25y",
+      "url": "https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-ats-id1197-6-w0rr06",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-11-08T12:43:52.415Z"
+      "updated_at": "2026-11-08T13:15:19.141Z"
     },
     {
       "id": "1f11603f-c4f7-48c9-86f1-a1fa16270cbc",
@@ -1339,7 +1341,7 @@
     },
     {
       "id": "27296466-85ad-4f9c-a4a3-b00dd921f457",
-      "slug": "kart-slt-akryl-1700-ml-id1210-12-54rz8n",
+      "slug": "kart-slt-akryl-1700-ml-id1210-12-bv2dor",
       "name": "קערת סלט אקריל\n1700 מ\"ל ID1210 (12)",
       "name_translations": {},
       "description": "",
@@ -1350,18 +1352,20 @@
       "base_price": 11.9,
       "sale_price": 9.52,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143689880-ekukrn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-slt-akryl-1700-ml-id1210-12-54rz8n",
+      "url": "https://streetstock.co.il/product/kart-slt-akryl-1700-ml-id1210-12-bv2dor",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.945Z"
+      "updated_at": "2026-11-08T13:15:06.910Z"
     },
     {
       "id": "921e0668-ec9f-43af-a717-8da9e0a2e228",
-      "slug": "kart-slt-akryl-2800-ml-id1211-12-27rih6",
+      "slug": "kart-slt-akryl-2800-ml-id1211-12-09er1h",
       "name": "קערת סלט אקריל\n2800 מ\"ל ID1211 (12)",
       "name_translations": {},
       "description": "",
@@ -1372,14 +1376,16 @@
       "base_price": 15.9,
       "sale_price": 12.72,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143716832-0bpzm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-slt-akryl-2800-ml-id1211-12-27rih6",
+      "url": "https://streetstock.co.il/product/kart-slt-akryl-2800-ml-id1211-12-09er1h",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.886Z"
+      "updated_at": "2026-11-08T13:15:32.036Z"
     },
     {
       "id": "8109105a-529e-4d47-9f08-637cf7b66d3a",
@@ -18523,7 +18529,7 @@
     },
     {
       "id": "778574b3-556a-4a3a-8b61-3fce0b3efa4a",
-      "slug": "zvg-mchlky-mdpym-akryl-y6fhgh",
+      "slug": "zvg-mchlky-mdpym-akryl-fhp7ih",
       "name": "זוג מחלקי מדפים אקריל\r\n",
       "name_translations": {},
       "description": "<p><br></p>",
@@ -18535,15 +18541,15 @@
       "sale_price": 23.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1780837703571-fakf6.webp"
+        "https://streetstock.co.il/assets/product-1794143679018-7p8jub.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-y6fhgh",
+      "url": "https://streetstock.co.il/product/zvg-mchlky-mdpym-akryl-fhp7ih",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-06T08:17:00.818Z"
+      "updated_at": "2026-11-08T13:14:51.133Z"
     },
     {
       "id": "5b6ec480-e9f6-4ba9-a4d3-d7dcf2186949",

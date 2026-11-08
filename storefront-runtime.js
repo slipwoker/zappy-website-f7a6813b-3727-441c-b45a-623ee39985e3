@@ -13920,6 +13920,30 @@ function fixContrast(){
 })();
 /* END ZAPPY_CONTACT_FORM_PREVENT_DEFAULT */
 
+/* ZAPPY_PRIVACY_CONSENT_CHECKBOX_V1 */
+(function(){
+  var marker = 'ZAPPY_PRIVACY_CONSENT_CHECKBOX_V1';
+  function restore(root) {
+    if (!root || !root.querySelectorAll) return;
+    var labels = root.querySelectorAll('.privacy-consent-label');
+    for (var i = 0; i < labels.length; i++) {
+      var label = labels[i];
+      if (!label || (label.querySelector && label.querySelector('input[type="checkbox"]'))) continue;
+      var input = document.createElement('input');
+      input.type = 'checkbox';
+      input.name = 'privacy_consent';
+      input.className = 'privacy-consent-checkbox';
+      input.required = true;
+      input.setAttribute('data-zappy-consent', marker);
+      if (label.insertBefore) label.insertBefore(input, label.firstChild || null);
+    }
+  }
+  function arm() { restore(document); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', arm);
+  else arm();
+})();
+/* END ZAPPY_PRIVACY_CONSENT_CHECKBOX_V1 */
+
 
 /* ZAPPY_PUBLISHED_GRID_CENTERING_V2 */
 (function(){
