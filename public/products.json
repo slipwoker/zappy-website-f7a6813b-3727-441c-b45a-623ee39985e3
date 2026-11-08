@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:09:05.358Z",
+  "generated_at": "2026-11-08T13:09:39.661Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -491,7 +491,7 @@
     },
     {
       "id": "a521452a-6fde-4f34-baa3-d688e6226090",
-      "slug": "slslt-ratn-342x288x13-sm-sdrt-id706-baski-24-0i30rd",
+      "slug": "slslt-ratn-342x288x13-sm-sdrt-id706-baski-24-zas511",
       "name": "סלסלת ראטן 34.2X28.8X13 ס\"מ\nסדרת ID706 BASKI (24)\n",
       "name_translations": {},
       "description": "",
@@ -502,14 +502,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143340931-x9a2jz.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/slslt-ratn-342x288x13-sm-sdrt-id706-baski-24-0i30rd",
+      "url": "https://streetstock.co.il/product/slslt-ratn-342x288x13-sm-sdrt-id706-baski-24-zas511",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.764Z"
+      "updated_at": "2026-11-08T13:09:10.561Z"
     },
     {
       "id": "012ccd8f-71a9-4322-bcf4-5de098e7ce6e",
