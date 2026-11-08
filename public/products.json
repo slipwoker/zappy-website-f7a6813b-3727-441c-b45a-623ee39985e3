@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:26:16.770Z",
+  "generated_at": "2026-11-08T13:26:55.408Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -977,7 +977,7 @@
     },
     {
       "id": "d6b3f3ee-3a4f-448c-81c3-53ba1e1026a2",
-      "slug": "mdp-tsp-60-sm-tsba-shchvr-id1191-6-r6npow",
+      "slug": "mdp-tsp-60-sm-tsba-shchvr-id1191-6-zzdedx",
       "name": "מדף צף 60 ס\"מ\nצבע שחור ID1191 (6)",
       "name_translations": {},
       "description": "",
@@ -989,15 +989,15 @@
       "sale_price": 55.92,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794144311715-5bo5nn.webp"
+        "https://streetstock.co.il/assets/product-1794144369381-buxjh.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-shchvr-id1191-6-r6npow",
+      "url": "https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-shchvr-id1191-6-zzdedx",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-11-08T13:25:21.168Z"
+      "updated_at": "2026-11-08T13:26:20.461Z"
     },
     {
       "id": "4ccacf6d-8343-4730-9568-000737359973",
@@ -1612,7 +1612,7 @@
     },
     {
       "id": "bf46eff9-1bf4-4586-a8ff-e58cf41a0d50",
-      "slug": "pch-tats-rglyym-15-lytr-tsba-mvkh-id1204-8-y5eh5v",
+      "slug": "pch-tats-rglyym-15-lytr-tsba-mvkh-id1204-8-eq6qbe",
       "name": "פח טאצ' + רגליים 15 ליטר\nצבע מוקה ID1204 (8)",
       "name_translations": {},
       "description": "",
@@ -1623,15 +1623,17 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144380353-8xy12.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-tsba-mvkh-id1204-8-y5eh5v",
+      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-tsba-mvkh-id1204-8-eq6qbe",
       "categories": [
         "פחי מטבח",
         "פחי שירותים"
       ],
-      "updated_at": "2026-11-08T12:43:48.811Z"
+      "updated_at": "2026-11-08T13:26:44.685Z"
     },
     {
       "id": "eb3af7ed-1907-4a06-90e0-ddc4f11fef8b",
