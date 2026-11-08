@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:54:14.889Z",
+  "generated_at": "2026-11-08T12:55:24.638Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -274,7 +274,7 @@
     },
     {
       "id": "577495c7-249b-4ae5-b83a-0532571d1219",
-      "slug": "aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-c0rke4",
+      "slug": "aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-mov7mi",
       "name": "עגלת שירות 4 קומות דגם SAN DIEGO\nID1234 (6)\n",
       "name_translations": {},
       "description": "",
@@ -285,14 +285,17 @@
       "base_price": 179.9,
       "sale_price": 89.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142427692-wisy0b.webp",
+        "https://streetstock.co.il/assets/product-1794142417118-lwssct.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-c0rke4",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-mov7mi",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.319Z"
+      "updated_at": "2026-11-08T12:54:49.243Z"
     },
     {
       "id": "f5c9a6c8-4e94-422f-a7aa-3fe6bb5aa319",
