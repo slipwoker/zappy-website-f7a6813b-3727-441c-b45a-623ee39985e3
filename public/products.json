@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T08:02:05.858Z",
+  "generated_at": "2026-11-08T08:03:45.374Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 844,
@@ -432,7 +432,7 @@
     },
     {
       "id": "11a3d48f-754f-411a-84bf-ba408a5340ec",
-      "slug": "shmykt-chvrp-mmvlat-lvnh-zvgy-20x200-sm-lbntvrkyz-2xp42l",
+      "slug": "shmykt-chvrp-mmvlat-lvnh-zvgy-20x200-sm-lbntvrkyz-rs2kqh",
       "name": "שמיכת חורף ממולאת לונה זוגי\n 20X200 ס\"מ לבן+טורקיז",
       "name_translations": {},
       "description": "",
@@ -443,15 +443,17 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124933573-t6b5vi.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-zvgy-20x200-sm-lbntvrkyz-2xp42l",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-zvgy-20x200-sm-lbntvrkyz-rs2kqh",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:47.876Z"
+      "updated_at": "2026-11-08T08:02:22.416Z"
     },
     {
       "id": "38188de2-ddd7-4e45-a9cc-7aeb6d09f734",
@@ -530,7 +532,7 @@
     },
     {
       "id": "87499c69-a7cc-455d-8689-8428595f8252",
-      "slug": "shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnmvkh-yjouvh",
+      "slug": "shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnmvkh-1zgrt9",
       "name": "שמיכת חורף ממולאת לונה זוגי\n 220X200 ס\"מ לבן+מוקה",
       "name_translations": {},
       "description": "",
@@ -541,19 +543,21 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124952036-z437fm.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnmvkh-yjouvh",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnmvkh-1zgrt9",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:47.820Z"
+      "updated_at": "2026-11-08T08:02:43.137Z"
     },
     {
       "id": "b45a110b-8e62-4935-8dbc-19a135c3ce9f",
-      "slug": "shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnapvr-1es1pv",
+      "slug": "shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnapvr-xdt7jx",
       "name": "שמיכת חורף ממולאת לונה זוגי\n 220X200 ס\"מ לבן+אפור",
       "name_translations": {},
       "description": "",
@@ -564,15 +568,17 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124979320-jhg3n9.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnapvr-1es1pv",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-zvgy-220x200-sm-lbnapvr-xdt7jx",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:47.819Z"
+      "updated_at": "2026-11-08T08:03:07.024Z"
     },
     {
       "id": "3ddafdaa-f60c-4a29-a093-fc9fb523a46d",
