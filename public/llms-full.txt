@@ -12300,30 +12300,11 @@ SKU: 7290121560412
 
 ---
 
-### הדום אחסון וישיבה קטיפה דגם VENICE
-URL: https://streetstock.co.il/product/hdvm-achsvn-vyshybh-ktyph-dgm-venice-nk57wi
-Price: 95.92 ILS (sale, was 119.90 ILS)
-Availability: In stock
-SKU: 7290121560078
-
----
-
 ### עגלת שירות 4 קומות לבן דגם CALIRFONIA
 URL: https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-788of7
 Price: 159.90 ILS (sale, was 199.90 ILS)
 Availability: In stock
 SKU: 7290121560269
-
----
-
-### מראה מלבנית מסגרת אלומיניום
- 40X60 ס"מ
-URL: https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc
-Price: 79.92 ILS (sale, was 99.90 ILS)
-Availability: In stock
-SKU: 7290121561365
-
-מראות ומסגרות תמונה
 
 ---
 
@@ -12364,24 +12345,6 @@ URL: https://streetstock.co.il/product/kvs-zkvkyt-dgm-soapro-pq5pb9
 Price: 7.92 ILS (sale, was 9.90 ILS)
 Availability: In stock
 SKU: 7290121564878
-
----
-
-### שטיח אמבטיה דגם AquaMat
-
-URL: https://streetstock.co.il/product/shtych-ambtyh-dgm-aquamat-00xx4p
-Price: 19.92 ILS (sale, was 24.90 ILS)
-Availability: In stock
-SKU: 7290121563215
-
----
-
-### סט פח+מברשת אסלה צבע שחור דגם NEVOA
-
-URL: https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-6wibvj
-Price: 47.92 ILS (sale, was 59.90 ILS)
-Availability: In stock
-SKU: 7290121561860
 
 ---
 
@@ -12573,28 +12536,6 @@ SKU: 7290121564984
 
 ---
 
-### מארז 2 כוסות זכוכית 330 מ"ל
-
-URL: https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-330-ml-4syge1
-Price: 15.92 ILS (sale, was 19.90 ILS)
-Availability: In stock
-SKU: 7290121560641
-
-כוסות
-
----
-
-### מיכל שתייה+ברז 4 ל'
-
-URL: https://streetstock.co.il/product/mykl-shtyyhbrz-4-l-n8y5nw
-Price: 31.92 ILS (sale, was 39.90 ILS)
-Availability: In stock
-SKU: 7290121565035
-
-קנקני שתייה
-
----
-
 ### כוס זכוכית 500 מ"ל דגם "פסים"
 
 URL: https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-ny1hxb
@@ -12713,14 +12654,6 @@ SKU: 7290121561570
 
 ---
 
-### מלחייה אקרילית דגם "שי" 
-URL: https://streetstock.co.il/product/mlchyyh-akrylyt-dgm-shy-ebsc58
-Price: 7.92 ILS (sale, was 9.90 ILS)
-Availability: In stock
-SKU: 7255882312106
-
----
-
 ### סט 6 קופסאות אחסון אקרילית 500 מ"ל דגם "ענבר"
 URL: https://streetstock.co.il/product/st-6-kvpsavt-achsvn-akrylyt-500-ml-dgm-anbr-8e5gt5
 Price: 79.92 ILS (sale, was 99.90 ILS)
@@ -12794,15 +12727,6 @@ SKU: 7290121564366
 
 ---
 
-### מתקן כוסות אקרילי דגם TALOR שחור
-
-URL: https://streetstock.co.il/product/mtkn-kvsvt-akryly-dgm-talor-shchvr-08rs1a
-Price: 23.92 ILS (sale, was 29.90 ILS)
-Availability: In stock
-SKU: 7290121560399
-
----
-
 ### מעמד נייר אקרילי דגם REEF
 
 URL: https://streetstock.co.il/product/mamd-nyyr-akryly-dgm-reef-vj2bx9
@@ -12857,19 +12781,6 @@ SKU: 7290121564373
 
 ---
 
-### סט תה , קפה וסוכר שחור מתכת אל חלד
-צבע לבןדגם BREVIA
-
-
-URL: https://streetstock.co.il/product/st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-lbndgm-brevia-2r45wu
-Price: 39.92 ILS (sale, was 49.90 ILS)
-Availability: In stock
-SKU: 7290121563383
-
-סט תה קפה סוכר
-
----
-
 ### מחבת יציקת אלומיניום 24 ס"מ צבע מוקה LUSSO
 
 URL: https://streetstock.co.il/product/mchbt-ytsykt-alvmynyvm-24-sm-tsba-mvkh-lusso-mg628z
@@ -12878,18 +12789,6 @@ Availability: In stock
 SKU: 7290121564830
 
 סירים ומחבתות
-
----
-
-### סט תה קפה סוכר זכוכית
- דגם LIRIO
-
-URL: https://streetstock.co.il/product/st-th-kph-svkr-zkvkyt-dgm-lirio-gq6y8c
-Price: 47.92 ILS (sale, was 59.90 ILS)
-Availability: In stock
-SKU: 7290121564908
-
-סט תה קפה סוכר
 
 ---
 
@@ -12913,19 +12812,6 @@ Availability: In stock
 SKU: 7290121564847
 
 סירים ומחבתות
-
----
-
-### סט תה , קפה וסוכר שחור מתכת אל חלד
-צבע שחור דגם BREVIA
-
-
-URL: https://streetstock.co.il/product/st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-shchvr-dgm-brevia-94v1e4
-Price: 39.92 ILS (sale, was 49.90 ILS)
-Availability: In stock
-SKU: 7290121563390
-
-סט תה קפה סוכר
 
 ---
 

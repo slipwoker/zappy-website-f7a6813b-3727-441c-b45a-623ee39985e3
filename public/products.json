@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:41:12.267Z",
+  "generated_at": "2026-11-08T12:43:48.387Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 844,
+  "count": 833,
   "products": [
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
@@ -18668,30 +18668,6 @@
       "updated_at": "2026-10-19T06:47:11.049Z"
     },
     {
-      "id": "8e965e6b-ff5c-4ef4-8b4c-0e3f5165ae2c",
-      "slug": "hdvm-achsvn-vyshybh-ktyph-dgm-venice-nk57wi",
-      "name": "הדום אחסון וישיבה קטיפה דגם VENICE",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121560078",
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837667421-ib7azo.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-ktyph-dgm-venice-nk57wi",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-09-07T11:55:59.031Z"
-    },
-    {
       "id": "20b7f23e-cda4-43c2-a0d7-bb33685fc2cb",
       "slug": "aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-788of7",
       "name": "עגלת שירות 4 קומות לבן דגם CALIRFONIA",
@@ -18714,30 +18690,6 @@
         "עגלות שירות "
       ],
       "updated_at": "2026-10-12T14:24:39.061Z"
-    },
-    {
-      "id": "61d1420e-d62e-4393-a261-688d5982415d",
-      "slug": "mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc",
-      "name": "מראה מלבנית מסגרת אלומיניום\r\n 40X60 ס\"מ",
-      "name_translations": {},
-      "description": "מראות ומסגרות תמונה",
-      "short_description": null,
-      "sku": "7290121561365",
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659967-zb9qe.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-mlbnyt-msgrt-alvmynyvm-40x60-sm-tewqxc",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-09-07T11:56:02.741Z"
     },
     {
       "id": "6d49792d-e1fe-4207-bfb8-29becf622051",
@@ -18831,53 +18783,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-09-07T11:56:04.675Z"
-    },
-    {
-      "id": "16597c92-811d-4a4e-9031-837795e6f236",
-      "slug": "shtych-ambtyh-dgm-aquamat-00xx4p",
-      "name": "שטיח אמבטיה דגם AquaMat\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121563215",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837656007-wzw0u.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-ambtyh-dgm-aquamat-00xx4p",
-      "categories": [
-        "מוצרי אמבט"
-      ],
-      "updated_at": "2026-09-07T11:56:04.670Z"
-    },
-    {
-      "id": "d417e57a-18da-42b5-a646-c609e69645d2",
-      "slug": "st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-6wibvj",
-      "name": "סט פח+מברשת אסלה צבע שחור דגם NEVOA\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121561860",
-      "brand": null,
-      "price": 47.92,
-      "base_price": 59.9,
-      "sale_price": 47.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pchmbrsht-aslh-tsba-shchvr-dgm-nevoa-6wibvj",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-09-07T11:56:04.666Z"
     },
     {
       "id": "2c3cb38f-38b9-4030-bdf2-507601d35ac3",
@@ -19317,54 +19222,6 @@
       "updated_at": "2026-09-07T11:56:08.678Z"
     },
     {
-      "id": "c06d61e3-44b7-4a9a-9ed3-c3d0820975a5",
-      "slug": "marz-2-kvsvt-zkvkyt-330-ml-4syge1",
-      "name": "מארז 2 כוסות זכוכית 330 מ\"ל\r\n",
-      "name_translations": {},
-      "description": "כוסות",
-      "short_description": null,
-      "sku": "7290121560641",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837649991-aw8zo6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-2-kvsvt-zkvkyt-330-ml-4syge1",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
-      "updated_at": "2026-09-07T11:56:08.732Z"
-    },
-    {
-      "id": "e1318c49-f6df-4326-bc76-b50c3e8d48c4",
-      "slug": "mykl-shtyyhbrz-4-l-n8y5nw",
-      "name": "מיכל שתייה+ברז 4 ל'\r\n",
-      "name_translations": {},
-      "description": "קנקני שתייה",
-      "short_description": null,
-      "sku": "7290121565035",
-      "brand": null,
-      "price": 31.92,
-      "base_price": 39.9,
-      "sale_price": 31.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837649988-1xb1n.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mykl-shtyyhbrz-4-l-n8y5nw",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
-      "updated_at": "2026-09-07T11:56:10.204Z"
-    },
-    {
       "id": "0874fefa-d2e7-4997-80cf-e7cea5977190",
       "slug": "kvs-zkvkyt-500-ml-dgm-psym-ny1hxb",
       "name": "כוס זכוכית 500 מ\"ל דגם \"פסים\"\r\n",
@@ -19655,28 +19512,6 @@
       "updated_at": "2026-09-07T11:56:12.792Z"
     },
     {
-      "id": "cefbf533-d660-4ec3-b70b-af419808e57a",
-      "slug": "mlchyyh-akrylyt-dgm-shy-ebsc58",
-      "name": "מלחייה אקרילית דגם \"שי\" ",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7255882312106",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mlchyyh-akrylyt-dgm-shy-ebsc58",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:56:12.785Z"
-    },
-    {
       "id": "45975601-2e5a-4aee-9507-ec9735ab96fc",
       "slug": "st-6-kvpsavt-achsvn-akrylyt-500-ml-dgm-anbr-8e5gt5",
       "name": "סט 6 קופסאות אחסון אקרילית 500 מ\"ל דגם \"ענבר\"",
@@ -19893,30 +19728,6 @@
       "updated_at": "2026-09-07T11:56:14.403Z"
     },
     {
-      "id": "24e6390c-fb28-468c-96b9-eb3f0ff3e75a",
-      "slug": "mtkn-kvsvt-akryly-dgm-talor-shchvr-08rs1a",
-      "name": "מתקן כוסות אקרילי דגם TALOR שחור\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7290121560399",
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837642803-a08bto.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtkn-kvsvt-akryly-dgm-talor-shchvr-08rs1a",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-09-07T11:56:14.457Z"
-    },
-    {
       "id": "7a1b2ce9-7245-4c53-957e-c1521cbaefd6",
       "slug": "mamd-nyyr-akryly-dgm-reef-vj2bx9",
       "name": "מעמד נייר אקרילי דגם REEF\r\n",
@@ -20061,30 +19872,6 @@
       "updated_at": "2026-09-07T11:56:15.971Z"
     },
     {
-      "id": "c6e3d82c-0579-4c21-89c6-b7fab27019cc",
-      "slug": "st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-lbndgm-brevia-2r45wu",
-      "name": "סט תה , קפה וסוכר שחור מתכת אל חלד\r\nצבע לבןדגם BREVIA\r\n\r\n",
-      "name_translations": {},
-      "description": "סט תה קפה סוכר",
-      "short_description": null,
-      "sku": "7290121563383",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638909-ptg27m.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-lbndgm-brevia-2r45wu",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:56:16.133Z"
-    },
-    {
       "id": "a97f13fd-176b-4126-9cd6-7fdc76088422",
       "slug": "mchbt-ytsykt-alvmynyvm-24-sm-tsba-mvkh-lusso-mg628z",
       "name": "מחבת יציקת אלומיניום 24 ס\"מ צבע מוקה LUSSO\r\n",
@@ -20107,30 +19894,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-09-07T11:56:16.133Z"
-    },
-    {
-      "id": "f53b2cac-eb74-4f55-97e4-0ce8d9e10120",
-      "slug": "st-th-kph-svkr-zkvkyt-dgm-lirio-gq6y8c",
-      "name": "סט תה קפה סוכר זכוכית\r\n דגם LIRIO\r\n",
-      "name_translations": {},
-      "description": "סט תה קפה סוכר",
-      "short_description": null,
-      "sku": "7290121564908",
-      "brand": null,
-      "price": 47.92,
-      "base_price": 59.9,
-      "sale_price": 47.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638910-mn5p5.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-th-kph-svkr-zkvkyt-dgm-lirio-gq6y8c",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:56:16.131Z"
     },
     {
       "id": "bae1fb6d-ea07-46e0-bf19-025a91ff0bb9",
@@ -20179,30 +19942,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-09-07T11:56:17.596Z"
-    },
-    {
-      "id": "24980028-d18d-42e4-9811-49dae03e6637",
-      "slug": "st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-shchvr-dgm-brevia-94v1e4",
-      "name": "סט תה , קפה וסוכר שחור מתכת אל חלד\r\nצבע שחור דגם BREVIA\r\n\r\n",
-      "name_translations": {},
-      "description": "סט תה קפה סוכר",
-      "short_description": null,
-      "sku": "7290121563390",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837638563-s1mu4j.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-th-kph-vsvkr-shchvr-mtkt-al-chld-tsba-shchvr-dgm-brevia-94v1e4",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-09-07T11:56:17.603Z"
     },
     {
       "id": "b5ba33a7-b626-4a99-8ce8-ce3d629da1fd",
