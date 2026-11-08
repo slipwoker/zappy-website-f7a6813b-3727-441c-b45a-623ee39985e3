@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Sun, 08 Nov 2026 07:54:37 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 07:55:20 GMT</lastBuildDate>
     <item>
       <g:id>5e3d3fa9-9c22-4de9-81ef-c191a374f948</g:id>
       <g:title>שמיכת חורף ממולאת נובה זוגי
@@ -186,20 +186,6 @@
       <g:product_type>שמיכות חורף</g:product_type>
     </item>
     <item>
-      <g:id>789a9a45-7c39-4bd9-b765-eddd29cfd261</g:id>
-      <g:title>שמיכת חורף ממולאת לוסי זוגי
-220X200 ס&quot;מ צבע מוקה בהיר</g:title>
-      <g:description>שמיכת חורף ממולאת לוסי זוגי 220X200 ס&quot;מ צבע מוקה בהיר</g:description>
-      <g:link>https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-bhyr-bbu5uz</g:link>
-      <g:availability>in_stock</g:availability>
-      <g:price>349.90 ILS</g:price>
-      <g:sale_price>174.90 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שמיכות חורף</g:product_type>
-    </item>
-    <item>
       <g:id>10a1426f-ee87-4378-a21f-49181953e9e7</g:id>
       <g:title>שמיכת חורף ממולאת לוסי זוגי
 220X200 ס&quot;מ צבע מוקה</g:title>
@@ -261,20 +247,6 @@
 150X200 ס&quot;מ צבע לבן</g:title>
       <g:description>שמיכת חורף ממולאת לוסי יחיד 150X200 ס&quot;מ צבע לבן</g:description>
       <g:link>https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-i5pq7n</g:link>
-      <g:availability>in_stock</g:availability>
-      <g:price>299.90 ILS</g:price>
-      <g:sale_price>149.90 ILS</g:sale_price>
-      <g:condition>new</g:condition>
-      <g:brand>Street Stock</g:brand>
-      <g:identifier_exists>no</g:identifier_exists>
-      <g:product_type>שמיכות חורף</g:product_type>
-    </item>
-    <item>
-      <g:id>1249d4c6-efb1-4a5f-9e56-4f9485b05730</g:id>
-      <g:title>שמיכת חורף ממולאת לוסי יחיד
-150X200 ס&quot;מ צבע מוקה בהיר</g:title>
-      <g:description>שמיכת חורף ממולאת לוסי יחיד 150X200 ס&quot;מ צבע מוקה בהיר</g:description>
-      <g:link>https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-mvkh-bhyr-xim1rx</g:link>
       <g:availability>in_stock</g:availability>
       <g:price>299.90 ILS</g:price>
       <g:sale_price>149.90 ILS</g:sale_price>

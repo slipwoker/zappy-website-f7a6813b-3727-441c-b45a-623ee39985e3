@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 848** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 846** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### שמיכת חורף ממולאת נובה זוגי
  220X200 ס"מ אפור בהיר
@@ -167,13 +167,6 @@ https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-
 - Image: https://streetstock.co.il/assets/product-1794124281899-7hfsog.webp
 
 ### שמיכת חורף ממולאת לוסי זוגי
-220X200 ס"מ צבע מוקה בהיר
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-bhyr-bbu5uz
-- Price: 174.90 ILS (sale, was 349.90 ILS)
-- Availability: In stock
-- Category: שמיכות חורף
-
-### שמיכת חורף ממולאת לוסי זוגי
 220X200 ס"מ צבע מוקה
 https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-r7nn4e
 - Price: 174.90 ILS (sale, was 349.90 ILS)
@@ -204,13 +197,6 @@ https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-
 ### שמיכת חורף ממולאת לוסי יחיד
 150X200 ס"מ צבע לבן
 https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-i5pq7n
-- Price: 149.90 ILS (sale, was 299.90 ILS)
-- Availability: In stock
-- Category: שמיכות חורף
-
-### שמיכת חורף ממולאת לוסי יחיד
-150X200 ס"מ צבע מוקה בהיר
-https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-mvkh-bhyr-xim1rx
 - Price: 149.90 ILS (sale, was 299.90 ILS)
 - Availability: In stock
 - Category: שמיכות חורף
@@ -1668,6 +1654,24 @@ https://streetstock.co.il/product/argvnyt-akrylyt-dgm-agam-id1138-b3bt6j
 - Category: ארגוניות אקריל
 - Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
 - Image: https://streetstock.co.il/assets/product-1787560601586-dufh9i.webp
+
+### ארגונית אקרילית דגם "ON"
+ID1137
+https://streetstock.co.il/product/argvnyt-akrylyt-dgm-on-id1137-4z252v
+- Price: 9.52 ILS (sale, was 11.90 ILS)
+- Availability: In stock
+- Category: ארגוניות אקריל
+- Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
+- Image: https://streetstock.co.il/assets/product-1787560613743-ya025.webp
+
+### ארגונית אקרילית דגם "RAVID"
+ID1134
+https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ravid-id1134-6q3w3d
+- Price: 19.92 ILS (sale, was 24.90 ILS)
+- Availability: In stock
+- Category: ארגוניות אקריל
+- Description: ארגונית אקריל שקופה ואיכותית לסידור וארגון מושלם בבית. מתאימה למטבח, למקרר, למגירות ולחדרי ארונות – פתרון פרקטי ומעוצב ששומר על סדר ומעניק מראה נקי ואסתטי.
+- Image: https://streetstock.co.il/assets/product-1787560656502-asaenl.webp
 
 ---
 

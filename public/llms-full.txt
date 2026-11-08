@@ -6280,14 +6280,6 @@ Availability: In stock
 ---
 
 ### שמיכת חורף ממולאת לוסי זוגי
-220X200 ס"מ צבע מוקה בהיר
-URL: https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-bhyr-bbu5uz
-Price: 174.90 ILS (sale, was 349.90 ILS)
-Availability: In stock
-
----
-
-### שמיכת חורף ממולאת לוסי זוגי
 220X200 ס"מ צבע מוקה
 URL: https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-r7nn4e
 Price: 174.90 ILS (sale, was 349.90 ILS)
@@ -6322,14 +6314,6 @@ Availability: In stock
 ### שמיכת חורף ממולאת לוסי יחיד
 150X200 ס"מ צבע לבן
 URL: https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-i5pq7n
-Price: 149.90 ILS (sale, was 299.90 ILS)
-Availability: In stock
-
----
-
-### שמיכת חורף ממולאת לוסי יחיד
-150X200 ס"מ צבע מוקה בהיר
-URL: https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-mvkh-bhyr-xim1rx
 Price: 149.90 ILS (sale, was 299.90 ILS)
 Availability: In stock
 
