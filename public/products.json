@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:29:29.877Z",
+  "generated_at": "2026-11-08T13:33:16.596Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1457,7 +1457,7 @@
     },
     {
       "id": "fca7d0f5-dcbb-4f3a-a131-1a4563634df7",
-      "slug": "argvnyt-akrylyt-mksh-dgm-lian-id616-18-ykalh7",
+      "slug": "argvnyt-akrylyt-mksh-dgm-lian-id616-18-rglqt8",
       "name": "ארגונית אקרילית  + מכסה דגם \"LIAN\"\nID616 (18)",
       "name_translations": {},
       "description": "",
@@ -1468,18 +1468,20 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144725885-gwggv.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-lian-id616-18-ykalh7",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-lian-id616-18-rglqt8",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.956Z"
+      "updated_at": "2026-11-08T13:32:18.565Z"
     },
     {
       "id": "64801967-f67e-4e62-a091-89465dd21c6a",
-      "slug": "argvnyt-akrylyt-dgm-tehila-id457-36-u56qov",
+      "slug": "argvnyt-akrylyt-dgm-tehila-id457-36-0khlxi",
       "name": "ארגונית אקרילית דגם \"TEHILA\"\nID457 (36)",
       "name_translations": {},
       "description": "",
@@ -1490,18 +1492,20 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144711963-jztljk.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tehila-id457-36-u56qov",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tehila-id457-36-0khlxi",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.930Z"
+      "updated_at": "2026-11-08T13:32:08.161Z"
     },
     {
       "id": "f5339c1a-ab69-490d-88b6-db6fa395451e",
-      "slug": "argvnyt-akrylyt-dgm-tal-id455-36-ex0rjf",
+      "slug": "argvnyt-akrylyt-dgm-tal-id455-36-yw6jd4",
       "name": "ארגונית אקרילית דגם \"TAL\"\nID455 (36)",
       "name_translations": {},
       "description": "",
@@ -1512,18 +1516,20 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144696476-gf6pho.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tal-id455-36-ex0rjf",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-tal-id455-36-yw6jd4",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.832Z"
+      "updated_at": "2026-11-08T13:31:56.443Z"
     },
     {
       "id": "6e8f3c35-b178-4a79-8736-7d848ac7f33a",
-      "slug": "argvnyt-akrylyt-dgm-ortal-id456-36-jaslj4",
+      "slug": "argvnyt-akrylyt-dgm-ortal-id456-36-n3yob3",
       "name": "ארגונית אקרילית דגם \"ORTAL\"\nID456 (36)",
       "name_translations": {},
       "description": "",
@@ -1534,14 +1540,16 @@
       "base_price": 9.9,
       "sale_price": 7.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144690963-nv5btt.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ortal-id456-36-jaslj4",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-ortal-id456-36-n3yob3",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.830Z"
+      "updated_at": "2026-11-08T13:31:41.078Z"
     },
     {
       "id": "e777fabe-3743-4acf-a1e7-43751016d0df",
@@ -1571,7 +1579,7 @@
     },
     {
       "id": "95083b6f-e71d-408d-a612-dd90df31a253",
-      "slug": "argvnyt-akrylyt-mksh-dgm-aviv-id619-12-ndhy94",
+      "slug": "argvnyt-akrylyt-mksh-dgm-aviv-id619-12-62t0zp",
       "name": "ארגונית אקרילית  + מכסה דגם \"AVIV\"\nID619 (12)",
       "name_translations": {},
       "description": "",
@@ -1582,18 +1590,20 @@
       "base_price": 34.9,
       "sale_price": 27.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144755872-2m13gp.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-aviv-id619-12-ndhy94",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-aviv-id619-12-62t0zp",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.823Z"
+      "updated_at": "2026-11-08T13:32:47.882Z"
     },
     {
       "id": "3b59f997-4dfc-48f4-a88e-48a5975696db",
-      "slug": "argvnyt-akrylyt-mksh-dgm-alin-id617-18-06yzkd",
+      "slug": "argvnyt-akrylyt-mksh-dgm-alin-id617-18-jxwbad",
       "name": "ארגונית אקרילית  + מכסה דגם \"ALIN\"\nID617 (18)",
       "name_translations": {},
       "description": "",
@@ -1604,14 +1614,16 @@
       "base_price": 34.9,
       "sale_price": 27.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144736500-zxow49.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-alin-id617-18-06yzkd",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-alin-id617-18-jxwbad",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.823Z"
+      "updated_at": "2026-11-08T13:32:27.485Z"
     },
     {
       "id": "bf46eff9-1bf4-4586-a8ff-e58cf41a0d50",
@@ -1641,7 +1653,7 @@
     },
     {
       "id": "eb3af7ed-1907-4a06-90e0-ddc4f11fef8b",
-      "slug": "argvnyt-akrylyt-mksh-dgm-lia-id618-12-9znjl5",
+      "slug": "argvnyt-akrylyt-mksh-dgm-lia-id618-12-injg91",
       "name": "ארגונית אקרילית  + מכסה דגם \"LIA\"\nID618 (12)",
       "name_translations": {},
       "description": "",
@@ -1652,14 +1664,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144745984-wmtgti.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-lia-id618-12-9znjl5",
+      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-mksh-dgm-lia-id618-12-injg91",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:48.806Z"
+      "updated_at": "2026-11-08T13:32:43.942Z"
     },
     {
       "id": "3e45f7af-e244-4303-9dfe-6eb14e8bb1d4",
