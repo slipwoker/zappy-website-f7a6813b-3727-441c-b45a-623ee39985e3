@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:13:33.293Z",
+  "generated_at": "2026-11-08T13:13:52.900Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -585,7 +585,7 @@
     },
     {
       "id": "c0e1e416-b6f2-4d07-a87a-1d760d553bb4",
-      "slug": "gygyt-mtkplt-40-lytr-id1208-6-gjagjz",
+      "slug": "gygyt-mtkplt-40-lytr-id1208-6-6cfjyc",
       "name": "גיגית מתקפלת 40 ליטר\nID1208 (6)",
       "name_translations": {},
       "description": "",
@@ -596,14 +596,16 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143611477-mipl57.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/gygyt-mtkplt-40-lytr-id1208-6-gjagjz",
+      "url": "https://streetstock.co.il/product/gygyt-mtkplt-40-lytr-id1208-6-6cfjyc",
       "categories": [
         "כללי"
       ],
-      "updated_at": "2026-11-08T12:43:53.635Z"
+      "updated_at": "2026-11-08T13:13:41.852Z"
     },
     {
       "id": "5e2fafe9-fe3d-41b7-a4f3-570a5d00fd87",
