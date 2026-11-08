@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:27:20.762Z",
+  "generated_at": "2026-11-08T13:27:55.229Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -1660,7 +1660,7 @@
     },
     {
       "id": "3e45f7af-e244-4303-9dfe-6eb14e8bb1d4",
-      "slug": "pch-tats-rglyym-15-lytr-shchvr-id465-8-xmk12b",
+      "slug": "pch-tats-rglyym-15-lytr-shchvr-id465-8-aldhw2",
       "name": "פח טאצ' + רגליים 15 ליטר שחור\nID465 (8)",
       "name_translations": {},
       "description": "",
@@ -1671,15 +1671,18 @@
       "base_price": 99.9,
       "sale_price": 79.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144404193-ogps9f.webp",
+        "https://streetstock.co.il/assets/product-1794144426987-r7uzkw.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-shchvr-id465-8-xmk12b",
+      "url": "https://streetstock.co.il/product/pch-tats-rglyym-15-lytr-shchvr-id465-8-aldhw2",
       "categories": [
         "פחי מטבח",
         "פחי שירותים"
       ],
-      "updated_at": "2026-11-08T12:43:48.805Z"
+      "updated_at": "2026-11-08T13:27:47.512Z"
     },
     {
       "id": "5e3d3fa9-9c22-4de9-81ef-c191a374f948",
