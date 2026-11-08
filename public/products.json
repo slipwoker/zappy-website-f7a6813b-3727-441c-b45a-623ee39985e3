@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:50:56.996Z",
+  "generated_at": "2026-11-08T12:52:22.317Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -151,7 +151,7 @@
     },
     {
       "id": "7ef3c935-fc67-428a-afe4-f4a21d1d63de",
-      "slug": "krsh-ghvts-dgm-prime-mydvt-121x38-sm-id1206-3-fkufd7",
+      "slug": "krsh-ghvts-dgm-prime-mydvt-121x38-sm-id1206-3-mq1dbd",
       "name": "קרש גהוץ דגם PRIME\nמידות : 121X38 ס\"מ ID1206 (3)",
       "name_translations": {},
       "description": "",
@@ -162,14 +162,16 @@
       "base_price": 249.9,
       "sale_price": 199.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142228214-wmq4w.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-121x38-sm-id1206-3-fkufd7",
+      "url": "https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-121x38-sm-id1206-3-mq1dbd",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-11-08T12:43:57.106Z"
+      "updated_at": "2026-11-08T12:51:23.049Z"
     },
     {
       "id": "c5ad374c-8ff0-47f4-9e13-239c7af6d625",
@@ -195,7 +197,7 @@
     },
     {
       "id": "43465dfd-77f1-472f-9e94-b5c205b742a4",
-      "slug": "krsh-ghvts-dgm-prime-mydvt-110x33-sm-id1205-3-f21j3w",
+      "slug": "krsh-ghvts-dgm-prime-mydvt-110x33-sm-id1205-3-iduw51",
       "name": "קרש גהוץ דגם PRIME\nמידות : 110X33 ס\"מ ID1205 (3)",
       "name_translations": {},
       "description": "",
@@ -206,14 +208,16 @@
       "base_price": 199.9,
       "sale_price": 149.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142248258-4gkbou.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-110x33-sm-id1205-3-f21j3w",
+      "url": "https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-110x33-sm-id1205-3-iduw51",
       "categories": [
         "מתקני כביסה"
       ],
-      "updated_at": "2026-11-08T12:43:57.037Z"
+      "updated_at": "2026-11-08T12:51:44.269Z"
     },
     {
       "id": "d0466802-d2d0-4214-bf1a-c6fd298d5db4",
