@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-07T16:17:03.712Z",
+  "generated_at": "2026-11-08T07:50:15.244Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 848,
@@ -107,7 +107,7 @@
     },
     {
       "id": "9e4ba30e-9916-4a35-a1f8-4642c9887567",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-shmnt-ca94kj",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-shmnt-bmn0js",
       "name": "שמיכת חורף ממולאת נובה זוגי\n 220X200 ס\"מ שמנת",
       "name_translations": {},
       "description": "",
@@ -118,19 +118,21 @@
       "base_price": 249.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124105810-7fjiiu.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-shmnt-ca94kj",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-zvgy-220x200-sm-shmnt-bmn0js",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.245Z"
+      "updated_at": "2026-11-08T07:48:58.397Z"
     },
     {
       "id": "dcd6ea5e-320f-488a-bda5-8018af2d6f52",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-khh-arkc1w",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-khh-ofb37y",
       "name": "שמיכת חורף ממולאת נובה יחיד\n 150X200 ס\"מ אפור כהה",
       "name_translations": {},
       "description": "",
@@ -141,19 +143,21 @@
       "base_price": 199.9,
       "sale_price": 99.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124151299-jznj78.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-khh-arkc1w",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-khh-ofb37y",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.241Z"
+      "updated_at": "2026-11-08T07:49:19.441Z"
     },
     {
       "id": "7b86a147-ec3e-438b-b92f-c529db75078c",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-tvrkyz-g45o1f",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-tvrkyz-wwijdd",
       "name": "שמיכת חורף ממולאת נובה יחיד\n 150X200 ס\"מ טורקיז",
       "name_translations": {},
       "description": "",
@@ -164,19 +168,21 @@
       "base_price": 199.9,
       "sale_price": 99.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124195788-1uugzh.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-tvrkyz-g45o1f",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-tvrkyz-wwijdd",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.238Z"
+      "updated_at": "2026-11-08T07:50:07.190Z"
     },
     {
       "id": "91ae9938-17d3-4fc0-955d-ba94f3c2dd95",
-      "slug": "shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-bhyr-k35z35",
+      "slug": "shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-bhyr-49q0vq",
       "name": "שמיכת חורף ממולאת נובה יחיד\n 150X200 ס\"מ אפור בהיר",
       "name_translations": {},
       "description": "",
@@ -187,15 +193,17 @@
       "base_price": 199.9,
       "sale_price": 99.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794124170709-svh5r.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-bhyr-k35z35",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-nvbh-ychyd-150x200-sm-apvr-bhyr-49q0vq",
       "categories": [
         "שמיכות חורף",
         "חורף"
       ],
-      "updated_at": "2026-10-12T12:19:51.237Z"
+      "updated_at": "2026-11-08T07:49:38.467Z"
     },
     {
       "id": "f5c298cd-9d5d-472b-87f8-6d896e617fa3",
