@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:49:36.645Z",
+  "generated_at": "2026-11-08T12:50:11.854Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -103,7 +103,7 @@
     },
     {
       "id": "0cb386f6-8126-48c4-99b6-ed59d9688251",
-      "slug": "skyn-svlyngn-shpyts-10-sm-tsba-advm-v7jmi8",
+      "slug": "skyn-svlyngn-shpyts-10-sm-tsba-advm-gh91x4",
       "name": "סכין סולינגן שפיץ 10 ס\"מ צבע אדום",
       "name_translations": {},
       "description": "",
@@ -114,14 +114,16 @@
       "base_price": 24.9,
       "sale_price": 14.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142174551-oulk4u.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-advm-v7jmi8",
+      "url": "https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-advm-gh91x4",
       "categories": [
         "סכיני מטבח"
       ],
-      "updated_at": "2026-11-08T12:43:57.108Z"
+      "updated_at": "2026-11-08T12:49:45.857Z"
     },
     {
       "id": "22fb6e01-6324-4c85-aceb-fa7b6ec8a116",
