@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:23:29.649Z",
+  "generated_at": "2026-11-08T13:24:13.713Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -374,7 +374,7 @@
     },
     {
       "id": "f076232e-5d9f-429f-bc66-2b607ec2c38c",
-      "slug": "aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-lb6srh",
+      "slug": "aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-0ukp2e",
       "name": "עגלת שירות 4 קומות דגם DALLAS\nID1186 (1)",
       "name_translations": {},
       "description": "",
@@ -385,14 +385,17 @@
       "base_price": 199.9,
       "sale_price": 119.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144171707-b7qtr.webp",
+        "https://streetstock.co.il/assets/product-1794144200478-1x675.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-lb6srh",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-0ukp2e",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.294Z"
+      "updated_at": "2026-11-08T13:23:38.690Z"
     },
     {
       "id": "a925deb2-510a-45e5-9a06-d163c445a43b",
@@ -828,7 +831,7 @@
     },
     {
       "id": "daaae4ee-1256-4163-b2db-ac7583ea4e53",
-      "slug": "mdp-tsp-80-sm-tsba-ats-id1198-6-la8omz",
+      "slug": "mdp-tsp-80-sm-tsba-ats-id1198-6-499qr8",
       "name": "מדף צף 80 ס\"מ\nצבע עץ ID1198 (6)",
       "name_translations": {},
       "description": "",
@@ -839,14 +842,16 @@
       "base_price": 79.9,
       "sale_price": 63.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144233807-av2i7t.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-ats-id1198-6-la8omz",
+      "url": "https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-ats-id1198-6-499qr8",
       "categories": [
         "נוי ואחסון"
       ],
-      "updated_at": "2026-11-08T12:43:52.414Z"
+      "updated_at": "2026-11-08T13:24:07.044Z"
     },
     {
       "id": "c4ccd22f-15bb-438d-8c40-56147c524e4e",
