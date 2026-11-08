@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:16:33.534Z",
+  "generated_at": "2026-11-08T13:19:58.945Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -751,7 +751,7 @@
     },
     {
       "id": "8fba1d52-3dc1-4b81-a1c2-26e13c5f189d",
-      "slug": "marz-3-kvpsavt-achsvn-mydh-id1216-s-24-0av9y0",
+      "slug": "marz-3-kvpsavt-achsvn-mydh-id1216-s-24-rp78p6",
       "name": "מארז 3 קופסאות אחסון\nמידה ID1216 S (24)",
       "name_translations": {},
       "description": "",
@@ -762,14 +762,16 @@
       "base_price": 14.9,
       "sale_price": 11.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143924489-44si7i.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1216-s-24-0av9y0",
+      "url": "https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1216-s-24-rp78p6",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-11-08T12:43:52.417Z"
+      "updated_at": "2026-11-08T13:19:38.612Z"
     },
     {
       "id": "a4b09396-4dc2-4925-9b9a-fe0f491beab6",
@@ -1161,7 +1163,7 @@
     },
     {
       "id": "c61e7bcc-7b85-4fb1-9cf7-857971c5990c",
-      "slug": "argvnyt-shkyvt-akryl-dgm-lior-id1224-6-h6exaf",
+      "slug": "argvnyt-shkyvt-akryl-dgm-lior-id1224-6-m2kvs1",
       "name": "ארגונית שקיות אקריל דגם LIOR\nID1224 (6)",
       "name_translations": {},
       "description": "",
@@ -1172,14 +1174,16 @@
       "base_price": 59.9,
       "sale_price": 47.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143949136-7zrswd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-shkyvt-akryl-dgm-lior-id1224-6-h6exaf",
+      "url": "https://streetstock.co.il/product/argvnyt-shkyvt-akryl-dgm-lior-id1224-6-m2kvs1",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:50.985Z"
+      "updated_at": "2026-11-08T13:19:24.269Z"
     },
     {
       "id": "dc092c2f-a8d8-4165-91b5-3b48005a8bf4",
