@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:55:24.638Z",
+  "generated_at": "2026-11-08T12:56:04.461Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -299,7 +299,7 @@
     },
     {
       "id": "f5c9a6c8-4e94-422f-a7aa-3fe6bb5aa319",
-      "slug": "aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-qqwqmx",
+      "slug": "aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-5p1htr",
       "name": "עגלת שירות 3 קומות דגם ATLANTA\nID1189 (6)",
       "name_translations": {},
       "description": "",
@@ -310,14 +310,17 @@
       "base_price": 99.9,
       "sale_price": 49.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142500627-g3wisr.webp",
+        "https://streetstock.co.il/assets/product-1794142486112-x6mbd.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-qqwqmx",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-5p1htr",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.316Z"
+      "updated_at": "2026-11-08T12:55:31.249Z"
     },
     {
       "id": "e9ad7f84-0983-458a-9e9b-864c5ef0c9e2",
