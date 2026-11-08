@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:19:58.945Z",
+  "generated_at": "2026-11-08T13:20:37.928Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -707,7 +707,7 @@
     },
     {
       "id": "b1e86522-48c6-45f3-8442-e6e4947248fc",
-      "slug": "marz-3-kvpsavt-achsvn-mydh-id1218-l-24-r8yzox",
+      "slug": "marz-3-kvpsavt-achsvn-mydh-id1218-l-24-5e15qx",
       "name": "מארז 3 קופסאות אחסון\nמידה ID1218 L (24)",
       "name_translations": {},
       "description": "",
@@ -718,14 +718,16 @@
       "base_price": 24.9,
       "sale_price": 19.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143999637-sfibb5.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1218-l-24-r8yzox",
+      "url": "https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1218-l-24-5e15qx",
       "categories": [
         "כלי בית"
       ],
-      "updated_at": "2026-11-08T12:43:53.607Z"
+      "updated_at": "2026-11-08T13:20:12.871Z"
     },
     {
       "id": "28f91428-9b1c-473a-8d62-3fbad7e4ae6c",
@@ -975,7 +977,7 @@
     },
     {
       "id": "4ccacf6d-8343-4730-9568-000737359973",
-      "slug": "argvnyt-mshkpy-shmsh-dgm-id1232-almog-12-xx3ruk",
+      "slug": "argvnyt-mshkpy-shmsh-dgm-id1232-almog-12-tqvsfr",
       "name": "ארגונית משקפי שמש \nדגם ID1232 ALMOG (12)\n",
       "name_translations": {},
       "description": "",
@@ -986,18 +988,20 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794143978294-1wwb3j.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mshkpy-shmsh-dgm-id1232-almog-12-xx3ruk",
+      "url": "https://streetstock.co.il/product/argvnyt-mshkpy-shmsh-dgm-id1232-almog-12-tqvsfr",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:51.221Z"
+      "updated_at": "2026-11-08T13:20:01.924Z"
     },
     {
       "id": "7ca14ff3-4569-4665-abb5-baf8792ff734",
-      "slug": "argvnyt-chgvrvt-5-taym-dgm-id1231-rephael-12-9vynnx",
+      "slug": "argvnyt-chgvrvt-5-taym-dgm-id1231-rephael-12-432cvg",
       "name": "ארגונית חגורות 5 תאים\nדגם ID1231 REPHAEL (12)",
       "name_translations": {},
       "description": "",
@@ -1008,14 +1012,16 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144010540-x26ryf.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-chgvrvt-5-taym-dgm-id1231-rephael-12-9vynnx",
+      "url": "https://streetstock.co.il/product/argvnyt-chgvrvt-5-taym-dgm-id1231-rephael-12-432cvg",
       "categories": [
         "מוצרי אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:51.161Z"
+      "updated_at": "2026-11-08T13:20:35.649Z"
     },
     {
       "id": "19b639bd-c3c0-46b1-ac43-1ff55ce77d04",
