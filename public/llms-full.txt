@@ -380,7 +380,7 @@ CTRL+F2
 
 ## מוצרים מומלצים
 
-עוד לא נבחרו מוצרים מומלצים. צפו בכל המוצרים שלנו!
+
 
 צפה בכל המוצרים →
 
@@ -1744,8 +1744,6 @@ Description: המוצרים שלנו - Street Stock
 
 
 
-
-טוען מוצרים...
 
 
 
@@ -4589,8 +4587,6 @@ Description: מוצרים - Street Stock
 
 
 
-טוען מוצרים...
-
 
 
 
@@ -6235,7 +6231,7 @@ Availability: In stock
 
 ### עגלת שרות אקריל דגם PURE
 3 קומות ID437 (2)
-URL: https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-tthu1t
+URL: https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-8ovevt
 Price: 159.90 ILS (sale, was 249.90 ILS)
 Availability: In stock
 
@@ -6251,7 +6247,7 @@ Availability: In stock
 
 ### עגלת שרות אקריל דגם PURE
 4 קומות ID436 (2)
-URL: https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-br6u5v
+URL: https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-s9c9ko
 Price: 199.90 ILS (sale, was 299.90 ILS)
 Availability: In stock
 

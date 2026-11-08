@@ -12863,7 +12863,7 @@ async function loadRelatedProducts(currentProduct, t) {
       }
     }
 
-    // /* ZAPPY_NAV_MOBILE_FOLLOWS_HAMBURGER_V3 */
+    // /* ZAPPY_NAV_MOBILE_FOLLOWS_HAMBURGER_V6 */
     function isDesktopNav() {
       var shown = hamburgerShown();
       if (shown === true) return false;
@@ -12889,6 +12889,79 @@ async function loadRelatedProducts(currentProduct, t) {
         if (rect && rect.bottom > 0) {
           root.style.setProperty('--zappy-navbar-bottom', Math.round(rect.bottom) + 'px');
         }
+      } catch (e) {}
+    }
+
+    // A phone with no <meta name="viewport"> lays out around 980px and then
+    // scales the page down. min-width:769px is true there, so a desktop-row
+    // rule paints every nav link into one crushed bar. Real desktop windows
+    // still get that row. Phones keep the hamburger.
+    function isPhoneLayout() {
+      try {
+        var nav = window.navigator;
+        var ua = (nav && nav.userAgent) || '';
+        if (/iPhone|iPod|Android.+Mobile|webOS|BlackBerry|IEMobile|Opera Mini/i.test(ua)) return true;
+        if (/Mobile/.test(ua) && /CriOS|FxiOS|EdgiOS/.test(ua)) return true;
+        var vv = window.visualViewport;
+        if (vv && typeof vv.scale === 'number' && vv.scale > 0 && vv.scale < 0.85) return true;
+        var screenObj = window.screen;
+        var shortSide = screenObj ? Math.min(screenObj.width || 0, screenObj.height || 0) : 0;
+        if (nav && nav.maxTouchPoints > 0 && shortSide > 0 && shortSide <= 500) return true;
+      } catch (e) {}
+      return false;
+    }
+
+    function ensureViewportMeta() {
+      try {
+        var existing = document.querySelector ? document.querySelector('meta[name="viewport"]') : null;
+        if (existing && String(existing.tagName || '').toLowerCase() === 'meta') return;
+        if (!document.createElement) return;
+        var meta = document.createElement('meta');
+        if (meta.setAttribute) {
+          meta.setAttribute('name', 'viewport');
+          meta.setAttribute('content', 'width=device-width, initial-scale=1');
+        }
+        var head = document.head || document.documentElement;
+        if (!head) return;
+        if (head.insertBefore) head.insertBefore(meta, head.firstChild || null);
+        else if (head.appendChild) head.appendChild(meta);
+      } catch (e) {}
+    }
+
+    // A site stylesheet can keep the hamburger up past 768px (proces.co.il
+    // uses 991px). That paints a phone icon, the logo, and a hamburger with
+    // the links hidden. A desktop window above the phone breakpoint gets the
+    // desktop row, and the More menu takes whatever does not fit.
+    function ensureDesktopRowCss() {
+      try {
+        if (!document.getElementById) return;
+        var existing = document.getElementById('zappy-desktop-nav-row');
+        if (isPhoneLayout()) {
+          if (existing && existing.parentNode && existing.parentNode.removeChild) {
+            existing.parentNode.removeChild(existing);
+          }
+          return;
+        }
+        if (existing || !document.createElement) return;
+        var style = document.createElement('style');
+        style.id = 'zappy-desktop-nav-row';
+        // display:flex alone leaves a 991px drawer (fixed, column, full size)
+        // painted open after the hamburger is hidden. Reset that geometry,
+        // including .active/.open, which outranks a selector that omits them.
+        style.textContent = '@media (min-width:769px){'
+          + 'html body .navbar .nav-menu,html body .navbar .nav-menu.active,html body .navbar .nav-menu.open,html body .navbar #navMenu,html body .navbar #navMenu.active,html body .navbar #navMenu.open{'
+          + 'display:flex!important;position:static!important;inset:auto!important;flex-direction:row!important;flex-wrap:nowrap!important;align-items:center!important;'
+          + 'width:auto!important;max-width:none!important;height:auto!important;max-height:none!important;overflow:visible!important;transform:none!important;z-index:auto!important;}'
+          + 'html body .navbar .nav-menu>li,html body .navbar .nav-menu.active>li,html body .navbar .nav-menu.open>li,html body .navbar #navMenu>li,html body .navbar #navMenu.active>li,html body .navbar #navMenu.open>li{'
+          + 'width:auto!important;max-width:none!important;height:auto!important;}'
+          + 'html body .navbar .nav-menu>li>a,html body .navbar #navMenu>li>a{display:inline-flex!important;width:auto!important;white-space:nowrap!important;}'
+          + 'html body .navbar .nav-cta-container,html body .navbar .lang-switcher{display:flex!important;}'
+          + 'html body .navbar .mobile-toggle,html body .navbar .phone-header-btn,html body .navbar #mobileToggle{display:none!important;}'
+          + 'html body .navbar .nav-right-group{display:flex!important;}'
+          + '}';
+        var parent = document.head || document.documentElement;
+        if (!parent || !parent.appendChild) return;
+        parent.appendChild(style);
       } catch (e) {}
     }
 
@@ -13066,9 +13139,12 @@ async function loadRelatedProducts(currentProduct, t) {
     // Arm even when an older V3 already bound the hamburger. That copy
     // returns before this release exists; a second append must still undo
     // the desktop lock.
+    ensureViewportMeta();
+    ensureDesktopRowCss();
     ensureDrawerCss();
     bindMobileToggleCapture();
     armDesktopNavRelease();
+    try { window.dispatchEvent(new Event('resize')); } catch (e) {}
 
     if (window.__zappyMobileMenuToggleInitV3) return;
     window.__zappyMobileMenuToggleInitV3 = true;

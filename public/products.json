@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T12:52:22.317Z",
+  "generated_at": "2026-11-08T12:53:22.213Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -175,7 +175,7 @@
     },
     {
       "id": "c5ad374c-8ff0-47f4-9e13-239c7af6d625",
-      "slug": "aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-tthu1t",
+      "slug": "aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-8ovevt",
       "name": "עגלת שרות אקריל דגם PURE\n3 קומות ID437 (2)",
       "name_translations": {},
       "description": "",
@@ -186,14 +186,17 @@
       "base_price": 249.9,
       "sale_price": 159.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142337209-q0tjk.webp",
+        "https://streetstock.co.il/assets/product-1794142302287-ocpkbn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-tthu1t",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-8ovevt",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:57.104Z"
+      "updated_at": "2026-11-08T12:52:29.335Z"
     },
     {
       "id": "43465dfd-77f1-472f-9e94-b5c205b742a4",
@@ -221,7 +224,7 @@
     },
     {
       "id": "d0466802-d2d0-4214-bf1a-c6fd298d5db4",
-      "slug": "aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-br6u5v",
+      "slug": "aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-s9c9ko",
       "name": "עגלת שרות אקריל דגם PURE\n4 קומות ID436 (2)",
       "name_translations": {},
       "description": "",
@@ -232,14 +235,17 @@
       "base_price": 299.9,
       "sale_price": 199.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794142341793-c73ol1.webp",
+        "https://streetstock.co.il/assets/product-1794142327485-7znhcs.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-br6u5v",
+      "url": "https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-s9c9ko",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:57.030Z"
+      "updated_at": "2026-11-08T12:53:12.524Z"
     },
     {
       "id": "d444ac97-fbca-46da-b38a-74f03541faa0",
