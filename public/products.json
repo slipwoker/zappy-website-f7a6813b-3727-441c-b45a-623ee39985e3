@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-08T13:22:19.389Z",
+  "generated_at": "2026-11-08T13:23:13.383Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 903,
@@ -349,7 +349,7 @@
     },
     {
       "id": "e9d39711-c1db-419d-95ac-6fc67affcf4d",
-      "slug": "aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-9v9yzp",
+      "slug": "aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-ko0hea",
       "name": "עגלת שירות 3 קומות דגם DALLAS\nID1185 (1)",
       "name_translations": {},
       "description": "",
@@ -360,14 +360,16 @@
       "base_price": 149.9,
       "sale_price": 79.9,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144158042-espdzr.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-9v9yzp",
+      "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-ko0hea",
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-08T12:43:55.296Z"
+      "updated_at": "2026-11-08T13:22:51.654Z"
     },
     {
       "id": "f076232e-5d9f-429f-bc66-2b607ec2c38c",
@@ -1291,7 +1293,7 @@
     },
     {
       "id": "4e675606-5045-400e-b36d-e7d301d6b836",
-      "slug": "argvnyt-mgyrh-4-taym-dgm-adrian-id1220-12-n5e8rn",
+      "slug": "argvnyt-mgyrh-4-taym-dgm-adrian-id1220-12-u5tnb0",
       "name": "ארגונית מגירה 4 תאים | דגם ADRIAN\nID1220 (12)\n",
       "name_translations": {},
       "description": "",
@@ -1302,14 +1304,16 @@
       "base_price": 49.9,
       "sale_price": 39.92,
       "currency": "ILS",
-      "images": [],
+      "images": [
+        "https://streetstock.co.il/assets/product-1794144101632-jdrtsn.webp"
+      ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-taym-dgm-adrian-id1220-12-n5e8rn",
+      "url": "https://streetstock.co.il/product/argvnyt-mgyrh-4-taym-dgm-adrian-id1220-12-u5tnb0",
       "categories": [
         "ארגוניות אקריל"
       ],
-      "updated_at": "2026-11-08T12:43:49.948Z"
+      "updated_at": "2026-11-08T13:22:38.495Z"
     },
     {
       "id": "f4ba9e0e-8df4-4b23-8074-74508ef4bc9c",
