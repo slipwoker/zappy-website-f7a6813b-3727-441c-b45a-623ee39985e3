@@ -125,7 +125,6 @@ https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-121x38-sm-id1206-3-
 https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-8ovevt
 - Price: 159.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142337209-q0tjk.webp
 
 ### קרש גהוץ דגם PRIME
@@ -141,7 +140,6 @@ https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-110x33-sm-id1205-3-
 https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-s9c9ko
 - Price: 199.90 ILS (sale, was 299.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142341793-c73ol1.webp
 
 ### עגלת שירות 3 קומות דגם SAN DIEGO
@@ -149,7 +147,6 @@ ID1233 (6)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-jrfxw8
 - Price: 69.90 ILS (sale, was 149.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142398171-a98o6.webp
 
 ### עגלת שירות 4 קומות דגם SAN DIEGO
@@ -158,7 +155,6 @@ ID1234 (6)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-mov7mi
 - Price: 89.90 ILS (sale, was 179.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142427692-wisy0b.webp
 
 ### עגלת שירות 3 קומות דגם ATLANTA
@@ -166,7 +162,6 @@ ID1189 (6)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-5p1htr
 - Price: 49.90 ILS (sale, was 99.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142500627-g3wisr.webp
 
 ### עגלת שירות 4 קומות דגם ATLANTA
@@ -174,7 +169,6 @@ ID1190 (6)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-atlanta-id1190-6-x7lzyh
 - Price: 69.90 ILS (sale, was 119.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142545512-nvr5cj.webp
 
 ### עגלת שירות 3 קומות דגם DALLAS
@@ -182,7 +176,6 @@ ID1185 (1)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-sxk4ld
 - Price: 79.90 ILS (sale, was 149.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794144158042-espdzr.webp
 
 ### עגלת שירות 4 קומות דגם DALLAS
@@ -190,7 +183,6 @@ ID1186 (1)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-0ukp2e
 - Price: 119.90 ILS (sale, was 199.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794144171707-b7qtr.webp
 
 ### עגלת שירות 3 קומות דגם BOSTON
@@ -198,7 +190,6 @@ ID1187 (1)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-9sr7pa
 - Price: 119.90 ILS (sale, was 199.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794143253673-vfvzb.webp
 
 ### עגלת שירות 4 קומות דגם BOSTON
@@ -206,7 +197,6 @@ ID1188 (1)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-mytgw1
 - Price: 149.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794143277435-k7oc9o.webp
 
 ### סלסלת ראטן 34X24X8.5 ס"מ
@@ -332,7 +322,6 @@ https://streetstock.co.il/product/marz-3-kvpsavt-achsvn-mydh-id1216-s-24-rp78p6
 https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-ats-id1197-6-w0rr06
 - Price: 55.92 ILS (sale, was 69.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794143705615-3jgojh.webp
 
 ### מדף צף 100 ס"מ
@@ -340,7 +329,6 @@ https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-ats-id1197-6-w0rr06
 https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-ats-id1199-6-pj4n08
 - Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144245586-uvusy5.webp
 
 ### מדף צף 80 ס"מ
@@ -348,7 +336,6 @@ https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-ats-id1199-6-pj4n08
 https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-ats-id1198-6-499qr8
 - Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144233807-av2i7t.webp
 
 ### מדף צף 100 ס"מ
@@ -356,7 +343,6 @@ https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-ats-id1198-6-499qr8
 https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-lbn-id1196-6-98r2uf
 - Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144258292-3eszh8.webp
 
 ### מדף צף 80 ס"מ
@@ -364,7 +350,6 @@ https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-lbn-id1196-6-98r2uf
 https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-lbn-id1195-6-jer665
 - Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144269273-uzzflg.webp
 
 ### מדף צף 60 ס"מ
@@ -372,7 +357,6 @@ https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-lbn-id1195-6-jer665
 https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-lbn-id1194-6-kcwzxl
 - Price: 55.92 ILS (sale, was 69.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144279463-pz92ow.webp
 
 ### מדף צף 100 ס"מ
@@ -380,7 +364,6 @@ https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-lbn-id1194-6-kcwzxl
 https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-shchvr-id1193-6-72eekx
 - Price: 79.92 ILS (sale, was 99.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144291942-pkrw5c.webp
 
 ### מדף צף 80 ס"מ
@@ -388,7 +371,6 @@ https://streetstock.co.il/product/mdp-tsp-100-sm-tsba-shchvr-id1193-6-72eekx
 https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-shchvr-id1192-lloyra
 - Price: 63.92 ILS (sale, was 79.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144300499-m2yli3.webp
 
 ### מדף צף 60 ס"מ
@@ -396,7 +378,6 @@ https://streetstock.co.il/product/mdp-tsp-80-sm-tsba-shchvr-id1192-lloyra
 https://streetstock.co.il/product/mdp-tsp-60-sm-tsba-shchvr-id1191-6-zzdedx
 - Price: 55.92 ILS (sale, was 69.90 ILS)
 - Availability: In stock
-- Category: נוי ואחסון
 - Image: https://streetstock.co.il/assets/product-1794144369381-buxjh.webp
 
 ### ארגונית משקפי שמש 
