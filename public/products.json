@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-13T06:27:44.441Z",
+  "generated_at": "2026-11-13T06:27:54.360Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 988,
@@ -16310,8 +16310,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-tvrkyz-hfc9wf",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:14.173Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.961Z"
     },
     {
       "id": "abb39e79-2d78-4947-b1e8-be3814974a9b",
@@ -16332,8 +16334,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-apvr-dpsch2",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:14.195Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.716Z"
     },
     {
       "id": "986cad34-c3c1-4ea2-816b-98b95b1d797a",
@@ -16354,8 +16358,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-bd-dgm-tokyo-chbrt-gipro-tsba-yrvk-8ud35r",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:14.196Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.555Z"
     },
     {
       "id": "a1b31afc-d1e1-452f-ab3d-f654bd66465e",
@@ -16379,7 +16385,7 @@
       "categories": [
         "מזוודות"
       ],
-      "updated_at": "2026-11-13T06:17:14.207Z"
+      "updated_at": "2026-11-13T06:27:48.636Z"
     },
     {
       "id": "74abffed-fafe-442c-9877-cb7b1af13334",
@@ -20061,8 +20067,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:42.970Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.313Z"
     },
     {
       "id": "7cbdaa12-80a2-415b-af90-6d724a7db35f",
@@ -20083,8 +20091,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:42.986Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.394Z"
     },
     {
       "id": "e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f",
@@ -20105,8 +20115,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-59xie3",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:42.967Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:49.042Z"
     },
     {
       "id": "811542f0-2c9d-4ebc-95e6-5b70b0112710",
@@ -20127,8 +20139,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:42.981Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.474Z"
     },
     {
       "id": "d0411331-3e4c-4679-acee-fe78755d59f1",
@@ -20149,8 +20163,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:42.991Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.881Z"
     },
     {
       "id": "b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb",
@@ -20171,8 +20187,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:42.995Z"
+      "categories": [
+        "מזוודות"
+      ],
+      "updated_at": "2026-11-13T06:27:48.799Z"
     },
     {
       "id": "c5cfcf0b-95d1-44cc-b6f8-5aedbdfac36b",
