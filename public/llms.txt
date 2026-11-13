@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 865** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 831** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע כחול
 https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-kchvl-ro9xbz
@@ -1363,14 +1363,6 @@ https://streetstock.co.il/product/rash-mklcht-ydny-5-mtsbym-sdrt-water-flex-id96
 - Category: מוצרי אמבט
 - Image: https://streetstock.co.il/assets/product-1790845200169-38p2x.webp
 
-### עגלת שרות מתקפלת לבן 3 קומות דגם CHICAGO
-ID371
-https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1
-- Price: 119.92 ILS (sale, was 149.90 ILS)
-- Availability: In stock
-- Category: עגלות שירות
-- Image: https://streetstock.co.il/assets/product-1790845171991-kv2jtk.webp
-
 ### ראש מקלחת ידני 3 מצבים סדרת WATER FLEX
 ID964
 https://streetstock.co.il/product/rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id964-n495v6
@@ -1379,14 +1371,6 @@ https://streetstock.co.il/product/rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id96
 - Category: מוצרי אמבט
 - Image: https://streetstock.co.il/assets/product-1790845188282-fzt91a.webp
 
-### עגלת שרות מתקפלת שחור 3 קומות דגם CHICAGO
-ID370
-https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-mb55l9
-- Price: 119.92 ILS (sale, was 149.90 ILS)
-- Availability: In stock
-- Category: עגלות שירות
-- Image: https://streetstock.co.il/assets/product-1790845160507-hffbsw.webp
-
 ### עגלת שרות 4 קמות שחור דגם CALIRFONIA
 ID366
 https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z
@@ -1394,14 +1378,6 @@ https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-
 - Availability: In stock
 - Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845140319-luwupn.webp
-
-### עגלת שרות מתקפלת מוקה 3 קומות
-דגם ID1162 CHICAGO
-https://streetstock.co.il/product/aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-wgpr6g
-- Price: 119.92 ILS (sale, was 149.90 ILS)
-- Availability: In stock
-- Category: עגלות שירות
-- Image: https://streetstock.co.il/assets/product-1790844719411-2i6o4.webp
 
 ### סט 3 סלסלאות במבוק מלבן צבע לבן
 סדרת BASKET HOME
@@ -1582,26 +1558,12 @@ https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer
 - Category: סלסלות אחסון
 - Image: https://streetstock.co.il/assets/product-1790844848387-veomrk.webp
 
-### שטיח כניסה לבית דגם BASIC
-מידות : 40X60 ס"מ ID962
-https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu
-- Price: 15.92 ILS (sale, was 19.90 ILS)
-- Availability: In stock
-- Category: שטיחי מטבח
-
 ### ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס"מ ID984
 https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko
 - Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: סלסלות אחסון
 - Image: https://streetstock.co.il/assets/product-1790844824645-g3amyb.webp
-
-### שטיח כניסה לבית דגם LUCA
-מידות : 40X60 ס"מ ID963
-https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde
-- Price: 9.52 ILS (sale, was 11.90 ILS)
-- Availability: In stock
-- Category: שטיחי מטבח
 
 ### ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER
 מידות : 32X10X10 ס"מ ID985
@@ -1634,6 +1596,46 @@ https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atszhb
 - Availability: In stock
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1790844683094-mg7un.webp
+
+### סט סכום 24 חלקים COLLECTION IMPERIAL
+צבע זהב ID1156
+https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-zhb-id1156-3gwhhs
+- Price: 50.32 ILS (sale, was 62.90 ILS)
+- Availability: In stock
+- Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844643592-13gxtj.webp
+
+### סט סכום 24 חלקים COLLECTION IMPERIAL
+צבע שחור ID1158
+https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-shchvr-id1158-ltdewe
+- Price: 50.32 ILS (sale, was 62.90 ILS)
+- Availability: In stock
+- Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844671273-bheiwp.webp
+
+### סט סכום 24 חלקים COLLECTION ROYAL
+צבע עץ+כסף ID1160
+https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsksp-id1160-7kpzpx
+- Price: 79.92 ILS (sale, was 99.90 ILS)
+- Availability: In stock
+- Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844693011-xlojcl.webp
+
+### מברשת אסלה דגם BINO
+צבע מוקה ID981
+https://streetstock.co.il/product/mbrsht-aslh-dgm-bino-tsba-mvkh-id981-gk7bp5
+- Price: 19.92 ILS (sale, was 24.90 ILS)
+- Availability: In stock
+- Category: פחי שירותים
+- Image: https://streetstock.co.il/assets/product-1790844556887-sypit6.webp
+
+### סט סכום 24 חלקים COLLECTION NOIR?
+צבע מוקה ID1154
+https://streetstock.co.il/product/st-skvm-24-chlkym-collection-noir-tsba-mvkh-id1154-4l6otr
+- Price: 50.32 ILS (sale, was 62.90 ILS)
+- Availability: In stock
+- Category: כלי בית
+- Image: https://streetstock.co.il/assets/product-1790844605944-qlbdlk.webp
 
 ---
 

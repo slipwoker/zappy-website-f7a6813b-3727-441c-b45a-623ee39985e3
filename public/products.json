@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-13T06:41:29.947Z",
+  "generated_at": "2026-11-13T06:48:15.025Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 865,
+  "count": 831,
   "products": [
     {
       "id": "91ef82f0-2ea1-4a5f-98d4-0033dc11ad45",
@@ -4000,30 +4000,6 @@
       "updated_at": "2026-11-13T06:15:51.156Z"
     },
     {
-      "id": "e70a9e53-7161-42e7-b375-a5189ace9ee2",
-      "slug": "aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1",
-      "name": "עגלת שרות מתקפלת לבן 3 קומות דגם CHICAGO\nID371",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1790845171991-kv2jtk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1",
-      "categories": [
-        "עגלות שירות"
-      ],
-      "updated_at": "2026-11-13T06:26:12.393Z"
-    },
-    {
       "id": "70d803fe-d104-4516-bc80-f764325f3451",
       "slug": "rash-mklcht-ydny-3-mtsbym-sdrt-water-flex-id964-n495v6",
       "name": "ראש מקלחת ידני 3 מצבים סדרת WATER FLEX\nID964",
@@ -4048,30 +4024,6 @@
       "updated_at": "2026-11-13T06:15:51.159Z"
     },
     {
-      "id": "ee84d525-b880-4bbf-aa61-48ad73c427c2",
-      "slug": "aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-mb55l9",
-      "name": "עגלת שרות מתקפלת שחור 3 קומות דגם CHICAGO\nID370",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1790845160507-hffbsw.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-mb55l9",
-      "categories": [
-        "עגלות שירות"
-      ],
-      "updated_at": "2026-11-13T06:26:12.479Z"
-    },
-    {
       "id": "62df6703-6e62-40ce-aaed-5ea50891ce7f",
       "slug": "aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z",
       "name": "עגלת שרות 4 קמות שחור דגם CALIRFONIA\nID366",
@@ -4094,30 +4046,6 @@
         "עגלות שירות"
       ],
       "updated_at": "2026-11-13T06:26:11.908Z"
-    },
-    {
-      "id": "5301be90-540b-4479-a0bb-a39957875219",
-      "slug": "aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-wgpr6g",
-      "name": "עגלת שרות מתקפלת מוקה 3 קומות\nדגם ID1162 CHICAGO",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1790844719411-2i6o4.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-wgpr6g",
-      "categories": [
-        "עגלות שירות"
-      ],
-      "updated_at": "2026-11-13T06:26:11.825Z"
     },
     {
       "id": "1e93e761-145e-4fb6-9762-5031a0f5b70c",
@@ -4648,28 +4576,6 @@
       "updated_at": "2026-11-13T06:15:55.996Z"
     },
     {
-      "id": "a03095b2-c7b2-4383-a9b3-875c9e974eba",
-      "slug": "shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu",
-      "name": "שטיח כניסה לבית דגם BASIC\nמידות : 40X60 ס\"מ ID962",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu",
-      "categories": [
-        "שטיחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:15:55.993Z"
-    },
-    {
       "id": "b90d2611-286e-4f25-970f-99a81a1e9c0f",
       "slug": "argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko",
       "name": "ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס\"מ ID984",
@@ -4692,28 +4598,6 @@
         "סלסלות אחסון"
       ],
       "updated_at": "2026-11-13T06:15:55.998Z"
-    },
-    {
-      "id": "cb113e2d-07e8-4bee-9ff4-870e76fd1434",
-      "slug": "shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde",
-      "name": "שטיח כניסה לבית דגם LUCA\nמידות : 40X60 ס\"מ ID963",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 9.52,
-      "base_price": 11.9,
-      "sale_price": 9.52,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde",
-      "categories": [
-        "שטיחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:15:55.996Z"
     },
     {
       "id": "c11da939-74a5-4dab-b5a4-30ceac6033c9",
@@ -5277,54 +5161,6 @@
       "updated_at": "2026-11-13T06:15:58.954Z"
     },
     {
-      "id": "4894856b-f98d-46c2-b27f-fb1c15a93b1c",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-ou6stz",
-      "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע זהב",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.",
-      "sku": null,
-      "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787558240818-fsvmp.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-zhb-ou6stz",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-11-13T06:15:58.903Z"
-    },
-    {
-      "id": "28fb8408-3091-4ced-8150-4f9ab20e7890",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-8czf43",
-      "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע מוקה",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.",
-      "sku": null,
-      "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787558251827-by4nxc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-mvkh-8czf43",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-11-13T06:16:00.336Z"
-    },
-    {
       "id": "2e672cef-64b4-4185-a15c-7ff10c7043b3",
       "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-shchvr-6ctptc",
       "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע שחור",
@@ -5347,30 +5183,6 @@
         "מראות ומסגרות"
       ],
       "updated_at": "2026-11-13T06:16:00.337Z"
-    },
-    {
-      "id": "af3f2138-c0da-4b9b-a493-353b2aaf6cef",
-      "slug": "mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-1wjd8b",
-      "name": "מראה עגולה מסגרת אלומיניום\n80 ס\"מ צבע לבן",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מראה מעוצבת עם מסגרת אלומיניום איכותית, במראה יוקרתי ומרהיב שמוסיף אלגנטיות וסטייל לכל חלל בבית. עיצוב נקי ועל־זמני המשתלב בצורה מושלמת בכל סגנון.",
-      "sku": null,
-      "brand": null,
-      "price": 143.92,
-      "base_price": 179.9,
-      "sale_price": 143.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787558291422-3xuczh.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mrah-agvlh-msgrt-alvmynyvm-80-sm-tsba-lbn-1wjd8b",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-11-13T06:16:00.346Z"
     },
     {
       "id": "06e58b8e-a299-4735-8f66-156955fdcad4",
@@ -5972,200 +5784,6 @@
       "updated_at": "2026-11-13T06:16:03.174Z"
     },
     {
-      "id": "e99af7ee-9c74-4ec2-8246-398f08d9493a",
-      "slug": "hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o",
-      "name": "הדום אחסון וישיבה פרוותי\n דגם PIZA\nID359",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071308488-ydtoec.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-prvvty-dgm-piza-id359-mbqe9o",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:03.557Z"
-    },
-    {
-      "id": "e6b4705c-ba67-4494-852d-1e1838960148",
-      "slug": "hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5",
-      "name": "הדום אחסון וישיבה \nדגם ID430  MILANO",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071424998-psatvg.webp",
-        "https://streetstock.co.il/assets/product-1788071408328-06g5jp.webp",
-        "https://streetstock.co.il/assets/product-1788071417126-cgxn3n.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-id430-milano-pokmi5",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:03.500Z"
-    },
-    {
-      "id": "090cbc74-c05b-44b5-8c24-1378b812d81d",
-      "slug": "hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx",
-      "name": "הדום אחסון וישיבה \nדגם PALERMO  ID431",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071491317-d4k4p.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-palermo-id431-3hn3mx",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:05.002Z"
-    },
-    {
-      "id": "04cc13d9-b3f4-44e2-ac0b-122d1e980065",
-      "slug": "hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw",
-      "name": "הדום אחסון וישיבה צבע שחור\n NAPOLI\nID1084",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071538055-s2qo1a.webp",
-        "https://streetstock.co.il/assets/product-1788071551570-7qedxv.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-shchvr-napoli-id1084-sxfepw",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:05.011Z"
-    },
-    {
-      "id": "9e72187d-ae15-423e-b5cd-6f0e4c86617f",
-      "slug": "hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b",
-      "name": "הדום אחסון וישיבה צבע קרם\n  NAPOLI\nID1127",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071572186-37l85m.webp",
-        "https://streetstock.co.il/assets/product-1788071579471-zf58kq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-tsba-krm-napoli-id1127-ktrl9b",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:05.007Z"
-    },
-    {
-      "id": "5f44c7b1-8076-433d-895d-9670c736a518",
-      "slug": "hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp",
-      "name": "הדום אחסון וישיבה \nדגם FLORENCE  ID433",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071606719-sjhffg.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-dgm-florence-id433-ld1etp",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:05.003Z"
-    },
-    {
-      "id": "ee0dd0e1-861c-4380-9bdb-846f0a7dcb31",
-      "slug": "hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-id1083-s4z6nx",
-      "name": "הדום אחסון וישיבה אובלי קורדרוי\n דגם TORINO\nID1083",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-avbly-kvrdrvy-dgm-torino-id1083-s4z6nx",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:05.009Z"
-    },
-    {
-      "id": "81bc984f-cb41-49f5-8700-d493e76c72e2",
-      "slug": "hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4",
-      "name": "הדום אחסון וישיבה קורדרוי\n דגם TORINO \nID1082",
-      "name_translations": {},
-      "description": "",
-      "short_description": "הדום אחסון מעוצב לישיבה, חזק ועמיד במיוחד, המשלב נוחות עם פתרון אחסון שימושי. בעל מראה יוקרתי ומרהיב שמשדרג כל חלל בבית – מושלם לסלון, לחדר השינה ולחדרי הארונות.",
-      "sku": null,
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1788071671189-wcea9.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/hdvm-achsvn-vyshybh-kvrdrvy-dgm-torino-id1082-a997u4",
-      "categories": [
-        "הדומים"
-      ],
-      "updated_at": "2026-11-13T06:16:05.046Z"
-    },
-    {
       "id": "f324fdff-c905-4411-a1f6-df95d4d8fff8",
       "slug": "argvnyt-akrylyt-mksh-vrsht-dgm-lenny-id1149-vzi8lx",
       "name": "ארגונית אקרילית + מכסה ורשת דגם \"LENNY\"\nID1149",
@@ -6704,30 +6322,6 @@
       "updated_at": "2026-11-13T06:16:08.741Z"
     },
     {
-      "id": "63144e7b-3444-4fc4-a5b3-428e7b6badce",
-      "slug": "pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc",
-      "name": "פח דוושה 50 ליטר צבע לבן\nדגם PRIME",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.",
-      "sku": null,
-      "brand": null,
-      "price": 319.92,
-      "base_price": 399.9,
-      "sale_price": 319.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560155559-s7oqi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-lbn-dgm-prime-10wfyc",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:16:08.738Z"
-    },
-    {
       "id": "a853e267-4c1d-48ab-9592-9313917350fb",
       "slug": "pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
       "name": "פח דוושה 50 ליטר צבע מוקה\nדגם PRIME",
@@ -6750,30 +6344,6 @@
         "פחי מטבח"
       ],
       "updated_at": "2026-11-13T06:16:08.792Z"
-    },
-    {
-      "id": "45ddb5c1-d97c-442b-a2e5-e0e33e6d2037",
-      "slug": "pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-j8u6m4",
-      "name": "פח דוושה 50 ליטר צבע שחור\nדגם PRIME",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.",
-      "sku": null,
-      "brand": null,
-      "price": 319.92,
-      "base_price": 399.9,
-      "sale_price": 319.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560203282-q6fdw.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-shchvr-dgm-prime-j8u6m4",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:16:10.234Z"
     },
     {
       "id": "c5ff15bb-7968-4ec1-9054-c8d407d89120",
@@ -6896,30 +6466,6 @@
       "updated_at": "2026-11-13T06:16:10.268Z"
     },
     {
-      "id": "77562e48-3432-4bd1-912a-1d0d54dde35e",
-      "slug": "pch-tats-60-lytr-lbn-dgm-elvano-8wywlx",
-      "name": "פח טאצ' 60 ליטר לבן\nדגם ELVANO",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.",
-      "sku": null,
-      "brand": null,
-      "price": 399.92,
-      "base_price": 499.9,
-      "sale_price": 399.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560092506-j935o.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-lbn-dgm-elvano-8wywlx",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:16:10.267Z"
-    },
-    {
       "id": "7a5cf8c1-a05d-4aac-8681-8d350480c080",
       "slug": "pch-tats-60-lytr-mvkh-dgm-elvano-b5rl53",
       "name": "פח טאצ' 60 ליטר מוקה\nדגם ELVANO",
@@ -6942,30 +6488,6 @@
         "פחי מטבח"
       ],
       "updated_at": "2026-11-13T06:16:10.321Z"
-    },
-    {
-      "id": "4963c5b6-b862-4a3d-841c-ad05d1ec4b17",
-      "slug": "pch-tats-60-lytr-shchvr-dgm-elvano-w5qto2",
-      "name": "פח טאצ' 60 ליטר שחור\nדגם ELVANO",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח מטבח יוקרתי בנפח 60 ליטר, בעיצוב מודרני על רגליים המעניק מראה אלגנטי ומרשים. כולל פנימית נשלפת לנוחות מרבית ולניקוי קל – שילוב מושלם של עיצוב, איכות ופרקטיות.",
-      "sku": null,
-      "brand": null,
-      "price": 399.92,
-      "base_price": 499.9,
-      "sale_price": 399.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560139474-wysnq9.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-tats-60-lytr-shchvr-dgm-elvano-w5qto2",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:16:10.294Z"
     },
     {
       "id": "21f0bd5d-2582-4263-9fc2-6e9f1b41aab7",
@@ -7813,56 +7335,6 @@
       "updated_at": "2026-11-13T06:16:16.649Z"
     },
     {
-      "id": "4875aa52-d839-488d-8611-78dc19c5b77e",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-lg7qyl",
-      "name": "סט פח + מברשת דגם AUREL\nצבע מוקה ID1089",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.",
-      "sku": null,
-      "brand": null,
-      "price": 99.92,
-      "base_price": 124.9,
-      "sale_price": 99.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560051862-ui4om.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-mvkh-id1089-lg7qyl",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-11-13T06:16:16.626Z"
-    },
-    {
-      "id": "04f8c75a-5308-48df-a1ea-ff224310780b",
-      "slug": "st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjno9",
-      "name": "סט פח + מברשת דגם AUREL\nצבע שמנת ID1090",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סט פח ומברשת אסלה מעוצב לחדר הרחצה, בגימור יוקרתי ובמראה אלגנטי. פריט שימושי ודקורטיבי שמשדרג את עיצוב האמבטיה ומשלים אותה בצורה מושלמת.",
-      "sku": null,
-      "brand": null,
-      "price": 99.92,
-      "base_price": 124.9,
-      "sale_price": 99.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787898884175-4hg00g.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-pch-mbrsht-dgm-aurel-tsba-shmnt-id1090-mzjno9",
-      "categories": [
-        "פחי שירותים",
-        "פחי אמבטיה"
-      ],
-      "updated_at": "2026-11-13T06:16:16.652Z"
-    },
-    {
       "id": "bff3b9f7-5979-4491-93f0-254a6e202ff2",
       "slug": "st-pch-mbrsht-dgm-lucento-tsba-shchvr-id1083-khc35j",
       "name": "סט פח + מברשת דגם LUCENTO\nצבע שחור ID1083",
@@ -7987,30 +7459,6 @@
       "updated_at": "2026-11-13T06:16:18.182Z"
     },
     {
-      "id": "2157e0aa-ad92-428a-b3d9-d2765218f5bc",
-      "slug": "sl-kbysh-akryl-dgm-luna-id615-iearms",
-      "name": "סל כביסה אקריל דגם LUNA\nID615 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": "סל כביסה אקרילי מעוצב ופרקטי, בעל מראה מודרני ונקי המשתלב בצורה מושלמת בחדר הרחצה או הכביסה. פתרון נוח ואסתטי לאחסון הכביסה ולשמירה על סדר וארגון.",
-      "sku": null,
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786524696537-2i6xf1.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/sl-kbysh-akryl-dgm-luna-id615-iearms",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-11-13T06:16:18.177Z"
-    },
-    {
       "id": "97629411-c92a-4f48-8227-28c7613a1f9f",
       "slug": "skvmvn-mlbn-mchvlk-lshtyym-id512-enx0ib",
       "name": "סכומון מלבן מחולק לשתיים\nID512 ",
@@ -8033,30 +7481,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-11-13T06:16:18.181Z"
-    },
-    {
-      "id": "d75ac5bb-5f4a-4909-85af-0dfa90528a9e",
-      "slug": "argvnyt-akrylyt-dgm-chen-id409-bfbadj",
-      "name": "ארגונית אקרילית דגם \"CHEN\"\nID409 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786525100872-soybsc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-chen-id409-bfbadj",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:16:18.178Z"
     },
     {
       "id": "abf55749-c986-4451-80e0-3fcc2eedd31f",
@@ -8083,30 +7507,6 @@
       "updated_at": "2026-11-13T06:16:18.201Z"
     },
     {
-      "id": "0f3a7d34-83d0-4fa8-b222-76567514d2a1",
-      "slug": "argvnyt-akrylyt-dgm-mor-id410-b64xb9",
-      "name": "ארגונית אקרילית דגם \"MOR\"\nID410 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786525130131-wg9uco.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-mor-id410-b64xb9",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:16:18.205Z"
-    },
-    {
       "id": "a7792613-8ac5-4757-adda-040e33f6abd3",
       "slug": "skvmvn-agvl-shchvr-l-id513-v5lmap",
       "name": "סכומון עגול שחור L\nID513 ",
@@ -8129,78 +7529,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-11-13T06:16:18.203Z"
-    },
-    {
-      "id": "1ba75b17-ee62-4e70-a114-14f4c60a4999",
-      "slug": "argvnyt-akrylyt-dgm-gal-id407-wqyjiw",
-      "name": "ארגונית אקרילית דגם \"GAL\"\nID407 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786525158087-hmaq6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gal-id407-wqyjiw",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:16:18.197Z"
-    },
-    {
-      "id": "b6c0f855-44a2-4bc1-924d-e2a4514c451e",
-      "slug": "argvnyt-akrylyt-dgm-gaia-id406-hy8mwp",
-      "name": "ארגונית אקרילית דגם \"GAIA\"\nID406 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786525174423-b521yv.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-gaia-id406-hy8mwp",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:16:18.205Z"
-    },
-    {
-      "id": "48c126c9-4041-47f7-9ef7-c9e1949e2eb7",
-      "slug": "argvnyt-akrylyt-dgm-or-id405-bqd9xs",
-      "name": "ארגונית אקרילית דגם \"OR\"\nID405 ",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786525189279-32dq99.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-akrylyt-dgm-or-id405-bqd9xs",
-      "categories": [
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:16:18.257Z"
     },
     {
       "id": "16fc37fa-39d1-4e2c-be4d-73b4ed5ff00a",
@@ -9837,30 +9165,6 @@
       "updated_at": "2026-11-13T06:16:28.835Z"
     },
     {
-      "id": "a073b227-ab5f-4158-89ef-d3bca6d47b01",
-      "slug": "myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-3x6cnx",
-      "name": "מייבש כלים 2 קומות דגם SAPIR \nצבע לבן ID1012",
-      "name_translations": {},
-      "description": "",
-      "short_description": "מייבש כלים איכותי ומעוצב למטבח, עשוי מחומרים עמידים בפני חלודה לשימוש יומיומי לאורך זמן. בעל מראה נקי ומודרני, משתלב בצורה מושלמת על השיש ומאפשר ייבוש נוח ומסודר של כלים, צלחות וסכו\"ם.",
-      "sku": null,
-      "brand": null,
-      "price": 103.92,
-      "base_price": 129.9,
-      "sale_price": 103.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786524995341-1b17b.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/myybsh-klym-2-kvmvt-dgm-sapir-tsba-lbn-id1012-3x6cnx",
-      "categories": [
-        "מייבשי כלים"
-      ],
-      "updated_at": "2026-11-13T06:16:28.883Z"
-    },
-    {
       "id": "cc606a2d-a9ef-4454-8fc7-236d134abb2a",
       "slug": "almvgyt-skvtsh-brzl-mtsvph-id659-qi9oc7",
       "name": "אלמוגית סקוטש ברזל מצופה ID659",
@@ -10137,54 +9441,6 @@
       "updated_at": "2026-11-13T06:16:30.663Z"
     },
     {
-      "id": "9c563be4-9132-45fe-83a0-306d856a97d5",
-      "slug": "marz-5-ychydvt-kvlby-akryl-id663-b0g70h",
-      "name": "מארז 5 יחידות קולבי אקריל\nID663",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1785302888254-e1w8jf.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-5-ychydvt-kvlby-akryl-id663-b0g70h",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:16:32.940Z"
-    },
-    {
-      "id": "7a89e1ed-39f7-4888-81be-f877ead0f0b8",
-      "slug": "marz-10-kvlby-plstyk-shchvr-id923-4lqvp9",
-      "name": "מארז 10 קולבי פלסטיק שחור\nID923",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1785302956509-g8dznk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-shchvr-id923-4lqvp9",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:16:32.936Z"
-    },
-    {
       "id": "210a5efe-e0f0-4a42-a24b-42930751296e",
       "slug": "kvs-lmbrsht-shynyym-dgm-velin-tsba-lbn-id645-a0rer1",
       "name": "כוס למברשת שיניים  דגם VELIN\n צבע לבן ID645",
@@ -10208,30 +9464,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-11-13T06:16:33.020Z"
-    },
-    {
-      "id": "6046a897-af4d-48ea-812f-f535e36dbdaa",
-      "slug": "marz-10-kvlby-plstyk-lbn-id664-1l9gmp",
-      "name": "מארז 10 קולבי פלסטיק לבן\nID664",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1785302905661-wyea1p.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-lbn-id664-1l9gmp",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:16:32.938Z"
     },
     {
       "id": "cf76bd84-153c-4e27-99a2-0c4e3e31e0d6",
@@ -17676,31 +16908,6 @@
       "updated_at": "2026-11-13T06:17:35.095Z"
     },
     {
-      "id": "977e0421-7223-4952-a264-d5314dff0fa4",
-      "slug": "skvmyt-mgyrh-bynvny-akryl-dgm-maayan-h4a160",
-      "name": "סכומית מגירה בינוני אקריל\r\n דגם MAAYAN\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837712790-di18hi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-h4a160",
-      "categories": [
-        "מוצרי אקריל",
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:17:35.089Z"
-    },
-    {
       "id": "64866fb0-9aca-4766-aa95-f2a076ec16d5",
       "slug": "mamd-akryly-lmbrshvt-mshcht-shynyym-1rqpdb",
       "name": "מעמד אקרילי למברשות + משחת שיניים",
@@ -17819,31 +17026,6 @@
         "סירים ומחבתות"
       ],
       "updated_at": "2026-11-13T06:17:36.612Z"
-    },
-    {
-      "id": "f4b0185e-72bd-4796-83af-ee1086093870",
-      "slug": "skvmyt-mgyrh-bynvny-akryl-dgm-maayan-f85s0v",
-      "name": "סכומית מגירה בינוני אקריל\r\n דגם MAAYAN\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837712790-di18hi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/skvmyt-mgyrh-bynvny-akryl-dgm-maayan-f85s0v",
-      "categories": [
-        "מוצרי אקריל",
-        "ארגוניות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:17:36.636Z"
     },
     {
       "id": "0f093b8c-eab2-49fe-a7ec-59c844deecc3",
