@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-13T06:25:10.126Z",
+  "generated_at": "2026-11-13T06:26:53.714Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 988,
@@ -193,8 +193,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-8ovevt",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:26.744Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.563Z"
     },
     {
       "id": "43465dfd-77f1-472f-9e94-b5c205b742a4",
@@ -240,8 +242,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-s9c9ko",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:26.770Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:10.654Z"
     },
     {
       "id": "d444ac97-fbca-46da-b38a-74f03541faa0",
@@ -263,8 +267,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-jrfxw8",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.690Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.395Z"
     },
     {
       "id": "577495c7-249b-4ae5-b83a-0532571d1219",
@@ -286,8 +292,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-mov7mi",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.689Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.479Z"
     },
     {
       "id": "f5c9a6c8-4e94-422f-a7aa-3fe6bb5aa319",
@@ -309,8 +317,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-5p1htr",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.775Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.227Z"
     },
     {
       "id": "e9ad7f84-0983-458a-9e9b-864c5ef0c9e2",
@@ -332,8 +342,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-atlanta-id1190-6-x7lzyh",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.846Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.056Z"
     },
     {
       "id": "e9d39711-c1db-419d-95ac-6fc67affcf4d",
@@ -355,8 +367,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-sxk4ld",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.852Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.143Z"
     },
     {
       "id": "f076232e-5d9f-429f-bc66-2b607ec2c38c",
@@ -378,8 +392,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-0ukp2e",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.853Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:10.569Z"
     },
     {
       "id": "a925deb2-510a-45e5-9a06-d163c445a43b",
@@ -401,8 +417,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-9sr7pa",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.942Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.311Z"
     },
     {
       "id": "1303a823-35e8-4608-aee6-a6529984a521",
@@ -424,8 +442,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-mytgw1",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:27.946Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:10.741Z"
     },
     {
       "id": "231fc493-db1d-4f36-9814-3bf1afb810ca",
@@ -3998,8 +4018,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:51.224Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:12.393Z"
     },
     {
       "id": "70d803fe-d104-4516-bc80-f764325f3451",
@@ -4047,7 +4069,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:15:51.228Z"
+      "updated_at": "2026-11-13T06:26:12.479Z"
     },
     {
       "id": "62df6703-6e62-40ce-aaed-5ea50891ce7f",
@@ -4068,8 +4090,10 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z",
-      "categories": [],
-      "updated_at": "2026-11-13T06:15:51.241Z"
+      "categories": [
+        "עגלות שירות"
+      ],
+      "updated_at": "2026-11-13T06:26:11.908Z"
     },
     {
       "id": "5301be90-540b-4479-a0bb-a39957875219",
@@ -4093,7 +4117,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:15:52.863Z"
+      "updated_at": "2026-11-13T06:26:11.825Z"
     },
     {
       "id": "1e93e761-145e-4fb6-9762-5031a0f5b70c",
@@ -18033,7 +18057,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:17:28.281Z"
+      "updated_at": "2026-11-13T06:26:11.648Z"
     },
     {
       "id": "8ff56820-724e-448f-9fd2-0bac9020bd69",
@@ -18082,7 +18106,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:17:28.290Z"
+      "updated_at": "2026-11-13T06:26:11.736Z"
     },
     {
       "id": "0f309071-6b35-47a9-bd76-69d9903151db",
@@ -18181,7 +18205,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:17:29.777Z"
+      "updated_at": "2026-11-13T06:26:12.052Z"
     },
     {
       "id": "34cbd291-8a13-4329-ba48-e6635d6f7925",
@@ -21971,7 +21995,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:17:56.698Z"
+      "updated_at": "2026-11-13T06:26:12.138Z"
     },
     {
       "id": "09a8a66a-0cf3-4eb4-a813-b5b64c39e58d",
@@ -21995,7 +22019,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:17:56.699Z"
+      "updated_at": "2026-11-13T06:26:12.310Z"
     },
     {
       "id": "de7d3861-1099-4863-881a-9aecde90b318",
@@ -22041,7 +22065,7 @@
       "categories": [
         "עגלות שירות"
       ],
-      "updated_at": "2026-11-13T06:17:56.696Z"
+      "updated_at": "2026-11-13T06:26:12.223Z"
     },
     {
       "id": "113c5198-3fa1-42fb-a24f-6ecac4151134",

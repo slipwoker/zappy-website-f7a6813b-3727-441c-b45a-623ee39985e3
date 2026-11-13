@@ -125,6 +125,7 @@ https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-121x38-sm-id1206-3-
 https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-3-kvmvt-id437-2-8ovevt
 - Price: 159.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142337209-q0tjk.webp
 
 ### קרש גהוץ דגם PRIME
@@ -140,6 +141,7 @@ https://streetstock.co.il/product/krsh-ghvts-dgm-prime-mydvt-110x33-sm-id1205-3-
 https://streetstock.co.il/product/aglt-shrvt-akryl-dgm-pure-4-kvmvt-id436-2-s9c9ko
 - Price: 199.90 ILS (sale, was 299.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142341793-c73ol1.webp
 
 ### עגלת שירות 3 קומות דגם SAN DIEGO
@@ -147,6 +149,7 @@ ID1233 (6)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-san-diego-id1233-6-jrfxw8
 - Price: 69.90 ILS (sale, was 149.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142398171-a98o6.webp
 
 ### עגלת שירות 4 קומות דגם SAN DIEGO
@@ -155,6 +158,7 @@ ID1234 (6)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-san-diego-id1234-6-mov7mi
 - Price: 89.90 ILS (sale, was 179.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142427692-wisy0b.webp
 
 ### עגלת שירות 3 קומות דגם ATLANTA
@@ -162,6 +166,7 @@ ID1189 (6)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-atlanta-id1189-6-5p1htr
 - Price: 49.90 ILS (sale, was 99.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142500627-g3wisr.webp
 
 ### עגלת שירות 4 קומות דגם ATLANTA
@@ -169,6 +174,7 @@ ID1190 (6)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-atlanta-id1190-6-x7lzyh
 - Price: 69.90 ILS (sale, was 119.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794142545512-nvr5cj.webp
 
 ### עגלת שירות 3 קומות דגם DALLAS
@@ -176,6 +182,7 @@ ID1185 (1)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-dallas-id1185-1-sxk4ld
 - Price: 79.90 ILS (sale, was 149.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794144158042-espdzr.webp
 
 ### עגלת שירות 4 קומות דגם DALLAS
@@ -183,6 +190,7 @@ ID1186 (1)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-dallas-id1186-1-0ukp2e
 - Price: 119.90 ILS (sale, was 199.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794144171707-b7qtr.webp
 
 ### עגלת שירות 3 קומות דגם BOSTON
@@ -190,6 +198,7 @@ ID1187 (1)
 https://streetstock.co.il/product/aglt-shyrvt-3-kvmvt-dgm-boston-id1187-1-9sr7pa
 - Price: 119.90 ILS (sale, was 199.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794143253673-vfvzb.webp
 
 ### עגלת שירות 4 קומות דגם BOSTON
@@ -197,6 +206,7 @@ ID1188 (1)
 https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-dgm-boston-id1188-1-mytgw1
 - Price: 149.90 ILS (sale, was 249.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1794143277435-k7oc9o.webp
 
 ### סלסלת ראטן 34X24X8.5 ס"מ
@@ -1358,6 +1368,7 @@ ID371
 https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1
 - Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845171991-kv2jtk.webp
 
 ### ראש מקלחת ידני 3 מצבים סדרת WATER FLEX
@@ -1381,6 +1392,7 @@ ID366
 https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z
 - Price: 159.92 ILS (sale, was 199.90 ILS)
 - Availability: In stock
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845140319-luwupn.webp
 
 ### עגלת שרות מתקפלת מוקה 3 קומות
