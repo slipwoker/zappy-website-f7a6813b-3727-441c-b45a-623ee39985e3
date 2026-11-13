@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-13T06:28:24.540Z",
+  "generated_at": "2026-11-13T06:33:26.973Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 988,
+  "count": 927,
   "products": [
     {
       "id": "91ef82f0-2ea1-4a5f-98d4-0033dc11ad45",
@@ -19776,54 +19776,6 @@
       "updated_at": "2026-11-13T06:17:39.761Z"
     },
     {
-      "id": "32699074-a01b-4a62-8037-4a04e8ca2cbf",
-      "slug": "ntlh-mhvdrt-akrylyt-shkvp-entcdg",
-      "name": "נטלה מהודרת אקרילית שקוף\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703673-6z37p6.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/ntlh-mhvdrt-akrylyt-shkvp-entcdg",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-11-13T06:17:39.765Z"
-    },
-    {
-      "id": "aae28fdb-e9a4-4271-b1a9-796365292e3e",
-      "slug": "ntlh-mhvdrt-akrylyt-shkvpnytsvtsvt-zhb-jnyvj0",
-      "name": "נטלה מהודרת אקרילית שקוף+ניצוצות זהב\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837703631-eiw1c5.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/ntlh-mhvdrt-akrylyt-shkvpnytsvtsvt-zhb-jnyvj0",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-11-13T06:17:41.314Z"
-    },
-    {
       "id": "5b6ec480-e9f6-4ba9-a4d3-d7dcf2186949",
       "slug": "dyspnsr-lsbvn-dgm-avero-tsba-bz-vxeua4",
       "name": "דיספנסר לסבון דגם AVERO צבע בז'",
@@ -19977,30 +19929,6 @@
       "updated_at": "2026-11-13T06:17:41.339Z"
     },
     {
-      "id": "9289e42d-eb39-4443-8618-f63e1737f8fc",
-      "slug": "st-th-kph-akryly-agvl-ktvbyvt-shchvr-gxajuq",
-      "name": "סט תה קפה אקרילי עגול כתוביות שחור\r\n\r\n ",
-      "name_translations": {},
-      "description": "תה קפה סוכר",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 47.92,
-      "base_price": 59.9,
-      "sale_price": 47.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837700315-t9auua.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-th-kph-akryly-agvl-ktvbyvt-shchvr-gxajuq",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:41.346Z"
-    },
-    {
       "id": "3eee0058-2fe3-43fa-953a-70be1233d57c",
       "slug": "marz-shlvsh-nvrvt-ld-20-vvat-7p4nww",
       "name": "מארז שלוש נורות לד 20 וואט",
@@ -20047,150 +19975,6 @@
         "מוצרי חשמל"
       ],
       "updated_at": "2026-11-13T06:17:41.399Z"
-    },
-    {
-      "id": "3e2c2adb-868d-4d8f-9c11-ee65aad00efb",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע טורקיז",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698955-yis015.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-tvrkyz-vrn3d0",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-11-13T06:27:48.313Z"
-    },
-    {
-      "id": "7cbdaa12-80a2-415b-af90-6d724a7db35f",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע ורוד ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698937-5pzcz.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-vrvd-zyc3jz",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-11-13T06:27:48.394Z"
-    },
-    {
-      "id": "e7ba58fb-b8cc-4c55-8e6d-e22941f2d57f",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-nyyby-59xie3",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע נייבי ",
-      "name_translations": {},
-      "description": "<p>מזוודות</p>",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698910-u09tk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-nyyby-59xie3",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-11-13T06:27:49.042Z"
-    },
-    {
-      "id": "811542f0-2c9d-4ebc-95e6-5b70b0112710",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע שחור ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698865-o5o1p.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-shchvr-ciqr86",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-11-13T06:27:48.474Z"
-    },
-    {
-      "id": "d0411331-3e4c-4679-acee-fe78755d59f1",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע מוקה",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698776-6342t.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-mvkh-6pcc6j",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-11-13T06:27:48.881Z"
-    },
-    {
-      "id": "b7fcf9b3-2bdd-4e87-8534-f9d1f130c5eb",
-      "slug": "st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17",
-      "name": "סט 3 מזוודות דגם VELORA \r\n צבע סגול ",
-      "name_translations": {},
-      "description": "מזוודות",
-      "short_description": "עשויות פלסטיק PP איכותי אשר מעניק למזוודה עמידות וקלות\r\nידית נשיאה מתכווננת(מנגנון טרולי)\r\nידיות נשיאה בצד המזוודה להרמה קלה של המזוודה\r\n8 גלגלים עשויים מגומי קשיח לנסיעה רכה\r\nמנעול קומבינציה 3 ספרות\r\nארוז אחת בתוך השניה לחיסכון במקום\r\nגלגלים כפולים בכל הגדלים\r\nמידות הגדולה 28\" - חיצוני: 75X47X30 ס\"מ \r\nמידות הבינונית 24\" - חיצוני: 65X42X26 ס\"מ\r\nמידות הקטנה 19\" - חיצוני: 55X38X22 ס\"מ",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 272,
-      "base_price": 340,
-      "sale_price": 272,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837698720-ve31ri.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-3-mzvvdvt-dgm-velora-tsba-sgvl-xatx17",
-      "categories": [
-        "מזוודות"
-      ],
-      "updated_at": "2026-11-13T06:27:48.799Z"
     },
     {
       "id": "c5cfcf0b-95d1-44cc-b6f8-5aedbdfac36b",
@@ -20242,79 +20026,6 @@
       "updated_at": "2026-11-13T06:17:43.059Z"
     },
     {
-      "id": "994ac134-7f3a-4ff9-9e70-6075704ec698",
-      "slug": "st-4-slsavt-tsba-shchvr-lklsf5",
-      "name": "סט 4 סלסאות צבע שחור",
-      "name_translations": {},
-      "description": "<p>סלסלות אחסון</p>",
-      "short_description": null,
-      "sku": "6.53783E+12",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518281978-rmpl3l.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-slsavt-tsba-shchvr-lklsf5",
-      "categories": [
-        "סלסלות אחסון"
-      ],
-      "updated_at": "2026-11-13T06:17:43.053Z"
-    },
-    {
-      "id": "7d5f9b69-00b9-4cfa-8f00-140a159f4092",
-      "slug": "st-4-slsavt-tsba-lbn-k53o2m",
-      "name": "סט 4 סלסאות צבע לבן",
-      "name_translations": {},
-      "description": "<p>סלסלות אחסון</p>",
-      "short_description": null,
-      "sku": "6.53783E+12",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518303213-36v7w1.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-slsavt-tsba-lbn-k53o2m",
-      "categories": [
-        "סלסלות אחסון"
-      ],
-      "updated_at": "2026-11-13T06:17:43.063Z"
-    },
-    {
-      "id": "f89569bc-c6bd-43c3-9bbe-4fa852cb7007",
-      "slug": "mtlh-al-dlt-3-vvymsylykvn-ao4fjr",
-      "name": "מתלה על דלת 3 ווים+סיליקון\r\n",
-      "name_translations": {},
-      "description": "<p>כללי, מוצרי אמבט</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837693484-vcvkd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-al-dlt-3-vvymsylykvn-ao4fjr",
-      "categories": [
-        "מוצרי אמבט",
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:44.556Z"
-    },
-    {
       "id": "696bd2fd-1e71-4972-81b8-7af355e1899c",
       "slug": "almvgyt-lkyvr-shkvph-5q3wvg",
       "name": "אלמוגית לכיור שקופה\r\n",
@@ -20338,30 +20049,6 @@
         "כללי"
       ],
       "updated_at": "2026-11-13T06:17:44.553Z"
-    },
-    {
-      "id": "4b3ff3bd-5c2a-4d42-983a-660d0fd86df9",
-      "slug": "marz-6-klypsym-lsgyrh-vaytvm-d7ahv8",
-      "name": "מארז 6 קליפסים לסגירה ואיטום \r\n",
-      "name_translations": {},
-      "description": "<p>כללי</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784094204476-yarz7l.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-6-klypsym-lsgyrh-vaytvm-d7ahv8",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:44.555Z"
     },
     {
       "id": "cfa768c8-d626-4b5d-9012-9c765a03013f",
@@ -20436,31 +20123,6 @@
       "updated_at": "2026-11-13T06:17:44.578Z"
     },
     {
-      "id": "2dd8357b-a35d-4031-b52d-d3116bb91b9c",
-      "slug": "mtlh-al-dlt-4-vvym-1tnucw",
-      "name": "מתלה על דלת 4 ווים\r\n",
-      "name_translations": {},
-      "description": "<p>כללי, מוצרי אמבט</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837693883-cf04ov.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-al-dlt-4-vvym-1tnucw",
-      "categories": [
-        "מוצרי אמבט",
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:44.581Z"
-    },
-    {
       "id": "fd1d1ec5-d214-4c38-8a31-d5cb6d4a42c3",
       "slug": "shkyt-vakvm-xl-70x100-n3t1l4",
       "name": "שקית ואקום XL 70X100\r\n",
@@ -20509,32 +20171,6 @@
       "updated_at": "2026-11-13T06:17:44.580Z"
     },
     {
-      "id": "cf4cee89-73fa-410d-99e8-209eda010f34",
-      "slug": "mamd-nyyr-tvalt-mtkpl-dgm-serena-8gm09q",
-      "name": "מעמד נייר טואלט מתקפל דגם SERENA\r\n",
-      "name_translations": {},
-      "description": "<p>כללי, מוצרי אמבט</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 31.92,
-      "base_price": 39.9,
-      "sale_price": 31.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781513831551-8iic5o.webp",
-        "https://streetstock.co.il/assets/product-1781513849611-xa8qy.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-nyyr-tvalt-mtkpl-dgm-serena-8gm09q",
-      "categories": [
-        "מוצרי אמבט",
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:44.582Z"
-    },
-    {
       "id": "543c5a69-330c-4e2f-ab05-4c689c1b100b",
       "slug": "marz-20-atby-kbysh-aykvtyym-xc184i",
       "name": "מארז 20 אטבי כביסה איכותיים\r\n",
@@ -20556,54 +20192,6 @@
       "url": "https://streetstock.co.il/product/marz-20-atby-kbysh-aykvtyym-xc184i",
       "categories": [
         "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:46.113Z"
-    },
-    {
-      "id": "433295ea-d20c-4c3e-ad38-9f4c8245ad64",
-      "slug": "kpph-amydh-lchvm-xdtnrs",
-      "name": "כפפה עמידה לחום\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837690184-h6am9n.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kpph-amydh-lchvm-xdtnrs",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:46.031Z"
-    },
-    {
-      "id": "3d527cd9-a30d-4c55-9811-cc05ff920662",
-      "slug": "tchtyt-ats-bmbvk-mrvbat-x99ecg",
-      "name": "תחתית עץ במבוק מרובעת\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784094061036-gxrf8k.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tchtyt-ats-bmbvk-mrvbat-x99ecg",
-      "categories": [
-        "כלי בית"
       ],
       "updated_at": "2026-11-13T06:17:46.113Z"
     },
@@ -20800,30 +20388,6 @@
       "updated_at": "2026-11-13T06:17:47.592Z"
     },
     {
-      "id": "58c23e6c-6932-491b-a965-59b2141b7410",
-      "slug": "tchtyt-ats-bmbvk-agvlh-2nqwiv",
-      "name": "תחתית עץ במבוק עגולה\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784094100764-7vnmda.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/tchtyt-ats-bmbvk-agvlh-2nqwiv",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:47.590Z"
-    },
-    {
       "id": "99494bcc-7d9b-4101-8642-791b1074c391",
       "slug": "kpph-amydh-lchvm-mbd-qkkc70",
       "name": "כפפה עמידה לחום מבד\r\n",
@@ -20896,174 +20460,6 @@
       "updated_at": "2026-11-13T06:17:47.594Z"
     },
     {
-      "id": "8dfdf58a-a782-4b64-99d1-a15005a4d7e2",
-      "slug": "kart-nyrvsth-16-sm-dgm-bowlix-3gljk9",
-      "name": "קערת נירוסטה 16 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 9.52,
-      "base_price": 11.9,
-      "sale_price": 9.52,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514069556-r04h1.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-16-sm-dgm-bowlix-3gljk9",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:47.621Z"
-    },
-    {
-      "id": "aac775e3-c24c-4109-8e88-e090c1a84075",
-      "slug": "kart-nyrvsth-14-sm-dgm-bowlix-3aai2s",
-      "name": "קערת נירוסטה 14 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514046745-hczsst.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-14-sm-dgm-bowlix-3aai2s",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:47.650Z"
-    },
-    {
-      "id": "0eb7e95b-f54b-4a04-a44b-01bc1dda70b2",
-      "slug": "kart-nyrvsth-20-sm-dgm-bowlix-td31xq",
-      "name": "קערת נירוסטה 20 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 12.72,
-      "base_price": 15.9,
-      "sale_price": 12.72,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837684780-bbebc9.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-20-sm-dgm-bowlix-td31xq",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:47.671Z"
-    },
-    {
-      "id": "070caff9-4fff-4d93-bc13-a87b80c20cf4",
-      "slug": "kart-nyrvsth-18-sm-dgm-bowlix-7ukv2k",
-      "name": "קערת נירוסטה 18 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 11.12,
-      "base_price": 13.9,
-      "sale_price": 11.12,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514099387-ihyykd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-18-sm-dgm-bowlix-7ukv2k",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:47.671Z"
-    },
-    {
-      "id": "7266e326-1dbf-449a-93e4-9c151222bf77",
-      "slug": "kart-nyrvsth-22-sm-dgm-bowlix-jdqwiv",
-      "name": "קערת נירוסטה 22 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 14.32,
-      "base_price": 17.9,
-      "sale_price": 14.32,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837684780-bbebc9.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-22-sm-dgm-bowlix-jdqwiv",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:47.672Z"
-    },
-    {
-      "id": "3115fdda-0b9b-4599-9e9e-a803741974fa",
-      "slug": "kart-nyrvsth-24-sm-dgm-bowlix-09xqyx",
-      "name": "קערת נירוסטה 24 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837684191-20mzc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-24-sm-dgm-bowlix-09xqyx",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.064Z"
-    },
-    {
-      "id": "28bd4fc6-edea-4985-87f6-bbea1d8bdadf",
-      "slug": "msnnt-nyrvsth-20-sm-otwaer",
-      "name": "מסננת נירוסטה 20 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784112354678-o7b81.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-20-sm-otwaer",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.065Z"
-    },
-    {
       "id": "194b224b-10bd-4192-8825-2fad4fb546fd",
       "slug": "msnnt-nyrvsth-lchlyth-th-pzogqf",
       "name": "מסננת נירוסטה לחליטה תה\r\n",
@@ -21086,150 +20482,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-11-13T06:17:49.063Z"
-    },
-    {
-      "id": "56e29db8-1003-46ef-be50-f1de90cbfb4f",
-      "slug": "svcht-hdrym-mktsvay-1uzm2u",
-      "name": "סוחט הדרים מקצועי",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1784094157041-e8031m.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svcht-hdrym-mktsvay-1uzm2u",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.063Z"
-    },
-    {
-      "id": "41538032-438d-4663-9516-3f022e02a800",
-      "slug": "kart-nyrvsth-28-sm-dgm-bowlix-f1gjii",
-      "name": "קערת נירוסטה 28 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837683732-ymsfq.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-28-sm-dgm-bowlix-f1gjii",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.070Z"
-    },
-    {
-      "id": "e3650e42-7e1f-4948-80c5-7222ab2be11a",
-      "slug": "kart-nyrvsth-26-sm-dgm-bowlix-jqqwad",
-      "name": "קערת נירוסטה 26 ס\"מ דגם BOWLIX\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837684190-jnng2n.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kart-nyrvsth-26-sm-dgm-bowlix-jqqwad",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.079Z"
-    },
-    {
-      "id": "d79b7548-0804-47d4-b38f-d17656f1ebb9",
-      "slug": "msnnt-nyrvsth-26-sm-zkhgmt",
-      "name": "מסננת נירוסטה 26 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837683682-7pr6oe.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msnnt-nyrvsth-26-sm-zkhgmt",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.085Z"
-    },
-    {
-      "id": "da778ba1-0801-4e1c-9854-d10991790323",
-      "slug": "marz-6-skyny-chytvk-npwupf",
-      "name": "מארז 6 סכיני חיתוך\r\n",
-      "name_translations": {},
-      "description": "כלי בית",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837683614-yaado8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-6-skyny-chytvk-npwupf",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.065Z"
-    },
-    {
-      "id": "01316694-5db3-4a8d-a479-a248a495e496",
-      "slug": "svcht-lymvn-mktsvay-egyqbb",
-      "name": "סוחט לימון מקצועי",
-      "name_translations": {},
-      "description": "<p>כלי בית</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514145557-rzgk3.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/svcht-lymvn-mktsvay-egyqbb",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:49.140Z"
     },
     {
       "id": "7aae2338-3d80-4f7a-a60c-72e289025a18",
@@ -21520,30 +20772,6 @@
       "updated_at": "2026-11-13T06:17:52.295Z"
     },
     {
-      "id": "e7d2e5c2-5768-4baa-b991-87b62ff68255",
-      "slug": "mshtch-chytvk-ats-mktsvay-22x30-sm-f43nt1",
-      "name": "משטח חיתוך עץ מקצועי 22X30 ס\"מ",
-      "name_translations": {},
-      "description": "<p>משטחי חיתוך</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 23.92,
-      "base_price": 29.9,
-      "sale_price": 23.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837673475-xe4ycg.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-ats-mktsvay-22x30-sm-f43nt1",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:52.381Z"
-    },
-    {
       "id": "2b1cf5e5-a327-4aa3-82b3-e22cdd7cb9bf",
       "slug": "mshtch-chytvk-mktsvay-mats-bmbvk-28x20-sm-rspv0d",
       "name": "משטח חיתוך מקצועי מעץ במבוק 28X20 ס\"מ\r\n ",
@@ -21566,30 +20794,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-11-13T06:17:52.376Z"
-    },
-    {
-      "id": "a9bece82-1382-47c1-9607-c813c024d8c8",
-      "slug": "mshtch-chytvk-ats-mktsvay-25x35-sm-zxlho6",
-      "name": "משטח חיתוך עץ מקצועי 25X35 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 31.92,
-      "base_price": 39.9,
-      "sale_price": 31.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837672873-e7sbyk.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-ats-mktsvay-25x35-sm-zxlho6",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:52.409Z"
     },
     {
       "id": "3cc52fbd-c832-438c-8a97-1a28d1f96f7c",
@@ -21736,30 +20940,6 @@
       "updated_at": "2026-11-13T06:17:52.455Z"
     },
     {
-      "id": "5d6037e1-78f8-4a9b-b796-8c21264314c2",
-      "slug": "marz-5-ychydvt-kvlby-ats-pidm3m",
-      "name": "מארז 5 יחידות קולבי עץ\r\n\r\n ",
-      "name_translations": {},
-      "description": "כללי",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837670285-n2ia2f.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-5-ychydvt-kvlby-ats-pidm3m",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:54.594Z"
-    },
-    {
       "id": "b48f71ad-afbc-4797-abe4-2dadcc3bcbfd",
       "slug": "aglt-shvk-dgm-washingston-49ncy6",
       "name": "עגלת שוק דגם WASHINGSTON\r\n",
@@ -21784,54 +20964,6 @@
       "updated_at": "2026-11-13T06:17:54.659Z"
     },
     {
-      "id": "7b236a58-777f-4b22-8719-5561198d37a0",
-      "slug": "aglt-shvk-alvmynyvm-dgm-new-york-ztq9o8",
-      "name": "עגלת שוק אלומיניום דגם NEW YORK\r\n",
-      "name_translations": {},
-      "description": "כללי, עגלות שירות",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669876-ti3kbe.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shvk-alvmynyvm-dgm-new-york-ztq9o8",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:54.798Z"
-    },
-    {
-      "id": "8bbd79bd-01c3-4301-a7ac-6722d5a55551",
-      "slug": "mshtch-chytvk-zkvkyt-40x30-sm-1eqxoa",
-      "name": "משטח חיתוך זכוכית 40X30 ס\"מ \r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669876-163byf.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mshtch-chytvk-zkvkyt-40x30-sm-1eqxoa",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:54.798Z"
-    },
-    {
       "id": "fc99a192-8e99-4471-927c-7c6a236eb05b",
       "slug": "mtlh-kbysh-mtkt-tsba-ksp-dgm-noga-xokkop",
       "name": "מתלה כביסה מתכת צבע כסף\r\n דגם NOGA\r\n",
@@ -21854,54 +20986,6 @@
         "מתקני כביסה"
       ],
       "updated_at": "2026-11-13T06:17:54.800Z"
-    },
-    {
-      "id": "e448e185-66e0-494c-b23d-7efbe52aa1b7",
-      "slug": "marz-10-ychydvt-kvlby-ktyph-tsba-krm-2c2wux",
-      "name": "מארז 10 יחידות  קולבי קטיפה צבע קרם\r\n\r\n ",
-      "name_translations": {},
-      "description": "<p>כללי</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669688-orcmbf.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-ychydvt-kvlby-ktyph-tsba-krm-2c2wux",
-      "categories": [
-        "כללי"
-      ],
-      "updated_at": "2026-11-13T06:17:54.822Z"
-    },
-    {
-      "id": "30dd32f6-f584-4c02-b83a-126fd25b4999",
-      "slug": "mtlh-kbysh-mtkt-tsba-shchvr-dgm-noga-gbt3o5",
-      "name": "מתלה כביסה מתכת צבע שחור\r\nדגם NOGA\r\n",
-      "name_translations": {},
-      "description": "<p>מתקני כביסה</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 55.92,
-      "base_price": 69.9,
-      "sale_price": 55.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837669717-cjsn3a.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtlh-kbysh-mtkt-tsba-shchvr-dgm-noga-gbt3o5",
-      "categories": [
-        "מתקני כביסה"
-      ],
-      "updated_at": "2026-11-13T06:17:54.797Z"
     },
     {
       "id": "5665814b-c9b1-4e06-b4ed-f9242ee7448f",
@@ -21952,28 +21036,6 @@
       "updated_at": "2026-11-13T06:17:54.827Z"
     },
     {
-      "id": "f4e615a7-0b9c-4f39-8f85-cf9528cf7e2d",
-      "slug": "argvnyt-2-kvmvt-lbn-dgm-texas-yl08y9",
-      "name": "ארגונית 2 קומות לבן דגם TEXAS",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837667421-0c8zvw.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-2-kvmvt-lbn-dgm-texas-yl08y9",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:54.183Z"
-    },
-    {
       "id": "20b7f23e-cda4-43c2-a0d7-bb33685fc2cb",
       "slug": "aglt-shyrvt-4-kvmvt-lbn-dgm-calirfonia-788of7",
       "name": "עגלת שירות 4 קומות לבן דגם CALIRFONIA",
@@ -21996,236 +21058,6 @@
         "עגלות שירות"
       ],
       "updated_at": "2026-11-13T06:26:12.138Z"
-    },
-    {
-      "id": "09a8a66a-0cf3-4eb4-a813-b5b64c39e58d",
-      "slug": "aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-3xtb17",
-      "name": "עגלת שירות 4 קומות שחור דגם ARIZONA",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 159.9,
-      "base_price": 199.9,
-      "sale_price": 159.9,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837666970-ol5y5n.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shyrvt-4-kvmvt-shchvr-dgm-arizona-3xtb17",
-      "categories": [
-        "עגלות שירות"
-      ],
-      "updated_at": "2026-11-13T06:26:12.310Z"
-    },
-    {
-      "id": "de7d3861-1099-4863-881a-9aecde90b318",
-      "slug": "argvnyt-2-kvmvt-shchvr-dgm-texas-xjdswq",
-      "name": "ארגונית 2 קומות שחור דגם TEXAS",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 39.92,
-      "base_price": 49.9,
-      "sale_price": 39.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837666873-f0w3z.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/argvnyt-2-kvmvt-shchvr-dgm-texas-xjdswq",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:56.458Z"
-    },
-    {
-      "id": "ba9d51c7-36e0-4081-a643-36725ba183ad",
-      "slug": "aglt-shrvt-4-kvmvt-lbn-dgm-arizona-23nxz9",
-      "name": "עגלת שרות 4 קומות לבן דגם ARIZONA",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 159.9,
-      "base_price": 199.9,
-      "sale_price": 159.9,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837666586-1f72e.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/aglt-shrvt-4-kvmvt-lbn-dgm-arizona-23nxz9",
-      "categories": [
-        "עגלות שירות"
-      ],
-      "updated_at": "2026-11-13T06:26:12.223Z"
-    },
-    {
-      "id": "113c5198-3fa1-42fb-a24f-6ecac4151134",
-      "slug": "mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft",
-      "name": "מעמד 5 קומות צבע עץ\r\n דגם DARO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659966-yl04j.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-5-kvmvt-tsba-ats-dgm-daro-tbmeft",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:56.533Z"
-    },
-    {
-      "id": "6d49792d-e1fe-4207-bfb8-29becf622051",
-      "slug": "mamd-3-kvmvt-tsba-ats-dgm-nubo-q8uvjb",
-      "name": "מעמד 3 קומות צבע עץ\r\n דגם NUBO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659382-pmn5h.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-ats-dgm-nubo-q8uvjb",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:56.535Z"
-    },
-    {
-      "id": "a6a1231c-9b23-4427-9e52-de3b56a610fd",
-      "slug": "mamd-3-kvmvt-tsba-shchvr-dgm-nubo-la1z9t",
-      "name": "מעמד 3 קומות צבע שחור\r\n דגם NUBO\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 95.92,
-      "base_price": 119.9,
-      "sale_price": 95.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781514506709-5b8jd.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-3-kvmvt-tsba-shchvr-dgm-nubo-la1z9t",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:56.536Z"
-    },
-    {
-      "id": "84e8f139-f570-444d-ac3f-1b7221cd4b66",
-      "slug": "msgrt-tmvnh-10x15-sm-bh5lom",
-      "name": "מסגרת תמונה 10X15 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659380-it25vc.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-10x15-sm-bh5lom",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-11-13T06:17:56.623Z"
-    },
-    {
-      "id": "a4f30b2f-d748-4a2f-aed3-6d5197a0fec5",
-      "slug": "msgrt-tmvnh-13x18-sm-icz23r",
-      "name": "מסגרת תמונה 13X18 ס\"מ\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 10.32,
-      "base_price": 12.9,
-      "sale_price": 10.32,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659088-8oocj5.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-13x18-sm-icz23r",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-11-13T06:17:56.695Z"
-    },
-    {
-      "id": "20300e3a-d7a8-4b49-816b-2c07cf6531a4",
-      "slug": "msgrt-tmvnh-a4-9b3c43",
-      "name": "מסגרת תמונה A4\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837659028-ltuhal.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-a4-9b3c43",
-      "categories": [
-        "מראות ומסגרות"
-      ],
-      "updated_at": "2026-11-13T06:17:56.700Z"
-    },
-    {
-      "id": "77422bb9-11c5-40ef-8698-1e78c064f336",
-      "slug": "msgrt-tmvnh-a3-lscrvf",
-      "name": "מסגרת תמונה A3\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 19.92,
-      "base_price": 24.9,
-      "sale_price": 19.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837658969-n32q3.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/msgrt-tmvnh-a3-lscrvf",
-      "categories": [],
-      "updated_at": "2026-11-13T06:17:58.138Z"
     },
     {
       "id": "c3a818b8-2fe2-4147-a75e-b3215cdfbca8",
@@ -22423,54 +21255,6 @@
       "updated_at": "2026-11-13T06:17:58.385Z"
     },
     {
-      "id": "39e9b39a-0964-460f-95d6-8eb509fef823",
-      "slug": "kvpsat-zkvkyt-mrvbat-1200-ml-6gvy3v",
-      "name": "קופסאת זכוכית מרובעת 1200 מ\"ל \r\n \r\n ",
-      "name_translations": {},
-      "description": "<p>קופסאות אחסון</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837653004-ib0zb.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mrvbat-1200-ml-6gvy3v",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:58.391Z"
-    },
-    {
-      "id": "5f2a130a-8200-44a3-b92d-800f55f7e080",
-      "slug": "kvpsat-zkvkyt-mrvbat-520-ml-os3or5",
-      "name": "קופסאת זכוכית מרובעת 520 מ\"ל \r\n\r\n \r\n ",
-      "name_translations": {},
-      "description": "<p>קופסאות אחסון</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 11.92,
-      "base_price": 14.9,
-      "sale_price": 11.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837652767-8ddbv.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mrvbat-520-ml-os3or5",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:59.873Z"
-    },
-    {
       "id": "9972abf2-c57c-4f4b-bb16-efc323d68d87",
       "slug": "kvpsat-zkvkyt-mlbnyt-370-ml-uzzlb0",
       "name": "קופסאת זכוכית מלבנית 370 מ\"ל \r\n \r\n ",
@@ -22493,30 +21277,6 @@
         "כלי בית"
       ],
       "updated_at": "2026-11-13T06:17:59.873Z"
-    },
-    {
-      "id": "fee9775d-686e-4d5f-9db2-4b3240b48f05",
-      "slug": "kvpsat-zkvkyt-mrvbat-320-ml-9jtkdn",
-      "name": "קופסאת זכוכית מרובעת 320 מ\"ל \r\n \r\n ",
-      "name_translations": {},
-      "description": "<p>קופסאות אחסון</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837653003-nsmct.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mrvbat-320-ml-9jtkdn",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:59.899Z"
     },
     {
       "id": "7c3ecbaf-d582-4095-9425-725c3c026a40",
@@ -22592,30 +21352,6 @@
         "פחי אמבטיה"
       ],
       "updated_at": "2026-11-13T06:17:59.898Z"
-    },
-    {
-      "id": "70be8473-d4fd-48f5-98f4-afacfb440d8f",
-      "slug": "kvpsat-zkvkyt-mrvbat-800-ml-x386jb",
-      "name": "קופסאת זכוכית מרובעת 800 מ\"ל \r\n \r\n ",
-      "name_translations": {},
-      "description": "<p>קופסאות אחסון</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 14.32,
-      "base_price": 17.9,
-      "sale_price": 14.32,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837652022-c25zn.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvpsat-zkvkyt-mrvbat-800-ml-x386jb",
-      "categories": [
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:17:59.986Z"
     },
     {
       "id": "51f439e8-7395-46b7-aafc-5c97a6d6db22",
@@ -22739,30 +21475,6 @@
       "updated_at": "2026-11-13T06:18:01.414Z"
     },
     {
-      "id": "0874fefa-d2e7-4997-80cf-e7cea5977190",
-      "slug": "kvs-zkvkyt-500-ml-dgm-psym-ny1hxb",
-      "name": "כוס זכוכית 500 מ\"ל דגם \"פסים\"\r\n",
-      "name_translations": {},
-      "description": "<p>כוסות</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 7.92,
-      "base_price": 9.9,
-      "sale_price": 7.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781518419595-1i0qbi.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/kvs-zkvkyt-500-ml-dgm-psym-ny1hxb",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
-      "updated_at": "2026-11-13T06:18:01.431Z"
-    },
-    {
       "id": "f05d7a8f-1ae1-4657-a60c-b8f9cfcfc210",
       "slug": "kvs-zkvkyt-350-ml-dgm-yhlvm-0z10g3",
       "name": "כוס זכוכית 350 מ\"ל דגם \"יהלום\"\r\n",
@@ -22785,28 +21497,6 @@
         "כוסות + קנקני שתייה"
       ],
       "updated_at": "2026-11-13T06:18:01.411Z"
-    },
-    {
-      "id": "75142fea-3478-4738-b811-1aa2eef6ceb9",
-      "slug": "marz-6-kvsvt-yyn-mhvdrvt-330-ml-th0rgn",
-      "name": "מארז 6 כוסות יין מהודרות 330 מ\"ל\r\n\r\n",
-      "name_translations": {},
-      "description": "<p>כוסות</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 31.92,
-      "base_price": 39.9,
-      "sale_price": 31.92,
-      "currency": "ILS",
-      "images": [],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-6-kvsvt-yyn-mhvdrvt-330-ml-th0rgn",
-      "categories": [
-        "כוסות + קנקני שתייה"
-      ],
-      "updated_at": "2026-11-13T06:18:01.387Z"
     },
     {
       "id": "1936d09c-8353-4d03-82be-9cc24efa2338",
@@ -23149,30 +21839,6 @@
       "updated_at": "2026-11-13T06:18:02.931Z"
     },
     {
-      "id": "df7e2d89-6e8c-4048-b19a-849178ead91a",
-      "slug": "st-4-kvpsavt-achsvn-akrylyt-900-ml-dgm-anbr-rdbidi",
-      "name": "סט 4 קופסאות אחסון אקרילית 900 מ\"ל  דגם \"ענבר\" ",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837644621-gji1v.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/st-4-kvpsavt-achsvn-akrylyt-900-ml-dgm-anbr-rdbidi",
-      "categories": [
-        "צנצנות אקריל"
-      ],
-      "updated_at": "2026-11-13T06:18:02.986Z"
-    },
-    {
       "id": "d6ba1a3f-da38-4a3c-8227-96a43c152788",
       "slug": "st-5-kvpsavt-achsvn-akrylyt-700-ml-dgm-anbr-969f8q",
       "name": "סט 5 קופסאות אחסון אקרילית 700 מ\"ל  דגם \"ענבר\" ",
@@ -23263,30 +21929,6 @@
       "in_stock": true,
       "stock_status": "in_stock",
       "url": "https://streetstock.co.il/product/kvpst-achsvn-akrylyt-l-45vnub",
-      "categories": [
-        "מוצרי אקריל"
-      ],
-      "updated_at": "2026-11-13T06:18:04.340Z"
-    },
-    {
-      "id": "7a1b2ce9-7245-4c53-957e-c1521cbaefd6",
-      "slug": "mamd-nyyr-akryly-dgm-reef-vj2bx9",
-      "name": "מעמד נייר אקרילי דגם REEF\r\n",
-      "name_translations": {},
-      "description": "<p>מוצרי אקריל</p>",
-      "short_description": null,
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 27.92,
-      "base_price": 34.9,
-      "sale_price": 27.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837642411-gcuhd4.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mamd-nyyr-akryly-dgm-reef-vj2bx9",
       "categories": [
         "מוצרי אקריל"
       ],
@@ -23632,30 +22274,6 @@
       "updated_at": "2026-11-13T06:18:05.875Z"
     },
     {
-      "id": "ca383bee-6279-4b86-aa7b-8aaf00751fa0",
-      "slug": "pch-33-lytr-tsba-lbn-touch-pure-zbahow",
-      "name": "פח 33 ליטר צבע לבן TOUCH PURE",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\r\nנפתח על ידי לחיצה קלה\r\nקל לניקוי\r\nטבעת פנימית לאחיזה של השקיות אשפה\r\n",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 199.92,
-      "base_price": 249.9,
-      "sale_price": 199.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837632465-iope8.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-lbn-touch-pure-zbahow",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:18:05.924Z"
-    },
-    {
       "id": "f801cb14-6627-4a6c-bbad-1de01431b764",
       "slug": "pch-33-lytr-tsba-shchvr-touch-pure-x9dmm5",
       "name": "פח 33 ליטר צבע שחור TOUCH PURE",
@@ -23678,30 +22296,6 @@
         "פחי מטבח"
       ],
       "updated_at": "2026-11-13T06:18:07.417Z"
-    },
-    {
-      "id": "c25860ac-3c84-4312-bce4-f1c2bd0250a2",
-      "slug": "pch-33-lytr-tsba-mvkh-touch-pure-cq7t6q",
-      "name": "פח 33 ליטר צבע מוקה TOUCH PURE",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\nנפתח על ידי לחיצה קלה\nקל לניקוי\nטבעת פנימית לאחיזה של השקיות אשפה",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 199.92,
-      "base_price": 249.9,
-      "sale_price": 199.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837632799-l68m3s.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-33-lytr-tsba-mvkh-touch-pure-cq7t6q",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:18:07.443Z"
     },
     {
       "id": "b405ab56-ad3e-48ea-95fb-82eb034d3f6c",
@@ -23801,54 +22395,6 @@
         "פחי מטבח"
       ],
       "updated_at": "2026-11-13T06:18:07.444Z"
-    },
-    {
-      "id": "c48cbaee-22a6-44a9-92d2-5846921f4e97",
-      "slug": "pch-dvvshh-45-lytr-tsba-lbn-zben9a",
-      "name": "פח דוושה 45 ליטר צבע לבן",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "פח דוושה 45 ליטר\r\nגלגלים נוחים לשינוע | פלסטיק איכותי\r\nעיצוב חדשני ומודרני לחלל הבית",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1780837632244-89ds56.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-45-lytr-tsba-lbn-zben9a",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:18:07.445Z"
-    },
-    {
-      "id": "165bb015-8cf6-4805-b979-3702eba81109",
-      "slug": "pch-dvvshh-45-lytr-tsba-shchvr-wsk2h8",
-      "name": "פח דוושה 45 ליטר צבע שחור\r\n",
-      "name_translations": {},
-      "description": "<p><br></p>",
-      "short_description": "פח דוושה 45 ליטר\r\nגלגלים נוחים לשינוע | פלסטיק איכותי\r\nעיצוב חדשני ומודרני לחלל הבית",
-      "sku": "7.29012E+12",
-      "brand": null,
-      "price": 119.92,
-      "base_price": 149.9,
-      "sale_price": 119.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1781604888746-19wpu.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-45-lytr-tsba-shchvr-wsk2h8",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:18:07.446Z"
     }
   ]
 }

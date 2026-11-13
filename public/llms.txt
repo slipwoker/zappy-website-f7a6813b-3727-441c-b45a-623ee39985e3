@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 988** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 927** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע כחול
 https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-kchvl-ro9xbz
