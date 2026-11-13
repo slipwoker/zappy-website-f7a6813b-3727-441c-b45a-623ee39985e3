@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 903** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 988** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### סכין סולינגן שפיץ 10 ס"מ צבע כחול
 https://streetstock.co.il/product/skyn-svlyngn-shpyts-10-sm-tsba-kchvl-ro9xbz
@@ -857,112 +857,112 @@ https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvnh-ychyd-150x200-sm-lbnv
 
 ### שטיח סלון דגם פלמינו 160X220 ס"מ אפור כהה
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-apvr-khh-uanu1q
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808113251-u35mare.webp
 
 ### שטיח סלון דגם פלמינו 160X220 ס"מ לבן
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-lbn-em44hk
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808125517-hencvv.webp
 
 ### שטיח סלון דגם פלמינו 160X220 ס"מ מוקה
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-mvkh-9o4umo
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808137727-9ct4bbc.webp
 
 ### שטיח סלון דגם פלמינו 160X220 ס"מ אפור בהיר
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-160x220-sm-apvr-bhyr-o37dfk
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808158272-mkiizg.webp
 
 ### שטיח סלון דגם פלמינו 200X290 ס"מ מוקה
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-mvkh-9u23rj
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808200215-dzyazi.webp
 
 ### שטיח סלון דגם פלמינו 200X290 ס"מ לבן
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-lbn-sw5et1
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808245622-z6ce2i.webp
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ אפור כהה
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-khh-7t390o
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808045975-mxp77.webp
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ אפור בהיר
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-apvr-bhyr-plfk3f
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808066283-8qsqhp.webp
 
 ### שטיח סלון דגם פלמינו 200X290 ס"מ אפור כהה
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-khh-qx8kvu
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808254264-e50u9.webp
 
 ### שטיח סלון דגם פלמינו 200X290 ס"מ אפור בהיר
 https://streetstock.co.il/product/shtych-slvn-dgm-plmynv-200x290-sm-apvr-bhyr-xt8irw
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808268271-bdems8.webp
 
 ### שטיח סלון דגם ארמנדו 200X290 ס"מ מוקה
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-mvkh-f8vhg8
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808078880-kpg5c.webp
 
 ### שטיח סלון דגם ארמנדו 200X290 ס"מ אפור כהה
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-apvr-khh-eg2j7a
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808359166-exd5t.webp
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ לבן
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-lbn-p2yrz4
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808094761-u2y6r.webp
 
 ### שטיח סלון דגם ארמנדו 160X220 ס"מ מוקה
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-160x220-sm-mvkh-ncl0dz
-- Price: 199.90 ILS (sale, was 499.90 ILS)
+- Price: 279.90 ILS (sale, was 499.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808314395-upqr5h.webp
 
 ### שטיח סלון דגם ארמנדו 200X290 ס"מ לבן
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-lbn-qnje6n
-- Price: 299.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1791808337903-9eb4hb.webp
 
 ### שטיח סלון דגם ארמנדו 200X290 ס"מ אפור בהיר
 https://streetstock.co.il/product/shtych-slvn-dgm-armndv-200x290-sm-apvr-bhyr-jkx92r
-- Price: 199.90 ILS (sale, was 699.90 ILS)
+- Price: 379.90 ILS (sale, was 699.90 ILS)
 - Availability: In stock
 - Category: שטיחי סלון
 - Image: https://streetstock.co.il/assets/product-1794124804895-rbofd.webp
@@ -1358,7 +1358,7 @@ ID371
 https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1
 - Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות 
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845171991-kv2jtk.webp
 
 ### ראש מקלחת ידני 3 מצבים סדרת WATER FLEX
@@ -1374,7 +1374,7 @@ ID370
 https://streetstock.co.il/product/aglt-shrvt-mtkplt-shchvr-3-kvmvt-dgm-chicago-id370-mb55l9
 - Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות 
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845160507-hffbsw.webp
 
 ### עגלת שרות 4 קמות שחור דגם CALIRFONIA
@@ -1382,7 +1382,7 @@ ID366
 https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z
 - Price: 159.92 ILS (sale, was 199.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות 
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845140319-luwupn.webp
 
 ### עגלת שרות מתקפלת מוקה 3 קומות
@@ -1390,7 +1390,7 @@ https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-
 https://streetstock.co.il/product/aglt-shrvt-mtkplt-mvkh-3-kvmvt-dgm-id1162-chicago-wgpr6g
 - Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות 
+- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790844719411-2i6o4.webp
 
 ### סט 3 סלסלאות במבוק מלבן צבע לבן
@@ -1572,12 +1572,26 @@ https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer
 - Category: סלסלות אחסון
 - Image: https://streetstock.co.il/assets/product-1790844848387-veomrk.webp
 
+### שטיח כניסה לבית דגם BASIC
+מידות : 40X60 ס"מ ID962
+https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-basic-mydvt-40x60-sm-id962-5sozxu
+- Price: 15.92 ILS (sale, was 19.90 ILS)
+- Availability: In stock
+- Category: שטיחי מטבח
+
 ### ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER מידות : 30X15X15 ס"מ ID984
 https://streetstock.co.il/product/argvnyt-bd-mtkplt-tsba-krm-sdrt-home-organizer-mydvt-30x15x15-sm-id984-3xpuko
 - Price: 11.92 ILS (sale, was 14.90 ILS)
 - Availability: In stock
 - Category: סלסלות אחסון
 - Image: https://streetstock.co.il/assets/product-1790844824645-g3amyb.webp
+
+### שטיח כניסה לבית דגם LUCA
+מידות : 40X60 ס"מ ID963
+https://streetstock.co.il/product/shtych-knysh-lbyt-dgm-luca-mydvt-40x60-sm-id963-jyqkde
+- Price: 9.52 ILS (sale, was 11.90 ILS)
+- Availability: In stock
+- Category: שטיחי מטבח
 
 ### ארגונית בד מתקפלת צבע קרם סדרת HOME ORGANIZER
 מידות : 32X10X10 ס"מ ID985
@@ -1610,22 +1624,6 @@ https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atszhb
 - Availability: In stock
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1790844683094-mg7un.webp
-
-### סט סכום 24 חלקים COLLECTION IMPERIAL
-צבע זהב ID1156
-https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-zhb-id1156-3gwhhs
-- Price: 50.32 ILS (sale, was 62.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-- Image: https://streetstock.co.il/assets/product-1790844643592-13gxtj.webp
-
-### סט סכום 24 חלקים COLLECTION IMPERIAL
-צבע שחור ID1158
-https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-shchvr-id1158-ltdewe
-- Price: 50.32 ILS (sale, was 62.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-- Image: https://streetstock.co.il/assets/product-1790844671273-bheiwp.webp
 
 ---
 
