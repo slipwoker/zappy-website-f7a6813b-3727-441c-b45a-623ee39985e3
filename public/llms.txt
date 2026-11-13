@@ -1358,7 +1358,6 @@ ID371
 https://streetstock.co.il/product/aglt-shrvt-mtkplt-lbn-3-kvmvt-dgm-chicago-id371-imm9d1
 - Price: 119.92 ILS (sale, was 149.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845171991-kv2jtk.webp
 
 ### ראש מקלחת ידני 3 מצבים סדרת WATER FLEX
@@ -1382,7 +1381,6 @@ ID366
 https://streetstock.co.il/product/aglt-shrvt-4-kmvt-shchvr-dgm-calirfonia-id366-ivx96z
 - Price: 159.92 ILS (sale, was 199.90 ILS)
 - Availability: In stock
-- Category: עגלות שירות
 - Image: https://streetstock.co.il/assets/product-1790845140319-luwupn.webp
 
 ### עגלת שרות מתקפלת מוקה 3 קומות
