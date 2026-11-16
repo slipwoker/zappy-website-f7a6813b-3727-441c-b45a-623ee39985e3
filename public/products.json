@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-13T07:40:27.426Z",
+  "generated_at": "2026-11-16T18:19:41.063Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 831,
+  "count": 830,
   "products": [
     {
       "id": "91ef82f0-2ea1-4a5f-98d4-0033dc11ad45",
@@ -6320,30 +6320,6 @@
         "ארגוניות אקריל"
       ],
       "updated_at": "2026-11-13T06:16:08.741Z"
-    },
-    {
-      "id": "a853e267-4c1d-48ab-9592-9313917350fb",
-      "slug": "pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
-      "name": "פח דוושה 50 ליטר צבע מוקה\nדגם PRIME",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.",
-      "sku": null,
-      "brand": null,
-      "price": 319.92,
-      "base_price": 399.9,
-      "sale_price": 319.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560181964-z09t62.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:16:08.792Z"
     },
     {
       "id": "c5ff15bb-7968-4ec1-9054-c8d407d89120",
