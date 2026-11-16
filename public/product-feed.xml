@@ -4,7 +4,7 @@
     <title>Street Stock</title>
     <link>https://streetstock.co.il</link>
     <description>Product feed for Street Stock</description>
-    <lastBuildDate>Mon, 16 Nov 2026 18:19:41 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 18:18:49 GMT</lastBuildDate>
     <item>
       <g:id>91ef82f0-2ea1-4a5f-98d4-0033dc11ad45</g:id>
       <g:title>סכין סולינגן שפיץ 10 ס&quot;מ צבע כחול</g:title>
@@ -4053,6 +4053,21 @@ ID1128</g:title>
       <g:brand>Street Stock</g:brand>
       <g:identifier_exists>no</g:identifier_exists>
       <g:product_type>ארגוניות אקריל</g:product_type>
+    </item>
+    <item>
+      <g:id>a853e267-4c1d-48ab-9592-9313917350fb</g:id>
+      <g:title>פח דוושה 50 ליטר צבע מוקה
+דגם PRIME</g:title>
+      <g:description>פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.</g:description>
+      <g:link>https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy</g:link>
+      <g:image_link>https://streetstock.co.il/assets/product-1787560181964-z09t62.webp</g:image_link>
+      <g:availability>in_stock</g:availability>
+      <g:price>399.90 ILS</g:price>
+      <g:sale_price>319.92 ILS</g:sale_price>
+      <g:condition>new</g:condition>
+      <g:brand>Street Stock</g:brand>
+      <g:identifier_exists>no</g:identifier_exists>
+      <g:product_type>פחי מטבח</g:product_type>
     </item>
     <item>
       <g:id>c5ff15bb-7968-4ec1-9054-c8d407d89120</g:id>
