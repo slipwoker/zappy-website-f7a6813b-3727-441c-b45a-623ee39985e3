@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-18T10:14:14.264Z",
+  "generated_at": "2026-11-18T10:14:52.268Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 830,
@@ -14601,79 +14601,79 @@
     },
     {
       "id": "8996a790-3a07-4bf9-aaf2-6246bef10b28",
-      "slug": "mtata-ypny-30-sm-ktn-bmyvchd-dy7dz6",
+      "slug": "mtata-ypny-30-sm-ktn-bmyvchd-n161sl",
       "name": "מטאטא יפני - 30 סמ קטן במיוחד",
       "name_translations": {},
       "description": "",
       "short_description": "רב מג מטאטא יפני – מטאטא קסם, קטן במיוחד וקל משקל עם נוחות ממכרת\r\nקטן במיוחד ברוחב 30 ס\"מ\r\nמתאים במיוחד לניקוי של פרווה ושיער גם משטיחים ומחצלות\r\nכולל מערכת לכידת אבק פטנטית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 59.92,
-      "base_price": 74.9,
-      "sale_price": 59.92,
+      "price": 49.9,
+      "base_price": 79.9,
+      "sale_price": 49.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757476-pcydpp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-dy7dz6",
+      "url": "https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-n161sl",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:11.275Z"
+      "updated_at": "2026-11-18T10:14:13.955Z"
     },
     {
       "id": "77119a2e-8b6a-4b74-a69d-35ee4efbb5fb",
-      "slug": "mgb-mprky-sylykvn-mtkvvnn-30-sm-vpq73e",
+      "slug": "mgb-mprky-sylykvn-mtkvvnn-30-sm-5qd53l",
       "name": "מגב מפרקי סיליקון מתכוונן - 30 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 30 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 59.92,
+      "price": 49.9,
       "base_price": 74.9,
-      "sale_price": 59.92,
+      "sale_price": 49.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757084-ozhy8e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-vpq73e",
+      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-5qd53l",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:11.128Z"
+      "updated_at": "2026-11-18T10:14:24.429Z"
     },
     {
       "id": "8f63f05a-2906-4485-b6aa-3b99e4ae5318",
-      "slug": "mtata-kl-mshkl-45-sm-rb-mgb-2-7i3ad0",
+      "slug": "mtata-kl-mshkl-45-sm-rb-mgb-2-a3phq0",
       "name": "מטאטא קל משקל - 45 סמ רב מגב 2",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מג גומי חדשני ועוצמתי קל משקל במיוחד\r\nמצוין לניקוי של פרווה, שיער ועוד\r\nסיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך\r\nמיוצר מיציקה אחת של 100% גומי טבעי עם 6 שורות סיבים צפופים\r\nמצוייד בסיבים אלכסוניים לניקוי לאורך קירות\r\nשומר על הרהיטים, לא שורט את הרצפה\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 59.92,
+      "price": 49.9,
       "base_price": 74.9,
-      "sale_price": 59.92,
+      "sale_price": 49.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757084-vwhhik.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-7i3ad0",
+      "url": "https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-a3phq0",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:12.636Z"
+      "updated_at": "2026-11-18T10:14:36.012Z"
     },
     {
       "id": "8ad3e0fd-aa60-4f85-8509-dcc73460ab05",
-      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-4ah3uc",
+      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-umwy1j",
       "name": "מנקה חלונות גבוהים - דור 2",
       "name_translations": {},
       "description": "",
@@ -14681,7 +14681,7 @@
       "sku": null,
       "brand": null,
       "price": 95.92,
-      "base_price": 119.9,
+      "base_price": 79.9,
       "sale_price": 95.92,
       "currency": "ILS",
       "images": [
@@ -14689,11 +14689,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-4ah3uc",
+      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-umwy1j",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:12.636Z"
+      "updated_at": "2026-11-18T10:14:46.105Z"
     },
     {
       "id": "3dadce87-1a71-42d8-a9f5-aecf060047a7",
