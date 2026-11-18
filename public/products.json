@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-18T10:17:44.567Z",
+  "generated_at": "2026-11-18T10:18:09.270Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 830,
@@ -14913,27 +14913,27 @@
     },
     {
       "id": "951b8473-8147-46bb-9a91-caeff8e36b48",
-      "slug": "mgb-klasy-mtaym-lkl-byt-45-sm-4u7hhs",
+      "slug": "mgb-klasy-mtaym-lkl-byt-45-sm-7f8omo",
       "name": "מגב קלאסי - מתאים לכל בית 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% גומי איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 59.92,
+      "price": 49.9,
       "base_price": 74.9,
-      "sale_price": 59.92,
+      "sale_price": 49.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837753954-kyr9u8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-4u7hhs",
+      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-7f8omo",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:14.120Z"
+      "updated_at": "2026-11-18T10:17:46.885Z"
     },
     {
       "id": "e09ac29d-fd5c-4f4d-8436-2abaaaf55697",
