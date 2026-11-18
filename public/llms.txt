@@ -68,7 +68,14 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 832** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 833** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+
+### מגב יפני - 30 ס"מ קטן במיוחד
+https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-8knse6
+- Price: 49.90 ILS (sale, was 100.00 ILS)
+- Availability: In stock
+- Category: טירולר
+- Image: https://streetstock.co.il/assets/product-1794998115711-85g6c.webp
 
 ### גליידר מגנט טירולר 8-20 מ"מ
 https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5
@@ -1628,14 +1635,6 @@ https://streetstock.co.il/product/st-skvm-24-chlkym-collection-imperial-tsba-shc
 - Availability: In stock
 - Category: כלי בית
 - Image: https://streetstock.co.il/assets/product-1790844671273-bheiwp.webp
-
-### סט סכום 24 חלקים COLLECTION ROYAL
-צבע עץ+כסף ID1160
-https://streetstock.co.il/product/st-skvm-24-chlkym-collection-royal-tsba-atsksp-id1160-7kpzpx
-- Price: 79.92 ILS (sale, was 99.90 ILS)
-- Availability: In stock
-- Category: כלי בית
-- Image: https://streetstock.co.il/assets/product-1790844693011-xlojcl.webp
 
 ---
 

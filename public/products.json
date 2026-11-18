@@ -1,10 +1,34 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-18T10:34:34.185Z",
+  "generated_at": "2026-11-18T10:36:18.602Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 832,
+  "count": 833,
   "products": [
+    {
+      "id": "e9f60b45-e677-4ac5-947e-4779860490eb",
+      "slug": "mgb-ypny-30-sm-ktn-bmyvchd-8knse6",
+      "name": "מגב יפני - 30 ס\"מ קטן במיוחד",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 49.9,
+      "base_price": 100,
+      "sale_price": 49.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1794998115711-85g6c.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-8knse6",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-11-18T10:35:37.529Z"
+    },
     {
       "id": "e417f681-7e7f-4258-baa5-f7204ff8bc83",
       "slug": "glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5",
