@@ -1,13 +1,37 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-18T10:33:29.040Z",
+  "generated_at": "2026-11-18T10:34:19.682Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 831,
+  "count": 832,
   "products": [
     {
+      "id": "e417f681-7e7f-4258-baa5-f7204ff8bc83",
+      "slug": "glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5",
+      "name": "גליידר מגנט טירולר 8-20 מ\"מ",
+      "name_translations": {},
+      "description": "",
+      "short_description": "מתאים לחלונות בעובי 8-20 מ\"מ",
+      "sku": null,
+      "brand": null,
+      "price": 149.9,
+      "base_price": 300,
+      "sale_price": 149.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1794998014361-1go769.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-11-18T10:33:46.714Z"
+    },
+    {
       "id": "5b80d013-fecd-4ddd-9767-50a0d672f7b8",
-      "slug": "glyydr-mgnt-tyrvlr-d3-2-28mm-lmtk7h",
+      "slug": "glyydr-mgnt-tyrvlr-d3-2-28mm-a7aywq",
       "name": "גליידר מגנט טירולר D3 2-28מ\"מ ",
       "name_translations": {},
       "description": "",
@@ -23,9 +47,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-d3-2-28mm-lmtk7h",
-      "categories": [],
-      "updated_at": "2026-11-18T10:32:53.228Z"
+      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-d3-2-28mm-a7aywq",
+      "categories": [
+        "טירולר"
+      ],
+      "updated_at": "2026-11-18T10:34:00.372Z"
     },
     {
       "id": "91ef82f0-2ea1-4a5f-98d4-0033dc11ad45",
