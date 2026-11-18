@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-16T18:18:49.544Z",
+  "generated_at": "2026-11-18T10:14:14.264Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 831,
+  "count": 830,
   "products": [
     {
       "id": "91ef82f0-2ea1-4a5f-98d4-0033dc11ad45",
@@ -6320,30 +6320,6 @@
         "ארגוניות אקריל"
       ],
       "updated_at": "2026-11-13T06:16:08.741Z"
-    },
-    {
-      "id": "a853e267-4c1d-48ab-9592-9313917350fb",
-      "slug": "pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
-      "name": "פח דוושה 50 ליטר צבע מוקה\nדגם PRIME",
-      "name_translations": {},
-      "description": "",
-      "short_description": "פח דוושה יוקרתי בנפח 50 ליטר, בעיצוב אלגנטי ומוקפד המשתלב בצורה מושלמת במטבח המודרני. כולל פנימית נשלפת לנוחות מרבית, ניקוי קל ושימוש יומיומי פרקטי.",
-      "sku": null,
-      "brand": null,
-      "price": 319.92,
-      "base_price": 399.9,
-      "sale_price": 319.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1787560181964-z09t62.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-dvvshh-50-lytr-tsba-mvkh-dgm-prime-guvmjy",
-      "categories": [
-        "פחי מטבח"
-      ],
-      "updated_at": "2026-11-13T06:16:08.792Z"
     },
     {
       "id": "c5ff15bb-7968-4ec1-9054-c8d407d89120",
@@ -14337,75 +14313,75 @@
     },
     {
       "id": "289ccdfe-f416-4acb-ae1a-afb9460f1005",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-apvr-4n4q5l",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-apvr-t0211j",
       "name": "מברשת אסלה 100% סיליקון צבע אפור",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 95.92,
+      "price": 79.9,
       "base_price": 119.9,
-      "sale_price": 95.92,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837761777-gf96h48.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-4n4q5l",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-t0211j",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:09.320Z"
+      "updated_at": "2026-11-18T10:13:18.519Z"
     },
     {
       "id": "f9cd208c-abf6-47a9-b1b5-a2d4fc1e4475",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-lbn-4uae9p",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-lbn-3x9qeb",
       "name": "מברשת אסלה 100% סיליקון צבע לבן",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 95.92,
+      "price": 79.9,
       "base_price": 119.9,
-      "sale_price": 95.92,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837760302-wup4ii.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-4uae9p",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-3x9qeb",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:09.346Z"
+      "updated_at": "2026-11-18T10:13:26.166Z"
     },
     {
       "id": "9b219d40-5d95-4f06-ba33-c01ef384d138",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-84c51n",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-x4cz3e",
       "name": "מברשת אסלה 100% סיליקון צבע שחור",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 95.92,
+      "price": 79.9,
       "base_price": 119.9,
-      "sale_price": 95.92,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837760302-xohd17.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-84c51n",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-x4cz3e",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:09.446Z"
+      "updated_at": "2026-11-18T10:13:34.211Z"
     },
     {
       "id": "0bdef036-9898-4393-9783-285d68277d60",
@@ -14529,27 +14505,27 @@
     },
     {
       "id": "9d9284c2-d100-4b1a-93c9-cb77de977d4d",
-      "slug": "mgb-shysh-100-sylykvn-0nk9bd",
+      "slug": "mgb-shysh-100-sylykvn-0ze6g1",
       "name": "מגב שיש 100% סיליקון",
       "name_translations": {},
       "description": "",
       "short_description": "מגב ידני קטן- מושלם לניקוי השיש במטבח או מקלחונים\r\nידית ארגונומית שומרת על מפרק כף היד ולא מחליקה מהיד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון הביתי לרמה מקצועית",
       "sku": null,
       "brand": null,
-      "price": 39.92,
+      "price": 29.9,
       "base_price": 49.9,
-      "sale_price": 39.92,
+      "sale_price": 29.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837760494-4ririe.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-shysh-100-sylykvn-0nk9bd",
+      "url": "https://streetstock.co.il/product/mgb-shysh-100-sylykvn-0ze6g1",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:11.073Z"
+      "updated_at": "2026-11-18T10:13:49.708Z"
     },
     {
       "id": "bf1eceab-2b50-4a80-8843-44491f8671a9",
