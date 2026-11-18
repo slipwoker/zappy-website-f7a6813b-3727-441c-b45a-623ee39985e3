@@ -71,7 +71,7 @@ Information about WCAG compliance and accessibility features.
 **Total active products: 833** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מגב יפני - 30 ס"מ קטן במיוחד
-https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-8knse6
+https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-ujcb0j
 - Price: 49.90 ILS (sale, was 100.00 ILS)
 - Availability: In stock
 - Category: טירולר
