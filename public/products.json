@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-18T10:14:52.268Z",
+  "generated_at": "2026-11-18T10:15:13.919Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 830,
@@ -14673,27 +14673,27 @@
     },
     {
       "id": "8ad3e0fd-aa60-4f85-8509-dcc73460ab05",
-      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-umwy1j",
+      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-gcepcr",
       "name": "מנקה חלונות גבוהים - דור 2",
       "name_translations": {},
       "description": "",
       "short_description": "מנקה חלונות גבוהים במיוחד\r\nראש גמיש בעל הפעולה הכפולה מאפשר גריפה וקרצוף\r\nמגיע עם מטלית מיקרופייבר איכותית\r\nמקל טלסקופי שמסוגל להגיע לגובה 177 ס”מ\r\nידית קצרה נשלפת המאפשרת לנקות שמשות ברכב או משטחים נמוכים\r\nעשוי יציקה אחת 100% סיליקון\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 95.92,
+      "price": 79.9,
       "base_price": 79.9,
-      "sale_price": 95.92,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757084-im2ihd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-umwy1j",
+      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-gcepcr",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:14:46.105Z"
+      "updated_at": "2026-11-18T10:15:03.683Z"
     },
     {
       "id": "3dadce87-1a71-42d8-a9f5-aecf060047a7",
