@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-18T10:15:39.993Z",
+  "generated_at": "2026-11-18T10:16:05.592Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 830,
@@ -14577,27 +14577,27 @@
     },
     {
       "id": "ef438e03-bca1-40d2-80a2-87d10abb0945",
-      "slug": "glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-q1ywft",
+      "slug": "glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-r78n6v",
       "name": "גליידר פלסטיק - מנקה חלונות מגנטי D2",
       "name_translations": {},
       "description": "",
       "short_description": "מנקה דו-צדדי לחלונות ללא גישה נוחה לצידם החיצוני\r\nמגנטים עוצמתיים במיוחד, מגנט-על ממתכת נדירה\r\nמנגנון כיוונון עוצמת המגנט בהתאם לעובי הזכוכית (מ-2 מ”מ עד 18 מ”מ)\r\nמבצע שתי פעולות: גם מנקה וגם מבריק\r\n4 מגבים עשויים 100% גומי\r\nמגיע עם 2 מטליות מיקרופייבר להברקה מושלמת",
       "sku": null,
       "brand": null,
-      "price": 191.92,
+      "price": 149.9,
       "base_price": 239.9,
-      "sale_price": 191.92,
+      "sale_price": 149.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757475-ec8q7h.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-q1ywft",
+      "url": "https://streetstock.co.il/product/glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-r78n6v",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:11.128Z"
+      "updated_at": "2026-11-18T10:15:53.658Z"
     },
     {
       "id": "8996a790-3a07-4bf9-aaf2-6246bef10b28",
