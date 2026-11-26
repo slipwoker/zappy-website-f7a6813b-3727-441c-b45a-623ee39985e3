@@ -1,9 +1,9 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-23T10:30:54.960Z",
+  "generated_at": "2026-11-26T06:50:32.014Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 833,
+  "count": 832,
   "products": [
     {
       "id": "e9f60b45-e677-4ac5-947e-4779860490eb",
@@ -7817,31 +7817,6 @@
         "מוצרי אקריל"
       ],
       "updated_at": "2026-11-13T06:16:19.694Z"
-    },
-    {
-      "id": "e1d2c540-e308-4574-a064-a7c689c4ef8e",
-      "slug": "marz-10-kvlby-plstyk-aykvtyym-id1063-kgk1gr",
-      "name": "מארז 10 קולבי פלסטיק איכותיים\nID1063",
-      "name_translations": {},
-      "description": "",
-      "short_description": null,
-      "sku": null,
-      "brand": null,
-      "price": 15.92,
-      "base_price": 19.9,
-      "sale_price": 15.92,
-      "currency": "ILS",
-      "images": [
-        "https://streetstock.co.il/assets/product-1786526127349-n0lb08.webp"
-      ],
-      "in_stock": true,
-      "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/marz-10-kvlby-plstyk-aykvtyym-id1063-kgk1gr",
-      "categories": [
-        "כללי",
-        "כלי בית"
-      ],
-      "updated_at": "2026-11-13T06:16:21.241Z"
     },
     {
       "id": "5b0028be-8cf6-43b9-b4cb-4acb4467825f",

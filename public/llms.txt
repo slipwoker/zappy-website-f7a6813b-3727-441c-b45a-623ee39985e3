@@ -68,7 +68,7 @@ Information about WCAG compliance and accessibility features.
 
 ## Products
 
-**Total active products: 833** (showing first 200; full catalog at https://streetstock.co.il/products.json)
+**Total active products: 832** (showing first 200; full catalog at https://streetstock.co.il/products.json)
 
 ### מגב יפני - 30 ס"מ קטן במיוחד
 https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-ujcb0j
