@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-26T06:50:32.014Z",
+  "generated_at": "2026-11-26T07:26:34.052Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 832,
@@ -20031,16 +20031,16 @@
     },
     {
       "id": "1aa29eb9-203c-4289-982a-ae84373bd8c9",
-      "slug": "pch-53-lytr-mvkh-pure-touch-inms5w",
+      "slug": "pch-53-lytr-mvkh-pure-touch-zp6920",
       "name": "פח 53 ליטר מוקה PURE TOUCH",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\r\nנפתח על ידי לחיצה קלה\r\nקל לניקוי\r\nטבעת פנימית לאחיזה של השקיות אשפה\r\n",
       "sku": "7.29012E+12",
       "brand": null,
-      "price": 239.92,
-      "base_price": 299.9,
-      "sale_price": 239.92,
+      "price": 279.9,
+      "base_price": 399.9,
+      "sale_price": 279.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787560240023-ppqcs.webp",
@@ -20048,24 +20048,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-53-lytr-mvkh-pure-touch-inms5w",
+      "url": "https://streetstock.co.il/product/pch-53-lytr-mvkh-pure-touch-zp6920",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-11-13T06:18:07.445Z"
+      "updated_at": "2026-11-26T07:26:01.031Z"
     },
     {
       "id": "28305b80-f295-4e89-a593-3a7ce7c6f359",
-      "slug": "pch-53-lytr-shchvr-pure-touch-w71yox",
+      "slug": "pch-53-lytr-shchvr-pure-touch-ji5l5d",
       "name": "פח 53 ליטר שחור PURE TOUCH",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\r\nנפתח על ידי לחיצה קלה\r\nקל לניקוי\r\nטבעת פנימית לאחיזה של השקיות אשפה\r\n",
       "sku": "7.29012E+12",
       "brand": null,
-      "price": 239.92,
-      "base_price": 299.9,
-      "sale_price": 239.92,
+      "price": 279.9,
+      "base_price": 399.9,
+      "sale_price": 279.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787560265294-920m3g.webp",
@@ -20073,24 +20073,24 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-53-lytr-shchvr-pure-touch-w71yox",
+      "url": "https://streetstock.co.il/product/pch-53-lytr-shchvr-pure-touch-ji5l5d",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-11-13T06:18:07.443Z"
+      "updated_at": "2026-11-26T07:26:11.949Z"
     },
     {
       "id": "3f1d6707-f8b2-4436-9ade-f155746f6d7e",
-      "slug": "pch-53-lytr-lbn-pure-touch-nieje1",
+      "slug": "pch-53-lytr-lbn-pure-touch-2rr2xu",
       "name": "פח 53 ליטר לבן PURE TOUCH",
       "name_translations": {},
       "description": "<p><br></p>",
       "short_description": "פח אשפה טאצ' מעוצב באופן מושלם לחלל הבית\r\nנפתח על ידי לחיצה קלה\r\nקל לניקוי\r\nטבעת פנימית לאחיזה של השקיות אשפה\r\n",
       "sku": "7.29012E+12",
       "brand": null,
-      "price": 239.92,
-      "base_price": 299.9,
-      "sale_price": 239.92,
+      "price": 279.9,
+      "base_price": 399.9,
+      "sale_price": 279.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1787560292171-fxzoe.webp",
@@ -20098,11 +20098,11 @@
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/pch-53-lytr-lbn-pure-touch-nieje1",
+      "url": "https://streetstock.co.il/product/pch-53-lytr-lbn-pure-touch-2rr2xu",
       "categories": [
         "פחי מטבח"
       ],
-      "updated_at": "2026-11-13T06:18:07.444Z"
+      "updated_at": "2026-11-26T07:26:23.151Z"
     }
   ]
 }
