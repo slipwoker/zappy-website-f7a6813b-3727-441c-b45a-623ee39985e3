@@ -2,103 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://streetstock.co.il</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/about</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/contact-us</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/products</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/cart</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/checkout</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/login</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/account</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/order-success</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/:slug</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/category/:slug</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/privacy</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/terms</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/accessibility</loc>
-    <lastmod>2026-11-26</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-ujcb0j</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-moro-tsba-shchvr-tqculn</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-moro-tsba-shmnt-c2qwxy</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-d3-2-28mm-a7aywq</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-lusso-tsba-apvr-7jjcsf</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-lusso-tsba-shrh-wmdu5f</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-e7h2md</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-8-20-mm-bhlgcs</loc>
+    <lastmod>2026-11-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-d3-2-28mm-vz7lf2</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3637,38 +3661,38 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-t0211j</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-a0is7v</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-3x9qeb</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-sv84un</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-x4cz3e</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-jlj6dc</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/mtlyt-hchlph-lmbrykn-w50aoi</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/mtlyt-mykrvpyybr-mktsvayt-lnykvy-vhbrkh-l86geh</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/mtlyt-hchlph-lmnkh-chlvnvt-h103mh</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3680,13 +3704,13 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/st-2-mtlyvt-hchlph-lmyny-mbrykn-kx0nou</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-shysh-100-sylykvn-0ze6g1</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-shysh-100-sylykvn-ywtor8</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3698,97 +3722,97 @@
   </url>
   <url>
     <loc>https://streetstock.co.il/product/glyydr-sylykvn-mnkh-chlvnvt-mgnty-r3-hjtv1s</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/glyydr-plstyk-mnkh-chlvnvt-mgnty-d2-r78n6v</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-n161sl</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-p5yzlq</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-5qd53l</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-nyagwz</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-a3phq0</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-9bxd6q</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-gcepcr</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-gadhjh</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-vugeqt</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-jg27ll</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-ae4xe9</loc>
-    <lastmod>2026-11-13</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-xvq3jz</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-6f6jim</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-zueprs</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-rej6sm</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-hj3rws</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://streetstock.co.il/product/myny-mbrykn-hptrvn-havltymtyby-lnykyvn-9fpchz</loc>
-    <lastmod>2026-11-18</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-46zgjh</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-904vqt</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mbrykn-sylykvn-b0yfdz</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mbrykn-sylykvn-ktel5e</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-dr423k</loc>
-    <lastmod>2026-11-13</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-voyuwr</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-nld81t</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-pn3srj</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-7f8omo</loc>
-    <lastmod>2026-11-18</lastmod>
+    <loc>https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-kbxjo9</loc>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

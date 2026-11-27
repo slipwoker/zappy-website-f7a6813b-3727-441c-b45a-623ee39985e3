@@ -1,81 +1,177 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-26T07:29:29.611Z",
+  "generated_at": "2026-11-27T07:25:49.899Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
-  "count": 832,
+  "count": 836,
   "products": [
     {
+      "id": "4b0626a1-8f84-4311-8c5c-4b2971b79ca9",
+      "slug": "st-6-syry-ytsykh-sdrt-moro-tsba-shchvr-tqculn",
+      "name": "סט 6 סירי יציקה סדרת MORO צבע שחור",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 499.9,
+      "base_price": 999.9,
+      "sale_price": 499.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1795763995610-3slgw.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-moro-tsba-shchvr-tqculn",
+      "categories": [
+        "סירים ומחבתות"
+      ],
+      "updated_at": "2026-11-27T07:20:21.482Z"
+    },
+    {
+      "id": "d45848fa-9345-4bfe-8bbb-7ac6f54ced61",
+      "slug": "st-6-syry-ytsykh-sdrt-moro-tsba-shmnt-c2qwxy",
+      "name": "סט 6 סירי יציקה סדרת MORO צבע שמנת",
+      "name_translations": {},
+      "description": "",
+      "short_description": "סט 6 סירים מסדרת MORO מבית אידיאלי לבית\n\nסט סירים איכותי ויוקרתי בעיצוב מודרני ואלגנטי, המיוצר מיציקת אלומיניום לפיזור חום אחיד ויעיל ולתוצאות בישול מעולות.\n\n**מאפייני המוצר:**\n\n- יציקת אלומיניום איכותית ועמידה.\n- ציפוי NON-STICK למניעת הידבקות המזון.\n- ידיות בגוון זהב בעיצוב יוקרתי, מבודדות חום ואינן מתחממות בשימוש רגיל על הכיריים.\n- מתאים לכל סוגי הכיריים, כולל אינדוקציה.\n- מאפשר בישול עם כמות שמן מופחתת.\n-\n\n**מה כולל הסט?**\n\n- סיר 20 ס״מ\n- סיר 24 ס״מ\n- סיר 28 ס״מ\n- סוטאז׳ 32 ס\"מ",
+      "sku": null,
+      "brand": null,
+      "price": 499.9,
+      "base_price": 999.9,
+      "sale_price": 499.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1795763893751-k302db.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-moro-tsba-shmnt-c2qwxy",
+      "categories": [
+        "סירים ומחבתות"
+      ],
+      "updated_at": "2026-11-27T07:18:33.279Z"
+    },
+    {
+      "id": "5f7b686b-0592-4484-9f1d-4c050d164a04",
+      "slug": "st-6-syry-ytsykh-sdrt-lusso-tsba-apvr-7jjcsf",
+      "name": "סט 6 סירי יציקה סדרת LUSSO צבע אפור",
+      "name_translations": {},
+      "description": "",
+      "short_description": null,
+      "sku": null,
+      "brand": null,
+      "price": 499.9,
+      "base_price": 999.9,
+      "sale_price": 499.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1795763851534-dgdrjg.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-lusso-tsba-apvr-7jjcsf",
+      "categories": [
+        "סירים ומחבתות"
+      ],
+      "updated_at": "2026-11-27T07:17:44.837Z"
+    },
+    {
+      "id": "59c78ab3-0b32-4dd7-9977-ee0653b9e0e8",
+      "slug": "st-6-syry-ytsykh-sdrt-lusso-tsba-shrh-wmdu5f",
+      "name": "סט 6 סירי יציקה סדרת LUSSO צבע סהרה",
+      "name_translations": {},
+      "description": "",
+      "short_description": "## סט 6 סירים מסדרת LUSSO מבית אידיאלי לבית\n\nסט סירים איכותי ויוקרתי בעיצוב מודרני ואלגנטי, המיוצר מיציקת אלומיניום לפיזור חום אחיד ויעיל ולתוצאות בישול מעולות.\n\n**מאפייני המוצר:**\n- יציקת אלומיניום איכותית ועמידה.\n- ציפוי NON-STICK למניעת הידבקות המזון.\n- ידיות SOFT TOUCH נעימות למגע ומבודדות חום.\n- מתאים לכל סוגי הכיריים, כולל אינדוקציה.\n- מאפשר בישול עם כמות שמן מופחתת.\n- קל ונוח לניקוי.\n\n**מה כולל הסט?**\n- סיר 20 ס״מ\n- סיר 24 ס״מ\n- סיר 28 ס״מ\n- סוטאז׳ 24 ס״מ\n- סוטאז׳ 28 ס״מ\n- סוטאז' 32 ס\"מ \n",
+      "sku": null,
+      "brand": null,
+      "price": 499.9,
+      "base_price": 999.9,
+      "sale_price": 499.9,
+      "currency": "ILS",
+      "images": [
+        "https://streetstock.co.il/assets/product-1795763778311-1mabvi.webp"
+      ],
+      "in_stock": true,
+      "stock_status": "in_stock",
+      "url": "https://streetstock.co.il/product/st-6-syry-ytsykh-sdrt-lusso-tsba-shrh-wmdu5f",
+      "categories": [
+        "סירים ומחבתות"
+      ],
+      "updated_at": "2026-11-27T07:17:12.752Z"
+    },
+    {
       "id": "e9f60b45-e677-4ac5-947e-4779860490eb",
-      "slug": "mgb-ypny-30-sm-ktn-bmyvchd-ujcb0j",
+      "slug": "mgb-ypny-30-sm-ktn-bmyvchd-e7h2md",
       "name": "מגב יפני - 30 ס\"מ קטן במיוחד",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 49.9,
+      "price": 69.9,
       "base_price": 100,
-      "sale_price": 49.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1794998115711-85g6c.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-ujcb0j",
+      "url": "https://streetstock.co.il/product/mgb-ypny-30-sm-ktn-bmyvchd-e7h2md",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:59:01.677Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "e417f681-7e7f-4258-baa5-f7204ff8bc83",
-      "slug": "glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5",
+      "slug": "glyydr-mgnt-tyrvlr-8-20-mm-bhlgcs",
       "name": "גליידר מגנט טירולר 8-20 מ\"מ",
       "name_translations": {},
       "description": "",
       "short_description": "מתאים לחלונות בעובי 8-20 מ\"מ",
       "sku": null,
       "brand": null,
-      "price": 149.9,
+      "price": 219.9,
       "base_price": 300,
-      "sale_price": 149.9,
+      "sale_price": 219.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1794998014361-1go769.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-8-20-mm-z6zcb5",
+      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-8-20-mm-bhlgcs",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:33:46.714Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "5b80d013-fecd-4ddd-9767-50a0d672f7b8",
-      "slug": "glyydr-mgnt-tyrvlr-d3-2-28mm-a7aywq",
+      "slug": "glyydr-mgnt-tyrvlr-d3-2-28mm-vz7lf2",
       "name": "גליידר מגנט טירולר D3 2-28מ\"מ ",
       "name_translations": {},
       "description": "",
       "short_description": "מתאים לחלונות בעובי 2-28 מ\"מ",
       "sku": null,
       "brand": null,
-      "price": 199.9,
+      "price": 299.9,
       "base_price": 400,
-      "sale_price": 199.9,
+      "sale_price": 299.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1794997925804-qm1sby.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-d3-2-28mm-a7aywq",
+      "url": "https://streetstock.co.il/product/glyydr-mgnt-tyrvlr-d3-2-28mm-vz7lf2",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:34:00.372Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "91ef82f0-2ea1-4a5f-98d4-0033dc11ad45",
@@ -14360,75 +14456,75 @@
     },
     {
       "id": "289ccdfe-f416-4acb-ae1a-afb9460f1005",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-apvr-t0211j",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-apvr-a0is7v",
       "name": "מברשת אסלה 100% סיליקון צבע אפור",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 119.9,
-      "sale_price": 79.9,
+      "price": 109.9,
+      "base_price": 149.9,
+      "sale_price": 109.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837761777-gf96h48.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-t0211j",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-apvr-a0is7v",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:13:18.519Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "f9cd208c-abf6-47a9-b1b5-a2d4fc1e4475",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-lbn-3x9qeb",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-lbn-sv84un",
       "name": "מברשת אסלה 100% סיליקון צבע לבן",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 119.9,
-      "sale_price": 79.9,
+      "price": 109.9,
+      "base_price": 149.9,
+      "sale_price": 109.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837760302-wup4ii.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-3x9qeb",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-lbn-sv84un",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:13:26.166Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "9b219d40-5d95-4f06-ba33-c01ef384d138",
-      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-x4cz3e",
+      "slug": "mbrsht-aslh-100-sylykvn-tsba-shchvr-jlj6dc",
       "name": "מברשת אסלה 100% סיליקון צבע שחור",
       "name_translations": {},
       "description": "",
       "short_description": "מברשת אסלה אנטי-בקטריאלית שמנקה מצוין ונשארת נקייה\r\nראש וסיבים עשויים מיציקה אחת של 100% סיליקון\r\nמיכל יציב עשוי סיליקון בעיצוב ייחודי – שום דבר לא נשפך!\r\nמוט פלדה פנימי לחיזוק הידית\r\nמקסימום ניקיון במינימום מאמץ",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 119.9,
-      "sale_price": 79.9,
+      "price": 109.9,
+      "base_price": 149.9,
+      "sale_price": 109.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837760302-xohd17.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-x4cz3e",
+      "url": "https://streetstock.co.il/product/mbrsht-aslh-100-sylykvn-tsba-shchvr-jlj6dc",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:13:34.211Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "0bdef036-9898-4393-9783-285d68277d60",
@@ -14452,7 +14548,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:09.420Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "8a5f0d69-a6bd-4b29-85cc-3fa5182e0040",
@@ -14476,7 +14572,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:10.979Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "be9de7bb-3450-421d-b654-52da9bbc4d46",
@@ -14500,7 +14596,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:10.981Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "85f0983d-87ee-492e-a28c-897071c99664",
@@ -14548,31 +14644,31 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:10.977Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "9d9284c2-d100-4b1a-93c9-cb77de977d4d",
-      "slug": "mgb-shysh-100-sylykvn-0ze6g1",
+      "slug": "mgb-shysh-100-sylykvn-ywtor8",
       "name": "מגב שיש 100% סיליקון",
       "name_translations": {},
       "description": "",
       "short_description": "מגב ידני קטן- מושלם לניקוי השיש במטבח או מקלחונים\r\nידית ארגונומית שומרת על מפרק כף היד ולא מחליקה מהיד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון הביתי לרמה מקצועית",
       "sku": null,
       "brand": null,
-      "price": 29.9,
+      "price": 39.9,
       "base_price": 49.9,
-      "sale_price": 29.9,
+      "sale_price": 39.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837760494-4ririe.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-shysh-100-sylykvn-0ze6g1",
+      "url": "https://streetstock.co.il/product/mgb-shysh-100-sylykvn-ywtor8",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:13:49.708Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "bf1eceab-2b50-4a80-8843-44491f8671a9",
@@ -14620,7 +14716,7 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:15:29.362Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "ef438e03-bca1-40d2-80a2-87d10abb0945",
@@ -14644,199 +14740,199 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:15:53.658Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "8996a790-3a07-4bf9-aaf2-6246bef10b28",
-      "slug": "mtata-ypny-30-sm-ktn-bmyvchd-n161sl",
+      "slug": "mtata-ypny-30-sm-ktn-bmyvchd-p5yzlq",
       "name": "מטאטא יפני - 30 סמ קטן במיוחד",
       "name_translations": {},
       "description": "",
       "short_description": "רב מג מטאטא יפני – מטאטא קסם, קטן במיוחד וקל משקל עם נוחות ממכרת\r\nקטן במיוחד ברוחב 30 ס\"מ\r\nמתאים במיוחד לניקוי של פרווה ושיער גם משטיחים ומחצלות\r\nכולל מערכת לכידת אבק פטנטית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 79.9,
-      "sale_price": 49.9,
+      "price": 69.9,
+      "base_price": 99.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757476-pcydpp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-n161sl",
+      "url": "https://streetstock.co.il/product/mtata-ypny-30-sm-ktn-bmyvchd-p5yzlq",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:14:13.955Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "77119a2e-8b6a-4b74-a69d-35ee4efbb5fb",
-      "slug": "mgb-mprky-sylykvn-mtkvvnn-30-sm-5qd53l",
+      "slug": "mgb-mprky-sylykvn-mtkvvnn-30-sm-nyagwz",
       "name": "מגב מפרקי סיליקון מתכוונן - 30 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 30 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 74.9,
-      "sale_price": 49.9,
+      "price": 69.9,
+      "base_price": 99.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757084-ozhy8e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-5qd53l",
+      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-30-sm-nyagwz",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:14:24.429Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "8f63f05a-2906-4485-b6aa-3b99e4ae5318",
-      "slug": "mtata-kl-mshkl-45-sm-rb-mgb-2-a3phq0",
+      "slug": "mtata-kl-mshkl-45-sm-rb-mgb-2-9bxd6q",
       "name": "מטאטא קל משקל - 45 סמ רב מגב 2",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מג גומי חדשני ועוצמתי קל משקל במיוחד\r\nמצוין לניקוי של פרווה, שיער ועוד\r\nסיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך\r\nמיוצר מיציקה אחת של 100% גומי טבעי עם 6 שורות סיבים צפופים\r\nמצוייד בסיבים אלכסוניים לניקוי לאורך קירות\r\nשומר על הרהיטים, לא שורט את הרצפה\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 74.9,
-      "sale_price": 49.9,
+      "price": 69.9,
+      "base_price": 99.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757084-vwhhik.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-a3phq0",
+      "url": "https://streetstock.co.il/product/mtata-kl-mshkl-45-sm-rb-mgb-2-9bxd6q",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:14:36.012Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "8ad3e0fd-aa60-4f85-8509-dcc73460ab05",
-      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-gcepcr",
+      "slug": "mnkh-chlvnvt-gbvhym-dvr-2-gadhjh",
       "name": "מנקה חלונות גבוהים - דור 2",
       "name_translations": {},
       "description": "",
       "short_description": "מנקה חלונות גבוהים במיוחד\r\nראש גמיש בעל הפעולה הכפולה מאפשר גריפה וקרצוף\r\nמגיע עם מטלית מיקרופייבר איכותית\r\nמקל טלסקופי שמסוגל להגיע לגובה 177 ס”מ\r\nידית קצרה נשלפת המאפשרת לנקות שמשות ברכב או משטחים נמוכים\r\nעשוי יציקה אחת 100% סיליקון\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 79.9,
-      "sale_price": 79.9,
+      "price": 99.9,
+      "base_price": 149.9,
+      "sale_price": 99.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837757084-im2ihd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-gcepcr",
+      "url": "https://streetstock.co.il/product/mnkh-chlvnvt-gbvhym-dvr-2-gadhjh",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:15:03.683Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "3dadce87-1a71-42d8-a9f5-aecf060047a7",
-      "slug": "mgb-mprky-sylykvn-mtkvvnn-45-sm-vugeqt",
+      "slug": "mgb-mprky-sylykvn-mtkvvnn-45-sm-jg27ll",
       "name": "מגב מפרקי סיליקון מתכוונן - 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 84.9,
-      "sale_price": 49.9,
+      "price": 79.9,
+      "base_price": 109.9,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837756932-mjr3z.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-vugeqt",
+      "url": "https://streetstock.co.il/product/mgb-mprky-sylykvn-mtkvvnn-45-sm-jg27ll",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:16:16.562Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "e64b014b-8945-4642-8813-b3fb395b0f52",
-      "slug": "mgb-klasy-mtaym-lkl-byt-60-sm-ae4xe9",
+      "slug": "mgb-klasy-mtaym-lkl-byt-60-sm-xvq3jz",
       "name": "מגב קלאסי - מתאים לכל בית 60 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 60 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% גומי איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 67.92,
-      "base_price": 84.9,
-      "sale_price": 67.92,
+      "price": 79.9,
+      "base_price": 99.9,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837756872-24ffd.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-ae4xe9",
+      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-60-sm-xvq3jz",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:12.638Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "5ec21208-cca4-4a54-86e6-4bce7ffca37a",
-      "slug": "mtata-sylykvn-mprky-45-sm-6f6jim",
+      "slug": "mtata-sylykvn-mprky-45-sm-zueprs",
       "name": "מטאטא סיליקון מפרקי - 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "מתאים לניקוי כל סוגי המשטחים רטובים או יבשים\r\n2 ב-1 גם מטאטא וגם מגב\r\nכולל מערכת לכידת אבק פטנטית\r\nמצוייד בסיבים אלכסוניים לניקוי לאורך קירות\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי עם 8 שורות סיבים צפופים\r\nמפרק מתכוונן לזווית גישה נוחה במיוחד\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 84.9,
-      "sale_price": 49.9,
+      "price": 79.9,
+      "base_price": 109.9,
+      "sale_price": 79.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837756877-ex7v5.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-6f6jim",
+      "url": "https://streetstock.co.il/product/mtata-sylykvn-mprky-45-sm-zueprs",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:16:34.466Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "7e131b22-54a7-420f-9916-778d95a2bec2",
-      "slug": "mtata-masyby-45-sm-rb-mgb-1-rej6sm",
+      "slug": "mtata-masyby-45-sm-rb-mgb-1-hj3rws",
       "name": "מטאטא מאסיבי - 45 סמ רב מגב 1",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מג גומי בעל הפעולה הכפולה: גם מטאטא וגם מגב\r\nמצוין לניקוי של פרווה, שיער ועוד\r\nסיבי גומי מייצרים חשמל סטטי ומקלים על איסוף הלכלוך\r\nמיוצר מיציקה אחת של 100% גומי טבעי עם 9 שורות סיבים צפופים\r\nשומר על הרהיטים, לא שורט את הרצפה\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 74.9,
-      "sale_price": 49.9,
+      "price": 69.9,
+      "base_price": 99.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837756804-h8x35g.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-rej6sm",
+      "url": "https://streetstock.co.il/product/mtata-masyby-45-sm-rb-mgb-1-hj3rws",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:17:32.598Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "ecbe4b56-d3a3-4273-829c-90f87a614bb8",
@@ -14860,127 +14956,127 @@
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:16:46.671Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "55765cdb-2ffa-4f0f-8f07-1554e5a80b80",
-      "slug": "mvpy-shmvpy-mvlty-mbrykn-46zgjh",
+      "slug": "mvpy-shmvpy-mvlty-mbrykn-904vqt",
       "name": "מופי שמופי - מולטי מבריקן",
       "name_translations": {},
       "description": "",
       "short_description": "2 ב 1 גם מבריקן וגם מגב במוצר אחד\r\nמתאים גם לגריפת מים וגם להברקה עם מטלית\r\nתוצאות גריפה מעולות גם בדחיפה וגם במשיכה של מים\r\nמבריק בקלות כל משטח\r\n100% סיליקון לא משאיר שריטות\r\nמגיע עם 2 מטליות מיקרופייבר איכותיות\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 134.9,
-      "sale_price": 79.9,
+      "price": 119.9,
+      "base_price": 149.9,
+      "sale_price": 119.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837754310-g5r4e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-46zgjh",
+      "url": "https://streetstock.co.il/product/mvpy-shmvpy-mvlty-mbrykn-904vqt",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:16:57.300Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "1dfd3aa7-60a8-41d2-8025-51601d3a2cb7",
-      "slug": "mbrykn-sylykvn-b0yfdz",
+      "slug": "mbrykn-sylykvn-ktel5e",
       "name": "מבריקן - סיליקון",
       "name_translations": {},
       "description": "",
       "short_description": "המופ הפטנטי מתגמש ומתכופף כדי שאתם לא תצטרכו\r\nמפרק ראש מסתובב 360°\r\nגוף עשוי יציקה אחת של 100% סיליקון\r\nמגיע עם 2 מטליות מיקרופייבר איכותיות במיוחד\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 79.9,
-      "base_price": 134.9,
-      "sale_price": 79.9,
+      "price": 119.9,
+      "base_price": 149.9,
+      "sale_price": 119.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837754042-2n5bj0e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mbrykn-sylykvn-b0yfdz",
+      "url": "https://streetstock.co.il/product/mbrykn-sylykvn-ktel5e",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:17:07.615Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "c995a1be-c654-42b5-904a-13ce04c264f8",
-      "slug": "mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-dr423k",
+      "slug": "mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-voyuwr",
       "name": "מגב קלאסי סיליקון - מתאים לכל בית 60 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 60 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 79.92,
-      "base_price": 99.9,
-      "sale_price": 79.92,
+      "price": 99.9,
+      "base_price": 129.9,
+      "sale_price": 99.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837754071-trbyks.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-dr423k",
+      "url": "https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-60-sm-voyuwr",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-13T06:17:12.693Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "8f2b88fd-696a-4573-87f0-31054aca27e4",
-      "slug": "mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-nld81t",
+      "slug": "mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-pn3srj",
       "name": "מגב קלאסי סיליקון - מתאים לכל בית 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% סיליקון איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 84.9,
-      "sale_price": 49.9,
+      "price": 69.9,
+      "base_price": 99.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837753963-ozbmyp.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-nld81t",
+      "url": "https://streetstock.co.il/product/mgb-klasy-sylykvn-mtaym-lkl-byt-45-sm-pn3srj",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:17:21.376Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "951b8473-8147-46bb-9a91-caeff8e36b48",
-      "slug": "mgb-klasy-mtaym-lkl-byt-45-sm-7f8omo",
+      "slug": "mgb-klasy-mtaym-lkl-byt-45-sm-kbxjo9",
       "name": "מגב קלאסי - מתאים לכל בית 45 סמ",
       "name_translations": {},
       "description": "",
       "short_description": "רב-מגב 45 ס”מ, נוח במיוחד ומתאים לכל סוגי המשטחים\r\nמפרק גמיש המוגן בפטנט לזווית גריפה מושלמת\r\nמיוצר מיציקה אחת של 100% גומי איכותי\r\nלא מתבלה גם בעבודה אינטנסיבית\r\nמשדרג את הניקיון בבית לרמה מקצועית\r\nמגיע עם מקל של חברת טירולר",
       "sku": null,
       "brand": null,
-      "price": 49.9,
-      "base_price": 74.9,
-      "sale_price": 49.9,
+      "price": 69.9,
+      "base_price": 99.9,
+      "sale_price": 69.9,
       "currency": "ILS",
       "images": [
         "https://streetstock.co.il/assets/product-1780837753954-kyr9u8.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-7f8omo",
+      "url": "https://streetstock.co.il/product/mgb-klasy-mtaym-lkl-byt-45-sm-kbxjo9",
       "categories": [
         "טירולר"
       ],
-      "updated_at": "2026-11-18T10:17:46.885Z"
+      "updated_at": "2026-11-27T06:57:50.612Z"
     },
     {
       "id": "e09ac29d-fd5c-4f4d-8436-2abaaaf55697",
