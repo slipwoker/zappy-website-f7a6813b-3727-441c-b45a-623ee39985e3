@@ -1,6 +1,6 @@
 {
   "@context": "https://schema.org",
-  "generated_at": "2026-11-27T07:27:30.326Z",
+  "generated_at": "2026-11-27T08:44:57.883Z",
   "base_url": "https://streetstock.co.il",
   "currency": "ILS",
   "count": 836,
@@ -2093,171 +2093,185 @@
     },
     {
       "id": "b769b3b6-db0f-4963-b0ba-1f1087236126",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-2st0io",
-      "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע אפור כהה",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy220x200-sm-tsba-apvr-h8tbix",
+      "name": "שמיכת חורף ממולאת לוסי זוגי220X200 ס\"מ צבע אפור ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 174.9,
+      "price": 139.9,
       "base_price": 349.9,
-      "sale_price": 174.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1791807742965-21q5og.webp"
+        "https://streetstock.co.il/assets/product-1795765796732-vb9r3g.webp",
+        "https://streetstock.co.il/assets/product-1795765775830-5w2ruh.webp",
+        "https://streetstock.co.il/assets/product-1795765785682-1gz9lg.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-apvr-khh-2st0io",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy220x200-sm-tsba-apvr-h8tbix",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.161Z"
+      "updated_at": "2026-11-27T07:50:23.795Z"
     },
     {
       "id": "9dbdaf35-144a-4fd7-af62-3bd818b1328f",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-zs1p6b",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-hztmj1",
       "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 174.9,
+      "price": 139.9,
       "base_price": 349.9,
-      "sale_price": 174.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124281899-7hfsog.webp"
+        "https://streetstock.co.il/assets/product-1795765854620-1du12h.webp",
+        "https://streetstock.co.il/assets/product-1795765844077-8cgqvs.webp",
+        "https://streetstock.co.il/assets/product-1795765864458-8nlxt.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-zs1p6b",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-lbn-hztmj1",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.156Z"
+      "updated_at": "2026-11-27T07:51:18.275Z"
     },
     {
       "id": "10a1426f-ee87-4378-a21f-49181953e9e7",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-6wti6x",
-      "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע מוקה",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy220x200-sm-tsba-shrh-7khak3",
+      "name": "שמיכת חורף ממולאת לוסי זוגי220X200 ס\"מ צבע סהרה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 174.9,
+      "price": 139.9,
       "base_price": 349.9,
-      "sale_price": 174.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124567912-97ezy.webp"
+        "https://streetstock.co.il/assets/product-1795765905002-h2w2u9.webp",
+        "https://streetstock.co.il/assets/product-1795765891275-s66c4.webp",
+        "https://streetstock.co.il/assets/product-1795765919528-4255snf.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-mvkh-6wti6x",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy220x200-sm-tsba-shrh-7khak3",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.182Z"
+      "updated_at": "2026-11-27T07:53:45.093Z"
     },
     {
       "id": "945dd682-e18d-4868-ab4a-aa902e1a0e54",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-apvr-khh-7uwf5c",
-      "name": "שמיכת חורף ממולאת לוסי יחיד\n150X200 ס\"מ צבע אפור כהה",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd150x200-sm-tsba-apvr-2xwbl8",
+      "name": "שמיכת חורף ממולאת לוסי יחיד150X200 ס\"מ צבע אפור ",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 149.9,
+      "price": 139.9,
       "base_price": 299.9,
-      "sale_price": 149.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124627789-mxghkj.webp"
+        "https://streetstock.co.il/assets/product-1795765836839-p16k7.webp",
+        "https://streetstock.co.il/assets/product-1795765815281-uxt71k.webp",
+        "https://streetstock.co.il/assets/product-1795765825859-h7yqtg.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-apvr-khh-7uwf5c",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd150x200-sm-tsba-apvr-2xwbl8",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.263Z"
+      "updated_at": "2026-11-27T07:50:50.206Z"
     },
     {
       "id": "e9a2be6a-0e52-43ea-8efd-07f7b51a8b7c",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-shchvr-qzt1ry",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-shchvr-zx2hje",
       "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע שחור",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 174.9,
+      "price": 139.9,
       "base_price": 349.9,
-      "sale_price": 174.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124587819-piw15.webp"
+        "https://streetstock.co.il/assets/product-1795766063868-qpm2b.webp",
+        "https://streetstock.co.il/assets/product-1795766039475-na292o.webp",
+        "https://streetstock.co.il/assets/product-1795766052885-edidhf.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-shchvr-qzt1ry",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-shchvr-zx2hje",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.186Z"
+      "updated_at": "2026-11-27T07:54:44.441Z"
     },
     {
       "id": "3d8e0aba-16d3-4ca0-8e96-3eb4ac852d18",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-kchvl-23e3jk",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-kchvl-sqf7v7",
       "name": "שמיכת חורף ממולאת לוסי זוגי\n220X200 ס\"מ צבע כחול",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 174.9,
+      "price": 139.9,
       "base_price": 349.9,
-      "sale_price": 174.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124646421-8bbcxg.webp"
+        "https://streetstock.co.il/assets/product-1795766123579-1k5vfi.webp",
+        "https://streetstock.co.il/assets/product-1795766098751-flm7v.webp",
+        "https://streetstock.co.il/assets/product-1795766110590-gp9pai.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-kchvl-23e3jk",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-zvgy-220x200-sm-tsba-kchvl-sqf7v7",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.188Z"
+      "updated_at": "2026-11-27T07:56:40.517Z"
     },
     {
       "id": "961ef85c-c391-430f-b942-9f00204907b6",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-qjvtc2",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-fn6l4o",
       "name": "שמיכת חורף ממולאת לוסי יחיד\n150X200 ס\"מ צבע לבן",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 149.9,
+      "price": 139.9,
       "base_price": 299.9,
-      "sale_price": 149.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124688660-4rntoh.webp"
+        "https://streetstock.co.il/assets/product-1795765880814-q8auxe.webp",
+        "https://streetstock.co.il/assets/product-1795765862529-7y6epe.webp",
+        "https://streetstock.co.il/assets/product-1795765890473-unmofg.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-qjvtc2",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-lbn-fn6l4o",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.184Z"
+      "updated_at": "2026-11-27T07:54:04.590Z"
     },
     {
       "id": "11a3d48f-754f-411a-84bf-ba408a5340ec",
@@ -2285,51 +2299,55 @@
     },
     {
       "id": "38188de2-ddd7-4e45-a9cc-7aeb6d09f734",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-shchvr-5yubw2",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-shchvr-qppv9l",
       "name": "שמיכת חורף ממולאת לוסי יחיד\n150X200 ס\"מ צבע שחור",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 149.9,
+      "price": 139.9,
       "base_price": 299.9,
-      "sale_price": 149.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124713532-t5af1.webp"
+        "https://streetstock.co.il/assets/product-1795766090366-glusyc.webp",
+        "https://streetstock.co.il/assets/product-1795766057990-cen9i.webp",
+        "https://streetstock.co.il/assets/product-1795766076640-imw8e.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-shchvr-5yubw2",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-shchvr-qppv9l",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.183Z"
+      "updated_at": "2026-11-27T07:55:08.346Z"
     },
     {
       "id": "7f62eb52-6062-4d90-b86d-1f62f85b1836",
-      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-mvkh-qkwmm1",
-      "name": "שמיכת חורף ממולאת לוסי יחיד\n150X200 ס\"מ צבע מוקה",
+      "slug": "shmykt-chvrp-mmvlat-lvsy-ychyd150x200-sm-tsba-shrh-m4wbzm",
+      "name": "שמיכת חורף ממולאת לוסי יחיד150X200 ס\"מ צבע סהרה",
       "name_translations": {},
       "description": "",
       "short_description": null,
       "sku": null,
       "brand": null,
-      "price": 149.9,
+      "price": 139.9,
       "base_price": 299.9,
-      "sale_price": 149.9,
+      "sale_price": 139.9,
       "currency": "ILS",
       "images": [
-        "https://streetstock.co.il/assets/product-1794124735207-ci4z6n.webp"
+        "https://streetstock.co.il/assets/product-1795766132575-gg07p6.webp",
+        "https://streetstock.co.il/assets/product-1795766122887-4qcx9b.webp",
+        "https://streetstock.co.il/assets/product-1795766149706-vllmvm.webp"
       ],
       "in_stock": true,
       "stock_status": "in_stock",
-      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd-150x200-sm-tsba-mvkh-qkwmm1",
+      "url": "https://streetstock.co.il/product/shmykt-chvrp-mmvlat-lvsy-ychyd150x200-sm-tsba-shrh-m4wbzm",
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:38.236Z"
+      "updated_at": "2026-11-27T07:56:21.570Z"
     },
     {
       "id": "b6f09831-c892-45ea-a80e-70ab8eb0c46e",
@@ -2353,7 +2371,7 @@
       "categories": [
         "שמיכות חורף"
       ],
-      "updated_at": "2026-11-13T06:15:39.609Z"
+      "updated_at": "2026-11-27T07:41:29.274Z"
     },
     {
       "id": "87499c69-a7cc-455d-8689-8428595f8252",
